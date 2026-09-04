@@ -1,9 +1,12 @@
 name: publish
 
+# Facts merged in git reach the site and the service. Nothing else writes to
+# production — prices come from oc-crawlers, and discovery arrives as a PR.
+
 on:
   push:
     branches: [main]
-    paths: ["products/**", "schemas/**"]
+    paths: ["products/**", "schemas/**", "src/**"]
   workflow_dispatch:
 
 concurrency:
@@ -11,7 +14,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  push-to-service:
+  publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -19,40 +22,66 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: "22.x" }
 
-      - name: Validate before publishing
-        run: npm run validate
+      # never publish something that does not validate
+      - name: Validate
+        run: npm run check && npm test
 
-      - name: Build the changed set
-        run: node src/changed-records.ts "${{ github.event.before }}" "${{ github.sha }}" > changed.jsonl
+      - name: Check out oc-web
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository_owner }}/oc-web
+          path: oc-web
+          token: ${{ secrets.REPO_TOKEN }}
 
-      - name: Send facts to the live service
+      - name: Build the site
+        working-directory: oc-web
+        env:
+          OC_DATA_PATH: ${{ github.workspace }}
+        run: npm ci && npm run build
+
+      # RSC payloads: 85,611 files and 737 MB of content nothing requests. HLD §11.1.
+      - name: Drop the RSC payloads
+        working-directory: oc-web
+        run: |
+          before=$(find out -type f | wc -l)
+          find out -name '*.txt' ! -name 'llms.txt' ! -name 'robots.txt' -delete
+          after=$(find out -type f | wc -l)
+          echo "removed $((before - after)) RSC files" >> $GITHUB_STEP_SUMMARY
+          echo "publishing $after files, $(du -sh out | cut -f1)" >> $GITHUB_STEP_SUMMARY
+
+      # sync, do not re-upload — only changed objects move
+      - name: Sync to R2
+        working-directory: oc-web
+        env:
+          RCLONE_CONFIG_R2_TYPE: s3
+          RCLONE_CONFIG_R2_PROVIDER: Cloudflare
+          RCLONE_CONFIG_R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          RCLONE_CONFIG_R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          RCLONE_CONFIG_R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
+        run: |
+          curl -fsSL https://rclone.org/install.sh | sudo bash
+          rclone sync out/ r2:oc-site/ --checksum --transfers 32 --stats-one-line
+
+      # send only what changed, not 24,000 records for a one-line fix
+      - name: Publish changed facts to the service
         env:
           INGEST_URL: ${{ secrets.INGEST_URL }}
           INGEST_TOKEN: ${{ secrets.INGEST_TOKEN }}
         run: |
-          test -s changed.jsonl || { echo "nothing changed"; exit 0; }
-          echo "publishing $(wc -l < changed.jsonl) records"
+          node src/changed-records.ts "${{ github.event.before }}" "${{ github.sha }}" > changed.jsonl || true
+          test -s changed.jsonl || { echo "no record changes"; exit 0; }
+          echo "publishing $(wc -l < changed.jsonl) records" >> $GITHUB_STEP_SUMMARY
           curl -sS --fail-with-body -X POST "$INGEST_URL" \
             -H "Authorization: Bearer $INGEST_TOKEN" \
             -H "Content-Type: application/x-ndjson" \
             --data-binary @changed.jsonl
 
-      - name: Publish the open dump
+      - name: Build the open dump and the gaps queue
         run: |
           mkdir -p dist
-          cat products/**/*.jsonl > dist/open-catalogue.jsonl
+          cat products/*/*.jsonl > dist/open-catalogue.jsonl
           gzip -kf dist/open-catalogue.jsonl
-          python3 - <<'EOF'
-          import json,glob,hashlib,datetime
-          recs=[json.loads(l) for f in glob.glob('products/**/*.jsonl',recursive=True) for l in open(f) if l.strip()]
-          meta={"generated":datetime.date.today().isoformat(),"records":len(recs),
-                "brands":len({r["brand"] for r in recs}),"license":"ODbL-1.0",
-                "entries":sum(1 for r in recs if r.get("status","entry")=="entry"),
-                "candidates":sum(1 for r in recs if r.get("status")=="candidate")}
-          json.dump(meta,open('dist/meta.json','w'),indent=1); print(meta)
-          EOF
+          node src/gaps.ts --write
 
       - uses: actions/upload-artifact@v4
-        with:
-          name: open-dump
-          path: dist/
+        with: { name: open-dump, path: dist/ }
