@@ -10,6 +10,8 @@ Usage:  python3 tools/import_amfi.py [--file /tmp/navall.txt]
 """
 import json, os, re, sys, urllib.request, hashlib, unicodedata
 from collections import Counter, defaultdict
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from fund_taxonomy import sub_category, asset_class, management_style, plan_of, theme
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 URL = "https://portal.amfiindia.com/spages/NAVAll.txt"
@@ -20,16 +22,6 @@ def norm(s):
     return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]", " ", s)).strip()
 def slugify(s): return re.sub(r"[^a-z0-9]+", "-", norm(s)).strip("-")
 def mint(brand, name, size=""): return "oc_" + hashlib.sha1(f"{norm(brand)}|{norm(name)}|{size}".encode()).hexdigest()[:12]
-
-# AMFI section header -> our category
-def categorise(section):
-    s = section.lower()
-    if "solution oriented" in s or "children" in s or "retirement" in s: return "Solution oriented", section
-    if "index funds" in s or "etf" in s or "gold" in s or "fund of funds" in s: return "Index / ETF", section
-    if "hybrid" in s or "balanced" in s: return "Hybrid", section
-    if "debt" in s or "income" in s or "liquid" in s or "gilt" in s or "money market" in s or "overnight" in s: return "Debt", section
-    if "equity" in s or "growth" in s or "elss" in s or "cap fund" in s: return "Equity", section
-    return "Other", section
 
 SCHEME_TYPE = re.compile(r"^(Open|Close|Interval)\s*Ended", re.I)
 SUBCAT = re.compile(r"\((.+?)\)\s*$")
@@ -58,15 +50,6 @@ def parse(text):
                      "section": section, "scheme_type": scheme_type, "subcat": subcat, "amc": amc})
     return rows
 
-PLAN_MAP = {"direct plan": "Direct", "regular plan": "Regular", "direct": "Direct", "regular": "Regular"}
-def plan_of(p, name):
-    v = PLAN_MAP.get(p.strip().lower())
-    if v: return v
-    n = name.lower()
-    if "direct" in n: return "Direct"
-    if "regular" in n: return "Regular"
-    return None
-
 def option_of(o):
     s = (o or "").lower()
     if "reinvest" in s: return "IDCW Reinvestment"
@@ -78,12 +61,16 @@ def option_of(o):
 
 def build(r):
     plan, option = plan_of(r["plan"], r["name"]), option_of(r["option"])
-    cat, section = categorise(r["section"])
+    sub = sub_category(r["subcat"] or r["section"], r["name"])
+    cat = asset_class(sub, r["name"]) or "Other"
+    style = management_style(sub, r["name"])
+    th = theme(sub, r["name"])
     amc = (r["amc"] or "").replace(" Mutual Fund", "").strip()
     if not amc or not r["name"]: return None
-    attrs = {"amc": amc, "plan": plan, "option": option,
-             "scheme_type": r["scheme_type"], "sub_category": r["subcat"],
-             "scheme_code": r["code"], "isin_growth": r["isin_g"], "isin_reinvest": r["isin_r"]}
+    attrs = {"amc": amc, "plan": plan, "option": option, "management_style": style,
+             "scheme_type": r["scheme_type"], "sub_category": sub,
+             "scheme_code": r["code"], "isin_growth": r["isin_g"], "isin_reinvest": r["isin_r"],
+             "theme": th, "fund_manager": None}
     attrs = {k: v for k, v in attrs.items() if v}
     status = "entry" if all(attrs.get(k) for k in ("amc", "plan", "option")) else "candidate"
     # full name including plan/option so each buyable line is distinct
@@ -129,7 +116,11 @@ def main():
         total += len(recs); entries += sum(1 for r in recs if r["status"] == "entry")
     print(f"wrote {total} schemes across {len(by_amc)} fund houses ({entries} entries, {total-entries} candidates)")
     print(f"dropped {dropped} (duplicates or unparseable)")
-    print("categories:", dict(Counter(r["category"] for v in by_amc.values() for r in v).most_common()))
+    allr = [r for v in by_amc.values() for r in v]
+    print("asset class:", dict(Counter(r["category"] for r in allr).most_common()))
+    print("style      :", dict(Counter(r["attributes"].get("management_style") for r in allr).most_common()))
+    print("no sub-cat :", sum(1 for r in allr if not r["attributes"].get("sub_category")))
+    print("top sub-categories:", dict(Counter(r["attributes"].get("sub_category") for r in allr if r["attributes"].get("sub_category")).most_common(10)))
     print("\nNAV was read and discarded — it is a price, and prices live in the service, not this repo.")
 
 if __name__ == "__main__":

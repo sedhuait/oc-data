@@ -1,0 +1,41 @@
+{
+ "hdfc-bank": {
+  "bytes": 822749,
+  "changed_on": "2026-09-04",
+  "first_seen": "2026-09-04",
+  "last_checked": "2026-09-04",
+  "sha": "de9054b59250e70c",
+  "text_chars": 245505,
+  "type": "pdf",
+  "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf",
+  "versions": [
+   "2026-09-04"
+  ]
+ },
+ "indusind-bank": {
+  "bytes": 579308,
+  "changed_on": "2026-09-04",
+  "first_seen": "2026-09-04",
+  "last_checked": "2026-09-04",
+  "sha": "c7b3d80bd6f130e3",
+  "text_chars": 372234,
+  "type": "html",
+  "url": "https://www.indusind.com/content/dam/indusind-platform/mitc.pdf",
+  "versions": [
+   "2026-09-04"
+  ]
+ },
+ "yes-bank": {
+  "bytes": 5640,
+  "changed_on": "2026-09-04",
+  "first_seen": "2026-09-04",
+  "last_checked": "2026-09-04",
+  "sha": "f67800d1b226087e",
+  "text_chars": 3123,
+  "type": "html",
+  "url": "https://www.yesbank.in/pdf/mitc_creditcards.pdf",
+  "versions": [
+   "2026-09-04"
+  ]
+ }
+}

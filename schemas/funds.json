@@ -4,28 +4,288 @@
   "note": "Facts only. NAV, AUM, returns and expense ratio move — they live in the service, not this repo. What is here is scheme identity: who runs it, what it invests in, which plan and option, and its ISIN.",
   "categories": {
     "_default": {
-      "required": ["amc", "plan", "option"],
-      "columns": ["amc", "plan", "option"],
-      "facets": ["brand", "plan", "option", "scheme_type"]
+      "required": [
+        "amc",
+        "plan",
+        "option"
+      ],
+      "columns": [
+        "sub_category",
+        "management_style",
+        "plan",
+        "option"
+      ],
+      "facets": [
+        "brand",
+        "sub_category",
+        "management_style",
+        "plan",
+        "option",
+        "scheme_type",
+        "theme"
+      ]
     },
-    "Equity": { "required": ["amc", "plan", "option"], "columns": ["amc", "sub_category", "plan", "option"], "facets": ["brand", "sub_category", "plan", "option"] },
-    "Debt": { "required": ["amc", "plan", "option"], "columns": ["amc", "sub_category", "plan", "option"], "facets": ["brand", "sub_category", "plan", "option"] },
-    "Hybrid": { "required": ["amc", "plan", "option"], "columns": ["amc", "sub_category", "plan", "option"], "facets": ["brand", "sub_category", "plan", "option"] },
-    "Index / ETF": { "required": ["amc", "plan", "option"], "columns": ["amc", "sub_category", "plan", "option"], "facets": ["brand", "sub_category", "plan", "option"] },
-    "Solution oriented": { "required": ["amc", "plan", "option"], "columns": ["amc", "sub_category", "plan", "option"], "facets": ["brand", "sub_category", "plan", "option"] },
-    "Other": { "required": ["amc", "plan", "option"], "columns": ["amc", "sub_category", "plan", "option"], "facets": ["brand", "sub_category", "plan", "option"] }
+    "Equity": {
+      "required": [
+        "amc",
+        "plan",
+        "option"
+      ],
+      "columns": [
+        "sub_category",
+        "management_style",
+        "plan",
+        "option"
+      ],
+      "facets": [
+        "brand",
+        "sub_category",
+        "management_style",
+        "plan",
+        "option",
+        "scheme_type",
+        "fund_manager",
+        "theme"
+      ]
+    },
+    "Debt": {
+      "required": [
+        "amc",
+        "plan",
+        "option"
+      ],
+      "columns": [
+        "sub_category",
+        "management_style",
+        "plan",
+        "option"
+      ],
+      "facets": [
+        "brand",
+        "sub_category",
+        "management_style",
+        "plan",
+        "option",
+        "scheme_type"
+      ]
+    },
+    "Hybrid": {
+      "required": [
+        "amc",
+        "plan",
+        "option"
+      ],
+      "columns": [
+        "sub_category",
+        "management_style",
+        "plan",
+        "option"
+      ],
+      "facets": [
+        "brand",
+        "sub_category",
+        "management_style",
+        "plan",
+        "option"
+      ]
+    },
+    "Commodity": {
+      "required": [
+        "amc",
+        "plan",
+        "option"
+      ],
+      "columns": [
+        "sub_category",
+        "management_style",
+        "plan",
+        "option"
+      ],
+      "facets": [
+        "brand",
+        "sub_category",
+        "management_style",
+        "plan",
+        "option"
+      ]
+    },
+    "Solution oriented": {
+      "required": [
+        "amc",
+        "plan",
+        "option"
+      ],
+      "columns": [
+        "sub_category",
+        "plan",
+        "option"
+      ],
+      "facets": [
+        "brand",
+        "sub_category",
+        "plan",
+        "option"
+      ]
+    },
+    "Other": {
+      "required": [
+        "amc",
+        "plan",
+        "option"
+      ],
+      "columns": [
+        "sub_category",
+        "management_style",
+        "plan",
+        "option"
+      ],
+      "facets": [
+        "brand",
+        "sub_category",
+        "management_style",
+        "plan",
+        "option",
+        "theme"
+      ]
+    }
   },
   "fields": {
-    "amc": { "type": "string", "label": "Fund house" },
-    "scheme_type": { "type": "enum", "values": ["Open ended", "Close ended", "Interval"], "label": "Scheme type" },
-    "sub_category": { "type": "string", "label": "SEBI sub-category", "note": "As printed by AMFI, e.g. 'Large Cap Fund', 'Liquid Fund'." },
-    "plan": { "type": "enum", "values": ["Direct", "Regular"], "label": "Plan" },
-    "option": { "type": "enum", "values": ["Growth", "IDCW", "IDCW Payout", "IDCW Reinvestment", "Bonus"], "label": "Option" },
-    "scheme_code": { "type": "string", "label": "AMFI scheme code" },
-    "isin_growth": { "type": "string", "label": "ISIN (growth / payout)" },
-    "isin_reinvest": { "type": "string", "label": "ISIN (reinvestment)" }
+    "amc": {
+      "type": "string",
+      "label": "Fund house"
+    },
+    "scheme_type": {
+      "type": "enum",
+      "values": [
+        "Open ended",
+        "Close ended",
+        "Interval"
+      ],
+      "label": "Scheme type"
+    },
+    "sub_category": {
+      "type": "enum",
+      "label": "SEBI sub-category",
+      "values": [
+        "Large Cap Fund",
+        "Large & Mid Cap Fund",
+        "Mid Cap Fund",
+        "Small Cap Fund",
+        "Multi Cap Fund",
+        "Flexi Cap Fund",
+        "Focused Fund",
+        "Dividend Yield Fund",
+        "Value / Contra Fund",
+        "Sectoral / Thematic",
+        "ELSS",
+        "Equity — other",
+        "Overnight Fund",
+        "Liquid Fund",
+        "Ultra Short Duration Fund",
+        "Low Duration Fund",
+        "Money Market Fund",
+        "Short Duration Fund",
+        "Medium Duration Fund",
+        "Medium to Long Duration Fund",
+        "Long Duration Fund",
+        "Dynamic Bond",
+        "Corporate Bond Fund",
+        "Credit Risk Fund",
+        "Banking and PSU Fund",
+        "Gilt Fund",
+        "10-year Constant Maturity Gilt",
+        "Floater Fund",
+        "Fixed Maturity Plan",
+        "Debt — other",
+        "Aggressive Hybrid Fund",
+        "Conservative Hybrid Fund",
+        "Balanced Hybrid Fund",
+        "Balanced Advantage / Dynamic Asset Allocation",
+        "Multi Asset Allocation",
+        "Arbitrage Fund",
+        "Equity Savings",
+        "Hybrid — other",
+        "Index Fund",
+        "Equity ETF",
+        "Debt ETF",
+        "Gold ETF",
+        "Silver ETF",
+        "ETF — other",
+        "Fund of Funds — domestic",
+        "Fund of Funds — overseas",
+        "Retirement Fund",
+        "Children's Fund",
+        "Life Cycle Fund"
+      ]
+    },
+    "plan": {
+      "type": "enum",
+      "values": [
+        "Direct",
+        "Regular"
+      ],
+      "label": "Plan"
+    },
+    "option": {
+      "type": "enum",
+      "values": [
+        "Growth",
+        "IDCW",
+        "IDCW Payout",
+        "IDCW Reinvestment",
+        "Bonus"
+      ],
+      "label": "Option"
+    },
+    "scheme_code": {
+      "type": "string",
+      "label": "AMFI scheme code"
+    },
+    "isin_growth": {
+      "type": "string",
+      "label": "ISIN (growth / payout)"
+    },
+    "isin_reinvest": {
+      "type": "string",
+      "label": "ISIN (reinvestment)"
+    },
+    "management_style": {
+      "type": "enum",
+      "values": [
+        "Active",
+        "Passive"
+      ],
+      "label": "Management style",
+      "note": "Passive = tracks an index, or is an ETF or a fund of funds over one. Derived from the SEBI sub-category and the scheme name; correct it by PR if wrong."
+    },
+    "fund_manager": {
+      "type": "string",
+      "label": "Fund manager",
+      "note": "NOT in AMFI's public file. Comes from each AMC's scheme information document. Empty on every record today — this is the biggest open gap in the funds dataset and a good first contribution."
+    },
+    "benchmark": {
+      "type": "string",
+      "label": "Benchmark index",
+      "note": "From the SID. Also unfilled today."
+    },
+    "launch_date": {
+      "type": "string",
+      "label": "Scheme launch date"
+    },
+    "theme": {
+      "type": "string",
+      "label": "Theme",
+      "note": "Only for sectoral and thematic schemes, parsed from the scheme name. Empty when the name doesn't state one — never inferred."
+    }
   },
-  "not_in_this_repo": ["nav", "aum", "returns", "expense_ratio", "exit_load", "riskometer"],
+  "not_in_this_repo": [
+    "nav",
+    "aum",
+    "returns",
+    "expense_ratio",
+    "exit_load",
+    "riskometer"
+  ],
   "sanity": {
     "isin": "^INF[A-Z0-9]{9}$",
     "note": "Riskometer changes monthly and exit load can be revised; both belong in the live layer."

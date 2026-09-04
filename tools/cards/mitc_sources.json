@@ -1,0 +1,21 @@
+{
+  "note": "Where each issuer publishes its Most Important Terms and Conditions. These are the authoritative source for every fee, cap and condition in products/cards/. If a number is not in one of these documents, it does not go in a record.",
+  "checked": "2026-09-04",
+  "issuers": [
+    { "issuer": "HDFC Bank", "slug": "hdfc-bank", "mitc": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf" },
+    { "issuer": "ICICI Bank", "slug": "icici-bank", "mitc": "https://www.icicibank.com/personal-banking/cards/credit-card/most-important-terms-and-conditions" },
+    { "issuer": "Axis Bank", "slug": "axis-bank", "mitc": "https://www.axisbank.com/docs/default-source/default-document-library/most-important-terms-and-conditions.pdf" },
+    { "issuer": "SBI Card", "slug": "sbi-card", "mitc": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/mitc/most-important-terms-and-conditions.pdf" },
+    { "issuer": "Kotak Mahindra Bank", "slug": "kotak-mahindra-bank", "mitc": "https://www.kotak.com/content/dam/Kotak/product_card/Credit-Card/mitc.pdf" },
+    { "issuer": "IDFC FIRST Bank", "slug": "idfc-first-bank", "mitc": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/credit-card/MITC.pdf" },
+    { "issuer": "IndusInd Bank", "slug": "indusind-bank", "mitc": "https://www.indusind.com/content/dam/indusind-platform/mitc.pdf" },
+    { "issuer": "American Express", "slug": "american-express", "mitc": "https://www.americanexpress.com/content/dam/amex/in/staticassets/pdf/mitc.pdf" },
+    { "issuer": "RBL Bank", "slug": "rbl-bank", "mitc": "https://www.rblbank.com/pdfs/CreditCard/MITC.pdf" },
+    { "issuer": "AU Small Finance Bank", "slug": "au-small-finance-bank", "mitc": "https://www.aubank.in/assets/pdf/credit-card-mitc.pdf" },
+    { "issuer": "Yes Bank", "slug": "yes-bank", "mitc": "https://www.yesbank.in/pdf/mitc_creditcards.pdf" },
+    { "issuer": "Federal Bank", "slug": "federal-bank", "mitc": "https://www.federalbank.co.in/documents/10180/45777/MITC.pdf" },
+    { "issuer": "BOB Financial", "slug": "bob-financial", "mitc": "https://www.bobfinancial.com/documents/MITC.pdf" },
+    { "issuer": "Standard Chartered", "slug": "standard-chartered", "mitc": "https://www.sc.com/in/credit-cards/mitc.pdf" },
+    { "issuer": "HSBC India", "slug": "hsbc-india", "mitc": "https://www.hsbc.co.in/content/dam/hsbc/in/docs/credit-cards/mitc.pdf" }
+  ]
+}
