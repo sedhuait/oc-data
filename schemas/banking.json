@@ -1,51 +1,283 @@
 {
   "domain": "banking",
   "label": "Banking & deposits",
-  "note": "A deposit product's identity and terms are facts. The interest rate is not — it changes monthly and belongs in the service, alongside a rate history. What lives here is what the product IS: who offers it, what type, tenure buckets, minimum, insurance cover, premature-withdrawal terms.",
+  "note": "A deposit product's identity and terms are facts. The interest rate is not — it changes monthly and belongs in the service, with a rate history. Debit cards live here too, as a category under the bank that issues them: nobody chooses a bank for its debit card, the card comes with the account, so it is modelled as an attachment to banking rather than a domain of its own.",
   "categories": {
     "Fixed deposits": {
-      "required": ["institution_type", "insured"],
-      "columns": ["institution_type", "tenure_min_days", "tenure_max_days", "insured"],
-      "facets": ["brand", "institution_type", "insured", "callable"]
+      "required": [
+        "institution_type",
+        "insured"
+      ],
+      "columns": [
+        "institution_type",
+        "tenure_min_days",
+        "tenure_max_days",
+        "insured"
+      ],
+      "facets": [
+        "brand",
+        "institution_type",
+        "insured",
+        "callable"
+      ]
     },
     "Savings accounts": {
-      "required": ["institution_type", "insured"],
-      "columns": ["institution_type", "min_balance_inr", "insured"],
-      "facets": ["brand", "institution_type", "insured", "min_balance_inr"]
+      "required": [
+        "institution_type",
+        "insured"
+      ],
+      "columns": [
+        "institution_type",
+        "min_balance_inr",
+        "insured"
+      ],
+      "facets": [
+        "brand",
+        "institution_type",
+        "insured",
+        "min_balance_inr"
+      ]
     },
     "Recurring deposits": {
-      "required": ["institution_type", "insured"],
-      "columns": ["institution_type", "tenure_min_days", "tenure_max_days", "insured"],
-      "facets": ["brand", "institution_type", "insured"]
+      "required": [
+        "institution_type",
+        "insured"
+      ],
+      "columns": [
+        "institution_type",
+        "tenure_min_days",
+        "tenure_max_days",
+        "insured"
+      ],
+      "facets": [
+        "brand",
+        "institution_type",
+        "insured"
+      ]
+    },
+    "Debit cards": {
+      "required": [
+        "institution_type",
+        "network",
+        "annual_fee_inr"
+      ],
+      "columns": [
+        "network",
+        "annual_fee_inr",
+        "atm_free_txns_month",
+        "lounge_domestic",
+        "forex_markup_pct"
+      ],
+      "facets": [
+        "brand",
+        "institution_type",
+        "network",
+        "annual_fee_inr",
+        "lounge_domestic",
+        "variant_tier"
+      ]
     }
   },
   "fields": {
     "institution_type": {
       "type": "enum",
-      "values": ["Public sector bank", "Private bank", "Small finance bank", "Payments bank", "Foreign bank", "NBFC", "Post Office", "Co-operative bank"],
+      "values": [
+        "Public sector bank",
+        "Private bank",
+        "Small finance bank",
+        "Payments bank",
+        "Foreign bank",
+        "NBFC",
+        "Post Office",
+        "Co-operative bank"
+      ],
       "label": "Institution type",
       "note": "Determines the risk and the insurance position. NBFC deposits are not DICGC insured."
     },
     "insured": {
       "type": "enum",
-      "values": ["DICGC up to ₹5 lakh", "Not DICGC insured", "Government backed"],
+      "values": [
+        "DICGC up to ₹5 lakh",
+        "Not DICGC insured",
+        "Government backed"
+      ],
       "label": "Deposit insurance",
       "note": "The single most material fact about a deposit and the one most often buried."
     },
-    "tenure_min_days": { "type": "integer", "min": 1, "max": 3660, "label": "Minimum tenure (days)" },
-    "tenure_max_days": { "type": "integer", "min": 1, "max": 3660, "label": "Maximum tenure (days)" },
-    "min_deposit_inr": { "type": "integer", "min": 1, "max": 10000000, "label": "Minimum deposit" },
-    "min_balance_inr": { "type": "integer", "min": 0, "max": 1000000, "label": "Minimum balance" },
-    "callable": { "type": "boolean", "label": "Premature withdrawal allowed" },
-    "premature_penalty": { "type": "string", "label": "Premature withdrawal penalty" },
-    "senior_benefit": { "type": "boolean", "label": "Higher rate for senior citizens" },
-    "compounding": { "type": "enum", "values": ["Monthly", "Quarterly", "Half-yearly", "Yearly", "At maturity", "Simple"], "label": "Compounding" },
-    "tax_saver": { "type": "boolean", "label": "80C tax-saving deposit" },
-    "auto_renew": { "type": "boolean", "label": "Auto-renewal available" }
+    "tenure_min_days": {
+      "type": "integer",
+      "min": 1,
+      "max": 3660,
+      "label": "Minimum tenure (days)"
+    },
+    "tenure_max_days": {
+      "type": "integer",
+      "min": 1,
+      "max": 3660,
+      "label": "Maximum tenure (days)"
+    },
+    "min_deposit_inr": {
+      "type": "integer",
+      "min": 1,
+      "max": 10000000,
+      "label": "Minimum deposit"
+    },
+    "min_balance_inr": {
+      "type": "integer",
+      "min": 0,
+      "max": 1000000,
+      "label": "Minimum balance"
+    },
+    "callable": {
+      "type": "boolean",
+      "label": "Premature withdrawal allowed"
+    },
+    "premature_penalty": {
+      "type": "string",
+      "label": "Premature withdrawal penalty"
+    },
+    "senior_benefit": {
+      "type": "boolean",
+      "label": "Higher rate for senior citizens"
+    },
+    "compounding": {
+      "type": "enum",
+      "values": [
+        "Monthly",
+        "Quarterly",
+        "Half-yearly",
+        "Yearly",
+        "At maturity",
+        "Simple"
+      ],
+      "label": "Compounding"
+    },
+    "tax_saver": {
+      "type": "boolean",
+      "label": "80C tax-saving deposit"
+    },
+    "auto_renew": {
+      "type": "boolean",
+      "label": "Auto-renewal available"
+    },
+    "network": {
+      "type": "enum",
+      "values": [
+        "Visa",
+        "Mastercard",
+        "RuPay",
+        "Diners Club"
+      ],
+      "label": "Network"
+    },
+    "variant_tier": {
+      "type": "string",
+      "label": "Variant",
+      "note": "Classic, Platinum, Signature, Infinite, Select, Business — the bank's own naming."
+    },
+    "annual_fee_inr": {
+      "type": "integer",
+      "min": 0,
+      "max": 20000,
+      "label": "Annual fee",
+      "note": "Charged whether or not the card is used. One of the two fees people never notice."
+    },
+    "issue_fee_inr": {
+      "type": "integer",
+      "min": 0,
+      "max": 20000,
+      "label": "Issue / replacement fee"
+    },
+    "atm_free_txns_month": {
+      "type": "integer",
+      "min": 0,
+      "max": 50,
+      "label": "Free ATM transactions per month",
+      "note": "RBI mandates a minimum; banks differ above it, and differ again between their own ATMs and others."
+    },
+    "atm_free_txns_other_bank": {
+      "type": "integer",
+      "min": 0,
+      "max": 50,
+      "label": "Free transactions at other banks' ATMs"
+    },
+    "atm_fee_beyond_free_inr": {
+      "type": "number",
+      "min": 0,
+      "max": 100,
+      "label": "Fee per transaction beyond the free limit",
+      "note": "The other fee people never notice. Small, frequent, and it adds up."
+    },
+    "atm_withdrawal_limit_inr": {
+      "type": "integer",
+      "min": 0,
+      "max": 1000000,
+      "label": "Daily ATM withdrawal limit"
+    },
+    "pos_limit_inr": {
+      "type": "integer",
+      "min": 0,
+      "max": 10000000,
+      "label": "Daily POS / online limit"
+    },
+    "forex_markup_pct": {
+      "type": "number",
+      "min": 0,
+      "max": 6,
+      "label": "Forex markup"
+    },
+    "lounge_domestic": {
+      "type": "integer",
+      "min": 0,
+      "max": 50,
+      "label": "Domestic lounge visits per year",
+      "note": "Several premium debit cards carry lounge access the holder never learns about."
+    },
+    "lounge_condition": {
+      "type": "string",
+      "label": "Lounge access condition"
+    },
+    "accident_cover_inr": {
+      "type": "integer",
+      "min": 0,
+      "max": 100000000,
+      "label": "Personal accident cover",
+      "note": "Bundled insurance that is rarely claimed because nobody knows it is there. Usually conditional on recent card usage — record the condition."
+    },
+    "accident_cover_condition": {
+      "type": "string",
+      "label": "Accident cover condition"
+    },
+    "purchase_protection_inr": {
+      "type": "integer",
+      "min": 0,
+      "max": 10000000,
+      "label": "Purchase protection"
+    },
+    "requires_account": {
+      "type": "boolean",
+      "label": "Requires an account with the bank"
+    },
+    "charges_url": {
+      "type": "string",
+      "label": "Schedule of charges",
+      "note": "The document every figure must trace to, exactly as MITC works for credit cards."
+    },
+    "charges_version": {
+      "type": "string",
+      "label": "Schedule of charges version"
+    }
   },
-  "not_in_this_repo": ["interest_rate", "senior_rate", "rate_history", "special_scheme_rate"],
+  "not_in_this_repo": [
+    "interest_rate",
+    "senior_rate",
+    "rate_history",
+    "special_scheme_rate",
+    "reward_rate_offers"
+  ],
   "sanity": {
     "insured_vs_type": "institution_type 'NBFC' must not claim DICGC cover",
-    "note": "Rates change monthly. If you find yourself wanting to add a rate field here, it belongs in the service."
+    "note": "Rates change monthly. If you find yourself wanting to add a rate field here, it belongs in the service.",
+    "debit_card_fees": "Every fee must trace to the bank's schedule of charges, not a marketing page."
   }
 }

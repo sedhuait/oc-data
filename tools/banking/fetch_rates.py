@@ -63,8 +63,10 @@ def main():
 
     changed, new, failed = [], [], []
     for s in SOURCES["banks"]:
-        slug, url = s["slug"], s.get("fd_rates") or s.get("savings")
+        which = os.environ.get("PAGE", "fd_rates")
+        slug, url = s["slug"], s.get(which) or s.get("fd_rates") or s.get("savings")
         if not url: continue
+        slug = f"{slug}-{which}" if which != "fd_rates" else slug
         d = os.path.join(STORE, slug); os.makedirs(d, exist_ok=True)
         try:
             body, ctype, status = fetch(url)
