@@ -1,0 +1,19 @@
+{
+  "name": "@opencatalogue/data",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "The fact layer of Open Catalogue — open product data under ODbL.",
+  "license": "MIT",
+  "engines": { "node": ">=22.6" },
+  "scripts": {
+    "check": "npm run format:check && npm run validate",
+    "validate": "node src/validate.ts",
+    "format": "node src/format.ts",
+    "format:check": "node src/format.ts --check",
+    "mint": "node src/mint-id.ts",
+    "test": "node --test src/*.test.ts",
+    "export": "node src/export-from-crawl.ts",
+    "diff": "node src/diff-summary.ts"
+  }
+}

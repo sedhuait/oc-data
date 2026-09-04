@@ -13,18 +13,21 @@ jobs:
       - uses: actions/checkout@v4
         with: { fetch-depth: 0 }
 
-      - uses: actions/setup-python@v5
-        with: { python-version: "3.12" }
+      - uses: actions/setup-node@v4
+        with: { node-version: "22.x" }
+
+      - name: Tests
+        run: npm test
 
       - name: Canonical format
-        run: python3 scripts/format.py --check
+        run: npm run format:check
 
       - name: Validate records
-        run: python3 scripts/validate.py
+        run: npm run validate
 
       - name: Summarise the change in plain English
         if: github.event_name == 'pull_request'
-        run: python3 scripts/diff_summary.py "${{ github.event.pull_request.base.sha }}" "${{ github.sha }}" >> $GITHUB_STEP_SUMMARY
+        run: node src/diff-summary.ts "${{ github.event.pull_request.base.sha }}" "${{ github.sha }}" >> $GITHUB_STEP_SUMMARY
 
       - name: Guard the identity fields
         if: github.event_name == 'pull_request'

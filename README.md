@@ -17,9 +17,14 @@ products/<domain>/<brand-slug>.jsonl   one JSON object per line, one file per br
 schemas/product.json                   the record shape every entry must match
 schemas/<domain>.json                  which facts each category needs, with units and ranges
 SCOPE.md                               what belongs here and what doesn't
-scripts/validate.py                    the tests CI runs on your PR
-scripts/format.py                      canonical formatting — run before you commit
+src/schema.ts                          the TypeScript types — one source of truth
+src/validate.ts                        the checks CI runs on your PR
+src/format.ts                          canonical formatting — run before you commit
+src/*.test.ts                          tests proving each check fires
+tools/                                 crawlers and importers (Python, not needed to contribute)
 ```
+
+TypeScript, no build step and no dependencies — Node 22.6+ runs `.ts` directly.
 
 A record looks like this:
 
@@ -40,7 +45,7 @@ Anything from a one-word typo fix to a new brand file is welcome.
 
 1. **Fix a fact.** Edit the line, add a source with today's date, open a PR.
 2. **Add a product.** Copy the shape above. Don't invent an `id` — run
-   `python3 scripts/mint_id.py "Brand" "Product name" "30 ml"`.
+   `npm run mint -- "Brand" "Product name" "30 ml"`.
 3. **Add ingredients.** The most valuable contribution we have. Most brands publish INCI
    as an image, so this needs a human. Type what's on the pack, in order, and link a
    photo or the product page in `sources`.
@@ -51,8 +56,9 @@ Anything from a one-word typo fix to a new brand file is welcome.
 Before you push:
 
 ```bash
-python3 scripts/format.py     # canonical order and shape
-python3 scripts/validate.py   # the same checks CI runs
+npm run format     # canonical order and shape
+npm run validate   # the same checks CI runs
+npm test           # or just: npm run check
 ```
 
 ### The rules that matter

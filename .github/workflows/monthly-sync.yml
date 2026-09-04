@@ -10,8 +10,8 @@ jobs:
     permissions: { contents: write, pull-requests: write }
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with: { python-version: "3.12" }
+      - uses: actions/setup-node@v4
+        with: { node-version: "22.x" }
 
       - name: Pull new facts discovered by the crawler and the extension
         env:
@@ -20,9 +20,9 @@ jobs:
         run: |
           curl -sS --fail-with-body "$EXPORT_URL/facts/pending" \
             -H "Authorization: Bearer $EXPORT_TOKEN" -o pending.jsonl
-          python3 scripts/merge_pending.py pending.jsonl
+          node src/merge-pending.ts pending.jsonl
 
-      - run: python3 scripts/format.py && python3 scripts/validate.py
+      - run: npm run format && npm run validate
 
       - name: Open the PR
         uses: peter-evans/create-pull-request@v6

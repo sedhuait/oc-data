@@ -16,14 +16,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with: { fetch-depth: 2 }
-      - uses: actions/setup-python@v5
-        with: { python-version: "3.12" }
+      - uses: actions/setup-node@v4
+        with: { node-version: "22.x" }
 
       - name: Validate before publishing
-        run: python3 scripts/validate.py
+        run: npm run validate
 
       - name: Build the changed set
-        run: python3 scripts/changed_records.py "${{ github.event.before }}" "${{ github.sha }}" > changed.jsonl
+        run: node src/changed-records.ts "${{ github.event.before }}" "${{ github.sha }}" > changed.jsonl
 
       - name: Send facts to the live service
         env:
