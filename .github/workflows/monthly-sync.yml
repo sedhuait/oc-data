@@ -1,0 +1,34 @@
+name: monthly-sync
+
+on:
+  schedule: [{ cron: "0 3 1 * *" }]   # 03:00 UTC on the 1st
+  workflow_dispatch:
+
+jobs:
+  bot-pr:
+    runs-on: ubuntu-latest
+    permissions: { contents: write, pull-requests: write }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+
+      - name: Pull new facts discovered by the crawler and the extension
+        env:
+          EXPORT_URL: ${{ secrets.EXPORT_URL }}
+          EXPORT_TOKEN: ${{ secrets.EXPORT_TOKEN }}
+        run: |
+          curl -sS --fail-with-body "$EXPORT_URL/facts/pending" \
+            -H "Authorization: Bearer $EXPORT_TOKEN" -o pending.jsonl
+          python3 scripts/merge_pending.py pending.jsonl
+
+      - run: python3 scripts/format.py && python3 scripts/validate.py
+
+      - name: Open the PR
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: bot/monthly-sync
+          title: "Monthly sync — new products, ingredients and corrections"
+          body-path: SYNC_NOTES.md
+          labels: bot-sync
+          delete-branch: true

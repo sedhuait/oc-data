@@ -1,0 +1,51 @@
+{
+  "domain": "appliances",
+  "label": "Appliances",
+  "categories": {
+    "Air conditioners": {
+      "required": ["capacity_ton", "star"],
+      "columns": ["star", "capacity_ton", "type", "iseer", "year"],
+      "facets": ["brand", "star", "capacity_ton", "type", "year"]
+    },
+    "Refrigerators": {
+      "required": ["capacity_l", "type"],
+      "columns": ["capacity_l", "type", "star", "year"],
+      "facets": ["brand", "star", "type", "capacity_l", "year"]
+    },
+    "Washing machines": {
+      "required": ["capacity_kg", "type"],
+      "columns": ["type", "capacity_kg", "star", "rpm"],
+      "facets": ["brand", "star", "type", "capacity_kg"]
+    },
+    "Televisions": {
+      "required": ["screen_in"],
+      "columns": ["screen_in", "resolution", "os", "year"],
+      "facets": ["brand", "screen_in", "resolution", "os", "year"]
+    },
+    "Microwave ovens": {
+      "required": ["capacity_l", "type"],
+      "columns": ["capacity_l", "type", "star"],
+      "facets": ["brand", "type", "capacity_l"]
+    }
+  },
+  "fields": {
+    "capacity_ton": { "type": "number", "min": 0.5, "max": 5, "unit": "ton", "label": "Capacity" },
+    "capacity_l":   { "type": "number", "min": 5, "max": 900, "unit": "L", "label": "Capacity" },
+    "capacity_kg":  { "type": "number", "min": 3, "max": 20, "unit": "kg", "label": "Capacity" },
+    "star":         { "type": "integer", "min": 1, "max": 5, "label": "BEE star rating" },
+    "rating_year":  { "type": "integer", "min": 2006, "max": 2035, "label": "Star rating year",
+                      "note": "BEE revises thresholds; a 5-star from 2018 is not a 5-star today. Star rating without its year is misleading." },
+    "year":         { "type": "integer", "min": 2005, "max": 2035, "label": "Model year" },
+    "iseer":        { "type": "number", "min": 2, "max": 7, "label": "ISEER" },
+    "type":         { "type": "string", "label": "Type" },
+    "rpm":          { "type": "integer", "min": 200, "max": 2000, "label": "Spin speed" },
+    "screen_in":    { "type": "number", "min": 10, "max": 120, "unit": "inch", "label": "Screen size" },
+    "resolution":   { "type": "enum", "values": ["HD", "Full HD", "Ultra HD (4K)", "8K"], "label": "Resolution" },
+    "os":           { "type": "string", "label": "Operating system" },
+    "noise_db":     { "type": "number", "min": 15, "max": 90, "label": "Noise (dB)" },
+    "warranty":     { "type": "string", "label": "Warranty" }
+  },
+  "sanity": {
+    "star_requires": "rating_year recommended; flag if star >= 4 and rating_year is null"
+  }
+}

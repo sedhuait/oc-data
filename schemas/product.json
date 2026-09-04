@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencatalogue.in/schemas/product.json",
+  "title": "Open Catalogue product record",
+  "type": "object",
+  "required": ["id", "name", "brand", "domain", "category", "sources"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^oc_[0-9a-f]{12}$",
+      "description": "Stable internal id. Never reused, never changed. Minted from brand+normalised name+size."
+    },
+    "slug": { "type": "string", "pattern": "^[a-z0-9-]{3,80}$" },
+    "name": { "type": "string", "minLength": 3, "maxLength": 200 },
+    "brand": { "type": "string", "minLength": 1, "maxLength": 80 },
+    "line": { "type": ["string", "null"], "description": "Product line/family id, e.g. ln_ab12cd34ef" },
+    "domain": { "enum": ["beauty", "grocery", "appliances", "phones", "cards", "banking", "funds", "insurance", "auto", "tools"] },
+    "category": { "type": "string", "minLength": 2, "maxLength": 60 },
+    "size": { "type": ["string", "null"], "pattern": "^[0-9.]+ ?(ml|g|kg|l|pcs)$" },
+    "identifiers": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "gtin": { "type": ["string", "null"], "pattern": "^[0-9]{8,14}$" },
+        "asin": { "type": ["string", "null"], "pattern": "^[A-Z0-9]{10}$" },
+        "fsn": { "type": ["string", "null"], "pattern": "^[A-Z0-9]{16}$" },
+        "ondc": { "type": ["string", "null"] },
+        "shopify_handle": { "type": ["string", "null"] }
+      }
+    },
+    "attributes": {
+      "type": "object",
+      "description": "Category-specific facts. Keys and units are declared in /schemas/<domain>.json.",
+      "additionalProperties": { "type": ["string", "number", "boolean", "array", "null"] }
+    },
+    "ingredients": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 2, "maxLength": 80 },
+      "maxItems": 120,
+      "description": "INCI or label order, as printed. Never reordered, never edited for tidiness."
+    },
+    "variants": {
+      "type": "array",
+      "maxItems": 60,
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "additionalProperties": false,
+        "properties": {
+          "name": { "type": "string" },
+          "sku": { "type": ["string", "null"] },
+          "gtin": { "type": ["string", "null"] },
+          "overrides": { "type": "object", "description": "Only the attributes this variant changes." }
+        }
+      }
+    },
+    "images": { "type": "array", "items": { "type": "string", "format": "uri" }, "maxItems": 6 },
+    "urls": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "brand": { "type": ["string", "null"], "format": "uri" },
+        "flipkart": { "type": ["string", "null"], "format": "uri" },
+        "amazon": { "type": ["string", "null"], "format": "uri" }
+      },
+      "description": "Canonical product pages. NO affiliate tags and NO prices in this repo."
+    },
+    "status": { "enum": ["entry", "candidate", "disputed", "discontinued"], "default": "entry" },
+    "confidence": { "enum": ["stated", "extracted", "verified"], "default": "extracted" },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["kind", "checked"],
+        "additionalProperties": false,
+        "properties": {
+          "kind": { "enum": ["brand-store", "brand-submitted", "marketplace-feed", "marketplace-api", "extension", "manual", "ocr"] },
+          "url": { "type": ["string", "null"] },
+          "checked": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+          "note": { "type": ["string", "null"], "maxLength": 200 }
+        }
+      }
+    },
+    "first_seen": { "type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "superseded_by": { "type": ["string", "null"], "pattern": "^oc_[0-9a-f]{12}$" }
+  }
+}

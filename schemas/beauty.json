@@ -1,0 +1,37 @@
+{
+  "domain": "beauty",
+  "label": "Beauty & personal care",
+  "categories": {
+    "_default": {
+      "required": ["size"],
+      "columns": ["size", "actives"],
+      "facets": ["brand", "actives", "flags", "size"]
+    },
+    "Sunscreen": {
+      "required": ["size", "spf"],
+      "columns": ["spf", "pa", "size", "skin"],
+      "facets": ["brand", "spf", "pa", "skin", "flags", "size"]
+    },
+    "Face serum":            { "required": ["size", "actives"], "columns": ["actives", "size", "skin"], "facets": ["brand", "actives", "skin", "flags", "size"] },
+    "Moisturiser":           { "required": ["size"], "columns": ["actives", "size", "skin"], "facets": ["brand", "actives", "skin", "flags", "size"] },
+    "Face wash & cleanser":  { "required": ["size"], "columns": ["actives", "size", "skin"], "facets": ["brand", "actives", "skin", "flags", "size"] },
+    "Shampoo":               { "required": ["size"], "columns": ["actives", "size"], "facets": ["brand", "actives", "flags", "size"] },
+    "Lipstick":              { "required": ["shade"], "columns": ["shade", "form"], "facets": ["brand", "form", "flags"] },
+    "Fragrance":             { "required": ["size"], "columns": ["size", "form"], "facets": ["brand", "size"] }
+  },
+  "fields": {
+    "size":     { "type": "quantity", "units": ["ml", "g"], "label": "Size" },
+    "spf":      { "type": "integer", "min": 6, "max": 110, "label": "SPF" },
+    "pa":       { "type": "enum", "values": ["PA+", "PA++", "PA+++", "PA++++"], "label": "PA rating" },
+    "actives":  { "type": "list", "label": "Key actives", "vocabulary": "actives.txt" },
+    "skin":     { "type": "list", "values": ["Oily", "Dry", "Combination", "Sensitive", "Acne-prone", "Normal", "All skin types"], "label": "Skin type" },
+    "flags":    { "type": "list", "values": ["Fragrance-free", "Paraben-free", "Sulfate-free", "Vegan", "Cruelty-free", "Non-comedogenic", "Silicone-free", "Mineral oil-free", "Alcohol-free", "Dermatologically tested"], "label": "Claims" },
+    "form":     { "type": "string", "label": "Form" },
+    "shade":    { "type": "string", "label": "Shade" },
+    "finish":   { "type": "enum", "values": ["Matte", "Satin", "Glossy", "Dewy"], "label": "Finish" }
+  },
+  "sanity": {
+    "size": { "ml": [1, 5000], "g": [1, 5000] },
+    "ingredients_min_for_verified": 5
+  }
+}

@@ -1,0 +1,58 @@
+name: publish
+
+on:
+  push:
+    branches: [main]
+    paths: ["products/**", "schemas/**"]
+  workflow_dispatch:
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  push-to-service:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 2 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+
+      - name: Validate before publishing
+        run: python3 scripts/validate.py
+
+      - name: Build the changed set
+        run: python3 scripts/changed_records.py "${{ github.event.before }}" "${{ github.sha }}" > changed.jsonl
+
+      - name: Send facts to the live service
+        env:
+          INGEST_URL: ${{ secrets.INGEST_URL }}
+          INGEST_TOKEN: ${{ secrets.INGEST_TOKEN }}
+        run: |
+          test -s changed.jsonl || { echo "nothing changed"; exit 0; }
+          echo "publishing $(wc -l < changed.jsonl) records"
+          curl -sS --fail-with-body -X POST "$INGEST_URL" \
+            -H "Authorization: Bearer $INGEST_TOKEN" \
+            -H "Content-Type: application/x-ndjson" \
+            --data-binary @changed.jsonl
+
+      - name: Publish the open dump
+        run: |
+          mkdir -p dist
+          cat products/**/*.jsonl > dist/open-catalogue.jsonl
+          gzip -kf dist/open-catalogue.jsonl
+          python3 - <<'EOF'
+          import json,glob,hashlib,datetime
+          recs=[json.loads(l) for f in glob.glob('products/**/*.jsonl',recursive=True) for l in open(f) if l.strip()]
+          meta={"generated":datetime.date.today().isoformat(),"records":len(recs),
+                "brands":len({r["brand"] for r in recs}),"license":"ODbL-1.0",
+                "entries":sum(1 for r in recs if r.get("status","entry")=="entry"),
+                "candidates":sum(1 for r in recs if r.get("status")=="candidate")}
+          json.dump(meta,open('dist/meta.json','w'),indent=1); print(meta)
+          EOF
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: open-dump
+          path: dist/

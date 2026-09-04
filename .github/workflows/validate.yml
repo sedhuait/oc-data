@@ -1,0 +1,37 @@
+name: validate
+
+on:
+  pull_request:
+    paths: ["products/**", "schemas/**", "scripts/**"]
+  push:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+
+      - name: Canonical format
+        run: python3 scripts/format.py --check
+
+      - name: Validate records
+        run: python3 scripts/validate.py
+
+      - name: Summarise the change in plain English
+        if: github.event_name == 'pull_request'
+        run: python3 scripts/diff_summary.py "${{ github.event.pull_request.base.sha }}" "${{ github.sha }}" >> $GITHUB_STEP_SUMMARY
+
+      - name: Guard the identity fields
+        if: github.event_name == 'pull_request'
+        run: |
+          # changing an existing id, or removing a fact, needs a human. Flag it.
+          git diff "${{ github.event.pull_request.base.sha }}" -- products/ \
+            | grep -E '^-.*"(id|gtin|ingredients)"' && {
+              echo "::warning::This PR changes an id, a GTIN or an ingredient list. Needs maintainer review."
+              echo "needs-review=true" >> $GITHUB_OUTPUT
+            } || echo "no identity fields removed"
