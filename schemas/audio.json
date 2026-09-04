@@ -1,0 +1,53 @@
+{
+  "domain": "audio",
+  "label": "Headphones & earphones",
+  "note": "This category passes or fails per product, not per category. A branded pair with published driver size, codec support and battery figures has a real fact sheet. The sub-₹2,000 commodity flood does not — its 'specs' are marketing claims. The required fields below do that filtering automatically, without anyone curating a brand list.",
+  "categories": {
+    "True wireless earbuds": {
+      "required": ["driver_mm", "battery_buds_hr", "bluetooth"],
+      "columns": ["driver_mm", "anc", "codecs", "battery_buds_hr", "battery_case_hr", "bluetooth"],
+      "facets": ["brand", "anc", "codecs", "ip_rating", "bluetooth", "multipoint"]
+    },
+    "Wireless headphones": {
+      "required": ["driver_mm", "battery_hr", "bluetooth"],
+      "columns": ["driver_mm", "anc", "codecs", "battery_hr", "weight_g", "wired_fallback"],
+      "facets": ["brand", "anc", "codecs", "bluetooth", "multipoint", "wired_fallback"]
+    },
+    "Wired earphones": {
+      "required": ["driver_mm", "connector"],
+      "columns": ["driver_mm", "connector", "impedance_ohm", "mic"],
+      "facets": ["brand", "connector", "mic"]
+    },
+    "Neckband earphones": {
+      "required": ["driver_mm", "battery_hr", "bluetooth"],
+      "columns": ["driver_mm", "anc", "battery_hr", "bluetooth"],
+      "facets": ["brand", "anc", "bluetooth", "ip_rating"]
+    }
+  },
+  "fields": {
+    "driver_mm": { "type": "number", "min": 3, "max": 120, "unit": "mm", "label": "Driver size" },
+    "driver_type": { "type": "enum", "values": ["Dynamic", "Balanced armature", "Planar magnetic", "Hybrid"], "label": "Driver type" },
+    "anc": { "type": "enum", "values": ["None", "Passive only", "ANC", "Hybrid ANC", "Adaptive ANC"], "label": "Noise cancellation", "note": "'Environmental noise cancellation' on a listing usually means call-side ENC, not ANC for the listener. They are different things and are routinely conflated." },
+    "enc_calls": { "type": "boolean", "label": "Call noise cancellation (ENC)" },
+    "codecs": { "type": "list", "values": ["SBC", "AAC", "aptX", "aptX HD", "aptX Adaptive", "aptX Lossless", "LDAC", "LHDC", "LC3"], "label": "Bluetooth codecs", "note": "The fact enthusiasts want and listings bury. LDAC or aptX support decides whether a high-bitrate source is worth anything." },
+    "bluetooth": { "type": "enum", "values": ["4.0", "4.1", "4.2", "5.0", "5.1", "5.2", "5.3", "5.4", "6.0"], "label": "Bluetooth version" },
+    "multipoint": { "type": "boolean", "label": "Multipoint pairing" },
+    "battery_hr": { "type": "number", "min": 1, "max": 200, "unit": "hr", "label": "Battery life" },
+    "battery_buds_hr": { "type": "number", "min": 1, "max": 60, "unit": "hr", "label": "Battery — buds" },
+    "battery_case_hr": { "type": "number", "min": 1, "max": 200, "unit": "hr", "label": "Battery — with case" },
+    "fast_charge": { "type": "string", "label": "Fast charge claim" },
+    "ip_rating": { "type": "enum", "values": ["None", "IPX4", "IPX5", "IPX6", "IPX7", "IP54", "IP55", "IP57", "IP67", "IP68"], "label": "Water resistance" },
+    "connector": { "type": "enum", "values": ["3.5 mm", "USB-C", "Lightning", "6.35 mm", "Dual 3.5 mm"], "label": "Connector" },
+    "impedance_ohm": { "type": "number", "min": 4, "max": 600, "unit": "Ω", "label": "Impedance" },
+    "frequency_response": { "type": "string", "label": "Frequency response" },
+    "mic": { "type": "boolean", "label": "Microphone" },
+    "wired_fallback": { "type": "boolean", "label": "Works wired when the battery dies" },
+    "weight_g": { "type": "number", "min": 2, "max": 800, "unit": "g", "label": "Weight" },
+    "year": { "type": "integer", "min": 2015, "max": 2035, "label": "Model year" }
+  },
+  "not_in_this_repo": ["price", "in_stock", "rating", "sound_quality", "bass_level", "best_for"],
+  "sanity": {
+    "note": "Never record a claim that cannot be checked against a published spec. 'Deep bass', 'studio sound' and 'crystal clear calls' are not facts and have no field here.",
+    "battery": "Battery figures are the maker's claim at their own volume and codec. Record as stated; do not present as measured."
+  }
+}

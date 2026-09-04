@@ -3,35 +3,253 @@
   "label": "Beauty & personal care",
   "categories": {
     "_default": {
-      "required": ["size"],
-      "columns": ["size", "actives"],
-      "facets": ["brand", "actives", "flags", "size"]
+      "required": [
+        "size"
+      ],
+      "columns": [
+        "size",
+        "actives"
+      ],
+      "facets": [
+        "brand",
+        "actives",
+        "flags",
+        "size"
+      ]
     },
     "Sunscreen": {
-      "required": ["size", "spf"],
-      "columns": ["spf", "pa", "size", "skin"],
-      "facets": ["brand", "spf", "pa", "skin", "flags", "size"]
+      "required": [
+        "size",
+        "spf"
+      ],
+      "columns": [
+        "spf",
+        "pa",
+        "size",
+        "skin"
+      ],
+      "facets": [
+        "brand",
+        "spf",
+        "pa",
+        "skin",
+        "flags",
+        "size"
+      ]
     },
-    "Face serum":            { "required": ["size", "actives"], "columns": ["actives", "size", "skin"], "facets": ["brand", "actives", "skin", "flags", "size"] },
-    "Moisturiser":           { "required": ["size"], "columns": ["actives", "size", "skin"], "facets": ["brand", "actives", "skin", "flags", "size"] },
-    "Face wash & cleanser":  { "required": ["size"], "columns": ["actives", "size", "skin"], "facets": ["brand", "actives", "skin", "flags", "size"] },
-    "Shampoo":               { "required": ["size"], "columns": ["actives", "size"], "facets": ["brand", "actives", "flags", "size"] },
-    "Lipstick":              { "required": ["shade"], "columns": ["shade", "form"], "facets": ["brand", "form", "flags"] },
-    "Fragrance":             { "required": ["size"], "columns": ["size", "form"], "facets": ["brand", "size"] }
+    "Face serum": {
+      "required": [
+        "size",
+        "actives"
+      ],
+      "columns": [
+        "actives",
+        "size",
+        "skin"
+      ],
+      "facets": [
+        "brand",
+        "actives",
+        "skin",
+        "flags",
+        "size"
+      ]
+    },
+    "Moisturiser": {
+      "required": [
+        "size"
+      ],
+      "columns": [
+        "actives",
+        "size",
+        "skin"
+      ],
+      "facets": [
+        "brand",
+        "actives",
+        "skin",
+        "flags",
+        "size"
+      ]
+    },
+    "Face wash & cleanser": {
+      "required": [
+        "size"
+      ],
+      "columns": [
+        "actives",
+        "size",
+        "skin"
+      ],
+      "facets": [
+        "brand",
+        "actives",
+        "skin",
+        "flags",
+        "size"
+      ]
+    },
+    "Shampoo": {
+      "required": [
+        "size"
+      ],
+      "columns": [
+        "actives",
+        "size"
+      ],
+      "facets": [
+        "brand",
+        "actives",
+        "flags",
+        "size"
+      ]
+    },
+    "Lipstick": {
+      "required": [
+        "shade"
+      ],
+      "columns": [
+        "shade",
+        "form"
+      ],
+      "facets": [
+        "brand",
+        "form",
+        "flags"
+      ]
+    },
+    "Fragrance": {
+      "required": [
+        "size"
+      ],
+      "columns": [
+        "size",
+        "form"
+      ],
+      "facets": [
+        "brand",
+        "size"
+      ]
+    },
+    "Beauty (Open Beauty Facts)": {
+      "required": [
+        "quantity"
+      ],
+      "columns": [
+        "quantity",
+        "ingredients_order"
+      ],
+      "facets": [
+        "brand",
+        "quantity"
+      ],
+      "note": "Imported from Open Beauty Facts under ODbL. Crowd-sourced from pack scans, so the fact sheet is an ingredient list and a pack size rather than the derived attributes we extract from brand storefronts."
+    }
   },
   "fields": {
-    "size":     { "type": "quantity", "units": ["ml", "g"], "label": "Size" },
-    "spf":      { "type": "integer", "min": 6, "max": 110, "label": "SPF" },
-    "pa":       { "type": "enum", "values": ["PA+", "PA++", "PA+++", "PA++++"], "label": "PA rating" },
-    "actives":  { "type": "list", "label": "Key actives", "vocabulary": "actives.txt" },
-    "skin":     { "type": "list", "values": ["Oily", "Dry", "Combination", "Sensitive", "Acne-prone", "Normal", "All skin types"], "label": "Skin type" },
-    "flags":    { "type": "list", "values": ["Fragrance-free", "Paraben-free", "Sulfate-free", "Vegan", "Cruelty-free", "Non-comedogenic", "Silicone-free", "Mineral oil-free", "Alcohol-free", "Dermatologically tested"], "label": "Claims" },
-    "form":     { "type": "string", "label": "Form" },
-    "shade":    { "type": "string", "label": "Shade" },
-    "finish":   { "type": "enum", "values": ["Matte", "Satin", "Glossy", "Dewy"], "label": "Finish" }
+    "size": {
+      "type": "quantity",
+      "units": [
+        "ml",
+        "g"
+      ],
+      "label": "Size"
+    },
+    "spf": {
+      "type": "integer",
+      "min": 6,
+      "max": 110,
+      "label": "SPF"
+    },
+    "pa": {
+      "type": "enum",
+      "values": [
+        "PA+",
+        "PA++",
+        "PA+++",
+        "PA++++"
+      ],
+      "label": "PA rating"
+    },
+    "actives": {
+      "type": "list",
+      "label": "Key actives",
+      "vocabulary": "actives.txt"
+    },
+    "skin": {
+      "type": "list",
+      "values": [
+        "Oily",
+        "Dry",
+        "Combination",
+        "Sensitive",
+        "Acne-prone",
+        "Normal",
+        "All skin types"
+      ],
+      "label": "Skin type"
+    },
+    "flags": {
+      "type": "list",
+      "values": [
+        "Fragrance-free",
+        "Paraben-free",
+        "Sulfate-free",
+        "Vegan",
+        "Cruelty-free",
+        "Non-comedogenic",
+        "Silicone-free",
+        "Mineral oil-free",
+        "Alcohol-free",
+        "Dermatologically tested"
+      ],
+      "label": "Claims"
+    },
+    "form": {
+      "type": "string",
+      "label": "Form"
+    },
+    "shade": {
+      "type": "string",
+      "label": "Shade"
+    },
+    "finish": {
+      "type": "enum",
+      "values": [
+        "Matte",
+        "Satin",
+        "Glossy",
+        "Dewy"
+      ],
+      "label": "Finish"
+    },
+    "quantity": {
+      "type": "string",
+      "label": "Net quantity",
+      "note": "As printed on the pack. Kept as text because packs say '2 x 75 g', and that is information."
+    },
+    "ingredients_order": {
+      "type": "boolean",
+      "label": "Ingredients recorded in declared order",
+      "note": "INCI order is the information — an ingredient list must never be sorted or deduplicated."
+    },
+    "serving_size": {
+      "type": "string",
+      "label": "Serving size",
+      "note": "Present on some Open Beauty Facts records; kept as stated."
+    }
   },
   "sanity": {
-    "size": { "ml": [1, 5000], "g": [1, 5000] },
+    "size": {
+      "ml": [
+        1,
+        5000
+      ],
+      "g": [
+        1,
+        5000
+      ]
+    },
     "ingredients_min_for_verified": 5
   }
 }

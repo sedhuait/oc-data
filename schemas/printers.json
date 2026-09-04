@@ -1,0 +1,41 @@
+{
+  "domain": "printers",
+  "label": "Printers",
+  "note": "The purchase price of a printer is the least important number about it. Cost per page — cartridge model, yield, and what a replacement costs — decides what the machine actually costs to own, and no listing shows it. That is the whole reason this category is worth recording.",
+  "categories": {
+    "Printers": {
+      "required": ["print_tech", "functions"],
+      "columns": ["print_tech", "functions", "colour", "duplex", "ppm_black", "cartridge_model"],
+      "facets": ["brand", "print_tech", "functions", "colour", "duplex", "connectivity"]
+    },
+    "Printer supplies": {
+      "required": ["cartridge_model", "page_yield"],
+      "columns": ["cartridge_model", "page_yield", "colour", "fits_models"],
+      "facets": ["brand", "colour"]
+    }
+  },
+  "fields": {
+    "print_tech": { "type": "enum", "values": ["Inkjet", "Ink tank", "Laser", "LED", "Thermal", "Dot matrix"], "label": "Technology", "note": "Ink tank is the material distinction in India — refillable bottles instead of cartridges, and roughly a tenth of the running cost." },
+    "functions": { "type": "enum", "values": ["Print only", "Print, scan, copy", "Print, scan, copy, fax"], "label": "Functions" },
+    "colour": { "type": "enum", "values": ["Colour", "Monochrome"], "label": "Colour" },
+    "duplex": { "type": "enum", "values": ["None", "Manual", "Automatic"], "label": "Two-sided printing" },
+    "ppm_black": { "type": "number", "min": 1, "max": 100, "label": "Pages per minute (black)" },
+    "ppm_colour": { "type": "number", "min": 0, "max": 100, "label": "Pages per minute (colour)" },
+    "connectivity": { "type": "list", "values": ["USB", "Wi-Fi", "Wi-Fi Direct", "Ethernet", "Bluetooth", "AirPrint", "Mopria"], "label": "Connectivity" },
+    "adf": { "type": "boolean", "label": "Automatic document feeder" },
+    "paper_sizes": { "type": "list", "label": "Paper sizes" },
+    "monthly_duty_cycle": { "type": "integer", "min": 100, "max": 500000, "label": "Monthly duty cycle" },
+
+    "cartridge_model": { "type": "list", "label": "Cartridge or bottle model", "note": "The single most useful fact in this category. It is what you will buy for years, and it is almost never on the product listing." },
+    "page_yield": { "type": "integer", "min": 50, "max": 20000, "label": "Page yield", "note": "Pages per cartridge or bottle, at the ISO standard coverage the maker quotes." },
+    "fits_models": { "type": "list", "label": "Fits printer models" },
+    "cost_per_page_paise": { "type": "number", "min": 1, "max": 5000, "label": "Cost per page (paise)", "note": "Derived in the service from the current supply price and page_yield — NOT stored here, because the supply price moves. Declared so the field name is fixed." },
+
+    "year": { "type": "integer", "min": 2010, "max": 2035, "label": "Model year" },
+    "discontinued": { "type": "boolean", "label": "Discontinued", "note": "Matters more here than anywhere else: a printer whose cartridge is out of production is scrap." }
+  },
+  "not_in_this_repo": ["price", "in_stock", "cost_per_page_paise", "rating"],
+  "sanity": {
+    "note": "A printer record without cartridge_model is a candidate, not an entry. Without it the record cannot answer the only question that matters."
+  }
+}

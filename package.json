@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "The fact layer of Open Catalogue — open product data under ODbL.",
+  "description": "The fact layer of Open Catalogue \u2014 open product data under ODbL.",
   "license": "MIT",
-  "engines": { "node": ">=22.6" },
+  "engines": {
+    "node": ">=22.6"
+  },
   "scripts": {
     "check": "npm run format:check && npm run validate",
     "validate": "node src/validate.ts",
@@ -14,6 +16,7 @@
     "mint": "node src/mint-id.ts",
     "test": "node --test src/*.test.ts",
     "export": "node src/export-from-crawl.ts",
-    "diff": "node src/diff-summary.ts"
+    "diff": "node src/diff-summary.ts",
+    "gaps": "node src/gaps.ts"
   }
 }

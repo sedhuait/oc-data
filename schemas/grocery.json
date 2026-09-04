@@ -1,0 +1,57 @@
+{
+  "domain": "grocery",
+  "label": "Food & grocery",
+  "note": "The facts that matter on a packet are on the packet, and nowhere else a shopper can search. Ingredients in declared order, nutrition per 100 g, additives, allergens, veg or non-veg. Open Food Facts already holds much of this for India under ODbL — this schema is shaped to receive it without loss.",
+  "categories": {
+    "_default": {
+      "required": ["quantity"],
+      "columns": ["quantity", "veg", "energy_kcal_100g"],
+      "facets": ["brand", "veg", "nova_group", "palm_oil"]
+    },
+    "Biscuits & snacks": {
+      "required": ["quantity"],
+      "columns": ["quantity", "energy_kcal_100g", "sugars_100g", "fat_100g", "sodium_100g"],
+      "facets": ["brand", "veg", "nova_group", "palm_oil", "sugars_100g"]
+    },
+    "Dairy": { "required": ["quantity"], "columns": ["quantity", "energy_kcal_100g", "proteins_100g", "fat_100g"], "facets": ["brand", "veg", "nova_group"] },
+    "Beverages": { "required": ["quantity"], "columns": ["quantity", "energy_kcal_100g", "sugars_100g", "caffeine"], "facets": ["brand", "veg", "nova_group", "sugars_100g"] },
+    "Staples & grains": { "required": ["quantity"], "columns": ["quantity", "proteins_100g", "energy_kcal_100g"], "facets": ["brand", "veg", "organic"] },
+    "Oils & ghee": { "required": ["quantity"], "columns": ["quantity", "fat_100g", "saturated_fat_100g"], "facets": ["brand", "veg", "palm_oil"] },
+    "Instant & ready to eat": { "required": ["quantity"], "columns": ["quantity", "energy_kcal_100g", "sodium_100g", "palm_oil"], "facets": ["brand", "veg", "nova_group", "palm_oil"] },
+    "Baby food": { "required": ["quantity"], "columns": ["quantity", "energy_kcal_100g", "proteins_100g", "sugars_100g"], "facets": ["brand", "veg", "nova_group"] },
+    "Spices & condiments": { "required": ["quantity"], "columns": ["quantity", "sodium_100g"], "facets": ["brand", "veg", "organic"] },
+    "Health & supplements": { "required": ["quantity"], "columns": ["quantity", "proteins_100g", "energy_kcal_100g"], "facets": ["brand", "veg"] }
+  },
+  "fields": {
+    "quantity": { "type": "string", "label": "Net quantity", "note": "As printed on the pack — '45 g', '1 L'. Kept as text because packs say '2 x 75 g' and that is information, not noise." },
+    "serving_size": { "type": "string", "label": "Serving size" },
+    "veg": { "type": "enum", "values": ["Veg", "Non-veg", "Vegan", "Contains egg"], "label": "Veg / non-veg", "note": "The green or brown dot is mandatory on Indian packs and is the first thing many shoppers check." },
+    "ingredients_order": { "type": "boolean", "label": "Ingredients recorded in declared order", "note": "Order is the information. Sugar second on the list means something different from sugar tenth, so an ingredient list must never be sorted or deduplicated." },
+
+    "energy_kcal_100g": { "type": "number", "min": 0, "max": 1000, "label": "Energy per 100 g (kcal)" },
+    "proteins_100g": { "type": "number", "min": 0, "max": 100, "label": "Protein per 100 g" },
+    "carbohydrates_100g": { "type": "number", "min": 0, "max": 100, "label": "Carbohydrate per 100 g" },
+    "sugars_100g": { "type": "number", "min": 0, "max": 100, "label": "Sugar per 100 g" },
+    "fat_100g": { "type": "number", "min": 0, "max": 100, "label": "Fat per 100 g" },
+    "saturated_fat_100g": { "type": "number", "min": 0, "max": 100, "label": "Saturated fat per 100 g" },
+    "fiber_100g": { "type": "number", "min": 0, "max": 100, "label": "Fibre per 100 g" },
+    "sodium_100g": { "type": "number", "min": 0, "max": 100, "label": "Sodium per 100 g" },
+    "caffeine": { "type": "string", "label": "Caffeine" },
+
+    "additives": { "type": "list", "label": "Additives (E numbers)" },
+    "allergens": { "type": "list", "label": "Allergens" },
+    "palm_oil": { "type": "boolean", "label": "Contains palm oil" },
+    "organic": { "type": "boolean", "label": "Certified organic" },
+    "nova_group": { "type": "integer", "min": 1, "max": 4, "label": "NOVA processing group", "note": "1 unprocessed to 4 ultra-processed. A published classification from the ingredient list, not our judgement — recorded with its source." },
+    "fssai_licence": { "type": "string", "label": "FSSAI licence number" },
+    "manufacturer": { "type": "string", "label": "Manufacturer / marketer" },
+    "country_of_origin": { "type": "string", "label": "Country of origin" },
+    "shelf_life": { "type": "string", "label": "Shelf life" }
+  },
+  "not_in_this_repo": ["price", "mrp", "in_stock", "rating", "healthiness", "recommendation"],
+  "sanity": {
+    "no_scores": "No health scores, no 'good for you', no traffic lights. We publish sugar per 100 g and let the reader decide. NOVA is recorded because it is a published classification with a method, not an opinion of ours.",
+    "crowd_sourced": "Open Food Facts records come from phone scans and vary in quality. A record with no product name, or with neither ingredients nor nutrition, is a candidate — never an entry.",
+    "quantity_required": "Nutrition per 100 g is meaningless for comparison without knowing what you are buying. No quantity, no entry."
+  }
+}

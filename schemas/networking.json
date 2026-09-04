@@ -1,0 +1,39 @@
+{
+  "domain": "networking",
+  "label": "Routers & networking",
+  "note": "Marketing numbers like 'AC1200' or 'AX3000' are the sum of theoretical band speeds and tell a buyer almost nothing. The facts that decide whether a router is right — Wi-Fi generation, bands, port speed, mesh support — are all published and all ignored.",
+  "categories": {
+    "Routers": {
+      "required": ["wifi_standard", "bands"],
+      "columns": ["wifi_standard", "bands", "speed_class", "lan_ports", "lan_speed_mbps", "mesh"],
+      "facets": ["brand", "wifi_standard", "bands", "mesh", "lan_speed_mbps", "wan_type"]
+    },
+    "Mesh systems": {
+      "required": ["wifi_standard", "bands", "nodes"],
+      "columns": ["wifi_standard", "bands", "nodes", "coverage_sqft", "backhaul"],
+      "facets": ["brand", "wifi_standard", "nodes", "backhaul"]
+    },
+    "Range extenders": {
+      "required": ["wifi_standard"],
+      "columns": ["wifi_standard", "bands", "speed_class"],
+      "facets": ["brand", "wifi_standard", "bands"]
+    }
+  },
+  "fields": {
+    "wifi_standard": { "type": "enum", "values": ["Wi-Fi 4 (n)", "Wi-Fi 5 (ac)", "Wi-Fi 6 (ax)", "Wi-Fi 6E", "Wi-Fi 7 (be)"], "label": "Wi-Fi generation" },
+    "bands": { "type": "enum", "values": ["Single band", "Dual band", "Tri band", "Quad band"], "label": "Bands" },
+    "speed_class": { "type": "string", "label": "Marketing speed class", "note": "AC1200, AX3000 and so on. Recorded because listings use it, labelled as marketing because it is the sum of theoretical band maxima and not achievable on one device." },
+    "lan_ports": { "type": "integer", "min": 0, "max": 16, "label": "LAN ports" },
+    "lan_speed_mbps": { "type": "enum", "values": ["100", "1000", "2500", "10000"], "label": "LAN port speed", "note": "A Wi-Fi 6 router with 100 Mbps ports cannot deliver a 300 Mbps connection over cable. This is the most common mismatch in the category." },
+    "wan_type": { "type": "string", "label": "WAN type" },
+    "mesh": { "type": "boolean", "label": "Mesh capable" },
+    "nodes": { "type": "integer", "min": 1, "max": 6, "label": "Nodes in the pack" },
+    "coverage_sqft": { "type": "integer", "min": 200, "max": 10000, "label": "Claimed coverage", "note": "A manufacturer claim, not a measurement. Recorded as stated." },
+    "backhaul": { "type": "string", "label": "Backhaul" },
+    "antennas": { "type": "integer", "min": 0, "max": 12, "label": "Antennas" },
+    "usb_ports": { "type": "integer", "min": 0, "max": 4, "label": "USB ports" },
+    "sim_slot": { "type": "boolean", "label": "SIM slot" },
+    "year": { "type": "integer", "min": 2015, "max": 2035, "label": "Model year" }
+  },
+  "not_in_this_repo": ["price", "in_stock", "rating", "rank"]
+}

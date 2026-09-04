@@ -1,0 +1,53 @@
+{
+  "domain": "phones",
+  "label": "Phones, laptops & tablets",
+  "note": "Specs are facts and belong here. Price and stock are not — they change daily and live in the service. Model year matters more than it looks for anything with a spec race: a chipset name alone does not tell you whether a device is current.",
+  "categories": {
+    "Smartphones": {
+      "required": ["ram", "storage"],
+      "columns": ["ram", "storage", "soc", "screen_in", "battery_mah"],
+      "facets": ["brand", "ram", "storage", "soc", "year", "network_5g"]
+    },
+    "Laptops": {
+      "required": ["ram", "storage"],
+      "columns": ["ram", "storage", "soc", "screen_in", "os"],
+      "facets": ["brand", "ram", "storage", "soc", "os", "year"]
+    },
+    "Tablets": {
+      "required": ["storage"],
+      "columns": ["storage", "ram", "screen_in", "os"],
+      "facets": ["brand", "storage", "ram", "screen_in", "os"]
+    },
+    "Cameras": {
+      "required": ["camera_mp"],
+      "columns": ["camera_mp", "screen_in"],
+      "facets": ["brand", "camera_mp"]
+    },
+    "Storage": {
+      "required": ["storage"],
+      "columns": ["storage", "type"],
+      "facets": ["brand", "storage", "type"]
+    }
+  },
+  "fields": {
+    "ram": { "type": "integer", "min": 1, "max": 128, "unit": "GB", "label": "RAM" },
+    "storage": { "type": "integer", "min": 8, "max": 8192, "unit": "GB", "label": "Storage" },
+    "soc": { "type": "string", "label": "Processor" },
+    "screen_in": { "type": "number", "min": 4, "max": 20, "unit": "inch", "label": "Screen size" },
+    "refresh_hz": { "type": "integer", "min": 30, "max": 240, "unit": "Hz", "label": "Refresh rate" },
+    "battery_mah": { "type": "integer", "min": 1000, "max": 12000, "unit": "mAh", "label": "Battery" },
+    "charging_w": { "type": "integer", "min": 5, "max": 300, "unit": "W", "label": "Charging" },
+    "camera_mp": { "type": "integer", "min": 1, "max": 300, "unit": "MP", "label": "Main camera" },
+    "os": { "type": "string", "label": "Operating system" },
+    "os_updates": { "type": "string", "label": "Update policy", "note": "How many years of OS and security updates the maker commits to. Rarely on a marketplace listing, always on the maker's own page, and it decides how long the device stays safe to use." },
+    "network_5g": { "type": "boolean", "label": "5G" },
+    "year": { "type": "integer", "min": 2015, "max": 2035, "label": "Model year" },
+    "type": { "type": "string", "label": "Type" },
+    "weight_g": { "type": "integer", "min": 50, "max": 5000, "unit": "g", "label": "Weight" }
+  },
+  "not_in_this_repo": ["price", "mrp", "in_stock", "rating", "review_count", "rank"],
+  "sanity": {
+    "note": "RAM and storage come from the title on Indian marketplace listings — '(8 GB RAM)' on phones, '(16 GB/512 GB SSD/…)' on laptops. Both patterns are needed; missing the second silently produced 134 laptops with no RAM.",
+    "os_updates": "Empty on every record today. It comes from the maker's own site, and it is the most useful fact this category could carry."
+  }
+}

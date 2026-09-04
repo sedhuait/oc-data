@@ -39,6 +39,15 @@ A record looks like this:
  "sources":[{"kind":"brand-store","url":"https://...","checked":"2026-09-04"}]}
 ```
 
+## What needs doing
+
+**[NEEDS-WORK.md](NEEDS-WORK.md)** is generated from the data: every missing fact,
+ranked by how many records it affects and which brands. About half the catalogue
+is marked `candidate` — published honestly, with a fact we could not verify left
+empty. Those are not mistakes, they are the queue.
+
+Regenerate it with `npm run gaps`.
+
 ## Contributing
 
 Anything from a one-word typo fix to a new brand file is welcome.
