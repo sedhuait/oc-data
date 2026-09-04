@@ -1,0 +1,26 @@
+{
+  "note": "Where each bank publishes savings and FD rates. Rates are LIVE data — they belong in the service with a rate history, never in this repo. What the repo takes from these pages is the account's identity and terms: type, minimum balance, deposit insurance, premature-withdrawal penalty.",
+  "checked": "2026-09-04",
+  "banks": [
+    { "bank": "HDFC Bank", "slug": "hdfc-bank", "type": "Private bank", "savings": "https://www.hdfcbank.com/personal/save/accounts/savings-accounts", "fd_rates": "https://www.hdfcbank.com/personal/save/deposits/fixed-deposit/fixed-deposit-interest-rate" },
+    { "bank": "ICICI Bank", "slug": "icici-bank", "type": "Private bank", "savings": "https://www.icicibank.com/personal-banking/accounts/savings-account", "fd_rates": "https://www.icicibank.com/personal-banking/deposits/fixed-deposit/fd-interest-rates" },
+    { "bank": "State Bank of India", "slug": "sbi", "type": "Public sector bank", "savings": "https://sbi.co.in/web/personal-banking/accounts/saving-account", "fd_rates": "https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits" },
+    { "bank": "Kotak Mahindra Bank", "slug": "kotak-mahindra-bank", "type": "Private bank", "savings": "https://www.kotak.com/en/personal-banking/accounts/savings-account.html", "fd_rates": "https://www.kotak.com/en/personal-banking/deposits/fixed-deposit/fixed-deposit-interest-rate.html" },
+    { "bank": "Axis Bank", "slug": "axis-bank", "type": "Private bank", "savings": "https://www.axisbank.com/retail/accounts/savings-account", "fd_rates": "https://www.axisbank.com/retail/deposits/fixed-deposits/fd-interest-rate" },
+    { "bank": "IDFC FIRST Bank", "slug": "idfc-first-bank", "type": "Private bank", "savings": "https://www.idfcfirstbank.com/personal-banking/accounts/savings-account", "fd_rates": "https://www.idfcfirstbank.com/personal-banking/deposits/fixed-deposit-interest-rates" },
+    { "bank": "AU Small Finance Bank", "slug": "au-small-finance-bank", "type": "Small finance bank", "savings": "https://www.aubank.in/personal-banking/savings-account", "fd_rates": "https://www.aubank.in/interest-rates-and-service-charges" },
+    { "bank": "Equitas Small Finance Bank", "slug": "equitas-sfb", "type": "Small finance bank", "savings": "https://www.equitasbank.com/savings-account", "fd_rates": "https://www.equitasbank.com/interest-rate" },
+    { "bank": "Ujjivan Small Finance Bank", "slug": "ujjivan-sfb", "type": "Small finance bank", "savings": "https://www.ujjivansfb.in/savings-account", "fd_rates": "https://www.ujjivansfb.in/interest-rates" },
+    { "bank": "Bandhan Bank", "slug": "bandhan-bank", "type": "Private bank", "savings": "https://bandhanbank.com/personal-banking/accounts/savings-account", "fd_rates": "https://bandhanbank.com/interest-rates" },
+    { "bank": "Bank of Baroda", "slug": "bank-of-baroda", "type": "Public sector bank", "savings": "https://www.bankofbaroda.in/personal-banking/accounts/saving-account", "fd_rates": "https://www.bankofbaroda.in/interest-rate-and-charges/deposits-interest-rates" },
+    { "bank": "Punjab National Bank", "slug": "pnb", "type": "Public sector bank", "savings": "https://www.pnbindia.in/saving-account.html", "fd_rates": "https://www.pnbindia.in/interest-rates-deposit.html" },
+    { "bank": "Canara Bank", "slug": "canara-bank", "type": "Public sector bank", "savings": "https://canarabank.com/pages/savings-deposits", "fd_rates": "https://canarabank.com/pages/domestic-deposits" },
+    { "bank": "Union Bank of India", "slug": "union-bank", "type": "Public sector bank", "savings": "https://www.unionbankofindia.co.in/english/savings-account.aspx", "fd_rates": "https://www.unionbankofindia.co.in/english/interest-rate-deposit.aspx" },
+    { "bank": "Yes Bank", "slug": "yes-bank", "type": "Private bank", "savings": "https://www.yesbank.in/personal-banking/yes-individual/savings-account", "fd_rates": "https://www.yesbank.in/interest-rates" },
+    { "bank": "IndusInd Bank", "slug": "indusind-bank", "type": "Private bank", "savings": "https://www.indusind.com/in/en/personal/accounts/savings-account.html", "fd_rates": "https://www.indusind.com/in/en/personal/rates/interest-rates.html" },
+    { "bank": "Federal Bank", "slug": "federal-bank", "type": "Private bank", "savings": "https://www.federalbank.co.in/savings-account", "fd_rates": "https://www.federalbank.co.in/deposit-rate" },
+    { "bank": "RBL Bank", "slug": "rbl-bank", "type": "Private bank", "savings": "https://www.rblbank.com/category/savings-account", "fd_rates": "https://www.rblbank.com/fixed-deposit-interest-rates" },
+    { "bank": "Post Office (India Post)", "slug": "india-post", "type": "Government", "savings": "https://www.indiapost.gov.in/Financial/pages/content/post-office-saving-schemes.aspx", "fd_rates": "https://www.indiapost.gov.in/Financial/pages/content/post-office-saving-schemes.aspx" },
+    { "bank": "Bajaj Finance", "slug": "bajaj-finance", "type": "NBFC", "savings": null, "fd_rates": "https://www.bajajfinserv.in/fixed-deposit-interest-rate", "note": "NBFC deposits are NOT DICGC insured — the single most material fact about them" }
+  ]
+}

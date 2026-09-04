@@ -1,0 +1,80 @@
+{
+  "domain": "insurance",
+  "label": "Insurance",
+  "note": "Policy terms are facts: waiting periods, sub-limits, co-pay, room-rent caps, exclusions. Premiums are not — they depend on age, city, sum insured and medical history, so they belong in the live layer with their assumptions shown. Nothing here is advice, and no policy is ranked.",
+  "categories": {
+    "Health — indemnity": {
+      "required": ["insurer", "uin", "sum_insured_options_inr", "ped_waiting_months"],
+      "columns": ["sum_insured_options_inr", "ped_waiting_months", "room_rent_cap", "copay_pct", "restoration"],
+      "facets": ["brand", "room_rent_cap", "copay_pct", "ped_waiting_months", "restoration", "day_care_covered"]
+    },
+    "Health — top-up": {
+      "required": ["insurer", "uin", "deductible_inr", "deductible_type"],
+      "columns": ["deductible_inr", "deductible_type", "sum_insured_options_inr", "ped_waiting_months", "room_rent_cap"],
+      "facets": ["brand", "deductible_type", "deductible_inr", "ped_waiting_months", "room_rent_cap"],
+      "note": "A top-up pays only above a deductible. Whether that deductible applies per claim or per year is the single most material fact about the product, and the one most often glossed over: 'super top-up' conventionally means aggregate, but the wording decides, not the marketing name."
+    },
+    "Health — critical illness": {
+      "required": ["insurer", "uin", "conditions_covered_count"],
+      "columns": ["conditions_covered_count", "survival_period_days", "sum_insured_options_inr"],
+      "facets": ["brand", "conditions_covered_count", "survival_period_days"]
+    },
+    "Term life": {
+      "required": ["insurer", "uin", "max_entry_age", "max_cover_age"],
+      "columns": ["max_entry_age", "max_cover_age", "payout_options", "premium_payment_terms"],
+      "facets": ["brand", "payout_options", "premium_payment_terms", "return_of_premium"]
+    },
+    "Personal accident": {
+      "required": ["insurer", "uin"],
+      "columns": ["sum_insured_options_inr", "ttd_cover", "ppd_cover"],
+      "facets": ["brand"]
+    }
+  },
+  "fields": {
+    "insurer": { "type": "string", "label": "Insurer" },
+    "uin": { "type": "string", "label": "IRDAI UIN", "note": "The Unique Identification Number IRDAI assigns to every approved product. This is the identity key for insurance — the equivalent of a GTIN. Marketing names change; the UIN does not." },
+    "irdai_approved": { "type": "boolean", "label": "IRDAI approved" },
+    "sum_insured_options_inr": { "type": "list", "label": "Sum insured options" },
+    "deductible_inr": { "type": "integer", "min": 0, "max": 10000000, "label": "Deductible" },
+    "deductible_type": { "type": "enum", "values": ["Aggregate (per policy year)", "Per claim", "Per hospitalisation"], "label": "Deductible applies" },
+    "ped_waiting_months": { "type": "integer", "min": 0, "max": 60, "label": "Pre-existing disease waiting period (months)" },
+    "initial_waiting_days": { "type": "integer", "min": 0, "max": 90, "label": "Initial waiting period (days)" },
+    "specific_waiting_months": { "type": "integer", "min": 0, "max": 60, "label": "Specific-illness waiting period (months)" },
+    "maternity_waiting_months": { "type": "integer", "min": 0, "max": 72, "label": "Maternity waiting period (months)" },
+    "room_rent_cap": { "type": "string", "label": "Room rent cap", "note": "'No cap' and '1% of sum insured per day' are wildly different products. A cap silently proportions down the entire claim, not just the room charge." },
+    "icu_cap": { "type": "string", "label": "ICU cap" },
+    "copay_pct": { "type": "number", "min": 0, "max": 50, "label": "Co-pay" },
+    "copay_condition": { "type": "string", "label": "Co-pay applies when" },
+    "restoration": { "type": "string", "label": "Restoration of sum insured" },
+    "no_claim_bonus": { "type": "string", "label": "No-claim bonus" },
+    "day_care_covered": { "type": "integer", "min": 0, "max": 1000, "label": "Day-care procedures covered" },
+    "pre_hosp_days": { "type": "integer", "min": 0, "max": 180, "label": "Pre-hospitalisation cover (days)" },
+    "post_hosp_days": { "type": "integer", "min": 0, "max": 365, "label": "Post-hospitalisation cover (days)" },
+    "network_hospitals": { "type": "integer", "min": 0, "max": 50000, "label": "Network hospitals" },
+    "sub_limits": { "type": "list", "label": "Disease-wise sub-limits" },
+    "exclusions": { "type": "list", "label": "Permanent exclusions" },
+    "conditions_covered_count": { "type": "integer", "min": 1, "max": 200, "label": "Conditions covered" },
+    "survival_period_days": { "type": "integer", "min": 0, "max": 180, "label": "Survival period (days)" },
+    "max_entry_age": { "type": "integer", "min": 0, "max": 99, "label": "Maximum entry age" },
+    "min_entry_age": { "type": "integer", "min": 0, "max": 99, "label": "Minimum entry age" },
+    "max_cover_age": { "type": "integer", "min": 0, "max": 110, "label": "Cover available up to age" },
+    "payout_options": { "type": "list", "label": "Payout options" },
+    "premium_payment_terms": { "type": "list", "label": "Premium payment terms" },
+    "return_of_premium": { "type": "boolean", "label": "Return of premium variant" },
+    "ttd_cover": { "type": "string", "label": "Temporary total disability cover" },
+    "ppd_cover": { "type": "string", "label": "Permanent partial disability cover" },
+    "policy_wording_url": { "type": "string", "label": "Policy wording" },
+    "brochure_url": { "type": "string", "label": "Brochure" },
+    "wording_version": { "type": "string", "label": "Policy wording version" }
+  },
+  "not_in_this_repo": ["premium", "claim_settlement_ratio", "rating", "score", "best_for", "recommendation"],
+  "live_layer": {
+    "premium": "depends on age, city, sum insured, tenure and medical history — computed with assumptions shown",
+    "claim_settlement_ratio": "IRDAI publishes it annually and it changes; it belongs in the service with its year"
+  },
+  "sanity": {
+    "uin_required": "No UIN, no record. IRDAI assigns one to every approved product and it is how a policy is identified when the marketing name changes.",
+    "top_up_deductible": "A top-up record without deductible_type is meaningless — reject rather than publish.",
+    "note": "Every figure must trace to a line in the policy wording, not a brochure or an aggregator page. Health cover is the one category where a wrong number can cost someone a hospital bill."
+  }
+}
