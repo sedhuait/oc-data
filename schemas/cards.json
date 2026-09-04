@@ -1,7 +1,7 @@
 {
   "domain": "cards",
   "label": "Credit cards",
-  "note": "Everything here comes from the issuer's MITC (Most Important Terms and Conditions) or the card's own page. Fees, caps and conditions are facts. What a card is 'worth' is not — that is arithmetic the service does from the user's own spend, shown with its assumptions.",
+  "note": "Everything here comes from the issuer's MITC (Most Important Terms and Conditions) or the card's own page. Fees, caps and conditions are facts. What a card is 'worth' is not — that is arithmetic the service does from the user's own spend, shown with its assumptions. A co-branded card (Amazon Pay ICICI, Flipkart Axis, Scapia Federal) is one record under its ISSUER, with co_brand naming the partner — never a separate issuer.",
   "categories": {
     "Credit cards": {
       "required": [
@@ -19,6 +19,8 @@
       ],
       "facets": [
         "brand",
+        "co_brand",
+        "issuer_type",
         "network",
         "annual_fee_inr",
         "lounge_domestic",
@@ -147,6 +149,28 @@
     "mitc_version": {
       "type": "string",
       "label": "MITC version date"
+    },
+    "co_brand": {
+      "type": "string",
+      "label": "Co-brand partner",
+      "note": "The brand on the card that is not the issuer — Amazon, Flipkart, Swiggy, Scapia, Tata Neu, IRCTC. A co-brand is never an issuer: RBI requires a regulated bank or NBFC behind every card."
+    },
+    "issuer_type": {
+      "type": "enum",
+      "values": [
+        "Public sector bank",
+        "Private bank",
+        "Small finance bank",
+        "Foreign bank",
+        "NBFC",
+        "Payments bank"
+      ],
+      "label": "Issuer type"
+    },
+    "programme_partner": {
+      "type": "string",
+      "label": "Programme partner",
+      "note": "Fintech that runs the product experience without being the issuer — OneCard, Slice, Jupiter. The bank on the back of the card is the issuer."
     }
   },
   "conditional_benefits": {
