@@ -66,6 +66,13 @@ describe("identity", () => {
     assert.ok(gtinValid("8901030865275"));
     assert.deepEqual(codes(good({ identifiers: { gtin: "8901030865275" } })), []);
   });
+  test("E9 rejects an undeclared identifier key", () => {
+    assert.ok(codes(good({ identifiers: { upc: "12345" } as never })).includes("E9"));
+  });
+  test("E9 checks ISIN format", () => {
+    assert.ok(codes(good({ identifiers: { isin: "NOTANISIN" } })).includes("E9"));
+    assert.deepEqual(codes(good({ identifiers: { isin: "INF846K01WO1" } })), []);
+  });
   test("mintId is stable and size-sensitive", () => {
     assert.equal(mintId("Minimalist", "Niacinamide 10%", "30 ml"), mintId("minimalist", "  Niacinamide 10%  ", "30ml"));
     assert.notEqual(mintId("Minimalist", "Niacinamide 10%", "30 ml"), mintId("Minimalist", "Niacinamide 10%", "60 ml"));

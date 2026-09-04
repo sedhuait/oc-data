@@ -1,0 +1,51 @@
+{
+  "domain": "banking",
+  "label": "Banking & deposits",
+  "note": "A deposit product's identity and terms are facts. The interest rate is not — it changes monthly and belongs in the service, alongside a rate history. What lives here is what the product IS: who offers it, what type, tenure buckets, minimum, insurance cover, premature-withdrawal terms.",
+  "categories": {
+    "Fixed deposits": {
+      "required": ["institution_type", "insured"],
+      "columns": ["institution_type", "tenure_min_days", "tenure_max_days", "insured"],
+      "facets": ["brand", "institution_type", "insured", "callable"]
+    },
+    "Savings accounts": {
+      "required": ["institution_type", "insured"],
+      "columns": ["institution_type", "min_balance_inr", "insured"],
+      "facets": ["brand", "institution_type", "insured", "min_balance_inr"]
+    },
+    "Recurring deposits": {
+      "required": ["institution_type", "insured"],
+      "columns": ["institution_type", "tenure_min_days", "tenure_max_days", "insured"],
+      "facets": ["brand", "institution_type", "insured"]
+    }
+  },
+  "fields": {
+    "institution_type": {
+      "type": "enum",
+      "values": ["Public sector bank", "Private bank", "Small finance bank", "Payments bank", "Foreign bank", "NBFC", "Post Office", "Co-operative bank"],
+      "label": "Institution type",
+      "note": "Determines the risk and the insurance position. NBFC deposits are not DICGC insured."
+    },
+    "insured": {
+      "type": "enum",
+      "values": ["DICGC up to ₹5 lakh", "Not DICGC insured", "Government backed"],
+      "label": "Deposit insurance",
+      "note": "The single most material fact about a deposit and the one most often buried."
+    },
+    "tenure_min_days": { "type": "integer", "min": 1, "max": 3660, "label": "Minimum tenure (days)" },
+    "tenure_max_days": { "type": "integer", "min": 1, "max": 3660, "label": "Maximum tenure (days)" },
+    "min_deposit_inr": { "type": "integer", "min": 1, "max": 10000000, "label": "Minimum deposit" },
+    "min_balance_inr": { "type": "integer", "min": 0, "max": 1000000, "label": "Minimum balance" },
+    "callable": { "type": "boolean", "label": "Premature withdrawal allowed" },
+    "premature_penalty": { "type": "string", "label": "Premature withdrawal penalty" },
+    "senior_benefit": { "type": "boolean", "label": "Higher rate for senior citizens" },
+    "compounding": { "type": "enum", "values": ["Monthly", "Quarterly", "Half-yearly", "Yearly", "At maturity", "Simple"], "label": "Compounding" },
+    "tax_saver": { "type": "boolean", "label": "80C tax-saving deposit" },
+    "auto_renew": { "type": "boolean", "label": "Auto-renewal available" }
+  },
+  "not_in_this_repo": ["interest_rate", "senior_rate", "rate_history", "special_scheme_rate"],
+  "sanity": {
+    "insured_vs_type": "institution_type 'NBFC' must not claim DICGC cover",
+    "note": "Rates change monthly. If you find yourself wanting to add a rate field here, it belongs in the service."
+  }
+}

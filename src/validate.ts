@@ -1,6 +1,6 @@
 import {
   ROOT, TOP_LEVEL_FIELDS, brandFileFor, gtinValid, loadDomainSchemas, norm,
-  productFiles, readRecords, rel,
+  productFiles, readRecords, rel, IDENTIFIER_KEYS,
   type AttrValue, type DomainSchema, type FieldSpec, type ProductRecord,
 } from "./schema.ts";
 
@@ -109,6 +109,9 @@ export function validateRecord(
     else if (state.gtins.has(ids.gtin)) W("W1", `GTIN ${ids.gtin} is also on ${state.gtins.get(ids.gtin)}`);
     else state.gtins.set(ids.gtin, r.id);
   }
+  for (const k of Object.keys(ids)) if (!(IDENTIFIER_KEYS as readonly string[]).includes(k))
+    E("E9", `identifier "${k}" is not declared — add it to schemas/product.json first`);
+  if (ids.isin && !/^INF[A-Z0-9]{9}$/.test(ids.isin)) E("E9", `isin "${ids.isin}" is malformed`);
   if (ids.asin && !/^[A-Z0-9]{10}$/.test(ids.asin)) E("E9", `asin "${ids.asin}" is malformed`);
   if (ids.fsn && !/^[A-Z0-9]{16}$/.test(ids.fsn)) E("E9", `fsn "${ids.fsn}" is malformed`);
 

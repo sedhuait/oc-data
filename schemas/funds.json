@@ -1,0 +1,33 @@
+{
+  "domain": "funds",
+  "label": "Mutual funds",
+  "note": "Facts only. NAV, AUM, returns and expense ratio move — they live in the service, not this repo. What is here is scheme identity: who runs it, what it invests in, which plan and option, and its ISIN.",
+  "categories": {
+    "_default": {
+      "required": ["amc", "plan", "option"],
+      "columns": ["amc", "plan", "option"],
+      "facets": ["brand", "plan", "option", "scheme_type"]
+    },
+    "Equity": { "required": ["amc", "plan", "option"], "columns": ["amc", "sub_category", "plan", "option"], "facets": ["brand", "sub_category", "plan", "option"] },
+    "Debt": { "required": ["amc", "plan", "option"], "columns": ["amc", "sub_category", "plan", "option"], "facets": ["brand", "sub_category", "plan", "option"] },
+    "Hybrid": { "required": ["amc", "plan", "option"], "columns": ["amc", "sub_category", "plan", "option"], "facets": ["brand", "sub_category", "plan", "option"] },
+    "Index / ETF": { "required": ["amc", "plan", "option"], "columns": ["amc", "sub_category", "plan", "option"], "facets": ["brand", "sub_category", "plan", "option"] },
+    "Solution oriented": { "required": ["amc", "plan", "option"], "columns": ["amc", "sub_category", "plan", "option"], "facets": ["brand", "sub_category", "plan", "option"] },
+    "Other": { "required": ["amc", "plan", "option"], "columns": ["amc", "sub_category", "plan", "option"], "facets": ["brand", "sub_category", "plan", "option"] }
+  },
+  "fields": {
+    "amc": { "type": "string", "label": "Fund house" },
+    "scheme_type": { "type": "enum", "values": ["Open ended", "Close ended", "Interval"], "label": "Scheme type" },
+    "sub_category": { "type": "string", "label": "SEBI sub-category", "note": "As printed by AMFI, e.g. 'Large Cap Fund', 'Liquid Fund'." },
+    "plan": { "type": "enum", "values": ["Direct", "Regular"], "label": "Plan" },
+    "option": { "type": "enum", "values": ["Growth", "IDCW", "IDCW Payout", "IDCW Reinvestment", "Bonus"], "label": "Option" },
+    "scheme_code": { "type": "string", "label": "AMFI scheme code" },
+    "isin_growth": { "type": "string", "label": "ISIN (growth / payout)" },
+    "isin_reinvest": { "type": "string", "label": "ISIN (reinvestment)" }
+  },
+  "not_in_this_repo": ["nav", "aum", "returns", "expense_ratio", "exit_load", "riskometer"],
+  "sanity": {
+    "isin": "^INF[A-Z0-9]{9}$",
+    "note": "Riskometer changes monthly and exit load can be revised; both belong in the live layer."
+  }
+}

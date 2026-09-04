@@ -18,8 +18,11 @@ export interface Source {
   note?: string | null;
 }
 
+export const IDENTIFIER_KEYS = ["gtin", "asin", "fsn", "ondc", "isin", "shopify_handle"] as const;
+
 export interface Identifiers {
   gtin?: string | null;
+  isin?: string | null;
   asin?: string | null;
   fsn?: string | null;
   ondc?: string | null;

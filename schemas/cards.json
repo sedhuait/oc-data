@@ -1,0 +1,48 @@
+{
+  "domain": "cards",
+  "label": "Credit cards",
+  "note": "Everything here comes from the issuer's MITC (Most Important Terms and Conditions) or the card's own page. Fees, caps and conditions are facts. What a card is 'worth' is not — that is arithmetic the service does from the user's own spend, shown with its assumptions.",
+  "categories": {
+    "Credit cards": {
+      "required": ["issuer", "network", "joining_fee_inr", "annual_fee_inr"],
+      "columns": ["issuer", "network", "joining_fee_inr", "annual_fee_inr", "fee_waiver_spend_inr", "forex_markup_pct"],
+      "facets": ["brand", "network", "annual_fee_inr", "lounge_domestic", "fuel_surcharge_waiver"]
+    },
+    "Charge cards": {
+      "required": ["issuer", "network", "annual_fee_inr"],
+      "columns": ["issuer", "network", "annual_fee_inr", "forex_markup_pct"],
+      "facets": ["brand", "network", "annual_fee_inr"]
+    }
+  },
+  "fields": {
+    "issuer": { "type": "string", "label": "Issuer" },
+    "network": { "type": "enum", "values": ["Visa", "Mastercard", "RuPay", "American Express", "Diners Club"], "label": "Network" },
+    "joining_fee_inr": { "type": "integer", "min": 0, "max": 1000000, "label": "Joining fee" },
+    "annual_fee_inr": { "type": "integer", "min": 0, "max": 1000000, "label": "Annual fee" },
+    "fee_waiver_spend_inr": { "type": "integer", "min": 0, "max": 100000000, "label": "Annual fee waived at spend of" },
+    "interest_rate_monthly_pct": { "type": "number", "min": 0, "max": 5, "label": "Interest rate (per month)" },
+    "forex_markup_pct": { "type": "number", "min": 0, "max": 6, "label": "Forex markup" },
+    "cash_advance_fee": { "type": "string", "label": "Cash advance fee" },
+    "late_payment_fee": { "type": "string", "label": "Late payment fee" },
+    "fuel_surcharge_waiver": { "type": "string", "label": "Fuel surcharge waiver" },
+    "lounge_domestic": { "type": "integer", "min": 0, "max": 200, "label": "Domestic lounge visits per year" },
+    "lounge_international": { "type": "integer", "min": 0, "max": 200, "label": "International lounge visits per year" },
+    "lounge_condition": { "type": "string", "label": "Lounge access condition" },
+    "reward_unit": { "type": "string", "label": "Reward unit", "note": "e.g. 'Reward Point', 'EDGE Mile', 'cashback'" },
+    "reward_base_rate": { "type": "string", "label": "Base reward rate" },
+    "reward_value_per_unit_inr": { "type": "number", "min": 0, "max": 100, "label": "Stated value per reward unit" },
+    "min_income_inr": { "type": "integer", "min": 0, "max": 100000000, "label": "Stated minimum income" },
+    "mitc_url": { "type": "string", "label": "MITC document" },
+    "mitc_version": { "type": "string", "label": "MITC version date" }
+  },
+  "conditional_benefits": {
+    "shape": "options[] — each with category, rate, cap, cap_period and condition",
+    "example": { "category": "Dining", "rate": "5%", "cap_inr": 500, "cap_period": "month", "condition": "on spends via the issuer's app" },
+    "note": "A benefit without its cap is a marketing claim, not a fact. Caps are required."
+  },
+  "not_in_this_repo": ["approval_odds", "score", "rating", "best_for", "recommendation"],
+  "sanity": {
+    "note": "Every numeric field must be traceable to a line in the MITC. If it is not in the document, it does not go in the record.",
+    "change_log": "When an issuer revises the MITC, add a new fact_version rather than overwriting. The diff is the point."
+  }
+}
