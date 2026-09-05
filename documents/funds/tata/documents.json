@@ -1,0 +1,16 @@
+{
+  "amc": "Tata",
+  "documents": [
+    {
+      "bytes": 10111164,
+      "checked": "2026-09-06",
+      "file": "tata-factsheet-2026-07.pdf",
+      "final_url": "https://www.tatamutualfund.com/system/files/2026-08/TataMF%20Factsheet%20-%20July%202026.pdf",
+      "kind": "Monthly factsheet",
+      "layout": "labelled",
+      "month": "2026-07",
+      "sha256": "e458f7876e9d71ec157fa57739ea92fc626c9775dfc0ed38cd7df959bfc2630e",
+      "source_url": "https://www.tatamutualfund.com/system/files/2026-08/TataMF%20Factsheet%20-%20July%202026.pdf"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "amc": "Mirae Asset",
+  "documents": [
+    {
+      "bytes": 4665564,
+      "checked": "2026-09-06",
+      "file": "mirae-asset-factsheet-2026-08.pdf",
+      "final_url": "https://www.miraeassetmf.co.in/docs/default-source/fachsheet/active-factsheet---august-2026.pdf",
+      "kind": "Monthly factsheet",
+      "layout": "labelled",
+      "month": "2026-08",
+      "sha256": "b7d9969828ff5002c30ab0c6ad14f493a7917fd87bb4d807d98fba4c779101bb",
+      "source_url": "https://www.miraeassetmf.co.in/docs/default-source/fachsheet/active-factsheet---august-2026.pdf"
+    }
+  ]
+}

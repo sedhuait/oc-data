@@ -1,0 +1,16 @@
+{
+  "amc": "HDFC",
+  "documents": [
+    {
+      "bytes": 7264956,
+      "checked": "2026-09-06",
+      "file": "hdfc-factsheet-2026-07.pdf",
+      "final_url": "https://files.hdfcfund.com/s3fs-public/2026-08/HDFC%20MF%20Factsheet%20-%20July%202026.pdf",
+      "kind": "Monthly factsheet",
+      "layout": "labelled",
+      "month": "2026-07",
+      "sha256": "d5760e7627b7e36848eb71f892cd1e3c0b56c2b206df2affbe06099debce02ea",
+      "source_url": "https://files.hdfcfund.com/s3fs-public/2026-08/HDFC%20MF%20Factsheet%20-%20July%202026.pdf"
+    }
+  ]
+}

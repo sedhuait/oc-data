@@ -1,0 +1,16 @@
+{
+  "amc": "UTI",
+  "documents": [
+    {
+      "bytes": 8282159,
+      "checked": "2026-09-06",
+      "file": "uti-factsheet-2026-09.pdf",
+      "final_url": "https://d3ce1o48hc5oli.cloudfront.net/s3fs-public/2026-09/uti_fund_watch_active_september_2026.pdf",
+      "kind": "Monthly factsheet",
+      "layout": "labelled",
+      "month": "2026-09",
+      "sha256": "bc26eb5277977410fe6b0e0388243ea1456d5416ec4e5dd9de485c7a440b9e86",
+      "source_url": "https://d3ce1o48hc5oli.cloudfront.net/s3fs-public/2026-09/uti_fund_watch_active_september_2026.pdf"
+    }
+  ]
+}

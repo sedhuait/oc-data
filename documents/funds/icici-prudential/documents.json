@@ -1,0 +1,16 @@
+{
+  "amc": "ICICI Prudential",
+  "documents": [
+    {
+      "bytes": 12514155,
+      "checked": "2026-09-06",
+      "file": "icici-prudential-factsheet-2026-07.pdf",
+      "final_url": "https://digitalfactsheet.icicipruamc.com/fact/pdf/fund-factsheet-for-july-2026.pdf",
+      "kind": "Monthly factsheet",
+      "layout": "notes",
+      "month": "2026-07",
+      "sha256": "dd4d0f83f563b21dc5a666982f8292868773aa2c3e5fefded3817c8e0948aadf",
+      "source_url": "https://digitalfactsheet.icicipruamc.com/fact/pdf/fund-factsheet-for-july-2026.pdf"
+    }
+  ]
+}

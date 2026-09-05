@@ -1,0 +1,16 @@
+{
+  "amc": "SBI",
+  "documents": [
+    {
+      "bytes": 10197263,
+      "checked": "2026-09-06",
+      "file": "sbi-factsheet-2026-07.pdf",
+      "final_url": "https://www.sbimf.com/docs/default-source/scheme-factsheets/all-sbimf-schemes-factsheet-july-2026.pdf",
+      "kind": "Monthly factsheet",
+      "layout": "labelled",
+      "month": "2026-07",
+      "sha256": "9b6ff38f029953c0036ff1529593d0f337e4da6f71bbf0a5b58442aa6ee02bba",
+      "source_url": "https://www.sbimf.com/docs/default-source/scheme-factsheets/all-sbimf-schemes-factsheet-july-2026.pdf"
+    }
+  ]
+}
