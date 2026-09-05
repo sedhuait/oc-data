@@ -7,15 +7,18 @@ nobody keeps a dated record of what the document said before. This does.
   python3 tools/cards/fetch_mitc.py            # fetch all, report changes
   python3 tools/cards/fetch_mitc.py --diff hdfc-bank   # show what changed
 
-Layout:
-  tools/cards/mitc/<slug>/<YYYY-MM-DD>.pdf     the document as published
-  tools/cards/mitc/<slug>/text-<date>.txt      extracted text, for diffing
-  tools/cards/mitc/index.json                  hash + date per issuer, per fetch
+Layout — under documents/, with every other publisher's document, because the
+terms on them are the publisher's and should not depend on which directory a
+file happens to sit in:
+  documents/cards/mitc/<slug>/<YYYY-MM-DD>.pdf   the document as published
+  documents/cards/mitc/<slug>/text-<date>.txt    extracted text, for diffing
+  documents/cards/mitc/index.json                hash + date per issuer, per fetch
 """
 import json, os, re, sys, hashlib, subprocess, urllib.request, datetime
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-STORE = os.path.join(HERE, "mitc")
+ROOT = os.path.dirname(os.path.dirname(HERE))
+STORE = os.path.join(ROOT, "documents", "cards", "mitc")
 INDEX = os.path.join(STORE, "index.json")
 SOURCES = json.load(open(os.path.join(HERE, "mitc_sources.json")))
 TODAY = datetime.date.today().isoformat()

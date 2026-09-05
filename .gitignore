@@ -2,5 +2,9 @@ dist/
 __pycache__/
 *.pyc
 .DS_Store
+
+# Working scratch from the fetch scripts. Source documents worth keeping live
+# in documents/ and ARE committed — that is the point of them, so a published
+# fact can be checked against the document it was read from.
 tools/*/snapshots/
 tools/*/mitc/

@@ -63,10 +63,10 @@ They are mirrored here for one reason: so that a fact this registry publishes
 can be checked against the document it was read from, by anyone, without
 asking us and without trusting us.
 
-The same applies to any source document elsewhere in this repository — a few
-bank MITCs are tracked under `tools/cards/mitc/` from before `documents/`
-existed. Their location is a historical accident; the terms below are what
-govern them.
+Everything of this kind lives under `documents/`, whoever published it:
+`documents/insurance/star-health/` for policy wordings, `documents/cards/mitc/`
+for the credit-card MITCs the banks publish. The terms are the same for all of
+them and do not depend on which directory a file sits in.
 
 Our undertaking to the publishers whose documents these are:
 

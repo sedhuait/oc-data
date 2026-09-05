@@ -10,7 +10,7 @@ not in one of those documents, it does not go in a record.
 tools/cards/mitc_sources.json     where each issuer publishes its MITC
 tools/cards/fetch_mitc.py         fetch, hash, store, and report what changed
 tools/cards/parse_<issuer>.py     one parser per issuer — their tables all differ
-tools/cards/mitc/<slug>/          every version we have ever fetched, dated
+documents/cards/mitc/<slug>/      every version we have ever fetched, dated
 ```
 
 `fetch_mitc.py` is the important one. It stores each document with its date and
