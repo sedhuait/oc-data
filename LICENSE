@@ -18,22 +18,31 @@ Facts are not copyrightable in India (*Eastern Book Company v. D.B. Modak*,
 capacity — nobody owns these. We assemble, check and date them, and we give
 the result away.
 
-## 2. The code — proprietary, all rights reserved
+## 2. The code — closed source, all rights reserved
 
 Everything under `src/` and `tools/`: the validator, the formatter, the
 importers, the fetch scripts and every other program in this repository.
 
 Copyright (c) Open Catalogue. All rights reserved.
 
-This code is **not** open source and is not licensed for reuse. No permission
-is granted to copy, modify, distribute, sublicense or create derivative works
-from it. It is published here because the data cannot be audited without
-seeing how it was assembled and checked — read it, verify our claims against
-it, tell us where it is wrong. That is the extent of the grant.
+**This code is closed source. It is not open source, and being visible in a
+public repository does not make it so.** Source-available and open-source are
+different things: you may read this code, and that is all. No permission is
+granted to use, copy, modify, merge, publish, distribute, sublicense, sell or
+create derivative works from it, in whole or in part.
 
-The crawlers, importers and validation rules are the part of this project that
-took work to build and that we intend to keep. The data they produce is the
-part we give away.
+If you want any of that, ask.
+
+It is readable for one reason: a fact registry that will not show its working
+is asking to be trusted rather than checked. You can see exactly how any
+number here was fetched, parsed and validated, and tell us where we got it
+wrong. That is the extent of the grant, and it is deliberate — the crawlers,
+importers and validation rules are the part of this project that took work to
+build and that we keep. The data they produce is the part we give away.
+
+Note for the avoidance of doubt: an MIT, Apache or similar notice has never
+applied to this code. Where an earlier version of this repository said "code:
+MIT", that was an error, corrected here.
 
 ## 3. The source documents — not ours
 
@@ -77,7 +86,7 @@ required by IRDAI or RBI to make public.
 | Path | What it is | Terms |
 |---|---|---|
 | `products/`, `schemas/` | The facts and their definitions | ODbL 1.0 — take them |
-| `src/`, `tools/` | The code that checks and imports them | Proprietary — read it, don't reuse it |
+| `src/`, `tools/` | The code that checks and imports them | Closed source — read it, don't reuse it |
 | `documents/` | Source documents, mirrored unmodified | The publisher's. Not ours to license. |
 
 If you want the facts, take them; that is what this exists for. If you want to

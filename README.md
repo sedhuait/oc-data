@@ -96,10 +96,11 @@ Data: [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/) — use it, inc
 commercially. Attribute Open Catalogue, and if you publish a derived database, publish
 it open too.
 
-Code: proprietary, all rights reserved. The crawlers, importers and validation rules
-are ours and are not licensed for reuse. They are readable so that the data can be
-audited — check how a fact was assembled, and tell us where we got it wrong. The data
-is the public good here; the machinery that produces it is not.
+Code: closed source, all rights reserved. Readable is not the same as reusable — the
+crawlers, importers and validation rules are ours, and no permission is granted to use,
+copy, modify or distribute them. They are published so that the data can be audited:
+check how a fact was assembled, and tell us where we got it wrong. The data is the
+public good here; the machinery that produces it is not.
 
 Full terms in [LICENSE](LICENSE).
 
