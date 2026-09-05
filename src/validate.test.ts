@@ -1,11 +1,11 @@
 import { test, describe } from "node:test";
 import assert from "node:assert/strict";
-import { validateRecord, checkAttribute } from "./validate.ts";
+import { validateRecord, checkAttribute, today } from "./validate.ts";
 import { render, clean } from "./format.ts";
 import { gtinValid, mintId, slugify, loadDomainSchemas, type ProductRecord } from "./schema.ts";
 
 const schemas = loadDomainSchemas();
-const fresh = () => ({ ids: new Map(), gtins: new Map(), keys: new Map(), today: new Date().toISOString().slice(0, 10) });
+const fresh = () => ({ ids: new Map(), gtins: new Map(), keys: new Map(), today: today() });
 
 const good = (over: Partial<ProductRecord> = {}): ProductRecord => ({
   id: "oc_000000000001",
@@ -125,6 +125,24 @@ describe("the identity floor", () => {
 });
 
 describe("provenance", () => {
+  // Between midnight and 05:30 IST, a date a crawler stamps as today is still
+  // tomorrow in UTC. The validator used toISOString, so every record written
+  // in that window was rejected as being from the future — 387 of them in one
+  // run. A contributor's own clock is the one that counts.
+  test("a date that is today locally is not in the future", () => {
+    const now = new Date();
+    const localToday =
+      `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}-${String(now.getDate()).padStart(2, "0")}`;
+    const r = good({ sources: [{ kind: "manual", url: "https://x.example", checked: localToday }] });
+    assert.ok(!codes(r).includes("E8"), `today (${localToday}) was rejected as future`);
+  });
+
+  test("a genuinely future date is still rejected", () => {
+    const soon = new Date(Date.now() + 3 * 86400_000).toISOString().slice(0, 10);
+    const r = good({ sources: [{ kind: "manual", url: "https://x.example", checked: soon }] });
+    assert.ok(codes(r).includes("E8"));
+  });
+
   test("E2 rejects a record with no sources", () => {
     assert.ok(codes(good({ sources: [] })).includes("E2"));
   });

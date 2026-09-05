@@ -12,6 +12,21 @@ const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 const SIZE_RE = /^[0-9.]+ ?(ml|g|kg|l|pcs)$/;
 const AFFILIATE_RE = /(affid=|[?&]tag=[a-z0-9-]+-\d\d|utm_)/i;
 const LIVE_FIELDS = ["price", "mrp", "selling_price", "stock", "in_stock", "availability", "discount", "offers"];
+/** The latest day it plausibly is, anywhere the contributor might be.
+ *
+ *  `toISOString` is UTC and this dataset is written from IST. Between midnight
+ *  and 05:30 local, a date a crawler stamps as today is still tomorrow in UTC,
+ *  and every record written in that window was rejected as being from the
+ *  future — 387 of them in one run. A date counts as future only when it is
+ *  ahead of both readings. */
+export function today(): string {
+  const now = new Date();
+  const utcDay = now.toISOString().slice(0, 10);
+  const localDay =
+    `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}-${String(now.getDate()).padStart(2, "0")}`;
+  return localDay > utcDay ? localDay : utcDay;
+}
+
 const SOURCE_KINDS = new Set(["brand-store", "brand-submitted", "marketplace-feed", "marketplace-api", "extension", "manual", "ocr"]);
 
 /** Check one attribute against its declared spec. Returns messages, never throws. */
@@ -144,7 +159,7 @@ export function validateRecord(
 
 export function validateAll(): Report {
   const schemas = loadDomainSchemas();
-  const state: State = { ids: new Map(), gtins: new Map(), keys: new Map(), today: new Date().toISOString().slice(0, 10) };
+  const state: State = { ids: new Map(), gtins: new Map(), keys: new Map(), today: today() };
   const errors: Finding[] = [], warnings: Finding[] = [];
   const files = productFiles();
   let count = 0;
