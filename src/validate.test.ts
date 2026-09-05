@@ -108,6 +108,22 @@ describe("category schemas", () => {
   });
 });
 
+describe("the identity floor", () => {
+  test("E11 rejects a barcode used as a name", () => {
+    assert.ok(codes(good({ name: "8901725004552" })).includes("E11"));
+  });
+  test("E11 rejects an emoji as a name", () => {
+    assert.ok(codes(good({ name: "⛑️" })).includes("E11"));
+  });
+  test("E11 rejects a numeric brand", () => {
+    assert.ok(codes(good({ brand: "1" })).includes("E11"));
+  });
+  test("an incomplete but identifiable record still passes", () => {
+    const r = good({ name: "Bourbon Biscuit", brand: "Britannia", attributes: {}, status: "candidate" });
+    assert.ok(!codes(r).includes("E11"));
+  });
+});
+
 describe("provenance", () => {
   test("E2 rejects a record with no sources", () => {
     assert.ok(codes(good({ sources: [] })).includes("E2"));

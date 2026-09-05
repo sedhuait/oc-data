@@ -115,6 +115,19 @@ export function validateRecord(
   if (ids.asin && !/^[A-Z0-9]{10}$/.test(ids.asin)) E("E9", `asin "${ids.asin}" is malformed`);
   if (ids.fsn && !/^[A-Z0-9]{16}$/.test(ids.fsn)) E("E9", `fsn "${ids.fsn}" is malformed`);
 
+  // E11 — the identity floor. A candidate is a record we published with a fact
+  // missing; it is still a record someone can recognise and finish. A record
+  // nobody can identify is not a gap, it is noise, and no contributor can ever
+  // fix it because they cannot tell what the product is.
+  const letters = [...(r.name ?? "")].filter((c) => /\p{L}/u.test(c)).length;
+  if (letters < 3)
+    E("E11", `name "${r.name}" does not identify a product — fewer than 3 letters. ` +
+             `A barcode or an emoji as a name is noise, not an incomplete record.`);
+  if (/^[\d\s\-]+$/.test(r.name ?? ""))
+    E("E11", `name "${r.name}" is a barcode, not a product name`);
+  if ((r.brand ?? "").trim().length < 2 || /^\d+$/.test((r.brand ?? "").trim()))
+    E("E11", `brand "${r.brand}" is not a brand`);
+
   const blob = JSON.stringify(r);
   for (const k of LIVE_FIELDS) if (blob.includes(`"${k}"`)) E("E10", `"${k}" is live data — it belongs in the service, not this repo`);
   if (AFFILIATE_RE.test(blob)) E("E10", "an affiliate tag or tracking parameter is in a URL; store clean canonical URLs");
