@@ -94,7 +94,14 @@ welcome to review.
 
 Data: [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/) — use it, including
 commercially. Attribute Open Catalogue, and if you publish a derived database, publish
-it open too. Scripts: MIT.
+it open too.
+
+Code: proprietary, all rights reserved. The crawlers, importers and validation rules
+are ours and are not licensed for reuse. They are readable so that the data can be
+audited — check how a fact was assembled, and tell us where we got it wrong. The data
+is the public good here; the machinery that produces it is not.
+
+Full terms in [LICENSE](LICENSE).
 
 If this project ever starts ranking, scoring or selling placement, fork this repo. It's
 why the data is here.
