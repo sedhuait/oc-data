@@ -1,0 +1,66 @@
+{
+ "counts": {
+  "documents_read": 10,
+  "dropped": 1,
+  "issuers_with_facts": 3,
+  "no_records": 4,
+  "nothing_found": 7
+ },
+ "generated": "2026-09-06",
+ "generator": "sources/mitc/parse_banded_fees.py",
+ "issuer_count": 3,
+ "issuers": [
+  {
+   "cards": 19,
+   "fields": {
+    "emi_processing_fee": {
+     "confidence": "extracted",
+     "label": "EMI Conversion Charges",
+     "quote": "Instant EMI: ₹ 199 + GST as Processing Fees on every EMI transaction done at any Point-of-Sale unit or through Payment Gateway Variant Fuel Surcharge waiver Altura, InstaPay, AU SPONT*, Upto ₹ 100 per statement month NOMO, AU KOSMO Altura Plus Upto ₹ 150 per statement month Vetta, ixigo AU, Traverse (NRI), Upto ₹ 250 p",
+     "value": "Instant EMI: ₹ 199 + GST as Processing Fees on every EMI transaction done at any Point-of-Sale unit or through Payment Gateway Variant Fuel Surcharge waiver Altura, InstaPay, AU SPONT*, Upto ₹ 100 per statement month NOMO, AU KOSMO Altura Plus Upto ₹ 150 per statement month Vetta, ixigo AU, Traverse (NRI), Upto ₹ 250 per statement month AU CA",
+     "why": "label/value row of the MITC, read at the gutter found from the page's own blank column"
+    }
+   },
+   "file_slug": "au-small-finance",
+   "issuer": "AU Small Finance Bank",
+   "mitc_sha": "bf84e9650426e9ea",
+   "mitc_url": "https://www.au.bank.in/pdf/credit-card/mitc-with-schedule-of-charges.pdf",
+   "slug": "au-small-finance-bank"
+  },
+  {
+   "cards": 7,
+   "fields": {
+    "late_payment_fee": {
+     "confidence": "extracted",
+     "label": "Late payment fee (Charged if minimum amount due does not reach HSBC within 3 days of payment due date",
+     "quote": "100% of the Minimum Payment Due (MPD) - Subject to a minimum of ₹250 and a maximum of ₹1,200 per month",
+     "value": "100% of the Minimum Payment Due (MPD) - Subject to a minimum of ₹250 and a maximum of ₹1,200 per month",
+     "why": "label/value row of the MITC, read at the gutter found from the page's own blank column"
+    }
+   },
+   "file_slug": "hsbc-india",
+   "issuer": "HSBC India",
+   "mitc_sha": "85e2f3ba3ca03caf",
+   "mitc_url": "https://www.hsbc.bank.in/content/dam/hsbc/in/documents/most-important-terms-and-conditions.pdf",
+   "slug": "hsbc-india"
+  },
+  {
+   "cards": 35,
+   "fields": {
+    "fuel_surcharge_waiver": {
+     "confidence": "extracted",
+     "label": "eLITE RuPay, Samman & IndusInd Bank Jio-bp Mobility+ Credit Card. Fuel Transactions",
+     "quote": "Effective 15th June 2026, 1% Fee + GST on cumulative fuel transactions exceeding: • ₹30,000 in a statement cycle for Platinum RuPay, Platinum, Platinum Aura Edge, Duo,",
+     "value": "Effective 15th June 2026, 1% Fee + GST on cumulative fuel transactions exceeding: • ₹30,000 in a statement cycle for Platinum RuPay, Platinum, Platinum Aura Edge, Duo,",
+     "why": "label/value row of the MITC, read at the gutter found from the page's own blank column"
+    }
+   },
+   "file_slug": "indusind-bank",
+   "issuer": "IndusInd Bank",
+   "mitc_sha": "889f7c7ac9247e79",
+   "mitc_url": "https://www.indusind.bank.in/content/dam/indusind-corporate/credit-cards/MITC_Premium.pdf",
+   "slug": "indusind-bank"
+  }
+ ],
+ "note": "PROPOSED issuer-level charges read from label/value tables in each MITC that parse_mitc.py's middle-seeking column splitter could not reach. Nothing here is a record yet. Banded fees are kept as the WHOLE clause, because picking one band out of 'INR 500 between 501 and 5,000; INR 750 between 5,001 and 10,000' would be picking one arbitrarily. Rows naming particular cards are not attached to the portfolio. Fees stay candidates until a person checks them."
+}

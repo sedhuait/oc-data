@@ -1,0 +1,330 @@
+{
+ "counts": {
+  "issuers_with_a_matrix": 1,
+  "issuers_without_records": 6,
+  "rows_found": 22,
+  "rows_matched": 4,
+  "rows_unmatched": 18
+ },
+ "generated": "2026-09-06",
+ "generator": "sources/mitc/parse_fee_matrix.py",
+ "note": "PROPOSED per-card fees read from the fee matrix in each issuer's MITC, by column position rather than by regex over flattened text. Nothing here is a record yet. A blank cell is left null; only an explicit Nil/Free becomes 0. A row that could not be matched to exactly one card is dropped rather than guessed, and every such row is listed in `unmatched` so the miss rate is visible. Fees are financial figures: they stay candidates until a person checks them against the PDF.",
+ "proposals": [
+  {
+   "card": "Unparalleled Privileges for a Life of Luxury Times Black Credit Card",
+   "fields": {
+    "addon_card_fee_inr": {
+     "cell": "3,500*****",
+     "confidence": "extracted",
+     "row": "Times Black ICICI Bank Credit Card",
+     "value": 3500,
+     "why": "addon_card_fee_inr column of the per-card fee matrix, read by column position"
+    },
+    "annual_fee_inr": {
+     "cell": "20,000",
+     "confidence": "extracted",
+     "row": "Times Black ICICI Bank Credit Card",
+     "value": 20000,
+     "why": "annual_fee_inr column of the per-card fee matrix, read by column position"
+    },
+    "joining_fee_inr": {
+     "cell": "20,000",
+     "confidence": "extracted",
+     "row": "Times Black ICICI Bank Credit Card",
+     "value": 20000,
+     "why": "joining_fee_inr column of the per-card fee matrix, read by column position"
+    }
+   },
+   "id": "oc_f99d440b2f5e",
+   "issuer": "ICICI Bank",
+   "mitc_checked": "2026-09-05",
+   "mitc_sha": "7727324c30b06d94",
+   "mitc_url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/mitc_cc.pdf",
+   "row": "Times Black ICICI Bank Credit Card",
+   "slug": "icici-bank"
+  },
+  {
+   "card": "Coral Credit Card",
+   "fields": {
+    "addon_card_fee_inr": {
+     "cell": "199",
+     "confidence": "extracted",
+     "row": "ICICI Bank Coral Credit Card",
+     "value": 199,
+     "why": "addon_card_fee_inr column of the per-card fee matrix, read by column position"
+    },
+    "annual_fee_inr": {
+     "cell": "500",
+     "confidence": "extracted",
+     "row": "ICICI Bank Coral Credit Card",
+     "value": 500,
+     "why": "annual_fee_inr column of the per-card fee matrix, read by column position"
+    },
+    "joining_fee_inr": {
+     "cell": "500",
+     "confidence": "extracted",
+     "row": "ICICI Bank Coral Credit Card",
+     "value": 500,
+     "why": "joining_fee_inr column of the per-card fee matrix, read by column position"
+    }
+   },
+   "id": "oc_92079a222d92",
+   "issuer": "ICICI Bank",
+   "mitc_checked": "2026-09-05",
+   "mitc_sha": "7727324c30b06d94",
+   "mitc_url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/mitc_cc.pdf",
+   "row": "ICICI Bank Coral Credit Card",
+   "slug": "icici-bank"
+  },
+  {
+   "card": "Cricket Enthusiasts Chennai Super Kings Credit Card",
+   "fields": {
+    "addon_card_fee_inr": {
+     "cell": "199",
+     "confidence": "extracted",
+     "row": "Chennai Super Kings ICICI Bank Credit Card",
+     "value": 199,
+     "why": "addon_card_fee_inr column of the per-card fee matrix, read by column position"
+    },
+    "annual_fee_inr": {
+     "cell": "500",
+     "confidence": "extracted",
+     "row": "Chennai Super Kings ICICI Bank Credit Card",
+     "value": 500,
+     "why": "annual_fee_inr column of the per-card fee matrix, read by column position"
+    },
+    "joining_fee_inr": {
+     "cell": "500",
+     "confidence": "extracted",
+     "row": "Chennai Super Kings ICICI Bank Credit Card",
+     "value": 500,
+     "why": "joining_fee_inr column of the per-card fee matrix, read by column position"
+    }
+   },
+   "id": "oc_81feeed7707a",
+   "issuer": "ICICI Bank",
+   "mitc_checked": "2026-09-05",
+   "mitc_sha": "7727324c30b06d94",
+   "mitc_url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/mitc_cc.pdf",
+   "row": "Chennai Super Kings ICICI Bank Credit Card",
+   "slug": "icici-bank"
+  },
+  {
+   "card": "Custom Design Credit Card Expression Credit Card",
+   "fields": {
+    "addon_card_fee_inr": {
+     "cell": "199",
+     "confidence": "extracted",
+     "row": "ICICI Bank Expressions Credit Card",
+     "value": 199,
+     "why": "addon_card_fee_inr column of the per-card fee matrix, read by column position"
+    },
+    "annual_fee_inr": {
+     "cell": "499",
+     "confidence": "extracted",
+     "row": "ICICI Bank Expressions Credit Card",
+     "value": 499,
+     "why": "annual_fee_inr column of the per-card fee matrix, read by column position"
+    },
+    "joining_fee_inr": {
+     "cell": "499",
+     "confidence": "extracted",
+     "row": "ICICI Bank Expressions Credit Card",
+     "value": 499,
+     "why": "joining_fee_inr column of the per-card fee matrix, read by column position"
+    }
+   },
+   "id": "oc_f8922bb2693b",
+   "issuer": "ICICI Bank",
+   "mitc_checked": "2026-09-05",
+   "mitc_sha": "7727324c30b06d94",
+   "mitc_url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/mitc_cc.pdf",
+   "row": "ICICI Bank Expressions Credit Card",
+   "slug": "icici-bank"
+  }
+ ],
+ "proposed_count": 4,
+ "unmatched": [
+  {
+   "cells": {
+    "addon_card_fee_inr": "Nil",
+    "annual_fee_inr": "12,000",
+    "fee_waiver_spend_inr": "10,00,000***",
+    "joining_fee_inr": "12,000"
+   },
+   "issuer": "ICICI Bank",
+   "row": "ICICI Bank Emeralde Private Credit Card"
+  },
+  {
+   "cells": {
+    "addon_card_fee_inr": "Nil",
+    "annual_fee_inr": "12,000",
+    "fee_waiver_spend_inr": "10,00,000***",
+    "joining_fee_inr": "12,000"
+   },
+   "issuer": "ICICI Bank",
+   "row": "ICICI Bank Emeralde Credit Card ICICI Bank Sapphiro Credit Card ICICI Bank Rubyx Credit Card"
+  },
+  {
+   "cells": {
+    "addon_card_fee_inr": "199",
+    "annual_fee_inr": "Nil",
+    "fee_waiver_spend_inr": "Nil",
+    "joining_fee_inr": "Nil"
+   },
+   "issuer": "ICICI Bank",
+   "row": "ICICI Bank Platinum Chip Credit Card"
+  },
+  {
+   "cells": {
+    "addon_card_fee_inr": "199",
+    "annual_fee_inr": "2,000",
+    "fee_waiver_spend_inr": "NA",
+    "joining_fee_inr": "25,000"
+   },
+   "issuer": "ICICI Bank",
+   "row": "ICICI Bank Signature Credit Card"
+  },
+  {
+   "cells": {
+    "addon_card_fee_inr": "199",
+    "annual_fee_inr": "1,000",
+    "fee_waiver_spend_inr": "NA",
+    "joining_fee_inr": "4,000"
+   },
+   "issuer": "ICICI Bank",
+   "row": "ICICI Bank Ascent American Express (R) Credit Card"
+  },
+  {
+   "cells": {
+    "addon_card_fee_inr": "199",
+    "annual_fee_inr": "750",
+    "fee_waiver_spend_inr": "NA",
+    "joining_fee_inr": "2,000"
+   },
+   "issuer": "ICICI Bank",
+   "row": "ICICI Bank Platinum Identity Credit Card"
+  },
+  {
+   "cells": {
+    "addon_card_fee_inr": "199",
+    "annual_fee_inr": "199",
+    "fee_waiver_spend_inr": "50,000*",
+    "joining_fee_inr": "199"
+   },
+   "issuer": "ICICI Bank",
+   "row": "ICICI Bank HPCL Platinum Credit Card / ICICI Bank HPCL Titanium Credit Card / ICICI Bank HPCL Coral Credit Card ICICI Bank HPCL Super Saver Credit Card"
+  },
+  {
+   "cells": {
+    "addon_card_fee_inr": "199",
+    "annual_fee_inr": "499",
+    "fee_waiver_spend_inr": "1,25,000*",
+    "joining_fee_inr": "499"
+   },
+   "issuer": "ICICI Bank",
+   "row": "Manchester United Platinum Credit Card"
+  },
+  {
+   "cells": {
+    "addon_card_fee_inr": "199",
+    "annual_fee_inr": "5,000",
+    "fee_waiver_spend_inr": "6,00,000*",
+    "joining_fee_inr": "5,000"
+   },
+   "issuer": "ICICI Bank",
+   "row": "Adani One ICICI Bank Signature Credit Card Adani One ICICI Bank Platinum Credit Card"
+  },
+  {
+   "cells": {
+    "addon_card_fee_inr": "199",
+    "annual_fee_inr": "299",
+    "fee_waiver_spend_inr": "50,000*",
+    "joining_fee_inr": "299"
+   },
+   "issuer": "ICICI Bank",
+   "row": "ICICI Bank Unifare Credit Card"
+  },
+  {
+   "cells": {
+    "addon_card_fee_inr": "199",
+    "annual_fee_inr": "500",
+    "fee_waiver_spend_inr": "1,50,000*",
+    "joining_fee_inr": "500"
+   },
+   "issuer": "ICICI Bank",
+   "row": "ICICI Bank Coral Credit Card against Fixed Deposit"
+  },
+  {
+   "cells": {
+    "addon_card_fee_inr": "199",
+    "annual_fee_inr": "Nil",
+    "fee_waiver_spend_inr": "NA",
+    "joining_fee_inr": "Nil"
+   },
+   "issuer": "ICICI Bank",
+   "row": "ICICI Bank Instant Platinum Credit Card"
+  },
+  {
+   "cells": {
+    "addon_card_fee_inr": "199",
+    "annual_fee_inr": "499",
+    "fee_waiver_spend_inr": "1,25,000*",
+    "joining_fee_inr": "499"
+   },
+   "issuer": "ICICI Bank",
+   "row": "Accelero ICICI Bank Credit Card"
+  },
+  {
+   "cells": {
+    "addon_card_fee_inr": "199",
+    "annual_fee_inr": "Nil",
+    "fee_waiver_spend_inr": "NA",
+    "joining_fee_inr": "500"
+   },
+   "issuer": "ICICI Bank",
+   "row": "MakeMyTrip ICICI Bank Platinum Credit Card"
+  },
+  {
+   "cells": {
+    "addon_card_fee_inr": "199",
+    "annual_fee_inr": "Nil",
+    "fee_waiver_spend_inr": "NA",
+    "joining_fee_inr": "2,500"
+   },
+   "issuer": "ICICI Bank",
+   "row": "MakeMyTrip ICICI Bank Signature Credit Card"
+  },
+  {
+   "cells": {
+    "addon_card_fee_inr": "199",
+    "annual_fee_inr": "Nil",
+    "fee_waiver_spend_inr": "NA",
+    "joining_fee_inr": "Nil"
+   },
+   "issuer": "ICICI Bank",
+   "row": "ICICI Bank Parakram Credit Card ICICI Bank Parakram Select Credit Card Emirates Skywards ICICI Bank Emerald Credit Card Emirates Skywards ICICI Bank Sapphiro Credit Card"
+  },
+  {
+   "cells": {
+    "addon_card_fee_inr": "199",
+    "annual_fee_inr": "1,000",
+    "fee_waiver_spend_inr": "NA",
+    "joining_fee_inr": "1,000"
+   },
+   "issuer": "ICICI Bank",
+   "row": "Emirates Skywards ICICI Bank Rubyx Credit Card"
+  },
+  {
+   "cells": {
+    "addon_card_fee_inr": "199",
+    "annual_fee_inr": "500",
+    "fee_waiver_spend_inr": "1,50,000***",
+    "joining_fee_inr": "1,000"
+   },
+   "issuer": "ICICI Bank",
+   "row": "ICICI Bank NRI Coral Credit Card ICICI Bank NRI Sapphiro Credit Card ICICI Bank Rubyx Credit Card against Fixed Deposit ICICI Bank Diamant World Mastercard Credit Card"
+  }
+ ],
+ "unmatched_count": 18
+}

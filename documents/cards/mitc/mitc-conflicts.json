@@ -1,0 +1,16 @@
+{
+ "conflicts": [
+  {
+   "card": "Cricket Enthusiasts Chennai Super Kings Credit Card",
+   "field": "annual_fee_inr",
+   "id": "oc_81feeed7707a",
+   "in_mitc": 500,
+   "in_record": 150000,
+   "mitc_cell": "500",
+   "mitc_url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/mitc_cc.pdf"
+  }
+ ],
+ "count": 1,
+ "generated": "2026-09-06",
+ "note": "Where a committed record disagrees with the issuer's MITC. NOTHING here was changed \u2014 the merge is add-only and these values were left exactly as they were. They are listed because a disagreement with the RBI-mandated document is a defect worth a person's attention, not something to silently overwrite."
+}

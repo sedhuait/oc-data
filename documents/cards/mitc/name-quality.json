@@ -1,0 +1,187 @@
+{
+ "by_issuer": {
+  "au-small-finance": {
+   "examples": [
+    "AU Zaggle Credit Card Spend Anywhere. Earn Everywhere. Credit Card",
+    "InstaPay RuPay Credit Card for UPI & QR Payments Credit Card",
+    "ixigo AU Credit Card India's Most Rewarding Travel Credit Card",
+    "Kosmo Credit Card Earn out-of-the-World Rewards Credit Card",
+    "Xcite Ace Credit Card Experience a World of Indulges & Cashbacks Credit Card",
+    "Xcite Credit Card A Great Gateway of Upgraded Experiences Credit Card"
+   ],
+   "ids": [
+    "oc_f8a7bf860db9",
+    "oc_513b8f436296",
+    "oc_766980689215",
+    "oc_9c111ec1b88e",
+    "oc_452503472067",
+    "oc_6c6441dedd2b",
+    "oc_d61a1e288308"
+   ],
+   "records": 19,
+   "suspect": 7
+  },
+  "axis-bank": {
+   "examples": [
+    "Airport Lounge Access Credit Card - Apply Instantly Credit Card",
+    "Atlas Credit Card - Apply or Axis Bank Atlas Credit Card",
+    "AURA Credit Card - Apply for Axis Bank AURA Credit Card Online Credit Card",
+    "Axis Bank Privilege Credit Card Lifetime Free Credit Card",
+    "Axis Bank Shoppers Stop Credit Card - Apply for Credit Card Online Credit Card",
+    "Dining Credit Card - Apply for Restaurant &amp; Food Offers Credit Card"
+   ],
+   "ids": [
+    "oc_86d894504dfd",
+    "oc_68ec1a07ea34",
+    "oc_072ba0f83d01",
+    "oc_13032c88e2b4",
+    "oc_15cb4d80ff0c",
+    "oc_b6aa27eaade1",
+    "oc_726ccd0b1039",
+    "oc_3942db9cc810",
+    "oc_0d03492c1ea6",
+    "oc_97cbf30d2a3d",
+    "oc_d4e1ebbdd76a",
+    "oc_288ee47649ab",
+    "oc_60343334f457",
+    "oc_08ec2bcfcad6"
+   ],
+   "records": 48,
+   "suspect": 14
+  },
+  "icici-bank": {
+   "examples": [
+    "Attractive MakeMyTrip Benefits MakeMyTrip Platinum Credit Card",
+    "Automobile Associated Benefits HPCL Coral Credit Card",
+    "Block Card",
+    "Card Cancellation Credit Card",
+    "Credit limit Increase Credit Card",
+    "Cricket Enthusiasts Chennai Super Kings Credit Card"
+   ],
+   "ids": [
+    "oc_8d82dc2e7238",
+    "oc_fb4fbf461119",
+    "oc_ff742c866ef2",
+    "oc_946ee5a732d7",
+    "oc_48510bc7d5b9",
+    "oc_81feeed7707a",
+    "oc_f8922bb2693b",
+    "oc_0ec22341b63a",
+    "oc_57b0f8cb6f91",
+    "oc_43d75ba5baae",
+    "oc_dd8c11cedaac",
+    "oc_5f90712ab52d",
+    "oc_976982960374",
+    "oc_11ee2df430c1",
+    "oc_4510f4fdcbff",
+    "oc_62365e4236b8",
+    "oc_c2cad53e9230",
+    "oc_7c40a313ea00",
+    "oc_0cc303967162",
+    "oc_48390ea8f815",
+    "oc_ecf815253390",
+    "oc_7400e8f47baf",
+    "oc_5963c20485b6",
+    "oc_520e8b96415d",
+    "oc_17a7d1c51a6f",
+    "oc_cf7ce3cd5945",
+    "oc_f99d440b2f5e",
+    "oc_cf9dfea9dbd1"
+   ],
+   "records": 32,
+   "suspect": 28
+  },
+  "idfc-first-bank": {
+   "examples": [
+    "FD Credit Card - Apply for Credit card against FD Instantly Credit Card",
+    "Lifetime Free Credit Card with No Joining &amp; Annual Fees Credit Card",
+    "Micro Enterprise Credit Card for Business Owners Credit Card",
+    "Steps to follow if your Credit Card is lost or stolen Credit Card",
+    "Top 10 Benefits and Uses of Credit Card",
+    "What is Contactless Payment - How it Works and Advantages Credit Card"
+   ],
+   "ids": [
+    "oc_930072fe60c9",
+    "oc_8a062ec09fca",
+    "oc_88e5c62ae025",
+    "oc_64bab573222d",
+    "oc_0ae74d921ead",
+    "oc_564c7d88a9f1",
+    "oc_be5e8c2c987d"
+   ],
+   "records": 19,
+   "suspect": 7
+  },
+  "indusind-bank": {
+   "examples": [
+    "Club Vistara Explorer Credit Card (Discontinued) Credit Card",
+    "InterMiles Odyssey Amex Credit Card (Discontinued) Credit Card",
+    "InterMiles Odyssey Visa Credit Card (Discontinued) Credit Card",
+    "InterMiles Voyage Amex Credit Card (Discontinued) Credit Card",
+    "Intermiles Voyage Visa Credit Card (Discontinued) Credit Card",
+    "Platinum Aura Edge Credit Card Exclusively for Government Sector Emplo Credit Card"
+   ],
+   "ids": [
+    "oc_686d00cfce0d",
+    "oc_3dddadb43966",
+    "oc_643170354acf",
+    "oc_269e7940098f",
+    "oc_c24fbe7adff5",
+    "oc_0f867bdf9fdd"
+   ],
+   "records": 35,
+   "suspect": 6
+  },
+  "kotak-mahindra": {
+   "examples": [
+    "10 Best Smartphones Under \u20b915,000 in 2026 - No-Cost EMI Credit Card",
+    "10 Best Smartphones Under \u20b925,000 in 2026 - No-Cost EMI Credit Card",
+    "Best Credit Cards in India in 2025 Credit Card",
+    "Kotak Business Credit Cards \u2013 Tailored Solutions for Professiona Credit Card",
+    "Top Premium Credit Cards in India Credit Card"
+   ],
+   "ids": [
+    "oc_39a778c56701",
+    "oc_0e6c7c9e28b4",
+    "oc_8b4d422105fe",
+    "oc_401ac225dae5",
+    "oc_af755c26fed3"
+   ],
+   "records": 16,
+   "suspect": 5
+  },
+  "rbl-bank": {
+   "examples": [
+    "Cookies Credit Card - Apply for Cookies Card Online Credit Card",
+    "Platinum Maxima Plus Credit Card - Apply for Platinum Maxima Plus Card",
+    "RBL Bank Icon Credit Card - Credit Card"
+   ],
+   "ids": [
+    "oc_a2f2329c8359",
+    "oc_1727e440b0ba",
+    "oc_216a1303064f"
+   ],
+   "records": 4,
+   "suspect": 3
+  },
+  "standard-chartered": {
+   "examples": [
+    "Beyond Credit Card \u2013 Unlimited Lounge Access, Dining &amp; Golf Privil Credit Card",
+    "DigiSmart Card \u2013 Best Online Shopping Credit Card \u2013 Standard Chartered Credit Card",
+    "Super Value Titanium \u2013 Best Fuel Credit Card \u2013 Standard Chartered Indi Credit Card"
+   ],
+   "ids": [
+    "oc_46b7cbcf5211",
+    "oc_fa6b9cf75ba9",
+    "oc_645be3473a86"
+   ],
+   "records": 12,
+   "suspect": 3
+  }
+ },
+ "count": 73,
+ "finding": "Card NAMES scraped from issuer web pages, not card names. These records carry marketing copy or site navigation labels where the card's name should be: 'Unparalleled Privileges for a Life of Luxury Times Black', 'Rewards on Everyday Spends Platinum Chip', 'EMI Calculator Credit Card', 'LIST OF BRANCHES Credit Card'.",
+ "generated": "2026-09-06",
+ "what_was_NOT_done": "Nothing was renamed or deleted. Fixing this needs a human decision about superseded_by: mint the correct record, point the old one at it, and leave both. That is a records decision, not a parser one.",
+ "why_it_matters": "The card id is minted from the name (mintId(brand, name)), so these cannot simply be renamed \u2014 a corrected name is a different id, and ids are never changed. It also blocks enrichment: an issuer's MITC fee table names the card 'ICICI Bank Coral Credit Card', and matching that to a record called 'Automobile Associated Benefits HPCL Coral Credit Card' is guesswork. sources/mitc/parse_fee_matrix.py refuses to guess, which is why its match rate against ICICI is 4 of 22 rows."
+}
