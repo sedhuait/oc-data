@@ -1,0 +1,1169 @@
+{
+ "checked": "2026-09-06",
+ "note": "Proposed by parse_charges.py from the mirrored schedules of charges. Every value carries the sentence it was read from. Nothing here is a record until a human has read it and run --apply; even then every record is a candidate, because every fact here is financial.",
+ "products": [
+  {
+   "product": "Advantage Woman Savings Account",
+   "file": "advantage-woman-savings-account.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "Cross-currency mark-up 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    },
+    "issue_fee_inr": {
+     "value": 0,
+     "quote": "Nil",
+     "why": "the document states the card is issued free",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "the only figure is a footnote qualifying a subset of holders (\"Minimum monthly Rs. 10,000 Not applicable subject to standalone FD of minimum Rs. 50,000 under the same custom\") — not the requirement for this product today",
+    "annual_fee_inr": "the annual fee is stated per location tier ([150, 300] across ['gramin']) — different facts about different holders, so it stays null"
+   }
+  },
+  {
+   "product": "Asset Linked Savings Account",
+   "file": "asset-linked-savings-account.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "Cross-currency mark-up 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    },
+    "issue_fee_inr": {
+     "value": 0,
+     "quote": "Nil",
+     "why": "the document states the card is issued free",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "no minimum-balance row found in this document",
+    "annual_fee_inr": "the annual fee is stated per location tier ([150, 300] across ['gramin']) — different facts about different holders, so it stays null"
+   }
+  },
+  {
+   "product": "AURA Savings Account",
+   "file": "aura-savings-account.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "Cross-currency mark-up charges on 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    },
+    "issue_fee_inr": {
+     "value": 0,
+     "quote": "Nil",
+     "why": "the document states the card is issued free",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "no minimum-balance row found in this document",
+    "annual_fee_inr": "the annual fee is stated per location tier ([150, 300] across ['gramin']) — different facts about different holders, so it stays null"
+   }
+  },
+  {
+   "product": "Bank@Campus Account",
+   "file": "bank-campus-account.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "atm_free_txns_other_bank": {
+     "value": 5,
+     "quote": "Maximum of 5 transactions free in a month, across locations, with a cap of 3 transactions at 6 metro locations",
+     "why": "other banks' ATMs: stated as a monthly free count across locations (a lower metro sub-cap applies within it, see the quote)",
+     "page": null
+    },
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "Cross-currency mark-up 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    },
+    "issue_fee_inr": {
+     "value": 0,
+     "quote": "Nil",
+     "why": "the document states the card is issued free",
+     "page": null
+    },
+    "annual_fee_inr": {
+     "value": 0,
+     "quote": " Nil ",
+     "why": "the document states no annual fee for this card",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "no minimum-balance row found in this document"
+   }
+  },
+  {
+   "product": "Basic Savings Bank Deposit Account",
+   "file": "basic-savings-bank-deposit-account-socs.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "Cross - currency mark - up 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    },
+    "issue_fee_inr": {
+     "value": 0,
+     "quote": "Nil",
+     "why": "the document states the card is issued free",
+     "page": null
+    },
+    "annual_fee_inr": {
+     "value": 0,
+     "quote": " Nil ",
+     "why": "the document states no annual fee for this card",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "no minimum-balance row found in this document"
+   }
+  },
+  {
+   "product": "Salary Account for Visually Impaired",
+   "file": "blind-salary-account.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "min_balance_inr": {
+     "value": 0,
+     "quote": " is the simple NIL ",
+     "why": "the document states the account carries no minimum balance",
+     "page": null
+    },
+    "atm_free_txns_other_bank": {
+     "value": 5,
+     "quote": "Maximum of 5 transactions free in a month, across locations, 2025) with a cap of 3 transactions at 6 metro lo",
+     "why": "other banks' ATMs: stated as a monthly free count across locations (a lower metro sub-cap applies within it, see the quote)",
+     "page": null
+    }
+   },
+   "refused": {}
+  },
+  {
+   "product": "Savings Account",
+   "file": "blind-visually-impaired-incapacitated-savings-account-socs.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "Cross-currency mark-up 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    },
+    "issue_fee_inr": {
+     "value": 0,
+     "quote": "Nil",
+     "why": "the document states the card is issued free",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "no unambiguous amount in the balance row (\"Eligibility Resident Indian, >18yrs Nil average of day-end \")",
+    "annual_fee_inr": "the annual fee is stated per location tier ([150, 300] across ['gramin']) — different facts about different holders, so it stays null"
+   }
+  },
+  {
+   "product": "Broking / I Direct linked Savings Account",
+   "file": "broking-idirect-linked-savings-account.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "Cross-currency mark-up 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    },
+    "issue_fee_inr": {
+     "value": 0,
+     "quote": "Nil",
+     "why": "the document states the card is issued free",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "no minimum-balance row found in this document",
+    "annual_fee_inr": "the annual fee is stated per location tier ([150, 300] across ['gramin']) — different facts about different holders, so it stays null"
+   }
+  },
+  {
+   "product": "Campus Power Account",
+   "file": "campus-power-account-service-charges.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "min_balance_inr": {
+     "value": 0,
+     "quote": "Minimum monthly Nil ",
+     "why": "the document states the account carries no minimum balance",
+     "page": null
+    },
+    "atm_free_txns_other_bank": {
+     "value": 5,
+     "quote": "Maximum of 5 transactions free in a month, across locations, with July 2025) a cap of 3 transactions at 6 metro locatio",
+     "why": "other banks' ATMs: stated as a monthly free count across locations (a lower metro sub-cap applies within it, see the quote)",
+     "page": null
+    },
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "Cross - currency mark - up 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    },
+    "issue_fee_inr": {
+     "value": 0,
+     "quote": "Nil",
+     "why": "the document states the card is issued free",
+     "page": null
+    }
+   },
+   "refused": {
+    "annual_fee_inr": "the annual fee is stated per location tier ([150, 300] across ['gramin']) — different facts about different holders, so it stays null"
+   }
+  },
+  {
+   "product": "Savings Account",
+   "file": "campus-power-account.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {},
+   "refused": {
+    "min_balance_inr": "no minimum-balance row found in this document",
+    "annual_fee_inr": "the annual fee is stated per location tier ([3, 150] across ['gramin']) — different facts about different holders, so it stays null"
+   }
+  },
+  {
+   "product": "Defence Salary Account",
+   "file": "defence-salary-account-service-charges.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "min_balance_inr": {
+     "value": 0,
+     "quote": " Zero ",
+     "why": "the document states the account carries no minimum balance",
+     "page": null
+    },
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "Cross-currency mark-up charges on foreign 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    },
+    "annual_fee_inr": {
+     "value": 0,
+     "quote": " NIL ",
+     "why": "the document states no annual fee for this card",
+     "page": null
+    }
+   },
+   "refused": {}
+  },
+  {
+   "product": "Easy Receive Account",
+   "file": "easy-receive-savings-account.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "Cross-currency mark-up 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    },
+    "issue_fee_inr": {
+     "value": 0,
+     "quote": "Nil",
+     "why": "the document states the card is issued free",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "no minimum-balance row found in this document",
+    "annual_fee_inr": "the annual fee is stated per location tier ([150, 300] across ['gramin']) — different facts about different holders, so it stays null"
+   }
+  },
+  {
+   "product": "Family 360 Banking",
+   "file": "family-360-banking-service-charges1.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "min_balance_inr": {
+     "value": 0,
+     "quote": " Zero ",
+     "why": "the document states the account carries no minimum balance",
+     "page": null
+    }
+   },
+   "refused": {}
+  },
+  {
+   "product": "Family 360 Banking",
+   "file": "family-360-banking-socs-01.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "atm_free_txns_other_bank": {
+     "value": 5,
+     "quote": "Maximum of 5 transactions free in a month, across locations, 2025) with a cap of 3 transactions at 6 metr",
+     "why": "other banks' ATMs: stated as a monthly free count across locations (a lower metro sub-cap applies within it, see the quote)",
+     "page": null
+    },
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "Cross - currency mark - up 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    },
+    "issue_fee_inr": {
+     "value": 0,
+     "quote": "Nil",
+     "why": "the document states the card is issued free",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "the row states no balance requirement, only a penalty or an alternative threshold (\" SAVINGS ACCOUNT SCHEDULE OF CHARGES Threshold Relationship of Rs. 1 lakh value Or Refer Annexure 1 for thresh\")",
+    "annual_fee_inr": "the annual fee is stated per location tier ([150, 300] across ['gramin']) — different facts about different holders, so it stays null"
+   }
+  },
+  {
+   "product": "Family Account of Salaried Customers",
+   "file": "family-account-of-salary-account-holders.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "atm_free_txns_other_bank": {
+     "value": 5,
+     "quote": "Maximum of 5 transactions free in a month, across locations, with a cap of 3 transactions at 6 metro locatio",
+     "why": "other banks' ATMs: stated as a monthly free count across locations (a lower metro sub-cap applies within it, see the quote)",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "no minimum-balance row found in this document",
+    "annual_fee_inr": "the annual fee is stated per location tier ([150, 300] across ['gramin']) — different facts about different holders, so it stays null"
+   }
+  },
+  {
+   "product": "Freedom Savings Account",
+   "file": "freedom-savings-account.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "Cross-currency mark-up 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    },
+    "issue_fee_inr": {
+     "value": 0,
+     "quote": "Nil",
+     "why": "the document states the card is issued free",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "no minimum-balance row found in this document",
+    "annual_fee_inr": "the annual fee is stated per location tier ([150, 300] across ['gramin']) — different facts about different holders, so it stays null"
+   }
+  },
+  {
+   "product": "Gold Salary Account",
+   "file": "gold-salary-account-service-charges2.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "min_balance_inr": {
+     "value": 0,
+     "quote": " Zero All salaried employees of eligible companies based on Product",
+     "why": "the document states the account carries no minimum balance",
+     "page": null
+    },
+    "atm_free_txns_other_bank": {
+     "value": 5,
+     "quote": "Maximum of 5 transactions free in a month, across locations, with a cap of 3 transactions at 6 metro locations",
+     "why": "other banks' ATMs: stated as a monthly free count across locations (a lower metro sub-cap applies within it, see the quote)",
+     "page": null
+    }
+   },
+   "refused": {}
+  },
+  {
+   "product": "Gold Savings Account",
+   "file": "gold-savings-account.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "atm_free_txns_other_bank": {
+     "value": 5,
+     "quote": "Maximum of 5 transactions free in a month, across locations, with a cap of 3 transactions at 6 metro locations",
+     "why": "other banks' ATMs: stated as a monthly free count across locations (a lower metro sub-cap applies within it, see the quote)",
+     "page": null
+    },
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "Cross - currency mark - up 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    },
+    "issue_fee_inr": {
+     "value": 0,
+     "quote": "Nil",
+     "why": "the document states the card is issued free",
+     "page": null
+    },
+    "annual_fee_inr": {
+     "value": 0,
+     "quote": " Nil ",
+     "why": "the document states no annual fee for this card",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "no minimum-balance row found in this document"
+   }
+  },
+  {
+   "product": "ICICI Bank BizSavings Account",
+   "file": "icici-bank-bizsavings-account.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "atm_free_txns_other_bank": {
+     "value": 5,
+     "quote": "Maximum of 5 transactions free in a month, across locations, 1st July 2025) with a cap of 3 transactions at 6 metro locations",
+     "why": "other banks' ATMs: stated as a monthly free count across locations (a lower metro sub-cap applies within it, see the quote)",
+     "page": null
+    },
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "Cross-currency mark-up 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    },
+    "issue_fee_inr": {
+     "value": 0,
+     "quote": "Nil",
+     "why": "the document states the card is issued free",
+     "page": null
+    },
+    "annual_fee_inr": {
+     "value": 0,
+     "quote": " Nil ",
+     "why": "the document states no annual fee for this card",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "the document gives 3 different amounts ([100000, 500000, 1500000]) for tiers/variants unnamed — these are different facts about different variants, so this stays null"
+   }
+  },
+  {
+   "product": "Insta Save Premium Saving Account",
+   "file": "insta-save-premium-savings-account.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "Cross-currency mark-up 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    },
+    "issue_fee_inr": {
+     "value": 0,
+     "quote": "Nil",
+     "why": "the document states the card is issued free",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "no minimum-balance row found in this document",
+    "annual_fee_inr": "the annual fee is stated per location tier ([150, 300] across ['gramin']) — different facts about different holders, so it stays null"
+   }
+  },
+  {
+   "product": "Savings Account",
+   "file": "iterate-savings-account-socs.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "Cross - currency mark - up 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    },
+    "issue_fee_inr": {
+     "value": 0,
+     "quote": "Nil",
+     "why": "the document states the card is issued free",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "no minimum-balance row found in this document",
+    "annual_fee_inr": "the annual fee is stated per location tier ([150, 300] across ['gramin']) — different facts about different holders, so it stays null"
+   }
+  },
+  {
+   "product": "Minor Family Banking Account",
+   "file": "kide-family-banking-service-charges.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "min_balance_inr": {
+     "value": 0,
+     "quote": "Minimum monthly NIL ",
+     "why": "the document states the account carries no minimum balance",
+     "page": null
+    }
+   },
+   "refused": {}
+  },
+  {
+   "product": "No Frills Account",
+   "file": "no-frills-account.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "Cross-currency mark-up 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    },
+    "issue_fee_inr": {
+     "value": 0,
+     "quote": "Nil",
+     "why": "the document states the card is issued free",
+     "page": null
+    },
+    "annual_fee_inr": {
+     "value": 0,
+     "quote": " Nil ",
+     "why": "the document states no annual fee for this card",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "no minimum-balance row found in this document"
+   }
+  },
+  {
+   "product": "Pension Account",
+   "file": "pension-accounts-service-charges.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "min_balance_inr": {
+     "value": 0,
+     "quote": "Minimum monthly Nil Nil is thesimple ",
+     "why": "the document states the account carries no minimum balance",
+     "page": null
+    },
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "Cross-currency mark-up 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    },
+    "issue_fee_inr": {
+     "value": 0,
+     "quote": "Nil",
+     "why": "the document states the card is issued free",
+     "page": null
+    }
+   },
+   "refused": {
+    "annual_fee_inr": "the annual fee is stated per location tier ([150, 300] across ['gramin']) — different facts about different holders, so it stays null"
+   }
+  },
+  {
+   "product": "Power Pay Account",
+   "file": "power-pay-account-service-charges-6.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "min_balance_inr": {
+     "value": 0,
+     "quote": " Zero All salaried employees of eligible companies based on Product",
+     "why": "the document states the account carries no minimum balance",
+     "page": null
+    }
+   },
+   "refused": {}
+  },
+  {
+   "product": "Privilege Accounts - Advantage Woman Savings Account",
+   "file": "privilege-accounts-advantage-woman-sa.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "Cross-currency mark-up 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    },
+    "issue_fee_inr": {
+     "value": 0,
+     "quote": "Nil",
+     "why": "the document states the card is issued free",
+     "page": null
+    },
+    "annual_fee_inr": {
+     "value": 0,
+     "quote": " Nil ",
+     "why": "the document states no annual fee for this card",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "the balance is stated as a conditional waiver (\"Minimum monthly Rs. 50,000 Rs. 125,000 requirement waived requirement waived subject to FD of min Rs.2.5 subje\") — the requirement and the escape from it are different numbers, so neither is written"
+   }
+  },
+  {
+   "product": "Privilege Accounts Young Star Smart Star",
+   "file": "privilege-accounts-young-star-smart-star.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "atm_free_txns_other_bank": {
+     "value": 5,
+     "quote": "Maximum of 5 transactions free in a month, across locations, with a cap of 3 transactions at 6 metro locations",
+     "why": "other banks' ATMs: stated as a monthly free count across locations (a lower metro sub-cap applies within it, see the quote)",
+     "page": null
+    },
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "Cross-currency mark-up 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    },
+    "issue_fee_inr": {
+     "value": 0,
+     "quote": "Nil",
+     "why": "the document states the card is issued free",
+     "page": null
+    },
+    "annual_fee_inr": {
+     "value": 0,
+     "quote": " Nil ",
+     "why": "the document states no annual fee for this card",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "no minimum-balance row found in this document"
+   }
+  },
+  {
+   "product": "Privilege Banking Accounts Non Senior Citizen",
+   "file": "privilege-banking-accounts-non-senior-citizen.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "Cross-currency mark-up 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    },
+    "issue_fee_inr": {
+     "value": 0,
+     "quote": "Nil",
+     "why": "the document states the card is issued free",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "no minimum-balance row found in this document",
+    "annual_fee_inr": "the annual fee is stated per location tier ([150, 300] across ['gramin']) — different facts about different holders, so it stays null"
+   }
+  },
+  {
+   "product": "Privilege Banking Accounts Senior Citizens",
+   "file": "privilege-banking-accounts-senior-citizens.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "Cross - currency mark - up 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    },
+    "issue_fee_inr": {
+     "value": 0,
+     "quote": "Nil",
+     "why": "the document states the card is issued free",
+     "page": null
+    },
+    "annual_fee_inr": {
+     "value": 0,
+     "quote": " Nil ",
+     "why": "the document states no annual fee for this card",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "the balance is stated as a conditional waiver (\"Minimum monthly Rs.10,000 Rs. 50,000 Rs. 1,25,000 requirement requirement is the waived subject to FD waived s\") — the requirement and the escape from it are different numbers, so neither is written"
+   }
+  },
+  {
+   "product": "Regular Salary Account",
+   "file": "regular-salary-account-service-charges3.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "min_balance_inr": {
+     "value": 0,
+     "quote": " Zero All salaried employees of eligible companies based on Product",
+     "why": "the document states the account carries no minimum balance",
+     "page": null
+    },
+    "atm_free_txns_other_bank": {
+     "value": 5,
+     "quote": "Maximum of 5 transactions free in a month, across locations, with a cap of 3 transactions at 6 metro loca",
+     "why": "other banks' ATMs: stated as a monthly free count across locations (a lower metro sub-cap applies within it, see the quote)",
+     "page": null
+    }
+   },
+   "refused": {}
+  },
+  {
+   "product": "Regular Savings Account",
+   "file": "regular-savings-account-discontinue.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "Cross - currency mark - up 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    },
+    "issue_fee_inr": {
+     "value": 0,
+     "quote": "Nil",
+     "why": "the document states the card is issued free",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "the only figure is a footnote qualifying a subset of holders (\"Eligibility Resident Indian, >18yrs Rural locations - Rs. 2,000 average Gramin locations - Rs. 1,000 of day - \") — not the requirement for this product today",
+    "annual_fee_inr": "the annual fee is stated per location tier ([150, 300] across ['gramin']) — different facts about different holders, so it stays null"
+   }
+  },
+  {
+   "product": "Regular Savings Account",
+   "file": "regular-savings-account-socs.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "atm_free_txns_other_bank": {
+     "value": 5,
+     "quote": "Maximum of 5 transactions free in a month, across locations, with a cap of 3 transactions at 6 metro locat",
+     "why": "other banks' ATMs: stated as a monthly free count across locations (a lower metro sub-cap applies within it, see the quote)",
+     "page": null
+    },
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "Cross - currency mark - up 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    },
+    "issue_fee_inr": {
+     "value": 0,
+     "quote": "Nil",
+     "why": "the document states the card is issued free",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "no minimum-balance row found in this document",
+    "annual_fee_inr": "the annual fee is stated per location tier ([150, 300] across ['gramin']) — different facts about different holders, so it stays null"
+   }
+  },
+  {
+   "product": "Salute Doctors Accounts",
+   "file": "salute-doctors-accounts.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "Cross-currency mark-up 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    },
+    "issue_fee_inr": {
+     "value": 0,
+     "quote": "Nil",
+     "why": "the document states the card is issued free",
+     "page": null
+    },
+    "annual_fee_inr": {
+     "value": 0,
+     "quote": " Nil ",
+     "why": "the document states no annual fee for this card",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "the document gives 3 different amounts ([500000, 1500000, 2500000]) for tiers/variants unnamed — these are different facts about different variants, so this stays null"
+   }
+  },
+  {
+   "product": "Savings Account",
+   "file": "savings-account.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "atm_free_txns_other_bank": {
+     "value": 5,
+     "quote": "Maximum of 5 transactions free in a month, across locations, with a cap of 3 transactions at 6 ",
+     "why": "other banks' ATMs: stated as a monthly free count across locations (a lower metro sub-cap applies within it, see the quote)",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "no minimum-balance row found in this document",
+    "annual_fee_inr": "the annual fee is stated per location tier ([3, 150] across ['gramin']) — different facts about different holders, so it stays null"
+   }
+  },
+  {
+   "product": "Savings Accounts Linked To Family Id",
+   "file": "savings-accounts-linked-to-family-id.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "Cross-currency mark-up charges on 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    },
+    "issue_fee_inr": {
+     "value": 0,
+     "quote": "Nil",
+     "why": "the document states the card is issued free",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "the balance is stated as a conditional waiver (\" Minimum monthly Rs. 20,000 Rs. 30,000 Rs. 50,000 Rs. 1,00,000 Rs. 1,00,000 Rs. 2,00,000 requirement requireme\") — the requirement and the escape from it are different numbers, so neither is written",
+    "annual_fee_inr": "the annual fee is stated per location tier ([150, 300] across ['gramin']) — different facts about different holders, so it stays null"
+   }
+  },
+  {
+   "product": "Senior Citizen Savings Account",
+   "file": "senior-citizen-regular-savings-account-socs.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "Cross - currency mark - up 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    },
+    "issue_fee_inr": {
+     "value": 0,
+     "quote": "Nil",
+     "why": "the document states the card is issued free",
+     "page": null
+    },
+    "annual_fee_inr": {
+     "value": 0,
+     "quote": " Nil ",
+     "why": "the document states no annual fee for this card",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "the only figure is a footnote qualifying a subset of holders (\"Minimum monthly Rs.4 ,50 0 Not applicable subject to standalone FD of min imum Rs 10 ,000 under the same Custo\") — not the requirement for this product today"
+   }
+  },
+  {
+   "product": "Savings Account",
+   "file": "senior-savings-account.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {},
+   "refused": {
+    "min_balance_inr": "the document gives 2 different amounts ([15, 7500]) for tiers/variants ['metro', 'rural', 'semi - urban', 'urban'] — these are different facts about different variants, so this stays null"
+   }
+  },
+  {
+   "product": "Silver Salary Account",
+   "file": "silver-salary-account-service-charges4.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "atm_free_txns_other_bank": {
+     "value": 5,
+     "quote": "Maximum of 5 transactions free in a month, across locations, with a cap of 3 transactions at 6 metro locatio",
+     "why": "other banks' ATMs: stated as a monthly free count across locations (a lower metro sub-cap applies within it, see the quote)",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "the row states both a nil and an amount (\" Zero Rs.10,000 All salaried employees of eligible companies based on Product\") — that is a variant table, so neither is written"
+   }
+  },
+  {
+   "product": "Silver Savings Account",
+   "file": "silver-savings-account.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "Cross - currency mark - up 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    },
+    "issue_fee_inr": {
+     "value": 0,
+     "quote": "Nil",
+     "why": "the document states the card is issued free",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "no minimum-balance row found in this document",
+    "annual_fee_inr": "the annual fee is stated per location tier ([150, 300] across ['gramin']) — different facts about different holders, so it stays null"
+   }
+  },
+  {
+   "product": "Smart Star Account",
+   "file": "smart-star-account-service-charges-for-regular-without-guardian-consent.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "Cross-currency mark-up 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    },
+    "issue_fee_inr": {
+     "value": 0,
+     "quote": "Nil",
+     "why": "the document states the card is issued free",
+     "page": null
+    },
+    "annual_fee_inr": {
+     "value": 0,
+     "quote": " Nil ",
+     "why": "the document states no annual fee for this card",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "no minimum-balance row found in this document"
+   }
+  },
+  {
+   "product": "Smart Star Account",
+   "file": "smart-star-account-service-charges.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "atm_free_txns_other_bank": {
+     "value": 5,
+     "quote": "Maximum of 5 transactions free in a month, across locations, with a July 2025) cap of 3 transactions at 6 metro loc",
+     "why": "other banks' ATMs: stated as a monthly free count across locations (a lower metro sub-cap applies within it, see the quote)",
+     "page": null
+    },
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "Cross-currency mark-up 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    },
+    "issue_fee_inr": {
+     "value": 0,
+     "quote": "Nil",
+     "why": "the document states the card is issued free",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "no minimum-balance row found in this document",
+    "annual_fee_inr": "the annual fee is stated per location tier ([99, 200] across ['gramin']) — different facts about different holders, so it stays null"
+   }
+  },
+  {
+   "product": "Unfunded Regular Salary Account",
+   "file": "soc-for-unfunded-regular-salary-account.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "atm_free_txns_other_bank": {
+     "value": 5,
+     "quote": "Maximum of 5 transactions free in a month, across locations, with a 2025) cap of 3 transactions at 6 metro ",
+     "why": "other banks' ATMs: stated as a monthly free count across locations (a lower metro sub-cap applies within it, see the quote)",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "the document gives 2 different amounts ([5000, 10000]) for tiers/variants ['metro', 'semi - urban', 'urban'] — these are different facts about different variants, so this stays null"
+   }
+  },
+  {
+   "product": "Unfunded Salary Account",
+   "file": "soc-for-unfunded-salary-account.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "min_balance_inr": {
+     "value": 0,
+     "quote": " Nil Salary Accounts will be changed to Unfunded Salary Accounts if salary is",
+     "why": "the document states the account carries no minimum balance",
+     "page": null
+    },
+    "annual_fee_inr": {
+     "value": 0,
+     "quote": " Nil Cheque book charges (With effect from 1st Nil March 2026) Transactions at ICICI Bank ",
+     "why": "the document states no annual fee for this card",
+     "page": null
+    }
+   },
+   "refused": {}
+  },
+  {
+   "product": "Select Banking Salary Account",
+   "file": "soc-select-banking-salary-account.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "min_balance_inr": {
+     "value": 0,
+     "quote": " Zero ",
+     "why": "the document states the account carries no minimum balance",
+     "page": null
+    }
+   },
+   "refused": {}
+  },
+  {
+   "product": "The ONE Savings Account",
+   "file": "the-one-savings-account.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "Cross-currency mark-up 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    },
+    "issue_fee_inr": {
+     "value": 0,
+     "quote": "Nil",
+     "why": "the document states the card is issued free",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "the row states no balance requirement, only a penalty or an alternative threshold (\" Magnum Titanium of Rs. 2,00,000 of Rs. 1,00,000 Locker charges 30% discount 40% discount Daily ATM Rs. 1,00,0\")",
+    "annual_fee_inr": "the annual fee is stated per location tier ([150, 300] across ['gramin']) — different facts about different holders, so it stays null"
+   }
+  },
+  {
+   "product": "Titanium Salary Account",
+   "file": "titanium-salary-account-service-charges5.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "min_balance_inr": {
+     "value": 0,
+     "quote": " Zero ",
+     "why": "the document states the account carries no minimum balance",
+     "page": null
+    }
+   },
+   "refused": {}
+  },
+  {
+   "product": "Wealth Management Private Banking",
+   "file": "wealth-management-private-banking-service-charges.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "atm_free_txns_other_bank": {
+     "value": 5,
+     "quote": "Maximum of 5 transactions free in a month, across locations, with a cap of 3 transactions at 6 metro ",
+     "why": "other banks' ATMs: stated as a monthly free count across locations (a lower metro sub-cap applies within it, see the quote)",
+     "page": null
+    },
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "Cross - currency mark - up 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    },
+    "annual_fee_inr": {
+     "value": 0,
+     "quote": " Nil ",
+     "why": "the document states no annual fee for this card",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "no minimum-balance row found in this document"
+   }
+  },
+  {
+   "product": "Young Star Account",
+   "file": "young-star-account-service-charges-for-wealth-private-banking-segment.pdf",
+   "bank": "ICICI Bank",
+   "slug": "icici-bank",
+   "fields": {
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "Cross-currency mark-up 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    },
+    "issue_fee_inr": {
+     "value": 0,
+     "quote": "Nil",
+     "why": "the document states the card is issued free",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "no minimum-balance row found in this document",
+    "annual_fee_inr": "the annual fee is stated per location tier ([150, 300] across ['gramin']) — different facts about different holders, so it stays null"
+   }
+  }
+ ]
+}

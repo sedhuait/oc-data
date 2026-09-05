@@ -1,0 +1,416 @@
+{
+ "bank": "ICICI Bank",
+ "slug": "icici-bank",
+ "source": "https://www.icicibank.com/service-charges",
+ "checked": "2026-09-06",
+ "documents": [
+  {
+   "label": "Advantage Woman Savings Account",
+   "file": "advantage-woman-savings-account.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/advantage-woman-savings-account.pdf",
+   "bytes": 336426,
+   "sha256": "5a81b16bce8272d0",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Asset Linked Savings Account",
+   "file": "asset-linked-savings-account.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/asset-linked-savings-account.pdf",
+   "bytes": 273676,
+   "sha256": "688dd744bbca9322",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "AURA Savings Account",
+   "file": "aura-savings-account.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/aura-savings-account.pdf",
+   "bytes": 285374,
+   "sha256": "2c528c3faf86b6ee",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Bank@Campus Account",
+   "file": "bank-campus-account.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/bank-campus-account.pdf",
+   "bytes": 278373,
+   "sha256": "aa225e1c1267a398",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Basic Savings Bank Deposit Account (BSBDA) or Pradhan Mantri Jan Dhan Yojna (PMJDY)",
+   "file": "basic-savings-bank-deposit-account-socs.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/basic-savings-bank-deposit-account-socs.pdf",
+   "bytes": 992598,
+   "sha256": "3271d51fb22b8759",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Salary Account for blind",
+   "file": "blind-salary-account.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/blind-salary-account.pdf",
+   "bytes": 167526,
+   "sha256": "7fc24f0b5d17cd39",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Savings Account for Visually Impaired or Incapacitated (Special Needs)",
+   "file": "blind-visually-impaired-incapacitated-savings-account-socs.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/blind-visually-impaired-incapacitated-savings-account-socs.pdf",
+   "bytes": 276990,
+   "sha256": "2af9828a93d03af8",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Broking IDirect Linked Savings Account",
+   "file": "broking-idirect-linked-savings-account.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/broking-idirect-linked-savings-account.pdf",
+   "bytes": 275520,
+   "sha256": "5075ea68eea865bb",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Campus Power Savings Account",
+   "file": "campus-power-account-service-charges.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/campus-power-account-service-charges.pdf",
+   "bytes": 1092238,
+   "sha256": "a547d4efbc1c23c3",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Savings Account for Students",
+   "file": "campus-power-account.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/campus-power-account.pdf",
+   "bytes": 634213,
+   "sha256": "4a5ffc3e2ad10c20",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Common Service Charges",
+   "file": "common-service-charges.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/common-service-charges.pdf",
+   "bytes": 1048347,
+   "sha256": "0464ffe76a375605",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Defence Salary Account",
+   "file": "defence-salary-account-service-charges.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/defence-salary-account-service-charges.pdf",
+   "bytes": 204010,
+   "sha256": "61b222c3c67db7a1",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Easy Receive Savings Account",
+   "file": "easy-receive-savings-account.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/easy-receive-savings-account.pdf",
+   "bytes": 272019,
+   "sha256": "6661369d86b3b1a9",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Family 360° Banking",
+   "file": "family-360-banking-service-charges1.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/family-360-banking-service-charges1.pdf",
+   "bytes": 166767,
+   "sha256": "7b3f865a42106bb1",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Family 3600Banking",
+   "file": "family-360-banking-socs-01.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/family-360-banking-socs-01.pdf",
+   "bytes": 1593186,
+   "sha256": "0eb784f104be77e0",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Family Account for salaried professionals",
+   "file": "family-account-of-salary-account-holders.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/family-account-of-salary-account-holders.pdf",
+   "bytes": 159670,
+   "sha256": "e8b207fee134d8ba",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Freedom Savings Account",
+   "file": "freedom-savings-account.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/freedom-savings-account.pdf",
+   "bytes": 277257,
+   "sha256": "29ed8e0be0570531",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Gold Salary Account",
+   "file": "gold-salary-account-service-charges2.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/gold-salary-account-service-charges2.pdf",
+   "bytes": 155170,
+   "sha256": "8f82ca829a6cca1c",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Gold Savings Account",
+   "file": "gold-savings-account.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/gold-savings-account.pdf",
+   "bytes": 1272970,
+   "sha256": "02965d263a36cf36",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "BizSavings Account",
+   "file": "icici-bank-bizsavings-account.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/icici-bank-bizsavings-account.pdf",
+   "bytes": 345285,
+   "sha256": "3730da39f2e3b636",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Insta Save Premium Savings Account",
+   "file": "insta-save-premium-savings-account.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/insta-save-premium-savings-account.pdf",
+   "bytes": 267366,
+   "sha256": "998a08a2a49b8e97",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Savings Account for Unlearned (Special Needs)",
+   "file": "iterate-savings-account-socs.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/iterate-savings-account-socs.pdf",
+   "bytes": 1336586,
+   "sha256": "f2f5643efa758c70",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Kids Family Account for salaried professionals",
+   "file": "kide-family-banking-service-charges.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/kide-family-banking-service-charges.pdf",
+   "bytes": 164087,
+   "sha256": "b6c1db5ee7b53d4f",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "No Frills Account",
+   "file": "no-frills-account.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/no-frills-account.pdf",
+   "bytes": 268449,
+   "sha256": "70b114ca1a7f69f6",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Pension Accounts",
+   "file": "pension-accounts-service-charges.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/pension-accounts-service-charges.pdf",
+   "bytes": 227190,
+   "sha256": "929e71769e017fc7",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Power Pay Account",
+   "file": "power-pay-account-service-charges-6.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/power-pay-account-service-charges-6.pdf",
+   "bytes": 152996,
+   "sha256": "7f6a8d93310b8bda",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Privilege Accounts–Advantage Woman Savings Account",
+   "file": "privilege-accounts-advantage-woman-sa.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/privilege-accounts-advantage-woman-sa.pdf",
+   "bytes": 273242,
+   "sha256": "b2dbceba9a7e8ed2",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Privilege Accounts – Young Star and Smart Star",
+   "file": "privilege-accounts-young-star-smart-star.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/privilege-accounts-young-star-smart-star.pdf",
+   "bytes": 276977,
+   "sha256": "963eb2c03746ebc3",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Gold Privilege Savings Account",
+   "file": "privilege-banking-accounts-non-senior-citizen.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/privilege-banking-accounts-non-senior-citizen.pdf",
+   "bytes": 297944,
+   "sha256": "01ec6f88daf5239e",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Privilege Banking Accounts – Senior Citizen",
+   "file": "privilege-banking-accounts-senior-citizens.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/privilege-banking-accounts-senior-citizens.pdf",
+   "bytes": 1417509,
+   "sha256": "9ca9271ea22f1ab5",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Regular Salary Account",
+   "file": "regular-salary-account-service-charges3.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/regular-salary-account-service-charges3.pdf",
+   "bytes": 154579,
+   "sha256": "037e246d5885e7fd",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Regular Savings Account (Discontinued)",
+   "file": "regular-savings-account-discontinue.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/regular-savings-account-discontinue.pdf",
+   "bytes": 1389487,
+   "sha256": "e135f3447b75b188",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Regular Savings Account",
+   "file": "regular-savings-account-socs.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/regular-savings-account-socs.pdf",
+   "bytes": 1400613,
+   "sha256": "6cec996928e85401",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Salute Doctors Account",
+   "file": "salute-doctors-accounts.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/salute-doctors-accounts.pdf",
+   "bytes": 313413,
+   "sha256": "3578cdb3a128c152",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Savings Account, Select Banking, Wealth Management, Private Banking, Pensioners (Below 60 years) and Minors",
+   "file": "savings-account.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/savings-account.pdf",
+   "bytes": 1244137,
+   "sha256": "c570440a0fdd4f27",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Savings Accounts Linked to Family ID",
+   "file": "savings-accounts-linked-to-family-id.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/savings-accounts-linked-to-family-id.pdf",
+   "bytes": 272842,
+   "sha256": "ccefaeb6a3938dd8",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Overseas Money Transfer (Retail Outward Remittances)",
+   "file": "schedule-of-charges-for-overseas-money-transfer-new.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/schedule-of-charges-for-overseas-money-transfer-new.pdf",
+   "bytes": 719749,
+   "sha256": "3cd2884bf4509af8",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Senior Citizen Regular Savings Account",
+   "file": "senior-citizen-regular-savings-account-socs.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/senior-citizen-regular-savings-account-socs.pdf",
+   "bytes": 1174798,
+   "sha256": "339a4fb069f2ba60",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Savings Account for Senior Citizen and Pensioners (60 years and above)",
+   "file": "senior-savings-account.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/senior-savings-account.pdf",
+   "bytes": 945762,
+   "sha256": "20af148871261191",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Silver Salary Account",
+   "file": "silver-salary-account-service-charges4.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/silver-salary-account-service-charges4.pdf",
+   "bytes": 156354,
+   "sha256": "adc2fd60f9df1c18",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Silver Savings Account",
+   "file": "silver-savings-account.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/silver-savings-account.pdf",
+   "bytes": 1305553,
+   "sha256": "4c43d57c43820370",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Smart Star Savings Account Without Guardian Consent",
+   "file": "smart-star-account-service-charges-for-regular-without-guardian-consent.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/smart-star-account-service-charges-for-regular-without-guardian-consent.pdf",
+   "bytes": 197481,
+   "sha256": "d78397fe4ac4f6b8",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Smart Star Savings Account - Regular and Wealth",
+   "file": "smart-star-account-service-charges.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/smart-star-account-service-charges.pdf",
+   "bytes": 322420,
+   "sha256": "68374b6f26cda1b7",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Unfunded Regular Salary Account",
+   "file": "soc-for-unfunded-regular-salary-account.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/soc-for-unfunded-regular-salary-account.pdf",
+   "bytes": 644017,
+   "sha256": "fe37c6d7b2dda861",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Unfunded Privilege Salary Account",
+   "file": "soc-for-unfunded-salary-account.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/soc-for-unfunded-salary-account.pdf",
+   "bytes": 502828,
+   "sha256": "cbe65da93d382dee",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Select Banking",
+   "file": "soc-select-banking-salary-account.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/soc-select-banking-salary-account.pdf",
+   "bytes": 362594,
+   "sha256": "e35fb5b10531666c",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "The One Savings Account",
+   "file": "the-one-savings-account.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/the-one-savings-account.pdf",
+   "bytes": 299176,
+   "sha256": "3843eee18f00e13e",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Titanium Salary Account",
+   "file": "titanium-salary-account-service-charges5.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/titanium-salary-account-service-charges5.pdf",
+   "bytes": 152385,
+   "sha256": "ce66b8fde26428d5",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Wealth and Private Banking",
+   "file": "wealth-management-private-banking-service-charges.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/wealth-management-private-banking-service-charges.pdf",
+   "bytes": 1160917,
+   "sha256": "5f99e3670d4a0fa2",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Wealth and Private Banking",
+   "file": "wealth-management-private-banking.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/wealth-management-private-banking.pdf",
+   "bytes": 872163,
+   "sha256": "75df07b93b5b12aa",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Young Star Savings Account – Regular and Family 360 Banking",
+   "file": "young-star-account-service-charges-for-wealth-private-banking-segment.pdf",
+   "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/pdf/young-star-account-service-charges-for-wealth-private-banking-segment.pdf",
+   "bytes": 303033,
+   "sha256": "2f5fd884953ecb58",
+   "checked": "2026-09-06"
+  }
+ ]
+}
