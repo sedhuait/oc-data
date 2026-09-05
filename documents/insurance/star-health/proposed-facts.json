@@ -4143,7 +4143,7 @@
    "uin": "SHAHLIP26044V092526"
   },
   {
-   "category": null,
+   "category": "Travel",
    "fields": {
     "brochure_url": {
      "confidence": "verified",
@@ -4454,7 +4454,7 @@
    "uin": "SHAHLIP21179V022021"
   },
   {
-   "category": null,
+   "category": "Travel",
    "fields": {
     "brochure_url": {
      "confidence": "verified",
@@ -5129,7 +5129,7 @@
    "uin": "SHAHLGP19049V011819"
   },
   {
-   "category": null,
+   "category": "Travel",
    "fields": {
     "cashless_claim": {
      "confidence": "extracted",
@@ -6273,7 +6273,7 @@
    "uin": "SHAHLGP24144V012324"
   },
   {
-   "category": "Health — indemnity",
+   "category": "Travel",
    "fields": {
     "cashless_claim": {
      "confidence": "extracted",
@@ -7640,7 +7640,7 @@
    "uin": "SHAHLIP26042V012526"
   },
   {
-   "category": null,
+   "category": "Travel",
    "fields": {
     "brochure_url": {
      "confidence": "verified",
@@ -7870,7 +7870,7 @@
    "uin": "SHAHLIP22034V062122"
   },
   {
-   "category": null,
+   "category": "Travel",
    "fields": {
     "brochure_url": {
      "confidence": "verified",

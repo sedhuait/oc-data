@@ -282,6 +282,53 @@
         "brochure_url",
         "wording_version"
       ]
+    },
+    "Travel": {
+      "required": [
+        "insurer",
+        "uin"
+      ],
+      "columns": [
+        "insurer",
+        "sum_insured_options_inr",
+        "policy_term_years"
+      ],
+      "facets": [
+        "brand",
+        "insurer"
+      ],
+      "spec": [
+        "insurer",
+        "uin",
+        "irdai_approved",
+        "policy_type",
+        "sum_insured_options_inr",
+        "ttd_cover",
+        "ppd_cover",
+        "payout_options",
+        "initial_waiting_days",
+        "cashless_claim",
+        "network_hospitals",
+        "tpa_managed",
+        "claim_settlement_days",
+        "pre_hosp_days",
+        "post_hosp_days",
+        "min_entry_age",
+        "max_entry_age",
+        "max_cover_age",
+        "pre_policy_checkup",
+        "renewability",
+        "policy_term_years",
+        "premium_payment_terms",
+        "free_look_days",
+        "grace_period_days",
+        "portability_allowed",
+        "zone_based_pricing",
+        "exclusions",
+        "policy_wording_url",
+        "brochure_url",
+        "wording_version"
+      ]
     }
   },
   "fields": {

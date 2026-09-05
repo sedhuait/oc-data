@@ -199,6 +199,10 @@
       "uin",
       "max_entry_age",
       "max_cover_age"
+    ],
+    "Travel": [
+      "insurer",
+      "uin"
     ]
   },
   "networking": {
