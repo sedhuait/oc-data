@@ -4,38 +4,473 @@
   "note": "The purchase price of a printer is the least important number about it. Cost per page — cartridge model, yield, and what a replacement costs — decides what the machine actually costs to own, and no listing shows it. That is the whole reason this category is worth recording.",
   "categories": {
     "Printers": {
-      "required": ["print_tech", "functions"],
-      "columns": ["print_tech", "functions", "colour", "duplex", "ppm_black", "cartridge_model"],
-      "facets": ["brand", "print_tech", "functions", "colour", "duplex", "connectivity"]
+      "required": [
+        "print_tech",
+        "functions"
+      ],
+      "columns": [
+        "print_tech",
+        "functions",
+        "colour",
+        "duplex",
+        "ppm_black",
+        "cartridge_model"
+      ],
+      "facets": [
+        "brand",
+        "print_tech",
+        "colour",
+        "functions",
+        "duplex",
+        "adf",
+        "year"
+      ],
+      "spec": [
+        "year",
+        "launch_month",
+        "model_number",
+        "discontinued",
+        "print_tech",
+        "colour",
+        "functions",
+        "duplex",
+        "max_resolution_dpi",
+        "borderless",
+        "ppm_black",
+        "ppm_colour",
+        "first_page_out_sec",
+        "monthly_duty_cycle",
+        "recommended_monthly_pages",
+        "paper_sizes",
+        "input_tray_sheets",
+        "output_tray_sheets",
+        "adf",
+        "adf_capacity",
+        "adf_duplex",
+        "media_types",
+        "connectivity",
+        "network_scan",
+        "cartridge_model",
+        "page_yield",
+        "in_box_supply_yield",
+        "separate_colour_cartridges",
+        "chipless",
+        "weight_g",
+        "dimensions_mm",
+        "display",
+        "power_w",
+        "noise_db",
+        "spec_url",
+        "spec_checked_version"
+      ]
     },
     "Printer supplies": {
-      "required": ["cartridge_model", "page_yield"],
-      "columns": ["cartridge_model", "page_yield", "colour", "fits_models"],
-      "facets": ["brand", "colour"]
+      "required": [
+        "cartridge_model",
+        "page_yield"
+      ],
+      "columns": [
+        "cartridge_model",
+        "page_yield",
+        "colour",
+        "fits_models"
+      ],
+      "facets": [
+        "brand",
+        "supply_type",
+        "colour",
+        "cartridge_model"
+      ],
+      "spec": [
+        "year",
+        "launch_month",
+        "model_number",
+        "discontinued",
+        "supply_type",
+        "cartridge_model",
+        "page_yield",
+        "fits_models",
+        "colour",
+        "separate_colour_cartridges",
+        "chipless",
+        "weight_g",
+        "dimensions_mm",
+        "spec_url",
+        "spec_checked_version"
+      ]
     }
   },
   "fields": {
-    "print_tech": { "type": "enum", "values": ["Inkjet", "Ink tank", "Laser", "LED", "Thermal", "Dot matrix"], "label": "Technology", "note": "Ink tank is the material distinction in India — refillable bottles instead of cartridges, and roughly a tenth of the running cost." },
-    "functions": { "type": "enum", "values": ["Print only", "Print, scan, copy", "Print, scan, copy, fax"], "label": "Functions" },
-    "colour": { "type": "enum", "values": ["Colour", "Monochrome"], "label": "Colour" },
-    "duplex": { "type": "enum", "values": ["None", "Manual", "Automatic"], "label": "Two-sided printing" },
-    "ppm_black": { "type": "number", "min": 1, "max": 100, "label": "Pages per minute (black)" },
-    "ppm_colour": { "type": "number", "min": 0, "max": 100, "label": "Pages per minute (colour)" },
-    "connectivity": { "type": "list", "values": ["USB", "Wi-Fi", "Wi-Fi Direct", "Ethernet", "Bluetooth", "AirPrint", "Mopria"], "label": "Connectivity" },
-    "adf": { "type": "boolean", "label": "Automatic document feeder" },
-    "paper_sizes": { "type": "list", "label": "Paper sizes" },
-    "monthly_duty_cycle": { "type": "integer", "min": 100, "max": 500000, "label": "Monthly duty cycle" },
-
-    "cartridge_model": { "type": "list", "label": "Cartridge or bottle model", "note": "The single most useful fact in this category. It is what you will buy for years, and it is almost never on the product listing." },
-    "page_yield": { "type": "integer", "min": 50, "max": 20000, "label": "Page yield", "note": "Pages per cartridge or bottle, at the ISO standard coverage the maker quotes." },
-    "fits_models": { "type": "list", "label": "Fits printer models" },
-    "cost_per_page_paise": { "type": "number", "min": 1, "max": 5000, "label": "Cost per page (paise)", "note": "Derived in the service from the current supply price and page_yield — NOT stored here, because the supply price moves. Declared so the field name is fixed." },
-
-    "year": { "type": "integer", "min": 2010, "max": 2035, "label": "Model year" },
-    "discontinued": { "type": "boolean", "label": "Discontinued", "note": "Matters more here than anywhere else: a printer whose cartridge is out of production is scrap." }
+    "print_tech": {
+      "type": "enum",
+      "values": [
+        "Inkjet",
+        "Ink tank",
+        "Laser",
+        "LED",
+        "Thermal",
+        "Dot matrix",
+        "Dye-sublimation"
+      ],
+      "label": "Print technology",
+      "note": "How the machine puts marks on paper, which drives almost everything else about it. Ink tank models refill from bottles and cost the least per page in India; laser is fastest for plain text and does not dry out when idle; cartridge inkjets are cheapest to buy and dearest to run.",
+      "group": "printing",
+      "values_note": {
+        "Inkjet": "Sprays liquid ink from replaceable cartridges. Cheap to buy, expensive per page, and the head can clog if unused for weeks.",
+        "Ink tank": "Refillable reservoirs filled from bottles. Higher purchase cost, far lower cost per page.",
+        "Laser": "Fuses toner powder with heat. Fast, sharp text, no drying out, but colour models are expensive.",
+        "LED": "Works like laser with an LED array instead of a laser. Similar results, often a more compact body.",
+        "Thermal": "Uses heat-sensitive paper or ribbon. Common for receipts and labels; plain thermal print fades over time.",
+        "Dot matrix": "Strikes an inked ribbon through a pin head. Slow and noisy, but the only common way to print carbon-copy multi-part forms.",
+        "Dye-sublimation": "Transfers dye with heat for continuous-tone photos. Used for dedicated photo printers."
+      }
+    },
+    "functions": {
+      "type": "enum",
+      "values": [
+        "Print only",
+        "Print, scan, copy",
+        "Print, scan, copy, fax"
+      ],
+      "label": "Functions",
+      "note": "What the machine does besides print. An all-in-one saves desk space, but a failed print head takes the scanner out of service with it.",
+      "group": "printing"
+    },
+    "colour": {
+      "type": "enum",
+      "values": [
+        "Colour",
+        "Monochrome"
+      ],
+      "label": "Colour printing",
+      "note": "Whether the machine prints in colour or black only. A monochrome laser is markedly cheaper to buy and to run when colour is never needed.",
+      "group": "printing"
+    },
+    "duplex": {
+      "type": "enum",
+      "values": [
+        "None",
+        "Manual",
+        "Automatic"
+      ],
+      "label": "Two-sided printing",
+      "note": "Whether the machine prints both sides on its own. Manual duplex only means it prompts you to flip the stack, which saves paper but no time.",
+      "group": "printing"
+    },
+    "ppm_black": {
+      "type": "number",
+      "min": 1,
+      "max": 100,
+      "label": "Speed, black",
+      "note": "Pages per minute in black, measured to the ISO test standard. It excludes the wait for the first page, so a short job feels slower than this number suggests.",
+      "group": "speed",
+      "unit": "ppm"
+    },
+    "ppm_colour": {
+      "type": "number",
+      "min": 0,
+      "max": 100,
+      "label": "Speed, colour",
+      "note": "Pages per minute in colour, to the same ISO standard. Inkjets typically drop much further from their black figure than lasers do.",
+      "group": "speed",
+      "unit": "ppm"
+    },
+    "connectivity": {
+      "type": "list",
+      "values": [
+        "USB",
+        "Wi-Fi",
+        "Wi-Fi Direct",
+        "Ethernet",
+        "Bluetooth",
+        "AirPrint",
+        "Mopria"
+      ],
+      "label": "Connectivity",
+      "note": "How the machine accepts jobs. Wi-Fi Direct lets a phone print without joining your network, which is a separate feature from ordinary Wi-Fi.",
+      "group": "connectivity"
+    },
+    "adf": {
+      "type": "boolean",
+      "label": "Automatic document feeder",
+      "note": "Whether the scanner can pull in a stack of pages by itself instead of one sheet at a time on the glass. Essential for scanning multi-page documents.",
+      "group": "paper"
+    },
+    "paper_sizes": {
+      "type": "list",
+      "label": "Paper sizes",
+      "group": "paper"
+    },
+    "monthly_duty_cycle": {
+      "type": "integer",
+      "min": 100,
+      "max": 500000,
+      "label": "Monthly duty cycle",
+      "note": "The maximum pages the machine can survive in a month, not a recommendation. Makers also publish a recommended monthly volume that is a fraction of this; running near the duty cycle shortens the machine's life.",
+      "group": "speed",
+      "unit": "pages"
+    },
+    "cartridge_model": {
+      "type": "list",
+      "label": "Cartridge or bottle model",
+      "note": "The exact supply codes this machine takes. It is the single most useful fact in the category and almost never on the product listing: supply availability and cost decide the real cost of owning the printer.",
+      "group": "supplies"
+    },
+    "page_yield": {
+      "type": "integer",
+      "min": 50,
+      "max": 20000,
+      "label": "Page yield",
+      "note": "How many pages one cartridge or bottle set prints, to the ISO standard at 5% coverage. Real documents with images use far more, so treat it as a comparison figure between models rather than a promise.",
+      "group": "supplies",
+      "unit": "pages"
+    },
+    "fits_models": {
+      "type": "list",
+      "label": "Fits these printers",
+      "group": "supplies"
+    },
+    "cost_per_page_paise": {
+      "type": "number",
+      "min": 1,
+      "max": 5000,
+      "label": "Cost per page (paise)",
+      "note": "Derived in the service from the current supply cost and page yield, not stored here, because the supply cost moves. Declared so the field name is fixed.",
+      "group": "supplies",
+      "unit": "paise"
+    },
+    "year": {
+      "type": "integer",
+      "min": 2010,
+      "max": 2035,
+      "label": "Model year",
+      "group": "identity"
+    },
+    "discontinued": {
+      "type": "boolean",
+      "label": "Discontinued",
+      "note": "True when the maker has stopped producing this model. It matters more here than in most categories: once a printer is discontinued, its cartridges get scarcer and dearer over the machine's remaining life.",
+      "group": "identity"
+    },
+    "launch_month": {
+      "type": "string",
+      "label": "Announced",
+      "group": "identity",
+      "note": "The month the maker announced this model, as YYYY-MM. Printer lines are long-lived, so the date tells you whether supplies will stay easy to find."
+    },
+    "model_number": {
+      "type": "string",
+      "label": "Model number",
+      "group": "identity",
+      "note": "The maker's exact model code. Printer families share marketing names across very different machines, and the cartridge that fits depends on this code, not the family name."
+    },
+    "max_resolution_dpi": {
+      "type": "string",
+      "label": "Print resolution",
+      "group": "printing",
+      "note": "Dots per inch, such as 1200 x 1200. Above roughly 600 dpi the difference is hard to see on plain text, and it matters mainly for photos and fine line art."
+    },
+    "borderless": {
+      "type": "boolean",
+      "label": "Borderless printing",
+      "group": "printing",
+      "note": "Whether the machine can print to the edge of the sheet without a white margin, which matters for photos."
+    },
+    "first_page_out_sec": {
+      "type": "number",
+      "min": 1,
+      "max": 120,
+      "unit": "s",
+      "label": "First page out",
+      "group": "speed",
+      "note": "How long from idle to the first printed sheet. Lasers must warm up; this is what you actually wait for when printing a single page, and it is often the more honest speed figure."
+    },
+    "recommended_monthly_pages": {
+      "type": "string",
+      "label": "Recommended monthly volume",
+      "group": "speed",
+      "note": "The print volume the maker actually designed the machine for. This is the realistic figure to match against your own usage, unlike the duty cycle."
+    },
+    "input_tray_sheets": {
+      "type": "integer",
+      "min": 1,
+      "max": 5000,
+      "unit": "sheets",
+      "label": "Input tray capacity",
+      "group": "paper",
+      "note": "How many sheets the main tray holds. A 100-sheet tray needs refilling roughly every half ream, which becomes a chore in a busy office."
+    },
+    "output_tray_sheets": {
+      "type": "integer",
+      "min": 1,
+      "max": 5000,
+      "unit": "sheets",
+      "label": "Output tray capacity",
+      "group": "paper",
+      "note": "How many printed sheets stack before they need clearing. A small output tray can jam on long unattended jobs."
+    },
+    "adf_capacity": {
+      "type": "integer",
+      "min": 1,
+      "max": 500,
+      "unit": "sheets",
+      "label": "Feeder capacity",
+      "group": "paper",
+      "note": "How many sheets the document feeder takes at once."
+    },
+    "adf_duplex": {
+      "type": "boolean",
+      "label": "Two-sided scanning",
+      "group": "paper",
+      "note": "Whether the feeder can scan both sides without you turning the stack over. Single-pass models do it in one go; others run the stack through twice."
+    },
+    "media_types": {
+      "type": "list",
+      "label": "Media types",
+      "group": "paper",
+      "note": "What the machine can print on besides plain paper, such as envelopes, labels, card or photo paper. Heavier media needs a straight paper path, which not every model has."
+    },
+    "network_scan": {
+      "type": "boolean",
+      "label": "Scan to network",
+      "group": "connectivity",
+      "note": "Whether scans can go straight to email, a shared folder or cloud storage rather than only to a directly connected computer."
+    },
+    "supply_type": {
+      "type": "enum",
+      "label": "Supply type",
+      "group": "supplies",
+      "values": [
+        "Cartridge",
+        "Ink bottle",
+        "Toner cartridge",
+        "Toner bottle",
+        "Drum unit",
+        "Ribbon",
+        "Maintenance kit"
+      ],
+      "note": "What kind of consumable this is. Drum units and maintenance kits are periodic replacements separate from ink or toner, and their cost is easy to overlook when comparing running costs."
+    },
+    "in_box_supply_yield": {
+      "type": "integer",
+      "min": 0,
+      "max": 100000,
+      "unit": "pages",
+      "label": "Starter supply yield",
+      "group": "supplies",
+      "note": "How many pages the supplies included in the box will print. Bundled starter cartridges are often a fraction of a full one, so the first replacement comes sooner than expected."
+    },
+    "separate_colour_cartridges": {
+      "type": "boolean",
+      "label": "Separate colour cartridges",
+      "group": "supplies",
+      "note": "Whether each colour is its own cartridge. With a combined tri-colour unit, running out of one colour means replacing all three."
+    },
+    "chipless": {
+      "type": "boolean",
+      "label": "Works without chipped supplies",
+      "group": "supplies",
+      "note": "Whether the machine accepts refills or third-party supplies without a chip check. Chipped models can refuse cheaper alternatives or after-market refills entirely."
+    },
+    "weight_g": {
+      "type": "number",
+      "min": 100,
+      "max": 200000,
+      "unit": "g",
+      "label": "Weight",
+      "group": "physical"
+    },
+    "dimensions_mm": {
+      "type": "string",
+      "label": "Dimensions",
+      "group": "physical",
+      "note": "Width x depth x height in millimetres. Check the depth with the trays extended, which is often much more than the closed figure."
+    },
+    "display": {
+      "type": "enum",
+      "label": "Control panel",
+      "group": "physical",
+      "values": [
+        "None",
+        "LED indicators",
+        "Mono LCD",
+        "Colour LCD",
+        "Colour touchscreen"
+      ],
+      "note": "What the machine shows you. Without a screen, errors and ink levels are only visible from a connected computer or the phone app."
+    },
+    "power_w": {
+      "type": "number",
+      "min": 1,
+      "max": 2000,
+      "unit": "W",
+      "label": "Power draw, printing",
+      "group": "physical",
+      "note": "Electricity used while printing. Lasers draw far more than inkjets because they heat the fuser, which can matter on an inverter or a small UPS."
+    },
+    "noise_db": {
+      "type": "number",
+      "min": 20,
+      "max": 100,
+      "unit": "dB",
+      "label": "Noise",
+      "group": "physical",
+      "note": "How loud the machine is while printing, in decibels. Worth checking for a printer that shares a room with a desk, since dot matrix and some lasers are markedly louder."
+    },
+    "spec_url": {
+      "type": "string",
+      "label": "Official spec sheet",
+      "group": "documents",
+      "note": "A link to the maker's own specification page for this exact model. It is the source a disputed fact here should be checked against, and it is where the supply codes are confirmed."
+    },
+    "spec_checked_version": {
+      "type": "string",
+      "label": "Spec sheet version",
+      "group": "documents",
+      "note": "Which revision of the maker's spec page these facts were read from, as a date or version. Makers quietly edit spec pages after launch, so this records which wording was in front of us."
+    }
   },
-  "not_in_this_repo": ["price", "in_stock", "cost_per_page_paise", "rating"],
+  "not_in_this_repo": [
+    "price",
+    "in_stock",
+    "cost_per_page_paise",
+    "rating"
+  ],
   "sanity": {
     "note": "A printer record without cartridge_model is a candidate, not an entry. Without it the record cannot answer the only question that matters."
-  }
+  },
+  "groups": [
+    {
+      "id": "identity",
+      "label": "Identity & launch"
+    },
+    {
+      "id": "printing",
+      "label": "Printing"
+    },
+    {
+      "id": "speed",
+      "label": "Speed & volume"
+    },
+    {
+      "id": "paper",
+      "label": "Paper handling"
+    },
+    {
+      "id": "connectivity",
+      "label": "Connectivity"
+    },
+    {
+      "id": "supplies",
+      "label": "Ink, toner & running cost"
+    },
+    {
+      "id": "physical",
+      "label": "Body & power"
+    },
+    {
+      "id": "documents",
+      "label": "Official sources"
+    }
+  ]
 }

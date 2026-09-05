@@ -19,6 +19,28 @@
         "institution_type",
         "insured",
         "callable"
+      ],
+      "spec": [
+        "institution_type",
+        "insured",
+        "tenure_min_days",
+        "tenure_max_days",
+        "min_deposit_inr",
+        "compounding",
+        "interest_credit_frequency",
+        "callable",
+        "premature_penalty",
+        "senior_benefit",
+        "tax_saver",
+        "auto_renew",
+        "loan_against_deposit",
+        "tds_applicable",
+        "rate_note",
+        "nomination_online",
+        "digital_only",
+        "branch_count",
+        "charges_url",
+        "charges_version"
       ]
     },
     "Savings accounts": {
@@ -36,6 +58,24 @@
         "institution_type",
         "insured",
         "min_balance_inr"
+      ],
+      "spec": [
+        "institution_type",
+        "insured",
+        "min_balance_inr",
+        "interest_credit_frequency",
+        "sweep_in",
+        "cheque_book_free",
+        "neft_imps_charges",
+        "atm_free_txns_month",
+        "atm_free_txns_other_bank",
+        "atm_fee_beyond_free_inr",
+        "nomination_online",
+        "digital_only",
+        "branch_count",
+        "rate_note",
+        "charges_url",
+        "charges_version"
       ]
     },
     "Recurring deposits": {
@@ -53,6 +93,28 @@
         "brand",
         "institution_type",
         "insured"
+      ],
+      "spec": [
+        "institution_type",
+        "insured",
+        "tenure_min_days",
+        "tenure_max_days",
+        "min_deposit_inr",
+        "compounding",
+        "interest_credit_frequency",
+        "callable",
+        "premature_penalty",
+        "senior_benefit",
+        "tax_saver",
+        "auto_renew",
+        "loan_against_deposit",
+        "tds_applicable",
+        "rate_note",
+        "nomination_online",
+        "digital_only",
+        "branch_count",
+        "charges_url",
+        "charges_version"
       ]
     },
     "Debit cards": {
@@ -75,6 +137,28 @@
         "annual_fee_inr",
         "lounge_domestic",
         "variant_tier"
+      ],
+      "spec": [
+        "institution_type",
+        "network",
+        "variant_tier",
+        "annual_fee_inr",
+        "issue_fee_inr",
+        "debit_card_variant_fee_note",
+        "atm_free_txns_month",
+        "atm_free_txns_other_bank",
+        "atm_fee_beyond_free_inr",
+        "atm_withdrawal_limit_inr",
+        "pos_limit_inr",
+        "forex_markup_pct",
+        "lounge_domestic",
+        "lounge_condition",
+        "accident_cover_inr",
+        "accident_cover_condition",
+        "purchase_protection_inr",
+        "requires_account",
+        "charges_url",
+        "charges_version"
       ]
     }
   },
@@ -92,7 +176,8 @@
         "Co-operative bank"
       ],
       "label": "Institution type",
-      "note": "Determines the risk and the insurance position. NBFC deposits are not DICGC insured."
+      "note": "What kind of institution holds the money: a scheduled commercial bank, a small finance bank, a co-operative bank or an NBFC. It decides which RBI rules apply and, critically, whether deposit insurance covers you at all.",
+      "group": "identity"
     },
     "insured": {
       "type": "enum",
@@ -102,43 +187,60 @@
         "Government backed"
       ],
       "label": "Deposit insurance",
-      "note": "The single most material fact about a deposit and the one most often buried."
+      "note": "The single most material fact about a deposit and the one most often buried. DICGC insurance covers up to ₹5 lakh per depositor per bank, across all your accounts at that bank combined, not per account.",
+      "group": "identity"
     },
     "tenure_min_days": {
       "type": "integer",
       "min": 1,
       "max": 3660,
-      "label": "Minimum tenure (days)"
+      "label": "Minimum tenure (days)",
+      "group": "deposit",
+      "note": "The shortest term the deposit can be booked for. Rates usually step up at tenure boundaries, so a few extra days can move you into a materially different bracket."
     },
     "tenure_max_days": {
       "type": "integer",
       "min": 1,
       "max": 3660,
-      "label": "Maximum tenure (days)"
+      "label": "Maximum tenure (days)",
+      "group": "deposit",
+      "note": "The longest term available. Locking in for longer fixes the rate for that period, which cuts both ways depending on where rates move next."
     },
     "min_deposit_inr": {
       "type": "integer",
       "min": 1,
       "max": 10000000,
-      "label": "Minimum deposit"
+      "label": "Minimum deposit",
+      "group": "deposit",
+      "note": "The smallest amount the deposit can be opened with.",
+      "unit": "₹"
     },
     "min_balance_inr": {
       "type": "integer",
       "min": 0,
       "max": 1000000,
-      "label": "Minimum balance"
+      "label": "Minimum balance",
+      "group": "account",
+      "note": "The average balance the account must hold to avoid a penalty. Most banks calculate it as a monthly or quarterly average, so a single low day is not necessarily a breach, and the shortfall penalty is usually proportional.",
+      "unit": "₹"
     },
     "callable": {
       "type": "boolean",
-      "label": "Premature withdrawal allowed"
+      "label": "Premature withdrawal allowed",
+      "group": "deposit",
+      "note": "Whether the deposit can be broken before maturity. Non-callable deposits usually pay slightly more but the money is genuinely locked until the term ends."
     },
     "premature_penalty": {
       "type": "string",
-      "label": "Premature withdrawal penalty"
+      "label": "Premature withdrawal penalty",
+      "group": "deposit",
+      "note": "What withdrawing early costs, usually a reduction in the rate rather than a flat fee. The rate typically drops to the one applicable for the period actually held, minus a penalty."
     },
     "senior_benefit": {
       "type": "boolean",
-      "label": "Higher rate for senior citizens"
+      "label": "Higher rate for senior citizens",
+      "group": "deposit",
+      "note": "The extra rate offered to senior citizens, normally quoted in basis points above the standard rate. Age proof is required at booking."
     },
     "compounding": {
       "type": "enum",
@@ -150,15 +252,21 @@
         "At maturity",
         "Simple"
       ],
-      "label": "Compounding"
+      "label": "Compounding",
+      "group": "deposit",
+      "note": "How often interest is added to the principal so that it starts earning interest itself. Quarterly compounding yields more than annual at the same headline rate, which is why the effective yield differs from the stated one."
     },
     "tax_saver": {
       "type": "boolean",
-      "label": "80C tax-saving deposit"
+      "label": "80C tax-saving deposit",
+      "group": "deposit",
+      "note": "Whether the deposit qualifies for a deduction under Section 80C. These carry a mandatory five-year lock-in and cannot be broken early or borrowed against."
     },
     "auto_renew": {
       "type": "boolean",
-      "label": "Auto-renewal available"
+      "label": "Auto-renewal available",
+      "group": "deposit",
+      "note": "Whether the deposit renews automatically at maturity. Auto-renewal happens at the rate prevailing then, which may be well below the original one."
     },
     "network": {
       "type": "enum",
@@ -168,104 +276,216 @@
         "RuPay",
         "Diners Club"
       ],
-      "label": "Network"
+      "label": "Network",
+      "group": "card",
+      "note": "The payment network the card runs on, which decides where it is accepted and whether it works abroad."
     },
     "variant_tier": {
       "type": "string",
       "label": "Variant",
-      "note": "Classic, Platinum, Signature, Infinite, Select, Business — the bank's own naming."
+      "note": "The card variant the bank places this in, using the bank's own naming. Higher variants carry larger limits and fees.",
+      "group": "card"
     },
     "annual_fee_inr": {
       "type": "integer",
       "min": 0,
       "max": 20000,
       "label": "Annual fee",
-      "note": "Charged whether or not the card is used. One of the two fees people never notice."
+      "note": "The yearly fee for the card, before GST.",
+      "group": "fees",
+      "unit": "₹"
     },
     "issue_fee_inr": {
       "type": "integer",
       "min": 0,
       "max": 20000,
-      "label": "Issue / replacement fee"
+      "label": "Issue / replacement fee",
+      "group": "fees",
+      "note": "The one-time charge for issuing the card, before GST.",
+      "unit": "₹"
     },
     "atm_free_txns_month": {
       "type": "integer",
       "min": 0,
       "max": 50,
       "label": "Free ATM transactions per month",
-      "note": "RBI mandates a minimum; banks differ above it, and differ again between their own ATMs and others."
+      "note": "How many free ATM transactions the bank's own machines allow each month. RBI sets a floor; banks often give more at their own ATMs than at others.",
+      "group": "fees"
     },
     "atm_free_txns_other_bank": {
       "type": "integer",
       "min": 0,
       "max": 50,
-      "label": "Free transactions at other banks' ATMs"
+      "label": "Free transactions at other banks' ATMs",
+      "group": "fees",
+      "note": "How many free transactions are allowed at other banks' ATMs each month. This is the limit most people actually hit, and the count usually includes balance enquiries."
     },
     "atm_fee_beyond_free_inr": {
       "type": "number",
       "min": 0,
       "max": 100,
       "label": "Fee per transaction beyond the free limit",
-      "note": "The other fee people never notice. Small, frequent, and it adds up."
+      "note": "What each ATM transaction costs once the free ones are used up, before GST.",
+      "group": "fees",
+      "unit": "₹"
     },
     "atm_withdrawal_limit_inr": {
       "type": "integer",
       "min": 0,
       "max": 1000000,
-      "label": "Daily ATM withdrawal limit"
+      "label": "Daily ATM withdrawal limit",
+      "group": "fees",
+      "note": "The most that can be withdrawn from an ATM in a day with this card.",
+      "unit": "₹"
     },
     "pos_limit_inr": {
       "type": "integer",
       "min": 0,
       "max": 10000000,
-      "label": "Daily POS / online limit"
+      "label": "Daily POS / online limit",
+      "group": "fees",
+      "note": "The daily ceiling on card payments at shops and online. It is separate from the ATM limit and can usually be adjusted in the bank's app.",
+      "unit": "₹"
     },
     "forex_markup_pct": {
       "type": "number",
       "min": 0,
       "max": 6,
-      "label": "Forex markup"
+      "label": "Forex markup",
+      "group": "fees",
+      "note": "The percentage added to transactions in a foreign currency, on top of the network's rate. GST applies on top of this markup.",
+      "unit": "%"
     },
     "lounge_domestic": {
       "type": "integer",
       "min": 0,
       "max": 50,
       "label": "Domestic lounge visits per year",
-      "note": "Several premium debit cards carry lounge access the holder never learns about."
+      "note": "Airport lounge visits included within India, usually per quarter and often conditional on spending.",
+      "group": "benefits"
     },
     "lounge_condition": {
       "type": "string",
-      "label": "Lounge access condition"
+      "label": "Lounge access condition",
+      "group": "benefits",
+      "note": "The spend or balance condition attached to lounge access. Unconditional access is uncommon."
     },
     "accident_cover_inr": {
       "type": "integer",
       "min": 0,
       "max": 100000000,
       "label": "Personal accident cover",
-      "note": "Bundled insurance that is rarely claimed because nobody knows it is there. Usually conditional on recent card usage — record the condition."
+      "note": "The personal accident insurance amount bundled with the card. It usually requires recent card activity to stay in force, which the next field records.",
+      "group": "benefits",
+      "unit": "₹"
     },
     "accident_cover_condition": {
       "type": "string",
-      "label": "Accident cover condition"
+      "label": "Accident cover condition",
+      "group": "benefits",
+      "note": "What keeps the bundled insurance active, typically at least one transaction in the preceding 30 to 90 days. Without meeting it the cover lapses quietly."
     },
     "purchase_protection_inr": {
       "type": "integer",
       "min": 0,
       "max": 10000000,
-      "label": "Purchase protection"
+      "label": "Purchase protection",
+      "group": "benefits",
+      "note": "Cover for items bought with the card against theft or damage, for a limited window after purchase.",
+      "unit": "₹"
     },
     "requires_account": {
       "type": "boolean",
-      "label": "Requires an account with the bank"
+      "label": "Requires an account with the bank",
+      "group": "account",
+      "note": "Whether holding an account with the institution is a precondition for this product."
     },
     "charges_url": {
       "type": "string",
       "label": "Schedule of charges",
-      "note": "The document every figure must trace to, exactly as MITC works for credit cards."
+      "note": "A link to the bank's official schedule of charges, the authoritative source for every fee recorded here.",
+      "group": "documents"
     },
     "charges_version": {
       "type": "string",
-      "label": "Schedule of charges version"
+      "label": "Schedule of charges version",
+      "group": "documents",
+      "note": "Which version of the schedule of charges these facts were read from. Banks revise fees with notice, so this records which document was in front of us."
+    },
+    "sweep_in": {
+      "type": "boolean",
+      "label": "Sweep-in facility",
+      "group": "account",
+      "note": "Whether surplus balance moves automatically into a fixed deposit and back when needed. It earns deposit rates on idle money without locking it up, though breaking the sweep may carry the usual premature penalty."
+    },
+    "nomination_online": {
+      "type": "boolean",
+      "label": "Online nomination",
+      "group": "account",
+      "note": "Whether a nominee can be registered digitally. Registering one is what spares a family a lengthy claim process later."
+    },
+    "interest_credit_frequency": {
+      "type": "enum",
+      "label": "Interest payout",
+      "group": "deposit",
+      "values": [
+        "Monthly",
+        "Quarterly",
+        "Half-yearly",
+        "Annually",
+        "On maturity"
+      ],
+      "note": "How often interest is paid out rather than reinvested. A payout option gives regular income but forgoes compounding, so it yields less overall than a cumulative deposit at the same rate."
+    },
+    "tds_applicable": {
+      "type": "boolean",
+      "label": "TDS deducted",
+      "group": "deposit",
+      "note": "Whether tax is deducted at source on the interest. Banks deduct once interest crosses the annual threshold unless Form 15G or 15H is submitted; the tax is still owed either way, this only changes when it is collected."
+    },
+    "loan_against_deposit": {
+      "type": "boolean",
+      "label": "Loan against deposit",
+      "group": "deposit",
+      "note": "Whether the deposit can be pledged for a loan or overdraft, typically up to 90% of its value. It is a way to access funds without breaking the deposit and losing its rate."
+    },
+    "digital_only": {
+      "type": "boolean",
+      "label": "Opened digitally",
+      "group": "account",
+      "note": "Whether the product can be opened entirely online without a branch visit."
+    },
+    "branch_count": {
+      "type": "integer",
+      "min": 0,
+      "max": 100000,
+      "label": "Branches",
+      "group": "identity",
+      "note": "How many branches the institution operates. It matters for cash handling and for anything a digital channel cannot resolve."
+    },
+    "cheque_book_free": {
+      "type": "boolean",
+      "label": "Free cheque book",
+      "group": "fees",
+      "note": "Whether a cheque book is issued free, and how many leaves. Still needed for some deposits, rental agreements and loan mandates."
+    },
+    "debit_card_variant_fee_note": {
+      "type": "string",
+      "label": "Card fee terms",
+      "group": "fees",
+      "note": "Conditions under which the card fee is waived, such as a minimum balance or spend."
+    },
+    "neft_imps_charges": {
+      "type": "string",
+      "label": "Transfer charges",
+      "group": "fees",
+      "note": "What outward transfers cost. NEFT and RTGS through digital channels are free by RBI direction for savings accounts; IMPS and branch-initiated transfers may still carry a fee."
+    },
+    "rate_note": {
+      "type": "string",
+      "label": "How the rate is set",
+      "group": "deposit",
+      "note": "How the institution determines and revises the rate, and whether it is fixed for the term. The rate itself moves and lives in the service; this records the mechanism, which does not."
     }
   },
   "not_in_this_repo": [
@@ -279,5 +499,35 @@
     "insured_vs_type": "institution_type 'NBFC' must not claim DICGC cover",
     "note": "Rates change monthly. If you find yourself wanting to add a rate field here, it belongs in the service.",
     "debit_card_fees": "Every fee must trace to the bank's schedule of charges, not a marketing page."
-  }
+  },
+  "groups": [
+    {
+      "id": "identity",
+      "label": "Institution & safety"
+    },
+    {
+      "id": "deposit",
+      "label": "Deposit terms"
+    },
+    {
+      "id": "account",
+      "label": "Account terms"
+    },
+    {
+      "id": "card",
+      "label": "Card terms"
+    },
+    {
+      "id": "fees",
+      "label": "Fees & limits"
+    },
+    {
+      "id": "benefits",
+      "label": "Benefits"
+    },
+    {
+      "id": "documents",
+      "label": "Official documents"
+    }
+  ]
 }

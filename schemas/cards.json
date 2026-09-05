@@ -24,7 +24,56 @@
         "network",
         "annual_fee_inr",
         "lounge_domestic",
-        "fuel_surcharge_waiver"
+        "fuel_surcharge_waiver",
+        "upi_linkable",
+        "card_tier"
+      ],
+      "spec": [
+        "issuer",
+        "issuer_type",
+        "network",
+        "co_brand",
+        "programme_partner",
+        "card_tier",
+        "card_material",
+        "upi_linkable",
+        "joining_fee_inr",
+        "annual_fee_inr",
+        "fee_waiver_spend_inr",
+        "addon_card_fee_inr",
+        "forex_markup_pct",
+        "cash_advance_fee",
+        "late_payment_fee",
+        "overlimit_fee",
+        "rent_payment_fee",
+        "emi_processing_fee",
+        "fuel_surcharge_waiver",
+        "interest_rate_monthly_pct",
+        "interest_rate_annual_pct",
+        "interest_free_days",
+        "reward_unit",
+        "reward_base_rate",
+        "reward_value_per_unit_inr",
+        "reward_capping_note",
+        "reward_expiry",
+        "reward_redemption_fee_inr",
+        "lounge_domestic",
+        "lounge_international",
+        "lounge_condition",
+        "milestone_benefits",
+        "insurance_cover_note",
+        "golf_benefit",
+        "concierge",
+        "welcome_benefit_note",
+        "min_income_inr",
+        "min_age",
+        "max_age",
+        "credit_score_stated",
+        "existing_relationship_required",
+        "billing_cycle_days",
+        "contactless_limit_inr",
+        "mitc_url",
+        "mitc_version"
       ]
     },
     "Charge cards": {
@@ -43,13 +92,60 @@
         "brand",
         "network",
         "annual_fee_inr"
+      ],
+      "spec": [
+        "issuer",
+        "issuer_type",
+        "network",
+        "co_brand",
+        "programme_partner",
+        "card_tier",
+        "card_material",
+        "upi_linkable",
+        "joining_fee_inr",
+        "annual_fee_inr",
+        "fee_waiver_spend_inr",
+        "addon_card_fee_inr",
+        "forex_markup_pct",
+        "cash_advance_fee",
+        "late_payment_fee",
+        "overlimit_fee",
+        "rent_payment_fee",
+        "emi_processing_fee",
+        "fuel_surcharge_waiver",
+        "interest_free_days",
+        "reward_unit",
+        "reward_base_rate",
+        "reward_value_per_unit_inr",
+        "reward_capping_note",
+        "reward_expiry",
+        "reward_redemption_fee_inr",
+        "lounge_domestic",
+        "lounge_international",
+        "lounge_condition",
+        "milestone_benefits",
+        "insurance_cover_note",
+        "golf_benefit",
+        "concierge",
+        "welcome_benefit_note",
+        "min_income_inr",
+        "min_age",
+        "max_age",
+        "credit_score_stated",
+        "existing_relationship_required",
+        "billing_cycle_days",
+        "contactless_limit_inr",
+        "mitc_url",
+        "mitc_version"
       ]
     }
   },
   "fields": {
     "issuer": {
       "type": "string",
-      "label": "Issuer"
+      "label": "Issuer",
+      "group": "identity",
+      "note": "The bank or NBFC that actually issues the card and carries the credit risk. A co-branded card is the issuer's product, not the partner's, so the issuer's terms and grievance process apply."
     },
     "network": {
       "type": "enum",
@@ -61,99 +157,141 @@
         "Diners Club"
       ],
       "label": "Network",
-      "note": "Not stated in most MITC fee tables — it is a per-variant fact from the card's own page. Left empty rather than guessed."
+      "note": "The payment network that clears transactions, such as Visa, Mastercard or RuPay. It decides where the card is accepted abroad and which network-level offers apply; RuPay credit cards are the ones that can link to UPI.",
+      "group": "identity"
     },
     "joining_fee_inr": {
       "type": "integer",
       "min": 0,
       "max": 1000000,
-      "label": "Joining fee"
+      "label": "Joining fee",
+      "group": "fees",
+      "note": "The one-time fee charged when the card is issued, before GST. Issuers frequently waive it as an acquisition offer, but the fee in the terms is what applies if the waiver is not in writing.",
+      "unit": "₹"
     },
     "annual_fee_inr": {
       "type": "integer",
       "min": 0,
       "max": 1000000,
-      "label": "Annual fee"
+      "label": "Annual fee",
+      "group": "fees",
+      "note": "The fee charged each year from the second year, before GST. Read it with the spend-based waiver: a fee-bearing card can cost nothing if you reach the threshold and full price if you do not.",
+      "unit": "₹"
     },
     "fee_waiver_spend_inr": {
       "type": "integer",
       "min": 0,
       "max": 100000000,
-      "label": "Annual fee waived at spend of"
+      "label": "Annual fee waived at spend of",
+      "group": "fees",
+      "note": "The annual spend that gets the annual fee waived. It is the number that decides whether the card is effectively free for you; spends such as rent, fuel or wallet loads are often excluded from counting toward it.",
+      "unit": "₹"
     },
     "interest_rate_monthly_pct": {
       "type": "number",
       "min": 0,
       "max": 5,
-      "label": "Interest rate (per month)"
+      "label": "Interest rate (per month)",
+      "group": "interest",
+      "note": "The monthly interest on unpaid balances. Multiply by 12 for the annual figure, which typically lands between 36% and 46%; it applies from the transaction date once you carry any balance forward.",
+      "unit": "%"
     },
     "forex_markup_pct": {
       "type": "number",
       "min": 0,
       "max": 6,
-      "label": "Forex markup"
+      "label": "Forex markup",
+      "group": "fees",
+      "note": "The percentage added to every transaction in a foreign currency, on top of the network's exchange rate. On a typical foreign trip it costs more than the annual fee, and GST applies on top of this markup.",
+      "unit": "%"
     },
     "cash_advance_fee": {
       "type": "string",
-      "label": "Cash advance fee"
+      "label": "Cash advance fee",
+      "group": "fees",
+      "note": "What it costs to withdraw cash on the card. Cash withdrawals also attract interest from the day of withdrawal with no interest-free period, which is the part that catches people out."
     },
     "late_payment_fee": {
       "type": "string",
-      "label": "Late payment fee"
+      "label": "Late payment fee",
+      "group": "fees",
+      "note": "The charge for paying after the due date, usually banded by outstanding amount. A late payment also ends the interest-free period on new purchases and is reported to credit bureaus."
     },
     "fuel_surcharge_waiver": {
       "type": "string",
-      "label": "Fuel surcharge waiver"
+      "label": "Fuel surcharge waiver",
+      "group": "fees",
+      "note": "Whether the 1% surcharge levied at petrol pumps is refunded, and within what transaction range and monthly cap. The waiver almost always has both a minimum and a maximum transaction size."
     },
     "lounge_domestic": {
       "type": "integer",
       "min": 0,
       "max": 200,
-      "label": "Domestic lounge visits per year"
+      "label": "Domestic lounge visits per year",
+      "group": "benefits",
+      "note": "Airport lounge access within India, usually a fixed number of visits per quarter. Access is often conditional on a minimum spend in the previous quarter."
     },
     "lounge_international": {
       "type": "integer",
       "min": 0,
       "max": 200,
-      "label": "International lounge visits per year"
+      "label": "International lounge visits per year",
+      "group": "benefits",
+      "note": "Lounge access outside India, often through a Priority Pass membership that must be enrolled for separately."
     },
     "lounge_condition": {
       "type": "string",
-      "label": "Lounge access condition"
+      "label": "Lounge access condition",
+      "group": "benefits",
+      "note": "The spending or membership condition attached to lounge access. Unconditional access is rare, and this is where the actual requirement is recorded."
     },
     "reward_unit": {
       "type": "string",
       "label": "Reward unit",
-      "note": "e.g. 'Reward Point', 'EDGE Mile', 'cashback'"
+      "note": "What the card earns, such as points, cashback or miles. The unit alone means nothing without its value per unit and how it can be redeemed.",
+      "group": "rewards"
     },
     "reward_base_rate": {
       "type": "string",
-      "label": "Base reward rate"
+      "label": "Base reward rate",
+      "group": "rewards",
+      "note": "How many units are earned per rupee spent on ordinary purchases, before category bonuses. Some spends earn nothing at all, which the MITC lists as exclusions."
     },
     "reward_value_per_unit_inr": {
       "type": "number",
       "min": 0,
       "max": 100,
-      "label": "Stated value per reward unit"
+      "label": "Stated value per reward unit",
+      "group": "rewards",
+      "note": "What one reward unit is worth in rupees at redemption. It is what converts a headline earn rate into a real return, and the value usually differs by redemption route.",
+      "unit": "₹"
     },
     "min_income_inr": {
       "type": "integer",
       "min": 0,
       "max": 100000000,
-      "label": "Stated minimum income"
+      "label": "Stated minimum income",
+      "group": "eligibility",
+      "note": "The minimum annual income the issuer states for eligibility. It is a stated criterion rather than a guarantee, and issuers apply their own credit assessment on top.",
+      "unit": "₹"
     },
     "mitc_url": {
       "type": "string",
-      "label": "MITC document"
+      "label": "MITC document",
+      "group": "documents",
+      "note": "A link to the issuer's Most Important Terms and Conditions, the document RBI requires and the authoritative source for every fee here."
     },
     "mitc_version": {
       "type": "string",
-      "label": "MITC version date"
+      "label": "MITC version date",
+      "group": "documents",
+      "note": "Which version of the MITC these facts were read from. Issuers revise fees with notice, so this records exactly which document was in front of us."
     },
     "co_brand": {
       "type": "string",
       "label": "Co-brand partner",
-      "note": "The brand on the card that is not the issuer — Amazon, Flipkart, Swiggy, Scapia, Tata Neu, IRCTC. A co-brand is never an issuer: RBI requires a regulated bank or NBFC behind every card."
+      "note": "The partner whose brand appears on the card. Rewards are usually concentrated in that partner's ecosystem, which is worth reading against where you actually spend.",
+      "group": "identity"
     },
     "issuer_type": {
       "type": "enum",
@@ -165,12 +303,177 @@
         "NBFC",
         "Payments bank"
       ],
-      "label": "Issuer type"
+      "label": "Issuer type",
+      "group": "identity",
+      "note": "Whether the issuer is a bank, a small finance bank or an NBFC. It determines which RBI rules and which ombudsman scheme cover the card."
     },
     "programme_partner": {
       "type": "string",
       "label": "Programme partner",
-      "note": "Fintech that runs the product experience without being the issuer — OneCard, Slice, Jupiter. The bank on the back of the card is the issuer."
+      "note": "The rewards programme the card feeds, where it differs from the co-brand partner.",
+      "group": "identity"
+    },
+    "card_tier": {
+      "type": "string",
+      "label": "Tier",
+      "group": "identity",
+      "note": "The tier the issuer places the card in, such as entry, premium or invite-only, using the issuer's own naming. It signals the fee band and benefit set rather than any assessment by us."
+    },
+    "card_material": {
+      "type": "enum",
+      "label": "Card material",
+      "group": "identity",
+      "values": [
+        "Plastic",
+        "Metal",
+        "Recycled plastic"
+      ],
+      "note": "What the card is made of. Metal cards usually sit in higher fee tiers and can be harder to replace quickly when lost."
+    },
+    "upi_linkable": {
+      "type": "boolean",
+      "label": "Can link to UPI",
+      "group": "identity",
+      "note": "Whether the card can be linked to a UPI app for QR payments. In India only RuPay credit cards currently support this, and rewards on UPI spends often differ from card spends."
+    },
+    "addon_card_fee_inr": {
+      "type": "number",
+      "min": 0,
+      "max": 100000,
+      "unit": "₹",
+      "label": "Add-on card fee",
+      "group": "fees",
+      "note": "What an additional card for a family member costs each year. Many issuers provide the first one or two free."
+    },
+    "overlimit_fee": {
+      "type": "string",
+      "label": "Over-limit fee",
+      "group": "fees",
+      "note": "What is charged if the balance exceeds the credit limit. RBI requires your explicit consent before an issuer allows over-limit spending at all."
+    },
+    "rent_payment_fee": {
+      "type": "string",
+      "label": "Rent payment fee",
+      "group": "fees",
+      "note": "What is charged for paying rent through the card, typically via a third-party app. Most issuers now levy a flat fee and pay no rewards on these spends."
+    },
+    "emi_processing_fee": {
+      "type": "string",
+      "label": "EMI conversion fee",
+      "group": "fees",
+      "note": "What it costs to convert a purchase into instalments, separate from the interest charged on the EMI itself."
+    },
+    "reward_redemption_fee_inr": {
+      "type": "number",
+      "min": 0,
+      "max": 10000,
+      "unit": "₹",
+      "label": "Redemption fee",
+      "group": "rewards",
+      "note": "A fee charged each time reward points are redeemed. It reduces the effective value of small redemptions considerably."
+    },
+    "interest_free_days": {
+      "type": "string",
+      "label": "Interest-free period",
+      "group": "interest",
+      "note": "How long purchases go uncharged before payment is due, usually quoted as a range because it depends where in the billing cycle the purchase falls. It disappears entirely once any balance is carried forward."
+    },
+    "interest_rate_annual_pct": {
+      "type": "number",
+      "min": 0,
+      "max": 100,
+      "unit": "%",
+      "label": "Annual interest rate",
+      "group": "interest",
+      "note": "The yearly interest on carried balances, the same charge as the monthly rate expressed annually. It is the figure comparable with a personal loan."
+    },
+    "billing_cycle_days": {
+      "type": "integer",
+      "min": 15,
+      "max": 45,
+      "unit": "days",
+      "label": "Billing cycle",
+      "group": "terms",
+      "note": "How many days each statement period covers. Some issuers let you change the statement date, which can shift a large purchase into a later cycle."
+    },
+    "contactless_limit_inr": {
+      "type": "number",
+      "min": 0,
+      "max": 100000,
+      "unit": "₹",
+      "label": "Contactless limit",
+      "group": "terms",
+      "note": "The largest tap payment allowed without entering a PIN. RBI sets the ceiling; issuers may set it lower and usually let you adjust it."
+    },
+    "reward_capping_note": {
+      "type": "string",
+      "label": "Reward caps",
+      "group": "rewards",
+      "note": "The monthly or category limits on bonus earning. A benefit without its cap is a marketing claim rather than a fact, so the cap is the part that decides what the card actually returns."
+    },
+    "reward_expiry": {
+      "type": "string",
+      "label": "Points expiry",
+      "group": "rewards",
+      "note": "How long reward points last before lapsing. Expiring points make an accumulating balance worth less than its face value suggests."
+    },
+    "milestone_benefits": {
+      "type": "list",
+      "label": "Milestone benefits",
+      "group": "benefits",
+      "note": "Vouchers or bonus points awarded on reaching a spend threshold in a period. They are worth reading with the threshold, since the benefit is all-or-nothing."
+    },
+    "insurance_cover_note": {
+      "type": "string",
+      "label": "Insurance cover",
+      "group": "benefits",
+      "note": "Complimentary insurance the card carries, such as air-accident or purchase protection. Cover is usually conditional on paying for the item or ticket with the card."
+    },
+    "golf_benefit": {
+      "type": "string",
+      "label": "Golf benefit",
+      "group": "benefits",
+      "note": "Complimentary golf rounds or lessons per period, typically with a spend condition attached."
+    },
+    "concierge": {
+      "type": "boolean",
+      "label": "Concierge service",
+      "group": "benefits",
+      "note": "Whether the card includes a booking and request service. Availability and quality vary widely between issuers."
+    },
+    "min_age": {
+      "type": "integer",
+      "min": 15,
+      "max": 100,
+      "unit": "years",
+      "label": "Minimum age",
+      "group": "eligibility"
+    },
+    "max_age": {
+      "type": "integer",
+      "min": 15,
+      "max": 120,
+      "unit": "years",
+      "label": "Maximum age",
+      "group": "eligibility"
+    },
+    "credit_score_stated": {
+      "type": "string",
+      "label": "Stated credit score",
+      "group": "eligibility",
+      "note": "The bureau score the issuer publishes as a guideline. It is one input to an approval decision, not a threshold that guarantees one."
+    },
+    "existing_relationship_required": {
+      "type": "boolean",
+      "label": "Needs an existing account",
+      "group": "eligibility",
+      "note": "Whether the card is available only to existing customers of the issuer. Some premium cards are invitation-only on top of this."
+    },
+    "welcome_benefit_note": {
+      "type": "string",
+      "label": "Welcome benefit terms",
+      "group": "benefits",
+      "note": "What the card gives on joining and the conditions attached, such as a first spend within a set number of days. The condition is the fact; the headline value is usually promotional and changes."
     }
   },
   "conditional_benefits": {
@@ -194,5 +497,39 @@
   "sanity": {
     "note": "Every numeric field must be traceable to a line in the MITC. If it is not in the document, it does not go in the record.",
     "change_log": "When an issuer revises the MITC, add a new fact_version rather than overwriting. The diff is the point."
-  }
+  },
+  "groups": [
+    {
+      "id": "identity",
+      "label": "Issuer & network"
+    },
+    {
+      "id": "fees",
+      "label": "Fees & charges"
+    },
+    {
+      "id": "interest",
+      "label": "Interest"
+    },
+    {
+      "id": "rewards",
+      "label": "Rewards"
+    },
+    {
+      "id": "benefits",
+      "label": "Benefits"
+    },
+    {
+      "id": "eligibility",
+      "label": "Eligibility"
+    },
+    {
+      "id": "terms",
+      "label": "Billing terms"
+    },
+    {
+      "id": "documents",
+      "label": "Official documents"
+    }
+  ]
 }

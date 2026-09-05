@@ -3,49 +3,623 @@
   "label": "Appliances",
   "categories": {
     "Air conditioners": {
-      "required": ["capacity_ton", "star"],
-      "columns": ["star", "capacity_ton", "type", "iseer", "year"],
-      "facets": ["brand", "star", "capacity_ton", "type", "year"]
+      "required": [
+        "capacity_ton",
+        "star"
+      ],
+      "columns": [
+        "star",
+        "capacity_ton",
+        "type",
+        "iseer",
+        "year"
+      ],
+      "facets": [
+        "brand",
+        "star",
+        "capacity_ton",
+        "type",
+        "year",
+        "compressor_type",
+        "refrigerant"
+      ],
+      "spec": [
+        "year",
+        "launch_month",
+        "model_number",
+        "discontinued",
+        "capacity_ton",
+        "type",
+        "cooling_capacity_btu",
+        "star",
+        "rating_year",
+        "annual_units_kwh",
+        "power_input_w",
+        "iseer",
+        "compressor_type",
+        "refrigerant",
+        "operating_temp_max_c",
+        "noise_db",
+        "stabiliser_free",
+        "inverter_compatible",
+        "smart_app",
+        "connectivity",
+        "warranty",
+        "installation_included",
+        "weight_g",
+        "dimensions_mm",
+        "colours",
+        "spec_url",
+        "spec_checked_version"
+      ]
     },
     "Refrigerators": {
-      "required": ["capacity_l", "type"],
-      "columns": ["capacity_l", "type", "star", "year"],
-      "facets": ["brand", "star", "type", "capacity_l", "year"]
+      "required": [
+        "capacity_l",
+        "type"
+      ],
+      "columns": [
+        "capacity_l",
+        "type",
+        "star",
+        "year"
+      ],
+      "facets": [
+        "brand",
+        "capacity_l",
+        "type",
+        "star",
+        "year",
+        "defrost_type"
+      ],
+      "spec": [
+        "year",
+        "launch_month",
+        "model_number",
+        "discontinued",
+        "capacity_l",
+        "type",
+        "star",
+        "rating_year",
+        "annual_units_kwh",
+        "power_input_w",
+        "compressor_type",
+        "refrigerant",
+        "defrost_type",
+        "convertible_modes",
+        "stabiliser_free",
+        "inverter_compatible",
+        "noise_db",
+        "smart_app",
+        "connectivity",
+        "warranty",
+        "installation_included",
+        "weight_g",
+        "dimensions_mm",
+        "colours",
+        "spec_url",
+        "spec_checked_version"
+      ]
     },
     "Washing machines": {
-      "required": ["capacity_kg", "type"],
-      "columns": ["type", "capacity_kg", "star", "rpm"],
-      "facets": ["brand", "star", "type", "capacity_kg"]
+      "required": [
+        "capacity_kg",
+        "type"
+      ],
+      "columns": [
+        "type",
+        "capacity_kg",
+        "star",
+        "rpm"
+      ],
+      "facets": [
+        "brand",
+        "type",
+        "capacity_kg",
+        "star",
+        "rpm"
+      ],
+      "spec": [
+        "year",
+        "launch_month",
+        "model_number",
+        "discontinued",
+        "capacity_kg",
+        "type",
+        "star",
+        "rating_year",
+        "annual_units_kwh",
+        "power_input_w",
+        "rpm",
+        "wash_programs",
+        "noise_db",
+        "inverter_compatible",
+        "smart_app",
+        "connectivity",
+        "warranty",
+        "installation_included",
+        "weight_g",
+        "dimensions_mm",
+        "colours",
+        "spec_url",
+        "spec_checked_version"
+      ]
     },
     "Televisions": {
-      "required": ["screen_in"],
-      "columns": ["screen_in", "resolution", "os", "year"],
-      "facets": ["brand", "screen_in", "resolution", "os", "year"]
+      "required": [
+        "screen_in"
+      ],
+      "columns": [
+        "screen_in",
+        "resolution",
+        "os",
+        "year"
+      ],
+      "facets": [
+        "brand",
+        "screen_in",
+        "resolution",
+        "os",
+        "year",
+        "panel_type"
+      ],
+      "spec": [
+        "year",
+        "launch_month",
+        "model_number",
+        "discontinued",
+        "screen_in",
+        "resolution",
+        "panel_type",
+        "refresh_hz",
+        "hdr_support",
+        "star",
+        "rating_year",
+        "annual_units_kwh",
+        "power_input_w",
+        "os",
+        "hdmi_ports",
+        "hdmi_version",
+        "connectivity",
+        "smart_app",
+        "noise_db",
+        "warranty",
+        "installation_included",
+        "weight_g",
+        "dimensions_mm",
+        "colours",
+        "spec_url",
+        "spec_checked_version"
+      ]
     },
     "Microwave ovens": {
-      "required": ["capacity_l", "type"],
-      "columns": ["capacity_l", "type", "star"],
-      "facets": ["brand", "type", "capacity_l"]
+      "required": [
+        "capacity_l",
+        "type"
+      ],
+      "columns": [
+        "capacity_l",
+        "type",
+        "star"
+      ],
+      "facets": [
+        "brand",
+        "capacity_l",
+        "type",
+        "star"
+      ],
+      "spec": [
+        "year",
+        "launch_month",
+        "model_number",
+        "discontinued",
+        "capacity_l",
+        "type",
+        "star",
+        "rating_year",
+        "power_input_w",
+        "wash_programs",
+        "noise_db",
+        "smart_app",
+        "warranty",
+        "installation_included",
+        "weight_g",
+        "dimensions_mm",
+        "colours",
+        "spec_url",
+        "spec_checked_version"
+      ]
     }
   },
   "fields": {
-    "capacity_ton": { "type": "number", "min": 0.5, "max": 5, "unit": "ton", "label": "Capacity" },
-    "capacity_l":   { "type": "number", "min": 5, "max": 900, "unit": "L", "label": "Capacity" },
-    "capacity_kg":  { "type": "number", "min": 3, "max": 20, "unit": "kg", "label": "Capacity" },
-    "star":         { "type": "integer", "min": 1, "max": 5, "label": "BEE star rating" },
-    "rating_year":  { "type": "integer", "min": 2006, "max": 2035, "label": "Star rating year",
-                      "note": "BEE revises thresholds; a 5-star from 2018 is not a 5-star today. Star rating without its year is misleading." },
-    "year":         { "type": "integer", "min": 2005, "max": 2035, "label": "Model year" },
-    "iseer":        { "type": "number", "min": 2, "max": 7, "label": "ISEER" },
-    "type":         { "type": "string", "label": "Type" },
-    "rpm":          { "type": "integer", "min": 200, "max": 2000, "label": "Spin speed" },
-    "screen_in":    { "type": "number", "min": 10, "max": 120, "unit": "inch", "label": "Screen size" },
-    "resolution":   { "type": "enum", "values": ["HD", "Full HD", "Ultra HD (4K)", "8K"], "label": "Resolution" },
-    "os":           { "type": "string", "label": "Operating system" },
-    "noise_db":     { "type": "number", "min": 15, "max": 90, "label": "Noise (dB)" },
-    "warranty":     { "type": "string", "label": "Warranty" }
+    "capacity_ton": {
+      "type": "number",
+      "min": 0.5,
+      "max": 5,
+      "unit": "ton",
+      "label": "Capacity",
+      "group": "capacity",
+      "note": "Cooling capacity in tons. Roughly 1 ton suits a small bedroom of about 100-120 sq ft; undersizing runs the unit constantly, and oversizing cools fast but cycles off before removing humidity."
+    },
+    "capacity_l": {
+      "type": "number",
+      "min": 5,
+      "max": 1000,
+      "unit": "L",
+      "label": "Capacity",
+      "group": "capacity",
+      "note": "Usable volume in litres. For refrigerators this is the gross figure, which counts space the shelves and fittings occupy, so the usable amount is lower."
+    },
+    "capacity_kg": {
+      "type": "number",
+      "min": 1,
+      "max": 30,
+      "unit": "kg",
+      "label": "Capacity",
+      "group": "capacity",
+      "note": "The weight of dry laundry the drum takes. It is measured with cotton; bulky bedding fills the drum long before it reaches this weight."
+    },
+    "star": {
+      "type": "integer",
+      "min": 1,
+      "max": 5,
+      "label": "BEE star rating",
+      "group": "efficiency",
+      "note": "India's Bureau of Energy Efficiency rating, from 1 to 5. More stars means less electricity for the same work, and the running-cost gap over a decade often exceeds the difference in purchase cost. Always read it with the rating year."
+    },
+    "rating_year": {
+      "type": "integer",
+      "min": 2006,
+      "max": 2035,
+      "label": "Star rating year",
+      "group": "efficiency",
+      "note": "The year the star rating was issued. BEE revises its thresholds periodically, so a 5-star from 2018 can be worse than a 3-star issued today. Without this year the star count alone can mislead."
+    },
+    "year": {
+      "type": "integer",
+      "min": 2005,
+      "max": 2035,
+      "label": "Model year",
+      "group": "identity"
+    },
+    "iseer": {
+      "type": "number",
+      "min": 1,
+      "max": 10,
+      "label": "ISEER",
+      "group": "efficiency",
+      "note": "Indian Seasonal Energy Efficiency Ratio: cooling delivered per unit of electricity across a season. It is the number the star rating is derived from, and it compares two air conditioners more precisely than stars do."
+    },
+    "type": {
+      "type": "string",
+      "label": "Type",
+      "group": "capacity"
+    },
+    "rpm": {
+      "type": "integer",
+      "min": 100,
+      "max": 3000,
+      "unit": "rpm",
+      "label": "Spin speed",
+      "group": "performance",
+      "note": "How fast the drum spins to wring out water. Higher speeds leave laundry drier and cut drying time, but are harder on delicate fabrics."
+    },
+    "screen_in": {
+      "type": "number",
+      "min": 10,
+      "max": 120,
+      "unit": "inch",
+      "label": "Screen size",
+      "group": "display"
+    },
+    "resolution": {
+      "type": "enum",
+      "label": "Resolution",
+      "group": "display",
+      "values": [
+        "HD",
+        "Full HD",
+        "Ultra HD (4K)",
+        "8K"
+      ],
+      "note": "Pixel count of the panel. Read it with screen size and seating distance: 4K is visible on a large screen at close range, and hard to distinguish from Full HD on a small one across a room."
+    },
+    "os": {
+      "type": "string",
+      "label": "Operating system",
+      "group": "connectivity",
+      "note": "The smart platform, such as Google TV or Tizen. It decides which apps are available and for how long the set keeps receiving them, which often outlasts the panel itself."
+    },
+    "noise_db": {
+      "type": "number",
+      "min": 10,
+      "max": 100,
+      "unit": "dB",
+      "label": "Noise",
+      "group": "performance",
+      "note": "Operating noise in decibels. A difference of 10 dB is heard as roughly twice as loud, so it matters for a bedroom air conditioner or a washing machine in a flat."
+    },
+    "warranty": {
+      "type": "string",
+      "label": "Warranty",
+      "group": "warranty",
+      "note": "What the maker covers and for how long, usually split between the whole appliance and its most expensive part. Compressor and motor warranties often run far longer than the general one, and that gap is the fact worth reading."
+    },
+    "launch_month": {
+      "type": "string",
+      "label": "Announced",
+      "group": "identity",
+      "note": "The month the maker announced this model, as YYYY-MM. Appliance lines refresh yearly and older stock is sold alongside new, so the date separates them."
+    },
+    "model_number": {
+      "type": "string",
+      "label": "Model number",
+      "group": "identity",
+      "note": "The maker's exact model code. Appliance marketing names are reused across capacities and star ratings, so the model number is the only reliable identifier when comparing listings."
+    },
+    "discontinued": {
+      "type": "boolean",
+      "label": "Discontinued",
+      "group": "identity",
+      "note": "True when the maker has stopped producing this model. Spare parts and service support for appliances usually continue for some years after, but availability tightens."
+    },
+    "annual_units_kwh": {
+      "type": "number",
+      "min": 10,
+      "max": 5000,
+      "unit": "kWh",
+      "label": "Annual energy use",
+      "group": "efficiency",
+      "note": "Electricity the appliance uses in a year under the BEE test conditions. Multiply by your tariff for a running-cost estimate; real use varies with how you set and run it."
+    },
+    "power_input_w": {
+      "type": "number",
+      "min": 10,
+      "max": 6000,
+      "unit": "W",
+      "label": "Power input",
+      "group": "efficiency",
+      "note": "Electricity drawn while running. It decides whether the appliance can run on an inverter or a generator, which the star rating does not tell you."
+    },
+    "compressor_type": {
+      "type": "enum",
+      "label": "Compressor",
+      "group": "performance",
+      "values": [
+        "Fixed speed",
+        "Inverter",
+        "Dual inverter",
+        "Digital inverter",
+        "Linear inverter"
+      ],
+      "note": "Whether the motor runs flat out and switches off, or varies its speed. Inverter types hold the temperature steadily and use less electricity over long runs, which is why they dominate higher star ratings."
+    },
+    "refrigerant": {
+      "type": "enum",
+      "label": "Refrigerant",
+      "group": "performance",
+      "values": [
+        "R22",
+        "R32",
+        "R290",
+        "R410A",
+        "R600a",
+        "R134a"
+      ],
+      "note": "The gas the cooling circuit uses. R22 is being phased out under the Montreal Protocol, so servicing it gets harder and dearer; R32 and R290 have far lower global-warming impact."
+    },
+    "cooling_capacity_btu": {
+      "type": "number",
+      "min": 1000,
+      "max": 100000,
+      "unit": "BTU/hr",
+      "label": "Cooling capacity",
+      "group": "performance",
+      "note": "Heat removed per hour in BTU. It is the same measure as tons expressed differently, and lets you compare against imported units quoted only in BTU."
+    },
+    "operating_temp_max_c": {
+      "type": "number",
+      "min": 30,
+      "max": 60,
+      "unit": "°C",
+      "label": "Cools up to",
+      "group": "performance",
+      "note": "The highest outside temperature at which the unit still delivers rated cooling. It matters in Indian summers, where units rated only to 43 °C lose output on the hottest afternoons."
+    },
+    "wash_programs": {
+      "type": "integer",
+      "min": 1,
+      "max": 50,
+      "label": "Wash programmes",
+      "group": "features",
+      "note": "How many preset cycles the machine offers. Beyond a handful the extras are often variations, so the specific programmes you need matter more than the count."
+    },
+    "defrost_type": {
+      "type": "enum",
+      "label": "Defrost",
+      "group": "features",
+      "values": [
+        "Direct cool",
+        "Frost free",
+        "Manual defrost"
+      ],
+      "note": "How the refrigerator handles ice build-up. Frost free circulates air and never needs manual defrosting but uses slightly more electricity; direct cool is cheaper to buy and run but needs periodic defrosting by hand."
+    },
+    "convertible_modes": {
+      "type": "boolean",
+      "label": "Convertible modes",
+      "group": "features",
+      "note": "Whether compartments can be switched between fridge and freezer use, or cooling can be stepped down for a partly filled unit."
+    },
+    "stabiliser_free": {
+      "type": "boolean",
+      "label": "Stabiliser-free operation",
+      "group": "features",
+      "note": "Whether the unit tolerates voltage swings without an external stabiliser, and across what range. It removes a real extra cost where supply is unstable."
+    },
+    "inverter_compatible": {
+      "type": "boolean",
+      "label": "Runs on a home inverter",
+      "group": "features",
+      "note": "Whether the appliance can be powered from a domestic battery inverter during a cut. High-draw appliances often cannot without a large inverter."
+    },
+    "panel_type": {
+      "type": "enum",
+      "label": "Panel type",
+      "group": "display",
+      "values": [
+        "LED LCD",
+        "QLED",
+        "OLED",
+        "QD-OLED",
+        "MiniLED",
+        "Plasma"
+      ],
+      "note": "How the television makes its picture. OLED lights each pixel separately for true black; QLED and MiniLED are backlit types that get brighter, which suits a sunlit room better."
+    },
+    "refresh_hz": {
+      "type": "integer",
+      "min": 24,
+      "max": 240,
+      "unit": "Hz",
+      "label": "Refresh rate",
+      "group": "display",
+      "note": "How many times per second the panel updates. 120 Hz makes fast sport and gaming look smoother; most broadcast and streaming content is still delivered at 24-60 Hz."
+    },
+    "hdr_support": {
+      "type": "list",
+      "label": "HDR support",
+      "group": "display",
+      "values": [
+        "HDR10",
+        "HDR10+",
+        "Dolby Vision",
+        "HLG"
+      ],
+      "note": "Which high dynamic range formats the set can display. Content and set must share a format; without a match the picture falls back to standard range."
+    },
+    "hdmi_ports": {
+      "type": "integer",
+      "min": 0,
+      "max": 8,
+      "label": "HDMI ports",
+      "group": "connectivity",
+      "note": "How many HDMI inputs the set has. Count your devices before buying, and check whether the ports support the version needed for 4K at 120 Hz if you game on a console."
+    },
+    "hdmi_version": {
+      "type": "enum",
+      "label": "HDMI version",
+      "group": "connectivity",
+      "values": [
+        "1.4",
+        "2.0",
+        "2.1"
+      ],
+      "note": "Which HDMI generation the ports support. Only 2.1 carries 4K at 120 Hz, and some sets fit just one 2.1 port among several older ones."
+    },
+    "connectivity": {
+      "type": "list",
+      "label": "Connectivity",
+      "group": "connectivity",
+      "values": [
+        "Wi-Fi",
+        "Ethernet",
+        "Bluetooth",
+        "USB",
+        "Optical out",
+        "AUX",
+        "Screen mirroring"
+      ],
+      "note": "How the appliance connects to a network and to other devices."
+    },
+    "smart_app": {
+      "type": "boolean",
+      "label": "Phone app control",
+      "group": "connectivity",
+      "note": "Whether the appliance can be controlled from the maker's phone app. App support can be withdrawn years later, which removes the feature from a working appliance."
+    },
+    "installation_included": {
+      "type": "boolean",
+      "label": "Installation included",
+      "group": "warranty",
+      "note": "Whether the maker includes installation. For air conditioners this is a substantial separate cost, and additional copper piping is usually charged extra either way."
+    },
+    "weight_g": {
+      "type": "number",
+      "min": 100,
+      "max": 500000,
+      "unit": "g",
+      "label": "Weight",
+      "group": "physical"
+    },
+    "dimensions_mm": {
+      "type": "string",
+      "label": "Dimensions",
+      "group": "physical",
+      "note": "Width x depth x height in millimetres. Check it against doorways and the alcove the appliance must fit, and allow the clearance the maker specifies for ventilation."
+    },
+    "colours": {
+      "type": "list",
+      "label": "Colours or finish",
+      "group": "physical",
+      "note": "The finishes this model is sold in."
+    },
+    "spec_url": {
+      "type": "string",
+      "label": "Official spec sheet",
+      "group": "documents",
+      "note": "A link to the maker's own specification page for this exact model. It is the source a disputed fact here should be checked against, and it outranks any marketplace listing."
+    },
+    "spec_checked_version": {
+      "type": "string",
+      "label": "Spec sheet version",
+      "group": "documents",
+      "note": "Which revision of the maker's spec page these facts were read from, as a date or version. Makers quietly edit spec pages after launch, so this records which wording was in front of us."
+    }
   },
   "sanity": {
     "star_requires": "rating_year recommended; flag if star >= 4 and rating_year is null"
-  }
+  },
+  "groups": [
+    {
+      "id": "identity",
+      "label": "Identity & launch"
+    },
+    {
+      "id": "capacity",
+      "label": "Capacity & type"
+    },
+    {
+      "id": "efficiency",
+      "label": "Energy & efficiency"
+    },
+    {
+      "id": "performance",
+      "label": "Performance"
+    },
+    {
+      "id": "features",
+      "label": "Features"
+    },
+    {
+      "id": "display",
+      "label": "Screen & picture"
+    },
+    {
+      "id": "connectivity",
+      "label": "Connectivity"
+    },
+    {
+      "id": "physical",
+      "label": "Body & installation"
+    },
+    {
+      "id": "warranty",
+      "label": "Warranty & service"
+    },
+    {
+      "id": "documents",
+      "label": "Official sources"
+    }
+  ]
 }

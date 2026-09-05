@@ -1,0 +1,247 @@
+{
+  "appliances": {
+    "Air conditioners": [
+      "capacity_ton",
+      "star"
+    ],
+    "Microwave ovens": [
+      "capacity_l",
+      "type"
+    ],
+    "Refrigerators": [
+      "capacity_l",
+      "type"
+    ],
+    "Televisions": [
+      "screen_in"
+    ],
+    "Washing machines": [
+      "capacity_kg",
+      "type"
+    ]
+  },
+  "audio": {
+    "Neckband earphones": [
+      "driver_mm",
+      "battery_hr",
+      "bluetooth"
+    ],
+    "True wireless earbuds": [
+      "driver_mm",
+      "battery_buds_hr",
+      "bluetooth"
+    ],
+    "Wired earphones": [
+      "driver_mm",
+      "connector"
+    ],
+    "Wireless headphones": [
+      "driver_mm",
+      "battery_hr",
+      "bluetooth"
+    ]
+  },
+  "banking": {
+    "Debit cards": [
+      "institution_type",
+      "network",
+      "annual_fee_inr"
+    ],
+    "Fixed deposits": [
+      "institution_type",
+      "insured"
+    ],
+    "Recurring deposits": [
+      "institution_type",
+      "insured"
+    ],
+    "Savings accounts": [
+      "institution_type",
+      "insured"
+    ]
+  },
+  "beauty": {
+    "Beauty (Open Beauty Facts)": [
+      "quantity"
+    ],
+    "Face serum": [
+      "size",
+      "actives"
+    ],
+    "Face wash & cleanser": [
+      "size"
+    ],
+    "Fragrance": [
+      "size"
+    ],
+    "Lipstick": [
+      "shade"
+    ],
+    "Moisturiser": [
+      "size"
+    ],
+    "Shampoo": [
+      "size"
+    ],
+    "Sunscreen": [
+      "size",
+      "spf"
+    ],
+    "_default": [
+      "size"
+    ]
+  },
+  "cards": {
+    "Charge cards": [
+      "issuer",
+      "network",
+      "annual_fee_inr"
+    ],
+    "Credit cards": [
+      "issuer",
+      "joining_fee_inr",
+      "annual_fee_inr"
+    ]
+  },
+  "funds": {
+    "Commodity": [
+      "amc",
+      "plan",
+      "option"
+    ],
+    "Debt": [
+      "amc",
+      "plan",
+      "option"
+    ],
+    "Equity": [
+      "amc",
+      "plan",
+      "option"
+    ],
+    "Hybrid": [
+      "amc",
+      "plan",
+      "option"
+    ],
+    "Other": [
+      "amc",
+      "plan",
+      "option"
+    ],
+    "Solution oriented": [
+      "amc",
+      "plan",
+      "option"
+    ],
+    "_default": [
+      "amc",
+      "plan",
+      "option"
+    ]
+  },
+  "grocery": {
+    "Baby food": [
+      "quantity"
+    ],
+    "Beverages": [
+      "quantity"
+    ],
+    "Biscuits & snacks": [
+      "quantity"
+    ],
+    "Dairy": [
+      "quantity"
+    ],
+    "Health & supplements": [
+      "quantity"
+    ],
+    "Instant & ready to eat": [
+      "quantity"
+    ],
+    "Oils & ghee": [
+      "quantity"
+    ],
+    "Spices & condiments": [
+      "quantity"
+    ],
+    "Staples & grains": [
+      "quantity"
+    ],
+    "_default": [
+      "quantity"
+    ]
+  },
+  "insurance": {
+    "Health — critical illness": [
+      "insurer",
+      "uin",
+      "conditions_covered_count"
+    ],
+    "Health — indemnity": [
+      "insurer",
+      "uin",
+      "sum_insured_options_inr",
+      "ped_waiting_months"
+    ],
+    "Health — top-up": [
+      "insurer",
+      "uin",
+      "deductible_inr",
+      "deductible_type"
+    ],
+    "Personal accident": [
+      "insurer",
+      "uin"
+    ],
+    "Term life": [
+      "insurer",
+      "uin",
+      "max_entry_age",
+      "max_cover_age"
+    ]
+  },
+  "networking": {
+    "Mesh systems": [
+      "wifi_standard",
+      "bands",
+      "nodes"
+    ],
+    "Range extenders": [
+      "wifi_standard"
+    ],
+    "Routers": [
+      "wifi_standard",
+      "bands"
+    ]
+  },
+  "phones": {
+    "Cameras": [
+      "camera_mp"
+    ],
+    "Laptops": [
+      "ram",
+      "storage"
+    ],
+    "Smartphones": [
+      "ram",
+      "storage"
+    ],
+    "Storage": [
+      "storage"
+    ],
+    "Tablets": [
+      "storage"
+    ]
+  },
+  "printers": {
+    "Printer supplies": [
+      "cartridge_model",
+      "page_yield"
+    ],
+    "Printers": [
+      "print_tech",
+      "functions"
+    ]
+  }
+}

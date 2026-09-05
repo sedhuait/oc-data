@@ -4,50 +4,613 @@
   "note": "This category passes or fails per product, not per category. A branded pair with published driver size, codec support and battery figures has a real fact sheet. The sub-₹2,000 commodity flood does not — its 'specs' are marketing claims. The required fields below do that filtering automatically, without anyone curating a brand list.",
   "categories": {
     "True wireless earbuds": {
-      "required": ["driver_mm", "battery_buds_hr", "bluetooth"],
-      "columns": ["driver_mm", "anc", "codecs", "battery_buds_hr", "battery_case_hr", "bluetooth"],
-      "facets": ["brand", "anc", "codecs", "ip_rating", "bluetooth", "multipoint"]
+      "required": [
+        "driver_mm",
+        "battery_buds_hr",
+        "bluetooth"
+      ],
+      "columns": [
+        "driver_mm",
+        "anc",
+        "codecs",
+        "battery_buds_hr",
+        "battery_case_hr",
+        "bluetooth"
+      ],
+      "facets": [
+        "brand",
+        "anc",
+        "codecs",
+        "bluetooth",
+        "ip_rating",
+        "form_factor"
+      ],
+      "spec": [
+        "year",
+        "launch_month",
+        "model_number",
+        "form_factor",
+        "driver_mm",
+        "driver_type",
+        "frequency_response",
+        "codecs",
+        "spatial_audio",
+        "hi_res_certified",
+        "anc",
+        "anc_depth_db",
+        "transparency_mode",
+        "enc_calls",
+        "battery_buds_hr",
+        "battery_case_hr",
+        "fast_charge",
+        "charging_case_wireless",
+        "bluetooth",
+        "multipoint",
+        "bluetooth_range_m",
+        "mic",
+        "controls",
+        "app_support",
+        "eq_customisable",
+        "wear_detection",
+        "voice_assistant",
+        "ip_rating",
+        "weight_g",
+        "ear_tip_sizes",
+        "colours",
+        "spec_url",
+        "spec_checked_version"
+      ]
     },
     "Wireless headphones": {
-      "required": ["driver_mm", "battery_hr", "bluetooth"],
-      "columns": ["driver_mm", "anc", "codecs", "battery_hr", "weight_g", "wired_fallback"],
-      "facets": ["brand", "anc", "codecs", "bluetooth", "multipoint", "wired_fallback"]
+      "required": [
+        "driver_mm",
+        "battery_hr",
+        "bluetooth"
+      ],
+      "columns": [
+        "driver_mm",
+        "anc",
+        "codecs",
+        "battery_hr",
+        "weight_g",
+        "wired_fallback"
+      ],
+      "facets": [
+        "brand",
+        "anc",
+        "codecs",
+        "bluetooth",
+        "form_factor",
+        "wired_fallback"
+      ],
+      "spec": [
+        "year",
+        "launch_month",
+        "model_number",
+        "form_factor",
+        "driver_mm",
+        "driver_type",
+        "frequency_response",
+        "codecs",
+        "spatial_audio",
+        "hi_res_certified",
+        "impedance_ohm",
+        "sensitivity_db",
+        "anc",
+        "anc_depth_db",
+        "transparency_mode",
+        "enc_calls",
+        "battery_hr",
+        "fast_charge",
+        "bluetooth",
+        "multipoint",
+        "wired_fallback",
+        "bluetooth_range_m",
+        "mic",
+        "controls",
+        "app_support",
+        "eq_customisable",
+        "wear_detection",
+        "voice_assistant",
+        "ip_rating",
+        "weight_g",
+        "foldable",
+        "ear_tip_sizes",
+        "colours",
+        "spec_url",
+        "spec_checked_version"
+      ]
     },
     "Wired earphones": {
-      "required": ["driver_mm", "connector"],
-      "columns": ["driver_mm", "connector", "impedance_ohm", "mic"],
-      "facets": ["brand", "connector", "mic"]
+      "required": [
+        "driver_mm",
+        "connector"
+      ],
+      "columns": [
+        "driver_mm",
+        "connector",
+        "impedance_ohm",
+        "mic"
+      ],
+      "facets": [
+        "brand",
+        "connector",
+        "driver_type",
+        "mic"
+      ],
+      "spec": [
+        "year",
+        "launch_month",
+        "model_number",
+        "form_factor",
+        "driver_mm",
+        "driver_type",
+        "frequency_response",
+        "codecs",
+        "spatial_audio",
+        "hi_res_certified",
+        "impedance_ohm",
+        "sensitivity_db",
+        "connector",
+        "mic",
+        "controls",
+        "ip_rating",
+        "weight_g",
+        "ear_tip_sizes",
+        "colours",
+        "spec_url",
+        "spec_checked_version"
+      ]
     },
     "Neckband earphones": {
-      "required": ["driver_mm", "battery_hr", "bluetooth"],
-      "columns": ["driver_mm", "anc", "battery_hr", "bluetooth"],
-      "facets": ["brand", "anc", "bluetooth", "ip_rating"]
+      "required": [
+        "driver_mm",
+        "battery_hr",
+        "bluetooth"
+      ],
+      "columns": [
+        "driver_mm",
+        "anc",
+        "battery_hr",
+        "bluetooth"
+      ],
+      "facets": [
+        "brand",
+        "anc",
+        "bluetooth",
+        "ip_rating"
+      ],
+      "spec": [
+        "year",
+        "launch_month",
+        "model_number",
+        "form_factor",
+        "driver_mm",
+        "driver_type",
+        "frequency_response",
+        "codecs",
+        "spatial_audio",
+        "hi_res_certified",
+        "impedance_ohm",
+        "sensitivity_db",
+        "anc",
+        "transparency_mode",
+        "enc_calls",
+        "battery_hr",
+        "fast_charge",
+        "bluetooth",
+        "multipoint",
+        "bluetooth_range_m",
+        "mic",
+        "controls",
+        "app_support",
+        "eq_customisable",
+        "voice_assistant",
+        "ip_rating",
+        "weight_g",
+        "ear_tip_sizes",
+        "colours",
+        "spec_url",
+        "spec_checked_version"
+      ]
     }
   },
   "fields": {
-    "driver_mm": { "type": "number", "min": 3, "max": 120, "unit": "mm", "label": "Driver size" },
-    "driver_type": { "type": "enum", "values": ["Dynamic", "Balanced armature", "Planar magnetic", "Hybrid"], "label": "Driver type" },
-    "anc": { "type": "enum", "values": ["None", "Passive only", "ANC", "Hybrid ANC", "Adaptive ANC"], "label": "Noise cancellation", "note": "'Environmental noise cancellation' on a listing usually means call-side ENC, not ANC for the listener. They are different things and are routinely conflated." },
-    "enc_calls": { "type": "boolean", "label": "Call noise cancellation (ENC)" },
-    "codecs": { "type": "list", "values": ["SBC", "AAC", "aptX", "aptX HD", "aptX Adaptive", "aptX Lossless", "LDAC", "LHDC", "LC3"], "label": "Bluetooth codecs", "note": "The fact enthusiasts want and listings bury. LDAC or aptX support decides whether a high-bitrate source is worth anything." },
-    "bluetooth": { "type": "enum", "values": ["4.0", "4.1", "4.2", "5.0", "5.1", "5.2", "5.3", "5.4", "6.0"], "label": "Bluetooth version" },
-    "multipoint": { "type": "boolean", "label": "Multipoint pairing" },
-    "battery_hr": { "type": "number", "min": 1, "max": 200, "unit": "hr", "label": "Battery life" },
-    "battery_buds_hr": { "type": "number", "min": 1, "max": 60, "unit": "hr", "label": "Battery — buds" },
-    "battery_case_hr": { "type": "number", "min": 1, "max": 200, "unit": "hr", "label": "Battery — with case" },
-    "fast_charge": { "type": "string", "label": "Fast charge claim" },
-    "ip_rating": { "type": "enum", "values": ["None", "IPX4", "IPX5", "IPX6", "IPX7", "IP54", "IP55", "IP57", "IP67", "IP68"], "label": "Water resistance" },
-    "connector": { "type": "enum", "values": ["3.5 mm", "USB-C", "Lightning", "6.35 mm", "Dual 3.5 mm"], "label": "Connector" },
-    "impedance_ohm": { "type": "number", "min": 4, "max": 600, "unit": "Ω", "label": "Impedance" },
-    "frequency_response": { "type": "string", "label": "Frequency response" },
-    "mic": { "type": "boolean", "label": "Microphone" },
-    "wired_fallback": { "type": "boolean", "label": "Works wired when the battery dies" },
-    "weight_g": { "type": "number", "min": 2, "max": 800, "unit": "g", "label": "Weight" },
-    "year": { "type": "integer", "min": 2015, "max": 2035, "label": "Model year" }
+    "driver_mm": {
+      "type": "number",
+      "min": 3,
+      "max": 120,
+      "unit": "mm",
+      "label": "Driver size",
+      "group": "sound",
+      "note": "The diameter of the speaker inside each earpiece. A larger driver can move more air, which usually helps bass, but tuning and housing design affect the sound at least as much as size does."
+    },
+    "driver_type": {
+      "type": "enum",
+      "label": "Driver type",
+      "group": "sound",
+      "values": [
+        "Dynamic",
+        "Balanced armature",
+        "Planar magnetic",
+        "Electrostatic",
+        "Hybrid",
+        "Dual dynamic"
+      ],
+      "note": "The technology that makes the sound. Dynamic drivers are the common single-driver design with strong bass; balanced armature units are smaller and more precise in the mids and treble; hybrids combine both to cover each range."
+    },
+    "anc": {
+      "type": "enum",
+      "label": "Noise cancellation",
+      "group": "noise",
+      "values": [
+        "None",
+        "Passive only",
+        "ANC",
+        "Hybrid ANC",
+        "Adaptive ANC"
+      ],
+      "note": "How the model handles outside noise. Passive isolation is just the physical seal; active cancellation uses microphones to counter low steady sound like engines and fans, and works far better on that than on speech.",
+      "values_note": {
+        "None": "No deliberate noise control.",
+        "Passive only": "Blocks sound by physical seal alone, with no electronics.",
+        "ANC": "Active cancellation using microphones, typically outward-facing only.",
+        "Hybrid ANC": "Microphones both outside and inside the ear, cancelling a wider range more accurately.",
+        "Adaptive ANC": "Hybrid cancellation that adjusts continuously to the surrounding noise and the fit in your ear."
+      }
+    },
+    "enc_calls": {
+      "type": "boolean",
+      "label": "Call noise reduction",
+      "group": "noise",
+      "note": "Whether extra microphones reduce background noise for the person on the other end of a call. This is separate from noise cancellation, which only affects what you hear."
+    },
+    "codecs": {
+      "type": "list",
+      "values": [
+        "SBC",
+        "AAC",
+        "aptX",
+        "aptX HD",
+        "aptX Adaptive",
+        "aptX Lossless",
+        "LDAC",
+        "LHDC",
+        "LC3"
+      ],
+      "label": "Bluetooth codecs",
+      "note": "How audio is compressed over Bluetooth. Both the phone and the headphone must support a codec for it to be used; otherwise both fall back to SBC, the basic one. iPhones use AAC and never LDAC.",
+      "group": "sound"
+    },
+    "bluetooth": {
+      "type": "enum",
+      "label": "Bluetooth",
+      "group": "connectivity",
+      "values": [
+        "4.0",
+        "4.1",
+        "4.2",
+        "5.0",
+        "5.1",
+        "5.2",
+        "5.3",
+        "5.4",
+        "6.0"
+      ],
+      "note": "The Bluetooth version. Later versions improve range and power use, but the phone has to support the same version for the benefit to apply."
+    },
+    "multipoint": {
+      "type": "boolean",
+      "label": "Multipoint pairing",
+      "group": "connectivity",
+      "note": "Whether the model can hold connections to two devices at once, so a call on the phone interrupts music from the laptop without re-pairing."
+    },
+    "battery_hr": {
+      "type": "number",
+      "min": 0.5,
+      "max": 200,
+      "unit": "hours",
+      "label": "Battery life",
+      "group": "battery",
+      "note": "Playback time on one charge, as quoted by the maker. Makers usually measure with noise cancellation off and at moderate volume, so real figures run lower."
+    },
+    "battery_buds_hr": {
+      "type": "number",
+      "min": 0.5,
+      "max": 60,
+      "unit": "hours",
+      "label": "Battery, earbuds",
+      "group": "battery",
+      "note": "Playback time from the earbuds alone before returning them to the case. This is the figure that decides whether they last a long flight or a full workday."
+    },
+    "battery_case_hr": {
+      "type": "number",
+      "min": 1,
+      "max": 200,
+      "unit": "hours",
+      "label": "Battery, with case",
+      "group": "battery",
+      "note": "Total listening time including recharges from the case. It is the headline number makers advertise, but the earbuds' own runtime is what limits a single session."
+    },
+    "fast_charge": {
+      "type": "string",
+      "label": "Fast charge",
+      "group": "battery",
+      "note": "How much playback a short top-up gives, such as 10 minutes for 2 hours. It is the figure that matters when you have forgotten to charge before leaving."
+    },
+    "ip_rating": {
+      "type": "enum",
+      "label": "Water and dust resistance",
+      "group": "physical",
+      "values": [
+        "None",
+        "IPX4",
+        "IPX5",
+        "IPX6",
+        "IPX7",
+        "IP54",
+        "IP55",
+        "IP56",
+        "IP57",
+        "IP67",
+        "IP68"
+      ],
+      "note": "Sealing against dust and water. IPX4 handles sweat and light rain, which is the practical bar for exercise; IP67 and above survive brief immersion. Cases are often rated separately from the earbuds."
+    },
+    "connector": {
+      "type": "enum",
+      "label": "Connector",
+      "group": "connectivity",
+      "values": [
+        "3.5 mm",
+        "6.35 mm",
+        "Dual 3.5 mm",
+        "Lightning",
+        "USB-C",
+        "2.5 mm balanced",
+        "4.4 mm balanced"
+      ],
+      "note": "The plug fitted to a wired model. A phone without a headphone socket needs a USB-C or Lightning model, or an adapter."
+    },
+    "impedance_ohm": {
+      "type": "number",
+      "min": 4,
+      "max": 600,
+      "unit": "Ω",
+      "label": "Impedance",
+      "group": "sound",
+      "note": "Electrical resistance in ohms. Above roughly 100 ohms, a phone or laptop may not drive the headphone loudly enough without a separate amplifier; low-impedance models run fine from anything."
+    },
+    "frequency_response": {
+      "type": "string",
+      "label": "Frequency response",
+      "group": "sound",
+      "note": "The range of pitches the earphone reproduces, such as 20 Hz - 20 kHz. Nearly every model quotes roughly the range of human hearing, so it rarely distinguishes two products and says nothing about tuning."
+    },
+    "mic": {
+      "type": "boolean",
+      "label": "Microphone",
+      "group": "controls",
+      "note": "Whether the model has a microphone for calls and voice assistants."
+    },
+    "wired_fallback": {
+      "type": "boolean",
+      "label": "Wired listening",
+      "group": "connectivity",
+      "note": "Whether the model can be used with a cable when the battery is flat or when Bluetooth is not allowed, such as on some aircraft entertainment systems."
+    },
+    "weight_g": {
+      "type": "number",
+      "min": 1,
+      "max": 1000,
+      "unit": "g",
+      "label": "Weight",
+      "group": "physical"
+    },
+    "year": {
+      "type": "integer",
+      "min": 2015,
+      "max": 2035,
+      "label": "Model year",
+      "group": "identity"
+    },
+    "launch_month": {
+      "type": "string",
+      "label": "Announced",
+      "group": "identity",
+      "note": "The month the maker announced this model, as YYYY-MM. Audio models are often refreshed quietly, and this separates a current unit from last year's stock."
+    },
+    "model_number": {
+      "type": "string",
+      "label": "Model number",
+      "group": "identity",
+      "note": "The maker's own model code. Regional variants of the same marketing name can differ in codec support, so the model number is the reliable identifier."
+    },
+    "form_factor": {
+      "type": "enum",
+      "label": "Form factor",
+      "group": "identity",
+      "values": [
+        "True wireless",
+        "Neckband",
+        "On-ear",
+        "Over-ear",
+        "In-ear wired",
+        "Earbud wired",
+        "Open-ear"
+      ],
+      "note": "The physical style, which decides fit, isolation and battery. Over-ear cups block more noise passively than in-ear tips; open-ear designs deliberately let outside sound through."
+    },
+    "sensitivity_db": {
+      "type": "number",
+      "min": 70,
+      "max": 130,
+      "unit": "dB",
+      "label": "Sensitivity",
+      "group": "sound",
+      "note": "How loud the headphone plays for a given amount of power. Higher sensitivity means more volume from the same source, which matters when pairing with a phone rather than an amplifier."
+    },
+    "spatial_audio": {
+      "type": "boolean",
+      "label": "Spatial audio",
+      "group": "sound",
+      "note": "Whether the model can place sound in a simulated 3D space, sometimes tracking head movement. It usually needs the maker's own phone or app to work."
+    },
+    "hi_res_certified": {
+      "type": "boolean",
+      "label": "Hi-Res Audio certified",
+      "group": "sound",
+      "note": "Whether the Japan Audio Society has certified the model for high-resolution playback. Over Bluetooth this requires a matching codec such as LDAC, and the certification covers capability rather than tuning quality."
+    },
+    "anc_depth_db": {
+      "type": "number",
+      "min": 5,
+      "max": 60,
+      "unit": "dB",
+      "label": "Stated noise reduction",
+      "group": "noise",
+      "note": "How much noise the maker claims the cancellation removes, in decibels. Every maker measures this differently, so treat it as the maker's own claim rather than a figure comparable across brands."
+    },
+    "transparency_mode": {
+      "type": "boolean",
+      "label": "Transparency mode",
+      "group": "noise",
+      "note": "Whether the model can pipe outside sound in deliberately, so you can hear traffic or an announcement without removing the earphones."
+    },
+    "charging_case_wireless": {
+      "type": "boolean",
+      "label": "Wireless charging case",
+      "group": "battery",
+      "note": "Whether the case can charge on a wireless pad rather than only by cable."
+    },
+    "bluetooth_range_m": {
+      "type": "number",
+      "min": 5,
+      "max": 200,
+      "unit": "m",
+      "label": "Stated range",
+      "group": "connectivity",
+      "note": "The wireless range the maker quotes, measured with nothing in the way. Walls and bodies cut it substantially in practice."
+    },
+    "controls": {
+      "type": "enum",
+      "label": "Controls",
+      "group": "controls",
+      "values": [
+        "Touch",
+        "Physical buttons",
+        "Touch + buttons",
+        "Slider",
+        "None"
+      ],
+      "note": "How you change track or volume. Physical buttons are harder to trigger by accident than touch panels, which can respond to rain or to adjusting the fit."
+    },
+    "app_support": {
+      "type": "boolean",
+      "label": "Companion app",
+      "group": "controls",
+      "note": "Whether a maker's app exists to change the tuning, remap controls or update the firmware. Without one, the model is fixed as it shipped."
+    },
+    "eq_customisable": {
+      "type": "boolean",
+      "label": "Adjustable EQ",
+      "group": "controls",
+      "note": "Whether the sound balance can be changed, usually through the companion app. Some models offer only fixed presets rather than full control."
+    },
+    "wear_detection": {
+      "type": "boolean",
+      "label": "Wear detection",
+      "group": "controls",
+      "note": "Whether the model pauses automatically when removed from the ear and resumes when put back."
+    },
+    "voice_assistant": {
+      "type": "list",
+      "label": "Voice assistants",
+      "group": "controls",
+      "values": [
+        "Google Assistant",
+        "Siri",
+        "Alexa",
+        "Bixby",
+        "Gemini"
+      ],
+      "note": "Which assistants can be summoned directly. Most models pass through whatever the connected phone uses, so this matters mainly for wake-word support."
+    },
+    "foldable": {
+      "type": "boolean",
+      "label": "Folds for storage",
+      "group": "physical",
+      "note": "Whether the headband or cups fold to pack smaller. It decides whether the model fits in a bag rather than needing a dedicated case."
+    },
+    "ear_tip_sizes": {
+      "type": "list",
+      "label": "Ear tip sizes included",
+      "group": "physical",
+      "note": "Which tip sizes come in the box. Fit determines both seal and how well noise cancellation works, so the range of included sizes matters more than it appears."
+    },
+    "colours": {
+      "type": "list",
+      "label": "Colours",
+      "group": "physical",
+      "note": "The finishes this model is sold in."
+    },
+    "spec_url": {
+      "type": "string",
+      "label": "Official spec sheet",
+      "group": "documents",
+      "note": "A link to the maker's own specification page for this exact model. It is the source a disputed fact here should be checked against, and it outranks any marketplace listing."
+    },
+    "spec_checked_version": {
+      "type": "string",
+      "label": "Spec sheet version",
+      "group": "documents",
+      "note": "Which revision of the maker's spec page these facts were read from, as a date or version. Makers quietly edit spec pages after launch, so this records which wording was in front of us."
+    }
   },
-  "not_in_this_repo": ["price", "in_stock", "rating", "sound_quality", "bass_level", "best_for"],
+  "not_in_this_repo": [
+    "price",
+    "in_stock",
+    "rating",
+    "sound_quality",
+    "bass_level",
+    "best_for"
+  ],
   "sanity": {
     "note": "Never record a claim that cannot be checked against a published spec. 'Deep bass', 'studio sound' and 'crystal clear calls' are not facts and have no field here.",
     "battery": "Battery figures are the maker's claim at their own volume and codec. Record as stated; do not present as measured."
-  }
+  },
+  "groups": [
+    {
+      "id": "identity",
+      "label": "Identity & launch"
+    },
+    {
+      "id": "sound",
+      "label": "Sound"
+    },
+    {
+      "id": "noise",
+      "label": "Noise control"
+    },
+    {
+      "id": "battery",
+      "label": "Battery & charging"
+    },
+    {
+      "id": "connectivity",
+      "label": "Connectivity"
+    },
+    {
+      "id": "controls",
+      "label": "Controls & features"
+    },
+    {
+      "id": "physical",
+      "label": "Fit & build"
+    },
+    {
+      "id": "documents",
+      "label": "Official sources"
+    }
+  ]
 }

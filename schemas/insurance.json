@@ -4,70 +4,645 @@
   "note": "Policy terms are facts: waiting periods, sub-limits, co-pay, room-rent caps, exclusions. Premiums are not — they depend on age, city, sum insured and medical history, so they belong in the live layer with their assumptions shown. Nothing here is advice, and no policy is ranked.",
   "categories": {
     "Health — indemnity": {
-      "required": ["insurer", "uin", "sum_insured_options_inr", "ped_waiting_months"],
-      "columns": ["sum_insured_options_inr", "ped_waiting_months", "room_rent_cap", "copay_pct", "restoration"],
-      "facets": ["brand", "room_rent_cap", "copay_pct", "ped_waiting_months", "restoration", "day_care_covered"]
+      "required": [
+        "insurer",
+        "uin",
+        "sum_insured_options_inr",
+        "ped_waiting_months"
+      ],
+      "columns": [
+        "sum_insured_options_inr",
+        "ped_waiting_months",
+        "room_rent_cap",
+        "copay_pct",
+        "restoration"
+      ],
+      "facets": [
+        "brand",
+        "room_rent_cap",
+        "copay_pct",
+        "ped_waiting_months",
+        "restoration",
+        "day_care_covered"
+      ],
+      "spec": [
+        "insurer",
+        "uin",
+        "irdai_approved",
+        "policy_type",
+        "sum_insured_options_inr",
+        "restoration",
+        "no_claim_bonus",
+        "day_care_covered",
+        "ayush_covered",
+        "domiciliary_covered",
+        "opd_covered",
+        "maternity_covered",
+        "wellness_benefits",
+        "room_rent_cap",
+        "icu_cap",
+        "copay_pct",
+        "copay_condition",
+        "sub_limits",
+        "initial_waiting_days",
+        "ped_waiting_months",
+        "specific_waiting_months",
+        "maternity_waiting_months",
+        "cashless_claim",
+        "network_hospitals",
+        "tpa_managed",
+        "claim_settlement_days",
+        "pre_hosp_days",
+        "post_hosp_days",
+        "min_entry_age",
+        "max_entry_age",
+        "max_cover_age",
+        "pre_policy_checkup",
+        "renewability",
+        "policy_term_years",
+        "premium_payment_terms",
+        "free_look_days",
+        "grace_period_days",
+        "portability_allowed",
+        "zone_based_pricing",
+        "exclusions",
+        "policy_wording_url",
+        "brochure_url",
+        "wording_version"
+      ]
     },
     "Health — top-up": {
-      "required": ["insurer", "uin", "deductible_inr", "deductible_type"],
-      "columns": ["deductible_inr", "deductible_type", "sum_insured_options_inr", "ped_waiting_months", "room_rent_cap"],
-      "facets": ["brand", "deductible_type", "deductible_inr", "ped_waiting_months", "room_rent_cap"],
-      "note": "A top-up pays only above a deductible. Whether that deductible applies per claim or per year is the single most material fact about the product, and the one most often glossed over: 'super top-up' conventionally means aggregate, but the wording decides, not the marketing name."
+      "required": [
+        "insurer",
+        "uin",
+        "deductible_inr",
+        "deductible_type"
+      ],
+      "columns": [
+        "deductible_inr",
+        "deductible_type",
+        "sum_insured_options_inr",
+        "ped_waiting_months",
+        "room_rent_cap"
+      ],
+      "facets": [
+        "brand",
+        "deductible_type",
+        "deductible_inr",
+        "ped_waiting_months",
+        "room_rent_cap"
+      ],
+      "note": "A top-up pays only above a deductible. Whether that deductible applies per claim or per year is the single most material fact about the product, and the one most often glossed over: 'super top-up' conventionally means aggregate, but the wording decides, not the marketing name.",
+      "spec": [
+        "insurer",
+        "uin",
+        "irdai_approved",
+        "policy_type",
+        "deductible_inr",
+        "deductible_type",
+        "sum_insured_options_inr",
+        "restoration",
+        "no_claim_bonus",
+        "day_care_covered",
+        "ayush_covered",
+        "domiciliary_covered",
+        "opd_covered",
+        "maternity_covered",
+        "wellness_benefits",
+        "room_rent_cap",
+        "icu_cap",
+        "copay_pct",
+        "copay_condition",
+        "sub_limits",
+        "initial_waiting_days",
+        "ped_waiting_months",
+        "specific_waiting_months",
+        "maternity_waiting_months",
+        "cashless_claim",
+        "network_hospitals",
+        "tpa_managed",
+        "claim_settlement_days",
+        "pre_hosp_days",
+        "post_hosp_days",
+        "min_entry_age",
+        "max_entry_age",
+        "max_cover_age",
+        "pre_policy_checkup",
+        "renewability",
+        "policy_term_years",
+        "premium_payment_terms",
+        "free_look_days",
+        "grace_period_days",
+        "portability_allowed",
+        "zone_based_pricing",
+        "exclusions",
+        "policy_wording_url",
+        "brochure_url",
+        "wording_version"
+      ]
     },
     "Health — critical illness": {
-      "required": ["insurer", "uin", "conditions_covered_count"],
-      "columns": ["conditions_covered_count", "survival_period_days", "sum_insured_options_inr"],
-      "facets": ["brand", "conditions_covered_count", "survival_period_days"]
+      "required": [
+        "insurer",
+        "uin",
+        "conditions_covered_count"
+      ],
+      "columns": [
+        "conditions_covered_count",
+        "survival_period_days",
+        "sum_insured_options_inr"
+      ],
+      "facets": [
+        "brand",
+        "conditions_covered_count",
+        "survival_period_days"
+      ],
+      "spec": [
+        "insurer",
+        "uin",
+        "irdai_approved",
+        "policy_type",
+        "sum_insured_options_inr",
+        "conditions_covered_count",
+        "survival_period_days",
+        "payout_options",
+        "initial_waiting_days",
+        "ped_waiting_months",
+        "specific_waiting_months",
+        "cashless_claim",
+        "network_hospitals",
+        "tpa_managed",
+        "claim_settlement_days",
+        "pre_hosp_days",
+        "post_hosp_days",
+        "min_entry_age",
+        "max_entry_age",
+        "max_cover_age",
+        "pre_policy_checkup",
+        "renewability",
+        "policy_term_years",
+        "premium_payment_terms",
+        "free_look_days",
+        "grace_period_days",
+        "portability_allowed",
+        "zone_based_pricing",
+        "exclusions",
+        "policy_wording_url",
+        "brochure_url",
+        "wording_version"
+      ]
     },
     "Term life": {
-      "required": ["insurer", "uin", "max_entry_age", "max_cover_age"],
-      "columns": ["max_entry_age", "max_cover_age", "payout_options", "premium_payment_terms"],
-      "facets": ["brand", "payout_options", "premium_payment_terms", "return_of_premium"]
+      "required": [
+        "insurer",
+        "uin",
+        "max_entry_age",
+        "max_cover_age"
+      ],
+      "columns": [
+        "max_entry_age",
+        "max_cover_age",
+        "payout_options",
+        "premium_payment_terms"
+      ],
+      "facets": [
+        "brand",
+        "payout_options",
+        "premium_payment_terms",
+        "return_of_premium"
+      ],
+      "spec": [
+        "insurer",
+        "uin",
+        "irdai_approved",
+        "policy_type",
+        "sum_insured_options_inr",
+        "payout_options",
+        "return_of_premium",
+        "initial_waiting_days",
+        "min_entry_age",
+        "max_entry_age",
+        "max_cover_age",
+        "pre_policy_checkup",
+        "renewability",
+        "policy_term_years",
+        "premium_payment_terms",
+        "free_look_days",
+        "grace_period_days",
+        "portability_allowed",
+        "zone_based_pricing",
+        "exclusions",
+        "policy_wording_url",
+        "brochure_url",
+        "wording_version"
+      ]
     },
     "Personal accident": {
-      "required": ["insurer", "uin"],
-      "columns": ["sum_insured_options_inr", "ttd_cover", "ppd_cover"],
-      "facets": ["brand"]
+      "required": [
+        "insurer",
+        "uin"
+      ],
+      "columns": [
+        "sum_insured_options_inr",
+        "ttd_cover",
+        "ppd_cover"
+      ],
+      "facets": [
+        "brand"
+      ],
+      "spec": [
+        "insurer",
+        "uin",
+        "irdai_approved",
+        "policy_type",
+        "sum_insured_options_inr",
+        "ttd_cover",
+        "ppd_cover",
+        "payout_options",
+        "initial_waiting_days",
+        "cashless_claim",
+        "network_hospitals",
+        "tpa_managed",
+        "claim_settlement_days",
+        "pre_hosp_days",
+        "post_hosp_days",
+        "min_entry_age",
+        "max_entry_age",
+        "max_cover_age",
+        "pre_policy_checkup",
+        "renewability",
+        "policy_term_years",
+        "premium_payment_terms",
+        "free_look_days",
+        "grace_period_days",
+        "portability_allowed",
+        "zone_based_pricing",
+        "exclusions",
+        "policy_wording_url",
+        "brochure_url",
+        "wording_version"
+      ]
     }
   },
   "fields": {
-    "insurer": { "type": "string", "label": "Insurer" },
-    "uin": { "type": "string", "label": "IRDAI UIN", "note": "The Unique Identification Number IRDAI assigns to every approved product. This is the identity key for insurance — the equivalent of a GTIN. Marketing names change; the UIN does not." },
-    "irdai_approved": { "type": "boolean", "label": "IRDAI approved" },
-    "sum_insured_options_inr": { "type": "list", "label": "Sum insured options" },
-    "deductible_inr": { "type": "integer", "min": 0, "max": 10000000, "label": "Deductible" },
-    "deductible_type": { "type": "enum", "values": ["Aggregate (per policy year)", "Per claim", "Per hospitalisation"], "label": "Deductible applies" },
-    "ped_waiting_months": { "type": "integer", "min": 0, "max": 60, "label": "Pre-existing disease waiting period (months)" },
-    "initial_waiting_days": { "type": "integer", "min": 0, "max": 90, "label": "Initial waiting period (days)" },
-    "specific_waiting_months": { "type": "integer", "min": 0, "max": 60, "label": "Specific-illness waiting period (months)" },
-    "maternity_waiting_months": { "type": "integer", "min": 0, "max": 72, "label": "Maternity waiting period (months)" },
-    "room_rent_cap": { "type": "string", "label": "Room rent cap", "note": "'No cap' and '1% of sum insured per day' are wildly different products. A cap silently proportions down the entire claim, not just the room charge." },
-    "icu_cap": { "type": "string", "label": "ICU cap" },
-    "copay_pct": { "type": "number", "min": 0, "max": 50, "label": "Co-pay" },
-    "copay_condition": { "type": "string", "label": "Co-pay applies when" },
-    "restoration": { "type": "string", "label": "Restoration of sum insured" },
-    "no_claim_bonus": { "type": "string", "label": "No-claim bonus" },
-    "day_care_covered": { "type": "integer", "min": 0, "max": 1000, "label": "Day-care procedures covered" },
-    "pre_hosp_days": { "type": "integer", "min": 0, "max": 180, "label": "Pre-hospitalisation cover (days)" },
-    "post_hosp_days": { "type": "integer", "min": 0, "max": 365, "label": "Post-hospitalisation cover (days)" },
-    "network_hospitals": { "type": "integer", "min": 0, "max": 50000, "label": "Network hospitals" },
-    "sub_limits": { "type": "list", "label": "Disease-wise sub-limits" },
-    "exclusions": { "type": "list", "label": "Permanent exclusions" },
-    "conditions_covered_count": { "type": "integer", "min": 1, "max": 200, "label": "Conditions covered" },
-    "survival_period_days": { "type": "integer", "min": 0, "max": 180, "label": "Survival period (days)" },
-    "max_entry_age": { "type": "integer", "min": 0, "max": 99, "label": "Maximum entry age" },
-    "min_entry_age": { "type": "integer", "min": 0, "max": 99, "label": "Minimum entry age" },
-    "max_cover_age": { "type": "integer", "min": 0, "max": 110, "label": "Cover available up to age" },
-    "payout_options": { "type": "list", "label": "Payout options" },
-    "premium_payment_terms": { "type": "list", "label": "Premium payment terms" },
-    "return_of_premium": { "type": "boolean", "label": "Return of premium variant" },
-    "ttd_cover": { "type": "string", "label": "Temporary total disability cover" },
-    "ppd_cover": { "type": "string", "label": "Permanent partial disability cover" },
-    "policy_wording_url": { "type": "string", "label": "Policy wording" },
-    "brochure_url": { "type": "string", "label": "Brochure" },
-    "wording_version": { "type": "string", "label": "Policy wording version" }
+    "insurer": {
+      "type": "string",
+      "label": "Insurer",
+      "group": "identity",
+      "note": "The company underwriting the policy and paying claims. Distributors and web aggregators sell policies but never carry the risk, so this is the entity whose service and solvency matter."
+    },
+    "uin": {
+      "type": "string",
+      "label": "IRDAI UIN",
+      "note": "The Unique Identification Number IRDAI assigns to an approved product. This is the identity key for insurance, the equivalent of a barcode: marketing names change and are reused, the UIN does not.",
+      "group": "identity"
+    },
+    "irdai_approved": {
+      "type": "boolean",
+      "label": "IRDAI approved",
+      "group": "identity",
+      "note": "Whether the product is registered with IRDAI. Anything sold as insurance in India must be, so its absence is a signal to check what is actually being sold."
+    },
+    "sum_insured_options_inr": {
+      "type": "list",
+      "label": "Sum insured options",
+      "group": "cover",
+      "note": "The cover amounts the policy can be bought at. It is the ceiling on what the insurer pays in a policy year, before any sub-limits cut it further."
+    },
+    "deductible_inr": {
+      "type": "integer",
+      "min": 0,
+      "max": 10000000,
+      "label": "Deductible",
+      "group": "cover",
+      "note": "The amount you pay before the policy starts paying. Top-up policies use a large deductible to sit above an existing policy, which is what makes them much cheaper for the same headline cover.",
+      "unit": "₹"
+    },
+    "deductible_type": {
+      "type": "enum",
+      "values": [
+        "Aggregate (per policy year)",
+        "Per claim",
+        "Per hospitalisation"
+      ],
+      "label": "Deductible applies",
+      "group": "cover",
+      "note": "Whether the deductible applies per claim or once across the policy year. Aggregate is materially better for anyone with several claims in a year, since it is crossed only once."
+    },
+    "ped_waiting_months": {
+      "type": "integer",
+      "min": 0,
+      "max": 60,
+      "label": "Pre-existing disease waiting period (months)",
+      "group": "waiting",
+      "note": "How long you must hold the policy before a condition you already had is covered. It is the fact that most often turns a claim down, and it runs from policy start rather than from diagnosis."
+    },
+    "initial_waiting_days": {
+      "type": "integer",
+      "min": 0,
+      "max": 90,
+      "label": "Initial waiting period (days)",
+      "group": "waiting",
+      "note": "The period at the start when only accidents are covered, typically 30 days. Illness claims in this window are declined regardless of what the illness is."
+    },
+    "specific_waiting_months": {
+      "type": "integer",
+      "min": 0,
+      "max": 60,
+      "label": "Specific-illness waiting period (months)",
+      "group": "waiting",
+      "note": "The wait for named conditions such as hernia, cataract or joint replacement, usually one to four years. These are listed individually in the wording, separate from the pre-existing disease wait."
+    },
+    "maternity_waiting_months": {
+      "type": "integer",
+      "min": 0,
+      "max": 72,
+      "label": "Maternity waiting period (months)",
+      "group": "waiting",
+      "note": "How long before maternity expenses are covered, often two to four years. It has to be planned for well in advance of needing it."
+    },
+    "room_rent_cap": {
+      "type": "string",
+      "label": "Room rent cap",
+      "note": "'No cap' and '1% of sum insured per day' are wildly different products. A cap silently proportions down the entire claim, not just the room charge, because hospitals price surgery and consultation by room category.",
+      "group": "limits"
+    },
+    "icu_cap": {
+      "type": "string",
+      "label": "ICU cap",
+      "group": "limits",
+      "note": "The limit on intensive-care room charges, where it differs from the general room cap. ICU is where a capped policy hurts most, since these are the largest daily charges."
+    },
+    "copay_pct": {
+      "type": "number",
+      "min": 0,
+      "max": 50,
+      "label": "Co-pay",
+      "group": "limits",
+      "note": "The share of every approved claim you pay yourself. A 20% co-pay on a ₹5 lakh claim is ₹1 lakh from your own pocket, and it applies on top of any deductible.",
+      "unit": "%"
+    },
+    "copay_condition": {
+      "type": "string",
+      "label": "Co-pay applies when",
+      "group": "limits",
+      "note": "When the co-pay applies, such as above a certain age or in a higher-tier city. A policy with no co-pay at purchase can acquire one at a stated age."
+    },
+    "restoration": {
+      "type": "string",
+      "label": "Restoration of sum insured",
+      "group": "cover",
+      "note": "Whether the cover refills after it is exhausted within one policy year, and on what terms. Some restore only for an unrelated illness, which is a much narrower promise than it sounds."
+    },
+    "no_claim_bonus": {
+      "type": "string",
+      "label": "No-claim bonus",
+      "group": "cover",
+      "note": "How much the cover increases for each claim-free year, and the ceiling it builds to. Check what happens after a claim: some policies reduce the accumulated bonus rather than simply pausing it."
+    },
+    "day_care_covered": {
+      "type": "integer",
+      "min": 0,
+      "max": 1000,
+      "label": "Day-care procedures covered",
+      "group": "cover",
+      "note": "How many procedures needing less than 24 hours in hospital are covered. Most modern surgery is day care, so a policy requiring a full-day admission for everything would exclude a great deal."
+    },
+    "pre_hosp_days": {
+      "type": "integer",
+      "min": 0,
+      "max": 180,
+      "label": "Pre-hospitalisation cover (days)",
+      "group": "claims",
+      "note": "How many days of expenses before admission are reimbursed, such as tests and consultations that led to it."
+    },
+    "post_hosp_days": {
+      "type": "integer",
+      "min": 0,
+      "max": 365,
+      "label": "Post-hospitalisation cover (days)",
+      "group": "claims",
+      "note": "How many days of follow-up expenses after discharge are reimbursed, covering medication and review consultations."
+    },
+    "network_hospitals": {
+      "type": "integer",
+      "min": 0,
+      "max": 50000,
+      "label": "Network hospitals",
+      "group": "claims",
+      "note": "How many hospitals offer cashless treatment with this insurer. The count matters less than whether the hospitals you would actually use are in it, which the insurer's own list settles."
+    },
+    "sub_limits": {
+      "type": "list",
+      "label": "Disease-wise sub-limits",
+      "group": "limits",
+      "note": "Caps on specific treatments regardless of the total cover, such as a fixed amount for cataract. A policy with a large sum insured can still pay a small fraction of a bill because of these."
+    },
+    "exclusions": {
+      "type": "list",
+      "label": "Permanent exclusions",
+      "group": "terms",
+      "note": "What the policy never pays for. Reading these is the only way to know what the cover actually is, and the permanent exclusions IRDAI allows are now standardised across insurers."
+    },
+    "conditions_covered_count": {
+      "type": "integer",
+      "min": 1,
+      "max": 200,
+      "label": "Conditions covered",
+      "group": "cover",
+      "note": "How many illnesses a critical illness policy lists. The count is less informative than the list itself, since policies pay only for the exact conditions named and only as defined in the wording."
+    },
+    "survival_period_days": {
+      "type": "integer",
+      "min": 0,
+      "max": 180,
+      "label": "Survival period (days)",
+      "group": "waiting",
+      "note": "How long you must live after diagnosis for a critical illness claim to be paid, commonly 14 to 30 days. A claim fails if death occurs inside this window, which is what separates critical illness cover from life cover."
+    },
+    "max_entry_age": {
+      "type": "integer",
+      "min": 0,
+      "max": 99,
+      "label": "Maximum entry age",
+      "group": "eligibility",
+      "note": "The oldest age at which the policy can be bought. Health cover bought before this age can usually be renewed for life, which is why entry age is worth acting on early."
+    },
+    "min_entry_age": {
+      "type": "integer",
+      "min": 0,
+      "max": 99,
+      "label": "Minimum entry age",
+      "group": "eligibility",
+      "note": "The youngest age the policy can be bought at."
+    },
+    "max_cover_age": {
+      "type": "integer",
+      "min": 0,
+      "max": 110,
+      "label": "Cover available up to age",
+      "group": "eligibility",
+      "note": "The age at which cover ends. For term life this is the point the policy stops paying, and choosing it against your dependants' needs matters more than choosing the premium."
+    },
+    "payout_options": {
+      "type": "list",
+      "label": "Payout options",
+      "group": "cover",
+      "note": "How a claim is paid: a lump sum, a monthly income, or a combination. It decides whether a family receives one large amount to manage or a regular replacement income."
+    },
+    "premium_payment_terms": {
+      "type": "list",
+      "label": "Premium payment terms",
+      "group": "terms",
+      "note": "How long premiums are paid for, which can be shorter than the cover period. Limited-pay policies finish paying early while cover continues."
+    },
+    "return_of_premium": {
+      "type": "boolean",
+      "label": "Return of premium variant",
+      "group": "cover",
+      "note": "Whether premiums are returned if you outlive a term policy. This costs substantially more for the same cover, since the insurer holds and returns the money rather than pricing pure protection."
+    },
+    "ttd_cover": {
+      "type": "string",
+      "label": "Temporary total disability cover",
+      "group": "cover",
+      "note": "Temporary total disablement cover: a weekly or monthly payment while an injury stops you working entirely, for a capped period."
+    },
+    "ppd_cover": {
+      "type": "string",
+      "label": "Permanent partial disability cover",
+      "group": "cover",
+      "note": "Permanent partial disablement cover: a percentage of the sum insured for a lasting but partial loss, paid against a schedule in the wording that fixes each injury's share."
+    },
+    "policy_wording_url": {
+      "type": "string",
+      "label": "Policy wording",
+      "group": "documents",
+      "note": "A link to the full policy wording, the contract that governs every claim. Brochures summarise and simplify; only the wording decides what is paid."
+    },
+    "brochure_url": {
+      "type": "string",
+      "label": "Brochure",
+      "group": "documents",
+      "note": "A link to the insurer's brochure. Useful for orientation, but it is a summary and the wording overrides it wherever they differ."
+    },
+    "wording_version": {
+      "type": "string",
+      "label": "Policy wording version",
+      "group": "documents",
+      "note": "Which version of the policy wording these facts were read from. Insurers revise wordings, so this records exactly which contract was in front of us."
+    },
+    "policy_type": {
+      "type": "string",
+      "label": "Policy type",
+      "group": "identity",
+      "note": "Whether the policy covers one person or a family under a single sum insured. A family floater shares one amount across everyone, so a single large claim can exhaust the cover for the rest of the year."
+    },
+    "cashless_claim": {
+      "type": "boolean",
+      "label": "Cashless claims",
+      "group": "claims",
+      "note": "Whether the insurer settles directly with the hospital instead of reimbursing you later. Cashless works only at network hospitals and still needs pre-authorisation."
+    },
+    "claim_settlement_days": {
+      "type": "string",
+      "label": "Claim settlement timeline",
+      "group": "claims",
+      "note": "The time the insurer states for settling a claim. IRDAI requires settlement within a defined window of receiving the last document, and the wording is where the insurer's own commitment is recorded."
+    },
+    "tpa_managed": {
+      "type": "boolean",
+      "label": "Claims via TPA",
+      "group": "claims",
+      "note": "Whether a third-party administrator handles claims rather than the insurer directly. It adds a party between you and the insurer, which changes who to contact when a claim stalls."
+    },
+    "pre_policy_checkup": {
+      "type": "boolean",
+      "label": "Pre-policy medical check",
+      "group": "eligibility",
+      "note": "Whether a medical examination is required before cover starts. Where it is not, undisclosed conditions are more likely to surface as a dispute at claim time instead."
+    },
+    "renewability": {
+      "type": "string",
+      "label": "Renewability",
+      "group": "terms",
+      "note": "Until what age the policy can be renewed. Lifelong renewability matters most precisely when cover is hardest to buy fresh, which is at older ages."
+    },
+    "policy_term_years": {
+      "type": "string",
+      "label": "Policy term",
+      "group": "terms",
+      "note": "How long one policy period runs. Multi-year policies fix the premium for that period and usually carry a discount."
+    },
+    "free_look_days": {
+      "type": "integer",
+      "min": 0,
+      "max": 90,
+      "unit": "days",
+      "label": "Free-look period",
+      "group": "terms",
+      "note": "How long after receiving the policy you can cancel it for a refund of premium less expenses. IRDAI mandates a minimum, and it is the window to read the wording properly."
+    },
+    "grace_period_days": {
+      "type": "integer",
+      "min": 0,
+      "max": 180,
+      "unit": "days",
+      "label": "Grace period",
+      "group": "terms",
+      "note": "How long after a missed due date the premium can still be paid without losing continuity. Letting it lapse resets the waiting periods you have already served, which is the costly part."
+    },
+    "portability_allowed": {
+      "type": "boolean",
+      "label": "Portability",
+      "group": "terms",
+      "note": "Whether the policy can be moved to another insurer while carrying over the waiting periods already served. IRDAI allows this for health policies at renewal, and it is what stops a switch resetting your cover."
+    },
+    "ayush_covered": {
+      "type": "boolean",
+      "label": "AYUSH treatment",
+      "group": "cover",
+      "note": "Whether treatment under Ayurveda, Yoga, Unani, Siddha or Homeopathy is covered, and up to what limit."
+    },
+    "domiciliary_covered": {
+      "type": "boolean",
+      "label": "Home treatment",
+      "group": "cover",
+      "note": "Whether treatment taken at home is covered when hospitalisation was advised but not possible. It is usually tightly conditioned in the wording."
+    },
+    "opd_covered": {
+      "type": "boolean",
+      "label": "OPD cover",
+      "group": "cover",
+      "note": "Whether consultations and tests without admission are covered. Most indemnity policies exclude these, so it is a genuine differentiator where present."
+    },
+    "maternity_covered": {
+      "type": "boolean",
+      "label": "Maternity cover",
+      "group": "cover",
+      "note": "Whether childbirth expenses are covered at all, before considering the waiting period that applies to them."
+    },
+    "wellness_benefits": {
+      "type": "string",
+      "label": "Wellness benefits",
+      "group": "cover",
+      "note": "Health check-ups, discounts or reward points the policy includes. These are the features most often revised at renewal, unlike the cover terms."
+    },
+    "zone_based_pricing": {
+      "type": "boolean",
+      "label": "Zone-based pricing",
+      "group": "terms",
+      "note": "Whether the premium and co-pay depend on the city you live in. Moving from a smaller city to a metro can raise the premium or add a co-pay at renewal."
+    }
   },
-  "not_in_this_repo": ["premium", "claim_settlement_ratio", "rating", "score", "best_for", "recommendation"],
+  "not_in_this_repo": [
+    "premium",
+    "claim_settlement_ratio",
+    "rating",
+    "score",
+    "best_for",
+    "recommendation"
+  ],
   "live_layer": {
     "premium": "depends on age, city, sum insured, tenure and medical history — computed with assumptions shown",
     "claim_settlement_ratio": "IRDAI publishes it annually and it changes; it belongs in the service with its year"
@@ -76,5 +651,39 @@
     "uin_required": "No UIN, no record. IRDAI assigns one to every approved product and it is how a policy is identified when the marketing name changes.",
     "top_up_deductible": "A top-up record without deductible_type is meaningless — reject rather than publish.",
     "note": "Every figure must trace to a line in the policy wording, not a brochure or an aggregator page. Health cover is the one category where a wrong number can cost someone a hospital bill."
-  }
+  },
+  "groups": [
+    {
+      "id": "identity",
+      "label": "Insurer & policy identity"
+    },
+    {
+      "id": "cover",
+      "label": "What is covered"
+    },
+    {
+      "id": "limits",
+      "label": "Limits & caps"
+    },
+    {
+      "id": "waiting",
+      "label": "Waiting periods"
+    },
+    {
+      "id": "claims",
+      "label": "Claims & network"
+    },
+    {
+      "id": "eligibility",
+      "label": "Eligibility"
+    },
+    {
+      "id": "terms",
+      "label": "Policy terms"
+    },
+    {
+      "id": "documents",
+      "label": "Official documents"
+    }
+  ]
 }

@@ -70,13 +70,38 @@ export interface FieldSpec {
   max?: number;
   unit?: string;
   label?: string;
+  /** What the fact is, how to read it, and how to use it when comparing —
+   *  one to three plain sentences. Required on every field except the
+   *  self-evident ones listed in SELF_EVIDENT (see schemas.test.ts): a
+   *  weight needs no gloss, a room-rent cap needs all three. Explaining
+   *  what a value *means* is a fact; naming a winner is not, and SCOPE.md
+   *  still bans that. */
   note?: string;
+  /** Gloss for individual enum values where the values themselves are
+   *  opaque ("PA+" through "PA++++"). Keys must be a subset of `values`. */
+  values_note?: Record<string, string>;
+  /** Section this field belongs to on the product page. Must be one of the
+   *  ids in the domain's `groups`. Fields with no group fall into a
+   *  trailing "Other facts" bucket rather than disappearing. */
+  group?: string;
+  /** Names a controlled vocabulary file for a `list` field. */
+  vocabulary?: string;
 }
 
 export interface CategorySpec {
+  /** Facts an `entry` must carry; missing ones force `status: "candidate"`
+   *  (E6). Changing this invalidates existing records, so it is frozen by
+   *  a snapshot test — see src/required.snapshot.json. */
   required?: string[];
+  /** The 3-6 keys the category's comparison TABLE shows. Deliberately a
+   *  short curated list, not the full sheet. */
   columns?: string[];
   facets?: string[];
+  /** The full, ordered spec sheet the PRODUCT PAGE renders, grouped by each
+   *  field's `group`. `columns` must be a subset of this. When absent, the
+   *  page falls back to `columns`, so a category without `spec` renders
+   *  exactly as it did before. */
+  spec?: string[];
 }
 
 export interface DomainSchema {
@@ -85,6 +110,12 @@ export interface DomainSchema {
   categories: Record<string, CategorySpec>;
   fields: Record<string, FieldSpec>;
   sanity?: Record<string, unknown>;
+  /** Spec-sheet sections in display order. */
+  groups?: { id: string; label: string }[];
+  /** Documentation only: names that must never become fields here because
+   *  they are live, derived, or editorial. Enforced by schemas.test.ts. */
+  not_in_this_repo?: string[];
+  note?: string;
 }
 
 export function loadDomainSchemas(): Map<string, DomainSchema> {

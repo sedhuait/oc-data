@@ -4,36 +4,509 @@
   "note": "Marketing numbers like 'AC1200' or 'AX3000' are the sum of theoretical band speeds and tell a buyer almost nothing. The facts that decide whether a router is right — Wi-Fi generation, bands, port speed, mesh support — are all published and all ignored.",
   "categories": {
     "Routers": {
-      "required": ["wifi_standard", "bands"],
-      "columns": ["wifi_standard", "bands", "speed_class", "lan_ports", "lan_speed_mbps", "mesh"],
-      "facets": ["brand", "wifi_standard", "bands", "mesh", "lan_speed_mbps", "wan_type"]
+      "required": [
+        "wifi_standard",
+        "bands"
+      ],
+      "columns": [
+        "wifi_standard",
+        "bands",
+        "speed_class",
+        "lan_ports",
+        "lan_speed_mbps",
+        "mesh"
+      ],
+      "facets": [
+        "brand",
+        "wifi_standard",
+        "bands",
+        "lan_speed_mbps",
+        "mesh",
+        "year",
+        "sim_slot"
+      ],
+      "spec": [
+        "year",
+        "launch_month",
+        "model_number",
+        "discontinued",
+        "wifi_standard",
+        "bands",
+        "speed_class",
+        "mu_mimo",
+        "ofdma",
+        "spatial_streams",
+        "wpa3",
+        "lan_ports",
+        "lan_speed_mbps",
+        "wan_type",
+        "usb_ports",
+        "usb_version",
+        "link_aggregation",
+        "mesh",
+        "coverage_sqft",
+        "sim_slot",
+        "cellular_standard",
+        "cpu_cores",
+        "ram_mb",
+        "antennas",
+        "antenna_type",
+        "vpn_server",
+        "parental_controls",
+        "guest_network",
+        "subscription_required",
+        "firmware_auto_update",
+        "weight_g",
+        "dimensions_mm",
+        "wall_mountable",
+        "power_w",
+        "spec_url",
+        "spec_checked_version"
+      ]
     },
     "Mesh systems": {
-      "required": ["wifi_standard", "bands", "nodes"],
-      "columns": ["wifi_standard", "bands", "nodes", "coverage_sqft", "backhaul"],
-      "facets": ["brand", "wifi_standard", "nodes", "backhaul"]
+      "required": [
+        "wifi_standard",
+        "bands",
+        "nodes"
+      ],
+      "columns": [
+        "wifi_standard",
+        "bands",
+        "nodes",
+        "coverage_sqft",
+        "backhaul"
+      ],
+      "facets": [
+        "brand",
+        "wifi_standard",
+        "bands",
+        "nodes",
+        "backhaul"
+      ],
+      "spec": [
+        "year",
+        "launch_month",
+        "model_number",
+        "discontinued",
+        "wifi_standard",
+        "bands",
+        "speed_class",
+        "mu_mimo",
+        "ofdma",
+        "spatial_streams",
+        "wpa3",
+        "nodes",
+        "coverage_sqft",
+        "backhaul",
+        "roaming_standards",
+        "mesh",
+        "lan_ports",
+        "lan_speed_mbps",
+        "wan_type",
+        "usb_ports",
+        "cpu_cores",
+        "ram_mb",
+        "antennas",
+        "antenna_type",
+        "vpn_server",
+        "parental_controls",
+        "guest_network",
+        "subscription_required",
+        "firmware_auto_update",
+        "weight_g",
+        "dimensions_mm",
+        "wall_mountable",
+        "power_w",
+        "spec_url",
+        "spec_checked_version"
+      ]
     },
     "Range extenders": {
-      "required": ["wifi_standard"],
-      "columns": ["wifi_standard", "bands", "speed_class"],
-      "facets": ["brand", "wifi_standard", "bands"]
+      "required": [
+        "wifi_standard"
+      ],
+      "columns": [
+        "wifi_standard",
+        "bands",
+        "speed_class"
+      ],
+      "facets": [
+        "brand",
+        "wifi_standard",
+        "bands"
+      ],
+      "spec": [
+        "year",
+        "launch_month",
+        "model_number",
+        "discontinued",
+        "wifi_standard",
+        "bands",
+        "speed_class",
+        "mu_mimo",
+        "ofdma",
+        "spatial_streams",
+        "wpa3",
+        "coverage_sqft",
+        "backhaul",
+        "roaming_standards",
+        "lan_ports",
+        "lan_speed_mbps",
+        "antennas",
+        "antenna_type",
+        "guest_network",
+        "firmware_auto_update",
+        "weight_g",
+        "dimensions_mm",
+        "wall_mountable",
+        "power_w",
+        "spec_url",
+        "spec_checked_version"
+      ]
     }
   },
   "fields": {
-    "wifi_standard": { "type": "enum", "values": ["Wi-Fi 4 (n)", "Wi-Fi 5 (ac)", "Wi-Fi 6 (ax)", "Wi-Fi 6E", "Wi-Fi 7 (be)"], "label": "Wi-Fi generation" },
-    "bands": { "type": "enum", "values": ["Single band", "Dual band", "Tri band", "Quad band"], "label": "Bands" },
-    "speed_class": { "type": "string", "label": "Marketing speed class", "note": "AC1200, AX3000 and so on. Recorded because listings use it, labelled as marketing because it is the sum of theoretical band maxima and not achievable on one device." },
-    "lan_ports": { "type": "integer", "min": 0, "max": 16, "label": "LAN ports" },
-    "lan_speed_mbps": { "type": "enum", "values": ["100", "1000", "2500", "10000"], "label": "LAN port speed", "note": "A Wi-Fi 6 router with 100 Mbps ports cannot deliver a 300 Mbps connection over cable. This is the most common mismatch in the category." },
-    "wan_type": { "type": "string", "label": "WAN type" },
-    "mesh": { "type": "boolean", "label": "Mesh capable" },
-    "nodes": { "type": "integer", "min": 1, "max": 6, "label": "Nodes in the pack" },
-    "coverage_sqft": { "type": "integer", "min": 200, "max": 10000, "label": "Claimed coverage", "note": "A manufacturer claim, not a measurement. Recorded as stated." },
-    "backhaul": { "type": "string", "label": "Backhaul" },
-    "antennas": { "type": "integer", "min": 0, "max": 12, "label": "Antennas" },
-    "usb_ports": { "type": "integer", "min": 0, "max": 4, "label": "USB ports" },
-    "sim_slot": { "type": "boolean", "label": "SIM slot" },
-    "year": { "type": "integer", "min": 2015, "max": 2035, "label": "Model year" }
+    "wifi_standard": {
+      "type": "enum",
+      "label": "Wi-Fi generation",
+      "group": "wireless",
+      "values": [
+        "Wi-Fi 4 (n)",
+        "Wi-Fi 5 (ac)",
+        "Wi-Fi 6 (ax)",
+        "Wi-Fi 6E",
+        "Wi-Fi 7 (be)"
+      ],
+      "note": "The Wi-Fi generation. Both the router and the device must support a generation to use its speed, and an older laptop connects at its own generation no matter what the router supports.",
+      "values_note": {
+        "Wi-Fi 4 (n)": "2009 generation, 2.4 GHz only in most units. Adequate for browsing, slow for large transfers.",
+        "Wi-Fi 5 (ac)": "Adds the faster, shorter-range 5 GHz band. Still the most common standard in use.",
+        "Wi-Fi 6 (ax)": "Handles many simultaneous devices far better than Wi-Fi 5, which matters more than raw speed in a busy home.",
+        "Wi-Fi 6E": "Wi-Fi 6 plus the 6 GHz band, which is uncongested but has shorter range and needs a 6E client device.",
+        "Wi-Fi 7 (be)": "Adds wider channels and lets a device use several bands at once for lower latency."
+      }
+    },
+    "bands": {
+      "type": "enum",
+      "label": "Bands",
+      "group": "wireless",
+      "values": [
+        "Single band",
+        "Dual band",
+        "Tri band",
+        "Quad band"
+      ],
+      "note": "How many radio bands the unit runs. 2.4 GHz travels furthest and through walls; 5 GHz and 6 GHz are faster but shorter range. Extra bands mostly help by giving mesh units a private channel to talk to each other."
+    },
+    "speed_class": {
+      "type": "string",
+      "label": "Speed class",
+      "group": "wireless",
+      "note": "The maker's combined speed label, such as AX3000. It adds together the theoretical maximums of every band, so no single device ever sees that number; use it to rank models within one brand, not as a real-world speed."
+    },
+    "lan_ports": {
+      "type": "integer",
+      "min": 0,
+      "max": 16,
+      "label": "LAN ports",
+      "group": "ports"
+    },
+    "lan_speed_mbps": {
+      "type": "enum",
+      "label": "LAN port speed",
+      "group": "ports",
+      "values": [
+        "100",
+        "1000",
+        "2500",
+        "10000"
+      ],
+      "note": "A Wi-Fi 6 router with 100 Mbps ports cannot deliver a 300 Mbps connection over cable. This is the most common mismatch in the category."
+    },
+    "wan_type": {
+      "type": "string",
+      "label": "WAN port",
+      "group": "ports",
+      "note": "The port that connects to your internet line, and its speed ceiling. A gigabit WAN port caps the whole connection at about 940 Mbps no matter how fast the Wi-Fi is."
+    },
+    "mesh": {
+      "type": "boolean",
+      "label": "Mesh capable",
+      "group": "coverage",
+      "note": "Whether the unit can join a mesh network with others of the same family to cover a larger area under one network name, instead of creating a separate one."
+    },
+    "nodes": {
+      "type": "integer",
+      "min": 1,
+      "max": 10,
+      "label": "Units in the box",
+      "group": "coverage"
+    },
+    "coverage_sqft": {
+      "type": "integer",
+      "min": 100,
+      "max": 20000,
+      "unit": "sq ft",
+      "label": "Stated coverage",
+      "group": "coverage",
+      "note": "The floor area the maker claims the unit covers, measured in open space. Indian walls of brick and concrete cut this heavily, so treat it as an upper bound rather than a promise."
+    },
+    "backhaul": {
+      "type": "string",
+      "label": "Backhaul",
+      "group": "coverage",
+      "note": "How mesh units talk to each other. Sharing a band with your devices roughly halves throughput at each hop; a dedicated band or a cable avoids that penalty."
+    },
+    "antennas": {
+      "type": "integer",
+      "min": 0,
+      "max": 16,
+      "label": "Antennas",
+      "group": "hardware"
+    },
+    "usb_ports": {
+      "type": "integer",
+      "min": 0,
+      "max": 4,
+      "label": "USB ports",
+      "group": "ports"
+    },
+    "sim_slot": {
+      "type": "boolean",
+      "label": "SIM slot",
+      "group": "hardware",
+      "note": "Whether the unit takes a mobile SIM to provide or back up the connection. Useful where fixed broadband is unreliable."
+    },
+    "year": {
+      "type": "integer",
+      "min": 2015,
+      "max": 2035,
+      "label": "Model year",
+      "group": "identity"
+    },
+    "launch_month": {
+      "type": "string",
+      "label": "Announced",
+      "group": "identity",
+      "note": "The month the maker announced this model, as YYYY-MM. Router model names are reused across revisions, so the date separates a current unit from an older one."
+    },
+    "model_number": {
+      "type": "string",
+      "label": "Model number",
+      "group": "identity",
+      "note": "The maker's exact model code, including any hardware revision such as v2 or v3. Revisions of the same name can differ in chipset and memory, which changes what third-party firmware will run."
+    },
+    "discontinued": {
+      "type": "boolean",
+      "label": "Discontinued",
+      "group": "identity",
+      "note": "True when the maker has stopped producing this model. A discontinued router is closer to the end of its firmware and security-update life than its listing suggests."
+    },
+    "mu_mimo": {
+      "type": "boolean",
+      "label": "MU-MIMO",
+      "group": "wireless",
+      "note": "Whether the router can talk to several devices at once rather than taking turns rapidly. It helps most in homes with many simultaneous streams."
+    },
+    "ofdma": {
+      "type": "boolean",
+      "label": "OFDMA",
+      "group": "wireless",
+      "note": "Whether the router can split a channel among several devices in one transmission. Introduced with Wi-Fi 6, it reduces lag in crowded networks more than it raises peak speed."
+    },
+    "spatial_streams": {
+      "type": "integer",
+      "min": 1,
+      "max": 16,
+      "label": "Spatial streams",
+      "group": "wireless",
+      "note": "How many independent data streams the radios can send at once. More streams raise the ceiling when devices also support them, which most phones do not beyond two."
+    },
+    "wpa3": {
+      "type": "boolean",
+      "label": "WPA3 security",
+      "group": "wireless",
+      "note": "Whether the router supports the current Wi-Fi encryption standard. WPA3 resists offline password guessing in a way WPA2 does not."
+    },
+    "usb_version": {
+      "type": "enum",
+      "label": "USB version",
+      "group": "ports",
+      "values": [
+        "USB 2.0",
+        "USB 3.0",
+        "USB 3.1",
+        "USB 3.2"
+      ],
+      "note": "The speed of the USB ports, used for attached storage or a backup mobile dongle. USB 2.0 is too slow to serve large files from an attached drive at Wi-Fi speeds."
+    },
+    "link_aggregation": {
+      "type": "boolean",
+      "label": "Link aggregation",
+      "group": "ports",
+      "note": "Whether two wired ports can be combined for more bandwidth to one device, such as a network drive. Both ends must support it."
+    },
+    "roaming_standards": {
+      "type": "list",
+      "label": "Roaming standards",
+      "group": "coverage",
+      "values": [
+        "802.11k",
+        "802.11v",
+        "802.11r"
+      ],
+      "note": "How smoothly a device hands over between mesh units as you walk around. Without these, phones cling to a distant unit until the signal nearly drops."
+    },
+    "antenna_type": {
+      "type": "enum",
+      "label": "Antenna type",
+      "group": "hardware",
+      "values": [
+        "Internal",
+        "External fixed",
+        "External detachable"
+      ],
+      "note": "Whether the aerials are hidden inside or stick out. Detachable ones can be replaced with higher-gain versions; internal ones look tidier and usually cover slightly less."
+    },
+    "cpu_cores": {
+      "type": "integer",
+      "min": 1,
+      "max": 16,
+      "label": "Processor cores",
+      "group": "hardware",
+      "note": "How many cores the router's own processor has. It matters for features that inspect traffic, such as parental controls or a VPN, which can otherwise cap your speed well below the line rate."
+    },
+    "ram_mb": {
+      "type": "integer",
+      "min": 16,
+      "max": 8192,
+      "unit": "MB",
+      "label": "Memory",
+      "group": "hardware",
+      "note": "The router's working memory. Low memory shows up as slowdowns or reboots when many devices connect at once, rather than as a lower peak speed."
+    },
+    "cellular_standard": {
+      "type": "enum",
+      "label": "Cellular standard",
+      "group": "hardware",
+      "values": [
+        "4G LTE",
+        "5G NR",
+        "4G LTE + 5G NR"
+      ],
+      "note": "Which mobile generation the built-in modem supports, when the unit has a SIM slot. Check it against the bands your operator uses locally."
+    },
+    "vpn_server": {
+      "type": "boolean",
+      "label": "Built-in VPN server",
+      "group": "features",
+      "note": "Whether the router can host a VPN so you can reach your home network from outside. Separate from a VPN client, which routes your traffic out through a provider."
+    },
+    "parental_controls": {
+      "type": "boolean",
+      "label": "Parental controls",
+      "group": "features",
+      "note": "Whether the router can filter or schedule access per device. Some makers charge a subscription for the useful tiers of this after a trial."
+    },
+    "guest_network": {
+      "type": "boolean",
+      "label": "Guest network",
+      "group": "features",
+      "note": "Whether the router can run a separate network for visitors that cannot reach your own devices."
+    },
+    "subscription_required": {
+      "type": "boolean",
+      "label": "Subscription for full features",
+      "group": "features",
+      "note": "Whether some advertised features stop working after a trial unless you pay a recurring fee. This is a recurring cost that the box rarely mentions clearly."
+    },
+    "firmware_auto_update": {
+      "type": "boolean",
+      "label": "Automatic firmware updates",
+      "group": "features",
+      "note": "Whether the router installs its own security updates. Routers are rarely checked by hand, so automatic updates are the main thing keeping a home network patched."
+    },
+    "weight_g": {
+      "type": "number",
+      "min": 50,
+      "max": 10000,
+      "unit": "g",
+      "label": "Weight",
+      "group": "physical"
+    },
+    "dimensions_mm": {
+      "type": "string",
+      "label": "Dimensions",
+      "group": "physical",
+      "note": "Height x width x depth in millimetres. Worth checking against the shelf or cabinet the unit has to sit in, since tall antennas need clearance."
+    },
+    "wall_mountable": {
+      "type": "boolean",
+      "label": "Wall mountable",
+      "group": "physical",
+      "note": "Whether the unit has fixings to hang on a wall, which usually improves coverage over sitting it low on a shelf."
+    },
+    "power_w": {
+      "type": "number",
+      "min": 1,
+      "max": 100,
+      "unit": "W",
+      "label": "Power draw",
+      "group": "physical",
+      "note": "How much electricity the unit uses. A router runs continuously, so this is a small but permanent addition to a monthly bill."
+    },
+    "spec_url": {
+      "type": "string",
+      "label": "Official spec sheet",
+      "group": "documents",
+      "note": "A link to the maker's own specification page for this exact model and hardware revision. It is the source a disputed fact here should be checked against."
+    },
+    "spec_checked_version": {
+      "type": "string",
+      "label": "Spec sheet version",
+      "group": "documents",
+      "note": "Which revision of the maker's spec page these facts were read from, as a date or version. Makers quietly edit spec pages after launch, so this records which wording was in front of us."
+    }
   },
-  "not_in_this_repo": ["price", "in_stock", "rating", "rank"]
+  "not_in_this_repo": [
+    "price",
+    "in_stock",
+    "rating",
+    "rank"
+  ],
+  "groups": [
+    {
+      "id": "identity",
+      "label": "Identity & launch"
+    },
+    {
+      "id": "wireless",
+      "label": "Wi-Fi"
+    },
+    {
+      "id": "ports",
+      "label": "Ports & wired"
+    },
+    {
+      "id": "coverage",
+      "label": "Coverage & mesh"
+    },
+    {
+      "id": "hardware",
+      "label": "Hardware"
+    },
+    {
+      "id": "features",
+      "label": "Features & security"
+    },
+    {
+      "id": "physical",
+      "label": "Body"
+    },
+    {
+      "id": "documents",
+      "label": "Official sources"
+    }
+  ]
 }
