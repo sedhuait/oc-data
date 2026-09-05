@@ -18,10 +18,10 @@ Facts are not copyrightable in India (*Eastern Book Company v. D.B. Modak*,
 capacity — nobody owns these. We assemble, check and date them, and we give
 the result away.
 
-## 2. The code — closed source, all rights reserved
+## 2. The code in this repository — closed source, all rights reserved
 
-Everything under `src/` and `tools/`: the validator, the formatter, the
-importers, the fetch scripts and every other program in this repository.
+Everything under `src/` and `tools/`: the validator, the formatter, the schema
+tooling and the fetch scripts that appear here.
 
 Copyright (c) Open Catalogue. All rights reserved.
 
@@ -33,12 +33,16 @@ create derivative works from it, in whole or in part.
 
 If you want any of that, ask.
 
-It is readable for one reason: a fact registry that will not show its working
-is asking to be trusted rather than checked. You can see exactly how any
-number here was fetched, parsed and validated, and tell us where we got it
-wrong. That is the extent of the grant, and it is deliberate — the crawlers,
-importers and validation rules are the part of this project that took work to
-build and that we keep. The data they produce is the part we give away.
+It is here for one reason: a fact registry that will not show its working is
+asking to be trusted rather than checked. These particular files are the ones
+that decide whether a record is valid and where a document was fetched from,
+so anyone auditing a fact can see exactly how it was validated. That is the
+extent of the grant.
+
+The rest of the system — the crawlers, the API, the site, the browser
+extension — lives in separate private repositories and is not published at
+all. Nothing about this repository being public implies anything is available
+beyond the data itself.
 
 Note for the avoidance of doubt: an MIT, Apache or similar notice has never
 applied to this code. Where an earlier version of this repository said "code:
@@ -58,6 +62,11 @@ other terms.
 They are mirrored here for one reason: so that a fact this registry publishes
 can be checked against the document it was read from, by anyone, without
 asking us and without trusting us.
+
+The same applies to any source document elsewhere in this repository — a few
+bank MITCs are tracked under `tools/cards/mitc/` from before `documents/`
+existed. Their location is a historical accident; the terms below are what
+govern them.
 
 Our undertaking to the publishers whose documents these are:
 
@@ -86,9 +95,12 @@ required by IRDAI or RBI to make public.
 | Path | What it is | Terms |
 |---|---|---|
 | `products/`, `schemas/` | The facts and their definitions | ODbL 1.0 — take them |
-| `src/`, `tools/` | The code that checks and imports them | Closed source — read it, don't reuse it |
+| `src/`, `tools/` | The validator and fetch scripts kept here | Closed source — read it, don't reuse it |
 | `documents/` | Source documents, mirrored unmodified | The publisher's. Not ours to license. |
 
 If you want the facts, take them; that is what this exists for. If you want to
 redistribute a source document, get it from the publisher — every source URL is
 in the manifests.
+
+This is the only public repository in the project. The crawlers, the API, the
+website and the browser extension are private.
