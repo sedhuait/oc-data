@@ -1,0 +1,93 @@
+# Licences in this repository
+
+Three different things live here under three different terms. This file says
+which is which, because the project's promise — that anyone can take the data
+and use it without asking — is only worth something if it is exactly true.
+
+## 1. The data — ODbL 1.0
+
+Everything under `products/` and `schemas/`: the facts, the fact definitions
+and their explanations.
+
+Licensed under the [Open Database License v1.0](https://opendatacommons.org/licenses/odbl/1-0/).
+Use it, including commercially. Attribute Open Catalogue. If you publish a
+derived database, publish it open too.
+
+Facts are not copyrightable in India (*Eastern Book Company v. D.B. Modak*,
+2008 (1) SCC 1). A waiting period, a fee, an ingredient list, a battery
+capacity — nobody owns these. We assemble, check and date them, and we give
+the result away.
+
+## 2. The code — MIT
+
+Everything under `src/` and `tools/`: the validator, the formatter, the
+importers and the fetch scripts.
+
+Copyright (c) Open Catalogue contributors.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## 3. The source documents — not ours
+
+Everything under `documents/`: policy wordings, MITCs, prospectuses, brochures,
+scheme information documents and the like.
+
+**These files are the property of the issuer or manufacturer that published
+them** — the insurer, the bank, the asset management company, the brand. Each
+is protected by their copyright. Open Catalogue claims no ownership of them,
+grants no licence over them, and does not relicense them under ODbL or any
+other terms.
+
+They are mirrored here for one reason: so that a fact this registry publishes
+can be checked against the document it was read from, by anyone, without
+asking us and without trusting us.
+
+Our undertaking to the publishers whose documents these are:
+
+**We do not modify them.** Every file is stored byte-for-byte as it was served,
+under the filename it was served with. Each directory carries a manifest
+recording the source URL of every file, so anyone — including the publisher —
+can re-download and verify that nothing was altered.
+
+**We do not make money from them.** This project carries no advertising, no
+sponsored placement and no paid ranking; nothing here is for sale, and no part
+of it is monetised, directly or indirectly. That is the project's founding
+premise, not a concession made for this file.
+
+**We remove on request.** If you published one of these documents and would
+rather it were not mirrored here, say so and it will be taken down. The
+manifest of source URLs stays, so the facts remain checkable against your own
+site.
+
+We consider this fair dealing for the purpose of verifying published facts,
+under §52 of the Copyright Act, 1957. These are documents their publishers
+distribute freely and, in the case of regulated financial products, are
+required by IRDAI or RBI to make public.
+
+## In short
+
+| Path | What it is | Terms |
+|---|---|---|
+| `products/`, `schemas/` | The facts and their definitions | ODbL 1.0 — take them |
+| `src/`, `tools/` | The code that checks and imports them | MIT |
+| `documents/` | Source documents, mirrored unmodified | The publisher's. Not ours to license. |
+
+If you want the facts, take them; that is what this exists for. If you want to
+redistribute a source document, get it from the publisher — every source URL is
+in the manifests.

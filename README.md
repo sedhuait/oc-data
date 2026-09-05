@@ -98,3 +98,32 @@ it open too. Scripts: MIT.
 
 If this project ever starts ranking, scoring or selling placement, fork this repo. It's
 why the data is here.
+
+### Source documents in `documents/`
+
+Some facts can only be checked against the document they were read from — a policy
+wording, an MITC, a scheme information document. Where we mirror one, it lives under
+`documents/<domain>/<issuer>/` alongside a manifest recording the URL it came from.
+
+**Those files are not ours and are not ODbL.** Each remains the copyrighted property of
+the issuer or manufacturer that published it — the insurer, the bank, the AMC, the brand.
+We claim no ownership and grant no licence over them.
+
+What we undertake:
+
+- **They are unmodified.** Every file is stored byte-for-byte as the publisher served it.
+  The manifest records each source URL, so anyone can re-download and compare.
+- **We make no money from them.** No advertising, no sponsorship, nothing sold, no
+  placement for sale — the project's whole premise. They are mirrored so that a published
+  fact can be verified against its source, and for no other purpose.
+- **We remove on request.** If a publisher would rather their documents were not mirrored
+  here, they come out on request. The manifest of source URLs stays, so the facts remain
+  checkable against the publisher's own site.
+
+This is fair dealing for the purpose of verifying published facts, under §52 of the
+Copyright Act, 1957.
+
+**The facts extracted from them are a separate matter, and those are open.** A waiting
+period, a fee, an ingredient, a capacity is a fact, and facts are not copyrightable in
+India (*Eastern Book Company v. D.B. Modak*, 2008). Everything under `products/` is ODbL
+and yours to take.
