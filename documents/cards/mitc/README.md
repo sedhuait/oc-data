@@ -16,8 +16,27 @@ does: `index.json` holds the hash, the size and the date of every version
 fetched, so a change is a fact with a date on it rather than something a
 customer notices on a statement.
 
-Refresh with `python3 tools/cards/fetch_mitc.py`; issuer URLs are in
-`tools/cards/mitc_sources.json`.
+Refresh with `python3 sources/mitc/fetch_mitc.py` (in oc-crawlers); issuer URLs
+are in `sources/mitc/mitc_sources.json`.
+
+## A stored document must actually be a document
+
+Fourteen of the fifteen issuer URLs here were wrong until 2026-09-05: they had
+been guessed from patterns like `<bank>.com/pdf/mitc.pdf`, and twelve simply
+404ed. Two were worse than a 404 — `yesbank.in/pdf/mitc_creditcards.pdf` and
+`indusind.com/.../mitc.pdf` returned an HTML error page and a JavaScript shell,
+which the fetcher's 2,000-byte size floor happily accepted and indexed as real
+documents. A 5,640-byte challenge page sat in this directory labelled as Yes
+Bank's MITC.
+
+So the acceptance test is now content, not size or filename: a response is
+stored only if it starts with the `%PDF` magic and runs to at least 3 KB. And
+the URLs were re-derived by scanning each issuer's own card pages for links
+whose text says "most important terms", rather than by guessing paths.
+
+RBI has moved Indian banks onto `.bank.in` hostnames, but not uniformly — some
+issuers serve from both, some never moved their asset host — so each URL is
+verified individually and carries its own `checked` date.
 
 ## Licence
 
