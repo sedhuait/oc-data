@@ -1,9 +1,61 @@
 {
+ "american-express": {
+  "bytes": 353510,
+  "changed_on": "2026-09-05",
+  "first_seen": "2026-09-05",
+  "last_checked": "2026-09-05",
+  "sha": "4f5bfd3370d3a653",
+  "text_chars": 86445,
+  "type": "pdf",
+  "url": "https://www.americanexpress.com/content/dam/amex/in/legal/mitc/Lending_MITC_English.pdf",
+  "versions": [
+   "2026-09-05"
+  ]
+ },
+ "au-small-finance-bank": {
+  "bytes": 939233,
+  "changed_on": "2026-09-05",
+  "first_seen": "2026-09-05",
+  "last_checked": "2026-09-05",
+  "sha": "bf84e9650426e9ea",
+  "text_chars": 55801,
+  "type": "pdf",
+  "url": "https://www.au.bank.in/pdf/credit-card/mitc-with-schedule-of-charges.pdf",
+  "versions": [
+   "2026-09-05"
+  ]
+ },
+ "axis-bank": {
+  "bytes": 697249,
+  "changed_on": "2026-09-05",
+  "first_seen": "2026-09-05",
+  "last_checked": "2026-09-05",
+  "sha": "a031b24e0a98bbd8",
+  "text_chars": 137280,
+  "type": "pdf",
+  "url": "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf?sfvrsn=aba4dce4_32",
+  "versions": [
+   "2026-09-05"
+  ]
+ },
+ "bob-financial": {
+  "bytes": 663252,
+  "changed_on": "2026-09-05",
+  "first_seen": "2026-09-05",
+  "last_checked": "2026-09-05",
+  "sha": "faac37177ed38107",
+  "text_chars": 125836,
+  "type": "pdf",
+  "url": "https://media.bobcard.co.in/media/4wnez0dz/bobcard-generic_mitc_23-july_orginal.pdf",
+  "versions": [
+   "2026-09-05"
+  ]
+ },
  "hdfc-bank": {
   "bytes": 822749,
   "changed_on": "2026-09-04",
   "first_seen": "2026-09-04",
-  "last_checked": "2026-09-04",
+  "last_checked": "2026-09-05",
   "sha": "de9054b59250e70c",
   "text_chars": 245505,
   "type": "pdf",
@@ -12,30 +64,123 @@
    "2026-09-04"
   ]
  },
- "indusind-bank": {
-  "bytes": 579308,
-  "changed_on": "2026-09-04",
-  "first_seen": "2026-09-04",
-  "last_checked": "2026-09-04",
-  "sha": "c7b3d80bd6f130e3",
-  "text_chars": 372234,
-  "type": "html",
-  "url": "https://www.indusind.com/content/dam/indusind-platform/mitc.pdf",
+ "hsbc-india": {
+  "bytes": 170658,
+  "changed_on": "2026-09-05",
+  "first_seen": "2026-09-05",
+  "last_checked": "2026-09-05",
+  "sha": "85e2f3ba3ca03caf",
+  "text_chars": 50310,
+  "type": "pdf",
+  "url": "https://www.hsbc.bank.in/content/dam/hsbc/in/documents/most-important-terms-and-conditions.pdf",
   "versions": [
-   "2026-09-04"
+   "2026-09-05"
+  ]
+ },
+ "icici-bank": {
+  "bytes": 805969,
+  "changed_on": "2026-09-05",
+  "first_seen": "2026-09-05",
+  "last_checked": "2026-09-05",
+  "sha": "7727324c30b06d94",
+  "text_chars": 113285,
+  "type": "pdf",
+  "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/mitc_cc.pdf",
+  "versions": [
+   "2026-09-05"
+  ]
+ },
+ "idfc-first-bank": {
+  "bytes": 4085933,
+  "changed_on": "2026-09-05",
+  "first_seen": "2026-09-05",
+  "last_checked": "2026-09-05",
+  "sha": "2f3bc7cc88562b45",
+  "text_chars": 108721,
+  "type": "pdf",
+  "url": "https://www.idfcfirst.bank.in/content/dam/idfcfirstbank/pdf/credit-card/MITC-Document-Customer.pdf",
+  "versions": [
+   "2026-09-05"
+  ]
+ },
+ "indusind-bank": {
+  "bytes": 293157,
+  "changed_on": "2026-09-05",
+  "first_seen": "2026-09-04",
+  "last_checked": "2026-09-05",
+  "sha": "889f7c7ac9247e79",
+  "text_chars": 90159,
+  "type": "pdf",
+  "url": "https://www.indusind.bank.in/content/dam/indusind-corporate/credit-cards/MITC_Premium.pdf",
+  "versions": [
+   "2026-09-04",
+   "2026-09-05"
+  ]
+ },
+ "kotak-mahindra-bank": {
+  "bytes": 1061319,
+  "changed_on": "2026-09-05",
+  "first_seen": "2026-09-05",
+  "last_checked": "2026-09-05",
+  "sha": "70051de12e2647a3",
+  "text_chars": 339789,
+  "type": "pdf",
+  "url": "https://www.kotak.bank.in/content/dam/Kotak/files/english-rcas.pdf",
+  "versions": [
+   "2026-09-05"
+  ]
+ },
+ "rbl-bank": {
+  "bytes": 236813,
+  "changed_on": "2026-09-05",
+  "first_seen": "2026-09-05",
+  "last_checked": "2026-09-05",
+  "sha": "86f35f253d676d7e",
+  "text_chars": 91483,
+  "type": "pdf",
+  "url": "https://webassets.rbl.bank.in/document/Credit%20Cards/RBL-MITC-final.pdf",
+  "versions": [
+   "2026-09-05"
+  ]
+ },
+ "sbi-card": {
+  "bytes": 1537107,
+  "changed_on": "2026-09-05",
+  "first_seen": "2026-09-05",
+  "last_checked": "2026-09-05",
+  "sha": "2130a513b8d8f409",
+  "text_chars": 94776,
+  "type": "pdf",
+  "url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+  "versions": [
+   "2026-09-05"
+  ]
+ },
+ "standard-chartered": {
+  "bytes": 129301,
+  "changed_on": "2026-09-05",
+  "first_seen": "2026-09-05",
+  "last_checked": "2026-09-05",
+  "sha": "7f44967f1d9c74ae",
+  "text_chars": 35889,
+  "type": "pdf",
+  "url": "https://www.sc.bank.in/content/dam/sc/in/credit-cards/docs/in-priority-visa-infinite-most-important-terms-and-conditions.pdf",
+  "versions": [
+   "2026-09-05"
   ]
  },
  "yes-bank": {
-  "bytes": 5640,
-  "changed_on": "2026-09-04",
+  "bytes": 811931,
+  "changed_on": "2026-09-05",
   "first_seen": "2026-09-04",
-  "last_checked": "2026-09-04",
-  "sha": "f67800d1b226087e",
-  "text_chars": 3123,
-  "type": "html",
-  "url": "https://www.yesbank.in/pdf/mitc_creditcards.pdf",
+  "last_checked": "2026-09-05",
+  "sha": "372886f6f160347f",
+  "text_chars": 129890,
+  "type": "pdf",
+  "url": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf",
   "versions": [
-   "2026-09-04"
+   "2026-09-04",
+   "2026-09-05"
   ]
  }
 }
