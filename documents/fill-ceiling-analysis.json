@@ -230,6 +230,26 @@
       "blocker": "TOP_LEVEL_FIELDS in src/validate.ts is a closed allowlist (E2) and no existing grocery field can hold an active pharmaceutical ingredient or a drug schedule. CDSCO (cdsco.gov.in) is reachable and publishes drug data, but fetching it now would produce facts with nowhere to put them.",
       "verdict": "a schema decision gates roughly 30,000 real facts already sitting on disk"
     },
-    "serving_size_is_a_hard_ceiling": "Of 32,358 cached pages for food records missing serving_size, exactly ONE states a Standard Serve Size -- and it is the '1 g' placeholder. The parser already took every real one."
+    "serving_size_is_a_hard_ceiling": "Of 32,358 cached pages for food records missing serving_size, exactly ONE states a Standard Serve Size -- and it is the '1 g' placeholder. The parser already took every real one.",
+    "alternative_indian_retailers_tested": {
+      "checked": "2026-09-06",
+      "why": "The Open Food Facts result says the remaining ~270,500 empty slots need a source that publishes Indian nutrition panels. These are the candidates, tested through lib/polite.py.",
+      "bigbasket": {
+        "verdict": "EXCLUDED by robots.txt",
+        "evidence": "Disallow: /p/ and Disallow: /product/ — the product pages themselves. Same position as Swiggy Instamart."
+      },
+      "jiomart": {
+        "verdict": "permitted but DOES NOT PUBLISH THE PANEL",
+        "robots": "User-agent: * / Allow: / — an explicit invitation, and the sitemap works.",
+        "evidence": "Fetched a product page (Aashirvaad Multigrain Atta 5 kg, 6.8 MB). Energy 0 occurrences, FSSAI 0, Country of Origin 0, Shelf Life 0. The 'nutrition' and 'protein' hits are marketing prose, which this repo does not read as fact. Its sitemap is also only 904 curated URLs, not a catalogue.",
+        "note": "Permissive robots is not the same as having the data."
+      },
+      "zepto": {
+        "verdict": "NOT USABLE without a browser",
+        "robots": "User-agent: * / Allow: / — permissive, which is why an earlier note called it usable.",
+        "evidence": "The homepage returns ZERO bytes to a non-browser client and both /sitemap.xml and /sitemap_index.xml are empty. It is a JS-only app. The earlier 'usable' verdict was based on robots.txt alone and never tested against a fetch."
+      },
+      "conclusion": "Blinkit remains the only Indian retailer found that both permits crawling and publishes the FSS-mandated pack label as structured page data. That is why grocery's ceiling is what it is."
+    }
   }
 }
