@@ -58,5 +58,19 @@
   "Pack-photo OCR for grocery \u2014 the nutrition panel and ingredient list are printed on the pack image, which Blinkit serves. This is the only route to the fields the structured data omits.",
   "Redefining the metric to exclude fields proven absent from every reachable source, so the number measures what is obtainable rather than what was hoped for.",
   "Accepting ~50% as the honest ceiling and reporting it as such."
- ]
+ ],
+ "pack_photo_ocr_tested": {
+  "verdict": "Rejected. It would address about 2% of the gap it was proposed to fix.",
+  "measured_2026_09_06": {
+   "sample_pages": 1500,
+   "food_pages": 967,
+   "food_with_nutrition_already": 738,
+   "food_MISSING_nutrition": 229,
+   "of_those_with_a_full_res_image": 5,
+   "of_those_with_no_image_at_all": 224
+  },
+  "why": "The proposal assumed the nutrition panel is printed on a pack image Blinkit serves. It is not, for the pages that need it. 224 of the 229 food pages missing a nutrition panel carry NO full-resolution image; the 5 that do carry exactly one, which is the front of the pack, not the back where the panel is printed. Pages generally offer only CDN-resized thumbnails at 120x120 and 480x480, at which a nutrition panel is a few pixels tall and unreadable. Original assets are 1000x1000 and would be readable, but they are absent precisely where they would be needed.",
+  "cost_avoided": "The repo is stdlib-first with no requirements file. OCR would have added its first Python dependency plus a system binary in CI, for a 2% return.",
+  "conclusion": "No remaining source moves grocery past its ~45% pack-label ceiling, so 49.3% stands as the measured best case. The honest options are to accept it, or to redefine the metric so it counts only fields some reachable source actually publishes."
+ }
 }
