@@ -488,9 +488,22 @@
       "what_the_test_shows": "Over 8,922 cached pages carrying the attribute: products whose NAME contains 'Organic' read 148 Yes / 125 No (54.2% certified); every other product reads 17 Yes / 8,632 No (0.20%). That is **276x more likely to be certified when the name says Organic**.",
       "why_that_settles_it": "A blanket default would read 'No' everywhere. This discriminates sharply, in exactly the direction the schema note describes — 'Hillpure Organic Organic Hemp Seeds' reading No is Jaivik Bharat certification genuinely absent from a product using 'organic' as marketing, which is the distinction the field exists to record.",
       "cost": "roughly 69,000 slots left empty on an inference I never tested",
-      "status": "a crawl is running to verify independently and apply it"
+      "status": "a crawl is running to verify independently and apply it",
+      "RESULT": {
+        "verified_independently": "A second pass reproduced the finding over ALL 90,621 cached pages, not my 8,922 sample. The attribute is on 58,224 pages. Name contains 'Organic': 925 Yes / 934 No (49.8%); every other product: 54 Yes / 56,311 No (0.10%). My 276x was real and understated — on the full corpus it is **519x**.",
+        "three_confirmations_stronger_than_the_ratio": {
+          "910_of_910_agreement": "Every record where oc-data already held a curated `organic` and the page reads Yes was already true. Zero conflicts in either direction, so the extraction validates against human-curated data.",
+          "82_brands_carry_both_values": "Amul reads Yes on 24 of 612 products, Aashirvaad 8 of 175. A per-brand or per-feed default cannot vary WITHIN a brand.",
+          "the_No_values_are_coherent": "Inside 24 Mantra Organic's own catalogue the 8 No's are rock salt, Sendha Namak and a mixed gift pack. Minerals cannot be certified organic under any standard. The field is discriminating, not failing."
+        },
+        "applied": "organic 968 (1.4%) -> 46,960 (66.5%): 45,992 false, 968 true",
+        "fill_effect": "grocery 40.31% -> 42.22%; overall 41.80% -> 43.28%",
+        "honest_caveat": "~24 organic-branded sellers read all-No — Organic Box 0/46, Nourish Organics 0/32, Shiva Organic 0/18, 281 products or 0.6% of the fill. Some may be genuine under-reporting. But that is precisely the schema's stated distinction: uncertified use of the word is not a controlled claim.",
+        "a_bug_that_would_have_been_silent": "The entire payload is the negative branch, so the falsy-value path was checked explicitly rather than reasoned about. canonical() prunes with `if vv != \"\"` and merge_into with `in (None,\"\",[])`; both are safe, but a one-character change to `if vv:` would have discarded all 45,992 values WHILE STILL REPORTING SUCCESS. Pinned with a selftest."
+      }
     },
     "the_other_high_empty_fields_are_genuinely_sparse": "Checked the same way over a 2,000-page sample: no attribute at all for preservatives, artificial colours, artificial flavours, additives or fibre; 'No Palm Oil' on 2%, 'Allergen Information' on 3%. 'No. of Servings' appears on 1% and mixes counts with serving sizes ('33 Servings' beside '1 scoop per serving'), so it is not usable. Jaivik at 65% is the outlier, not the pattern.",
-    "counting_top_level_ingredients_would_not_help": "39,701 records carry a top-level `ingredients` array and NO category spec sheet includes that field, so 40% of the catalogue holds an ingredient list the fill metric cannot see. Adding it to grocery and beauty spec sheets moves overall fill only 41.80% -> 41.88%, because it adds 89,232 slots to reach 39,701 filled ones. Worth knowing before anyone proposes it as a lever."
+    "counting_top_level_ingredients_would_not_help": "39,701 records carry a top-level `ingredients` array and NO category spec sheet includes that field, so 40% of the catalogue holds an ingredient list the fill metric cannot see. Adding it to grocery and beauty spec sheets moves overall fill only 41.80% -> 41.88%, because it adds 89,232 slots to reach 39,701 filled ones. Worth knowing before anyone proposes it as a lever.",
+    "fortified_is_a_genuine_ceiling": "Confirmed negative. 'Fortified With' appears on 310 of 90,621 pages (0.34%). 1,084 pages mention 'fortif' but almost all in Description or Key Features marketing prose — including a Dove shampoo — which the read-as-written rule excludes. One clean addition: Processing Type == 'Fortified', an 8-value enum, +28 records. The `Variant` field also carries 'Fortified' but is free text with 37,638 distinct values including 'Royal Roots Fortifying Scalp' — a hair product — so a substring match there would have put a food claim on a shampoo. Ceiling: 351 pages."
   }
 }
