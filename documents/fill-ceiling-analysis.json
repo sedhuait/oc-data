@@ -413,6 +413,13 @@
         "others": "gpu absorbing a clock ('Mali G57 MC4 @650Hz'), network_bands keeping '5G: sub-6' (a spectrum family, not bands), build_material truncated mid-word, charging_w taking a wireless figure as the wired rate, battery_mah missed on Motorola because the label reads 'battery size'."
       },
       "pre_existing_defect_reported": "soc: 'Snapdragon 695 Tablet ' on a Galaxy Tab A9+ exists at HEAD — name-derived, with a trailing space. Left alone by add-only; the title parser's owner should look."
+    },
+    "lg_retested_after_the_samsung_lesson": {
+      "checked": "2026-09-07",
+      "why": "Samsung was recorded served:'js' because the model FAMILY page is a shell while the per-SKU page is not. LG carried the same verdict, measured the same way (category page), and is the second-largest brand in appliances at 65 records — so it was the obvious candidate for the same mistake.",
+      "result": "Not the same mistake. www.lg.com returns HTTP 403 on robots.txt itself to a non-browser client, which matches the appliances agent's independent finding. With the new fail-closed rule, lib/polite.py refuses every path on that host, which is correct: a site that will not serve its robots.txt to us has not given permission.",
+      "status": "LG is off-limits by the site's own decision, not by a measurement error of ours.",
+      "note": "This is the fail-closed change working as designed. Before it, a 403 on robots.txt would have read as 'no rules' and every LG path would have been crawled."
     }
   }
 }
