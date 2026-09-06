@@ -537,6 +537,13 @@
       },
       "audit_catches": "Printing all 26 + 54 distinct values before mapping caught 'NA' as a null placeholder in both attributes; 'Non-Vegetarian' sitting INSIDE the Preferences list, which a naive substring match would have turned into vegan:true; and 'PETA Certified' / 'Halal Certified' being real certifications distinct from bare claims.",
       "fill": "grocery 42.22% -> 42.34%; overall 43.28% -> 43.37%"
+    },
+    "full_corpus_attribute_census_2026_09_07": {
+      "why": "The organic correction proved a 'genuinely sparse' verdict from a 2,000-page sample could be wrong. So the whole corpus was censused rather than sampled: 45,000 pages, 487 distinct attribute names.",
+      "method_that_failed": "Listing attributes whose NAME appears in neither parser gave 107 candidates — and it was unreliable. 'Manufacturer Details' is on 83% of pages and appears nowhere in the parser source, yet 48,203 Blinkit-sourced records carry `manufacturer`. Tracing one record to its page confirmed the value IS read from that attribute; the mapping simply is not a literal string in the file. A grep for label names does not measure what a parser reads.",
+      "method_that_worked": "For each page attribute, check whether its VALUE appears in the record sourced from that page. That is empirical rather than syntactic.",
+      "result": "The apparent finds did not survive checking. 'Calories per 100g (Kcal)' looked like a 61%-of-pages attribute used on only 77 of 3,711 records. Measured precisely: of 5,033 records whose page declares it, 5,002 are FILLED and 31 empty — 99.4% harvested. The 31 misses are ranges ('70-80 Kcal'), out-of-range figures (2,396 kcal against the schema max) and wrong units ('386 g'), all correct refusals.",
+      "conclusion": "The Blinkit corpus is mined out. The attributes that remain unread are logistics and tax metadata — HSN Code, Customer Care Details, tax_reform_version, product_engagement_score, Return Type, Inward Guidelines — which do not belong in a product catalogue. Diet Preference and Jaivik were the last two real finds, and both have now been applied."
     }
   }
 }
