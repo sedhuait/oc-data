@@ -1,0 +1,62 @@
+{
+ "generated": "2026-09-06",
+ "question": "Can the catalogue reach 80% field fill with the current schemas?",
+ "answer": "No. Best case at every measured source ceiling is 49.3%.",
+ "why": "Overall fill is filled/declared slots. Grocery is 64.4% of all declared slots (1,026,255 of 1,594,100), so overall fill is dominated by grocery's fill. Non-grocery slots total 567,845 \u2014 even at a perfect 100% they supply only 45% of what 80% requires. Grocery must therefore reach 69% of its own slots for 80% overall, and its measured ceiling from the Blinkit pack label is 45%.",
+ "measured_ceilings": {
+  "grocery": {
+   "ceiling": 0.45,
+   "method": "mean label coverage over 42 schema fields on a 1,200-page sample; verified twice independently at 45.0% and 42.6%"
+  },
+  "beauty": {
+   "ceiling": 0.6,
+   "method": "26% of records are the Open Beauty Facts island with no GTIN bridge and no storefront"
+  },
+  "funds": {
+   "ceiling": 0.575,
+   "method": "factsheets reach 37% of records; SEBI SIDs lift sid_* and the SIP terms"
+  },
+  "phones": {
+   "ceiling": 0.3,
+   "method": "only 87 of 430 records have a reachable page; 167 are JS-rendered"
+  }
+ },
+ "crawl_vs_ceiling": {
+  "note": "Finishing the crawl helps, but does not close the gap.",
+  "crawled_records_fill": 0.399,
+  "uncrawled_records_fill": 0.105,
+  "grocery_if_fully_crawled": 0.399,
+  "grocery_needed_for_80_overall": 0.69
+ },
+ "trimming_the_sheet": {
+  "note": "Keeping only the best-covered grocery fields does not reach 80% either, because even the top 8 average 66.4%.",
+  "top_8": 0.664,
+  "top_14": 0.573,
+  "top_20": 0.482,
+  "all_42": 0.299
+ },
+ "proven_absent": {
+  "grocery": [
+   "caffeine",
+   "whole_grain_pct",
+   "best_before_type",
+   "spec_url",
+   "spec_checked_version"
+  ],
+  "grocery_evidence": "0 occurrences across 6,000 Blinkit pages",
+  "beauty": [
+   "pao_months",
+   "comedogenic_tested"
+  ],
+  "beauty_evidence": "pao_months on 0 of 1,200 pages; Shelf Life is a different fact",
+  "funds": [
+   "rta"
+  ],
+  "funds_evidence": "CAMS serves a byte-identical Angular shell on every serviced-AMC path; KFintech times out; AMFI publishes no mapping"
+ },
+ "what_would_change_the_answer": [
+  "Pack-photo OCR for grocery \u2014 the nutrition panel and ingredient list are printed on the pack image, which Blinkit serves. This is the only route to the fields the structured data omits.",
+  "Redefining the metric to exclude fields proven absent from every reachable source, so the number measures what is obtainable rather than what was hoped for.",
+  "Accepting ~50% as the honest ceiling and reporting it as such."
+ ]
+}
