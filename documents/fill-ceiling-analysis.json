@@ -300,6 +300,15 @@
       "robots": "All five permit crawling with light restrictions — realme 2 disallows, oppo 1, mi.com 6, vivo 15, store.google.com 75. Individual paths still need checking.",
       "what_stays_true": "OnePlus's /specs pages remain a dead template (58-78 characters on every current model, zero overlap with our 16 records), and model_number is still unfillable — no maker publishes it.",
       "scale": "phones is 430 records and 24,208 slots, 0.8% of the repo, so even a perfect result moves the headline a fraction of a point. Worth doing because the domain is the weakest at 14.1% and the source is live and permitted."
+    },
+    "cards_issuer_pages_are_live": {
+      "checked": "2026-09-06",
+      "state": "247 records at 25.9%. Twelve fields are empty on essentially every record, including cash_advance_fee and overlimit_fee (232 each), which RBI MANDATES in the Most Important Terms and Conditions.",
+      "why_the_MITCs_do_not_cover_it": "Only 14 MITC PDFs are mirrored — one per issuer, written generically for all that issuer's cards. Card-specific fees cannot come from them.",
+      "the_config_is_already_sound": "sources/mitc/mitc_sources.json verifies each URL individually with a %PDF magic check and explicitly warns against a blanket .bank.in rewrite, because hdfcbank.com and hdfc.bank.in both serve while sbicard.com and bobcard.co.in never moved. That is the banking lesson already applied correctly here.",
+      "what_is_available": "sources/mitc/card_pages.json already holds per-card URLs for 15 issuers, and those pages are live. Fetched the first card page of five issuers through polite.py: SBI Card 987 KB with joining fee 42 / annual fee 263 / cash advance 3 / lounge 594 occurrences; ICICI 465 KB with joining fee 6, annual fee 7, lounge 41; Axis 692 KB with joining and annual fee 3 each. HDFC's page is 1.2 MB but names no fee at all.",
+      "verdict": "Real, reachable, unfinished work — per-card fee pages that were discovered but never parsed. Not dispatched today only because cards is 11,115 slots, 0.4% of the repo, and five agents were already running.",
+      "caution": "A page mentioning 'annual fee' 263 times is mostly navigation and marketing. The fee must be read from a labelled fee table, not counted in prose."
     }
   }
 }
