@@ -67,6 +67,10 @@ interface State {
   gtins: Map<string, string>;
   keys: Map<string, string>;
   today: string;
+  /** Every superseded_by pointer seen, checked once every id is known.
+      A record may point at one that appears later in file order, so this
+      cannot be resolved while walking. */
+  supersedes: Array<{ file: string; line: number; from: string; to: string }>;
 }
 
 /** Validate a single record. Exported so tests can call it directly. */
@@ -88,6 +92,16 @@ export function validateRecord(
   else if (state.ids.has(r.id)) E("E3", `duplicate id ${r.id} (already at ${state.ids.get(r.id)})`);
   else state.ids.set(r.id, `${rel(file)}:${line}`);
 
+  // A superseded record points at the one that replaced it. The repo's first
+  // cross-record reference, so it needs the check every reference needs: the
+  // target must exist, and nothing may supersede itself.
+  const sup = r.superseded_by;
+  if (sup !== undefined && sup !== null && sup !== "") {
+    if (!ID_RE.test(sup)) E("E12", `superseded_by "${sup}" must match oc_<12 hex>`);
+    else if (sup === r.id) E("E12", `record supersedes itself`);
+    else state.supersedes.push({ file, line, from: r.id ?? "", to: sup });
+  }
+
   const want = brandFileFor(r.domain, r.brand ?? "");
   if (want !== rel(file)) E("E4", `this record belongs in ${want}, not ${rel(file)}`);
 
@@ -108,6 +122,13 @@ export function validateRecord(
     const v = attrs[k];
     return v === undefined || v === null || v === "" || (Array.isArray(v) && v.length === 0);
   });
+  // The status vocabulary is declared in schema.ts but was never enforced, so
+  // a typo ("retired" for "discontinued") validated cleanly and 17 records
+  // carried a value nothing downstream understands.
+  const STATUSES = new Set(["entry", "candidate", "disputed", "discontinued"]);
+  if (r.status !== undefined && r.status !== null && !STATUSES.has(r.status))
+    E("E2", `status "${r.status}" is not one of ${[...STATUSES].join(", ")}`);
+
   const status = r.status ?? "entry";
   if (missing.length && status === "entry")
     E("E6", `category "${r.category}" requires [${cs.required}]; missing [${missing}]. Supply them, or set "status":"candidate".`);
@@ -159,7 +180,9 @@ export function validateRecord(
 
 export function validateAll(): Report {
   const schemas = loadDomainSchemas();
-  const state: State = { ids: new Map(), gtins: new Map(), keys: new Map(), today: today() };
+  const state: State = {
+    ids: new Map(), gtins: new Map(), keys: new Map(), today: today(), supersedes: [],
+  };
   const errors: Finding[] = [], warnings: Finding[] = [];
   const files = productFiles();
   let count = 0;
@@ -180,6 +203,14 @@ export function validateAll(): Report {
       prev = key;
     }
   }
+  // Now that every id is known, resolve the superseded_by pointers.
+  for (const { file, line, from, to } of state.supersedes) {
+    if (!state.ids.has(to)) {
+      errors.push({ file, line, code: "E12",
+        message: `superseded_by ${to} names no record — the replacement must exist (from ${from})` });
+    }
+  }
+
   return { errors, warnings, count, files: files.length };
 }
 

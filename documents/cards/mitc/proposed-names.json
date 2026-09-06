@@ -1,7 +1,7 @@
 {
- "note": "Proposed corrections for card records whose name is a scraped page title. NOTHING is applied: a corrected name is a different mintId, so each fix means minting the correct record and pointing the old one at it via superseded_by. Three entries were withdrawn after review because the heuristic had turned a feature landing page (\"Dining Credit Card\") into a plausible-looking card name — those records name no card at all and should be retired, not renamed.",
- "count": 38,
- "unrecoverable": 35,
+ "note": "Proposed corrections for card records whose name is a scraped page title. NOTHING is applied here. Twelve names come from ICICI's own MITC fee matrix and are sourced facts; the rest are heuristic trims of a tagline and are weaker. A correction changes the mintId, so applying one means minting the corrected record and pointing the old id at it via superseded_by.",
+ "count": 56,
+ "unrecoverable": 17,
  "proposals": [
   {
    "id": "oc_f8a7bf860db9",
@@ -106,28 +106,28 @@
    "brand": "Axis Bank",
    "current": "Atlas Credit Card - Apply or Axis Bank Atlas Credit Card",
    "proposed": "Atlas Credit Card",
-   "why": "trimmed"
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
   },
   {
    "id": "oc_072ba0f83d01",
    "brand": "Axis Bank",
    "current": "AURA Credit Card - Apply for Axis Bank AURA Credit Card Online Credit Card",
    "proposed": "AURA Credit Card",
-   "why": "trimmed"
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
   },
   {
    "id": "oc_13032c88e2b4",
    "brand": "Axis Bank",
    "current": "Axis Bank Privilege Credit Card Lifetime Free Credit Card",
    "proposed": "Axis Bank Privilege Credit Card",
-   "why": "trimmed"
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
   },
   {
    "id": "oc_15cb4d80ff0c",
    "brand": "Axis Bank",
    "current": "Axis Bank Shoppers Stop Credit Card - Apply for Credit Card Online Credit Card",
    "proposed": "Axis Bank Shoppers Stop Credit Card",
-   "why": "trimmed"
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
   },
   {
    "id": "oc_b6aa27eaade1",
@@ -148,35 +148,35 @@
    "brand": "Axis Bank",
    "current": "IndiGo Axis Bank Credit Card Lifetime Free Credit Card",
    "proposed": "IndiGo Axis Bank Credit Card",
-   "why": "trimmed"
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
   },
   {
    "id": "oc_0d03492c1ea6",
    "brand": "Axis Bank",
    "current": "LIC Axis Bank Platinum Credit Card - Apply Online Credit Card",
    "proposed": "LIC Axis Bank Platinum Credit Card",
-   "why": "trimmed"
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
   },
   {
    "id": "oc_97cbf30d2a3d",
    "brand": "Axis Bank",
    "current": "LIC Axis Bank Signature Credit Card - Apply Online Credit Card",
    "proposed": "LIC Axis Bank Signature Credit Card",
-   "why": "trimmed"
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
   },
   {
    "id": "oc_d4e1ebbdd76a",
    "brand": "Axis Bank",
    "current": "Lifestyle Credit Cards Credit Card",
    "proposed": null,
-   "why": "trimmed"
+   "why": "a feature landing page, not a card — the page is about a benefit across the portfolio"
   },
   {
    "id": "oc_288ee47649ab",
    "brand": "Axis Bank",
    "current": "Miles &amp; More Credit Card - Apply for Miles &amp; More Credit Ca Credit Card",
-   "proposed": "Miles &amp; More Credit Card",
-   "why": "trimmed"
+   "proposed": "Miles & More Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
   },
   {
    "id": "oc_60343334f457",
@@ -197,42 +197,42 @@
    "brand": "Kotak Mahindra",
    "current": "10 Best Smartphones Under ₹15,000 in 2026 - No-Cost EMI Credit Card",
    "proposed": null,
-   "why": "trimmed"
+   "why": "navigation label or an article title, no card name present"
   },
   {
    "id": "oc_0e6c7c9e28b4",
    "brand": "Kotak Mahindra",
    "current": "10 Best Smartphones Under ₹25,000 in 2026 - No-Cost EMI Credit Card",
    "proposed": null,
-   "why": "trimmed"
+   "why": "navigation label or an article title, no card name present"
   },
   {
    "id": "oc_8b4d422105fe",
    "brand": "Kotak Mahindra",
    "current": "Best Credit Cards in India in 2025 Credit Card",
    "proposed": null,
-   "why": "trimmed"
+   "why": "an article or a category page, not a card"
   },
   {
    "id": "oc_401ac225dae5",
    "brand": "Kotak Mahindra",
    "current": "Kotak Business Credit Cards – Tailored Solutions for Professiona Credit Card",
    "proposed": null,
-   "why": "trimmed"
+   "why": "an article or a category page, not a card"
   },
   {
    "id": "oc_af755c26fed3",
    "brand": "Kotak Mahindra",
    "current": "Top Premium Credit Cards in India Credit Card",
    "proposed": null,
-   "why": "trimmed"
+   "why": "an article or a category page, not a card"
   },
   {
    "id": "oc_930072fe60c9",
    "brand": "IDFC FIRST Bank",
    "current": "FD Credit Card - Apply for Credit card against FD Instantly Credit Card",
    "proposed": "FD Credit Card",
-   "why": "trimmed"
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
   },
   {
    "id": "oc_8a062ec09fca",
@@ -252,43 +252,43 @@
    "id": "oc_64bab573222d",
    "brand": "IDFC FIRST Bank",
    "current": "Steps to follow if your Credit Card is lost or stolen Credit Card",
-   "proposed": "Steps to follow if your Credit Card",
-   "why": "kept the name up to \"Credit Card\", dropped the tagline"
+   "proposed": null,
+   "why": "an article or a category page, not a card"
   },
   {
    "id": "oc_0ae74d921ead",
    "brand": "IDFC FIRST Bank",
    "current": "Top 10 Benefits and Uses of Credit Card",
    "proposed": null,
-   "why": "trimmed"
+   "why": "an article or a category page, not a card"
   },
   {
    "id": "oc_564c7d88a9f1",
    "brand": "IDFC FIRST Bank",
    "current": "What is Contactless Payment - How it Works and Advantages Credit Card",
    "proposed": null,
-   "why": "trimmed"
+   "why": "an article or a category page, not a card"
   },
   {
    "id": "oc_be5e8c2c987d",
    "brand": "IDFC FIRST Bank",
    "current": "What is Credit Card cash withdrawal? Credit Card",
-   "proposed": "What is Credit Card",
-   "why": "kept the name up to \"Credit Card\", dropped the tagline"
+   "proposed": null,
+   "why": "an article or a category page, not a card"
   },
   {
    "id": "oc_a2f2329c8359",
    "brand": "RBL Bank",
    "current": "Cookies Credit Card - Apply for Cookies Card Online Credit Card",
    "proposed": "Cookies Credit Card",
-   "why": "trimmed"
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
   },
   {
    "id": "oc_1727e440b0ba",
    "brand": "RBL Bank",
    "current": "Platinum Maxima Plus Credit Card - Apply for Platinum Maxima Plus Card",
    "proposed": "Platinum Maxima Plus Credit Card",
-   "why": "trimmed"
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
   },
   {
    "id": "oc_216a1303064f",
@@ -322,43 +322,43 @@
    "id": "oc_8d82dc2e7238",
    "brand": "ICICI Bank",
    "current": "Attractive MakeMyTrip Benefits MakeMyTrip Platinum Credit Card",
-   "proposed": null,
-   "why": "trimmed"
+   "proposed": "MakeMyTrip ICICI Bank Platinum Credit Card",
+   "why": "the card name as stated in the issuer's own MITC fee matrix"
   },
   {
    "id": "oc_fb4fbf461119",
    "brand": "ICICI Bank",
    "current": "Automobile Associated Benefits HPCL Coral Credit Card",
-   "proposed": null,
-   "why": "trimmed"
+   "proposed": "ICICI Bank HPCL Coral Credit Card",
+   "why": "the card name as stated in the issuer's own MITC fee matrix"
   },
   {
    "id": "oc_ff742c866ef2",
    "brand": "ICICI Bank",
    "current": "Block Card",
-   "proposed": null,
-   "why": "trimmed"
+   "proposed": "Block Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
   },
   {
    "id": "oc_946ee5a732d7",
    "brand": "ICICI Bank",
    "current": "Card Cancellation Credit Card",
-   "proposed": null,
-   "why": "trimmed"
+   "proposed": "Card Cancellation Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
   },
   {
    "id": "oc_48510bc7d5b9",
    "brand": "ICICI Bank",
    "current": "Credit limit Increase Credit Card",
-   "proposed": null,
-   "why": "trimmed"
+   "proposed": "Credit limit Increase Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
   },
   {
    "id": "oc_81feeed7707a",
    "brand": "ICICI Bank",
    "current": "Cricket Enthusiasts Chennai Super Kings Credit Card",
-   "proposed": null,
-   "why": "trimmed"
+   "proposed": "Chennai Super Kings ICICI Bank Credit Card",
+   "why": "the card name as stated in the issuer's own MITC fee matrix"
   },
   {
    "id": "oc_f8922bb2693b",
@@ -371,50 +371,50 @@
    "id": "oc_0ec22341b63a",
    "brand": "ICICI Bank",
    "current": "Defence Personnel Parakram Credit Card",
-   "proposed": null,
-   "why": "trimmed"
+   "proposed": "ICICI Bank Parakram Credit Card",
+   "why": "the card name as stated in the issuer's own MITC fee matrix"
   },
   {
    "id": "oc_57b0f8cb6f91",
    "brand": "ICICI Bank",
    "current": "EMI Calculator Credit Card",
    "proposed": null,
-   "why": "navigation label, no card name present"
+   "why": "navigation label or an article title, no card name present"
   },
   {
    "id": "oc_43d75ba5baae",
    "brand": "ICICI Bank",
    "current": "EMI Products Credit Card",
-   "proposed": null,
-   "why": "trimmed"
+   "proposed": "EMI Products Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
   },
   {
    "id": "oc_dd8c11cedaac",
    "brand": "ICICI Bank",
    "current": "Frequent Flyers Emirates Skywards Rubyx Credit Card",
-   "proposed": null,
-   "why": "trimmed"
+   "proposed": "Emirates Skywards ICICI Bank Rubyx Credit Card",
+   "why": "the card name as stated in the issuer's own MITC fee matrix"
   },
   {
    "id": "oc_5f90712ab52d",
    "brand": "ICICI Bank",
    "current": "Frequent Holiday Goers MakeMyTrip Signature Credit Card",
-   "proposed": null,
-   "why": "trimmed"
+   "proposed": "MakeMyTrip ICICI Bank Signature Credit Card",
+   "why": "the card name as stated in the issuer's own MITC fee matrix"
   },
   {
    "id": "oc_976982960374",
    "brand": "ICICI Bank",
    "current": "Generate PIN Credit Card",
-   "proposed": null,
-   "why": "trimmed"
+   "proposed": "Generate PIN Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
   },
   {
    "id": "oc_11ee2df430c1",
    "brand": "ICICI Bank",
    "current": "High-End Flying Perks Emirates Emeralde Credit Card",
-   "proposed": null,
-   "why": "trimmed"
+   "proposed": "High-End Flying Perks Emirates Emeralde Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
   },
   {
    "id": "oc_4510f4fdcbff",
@@ -428,21 +428,21 @@
    "brand": "ICICI Bank",
    "current": "LIST OF BRANCHES Credit Card",
    "proposed": null,
-   "why": "navigation label, no card name present"
+   "why": "navigation label or an article title, no card name present"
   },
   {
    "id": "oc_c2cad53e9230",
    "brand": "ICICI Bank",
    "current": "Luxurious Lifestyle Emeralde Credit Card",
-   "proposed": null,
-   "why": "trimmed"
+   "proposed": "Luxurious Lifestyle Emeralde Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
   },
   {
    "id": "oc_7c40a313ea00",
    "brand": "ICICI Bank",
    "current": "Luxury Travel and Lifestyle Emirates Sapphiro Credit Card",
-   "proposed": null,
-   "why": "trimmed"
+   "proposed": "Luxury Travel and Lifestyle Emirates Sapphiro Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
   },
   {
    "id": "oc_0cc303967162",
@@ -455,64 +455,64 @@
    "id": "oc_48390ea8f815",
    "brand": "ICICI Bank",
    "current": "Outstanding Luxury Rewards Emeralde Private Metal Credit Card",
-   "proposed": null,
-   "why": "trimmed"
+   "proposed": "Outstanding Luxury Rewards Emeralde Private Metal Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
   },
   {
    "id": "oc_ecf815253390",
    "brand": "ICICI Bank",
    "current": "Parakram Select Credit Card - Apply Now Credit Card",
-   "proposed": "Parakram Select Credit Card",
-   "why": "trimmed"
+   "proposed": null,
+   "why": "refused: the record names a distinct variant (select) that the MITC list does not carry — renaming it would merge two cards"
   },
   {
    "id": "oc_7400e8f47baf",
    "brand": "ICICI Bank",
    "current": "Premium Travel & Stay Perks Adani One Platinum Credit Card",
-   "proposed": null,
-   "why": "trimmed"
+   "proposed": "Adani One ICICI Bank Platinum Credit Card",
+   "why": "the card name as stated in the issuer's own MITC fee matrix"
   },
   {
    "id": "oc_5963c20485b6",
    "brand": "ICICI Bank",
    "current": "Rewards on Amazon Purchases Amazon Pay Credit Card",
    "proposed": null,
-   "why": "trimmed"
+   "why": "a feature landing page, not a card — the page is about a benefit across the portfolio"
   },
   {
    "id": "oc_520e8b96415d",
    "brand": "ICICI Bank",
    "current": "Rewards on Everyday Spends Platinum Chip Credit Card",
-   "proposed": null,
-   "why": "trimmed"
+   "proposed": "ICICI Bank Platinum Chip Credit Card",
+   "why": "the card name as stated in the issuer's own MITC fee matrix"
   },
   {
    "id": "oc_17a7d1c51a6f",
    "brand": "ICICI Bank",
    "current": "Top-Notch Airport Experience Adani One Signature Credit Card",
-   "proposed": null,
-   "why": "trimmed"
+   "proposed": "Adani One ICICI Bank Signature Credit Card",
+   "why": "the card name as stated in the issuer's own MITC fee matrix"
   },
   {
    "id": "oc_cf7ce3cd5945",
    "brand": "ICICI Bank",
    "current": "Unmatched Savings on Fuel HPCL Super Saver Credit Card",
-   "proposed": null,
-   "why": "trimmed"
+   "proposed": "ICICI Bank HPCL Super Saver Credit Card",
+   "why": "the card name as stated in the issuer's own MITC fee matrix"
   },
   {
    "id": "oc_f99d440b2f5e",
    "brand": "ICICI Bank",
    "current": "Unparalleled Privileges for a Life of Luxury Times Black Credit Card",
-   "proposed": null,
-   "why": "trimmed"
+   "proposed": "Times Black ICICI Bank Credit Card",
+   "why": "the card name as stated in the issuer's own MITC fee matrix"
   },
   {
    "id": "oc_cf9dfea9dbd1",
    "brand": "ICICI Bank",
    "current": "VIEW Credit Card",
-   "proposed": null,
-   "why": "trimmed"
+   "proposed": "VIEW Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
   }
  ]
 }
