@@ -1,0 +1,518 @@
+{
+ "note": "Proposed corrections for card records whose name is a scraped page title. NOTHING is applied: a corrected name is a different mintId, so each fix means minting the correct record and pointing the old one at it via superseded_by. Three entries were withdrawn after review because the heuristic had turned a feature landing page (\"Dining Credit Card\") into a plausible-looking card name — those records name no card at all and should be retired, not renamed.",
+ "count": 38,
+ "unrecoverable": 35,
+ "proposals": [
+  {
+   "id": "oc_f8a7bf860db9",
+   "brand": "AU Small Finance",
+   "current": "AU Zaggle Credit Card Spend Anywhere. Earn Everywhere. Credit Card",
+   "proposed": "AU Zaggle Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
+  },
+  {
+   "id": "oc_513b8f436296",
+   "brand": "AU Small Finance",
+   "current": "InstaPay RuPay Credit Card for UPI & QR Payments Credit Card",
+   "proposed": "InstaPay RuPay Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
+  },
+  {
+   "id": "oc_766980689215",
+   "brand": "AU Small Finance",
+   "current": "ixigo AU Credit Card India's Most Rewarding Travel Credit Card",
+   "proposed": "ixigo AU Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
+  },
+  {
+   "id": "oc_9c111ec1b88e",
+   "brand": "AU Small Finance",
+   "current": "Kosmo Credit Card Earn out-of-the-World Rewards Credit Card",
+   "proposed": "Kosmo Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
+  },
+  {
+   "id": "oc_452503472067",
+   "brand": "AU Small Finance",
+   "current": "Xcite Ace Credit Card Experience a World of Indulges & Cashbacks Credit Card",
+   "proposed": "Xcite Ace Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
+  },
+  {
+   "id": "oc_6c6441dedd2b",
+   "brand": "AU Small Finance",
+   "current": "Xcite Credit Card A Great Gateway of Upgraded Experiences Credit Card",
+   "proposed": "Xcite Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
+  },
+  {
+   "id": "oc_d61a1e288308",
+   "brand": "AU Small Finance",
+   "current": "Xcite Ultra Credit Card Indulge in A World of Upgraded Rewards Credit Card",
+   "proposed": "Xcite Ultra Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
+  },
+  {
+   "id": "oc_686d00cfce0d",
+   "brand": "IndusInd Bank",
+   "current": "Club Vistara Explorer Credit Card (Discontinued) Credit Card",
+   "proposed": "Club Vistara Explorer Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
+  },
+  {
+   "id": "oc_3dddadb43966",
+   "brand": "IndusInd Bank",
+   "current": "InterMiles Odyssey Amex Credit Card (Discontinued) Credit Card",
+   "proposed": "InterMiles Odyssey Amex Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
+  },
+  {
+   "id": "oc_643170354acf",
+   "brand": "IndusInd Bank",
+   "current": "InterMiles Odyssey Visa Credit Card (Discontinued) Credit Card",
+   "proposed": "InterMiles Odyssey Visa Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
+  },
+  {
+   "id": "oc_269e7940098f",
+   "brand": "IndusInd Bank",
+   "current": "InterMiles Voyage Amex Credit Card (Discontinued) Credit Card",
+   "proposed": "InterMiles Voyage Amex Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
+  },
+  {
+   "id": "oc_c24fbe7adff5",
+   "brand": "IndusInd Bank",
+   "current": "Intermiles Voyage Visa Credit Card (Discontinued) Credit Card",
+   "proposed": "Intermiles Voyage Visa Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
+  },
+  {
+   "id": "oc_0f867bdf9fdd",
+   "brand": "IndusInd Bank",
+   "current": "Platinum Aura Edge Credit Card Exclusively for Government Sector Emplo Credit Card",
+   "proposed": "Platinum Aura Edge Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
+  },
+  {
+   "id": "oc_86d894504dfd",
+   "brand": "Axis Bank",
+   "current": "Airport Lounge Access Credit Card - Apply Instantly Credit Card",
+   "proposed": null,
+   "why": "a feature landing page, not a card — the page is about a benefit across the portfolio"
+  },
+  {
+   "id": "oc_68ec1a07ea34",
+   "brand": "Axis Bank",
+   "current": "Atlas Credit Card - Apply or Axis Bank Atlas Credit Card",
+   "proposed": "Atlas Credit Card",
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_072ba0f83d01",
+   "brand": "Axis Bank",
+   "current": "AURA Credit Card - Apply for Axis Bank AURA Credit Card Online Credit Card",
+   "proposed": "AURA Credit Card",
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_13032c88e2b4",
+   "brand": "Axis Bank",
+   "current": "Axis Bank Privilege Credit Card Lifetime Free Credit Card",
+   "proposed": "Axis Bank Privilege Credit Card",
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_15cb4d80ff0c",
+   "brand": "Axis Bank",
+   "current": "Axis Bank Shoppers Stop Credit Card - Apply for Credit Card Online Credit Card",
+   "proposed": "Axis Bank Shoppers Stop Credit Card",
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_b6aa27eaade1",
+   "brand": "Axis Bank",
+   "current": "Dining Credit Card - Apply for Restaurant &amp; Food Offers Credit Card",
+   "proposed": null,
+   "why": "a feature landing page, not a card — the page is about a benefit across the portfolio"
+  },
+  {
+   "id": "oc_726ccd0b1039",
+   "brand": "Axis Bank",
+   "current": "Flipkart Axis Bank Credit Card First Year Free Credit Card",
+   "proposed": "Flipkart Axis Bank Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
+  },
+  {
+   "id": "oc_3942db9cc810",
+   "brand": "Axis Bank",
+   "current": "IndiGo Axis Bank Credit Card Lifetime Free Credit Card",
+   "proposed": "IndiGo Axis Bank Credit Card",
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_0d03492c1ea6",
+   "brand": "Axis Bank",
+   "current": "LIC Axis Bank Platinum Credit Card - Apply Online Credit Card",
+   "proposed": "LIC Axis Bank Platinum Credit Card",
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_97cbf30d2a3d",
+   "brand": "Axis Bank",
+   "current": "LIC Axis Bank Signature Credit Card - Apply Online Credit Card",
+   "proposed": "LIC Axis Bank Signature Credit Card",
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_d4e1ebbdd76a",
+   "brand": "Axis Bank",
+   "current": "Lifestyle Credit Cards Credit Card",
+   "proposed": null,
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_288ee47649ab",
+   "brand": "Axis Bank",
+   "current": "Miles &amp; More Credit Card - Apply for Miles &amp; More Credit Ca Credit Card",
+   "proposed": "Miles &amp; More Credit Card",
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_60343334f457",
+   "brand": "Axis Bank",
+   "current": "Scapia Axis Bank Credit Card - Zero Fee Travel Credit Card",
+   "proposed": "Scapia Axis Bank Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
+  },
+  {
+   "id": "oc_08ec2bcfcad6",
+   "brand": "Axis Bank",
+   "current": "Travel Credit Card - Compare, Apply &amp; Credit Card",
+   "proposed": null,
+   "why": "a feature landing page, not a card — the page is about a benefit across the portfolio"
+  },
+  {
+   "id": "oc_39a778c56701",
+   "brand": "Kotak Mahindra",
+   "current": "10 Best Smartphones Under ₹15,000 in 2026 - No-Cost EMI Credit Card",
+   "proposed": null,
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_0e6c7c9e28b4",
+   "brand": "Kotak Mahindra",
+   "current": "10 Best Smartphones Under ₹25,000 in 2026 - No-Cost EMI Credit Card",
+   "proposed": null,
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_8b4d422105fe",
+   "brand": "Kotak Mahindra",
+   "current": "Best Credit Cards in India in 2025 Credit Card",
+   "proposed": null,
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_401ac225dae5",
+   "brand": "Kotak Mahindra",
+   "current": "Kotak Business Credit Cards – Tailored Solutions for Professiona Credit Card",
+   "proposed": null,
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_af755c26fed3",
+   "brand": "Kotak Mahindra",
+   "current": "Top Premium Credit Cards in India Credit Card",
+   "proposed": null,
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_930072fe60c9",
+   "brand": "IDFC FIRST Bank",
+   "current": "FD Credit Card - Apply for Credit card against FD Instantly Credit Card",
+   "proposed": "FD Credit Card",
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_8a062ec09fca",
+   "brand": "IDFC FIRST Bank",
+   "current": "Lifetime Free Credit Card with No Joining &amp; Annual Fees Credit Card",
+   "proposed": "Lifetime Free Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
+  },
+  {
+   "id": "oc_88e5c62ae025",
+   "brand": "IDFC FIRST Bank",
+   "current": "Micro Enterprise Credit Card for Business Owners Credit Card",
+   "proposed": "Micro Enterprise Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
+  },
+  {
+   "id": "oc_64bab573222d",
+   "brand": "IDFC FIRST Bank",
+   "current": "Steps to follow if your Credit Card is lost or stolen Credit Card",
+   "proposed": "Steps to follow if your Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
+  },
+  {
+   "id": "oc_0ae74d921ead",
+   "brand": "IDFC FIRST Bank",
+   "current": "Top 10 Benefits and Uses of Credit Card",
+   "proposed": null,
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_564c7d88a9f1",
+   "brand": "IDFC FIRST Bank",
+   "current": "What is Contactless Payment - How it Works and Advantages Credit Card",
+   "proposed": null,
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_be5e8c2c987d",
+   "brand": "IDFC FIRST Bank",
+   "current": "What is Credit Card cash withdrawal? Credit Card",
+   "proposed": "What is Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
+  },
+  {
+   "id": "oc_a2f2329c8359",
+   "brand": "RBL Bank",
+   "current": "Cookies Credit Card - Apply for Cookies Card Online Credit Card",
+   "proposed": "Cookies Credit Card",
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_1727e440b0ba",
+   "brand": "RBL Bank",
+   "current": "Platinum Maxima Plus Credit Card - Apply for Platinum Maxima Plus Card",
+   "proposed": "Platinum Maxima Plus Credit Card",
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_216a1303064f",
+   "brand": "RBL Bank",
+   "current": "RBL Bank Icon Credit Card - Credit Card",
+   "proposed": "RBL Bank Icon Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
+  },
+  {
+   "id": "oc_46b7cbcf5211",
+   "brand": "Standard Chartered",
+   "current": "Beyond Credit Card – Unlimited Lounge Access, Dining &amp; Golf Privil Credit Card",
+   "proposed": "Beyond Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
+  },
+  {
+   "id": "oc_fa6b9cf75ba9",
+   "brand": "Standard Chartered",
+   "current": "DigiSmart Card – Best Online Shopping Credit Card – Standard Chartered Credit Card",
+   "proposed": "DigiSmart Card – Best Online Shopping Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
+  },
+  {
+   "id": "oc_645be3473a86",
+   "brand": "Standard Chartered",
+   "current": "Super Value Titanium – Best Fuel Credit Card – Standard Chartered Indi Credit Card",
+   "proposed": "Super Value Titanium – Best Fuel Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
+  },
+  {
+   "id": "oc_8d82dc2e7238",
+   "brand": "ICICI Bank",
+   "current": "Attractive MakeMyTrip Benefits MakeMyTrip Platinum Credit Card",
+   "proposed": null,
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_fb4fbf461119",
+   "brand": "ICICI Bank",
+   "current": "Automobile Associated Benefits HPCL Coral Credit Card",
+   "proposed": null,
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_ff742c866ef2",
+   "brand": "ICICI Bank",
+   "current": "Block Card",
+   "proposed": null,
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_946ee5a732d7",
+   "brand": "ICICI Bank",
+   "current": "Card Cancellation Credit Card",
+   "proposed": null,
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_48510bc7d5b9",
+   "brand": "ICICI Bank",
+   "current": "Credit limit Increase Credit Card",
+   "proposed": null,
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_81feeed7707a",
+   "brand": "ICICI Bank",
+   "current": "Cricket Enthusiasts Chennai Super Kings Credit Card",
+   "proposed": null,
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_f8922bb2693b",
+   "brand": "ICICI Bank",
+   "current": "Custom Design Credit Card Expression Credit Card",
+   "proposed": "Custom Design Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
+  },
+  {
+   "id": "oc_0ec22341b63a",
+   "brand": "ICICI Bank",
+   "current": "Defence Personnel Parakram Credit Card",
+   "proposed": null,
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_57b0f8cb6f91",
+   "brand": "ICICI Bank",
+   "current": "EMI Calculator Credit Card",
+   "proposed": null,
+   "why": "navigation label, no card name present"
+  },
+  {
+   "id": "oc_43d75ba5baae",
+   "brand": "ICICI Bank",
+   "current": "EMI Products Credit Card",
+   "proposed": null,
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_dd8c11cedaac",
+   "brand": "ICICI Bank",
+   "current": "Frequent Flyers Emirates Skywards Rubyx Credit Card",
+   "proposed": null,
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_5f90712ab52d",
+   "brand": "ICICI Bank",
+   "current": "Frequent Holiday Goers MakeMyTrip Signature Credit Card",
+   "proposed": null,
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_976982960374",
+   "brand": "ICICI Bank",
+   "current": "Generate PIN Credit Card",
+   "proposed": null,
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_11ee2df430c1",
+   "brand": "ICICI Bank",
+   "current": "High-End Flying Perks Emirates Emeralde Credit Card",
+   "proposed": null,
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_4510f4fdcbff",
+   "brand": "ICICI Bank",
+   "current": "ICICI Bank Credit Card Documents Credit Card",
+   "proposed": "ICICI Bank Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
+  },
+  {
+   "id": "oc_62365e4236b8",
+   "brand": "ICICI Bank",
+   "current": "LIST OF BRANCHES Credit Card",
+   "proposed": null,
+   "why": "navigation label, no card name present"
+  },
+  {
+   "id": "oc_c2cad53e9230",
+   "brand": "ICICI Bank",
+   "current": "Luxurious Lifestyle Emeralde Credit Card",
+   "proposed": null,
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_7c40a313ea00",
+   "brand": "ICICI Bank",
+   "current": "Luxury Travel and Lifestyle Emirates Sapphiro Credit Card",
+   "proposed": null,
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_0cc303967162",
+   "brand": "ICICI Bank",
+   "current": "MakeMyTrip ICICI Bank Credit Card: Travel Rewards & Benefits Credit Card",
+   "proposed": "MakeMyTrip ICICI Bank Credit Card",
+   "why": "kept the name up to \"Credit Card\", dropped the tagline"
+  },
+  {
+   "id": "oc_48390ea8f815",
+   "brand": "ICICI Bank",
+   "current": "Outstanding Luxury Rewards Emeralde Private Metal Credit Card",
+   "proposed": null,
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_ecf815253390",
+   "brand": "ICICI Bank",
+   "current": "Parakram Select Credit Card - Apply Now Credit Card",
+   "proposed": "Parakram Select Credit Card",
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_7400e8f47baf",
+   "brand": "ICICI Bank",
+   "current": "Premium Travel & Stay Perks Adani One Platinum Credit Card",
+   "proposed": null,
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_5963c20485b6",
+   "brand": "ICICI Bank",
+   "current": "Rewards on Amazon Purchases Amazon Pay Credit Card",
+   "proposed": null,
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_520e8b96415d",
+   "brand": "ICICI Bank",
+   "current": "Rewards on Everyday Spends Platinum Chip Credit Card",
+   "proposed": null,
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_17a7d1c51a6f",
+   "brand": "ICICI Bank",
+   "current": "Top-Notch Airport Experience Adani One Signature Credit Card",
+   "proposed": null,
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_cf7ce3cd5945",
+   "brand": "ICICI Bank",
+   "current": "Unmatched Savings on Fuel HPCL Super Saver Credit Card",
+   "proposed": null,
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_f99d440b2f5e",
+   "brand": "ICICI Bank",
+   "current": "Unparalleled Privileges for a Life of Luxury Times Black Credit Card",
+   "proposed": null,
+   "why": "trimmed"
+  },
+  {
+   "id": "oc_cf9dfea9dbd1",
+   "brand": "ICICI Bank",
+   "current": "VIEW Credit Card",
+   "proposed": null,
+   "why": "trimmed"
+  }
+ ]
+}
