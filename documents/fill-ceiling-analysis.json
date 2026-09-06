@@ -250,6 +250,15 @@
         "evidence": "The homepage returns ZERO bytes to a non-browser client and both /sitemap.xml and /sitemap_index.xml are empty. It is a JS-only app. The earlier 'usable' verdict was based on robots.txt alone and never tested against a fetch."
       },
       "conclusion": "Blinkit remains the only Indian retailer found that both permits crawling and publishes the FSS-mandated pack label as structured page data. That is why grocery's ceiling is what it is."
+    },
+    "indian_food_brand_sites_tested": {
+      "checked": "2026-09-06",
+      "why": "Brand-owned sites work for beauty (966 of 1,023 `actives` values came from brand storefronts), so the same was tested for the food brands with the most low-fill records.",
+      "haldirams": "EXCLUDED — robots.txt carries Disallow: /",
+      "britannia": "Open robots (22 bytes, no disallows) but NO PRODUCT CATALOGUE. The site is a Next.js corporate/campaign site: its only internal links are /campaign/*, /news-and-media and policy pages. The 9 'Energy' matches I first counted were a news headline about an unrelated energy drink — a false positive from keyword counting, not a nutrition panel.",
+      "amul": "Open robots, but zero occurrences of Nutrition, Energy, Protein, Ingredient or FSSAI on the site root.",
+      "parle_and_mondelez": "Robots permit product paths; not pursued after the Britannia and Amul results.",
+      "verdict": "Indian FMCG food brands publish campaign sites, not spec sheets. This is the opposite of the beauty D2C brands, which publish product catalogues via Shopify. The asymmetry is why beauty has a brand-store source kind and grocery does not."
     }
   }
 }
