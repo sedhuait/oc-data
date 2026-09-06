@@ -252,5 +252,26 @@
     },
     "recommendation": "Keep the two new categories, but build the Medicines sheet from what a medicine actually declares rather than from the food sheet's leftovers. That needs new FIELDS (prescription_required, dosage_form, drug_sensitivity), which is a larger schema decision than adding two categories -- and it turns this from 'ask fewer questions to raise the percentage' into 'ask the right questions', which is the difference that matters here.",
     "caution": "A 5-field sheet of only what is already filled reaches 87.3%, but adopting it for that reason would be trimming the sheet to flatter the number. The case for dropping fssai_licence and the nutrition fields is that medicines do not have them -- verified on the pages -- not that they are empty."
+  },
+  "second_source_corroboration_2026_09_07": {
+    "source": "Netmeds (www.netmeds.com), robots-permitted, crawled through lib/polite.py",
+    "why_it_matters": "The proposal rested on 3,472 cached Blinkit pages. A second, independent source now reports the same conclusion, and supplies two facts Blinkit does not: the active pharmaceutical ingredient and the drug schedule.",
+    "field_coverage_measured": "On the first 140 records banked, per the crawler's own facts.jsonl rather than a projection:",
+    "counts": {
+      "dosage_form": "140/140",
+      "legal_status (drug schedule)": "140/140",
+      "rx (prescription status)": "140/140",
+      "route of administration": "140/140",
+      "generic name": "137/140",
+      "strength": "132/140",
+      "marketer": "132/140",
+      "indication": "104/140",
+      "manufacturer": "103/140",
+      "active ingredient": "87/140"
+    },
+    "the_asymmetry_that_decides_it": "The fields requiring a schema change are the COMPLETE ones — Rx status, drug schedule, dosage form and route are on every page. The one fact storable today without a schema change, the active ingredient in the top-level `ingredients` array, is the SPARSEST at 87 of 140. So the schema decision is not a refinement of this crawl; it is what determines whether the crawl's main product can be kept at all.",
+    "projected": "~2,100 usable records of the 4,162, each carrying an Rx status and a drug schedule. The final measured figure will be reported from the artefact, not this projection — an earlier cumulative counter misled at 60%, then 40%, then 52%.",
+    "safety_record_of_the_match": "Only 5 of 4,162 records carry a GTIN, so the join is brand + qualifiers + strength + dosage form, all four required. Caught by the page-side strength re-check rather than the name match: Thyronorm 125mcg against a page reading 12.5mcg — a TENFOLD levothyroxine error — and Met XL 25mg against 0.25mg, hundredfold. Refused by the name rule: Methycobal vs Methycobal D, Telmiget 40mg vs Telmiget LN, Amcard 5mg vs Amcard At, Isryl M3 Forte vs m2 Forte, and New Erythrocin 250 mg, whose stem 'new' would have matched a Dyson hair dryer.",
+    "a_new_placeholder_pattern": "Some Netmeds pages emit schema.org @type 'Product' rather than 'Drug', and on those `availableStrength` is present but holds an UNRENDERED MUSTACHE TEMPLATE — '{{product.attributes.genericnamewithdosage}}'. The page emits Product precisely because the drug attributes are absent. Widening the extractor to accept Product would have written literal {{...}} into ingredients on medicine records. Same class as Blinkit's '1 g' serve size and its 36500-day shelf life: a present field name is not a present fact."
   }
 }
