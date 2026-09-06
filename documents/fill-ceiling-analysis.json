@@ -194,5 +194,28 @@
       "printers": 22.4,
       "banking": 28.8
     }
+  },
+  "sources_retested_after_challenge": {
+    "checked": "2026-09-06",
+    "why": "Two populations had been called ceilings by inference rather than by test. Both were retested against live sources. One inference was wrong.",
+    "off_records_were_NOT_unreachable": {
+      "claim_that_was_wrong": "the 12,326 Open Food Facts grocery records have no crawlable page",
+      "what_is_true": "12,116 of them carry a GTIN and 10,254 carry India's GS1 prefix (890), but only 766 have any country_of_origin recorded. fetch_dump.py lines 103-105 keep a dump row only when countries_tags contains 'india', so roughly 9,500 of our own records -- Indian barcode, blank country tag -- were very likely never matched against the dump. That is a filter too narrow, not an absent source.",
+      "size": "336,969 empty slots = 10.8% of every slot in the repo, filling at 13.0%",
+      "action": "re-scan dispatched, keyed on the barcodes we already hold"
+    },
+    "off_api_is_disallowed": "world.openfoodfacts.org and in.openfoodfacts.org disallow /api/ in robots.txt; lib/polite.py refuses it. The ODbL bulk dump is the sanctioned path and is what this repo uses.",
+    "nova_group_is_derivable_and_testable": {
+      "gap": "missing on 47,506 grocery records; 23,524 of those carry a parsed ingredients array",
+      "sanction": "the schema's own note says NOVA is derived from the ingredient list by a defined method",
+      "validation_set": "4,107 records carry BOTH an OFF-assigned NOVA group and an ingredients array, so a derivation can be measured rather than trusted. A crude 3-rule heuristic reaches 81% against them -- promising, and far too inaccurate to publish.",
+      "action": "dispatched with a held-out set and a per-group precision/recall bar"
+    },
+    "medicines_blocked_by_schema_not_by_source": {
+      "what_the_pages_hold": "A survey of all 10,658 cached Health & supplements pages found regulated medicine data the repo captures none of: Salt_composition (43%, 2,822 distinct actives with strengths), Schedule H/H1/G (50%), Prescription required (58%), Medicine Type (56%), Uses_Enum (33%), Prescriber Level (51%).",
+      "blocker": "TOP_LEVEL_FIELDS in src/validate.ts is a closed allowlist (E2) and no existing grocery field can hold an active pharmaceutical ingredient or a drug schedule. CDSCO (cdsco.gov.in) is reachable and publishes drug data, but fetching it now would produce facts with nowhere to put them.",
+      "verdict": "a schema decision gates roughly 30,000 real facts already sitting on disk"
+    },
+    "serving_size_is_a_hard_ceiling": "Of 32,358 cached pages for food records missing serving_size, exactly ONE states a Standard Serve Size -- and it is the '1 g' placeholder. The parser already took every real one."
   }
 }
