@@ -3,7 +3,7 @@
  "insurer": "HDFC ERGO General Insurance Company Limited",
  "retrieved": "2026-09-06",
  "note": "Every file here was downloaded from the insurer's own downloads page. The policy wording is the contract; brochures and prospectuses summarise it and are superseded by it wherever they differ. sha256 and bytes are recorded so anyone can verify these files are byte-for-byte what the insurer served.",
- "document_count": 104,
+ "document_count": 106,
  "documents": [
   {
    "product": "\"Sarv Suraksha Plus (Group) (for policies with Period of Insurance starting 30-Jan-2025 onwards)\"",
@@ -39,6 +39,17 @@
    "bytes": 85335
   },
   {
+   "product": "AYUSH treatments",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "category": "Health Insurance",
+   "title": "AYUSH treatments",
+   "file": "ayushtreatments-914243884484.pdf",
+   "source_url": "https://customer-portal-assets.hdfcergo.com/assets/docs/default-source/public-disclosure/ayushtreatments-914243884484.pdf",
+   "sha256": "e926757052ea2f6fb71989f10eca64bcbc510050e356ea5f5b41903bc7992f39",
+   "bytes": 106428
+  },
+  {
    "product": "Additional Disclaimer",
    "uin": null,
    "doc_type": "Policy Clause",
@@ -62,6 +73,18 @@
   },
   {
    "product": "Arogya Sanjeevani - Retail",
+   "uin": "HDFHLIP20175V011920",
+   "doc_type": "Policy Clause",
+   "category": "Health",
+   "title": "Arogya Sanjeevani - Retail",
+   "file": "20200414162225.pdf",
+   "source_url": "https://healthstatic.insurancedekho.com/prod/planpdf/20200414162225.pdf",
+   "sha256": "75ba5ced7135b34e911250537cdba4a2efef4d69c8f5f2c5dc136587dd7f20cc",
+   "bytes": 688677,
+   "via": "located through insurancedekho.com; classified from the document itself"
+  },
+  {
+   "product": "Arogya Sanjeevani - Retail",
    "uin": null,
    "doc_type": "Policy Clause",
    "category": "Health Insurance",
@@ -70,17 +93,6 @@
    "source_url": "https://customer-portal-assets.hdfcergo.com/documents/arogya-sanjeevani-policy-retail-pw-570443039657.pdf",
    "sha256": "317a5d6e8ce1e72117132779462ec6276b7fd06758767b92a56d5da74b8b0d25",
    "bytes": 398002
-  },
-  {
-   "product": "AYUSH treatments",
-   "uin": null,
-   "doc_type": "Policy Clause",
-   "category": "Health Insurance",
-   "title": "AYUSH treatments",
-   "file": "ayushtreatments-914243884484.pdf",
-   "source_url": "https://customer-portal-assets.hdfcergo.com/assets/docs/default-source/public-disclosure/ayushtreatments-914243884484.pdf",
-   "sha256": "e926757052ea2f6fb71989f10eca64bcbc510050e356ea5f5b41903bc7992f39",
-   "bytes": 106428
   },
   {
    "product": "Card Sure Package Insurance",
@@ -237,17 +249,6 @@
    "bytes": 408865
   },
   {
-   "product": "Group Mediclaim Insurance Policy",
-   "uin": null,
-   "doc_type": "Policy Clause",
-   "category": "Health Insurance",
-   "title": "Group Mediclaim Insurance Policy",
-   "file": "group-mediclaim-insurance-pw-430387928882.pdf",
-   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/group-mediclaim-insurance-pw-430387928882.pdf",
-   "sha256": "5576aeace1e31f5166d1bef6b155583f88e11a457e55762b9998e4b6dc3316fc",
-   "bytes": 655244
-  },
-  {
    "product": "GST Provisional IDs",
    "uin": null,
    "doc_type": "Policy Clause",
@@ -257,6 +258,17 @@
    "source_url": "https://customer-portal-assets.hdfcergo.com/assets/docs/default-source/policies/hdfcergogstprovisionalid-768032194063.pdf",
    "sha256": "69aaf7024193c676b85bac32c6f5550538d7e1920b7a09e058c20bd701c53655",
    "bytes": 7482
+  },
+  {
+   "product": "Group Mediclaim Insurance Policy",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "category": "Health Insurance",
+   "title": "Group Mediclaim Insurance Policy",
+   "file": "group-mediclaim-insurance-pw-430387928882.pdf",
+   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/group-mediclaim-insurance-pw-430387928882.pdf",
+   "sha256": "5576aeace1e31f5166d1bef6b155583f88e11a457e55762b9998e4b6dc3316fc",
+   "bytes": 655244
   },
   {
    "product": "HDFC ERGO EquiCover Health",
@@ -468,28 +480,6 @@
    "bytes": 272992
   },
   {
-   "product": "iCan_Enhance",
-   "uin": null,
-   "doc_type": "Policy Clause",
-   "category": "Health Insurance",
-   "title": "iCan_Enhance",
-   "file": "ican-enhance-516743223207.pdf",
-   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/ican-enhance-516743223207.pdf",
-   "sha256": "08524a2c6f60636baae4b145dc9f2c497ce3e890dd7da25f0de252b447c64cdc",
-   "bytes": 393738
-  },
-  {
-   "product": "iCan_Essential",
-   "uin": null,
-   "doc_type": "Policy Clause",
-   "category": "Health Insurance",
-   "title": "iCan_Essential",
-   "file": "ican-essential-102186638081.pdf",
-   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/ican-essential-102186638081.pdf",
-   "sha256": "d5489bdc30cea652a8c1ca99c9dad613a6083dedf549805e35683265da82edf3",
-   "bytes": 892224
-  },
-  {
    "product": "Individual Personal Accident Rider",
    "uin": null,
    "doc_type": "Policy Clause",
@@ -633,193 +623,6 @@
    "bytes": 435923
   },
   {
-   "product": "my:Credit - Personal Accident (Group)",
-   "uin": null,
-   "doc_type": "Policy Clause",
-   "category": "Health Insurance",
-   "title": "my:Credit - Personal Accident (Group)",
-   "file": "my-credit-personal-accident-group---pww-623813790410.pdf",
-   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/my-credit-personal-accident-group---pww-623813790410.pdf",
-   "sha256": "cadabc9ef9b0a7a9902bb0811ba9a50124f8c1107e3f75e23c40f211f9d0fcc1",
-   "bytes": 323276
-  },
-  {
-   "product": "my:credit Comprehensive Suraksha",
-   "uin": null,
-   "doc_type": "Policy Clause",
-   "category": "Health Insurance",
-   "title": "my:credit Comprehensive Suraksha",
-   "file": "mycredit-comprehensive-suraksha-pw-215860523300.pdf",
-   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/mycredit-comprehensive-suraksha-pw-215860523300.pdf",
-   "sha256": "7ee77d7acf126b29d2ed93be7086e6f07d12b75493081a81ad483f71cc53861e",
-   "bytes": 976244
-  },
-  {
-   "product": "my:health Critical Illness",
-   "uin": null,
-   "doc_type": "Policy Clause",
-   "category": "Health Insurance",
-   "title": "my:health Critical Illness",
-   "file": "myhealth-critical-illness---pww(1)-327722234399.pdf",
-   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/myhealth-critical-illness---pww(1)-327722234399.pdf",
-   "sha256": "9a58cbf56e33117225ce21f69311e25584d2a72d176c6d1cacf4418522867450",
-   "bytes": 567150
-  },
-  {
-   "product": "my:health Critical Illness",
-   "uin": null,
-   "doc_type": "Policy Clause",
-   "category": "Health Insurance",
-   "title": "my:health Critical Illness",
-   "file": "myhealth-critical-illness---pww(1)-697687100623.pdf",
-   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/myhealth-critical-illness---pww(1)-697687100623.pdf",
-   "sha256": "9a58cbf56e33117225ce21f69311e25584d2a72d176c6d1cacf4418522867450",
-   "bytes": 567150
-  },
-  {
-   "product": "my:health Critical Illness",
-   "uin": null,
-   "doc_type": "Policy Clause",
-   "category": "Health Insurance",
-   "title": "my:health Critical Illness",
-   "file": "myhealth-critical-illness---pww(2)-505392153004.pdf",
-   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/myhealth-critical-illness---pww(2)-505392153004.pdf",
-   "sha256": "9a58cbf56e33117225ce21f69311e25584d2a72d176c6d1cacf4418522867450",
-   "bytes": 567150
-  },
-  {
-   "product": "my:health Critical Illness",
-   "uin": null,
-   "doc_type": "Policy Clause",
-   "category": "Health Insurance",
-   "title": "my:health Critical Illness",
-   "file": "myhealth-critical-illness---pww-593808504989.pdf",
-   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/myhealth-critical-illness---pww-593808504989.pdf",
-   "sha256": "9a58cbf56e33117225ce21f69311e25584d2a72d176c6d1cacf4418522867450",
-   "bytes": 567150
-  },
-  {
-   "product": "my:health Critical Illness",
-   "uin": null,
-   "doc_type": "Policy Clause",
-   "category": "Health Insurance",
-   "title": "my:health Critical Illness",
-   "file": "myhealth-critical-illness---pww-823250961811.pdf",
-   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/myhealth-critical-illness---pww-823250961811.pdf",
-   "sha256": "9a58cbf56e33117225ce21f69311e25584d2a72d176c6d1cacf4418522867450",
-   "bytes": 567150
-  },
-  {
-   "product": "my:health Critical Suraksha Plus",
-   "uin": null,
-   "doc_type": "Policy Clause",
-   "category": "Health Insurance",
-   "title": "my:health Critical Suraksha Plus",
-   "file": "myhealth-critical-suraksha-plus-pw-954531935739.pdf",
-   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/myhealth-critical-suraksha-plus-pw-954531935739.pdf",
-   "sha256": "481ff701cb233d7b1291922e35410bb741198d19cfb5fe24694362da43373a26",
-   "bytes": 530577
-  },
-  {
-   "product": "my:Health Hospital Cash Benefit (Add-on)",
-   "uin": null,
-   "doc_type": "Policy Clause",
-   "category": "Health Insurance",
-   "title": "my:Health Hospital Cash Benefit (Add-on)",
-   "file": "myhealth-suraksha-hospital-cash-add-on-pw(1)-626264177644.pdf",
-   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/myhealth-suraksha-hospital-cash-add-on-pw(1)-626264177644.pdf",
-   "sha256": "6e8ec3cf2b1ccc42c95af6fbe10d628aa5ca3c4507d586c25139e487161f4dc0",
-   "bytes": 436026
-  },
-  {
-   "product": "my:Health Hospital Cash Benefit (Add-on)",
-   "uin": null,
-   "doc_type": "Policy Clause",
-   "category": "Health Insurance",
-   "title": "my:Health Hospital Cash Benefit (Add-on)",
-   "file": "myhealth-suraksha-hospital-cash-add-on-pw(2)-84307984279.pdf",
-   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/myhealth-suraksha-hospital-cash-add-on-pw(2)-84307984279.pdf",
-   "sha256": "6e8ec3cf2b1ccc42c95af6fbe10d628aa5ca3c4507d586c25139e487161f4dc0",
-   "bytes": 436026
-  },
-  {
-   "product": "my:Health Hospital Cash Benefit (Add-on)",
-   "uin": null,
-   "doc_type": "Policy Clause",
-   "category": "Health Insurance",
-   "title": "my:Health Hospital Cash Benefit (Add-on)",
-   "file": "myhealth-suraksha-hospital-cash-add-on-pw-41725000809.pdf",
-   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/myhealth-suraksha-hospital-cash-add-on-pw-41725000809.pdf",
-   "sha256": "6e8ec3cf2b1ccc42c95af6fbe10d628aa5ca3c4507d586c25139e487161f4dc0",
-   "bytes": 436026
-  },
-  {
-   "product": "my:Health Hospital Cash Benefit (Add-on)",
-   "uin": null,
-   "doc_type": "Policy Clause",
-   "category": "Health Insurance",
-   "title": "my:Health Hospital Cash Benefit (Add-on)",
-   "file": "myhealth-suraksha-hospital-cash-add-on-pw-681932316570.pdf",
-   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/myhealth-suraksha-hospital-cash-add-on-pw-681932316570.pdf",
-   "sha256": "6e8ec3cf2b1ccc42c95af6fbe10d628aa5ca3c4507d586c25139e487161f4dc0",
-   "bytes": 436026
-  },
-  {
-   "product": "my:health Koti Suraksha",
-   "uin": null,
-   "doc_type": "Policy Clause",
-   "category": "Health Insurance",
-   "title": "my:health Koti Suraksha",
-   "file": "myhealth-koti-suraksha-pw-327779800227.pdf",
-   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/myhealth-koti-suraksha-pw-327779800227.pdf",
-   "sha256": "4a1c8e53b46ce285a498dfde4f82240b00b0bb3a1cbfde402a1463b0e1164d8c",
-   "bytes": 844776
-  },
-  {
-   "product": "my:health Medisure Super Top Up Insurance",
-   "uin": null,
-   "doc_type": "Policy Clause",
-   "category": "Health Insurance",
-   "title": "my:health Medisure Super Top Up Insurance",
-   "file": "myhealth-medisure-super-top-up-insurance-569138917326.pdf",
-   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/myhealth-medisure-super-top-up-insurance-569138917326.pdf",
-   "sha256": "eb4984bd31cc9b855cbf6772cb8d0e2176f3dbec6604c5b5144df9367d419d6c",
-   "bytes": 493202
-  },
-  {
-   "product": "my:health Suraksha (for policies with Period of Insurance starting 30-Nov-2023 onwards)",
-   "uin": null,
-   "doc_type": "Policy Clause",
-   "category": "Health Insurance",
-   "title": "my:health Suraksha (for policies with Period of Insurance starting 30-Nov-2023 onwards)",
-   "file": "myhealth-suraksha---pww-533762769949.pdf",
-   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/myhealth-suraksha---pww-533762769949.pdf",
-   "sha256": "379e0c7466a5b0736e91567a62f41cc12f60a62679d489e7d4d2ba71bda7cd8e",
-   "bytes": 465682
-  },
-  {
-   "product": "my:health Women Suraksha",
-   "uin": null,
-   "doc_type": "Policy Clause",
-   "category": "Health Insurance",
-   "title": "my:health Women Suraksha",
-   "file": "my_health_Women_Suraksha-890200567473.pdf",
-   "source_url": "https://customer-portal-assets.hdfcergo.com//documents/my_health_Women_Suraksha-890200567473.pdf",
-   "sha256": "945c5389a2dac8b377a2c7b1bfbf698a2ae700f1a75f0345bdbff29c4224cbbe",
-   "bytes": 700188
-  },
-  {
-   "product": "my:Optima Secure (for policies with period of Insurance starting 02-April- 2026 onwards)",
-   "uin": null,
-   "doc_type": "Policy Clause",
-   "category": "Health Insurance",
-   "title": "my:Optima Secure (for policies with period of Insurance starting 02-April- 2026 onwards)",
-   "file": "PolicyWordings_myOptimaSecure-76673175551.pdf",
-   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/PolicyWordings_myOptimaSecure-76673175551.pdf",
-   "sha256": "195eb0499db969c6789472e7f87ef1c72da110e2a8c7761ecb5add378fe964c1",
-   "bytes": 925936
-  },
-  {
    "product": "Optima Cash",
    "uin": null,
    "doc_type": "Policy Clause",
@@ -908,6 +711,17 @@
    "bytes": 114611
   },
   {
+   "product": "PRADHAN MANTRI SURAKSHA BIMA YOJANA (PMSBY)",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "category": "Health Insurance",
+   "title": "PRADHAN MANTRI SURAKSHA BIMA YOJANA (PMSBY)",
+   "file": "pradhan-mantri-suraksha-bima-yojana-(pmsby)(1)-443784640034.pdf",
+   "source_url": "https://customer-portal-assets.hdfcergo.com/assets/v2/docs/default-source/downloads/policy-wordings/health/pradhan-mantri-suraksha-bima-yojana-(pmsby)/pradhan-mantri-suraksha-bima-yojana-(pmsby)(1)-443784640034.pdf",
+   "sha256": "64430cd94e5906c72a98d8b1b3f45ac0b8a428a962a588f688876a5f0552874b",
+   "bytes": 258995
+  },
+  {
    "product": "Parenthood",
    "uin": null,
    "doc_type": "Policy Clause",
@@ -939,17 +753,6 @@
    "source_url": "https://customer-portal-assets.hdfcergo.com/documents/PPHIPolicy-V1.9(1)-14133981369.pdf",
    "sha256": "83685be140791626f4780043baf19cc6c47cc4cca40167af96c69dc45db0e272",
    "bytes": 393815
-  },
-  {
-   "product": "PRADHAN MANTRI SURAKSHA BIMA YOJANA (PMSBY)",
-   "uin": null,
-   "doc_type": "Policy Clause",
-   "category": "Health Insurance",
-   "title": "PRADHAN MANTRI SURAKSHA BIMA YOJANA (PMSBY)",
-   "file": "pradhan-mantri-suraksha-bima-yojana-(pmsby)(1)-443784640034.pdf",
-   "source_url": "https://customer-portal-assets.hdfcergo.com/assets/v2/docs/default-source/downloads/policy-wordings/health/pradhan-mantri-suraksha-bima-yojana-(pmsby)/pradhan-mantri-suraksha-bima-yojana-(pmsby)(1)-443784640034.pdf",
-   "sha256": "64430cd94e5906c72a98d8b1b3f45ac0b8a428a962a588f688876a5f0552874b",
-   "bytes": 258995
   },
   {
    "product": "Product Wise Cashless Services",
@@ -1148,6 +951,227 @@
    "source_url": "https://customer-portal-assets.hdfcergo.com/assets/docs/default-source/public-disclosure/listofwithdrawnproduct1-589899450837.pdf",
    "sha256": "ae46bd4245dd17e1ae8205e9f5773d124bea7b2d9aa0f6a9246fd84c880b2d56",
    "bytes": 576671
+  },
+  {
+   "product": "iCan_Enhance",
+   "uin": "HDHHLIP21321V022021",
+   "doc_type": "Policy Clause",
+   "category": "Health",
+   "title": "iCan_Enhance",
+   "file": "20201214190227.pdf",
+   "source_url": "https://healthstatic.insurancedekho.com/prod/planpdf/20201214190227.pdf",
+   "sha256": "b1c4bcc4f3076b31c6e2170e1c44cc131b72f5c1a32f046ad2dc778d918dc895",
+   "bytes": 771774,
+   "via": "located through insurancedekho.com; classified from the document itself"
+  },
+  {
+   "product": "iCan_Enhance",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "category": "Health Insurance",
+   "title": "iCan_Enhance",
+   "file": "ican-enhance-516743223207.pdf",
+   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/ican-enhance-516743223207.pdf",
+   "sha256": "08524a2c6f60636baae4b145dc9f2c497ce3e890dd7da25f0de252b447c64cdc",
+   "bytes": 393738
+  },
+  {
+   "product": "iCan_Essential",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "category": "Health Insurance",
+   "title": "iCan_Essential",
+   "file": "ican-essential-102186638081.pdf",
+   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/ican-essential-102186638081.pdf",
+   "sha256": "d5489bdc30cea652a8c1ca99c9dad613a6083dedf549805e35683265da82edf3",
+   "bytes": 892224
+  },
+  {
+   "product": "my:Credit - Personal Accident (Group)",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "category": "Health Insurance",
+   "title": "my:Credit - Personal Accident (Group)",
+   "file": "my-credit-personal-accident-group---pww-623813790410.pdf",
+   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/my-credit-personal-accident-group---pww-623813790410.pdf",
+   "sha256": "cadabc9ef9b0a7a9902bb0811ba9a50124f8c1107e3f75e23c40f211f9d0fcc1",
+   "bytes": 323276
+  },
+  {
+   "product": "my:Health Hospital Cash Benefit (Add-on)",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "category": "Health Insurance",
+   "title": "my:Health Hospital Cash Benefit (Add-on)",
+   "file": "myhealth-suraksha-hospital-cash-add-on-pw(1)-626264177644.pdf",
+   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/myhealth-suraksha-hospital-cash-add-on-pw(1)-626264177644.pdf",
+   "sha256": "6e8ec3cf2b1ccc42c95af6fbe10d628aa5ca3c4507d586c25139e487161f4dc0",
+   "bytes": 436026
+  },
+  {
+   "product": "my:Health Hospital Cash Benefit (Add-on)",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "category": "Health Insurance",
+   "title": "my:Health Hospital Cash Benefit (Add-on)",
+   "file": "myhealth-suraksha-hospital-cash-add-on-pw(2)-84307984279.pdf",
+   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/myhealth-suraksha-hospital-cash-add-on-pw(2)-84307984279.pdf",
+   "sha256": "6e8ec3cf2b1ccc42c95af6fbe10d628aa5ca3c4507d586c25139e487161f4dc0",
+   "bytes": 436026
+  },
+  {
+   "product": "my:Health Hospital Cash Benefit (Add-on)",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "category": "Health Insurance",
+   "title": "my:Health Hospital Cash Benefit (Add-on)",
+   "file": "myhealth-suraksha-hospital-cash-add-on-pw-41725000809.pdf",
+   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/myhealth-suraksha-hospital-cash-add-on-pw-41725000809.pdf",
+   "sha256": "6e8ec3cf2b1ccc42c95af6fbe10d628aa5ca3c4507d586c25139e487161f4dc0",
+   "bytes": 436026
+  },
+  {
+   "product": "my:Health Hospital Cash Benefit (Add-on)",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "category": "Health Insurance",
+   "title": "my:Health Hospital Cash Benefit (Add-on)",
+   "file": "myhealth-suraksha-hospital-cash-add-on-pw-681932316570.pdf",
+   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/myhealth-suraksha-hospital-cash-add-on-pw-681932316570.pdf",
+   "sha256": "6e8ec3cf2b1ccc42c95af6fbe10d628aa5ca3c4507d586c25139e487161f4dc0",
+   "bytes": 436026
+  },
+  {
+   "product": "my:Optima Secure (for policies with period of Insurance starting 02-April- 2026 onwards)",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "category": "Health Insurance",
+   "title": "my:Optima Secure (for policies with period of Insurance starting 02-April- 2026 onwards)",
+   "file": "PolicyWordings_myOptimaSecure-76673175551.pdf",
+   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/PolicyWordings_myOptimaSecure-76673175551.pdf",
+   "sha256": "195eb0499db969c6789472e7f87ef1c72da110e2a8c7761ecb5add378fe964c1",
+   "bytes": 925936
+  },
+  {
+   "product": "my:credit Comprehensive Suraksha",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "category": "Health Insurance",
+   "title": "my:credit Comprehensive Suraksha",
+   "file": "mycredit-comprehensive-suraksha-pw-215860523300.pdf",
+   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/mycredit-comprehensive-suraksha-pw-215860523300.pdf",
+   "sha256": "7ee77d7acf126b29d2ed93be7086e6f07d12b75493081a81ad483f71cc53861e",
+   "bytes": 976244
+  },
+  {
+   "product": "my:health Critical Illness",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "category": "Health Insurance",
+   "title": "my:health Critical Illness",
+   "file": "myhealth-critical-illness---pww(1)-327722234399.pdf",
+   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/myhealth-critical-illness---pww(1)-327722234399.pdf",
+   "sha256": "9a58cbf56e33117225ce21f69311e25584d2a72d176c6d1cacf4418522867450",
+   "bytes": 567150
+  },
+  {
+   "product": "my:health Critical Illness",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "category": "Health Insurance",
+   "title": "my:health Critical Illness",
+   "file": "myhealth-critical-illness---pww(1)-697687100623.pdf",
+   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/myhealth-critical-illness---pww(1)-697687100623.pdf",
+   "sha256": "9a58cbf56e33117225ce21f69311e25584d2a72d176c6d1cacf4418522867450",
+   "bytes": 567150
+  },
+  {
+   "product": "my:health Critical Illness",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "category": "Health Insurance",
+   "title": "my:health Critical Illness",
+   "file": "myhealth-critical-illness---pww(2)-505392153004.pdf",
+   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/myhealth-critical-illness---pww(2)-505392153004.pdf",
+   "sha256": "9a58cbf56e33117225ce21f69311e25584d2a72d176c6d1cacf4418522867450",
+   "bytes": 567150
+  },
+  {
+   "product": "my:health Critical Illness",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "category": "Health Insurance",
+   "title": "my:health Critical Illness",
+   "file": "myhealth-critical-illness---pww-593808504989.pdf",
+   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/myhealth-critical-illness---pww-593808504989.pdf",
+   "sha256": "9a58cbf56e33117225ce21f69311e25584d2a72d176c6d1cacf4418522867450",
+   "bytes": 567150
+  },
+  {
+   "product": "my:health Critical Illness",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "category": "Health Insurance",
+   "title": "my:health Critical Illness",
+   "file": "myhealth-critical-illness---pww-823250961811.pdf",
+   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/myhealth-critical-illness---pww-823250961811.pdf",
+   "sha256": "9a58cbf56e33117225ce21f69311e25584d2a72d176c6d1cacf4418522867450",
+   "bytes": 567150
+  },
+  {
+   "product": "my:health Critical Suraksha Plus",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "category": "Health Insurance",
+   "title": "my:health Critical Suraksha Plus",
+   "file": "myhealth-critical-suraksha-plus-pw-954531935739.pdf",
+   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/myhealth-critical-suraksha-plus-pw-954531935739.pdf",
+   "sha256": "481ff701cb233d7b1291922e35410bb741198d19cfb5fe24694362da43373a26",
+   "bytes": 530577
+  },
+  {
+   "product": "my:health Koti Suraksha",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "category": "Health Insurance",
+   "title": "my:health Koti Suraksha",
+   "file": "myhealth-koti-suraksha-pw-327779800227.pdf",
+   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/myhealth-koti-suraksha-pw-327779800227.pdf",
+   "sha256": "4a1c8e53b46ce285a498dfde4f82240b00b0bb3a1cbfde402a1463b0e1164d8c",
+   "bytes": 844776
+  },
+  {
+   "product": "my:health Medisure Super Top Up Insurance",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "category": "Health Insurance",
+   "title": "my:health Medisure Super Top Up Insurance",
+   "file": "myhealth-medisure-super-top-up-insurance-569138917326.pdf",
+   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/myhealth-medisure-super-top-up-insurance-569138917326.pdf",
+   "sha256": "eb4984bd31cc9b855cbf6772cb8d0e2176f3dbec6604c5b5144df9367d419d6c",
+   "bytes": 493202
+  },
+  {
+   "product": "my:health Suraksha (for policies with Period of Insurance starting 30-Nov-2023 onwards)",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "category": "Health Insurance",
+   "title": "my:health Suraksha (for policies with Period of Insurance starting 30-Nov-2023 onwards)",
+   "file": "myhealth-suraksha---pww-533762769949.pdf",
+   "source_url": "https://customer-portal-assets.hdfcergo.com/documents/myhealth-suraksha---pww-533762769949.pdf",
+   "sha256": "379e0c7466a5b0736e91567a62f41cc12f60a62679d489e7d4d2ba71bda7cd8e",
+   "bytes": 465682
+  },
+  {
+   "product": "my:health Women Suraksha",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "category": "Health Insurance",
+   "title": "my:health Women Suraksha",
+   "file": "my_health_Women_Suraksha-890200567473.pdf",
+   "source_url": "https://customer-portal-assets.hdfcergo.com//documents/my_health_Women_Suraksha-890200567473.pdf",
+   "sha256": "945c5389a2dac8b377a2c7b1bfbf698a2ae700f1a75f0345bdbff29c4224cbbe",
+   "bytes": 700188
   }
  ]
 }

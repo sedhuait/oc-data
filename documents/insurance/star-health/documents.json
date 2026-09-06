@@ -3,30 +3,8 @@
  "insurer": "Star Health and Allied Insurance Co Ltd",
  "retrieved": "2026-09-05",
  "note": "Every file here was downloaded from the insurer's own downloads page. The policy wording is the contract; brochures and prospectuses summarise it and are superseded by it wherever they differ. sha256 and bytes are recorded so anyone can verify these files are byte-for-byte what the insurer served.",
- "document_count": 311,
+ "document_count": 312,
  "documents": [
-  {
-   "product": "Accident Care (Group) Insurance",
-   "uin": null,
-   "doc_type": "Customer Information Sheet",
-   "category": "Accident",
-   "title": "Accident Care (Group) Insurance",
-   "file": "Accident_Care_group_CIS_61dd6f46c6.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Accident_Care_group_CIS_61dd6f46c6.pdf",
-   "sha256": "1bb64b035672a5d33f534ddf4e56c552aaf1dbe533df74bd84f7d5b7995a6a22",
-   "bytes": 548028
-  },
-  {
-   "product": "Accident Care (Group) Insurance",
-   "uin": null,
-   "doc_type": "Customer Information Sheet",
-   "category": "Accident",
-   "title": "Accident Care (Group) Insurance",
-   "file": "Other_Excluded_Expenses_Accident_Care_Group_Insurance_V_5_3c8d67e0fd.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Other_Excluded_Expenses_Accident_Care_Group_Insurance_V_5_3c8d67e0fd.pdf",
-   "sha256": "130cbf89b0804dec420c9aad710e37e932dc57eb621a300477eb3931823f5776",
-   "bytes": 122311
-  },
   {
    "product": "Accident Care (Group) Insurance",
    "uin": "IRDAI/HLT/SHAI/P-H/V.II/102/2015-16",
@@ -48,6 +26,28 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/Accident_Care_Group_Insurance_e253581580.pdf",
    "sha256": "597b34edccc59c3adda42b879ae0d19bab06b41508fd3d1c59c7b01a48072989",
    "bytes": 5260198
+  },
+  {
+   "product": "Accident Care (Group) Insurance",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "category": "Accident",
+   "title": "Accident Care (Group) Insurance",
+   "file": "Accident_Care_group_CIS_61dd6f46c6.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Accident_Care_group_CIS_61dd6f46c6.pdf",
+   "sha256": "1bb64b035672a5d33f534ddf4e56c552aaf1dbe533df74bd84f7d5b7995a6a22",
+   "bytes": 548028
+  },
+  {
+   "product": "Accident Care (Group) Insurance",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "category": "Accident",
+   "title": "Accident Care (Group) Insurance",
+   "file": "Other_Excluded_Expenses_Accident_Care_Group_Insurance_V_5_3c8d67e0fd.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Other_Excluded_Expenses_Accident_Care_Group_Insurance_V_5_3c8d67e0fd.pdf",
+   "sha256": "130cbf89b0804dec420c9aad710e37e932dc57eb621a300477eb3931823f5776",
+   "bytes": 122311
   },
   {
    "product": "Accident Care Individual Insurance Policy",
@@ -84,6 +84,17 @@
   },
   {
    "product": "Accident Care Individual Insurance Policy",
+   "uin": null,
+   "doc_type": "Proposal",
+   "category": "Accident",
+   "title": "Accident Care Individual Insurance Policy - SHAI/PR0013",
+   "file": "PA_Common_Proposal_Form_V_5_Web_27a4da8bb8.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/PA_Common_Proposal_Form_V_5_Web_27a4da8bb8.pdf",
+   "sha256": "509cafcc9a7afa005c6fd9254c56de3ca331a4b7700ccd9fc7b941c4b3e8b3a1",
+   "bytes": 1297013
+  },
+  {
+   "product": "Accident Care Individual Insurance Policy",
    "uin": "IRDAI/HLT/SHAI/P-P/V.III/134/2017-18",
    "doc_type": "Policy Clause",
    "category": "Accident",
@@ -96,17 +107,6 @@
   {
    "product": "Accident Care Individual Insurance Policy",
    "uin": null,
-   "doc_type": "Proposal",
-   "category": "Accident",
-   "title": "Accident Care Individual Insurance Policy - SHAI/PR0013",
-   "file": "PA_Common_Proposal_Form_V_5_Web_27a4da8bb8.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/PA_Common_Proposal_Form_V_5_Web_27a4da8bb8.pdf",
-   "sha256": "509cafcc9a7afa005c6fd9254c56de3ca331a4b7700ccd9fc7b941c4b3e8b3a1",
-   "bytes": 1297013
-  },
-  {
-   "product": "Accident Care Individual Insurance Policy",
-   "uin": null,
    "doc_type": "Prospectus",
    "category": "Accident",
    "title": "Accident Care Individual Insurance Policy",
@@ -114,6 +114,28 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Accident_Care_Individual_Insurance_Policy_V_4_87f3cfc4d6.pdf",
    "sha256": "7c2bc874118c670e444c431225ccd9c9e676514b893ef783b014fc2cfe4d18c0",
    "bytes": 1451972
+  },
+  {
+   "product": "Accident Trauma Care Insurance Policy (Group)",
+   "uin": "IRDA/NL-HLT/SHAI/P-H/V.I/104/13-14",
+   "doc_type": "Policy Clause",
+   "category": "Accident",
+   "title": "Accident Trauma Care Insurance Policy (Group) - IRDA/NL-HLT/SHAI/P-H/V.I/104/13-14",
+   "file": "Accident_Trauma_Care_Insurance_Policy_GROUP_6703555808.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Accident_Trauma_Care_Insurance_Policy_GROUP_6703555808.pdf",
+   "sha256": "93206017e3bc59eba116cb99637973e20000226412a3c8390aea6d28bbd0933b",
+   "bytes": 532574
+  },
+  {
+   "product": "Accident Trauma Care Insurance Policy (Group)",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "category": "Accident",
+   "title": "Accident Trauma Care Insurance Policy (Group)",
+   "file": "Accident_Trauma_Care_Insurance_Policy_Group_04c0021fcd.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Accident_Trauma_Care_Insurance_Policy_Group_04c0021fcd.pdf",
+   "sha256": "aba3dad191534a619756f01094cc70dc5f2681e84e5df03e3b023251de1f44a0",
+   "bytes": 2228076
   },
   {
    "product": "Accident Trauma Care Insurance Policy (Group)",
@@ -138,26 +160,15 @@
    "bytes": 122647
   },
   {
-   "product": "Accident Trauma Care Insurance Policy (Group)",
-   "uin": "IRDA/NL-HLT/SHAI/P-H/V.I/104/13-14",
-   "doc_type": "Policy Clause",
-   "category": "Accident",
-   "title": "Accident Trauma Care Insurance Policy (Group) - IRDA/NL-HLT/SHAI/P-H/V.I/104/13-14",
-   "file": "Accident_Trauma_Care_Insurance_Policy_GROUP_6703555808.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Accident_Trauma_Care_Insurance_Policy_GROUP_6703555808.pdf",
-   "sha256": "93206017e3bc59eba116cb99637973e20000226412a3c8390aea6d28bbd0933b",
-   "bytes": 532574
-  },
-  {
-   "product": "Accident Trauma Care Insurance Policy (Group)",
+   "product": "Accident Trauma Care Insurance Policy (Individual)",
    "uin": null,
    "doc_type": "Prospectus",
    "category": "Accident",
-   "title": "Accident Trauma Care Insurance Policy (Group)",
-   "file": "Accident_Trauma_Care_Insurance_Policy_Group_04c0021fcd.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Accident_Trauma_Care_Insurance_Policy_Group_04c0021fcd.pdf",
-   "sha256": "aba3dad191534a619756f01094cc70dc5f2681e84e5df03e3b023251de1f44a0",
-   "bytes": 2228076
+   "title": "Accident Trauma Care Insurance Policy (Individual)",
+   "file": "01_Accident_Trauma_Care_Individual_8abdc3d5f5.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/01_Accident_Trauma_Care_Individual_8abdc3d5f5.pdf",
+   "sha256": "dca768b53d920f0df3e012998979cbddf509889f052539c954f44b0fc9762f3f",
+   "bytes": 3251464
   },
   {
    "product": "Accident Trauma Care Insurance Policy (Individual)",
@@ -183,17 +194,6 @@
   },
   {
    "product": "Accident Trauma Care Insurance Policy (Individual)",
-   "uin": "IRDA/NL-HLT/SHAI/P-P/V.I/136/13-14",
-   "doc_type": "Policy Clause",
-   "category": "Accident",
-   "title": "Accident Trauma Care Insurance Policy (Individual) - IRDA/NL-HLT/SHAI/P-P/V.I/136/13-14",
-   "file": "Policy_Accident_Trauma_Care_Insurance_Policy_Individual_V_10_Web_adf5399004.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Policy_Accident_Trauma_Care_Insurance_Policy_Individual_V_10_Web_adf5399004.pdf",
-   "sha256": "9c099cb857be05a8531fe4d8e71f330dbb30679b82cb1df3eba02b09f36c83e1",
-   "bytes": 931798
-  },
-  {
-   "product": "Accident Trauma Care Insurance Policy (Individual)",
    "uin": null,
    "doc_type": "Proposal",
    "category": "Accident",
@@ -205,14 +205,14 @@
   },
   {
    "product": "Accident Trauma Care Insurance Policy (Individual)",
-   "uin": null,
-   "doc_type": "Prospectus",
+   "uin": "IRDA/NL-HLT/SHAI/P-P/V.I/136/13-14",
+   "doc_type": "Policy Clause",
    "category": "Accident",
-   "title": "Accident Trauma Care Insurance Policy (Individual)",
-   "file": "01_Accident_Trauma_Care_Individual_8abdc3d5f5.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/01_Accident_Trauma_Care_Individual_8abdc3d5f5.pdf",
-   "sha256": "dca768b53d920f0df3e012998979cbddf509889f052539c954f44b0fc9762f3f",
-   "bytes": 3251464
+   "title": "Accident Trauma Care Insurance Policy (Individual) - IRDA/NL-HLT/SHAI/P-P/V.I/136/13-14",
+   "file": "Policy_Accident_Trauma_Care_Insurance_Policy_Individual_V_10_Web_adf5399004.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Policy_Accident_Trauma_Care_Insurance_Policy_Individual_V_10_Web_adf5399004.pdf",
+   "sha256": "9c099cb857be05a8531fe4d8e71f330dbb30679b82cb1df3eba02b09f36c83e1",
+   "bytes": 931798
   },
   {
    "product": "Antyodaya Shramik Suraksha Yojana",
@@ -235,6 +235,17 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/ASSY_CIS_f80dd71e8b.pdf",
    "sha256": "a2e945ee6532c72e68d7028f38c45cc457ed813ebdbec1ffff4ff356eb2c7e90",
    "bytes": 601387
+  },
+  {
+   "product": "Arogya Sanjeevani Policy, Star Health and Allied Insurance Co Ltd",
+   "uin": null,
+   "doc_type": "Proposal",
+   "category": "Health",
+   "title": "Arogya Sanjeevani Policy, Star Health and Allied Insurance Co Ltd. SHAI/PR0052",
+   "file": "3_Proposal_Form_Star_Arogya_Sanjeevani_Insurance_Policy_V_11_accc24e007.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/3_Proposal_Form_Star_Arogya_Sanjeevani_Insurance_Policy_V_11_accc24e007.pdf",
+   "sha256": "94717964cf31cd594bc2d14d2061c4c3c00dbb589a615ca311282bff1ddd6aa5",
+   "bytes": 6266775
   },
   {
    "product": "Arogya Sanjeevani Policy, Star Health and Allied Insurance Co Ltd",
@@ -283,17 +294,6 @@
   {
    "product": "Arogya Sanjeevani Policy, Star Health and Allied Insurance Co Ltd",
    "uin": null,
-   "doc_type": "Proposal",
-   "category": "Health",
-   "title": "Arogya Sanjeevani Policy, Star Health and Allied Insurance Co Ltd. SHAI/PR0052",
-   "file": "3_Proposal_Form_Star_Arogya_Sanjeevani_Insurance_Policy_V_11_accc24e007.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/3_Proposal_Form_Star_Arogya_Sanjeevani_Insurance_Policy_V_11_accc24e007.pdf",
-   "sha256": "94717964cf31cd594bc2d14d2061c4c3c00dbb589a615ca311282bff1ddd6aa5",
-   "bytes": 6266775
-  },
-  {
-   "product": "Arogya Sanjeevani Policy, Star Health and Allied Insurance Co Ltd",
-   "uin": null,
    "doc_type": "Prospectus",
    "category": "Health",
    "title": "Arogya Sanjeevani Policy, Star Health and Allied Insurance Co Ltd.",
@@ -326,6 +326,17 @@
   },
   {
    "product": "Classic Group Health Insurance",
+   "uin": "SHAHLGP21239V022021",
+   "doc_type": "Policy Clause",
+   "category": "Health",
+   "title": "Classic Group Health Insurance- SHAHLGP21239V022021",
+   "file": "Classic_Group_Health_Insurance_6e05831c03.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Classic_Group_Health_Insurance_6e05831c03.pdf",
+   "sha256": "9ced8e1fd8c4baadd240611fd63a64d18de50957ee9e60277c32a10dba734dc1",
+   "bytes": 813770
+  },
+  {
+   "product": "Classic Group Health Insurance",
    "uin": null,
    "doc_type": "Customer Information Sheet",
    "category": "Health",
@@ -345,17 +356,6 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/Other_Excluded_Expenses_Classic_Group_Health_Insurance_d9ca85dd44.pdf",
    "sha256": "788e2225d7571b1fad6c35c0478bb3715993adea28b200d382b24f8b159adb31",
    "bytes": 122228
-  },
-  {
-   "product": "Classic Group Health Insurance",
-   "uin": "SHAHLGP21239V022021",
-   "doc_type": "Policy Clause",
-   "category": "Health",
-   "title": "Classic Group Health Insurance- SHAHLGP21239V022021",
-   "file": "Classic_Group_Health_Insurance_6e05831c03.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Classic_Group_Health_Insurance_6e05831c03.pdf",
-   "sha256": "9ced8e1fd8c4baadd240611fd63a64d18de50957ee9e60277c32a10dba734dc1",
-   "bytes": 813770
   },
   {
    "product": "College Student Care Insurance",
@@ -413,6 +413,19 @@
    "bytes": 438853
   },
   {
+   "product": "Corona Rakshak Policy, Star Health and Allied Insurance Co. Ltd",
+   "uin": "SHAHLIP21067V012021",
+   "doc_type": "Policy Clause",
+   "category": "Health",
+   "title": "Corona Rakshak Policy, Star Health and Allied Insurance Co. Ltd",
+   "file": "20200730173626.pdf",
+   "source_url": "https://healthstatic.insurancedekho.com/prod/planpdf/20200730173626.pdf",
+   "sha256": "0b6e1c867a135da3728ee5d97c9396806205f178294488cfa3559f4c81f530be",
+   "bytes": 1596810,
+   "via": "located through insurancedekho.com; classified from the document itself",
+   "classified_from": "the document's own first page, which reads 'Policy Wordings'. It reproduces the Customer Information Sheet as a section, which is why an earlier pass misfiled it as a CIS."
+  },
+  {
    "product": "Diabetes Safe Insurance Policy",
    "uin": null,
    "doc_type": "Brochure",
@@ -447,17 +460,6 @@
   },
   {
    "product": "Diabetes Safe Insurance Policy",
-   "uin": null,
-   "doc_type": "Customer Information Sheet",
-   "category": "Health - Speciality Products",
-   "title": "Diabetes Safe Insurance Policy",
-   "file": "diabetes_safe_insurance_Other_Excluded_Expenses_5c4adc7c68.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/diabetes_safe_insurance_Other_Excluded_Expenses_5c4adc7c68.pdf",
-   "sha256": "356c2e48d6b18a1c37c49110037b3978f395f1e57575af525262975f336cb911",
-   "bytes": 122737
-  },
-  {
-   "product": "Diabetes Safe Insurance Policy",
    "uin": "SHAHLIP23081V082223",
    "doc_type": "Policy Clause",
    "category": "Health - Speciality Products",
@@ -488,6 +490,17 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Diabetes_Safe_Insurance_Policy_V_12_c8ec1d269d.pdf",
    "sha256": "e0de1ab98ed5e69c9fc278d3cb47d29e590f1a7e4b8db2adaca9fb893ac0c90c",
    "bytes": 803179
+  },
+  {
+   "product": "Diabetes Safe Insurance Policy",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "category": "Health - Speciality Products",
+   "title": "Diabetes Safe Insurance Policy",
+   "file": "diabetes_safe_insurance_Other_Excluded_Expenses_5c4adc7c68.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/diabetes_safe_insurance_Other_Excluded_Expenses_5c4adc7c68.pdf",
+   "sha256": "356c2e48d6b18a1c37c49110037b3978f395f1e57575af525262975f336cb911",
+   "bytes": 122737
   },
   {
    "product": "Family Accident Care Insurance Policy",
@@ -536,6 +549,17 @@
   {
    "product": "Family Health Optima Accident Care Policy",
    "uin": null,
+   "doc_type": "Proposal",
+   "category": "Package Products",
+   "title": "Family Health Optima Accident Care Policy - SHAI/PR0007",
+   "file": "2_Proposal_Form_FHOAC_and_MCIAC_Insurance_Policy_V_6_cc504a5805.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/2_Proposal_Form_FHOAC_and_MCIAC_Insurance_Policy_V_6_cc504a5805.pdf",
+   "sha256": "9d1f8bea7aaaf444c0cdb7dd26c8d94889eed4b060660c36241305ac5c5447fd",
+   "bytes": 2765193
+  },
+  {
+   "product": "Family Health Optima Accident Care Policy",
+   "uin": null,
    "doc_type": "Customer Information Sheet",
    "category": "Package Products",
    "title": "Family Health Optima Accident Care Policy",
@@ -558,6 +582,17 @@
   {
    "product": "Family Health Optima Accident Care Policy",
    "uin": null,
+   "doc_type": "Prospectus",
+   "category": "Package Products",
+   "title": "Family Health Optima Accident Care Policy",
+   "file": "Family_Health_Optima_Accident_Care_Policy_2af80fb37b.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Family_Health_Optima_Accident_Care_Policy_2af80fb37b.pdf",
+   "sha256": "fb08ed552e1bc27cb9e7d8c48b881e8df3a05e7c4347fd26429af07983432b72",
+   "bytes": 2319390
+  },
+  {
+   "product": "Family Health Optima Accident Care Policy",
+   "uin": null,
    "doc_type": "Customer Information Sheet",
    "category": "Package Products",
    "title": "Family Health Optima Accident Care Policy",
@@ -576,28 +611,6 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/Policy_Family_Health_Optima_Accident_Care_Policy_V_18_5e1bc1c72e.pdf",
    "sha256": "06ff3a2df1de0b9cb7afb43c3a59fb3d4b3fcee03b00a5cfafce773f5d163c5f",
    "bytes": 1340734
-  },
-  {
-   "product": "Family Health Optima Accident Care Policy",
-   "uin": null,
-   "doc_type": "Proposal",
-   "category": "Package Products",
-   "title": "Family Health Optima Accident Care Policy - SHAI/PR0007",
-   "file": "2_Proposal_Form_FHOAC_and_MCIAC_Insurance_Policy_V_6_cc504a5805.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/2_Proposal_Form_FHOAC_and_MCIAC_Insurance_Policy_V_6_cc504a5805.pdf",
-   "sha256": "9d1f8bea7aaaf444c0cdb7dd26c8d94889eed4b060660c36241305ac5c5447fd",
-   "bytes": 2765193
-  },
-  {
-   "product": "Family Health Optima Accident Care Policy",
-   "uin": null,
-   "doc_type": "Prospectus",
-   "category": "Package Products",
-   "title": "Family Health Optima Accident Care Policy",
-   "file": "Family_Health_Optima_Accident_Care_Policy_2af80fb37b.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Family_Health_Optima_Accident_Care_Policy_2af80fb37b.pdf",
-   "sha256": "fb08ed552e1bc27cb9e7d8c48b881e8df3a05e7c4347fd26429af07983432b72",
-   "bytes": 2319390
   },
   {
    "product": "Family Health Optima Insurance Plan",
@@ -646,13 +659,13 @@
   {
    "product": "Family Health Optima Insurance Plan",
    "uin": null,
-   "doc_type": "Customer Information Sheet",
+   "doc_type": "Proposal",
    "category": "Health",
-   "title": "Family Health Optima Insurance Plan",
-   "file": "Preventive_Health_Check_up_Family_Health_Optima_Insurance_Plan_13ff4299eb.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Preventive_Health_Check_up_Family_Health_Optima_Insurance_Plan_13ff4299eb.pdf",
-   "sha256": "667646c6e403db44541256481b8cf26f13ee23369206c0125bb4b7f8063b09a9",
-   "bytes": 527926
+   "title": "Family Health Optima Insurance Plan - SHAI/PR0002",
+   "file": "Offline_Proposal_Form_138e10d5db.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Offline_Proposal_Form_138e10d5db.pdf",
+   "sha256": "ca3c33d9bdc5f52898743c69956864b4cc2329ae79a82bf2b87f9ffca0b06bf3",
+   "bytes": 586213
   },
   {
    "product": "Family Health Optima Insurance Plan",
@@ -668,13 +681,13 @@
   {
    "product": "Family Health Optima Insurance Plan",
    "uin": null,
-   "doc_type": "Proposal",
+   "doc_type": "Customer Information Sheet",
    "category": "Health",
-   "title": "Family Health Optima Insurance Plan - SHAI/PR0002",
-   "file": "Offline_Proposal_Form_138e10d5db.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Offline_Proposal_Form_138e10d5db.pdf",
-   "sha256": "ca3c33d9bdc5f52898743c69956864b4cc2329ae79a82bf2b87f9ffca0b06bf3",
-   "bytes": 586213
+   "title": "Family Health Optima Insurance Plan",
+   "file": "Preventive_Health_Check_up_Family_Health_Optima_Insurance_Plan_13ff4299eb.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Preventive_Health_Check_up_Family_Health_Optima_Insurance_Plan_13ff4299eb.pdf",
+   "sha256": "667646c6e403db44541256481b8cf26f13ee23369206c0125bb4b7f8063b09a9",
+   "bytes": 527926
   },
   {
    "product": "Family Health Optima Insurance Plan",
@@ -865,17 +878,6 @@
   },
   {
    "product": "Medi Classic Insurance Policy (Individual)",
-   "uin": null,
-   "doc_type": "Customer Information Sheet",
-   "category": "Health",
-   "title": "Medi Classic Insurance Policy (Individual)",
-   "file": "mediclassic_individual_insurance_policy_v1_a0ef065963.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/mediclassic_individual_insurance_policy_v1_a0ef065963.pdf",
-   "sha256": "28cb46f7d7b2a5bbc2ad2aa90afd7a0ea86aecf6426e212a28404bea6e257c4b",
-   "bytes": 597869
-  },
-  {
-   "product": "Medi Classic Insurance Policy (Individual)",
    "uin": "SHAHLIP26047V092526",
    "doc_type": "Policy Clause",
    "category": "Health",
@@ -897,6 +899,17 @@
    "bytes": 1965268
   },
   {
+   "product": "Medi Classic Insurance Policy (Individual)",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "category": "Health",
+   "title": "Medi Classic Insurance Policy (Individual)",
+   "file": "mediclassic_individual_insurance_policy_v1_a0ef065963.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/mediclassic_individual_insurance_policy_v1_a0ef065963.pdf",
+   "sha256": "28cb46f7d7b2a5bbc2ad2aa90afd7a0ea86aecf6426e212a28404bea6e257c4b",
+   "bytes": 597869
+  },
+  {
    "product": "Nomination Form",
    "uin": null,
    "doc_type": "Nomination",
@@ -906,28 +919,6 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/Annexure_for_Proposal_form_712b95056b.pdf",
    "sha256": "d4e7b9c8e5bc225d9659f3f438e66abf10ac808e77e804fe3689868503498859",
    "bytes": 164227
-  },
-  {
-   "product": "Param Seva (Senior Citizen Wellness Care)",
-   "uin": null,
-   "doc_type": "Prospectus",
-   "category": null,
-   "title": "Param Seva (Senior Citizen Wellness Care)",
-   "file": "04_Param_Seva_2_LR_d75403faa0.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/04_Param_Seva_2_LR_d75403faa0.pdf",
-   "sha256": "fed0aa3526082d36c488e0098e296c3f9c0f1227891910669e45f092537f64a9",
-   "bytes": 7421620
-  },
-  {
-   "product": "POS - Accident Care Individual Insurance Policy",
-   "uin": null,
-   "doc_type": "Brochure",
-   "category": "POS Products",
-   "title": "POS - Accident Care Individual Insurance Policy",
-   "file": "POS_Brochure_Accident_Care_Individual_Insurance_Policy_V_9_Web_2711d9d659.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/POS_Brochure_Accident_Care_Individual_Insurance_Policy_V_9_Web_2711d9d659.pdf",
-   "sha256": "757294f75482be98f4e45aa460f8a5a06bb29a80906cf03fd8b002853cef053b",
-   "bytes": 623065
   },
   {
    "product": "POS - Accident Care Individual Insurance Policy",
@@ -943,6 +934,17 @@
   {
    "product": "POS - Accident Care Individual Insurance Policy",
    "uin": null,
+   "doc_type": "Proposal",
+   "category": "POS Products",
+   "title": "POS - Accident Care Individual Insurance Policy - SHAI/PR0013",
+   "file": "PA_Common_Proposal_Form_V_5_Web_fabf9924c4.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/PA_Common_Proposal_Form_V_5_Web_fabf9924c4.pdf",
+   "sha256": "509cafcc9a7afa005c6fd9254c56de3ca331a4b7700ccd9fc7b941c4b3e8b3a1",
+   "bytes": 1297013
+  },
+  {
+   "product": "POS - Accident Care Individual Insurance Policy",
+   "uin": null,
    "doc_type": "Customer Information Sheet",
    "category": "POS Products",
    "title": "POS - Accident Care Individual Insurance Policy",
@@ -950,6 +952,17 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/POS_Accident_Care_brochure_7e7ff32b6c.pdf",
    "sha256": "3403027c5872b0404b4e0ca17f4ee793bafa7230afa36fd418f2977cb39a386a",
    "bytes": 959641
+  },
+  {
+   "product": "POS - Accident Care Individual Insurance Policy",
+   "uin": null,
+   "doc_type": "Brochure",
+   "category": "POS Products",
+   "title": "POS - Accident Care Individual Insurance Policy",
+   "file": "POS_Brochure_Accident_Care_Individual_Insurance_Policy_V_9_Web_2711d9d659.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/POS_Brochure_Accident_Care_Individual_Insurance_Policy_V_9_Web_2711d9d659.pdf",
+   "sha256": "757294f75482be98f4e45aa460f8a5a06bb29a80906cf03fd8b002853cef053b",
+   "bytes": 623065
   },
   {
    "product": "POS - Accident Care Individual Insurance Policy",
@@ -965,17 +978,6 @@
   {
    "product": "POS - Accident Care Individual Insurance Policy",
    "uin": null,
-   "doc_type": "Proposal",
-   "category": "POS Products",
-   "title": "POS - Accident Care Individual Insurance Policy - SHAI/PR0013",
-   "file": "PA_Common_Proposal_Form_V_5_Web_fabf9924c4.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/PA_Common_Proposal_Form_V_5_Web_fabf9924c4.pdf",
-   "sha256": "509cafcc9a7afa005c6fd9254c56de3ca331a4b7700ccd9fc7b941c4b3e8b3a1",
-   "bytes": 1297013
-  },
-  {
-   "product": "POS - Accident Care Individual Insurance Policy",
-   "uin": null,
    "doc_type": "Prospectus",
    "category": "POS Products",
    "title": "POS - Accident Care Individual Insurance Policy",
@@ -983,6 +985,17 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_POS_Accident_Care_Individual_Insurance_Policy_V_4_6d619e0017.pdf",
    "sha256": "edc454ed0ff4f177366053067e27a77e98d0584622899e8d1c628b688d2dc635",
    "bytes": 1451802
+  },
+  {
+   "product": "Param Seva (Senior Citizen Wellness Care)",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "category": null,
+   "title": "Param Seva (Senior Citizen Wellness Care)",
+   "file": "04_Param_Seva_2_LR_d75403faa0.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/04_Param_Seva_2_LR_d75403faa0.pdf",
+   "sha256": "fed0aa3526082d36c488e0098e296c3f9c0f1227891910669e45f092537f64a9",
+   "bytes": 7421620
   },
   {
    "product": "Privilege Group Health Insurance SHAHLGP21268V0122021",
@@ -1019,17 +1032,6 @@
   },
   {
    "product": "Saral Suraksha Bima, Star Health and Allied Insurance Co Ltd",
-   "uin": null,
-   "doc_type": "Customer Information Sheet",
-   "category": "Accident",
-   "title": "Saral Suraksha Bima, Star Health and Allied Insurance Co Ltd",
-   "file": "Saral_Suraksha_Bima_Other_Excluded_Expenses_22f5fb96fe.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Saral_Suraksha_Bima_Other_Excluded_Expenses_22f5fb96fe.pdf",
-   "sha256": "9407066b65e0bbce2815afa914fb24387f0dc77277c9d0aca23778824023c7b3",
-   "bytes": 122702
-  },
-  {
-   "product": "Saral Suraksha Bima, Star Health and Allied Insurance Co Ltd",
    "uin": "SHAPAIP22039V022122",
    "doc_type": "Policy Clause",
    "category": "Accident",
@@ -1060,6 +1062,17 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Saral_Suraksha_Bima_Star_Health_and_Allied_Insurance_Co_Ltd_V_4_69d48d8c1b.pdf",
    "sha256": "29d472fe10dc5bf767eaba1f525e14e5b77ebef31afd511d15241cb853d4f0e9",
    "bytes": 1786573
+  },
+  {
+   "product": "Saral Suraksha Bima, Star Health and Allied Insurance Co Ltd",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "category": "Accident",
+   "title": "Saral Suraksha Bima, Star Health and Allied Insurance Co Ltd",
+   "file": "Saral_Suraksha_Bima_Other_Excluded_Expenses_22f5fb96fe.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Saral_Suraksha_Bima_Other_Excluded_Expenses_22f5fb96fe.pdf",
+   "sha256": "9407066b65e0bbce2815afa914fb24387f0dc77277c9d0aca23778824023c7b3",
+   "bytes": 122702
   },
   {
    "product": "School Student Care Insurance",
@@ -1107,28 +1120,6 @@
   },
   {
    "product": "Senior Citizens Red Carpet Health Insurance Policy",
-   "uin": null,
-   "doc_type": "Customer Information Sheet",
-   "category": "Health",
-   "title": "Senior Citizens Red Carpet Health Insurance Policy",
-   "file": "SCRC_List_of_Excluded_Expenses_62739b463e.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/SCRC_List_of_Excluded_Expenses_62739b463e.pdf",
-   "sha256": "75a9506327e46c5810ae5b38aeb4936c78d50352f1d8da348047d77723f63b80",
-   "bytes": 161709
-  },
-  {
-   "product": "Senior Citizens Red Carpet Health Insurance Policy",
-   "uin": null,
-   "doc_type": "Customer Information Sheet",
-   "category": "Health",
-   "title": "Senior Citizens Red Carpet Health Insurance Policy",
-   "file": "SCRC_Preventive_Health_Checkup_0be6cb9c81.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/SCRC_Preventive_Health_Checkup_0be6cb9c81.pdf",
-   "sha256": "e56dd87df8fa1c0b19e0eaa3cf392bfcf303f95762c6b6720d5818fffbbded96",
-   "bytes": 118442
-  },
-  {
-   "product": "Senior Citizens Red Carpet Health Insurance Policy",
    "uin": "SHAHLIP26041V082526",
    "doc_type": "Policy Clause",
    "category": "Health",
@@ -1148,6 +1139,28 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Senior_Citizens_Red_Carpet_Policy_V_11_ed34026052.pdf",
    "sha256": "2c310cd7d3ca5d3f556c8995ddaf5e007c6c6f20b5f709e5a7bc9cb337429b59",
    "bytes": 1659171
+  },
+  {
+   "product": "Senior Citizens Red Carpet Health Insurance Policy",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "category": "Health",
+   "title": "Senior Citizens Red Carpet Health Insurance Policy",
+   "file": "SCRC_List_of_Excluded_Expenses_62739b463e.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/SCRC_List_of_Excluded_Expenses_62739b463e.pdf",
+   "sha256": "75a9506327e46c5810ae5b38aeb4936c78d50352f1d8da348047d77723f63b80",
+   "bytes": 161709
+  },
+  {
+   "product": "Senior Citizens Red Carpet Health Insurance Policy",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "category": "Health",
+   "title": "Senior Citizens Red Carpet Health Insurance Policy",
+   "file": "SCRC_Preventive_Health_Checkup_0be6cb9c81.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/SCRC_Preventive_Health_Checkup_0be6cb9c81.pdf",
+   "sha256": "e56dd87df8fa1c0b19e0eaa3cf392bfcf303f95762c6b6720d5818fffbbded96",
+   "bytes": 118442
   },
   {
    "product": "Smart Health Pro",
@@ -1239,28 +1252,6 @@
   },
   {
    "product": "Special Care Gold, Star Health and Allied Insurance Company Limited",
-   "uin": null,
-   "doc_type": "Customer Information Sheet",
-   "category": "Health - Speciality Products",
-   "title": "Special Care Gold, Star Health and Allied Insurance Company Limited",
-   "file": "Special_Care_Gold_Moderntreatment_8fc11035b4.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Special_Care_Gold_Moderntreatment_8fc11035b4.pdf",
-   "sha256": "10af5cddd7f2e62454145e7e285e6c05f653168bda1ea36973d68296c762d69f",
-   "bytes": 51591
-  },
-  {
-   "product": "Special Care Gold, Star Health and Allied Insurance Company Limited",
-   "uin": null,
-   "doc_type": "Customer Information Sheet",
-   "category": "Health - Speciality Products",
-   "title": "Special Care Gold, Star Health and Allied Insurance Company Limited",
-   "file": "Special_Care_Gold_excluded_expenses_38bcab5716.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Special_Care_Gold_excluded_expenses_38bcab5716.pdf",
-   "sha256": "032f8bb8e6e309e17225c949f34b21709541dbff6de897b449934083f5a48dc6",
-   "bytes": 122669
-  },
-  {
-   "product": "Special Care Gold, Star Health and Allied Insurance Company Limited",
    "uin": "SHAHLIP23182V012223",
    "doc_type": "Policy Clause",
    "category": "Health - Speciality Products",
@@ -1291,6 +1282,28 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Special_Care_Gold_V_2_f46f83d226.pdf",
    "sha256": "85e4d2e1d51f86c6450f470e595393ab8598810542af3bd6335adb1200557473",
    "bytes": 1543228
+  },
+  {
+   "product": "Special Care Gold, Star Health and Allied Insurance Company Limited",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "category": "Health - Speciality Products",
+   "title": "Special Care Gold, Star Health and Allied Insurance Company Limited",
+   "file": "Special_Care_Gold_Moderntreatment_8fc11035b4.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Special_Care_Gold_Moderntreatment_8fc11035b4.pdf",
+   "sha256": "10af5cddd7f2e62454145e7e285e6c05f653168bda1ea36973d68296c762d69f",
+   "bytes": 51591
+  },
+  {
+   "product": "Special Care Gold, Star Health and Allied Insurance Company Limited",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "category": "Health - Speciality Products",
+   "title": "Special Care Gold, Star Health and Allied Insurance Company Limited",
+   "file": "Special_Care_Gold_excluded_expenses_38bcab5716.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Special_Care_Gold_excluded_expenses_38bcab5716.pdf",
+   "sha256": "032f8bb8e6e309e17225c949f34b21709541dbff6de897b449934083f5a48dc6",
+   "bytes": 122669
   },
   {
    "product": "Star Cancer Care Gold (Pilot Product)",
@@ -1349,17 +1362,6 @@
   },
   {
    "product": "Star Cancer Care Platinum Insurance Policy",
-   "uin": null,
-   "doc_type": "Customer Information Sheet",
-   "category": "Health - Speciality Products",
-   "title": "Star Cancer Care Platinum Insurance Policy",
-   "file": "star_cancer_care_platinum_d22446bc46.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/star_cancer_care_platinum_d22446bc46.pdf",
-   "sha256": "1e113166ede8ba7f4eaf76b88ba46d7274a147828ae4677fdb2575122e153610",
-   "bytes": 122450
-  },
-  {
-   "product": "Star Cancer Care Platinum Insurance Policy",
    "uin": "SHAHLIP22031V022122",
    "doc_type": "Policy Clause",
    "category": "Health - Speciality Products",
@@ -1390,6 +1392,17 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Star_Cancer_Care_Platinum_Insurance_Policy_V_3_76275b00c3.pdf",
    "sha256": "c887db4def46db3ba15e2d6e5dcb44eaad9e7deda14906a97c99f19e24f4fcbf",
    "bytes": 604927
+  },
+  {
+   "product": "Star Cancer Care Platinum Insurance Policy",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "category": "Health - Speciality Products",
+   "title": "Star Cancer Care Platinum Insurance Policy",
+   "file": "star_cancer_care_platinum_d22446bc46.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/star_cancer_care_platinum_d22446bc46.pdf",
+   "sha256": "1e113166ede8ba7f4eaf76b88ba46d7274a147828ae4677fdb2575122e153610",
+   "bytes": 122450
   },
   {
    "product": "Star Cardiac Care Insurance Policy",
@@ -1460,17 +1473,6 @@
   {
    "product": "Star Cardiac Care Insurance Policy-Platinum",
    "uin": null,
-   "doc_type": "Brochure",
-   "category": "Health - Speciality Products",
-   "title": "Star Cardiac Care Insurance Policy-Platinum",
-   "file": "Star_Cardiac_Care_Brochure_Platinum_5784c0e871.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Star_Cardiac_Care_Brochure_Platinum_5784c0e871.pdf",
-   "sha256": "008c9470c9703a7097dbdc13b7bb4be0b840b6f98bd96ab5cf3d2435cac7230e",
-   "bytes": 4650535
-  },
-  {
-   "product": "Star Cardiac Care Insurance Policy-Platinum",
-   "uin": null,
    "doc_type": "Customer Information Sheet",
    "category": "Health - Speciality Products",
    "title": "Star Cardiac Care Insurance Policy-Platinum",
@@ -1489,17 +1491,6 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/Modern_Treatment_Star_Cardiac_Care_Platinum_Insurance_Policy_1e20a3997a.pdf",
    "sha256": "da4cd30cacf22c8258dd1b412958584c27203028ddb216eee94b43dab54c7fcc",
    "bytes": 58403
-  },
-  {
-   "product": "Star Cardiac Care Insurance Policy-Platinum",
-   "uin": null,
-   "doc_type": "Customer Information Sheet",
-   "category": "Health - Speciality Products",
-   "title": "Star Cardiac Care Insurance Policy-Platinum",
-   "file": "star_cardiac_care_platinum_other_excluded_expenses_8db51ebcfd.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/star_cardiac_care_platinum_other_excluded_expenses_8db51ebcfd.pdf",
-   "sha256": "fdd5b77a9c1ba3b4083fa19f343f4efbe3a37c3c35421d564ff2a65bdfd654f1",
-   "bytes": 122409
   },
   {
    "product": "Star Cardiac Care Insurance Policy-Platinum",
@@ -1526,6 +1517,17 @@
   {
    "product": "Star Cardiac Care Insurance Policy-Platinum",
    "uin": null,
+   "doc_type": "Brochure",
+   "category": "Health - Speciality Products",
+   "title": "Star Cardiac Care Insurance Policy-Platinum",
+   "file": "Star_Cardiac_Care_Brochure_Platinum_5784c0e871.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Star_Cardiac_Care_Brochure_Platinum_5784c0e871.pdf",
+   "sha256": "008c9470c9703a7097dbdc13b7bb4be0b840b6f98bd96ab5cf3d2435cac7230e",
+   "bytes": 4650535
+  },
+  {
+   "product": "Star Cardiac Care Insurance Policy-Platinum",
+   "uin": null,
    "doc_type": "Prospectus",
    "category": "Health - Speciality Products",
    "title": "Star Cardiac Care Insurance Policy-Platinum",
@@ -1535,15 +1537,15 @@
    "bytes": 1728289
   },
   {
-   "product": "Star Care Micro Insurance Policy",
-   "uin": "SHAHLIP21180V022021",
-   "doc_type": "Policy Clause",
-   "category": "Health",
-   "title": "Star Care Micro Insurance Policy SHAHLIP21180V022021",
-   "file": "12_Star_Care_Micro_Insurance_Policy_6419cb28b6.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/12_Star_Care_Micro_Insurance_Policy_6419cb28b6.pdf",
-   "sha256": "d130427f827ba474649de965d530a60f516d5c0bc1ddb6188e53a8726be863a4",
-   "bytes": 903939
+   "product": "Star Cardiac Care Insurance Policy-Platinum",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "category": "Health - Speciality Products",
+   "title": "Star Cardiac Care Insurance Policy-Platinum",
+   "file": "star_cardiac_care_platinum_other_excluded_expenses_8db51ebcfd.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/star_cardiac_care_platinum_other_excluded_expenses_8db51ebcfd.pdf",
+   "sha256": "fdd5b77a9c1ba3b4083fa19f343f4efbe3a37c3c35421d564ff2a65bdfd654f1",
+   "bytes": 122409
   },
   {
    "product": "Star Care Micro Insurance Policy",
@@ -1555,6 +1557,17 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/12_Prospectus_Star_Care_Micro_f6c6a7766e.pdf",
    "sha256": "8970da6924327200905a2acae3459b263b867f43b8d9277245da8d8a1e1282fb",
    "bytes": 305657
+  },
+  {
+   "product": "Star Care Micro Insurance Policy",
+   "uin": "SHAHLIP21180V022021",
+   "doc_type": "Policy Clause",
+   "category": "Health",
+   "title": "Star Care Micro Insurance Policy SHAHLIP21180V022021",
+   "file": "12_Star_Care_Micro_Insurance_Policy_6419cb28b6.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/12_Star_Care_Micro_Insurance_Policy_6419cb28b6.pdf",
+   "sha256": "d130427f827ba474649de965d530a60f516d5c0bc1ddb6188e53a8726be863a4",
+   "bytes": 903939
   },
   {
    "product": "Star Comprehensive Insurance Policy",
@@ -1591,28 +1604,6 @@
   },
   {
    "product": "Star Comprehensive Insurance Policy",
-   "uin": null,
-   "doc_type": "Customer Information Sheet",
-   "category": "Health",
-   "title": "Star Comprehensive Insurance Policy",
-   "file": "Preventive_Health_Checkup_Star_Comprehensive_Insurance_Policy_87eabc5749.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Preventive_Health_Checkup_Star_Comprehensive_Insurance_Policy_87eabc5749.pdf",
-   "sha256": "c7f4ceb7fb7d3ee02937d107c96f81859b3ecab5c045fbf63aa312bb07770358",
-   "bytes": 536493
-  },
-  {
-   "product": "Star Comprehensive Insurance Policy",
-   "uin": null,
-   "doc_type": "Customer Information Sheet",
-   "category": "Health",
-   "title": "Star Comprehensive Insurance Policy",
-   "file": "star_comprehensive_other_excluded_expenses_new_ae97610427.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/star_comprehensive_other_excluded_expenses_new_ae97610427.pdf",
-   "sha256": "ae1e4a9fec23d65f8f983e22b9b76b6c8601baa9dcd2a0dc7b35530607b0f0b8",
-   "bytes": 619968
-  },
-  {
-   "product": "Star Comprehensive Insurance Policy",
    "uin": "SHAHLIP26044V092526",
    "doc_type": "Policy Clause",
    "category": "Health",
@@ -1625,6 +1616,17 @@
   {
    "product": "Star Comprehensive Insurance Policy",
    "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "category": "Health",
+   "title": "Star Comprehensive Insurance Policy",
+   "file": "Preventive_Health_Checkup_Star_Comprehensive_Insurance_Policy_87eabc5749.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Preventive_Health_Checkup_Star_Comprehensive_Insurance_Policy_87eabc5749.pdf",
+   "sha256": "c7f4ceb7fb7d3ee02937d107c96f81859b3ecab5c045fbf63aa312bb07770358",
+   "bytes": 536493
+  },
+  {
+   "product": "Star Comprehensive Insurance Policy",
+   "uin": null,
    "doc_type": "Prospectus",
    "category": "Health",
    "title": "Star Comprehensive Insurance Policy",
@@ -1632,6 +1634,17 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Star_Comprehensive_Insurance_Policy_V_12_dc6058c95e.pdf",
    "sha256": "0404693147bd5202e28e39bfdb8fcc87f78e7ee6aa6a6f1032f63cbec63698e1",
    "bytes": 2479350
+  },
+  {
+   "product": "Star Comprehensive Insurance Policy",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "category": "Health",
+   "title": "Star Comprehensive Insurance Policy",
+   "file": "star_comprehensive_other_excluded_expenses_new_ae97610427.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/star_comprehensive_other_excluded_expenses_new_ae97610427.pdf",
+   "sha256": "ae1e4a9fec23d65f8f983e22b9b76b6c8601baa9dcd2a0dc7b35530607b0f0b8",
+   "bytes": 619968
   },
   {
    "product": "Star Corporate Travel Protect Insurance Policy",
@@ -1657,17 +1670,6 @@
   },
   {
    "product": "Star Corporate Travel Protect Insurance Policy",
-   "uin": "IRDA/NL-HLT/SHAI/P-T/V.I/143/13-14",
-   "doc_type": "Policy Clause",
-   "category": "Overseas Travel",
-   "title": "Star Corporate Travel Protect Insurance Policy - IRDA/NL-HLT/SHAI/P-T/V.I/143/13-14",
-   "file": "Policy_Star_Corporate_Travel_Protect_Insurance_Policy_V_10_Web_a096582f4e.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Policy_Star_Corporate_Travel_Protect_Insurance_Policy_V_10_Web_a096582f4e.pdf",
-   "sha256": "847d78f577a3a30e3a0a0b0f3e030bbb4d4038d44c6f29e63f62f51cdf6cbd53",
-   "bytes": 1678286
-  },
-  {
-   "product": "Star Corporate Travel Protect Insurance Policy",
    "uin": null,
    "doc_type": "Proposal",
    "category": "Overseas Travel",
@@ -1676,6 +1678,17 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/Common_Proposal_Form_for_Overseas_Travel_Insurance_V_9_Web_9236cdf6f5.pdf",
    "sha256": "d2cc635a700714697de479f7f9b394d0f53daf83e5cb2f2672e728a619c5a601",
    "bytes": 1052641
+  },
+  {
+   "product": "Star Corporate Travel Protect Insurance Policy",
+   "uin": "IRDA/NL-HLT/SHAI/P-T/V.I/143/13-14",
+   "doc_type": "Policy Clause",
+   "category": "Overseas Travel",
+   "title": "Star Corporate Travel Protect Insurance Policy - IRDA/NL-HLT/SHAI/P-T/V.I/143/13-14",
+   "file": "Policy_Star_Corporate_Travel_Protect_Insurance_Policy_V_10_Web_a096582f4e.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Policy_Star_Corporate_Travel_Protect_Insurance_Policy_V_10_Web_a096582f4e.pdf",
+   "sha256": "847d78f577a3a30e3a0a0b0f3e030bbb4d4038d44c6f29e63f62f51cdf6cbd53",
+   "bytes": 1678286
   },
   {
    "product": "Star Corporate Travel Protect Insurance Policy",
@@ -1691,17 +1704,6 @@
   {
    "product": "Star Critical Illness Multipay Insurance Policy",
    "uin": null,
-   "doc_type": "Brochure",
-   "category": "Health - Speciality Products",
-   "title": "Star Critical Illness Multipay Insurance Policy",
-   "file": "Star_Critical_Illness_Multipay_Insurance_Brochure_94f1a9e8f8.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Star_Critical_Illness_Multipay_Insurance_Brochure_94f1a9e8f8.pdf",
-   "sha256": "65511cf375d855578c4eb7ac86a69a09c78c6c4bc4a6539a1f546a9b4b3e9e01",
-   "bytes": 10415059
-  },
-  {
-   "product": "Star Critical Illness Multipay Insurance Policy",
-   "uin": null,
    "doc_type": "Customer Information Sheet",
    "category": "Health - Speciality Products",
    "title": "Star Critical Illness Multipay Insurance Policy",
@@ -1709,17 +1711,6 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/CIS_Star_Critical_Illness_Multipay_Insurance_Policy_V_2_e8fce72ac4.pdf",
    "sha256": "55e43438fc2e061a25652e747324a09447c70012bf3fa7cdb97e8caeccc65660",
    "bytes": 339572
-  },
-  {
-   "product": "Star Critical Illness Multipay Insurance Policy",
-   "uin": null,
-   "doc_type": "Customer Information Sheet",
-   "category": "Health - Speciality Products",
-   "title": "Star Critical Illness Multipay Insurance Policy",
-   "file": "Star_Critical_Illness_Multipay_Insurance_Exclude_13b2fb16a6.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Star_Critical_Illness_Multipay_Insurance_Exclude_13b2fb16a6.pdf",
-   "sha256": "f2b8927f55ae1cff0ec96fb15da800ee7f777615840831969faf7b45214b2192",
-   "bytes": 122242
   },
   {
    "product": "Star Critical Illness Multipay Insurance Policy",
@@ -1746,6 +1737,28 @@
   {
    "product": "Star Critical Illness Multipay Insurance Policy",
    "uin": null,
+   "doc_type": "Brochure",
+   "category": "Health - Speciality Products",
+   "title": "Star Critical Illness Multipay Insurance Policy",
+   "file": "Star_Critical_Illness_Multipay_Insurance_Brochure_94f1a9e8f8.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Star_Critical_Illness_Multipay_Insurance_Brochure_94f1a9e8f8.pdf",
+   "sha256": "65511cf375d855578c4eb7ac86a69a09c78c6c4bc4a6539a1f546a9b4b3e9e01",
+   "bytes": 10415059
+  },
+  {
+   "product": "Star Critical Illness Multipay Insurance Policy",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "category": "Health - Speciality Products",
+   "title": "Star Critical Illness Multipay Insurance Policy",
+   "file": "Star_Critical_Illness_Multipay_Insurance_Exclude_13b2fb16a6.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Star_Critical_Illness_Multipay_Insurance_Exclude_13b2fb16a6.pdf",
+   "sha256": "f2b8927f55ae1cff0ec96fb15da800ee7f777615840831969faf7b45214b2192",
+   "bytes": 122242
+  },
+  {
+   "product": "Star Critical Illness Multipay Insurance Policy",
+   "uin": null,
    "doc_type": "Prospectus",
    "category": "Health - Speciality Products",
    "title": "Star Critical Illness Multipay Insurance Policy",
@@ -1753,17 +1766,6 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/Star_Critical_Illness_Multipay_Insurance_Prospectus_77a39bd32a.pdf",
    "sha256": "4edbaf896be6752870c1ff866733798fe2bd4f89837be7c7e42bbfe6d2765847",
    "bytes": 519995
-  },
-  {
-   "product": "Star Criticare Plus Insurance Policy",
-   "uin": "SHAHLIP21179V022021",
-   "doc_type": "Policy Clause",
-   "category": "Health",
-   "title": "Star Criticare Plus Insurance Policy SHAHLIP21179V022021",
-   "file": "5_Star_Criticare_Plus_Insurance_Policy_2a68a83c24.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/5_Star_Criticare_Plus_Insurance_Policy_2a68a83c24.pdf",
-   "sha256": "3c5354fbefbfbe23c76853a42eb77c44858ad3f65f0b4b4f41677663ae5cb6ae",
-   "bytes": 912125
   },
   {
    "product": "Star Criticare Plus Insurance Policy",
@@ -1775,6 +1777,17 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/5_Prospectus_Star_Criticare_Plus_Insurance_Policy_61ecc3a3a2.pdf",
    "sha256": "386c79ccf7a3401b57bd8e01d4022fdae3bbaadc6f14bd2f6dbce82ccad46c59",
    "bytes": 228266
+  },
+  {
+   "product": "Star Criticare Plus Insurance Policy",
+   "uin": "SHAHLIP21179V022021",
+   "doc_type": "Policy Clause",
+   "category": "Health",
+   "title": "Star Criticare Plus Insurance Policy SHAHLIP21179V022021",
+   "file": "5_Star_Criticare_Plus_Insurance_Policy_2a68a83c24.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/5_Star_Criticare_Plus_Insurance_Policy_2a68a83c24.pdf",
+   "sha256": "3c5354fbefbfbe23c76853a42eb77c44858ad3f65f0b4b4f41677663ae5cb6ae",
+   "bytes": 912125
   },
   {
    "product": "Star Domestic Travel Insurance Policy",
@@ -1800,17 +1813,6 @@
   },
   {
    "product": "Star Domestic Travel Insurance Policy",
-   "uin": null,
-   "doc_type": "Customer Information Sheet",
-   "category": "Domestic Travel",
-   "title": "Star Domestic Travel Insurance Policy",
-   "file": "Star_Domestic_Travel_Insurance_Policy_brochure_bc13e0f222.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Star_Domestic_Travel_Insurance_Policy_brochure_bc13e0f222.pdf",
-   "sha256": "37148d26c00d158b399c33bc26d6f26bcbed4491eddd8984863ef8808b0d86dc",
-   "bytes": 851811
-  },
-  {
-   "product": "Star Domestic Travel Insurance Policy",
    "uin": "SHATIDP23122V012223",
    "doc_type": "Policy Clause",
    "category": "Domestic Travel",
@@ -1830,6 +1832,17 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/Proposal_Form_Star_Domestic_Travel_Insurance_Policy_V_2_Web_1e43e85441.pdf",
    "sha256": "58d7a388a84da0d02f1712c1c3dd17db2a89bba686f38c26fbcca58602f144ef",
    "bytes": 2073499
+  },
+  {
+   "product": "Star Domestic Travel Insurance Policy",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "category": "Domestic Travel",
+   "title": "Star Domestic Travel Insurance Policy",
+   "file": "Star_Domestic_Travel_Insurance_Policy_brochure_bc13e0f222.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Star_Domestic_Travel_Insurance_Policy_brochure_bc13e0f222.pdf",
+   "sha256": "37148d26c00d158b399c33bc26d6f26bcbed4491eddd8984863ef8808b0d86dc",
+   "bytes": 851811
   },
   {
    "product": "Star Domestic Travel Insurance Policy",
@@ -1888,17 +1901,6 @@
   },
   {
    "product": "Star Family Delite Insurance Policy",
-   "uin": "SHAHLIP21178V022021",
-   "doc_type": "Policy Clause",
-   "category": "Health",
-   "title": "Star Family Delite Insurance Policy SHAHLIP21178V022021",
-   "file": "13_Star_Family_Delite_Insurance_Policy_801df7b14c.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/13_Star_Family_Delite_Insurance_Policy_801df7b14c.pdf",
-   "sha256": "a2b3b3a4f7350eecedf34418f1dadb616e3ce7a8c6fdadae43d84ab42332c4ef",
-   "bytes": 900605
-  },
-  {
-   "product": "Star Family Delite Insurance Policy",
    "uin": null,
    "doc_type": "Prospectus",
    "category": null,
@@ -1907,6 +1909,17 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/13_Prospectus_Star_Family_Delite_Insurance_Policy_27ec8b2872.pdf",
    "sha256": "cd43de6e803a6ae05a8468a62477ae4fa818dbfb5dc5ad73d1b5f3543e6a5236",
    "bytes": 275808
+  },
+  {
+   "product": "Star Family Delite Insurance Policy",
+   "uin": "SHAHLIP21178V022021",
+   "doc_type": "Policy Clause",
+   "category": "Health",
+   "title": "Star Family Delite Insurance Policy SHAHLIP21178V022021",
+   "file": "13_Star_Family_Delite_Insurance_Policy_801df7b14c.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/13_Star_Family_Delite_Insurance_Policy_801df7b14c.pdf",
+   "sha256": "a2b3b3a4f7350eecedf34418f1dadb616e3ce7a8c6fdadae43d84ab42332c4ef",
+   "bytes": 900605
   },
   {
    "product": "Star Flexi",
@@ -1932,17 +1945,6 @@
   },
   {
    "product": "Star Flexi",
-   "uin": null,
-   "doc_type": "Customer Information Sheet",
-   "category": "Health",
-   "title": "Star Flexi",
-   "file": "Star_Flexi_Preventive_Health_Checkup_aed1fabad6.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Star_Flexi_Preventive_Health_Checkup_aed1fabad6.pdf",
-   "sha256": "f5e296984c7553e4cfbf3cb12f6ac86edb564081234d2448505363b61c6f0083",
-   "bytes": 122233
-  },
-  {
-   "product": "Star Flexi",
    "uin": "SHAHLIA26040V012526",
    "doc_type": "Policy Clause",
    "category": "Health",
@@ -1955,17 +1957,6 @@
   {
    "product": "Star Flexi",
    "uin": null,
-   "doc_type": "Proposal",
-   "category": "Health",
-   "title": "Star Flexi",
-   "file": "Star_Flexi_Proposal_form_Annexe_V_1_14_05_25_0c5ff42fdd.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Star_Flexi_Proposal_form_Annexe_V_1_14_05_25_0c5ff42fdd.pdf",
-   "sha256": "0b1740f6a1b98dcfc3d58e24537afe9ace84305ec88688791bff3160b594952d",
-   "bytes": 192289
-  },
-  {
-   "product": "Star Flexi",
-   "uin": null,
    "doc_type": "Prospectus",
    "category": "Health",
    "title": "Star Flexi",
@@ -1973,6 +1964,28 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Star_Flexi_01_V_1_with_TOB_bd2909eab1.pdf",
    "sha256": "4c74b5a7f8b240184061a7f31f20cdbb6db33c47291b837b02cc57274c50fd14",
    "bytes": 857455
+  },
+  {
+   "product": "Star Flexi",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "category": "Health",
+   "title": "Star Flexi",
+   "file": "Star_Flexi_Preventive_Health_Checkup_aed1fabad6.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Star_Flexi_Preventive_Health_Checkup_aed1fabad6.pdf",
+   "sha256": "f5e296984c7553e4cfbf3cb12f6ac86edb564081234d2448505363b61c6f0083",
+   "bytes": 122233
+  },
+  {
+   "product": "Star Flexi",
+   "uin": null,
+   "doc_type": "Proposal",
+   "category": "Health",
+   "title": "Star Flexi",
+   "file": "Star_Flexi_Proposal_form_Annexe_V_1_14_05_25_0c5ff42fdd.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Star_Flexi_Proposal_form_Annexe_V_1_14_05_25_0c5ff42fdd.pdf",
+   "sha256": "0b1740f6a1b98dcfc3d58e24537afe9ace84305ec88688791bff3160b594952d",
+   "bytes": 192289
   },
   {
    "product": "Star Group COVID Insurance Policy - Indemnity Plan",
@@ -2119,17 +2132,6 @@
   },
   {
    "product": "Star Group Health Insurance Benefit Plus",
-   "uin": null,
-   "doc_type": "Customer Information Sheet",
-   "category": "Health",
-   "title": "Star Group Health Insurance Benefit Plus",
-   "file": "SGHI_benefit_plus_CIS_f90e8a5b92.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/SGHI_benefit_plus_CIS_f90e8a5b92.pdf",
-   "sha256": "207b3ab31e79b858c07f7afa4c509e41730002d119b02dd448ec8e9ec733b142",
-   "bytes": 656427
-  },
-  {
-   "product": "Star Group Health Insurance Benefit Plus",
    "uin": "SHAHLGP22213V012122",
    "doc_type": "Policy Clause",
    "category": "Health",
@@ -2138,6 +2140,17 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/PW_SGHI_Benefit_plus_21_10_2024_d5207b41e5.pdf",
    "sha256": "354e24e67c618a735dcffc7251c57fc6e642eb5106f9f3e503760d74c9ef08ab",
    "bytes": 986997
+  },
+  {
+   "product": "Star Group Health Insurance Benefit Plus",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "category": "Health",
+   "title": "Star Group Health Insurance Benefit Plus",
+   "file": "SGHI_benefit_plus_CIS_f90e8a5b92.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/SGHI_benefit_plus_CIS_f90e8a5b92.pdf",
+   "sha256": "207b3ab31e79b858c07f7afa4c509e41730002d119b02dd448ec8e9ec733b142",
+   "bytes": 656427
   },
   {
    "product": "Star Group Health Insurance Benefit Plus - Platinum",
@@ -2185,17 +2198,6 @@
   },
   {
    "product": "Star Group Health Insurance Policy – Gold (For Bank Customers)",
-   "uin": null,
-   "doc_type": "Customer Information Sheet",
-   "category": "Health",
-   "title": "Star Group Health Insurance Policy – Gold (For Bank Customers)",
-   "file": "SGHI_Gold_for_Bank_Customers_CIS_27_9_2024_47df3f0eaa.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/SGHI_Gold_for_Bank_Customers_CIS_27_9_2024_47df3f0eaa.pdf",
-   "sha256": "ee9fb17e9ff7051b49d13b9f9b8b86ee51b8a330de6037e76f7c2ef9b9a59221",
-   "bytes": 693004
-  },
-  {
-   "product": "Star Group Health Insurance Policy – Gold (For Bank Customers)",
    "uin": "SHAHLGP21058V022021",
    "doc_type": "Policy Clause",
    "category": "Health",
@@ -2204,6 +2206,17 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/SGHI_Bank_Customer_Gold_PW_30_9_2024_9a956b9820.pdf",
    "sha256": "a0e0a8f9f17d7fa69ef5fd864ae0e1345790200489b15a95729d670f88bb0655",
    "bytes": 714509
+  },
+  {
+   "product": "Star Group Health Insurance Policy – Gold (For Bank Customers)",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "category": "Health",
+   "title": "Star Group Health Insurance Policy – Gold (For Bank Customers)",
+   "file": "SGHI_Gold_for_Bank_Customers_CIS_27_9_2024_47df3f0eaa.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/SGHI_Gold_for_Bank_Customers_CIS_27_9_2024_47df3f0eaa.pdf",
+   "sha256": "ee9fb17e9ff7051b49d13b9f9b8b86ee51b8a330de6037e76f7c2ef9b9a59221",
+   "bytes": 693004
   },
   {
    "product": "Star Group Health Insurance Policy – Platinum",
@@ -2427,17 +2440,6 @@
   },
   {
    "product": "Star Health Gain Insurance Policy",
-   "uin": null,
-   "doc_type": "Customer Information Sheet",
-   "category": "Health",
-   "title": "Star Health Gain Insurance Policy",
-   "file": "Star_healht_gain_Other_Excluded_Expenses_83b3e1cf37.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Star_healht_gain_Other_Excluded_Expenses_83b3e1cf37.pdf",
-   "sha256": "44852435ad4e6e0136c910005faa157794c0f0232997c7d15f5c601bb33abfb2",
-   "bytes": 122308
-  },
-  {
-   "product": "Star Health Gain Insurance Policy",
    "uin": "SHAHLIP21262V032021",
    "doc_type": "Policy Clause",
    "category": "Health",
@@ -2457,6 +2459,17 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Star_Health_Gain_Insurance_Policy_V_7_98d5126f06.pdf",
    "sha256": "d7ed421f03c0b7021608ca72e7836e44f268665e93f30a7e95b37972eed6cda3",
    "bytes": 1061287
+  },
+  {
+   "product": "Star Health Gain Insurance Policy",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "category": "Health",
+   "title": "Star Health Gain Insurance Policy",
+   "file": "Star_healht_gain_Other_Excluded_Expenses_83b3e1cf37.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Star_healht_gain_Other_Excluded_Expenses_83b3e1cf37.pdf",
+   "sha256": "44852435ad4e6e0136c910005faa157794c0f0232997c7d15f5c601bb33abfb2",
+   "bytes": 122308
   },
   {
    "product": "Star Health Premier Insurance Policy",
@@ -2483,17 +2496,6 @@
   {
    "product": "Star Health Premier Insurance Policy",
    "uin": null,
-   "doc_type": "Customer Information Sheet",
-   "category": "Health",
-   "title": "Star Health Premier Insurance Policy",
-   "file": "Policy_Star_Health_Premier_Insurance_Policy_V_7_676175d548.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Policy_Star_Health_Premier_Insurance_Policy_V_7_676175d548.pdf",
-   "sha256": "e2ae0252f3763e4d6dc66f9dc69e12e775431e2600a72b79372781ae8e971620",
-   "bytes": 1117673
-  },
-  {
-   "product": "Star Health Premier Insurance Policy",
-   "uin": null,
    "doc_type": "Proposal",
    "category": "Health",
    "title": "Star Health Premier Insurance Policy SHAI/PR0069",
@@ -2505,6 +2507,17 @@
   {
    "product": "Star Health Premier Insurance Policy",
    "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "category": "Health",
+   "title": "Star Health Premier Insurance Policy",
+   "file": "Policy_Star_Health_Premier_Insurance_Policy_V_7_676175d548.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Policy_Star_Health_Premier_Insurance_Policy_V_7_676175d548.pdf",
+   "sha256": "e2ae0252f3763e4d6dc66f9dc69e12e775431e2600a72b79372781ae8e971620",
+   "bytes": 1117673
+  },
+  {
+   "product": "Star Health Premier Insurance Policy",
+   "uin": null,
    "doc_type": "Prospectus",
    "category": "Health",
    "title": "Star Health Premier Insurance Policy",
@@ -2512,17 +2525,6 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Health_Premier_Insurance_V_2_1d07f8ba27.pdf",
    "sha256": "504193a4904099b21fd11a6f3628a9df97e1e1143861811421872bf3f27fd6d4",
    "bytes": 1172997
-  },
-  {
-   "product": "Star Hospital Cash Insurance Policy",
-   "uin": null,
-   "doc_type": "Brochure",
-   "category": "Health",
-   "title": "Star Hospital Cash Insurance Policy",
-   "file": "hospital_cash_ebrochure_new_7c0579d44a.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/hospital_cash_ebrochure_new_7c0579d44a.pdf",
-   "sha256": "92e230e0f290be63de97e1dc6dee200363ae54de889cf2fac1ebebac3120c19f",
-   "bytes": 15437787
   },
   {
    "product": "Star Hospital Cash Insurance Policy",
@@ -2567,6 +2569,28 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Star_Hospital_Cash_Insurance_Policy_new_c292076764.pdf",
    "sha256": "3398a0306aec2069c23a2ce97f1e5ad4e45dd89458fdea153ba2b34c3f79814a",
    "bytes": 6951201
+  },
+  {
+   "product": "Star Hospital Cash Insurance Policy",
+   "uin": null,
+   "doc_type": "Brochure",
+   "category": "Health",
+   "title": "Star Hospital Cash Insurance Policy",
+   "file": "hospital_cash_ebrochure_new_7c0579d44a.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/hospital_cash_ebrochure_new_7c0579d44a.pdf",
+   "sha256": "92e230e0f290be63de97e1dc6dee200363ae54de889cf2fac1ebebac3120c19f",
+   "bytes": 15437787
+  },
+  {
+   "product": "Star Micro Rural and Farmers Care",
+   "uin": null,
+   "doc_type": "Proposal",
+   "category": "Health",
+   "title": "Star Micro Rural and Farmers Care SHAI/PR0044",
+   "file": "3_Proposal_Form_Star_Micro_Rural_And_Farmers_Care_V_12_Web_06b97ba74a.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/3_Proposal_Form_Star_Micro_Rural_And_Farmers_Care_V_12_Web_06b97ba74a.pdf",
+   "sha256": "5fb3e8174f621c12361f2052d5932cf3cb70416595cab676f9cd4f171c82289e",
+   "bytes": 2836552
   },
   {
    "product": "Star Micro Rural and Farmers Care",
@@ -2626,17 +2650,6 @@
   {
    "product": "Star Micro Rural and Farmers Care",
    "uin": null,
-   "doc_type": "Proposal",
-   "category": "Health",
-   "title": "Star Micro Rural and Farmers Care SHAI/PR0044",
-   "file": "3_Proposal_Form_Star_Micro_Rural_And_Farmers_Care_V_12_Web_06b97ba74a.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/3_Proposal_Form_Star_Micro_Rural_And_Farmers_Care_V_12_Web_06b97ba74a.pdf",
-   "sha256": "5fb3e8174f621c12361f2052d5932cf3cb70416595cab676f9cd4f171c82289e",
-   "bytes": 2836552
-  },
-  {
-   "product": "Star Micro Rural and Farmers Care",
-   "uin": null,
    "doc_type": "Prospectus",
    "category": "Health",
    "title": "Star Micro Rural and Farmers Care",
@@ -2657,6 +2670,17 @@
    "bytes": 777535
   },
   {
+   "product": "Star Novel Coronavirus (Ncov) (Covid-19) Insurance Policy (Pilot Product)",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "category": null,
+   "title": "Star Novel Coronavirus (Ncov) (Covid-19) Insurance Policy (Pilot Product)",
+   "file": "7_Prospectus_SNCV_n_Co_V_COVID_19_Insurance_Policy_2a3e37970b.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/7_Prospectus_SNCV_n_Co_V_COVID_19_Insurance_Policy_2a3e37970b.pdf",
+   "sha256": "33d32b751c7da73d3e5da92bbb05a72179d92cbbc891f4425488ef96a2748702",
+   "bytes": 178117
+  },
+  {
    "product": "Star Novel Coronavirus (nCoV) (COVID-19) Insurance Policy (Pilot Product)",
    "uin": "SHAHLIP21047V022021",
    "doc_type": "Policy Clause",
@@ -2668,15 +2692,15 @@
    "bytes": 468649
   },
   {
-   "product": "Star Novel Coronavirus (Ncov) (Covid-19) Insurance Policy (Pilot Product)",
+   "product": "Star Out Patient Care Insurance Policy",
    "uin": null,
-   "doc_type": "Prospectus",
-   "category": null,
-   "title": "Star Novel Coronavirus (Ncov) (Covid-19) Insurance Policy (Pilot Product)",
-   "file": "7_Prospectus_SNCV_n_Co_V_COVID_19_Insurance_Policy_2a3e37970b.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/7_Prospectus_SNCV_n_Co_V_COVID_19_Insurance_Policy_2a3e37970b.pdf",
-   "sha256": "33d32b751c7da73d3e5da92bbb05a72179d92cbbc891f4425488ef96a2748702",
-   "bytes": 178117
+   "doc_type": "Proposal",
+   "category": "Health",
+   "title": "Star Out Patient Care Insurance Policy SHAI/PR0047",
+   "file": "3_Proposal_Form_Star_Out_Patient_Care_Insurance_Policy_V_11_Web_866d693413.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/3_Proposal_Form_Star_Out_Patient_Care_Insurance_Policy_V_11_Web_866d693413.pdf",
+   "sha256": "9c196484bf49fae8f5c68348ffa1297ee32a5ee4608c402f3168658bdbedff7a",
+   "bytes": 3693918
   },
   {
    "product": "Star Out Patient Care Insurance Policy",
@@ -2710,17 +2734,6 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/Policy_Star_Out_Patient_Care_Insurance_Policy_V_11_6a7a4cfb50.pdf",
    "sha256": "f651a32a3798edede407cac110fd08afa032d87f18efb4091bca675912e2ce87",
    "bytes": 1012922
-  },
-  {
-   "product": "Star Out Patient Care Insurance Policy",
-   "uin": null,
-   "doc_type": "Proposal",
-   "category": "Health",
-   "title": "Star Out Patient Care Insurance Policy SHAI/PR0047",
-   "file": "3_Proposal_Form_Star_Out_Patient_Care_Insurance_Policy_V_11_Web_866d693413.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/3_Proposal_Form_Star_Out_Patient_Care_Insurance_Policy_V_11_Web_866d693413.pdf",
-   "sha256": "9c196484bf49fae8f5c68348ffa1297ee32a5ee4608c402f3168658bdbedff7a",
-   "bytes": 3693918
   },
   {
    "product": "Star Out Patient Care Insurance Policy",
@@ -2867,17 +2880,6 @@
   },
   {
    "product": "Star Student Travel Protect Insurance Policy",
-   "uin": "IRDA/NL-HLT/SHAI/P-T/V.I/142/13-14",
-   "doc_type": "Policy Clause",
-   "category": "Overseas Travel",
-   "title": "Star Student Travel Protect Insurance Policy - IRDA/NL-HLT/SHAI/P-T/V.I/142/13-14",
-   "file": "Policy_Star_Student_Travel_Protect_Insurance_Policy_V_10_Web_3_9ca08c56c4.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Policy_Star_Student_Travel_Protect_Insurance_Policy_V_10_Web_3_9ca08c56c4.pdf",
-   "sha256": "b5eb4d3e34f312354b8a2fedfbadfc48d34f4aebd31ed1f862ba79ef48fa8235",
-   "bytes": 1689745
-  },
-  {
-   "product": "Star Student Travel Protect Insurance Policy",
    "uin": null,
    "doc_type": "Proposal",
    "category": "Overseas Travel",
@@ -2886,6 +2888,17 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/Common_Proposal_Form_for_Overseas_Travel_Insurance_V_9_Web_28fecb58fc.pdf",
    "sha256": "d2cc635a700714697de479f7f9b394d0f53daf83e5cb2f2672e728a619c5a601",
    "bytes": 1052641
+  },
+  {
+   "product": "Star Student Travel Protect Insurance Policy",
+   "uin": "IRDA/NL-HLT/SHAI/P-T/V.I/142/13-14",
+   "doc_type": "Policy Clause",
+   "category": "Overseas Travel",
+   "title": "Star Student Travel Protect Insurance Policy - IRDA/NL-HLT/SHAI/P-T/V.I/142/13-14",
+   "file": "Policy_Star_Student_Travel_Protect_Insurance_Policy_V_10_Web_3_9ca08c56c4.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Policy_Star_Student_Travel_Protect_Insurance_Policy_V_10_Web_3_9ca08c56c4.pdf",
+   "sha256": "b5eb4d3e34f312354b8a2fedfbadfc48d34f4aebd31ed1f862ba79ef48fa8235",
+   "bytes": 1689745
   },
   {
    "product": "Star Student Travel Protect Insurance Policy",
@@ -2933,17 +2946,6 @@
   },
   {
    "product": "Star Super Surplus (Floater) Insurance Policy",
-   "uin": null,
-   "doc_type": "Customer Information Sheet",
-   "category": "Health",
-   "title": "Star Super Surplus (Floater) Insurance Policy",
-   "file": "Super_Surplus_Other_Excluded_Expenses_976f93b393.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Super_Surplus_Other_Excluded_Expenses_976f93b393.pdf",
-   "sha256": "5bc25642befdbb9a97f0aee462144162f25cc3214faff89bb269faed3d3722b9",
-   "bytes": 122470
-  },
-  {
-   "product": "Star Super Surplus (Floater) Insurance Policy",
    "uin": "SHAHLIP22034V062122",
    "doc_type": "Policy Clause",
    "category": "Health",
@@ -2976,6 +2978,17 @@
    "bytes": 1687453
   },
   {
+   "product": "Star Super Surplus (Floater) Insurance Policy",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "category": "Health",
+   "title": "Star Super Surplus (Floater) Insurance Policy",
+   "file": "Super_Surplus_Other_Excluded_Expenses_976f93b393.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Super_Surplus_Other_Excluded_Expenses_976f93b393.pdf",
+   "sha256": "5bc25642befdbb9a97f0aee462144162f25cc3214faff89bb269faed3d3722b9",
+   "bytes": 122470
+  },
+  {
    "product": "Star Travel Protect Insurance Policy",
    "uin": null,
    "doc_type": "Brochure",
@@ -2999,17 +3012,6 @@
   },
   {
    "product": "Star Travel Protect Insurance Policy",
-   "uin": "IRDA/NL-HLT/SHAI/P-T/V.I/140/13-14",
-   "doc_type": "Policy Clause",
-   "category": "Overseas Travel",
-   "title": "Star Travel Protect Insurance Policy - IRDA/NL-HLT/SHAI/P-T/V.I/140/13-14",
-   "file": "Policy_Star_Travel_Protect_Insurance_Policy_V_10_8cea896798.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Policy_Star_Travel_Protect_Insurance_Policy_V_10_8cea896798.pdf",
-   "sha256": "406a4c504e14d36f14a8a296978a9a6e59bcf5dd1dbda09eca95c5384b58bfd8",
-   "bytes": 2384838
-  },
-  {
-   "product": "Star Travel Protect Insurance Policy",
    "uin": null,
    "doc_type": "Proposal",
    "category": "Overseas Travel",
@@ -3018,6 +3020,17 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/Common_Proposal_Form_for_Overseas_Travel_Insurance_V_9_Web_4ceccf4fd0.pdf",
    "sha256": "d2cc635a700714697de479f7f9b394d0f53daf83e5cb2f2672e728a619c5a601",
    "bytes": 1052641
+  },
+  {
+   "product": "Star Travel Protect Insurance Policy",
+   "uin": "IRDA/NL-HLT/SHAI/P-T/V.I/140/13-14",
+   "doc_type": "Policy Clause",
+   "category": "Overseas Travel",
+   "title": "Star Travel Protect Insurance Policy - IRDA/NL-HLT/SHAI/P-T/V.I/140/13-14",
+   "file": "Policy_Star_Travel_Protect_Insurance_Policy_V_10_8cea896798.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Policy_Star_Travel_Protect_Insurance_Policy_V_10_8cea896798.pdf",
+   "sha256": "406a4c504e14d36f14a8a296978a9a6e59bcf5dd1dbda09eca95c5384b58bfd8",
+   "bytes": 2384838
   },
   {
    "product": "Star Travel Protect Insurance Policy",
@@ -3032,17 +3045,6 @@
   },
   {
    "product": "Star True Value Health Insurance Policy",
-   "uin": "SHAHLIP21177V022021",
-   "doc_type": "Policy Clause",
-   "category": "Health",
-   "title": "Star True Value Health Insurance Policy SHAHLIP21177V022021",
-   "file": "6_Star_True_Value_Health_Insurance_Policy_5b4bf4434a.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/6_Star_True_Value_Health_Insurance_Policy_5b4bf4434a.pdf",
-   "sha256": "d2d834fb0791c4168bc7e1ba9e3e9fa1f971ee6ed8c9c8da29226dc1a8a08b7a",
-   "bytes": 731445
-  },
-  {
-   "product": "Star True Value Health Insurance Policy",
    "uin": null,
    "doc_type": "Prospectus",
    "category": null,
@@ -3051,6 +3053,17 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/6_Prospectus_Star_True_Value_Health_Insurance_Policy_a52e6ababb.pdf",
    "sha256": "a399438bce3e9ae321c663febd55c0f8fc004c4ba23be3419fb4b1fc0f59ffb3",
    "bytes": 331213
+  },
+  {
+   "product": "Star True Value Health Insurance Policy",
+   "uin": "SHAHLIP21177V022021",
+   "doc_type": "Policy Clause",
+   "category": "Health",
+   "title": "Star True Value Health Insurance Policy SHAHLIP21177V022021",
+   "file": "6_Star_True_Value_Health_Insurance_Policy_5b4bf4434a.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/6_Star_True_Value_Health_Insurance_Policy_5b4bf4434a.pdf",
+   "sha256": "d2d834fb0791c4168bc7e1ba9e3e9fa1f971ee6ed8c9c8da29226dc1a8a08b7a",
+   "bytes": 731445
   },
   {
    "product": "Star Women Care Insurance Policy",
@@ -3252,17 +3265,6 @@
   },
   {
    "product": "Super Surplus Insurance Policy",
-   "uin": null,
-   "doc_type": "Customer Information Sheet",
-   "category": "Health",
-   "title": "Super Surplus Insurance Policy",
-   "file": "Super_Surplus_Other_Excluded_Expenses_b88a913006.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Super_Surplus_Other_Excluded_Expenses_b88a913006.pdf",
-   "sha256": "ee3d5b518b3231d6cd3cb58be6142ee53ef18b76a7167a2eaa6917a30cb3f004",
-   "bytes": 122110
-  },
-  {
-   "product": "Super Surplus Insurance Policy",
    "uin": "SHAHLIP22035V062122",
    "doc_type": "Policy Clause",
    "category": "Health",
@@ -3293,6 +3295,17 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Super_Surplus_Insurance_Policy_V_8_6a6ce677ee.pdf",
    "sha256": "fa23f82ec05f546bdcd77ac9c7467d314622e9a44be2f775aeca0c25d5d123df",
    "bytes": 1210276
+  },
+  {
+   "product": "Super Surplus Insurance Policy",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "category": "Health",
+   "title": "Super Surplus Insurance Policy",
+   "file": "Super_Surplus_Other_Excluded_Expenses_b88a913006.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Super_Surplus_Other_Excluded_Expenses_b88a913006.pdf",
+   "sha256": "ee3d5b518b3231d6cd3cb58be6142ee53ef18b76a7167a2eaa6917a30cb3f004",
+   "bytes": 122110
   },
   {
    "product": "Swastha Kutumbam",
@@ -3395,17 +3408,6 @@
   },
   {
    "product": "Young Star Insurance Policy",
-   "uin": null,
-   "doc_type": "Customer Information Sheet",
-   "category": "Health",
-   "title": "Young Star Insurance Policy",
-   "file": "Young_Star_Preventive_Health_Checkup_4ad14bc49c.pdf",
-   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Young_Star_Preventive_Health_Checkup_4ad14bc49c.pdf",
-   "sha256": "33ca97b90705cde2b090598de6c806fbc6851eef67ef4847e34c9caaeb311297",
-   "bytes": 534187
-  },
-  {
-   "product": "Young Star Insurance Policy",
    "uin": "SHAHLIP26043V062526",
    "doc_type": "Policy Clause",
    "category": "Health",
@@ -3425,6 +3427,17 @@
    "source_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Young_Star_Insurance_Policy_V_8_f21b6037ff.pdf",
    "sha256": "e9dc41ac387e2af2de8362af131051c80af24a3fcdf20061b389df7fd4c6438f",
    "bytes": 1916810
+  },
+  {
+   "product": "Young Star Insurance Policy",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "category": "Health",
+   "title": "Young Star Insurance Policy",
+   "file": "Young_Star_Preventive_Health_Checkup_4ad14bc49c.pdf",
+   "source_url": "https://d28c6jni2fmamz.cloudfront.net/Young_Star_Preventive_Health_Checkup_4ad14bc49c.pdf",
+   "sha256": "33ca97b90705cde2b090598de6c806fbc6851eef67ef4847e34c9caaeb311297",
+   "bytes": 534187
   }
  ]
 }

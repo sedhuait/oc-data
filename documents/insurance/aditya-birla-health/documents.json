@@ -1,0 +1,33 @@
+{
+ "source": "https://www.insurancedekho.com/ (aggregator document index)",
+ "insurer": "Aditya Birla Health Insurance Co. Limited",
+ "retrieved": "2026-09-06",
+ "note": "Documents located through the InsuranceDekho aggregator, which is used as an index only. Each file was classified from its own first page, not from the aggregator's link text, which mislabels brochures as policies. No fact is read from any aggregator page.",
+ "document_count": 2,
+ "documents": [
+  {
+   "product": "Antyodaya Shramik Suraksha Yojana",
+   "uin": "ADIHLIP18076V011718",
+   "doc_type": "Policy Clause",
+   "category": "Health",
+   "title": "Antyodaya Shramik Suraksha Yojana",
+   "file": "20190613125009.pdf",
+   "source_url": "https://healthstatic.insurancedekho.com/prod/planpdf/20190613125009.pdf",
+   "sha256": "bf919126bfe9ff71751f17329e4f03294158ba7a6b93a6d15f4c1df6265b03c7",
+   "bytes": 270496,
+   "via": "located through insurancedekho.com; classified from the document itself"
+  },
+  {
+   "product": "Antyodaya Shramik Suraksha Yojana",
+   "uin": "ADIHLIP21080V012021",
+   "doc_type": "Policy Clause",
+   "category": "Health",
+   "title": "Antyodaya Shramik Suraksha Yojana",
+   "file": "20200722180607.pdf",
+   "source_url": "https://healthstatic.insurancedekho.com/prod/planpdf/20200722180607.pdf",
+   "sha256": "be193d2036b2a807e6643599690d8d716b10377f4cd79d663a6bf3e54efb1c6a",
+   "bytes": 1545590,
+   "via": "located through insurancedekho.com; classified from the document itself"
+  }
+ ]
+}

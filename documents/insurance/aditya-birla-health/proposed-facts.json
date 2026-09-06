@@ -1,0 +1,168 @@
+{
+ "generated": "2026-09-06",
+ "generator": "sources/insurance/parse_wordings.py",
+ "insurer": "Aditya Birla Health Insurance Co. Limited",
+ "note": "PROPOSED facts read from policy wordings. Nothing here is a record yet. Every value carries the sentence it came from and the page it was on so a person can check it against the PDF before it is published. Waiting periods and caps are financial figures: a wrong one costs somebody a claim, so they wait for a human. Run with --apply once this file has been read.",
+ "policies": [
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "cashless_claim": {
+     "confidence": "extracted",
+     "page": 27,
+     "quote": "r website. G. For Section I.13 please follow the process as under for Cashless Hospitalization: Cashless facilities can be availed only at Our Network Providers. The complete list of Network Providers is",
+     "value": true,
+     "why": "cashless facility offered"
+    },
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 28,
+     "quote": "s, circulars and guidelines issued by the IRDAI from time to time. B. Free Look Period We shall provide You a period of 15 days from the date of receipt of the Policy document to review the terms and conditions of this Policy. If You hav",
+     "value": 15,
+     "why": "free look clause"
+    },
+    "grace_period_days": {
+     "confidence": "unconfirmed",
+     "page": 29,
+     "quote": "or before the Expiry Date of the Policy and in no case later than the Grace Period of 30 days from the Expiry Date. We shall not be liable to pay for any claim arising out of an Illness/Injury/ Accident",
+     "value": 30,
+     "why": "grace period stated without naming renewal — a person should confirm"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Aditya Birla Health Insurance Co. Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://healthstatic.insurancedekho.com/prod/planpdf/20190613125009.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json (insurer's downloads page)",
+     "value": "ADIHLIP18076V011718",
+     "why": "UIN as published by the insurer on its downloads page"
+    }
+   },
+   "file": "20190613125009.pdf",
+   "pages": 34,
+   "product": "Antyodaya Shramik Suraksha Yojana",
+   "sha256": "bf919126bfe9ff71751f17329e4f03294158ba7a6b93a6d15f4c1df6265b03c7",
+   "source_url": "https://healthstatic.insurancedekho.com/prod/planpdf/20190613125009.pdf",
+   "uin": "ADIHLIP18076V011718",
+   "rejected_by_audit": {
+    "opd_covered": {
+     "value_proposed": true,
+     "reason": "REJECTED: the grant is section I.17 'Accidental Medical Expenses' — OPD is payable only after an accidental death/disablement claim is admitted. That is not outpatient cover, and recording opd_covered=true would say the policy has a benefit it does not have."
+    },
+    "no_claim_bonus": {
+     "value_proposed": "Cumulative Bonus What is covered If the Insured Person has not made any claim under Section I.1 and Section I.2 and Section I.3 in a Policy Year, then We shall apply a P.A",
+     "reason": "REJECTED: the captured string starts mid-word ('w, brother-in-law…') because the clause was spliced across a column boundary, and the benefit is a PERSONAL-ACCIDENT cumulative bonus (5%/yr, max 50%, on the section I.1 sum insured), not a health no-claim bonus. Null over a guess."
+    }
+   }
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "ayush_covered": {
+     "confidence": "extracted",
+     "page": 7,
+     "quote": "ured member. Home care treatment: Maximum up to 14 days per incident. AYUSH Medical Expenses incurred for Inpatient Care treatment for COVID under Ayurveda, Yoga and Naturopathy, Unani,",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "cashless_claim": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "accessible to the insurance company's authorized representative. 3.4 Cashless Facility means a facility extended by the insurer to the insured where the payments, of the costs of treatment undergo",
+     "value": true,
+     "why": "cashless facility offered"
+    },
+    "exclusions": {
+     "confidence": "extracted",
+     "page": 4,
+     "quote": "in connection with or in respect of: 7.1. Investigation & Evaluation (Code- Excl04) Expenses related to any admission primarily for diagnostics and evaluation purposes. Any diagnostic expenses",
+     "value": [
+      "Investigation and evaluation",
+      "Rest cure, rehabilitation and respite care"
+     ],
+     "why": "2 IRDAI standard exclusions, identified by their code numbers"
+    },
+    "initial_waiting_days": {
+     "confidence": "extracted",
+     "page": 4,
+     "quote": "ifteen Days Waiting Period Expenses related to the treatment of COVID within 15 days from the policy commencement date shall be excluded. 7. EXCLUSIONS The Company shall not be liable to make any payment under the policy, i",
+     "value": 15,
+     "why": "initial waiting clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Aditya Birla Health Insurance Co. Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://healthstatic.insurancedekho.com/prod/planpdf/20200722180607.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "pre_hosp_days": {
+     "confidence": "extracted",
+     "page": 7,
+     "quote": "ive hours only shall be admissible. Pre- Hospitalisation Expenses For 15 days prior to the date of hospitalization/home care treatment. Post- Hospitalisation Expenses For 30 days from the date of discharge from the hospital/",
+     "value": 15,
+     "why": "pre-?\\s*hospitali cover period"
+    },
+    "sub_limits": {
+     "confidence": "extracted",
+     "page": 3,
+     "quote": "ities, PPE Kit, gloves, mask and such similar other expenses. v. Road Ambulance subject to a maximum of Rs. 2000/- per hospitalization for the Ambulance services offered by a Hospital or by an Ambulance service provider, p",
+     "value": [
+      "Ambulance: Rs 2,000"
+     ],
+     "why": "named treatment with a stated cap"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json (insurer's downloads page)",
+     "value": "ADIHLIP21080V012021",
+     "why": "UIN as published by the insurer on its downloads page"
+    }
+   },
+   "file": "20200722180607.pdf",
+   "pages": 13,
+   "product": "Antyodaya Shramik Suraksha Yojana",
+   "sha256": "be193d2036b2a807e6643599690d8d716b10377f4cd79d663a6bf3e54efb1c6a",
+   "source_url": "https://healthstatic.insurancedekho.com/prod/planpdf/20200722180607.pdf",
+   "uin": "ADIHLIP21080V012021"
+  }
+ ],
+ "policy_count": 2,
+ "source": "https://www.starhealth.in/downloads/",
+ "unreadable": [],
+ "audit_note": "Distinct values were read before applying. Two proposals were rejected; each policy's rejected_by_audit records what was proposed and why it was not taken."
+}

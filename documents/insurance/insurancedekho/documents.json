@@ -1,0 +1,104 @@
+{
+ "source": "https://www.insurancedekho.com/ (document index only)",
+ "insurer": "various — indexed through the InsuranceDekho aggregator",
+ "retrieved": "2026-09-06",
+ "note": "InsuranceDekho is used here as an index of documents, never as a source of facts. Only files that are themselves a policy wording or a Customer Information Sheet are mirrored, and each was classified from its own first page because the site's link text mislabels brochures as policies and policies as brochures. Prospectuses and brochures found at the same URLs are recorded in the survey but deliberately not mirrored and not parsed: they summarise a contract and are superseded by it. sha256 and bytes are recorded so anyone can verify these are byte-for-byte what the CDN served. The PDFs themselves are stored under each insurer's own mirror directory (see mirrored_to) so the parsers find them where they expect; this directory is the index of what the aggregator led to.",
+ "document_count": 5,
+ "documents": [
+  {
+   "product": "Antyodaya Shramik Suraksha Yojana",
+   "uin": "ADIHLIP18076V011718",
+   "uins_in_document": [
+    "ADIHLIP18076V011718"
+   ],
+   "doc_type": "Policy Clause",
+   "classified_from": "the document's own first page, not the site's link text",
+   "site_titles": [
+    "Aditya Birla Activ Secure Brochure",
+    "Aditya Birla Health Insurance Activ Secure"
+   ],
+   "file": "20190613125009.pdf",
+   "source_url": "https://healthstatic.insurancedekho.com/prod/planpdf/20190613125009.pdf",
+   "sha256": "bf919126bfe9ff71751f17329e4f03294158ba7a6b93a6d15f4c1df6265b03c7",
+   "bytes": 270496,
+   "pages": 33,
+   "mirrored_to": "documents/insurance/aditya-birla-health/20190613125009.pdf"
+  },
+  {
+   "product": "Arogya Sanjeevani - Retail",
+   "uin": "HDFHLIP20175V011920",
+   "uins_in_document": [
+    "HDFHLIP20175V011920"
+   ],
+   "doc_type": "Policy Clause",
+   "classified_from": "the document's own first page, not the site's link text",
+   "site_titles": [
+    "HDFC ERGO Arogya Sanjeevani Policy",
+    "HDFC ERGO Arogya Sanjeevani Policy Brochure"
+   ],
+   "file": "20200414162225.pdf",
+   "source_url": "https://healthstatic.insurancedekho.com/prod/planpdf/20200414162225.pdf",
+   "sha256": "75ba5ced7135b34e911250537cdba4a2efef4d69c8f5f2c5dc136587dd7f20cc",
+   "bytes": 688677,
+   "pages": 31,
+   "mirrored_to": "documents/insurance/hdfc-ergo/20200414162225.pdf"
+  },
+  {
+   "product": "Antyodaya Shramik Suraksha Yojana",
+   "uin": "ADIHLIP21080V012021",
+   "uins_in_document": [
+    "ADIHLIP21080V012021"
+   ],
+   "doc_type": "Policy Clause",
+   "classified_from": "the document's own first page, not the site's link text",
+   "site_titles": [
+    "Aditya Birla Corona Kavach Policy Brochure",
+    "Aditya Birla Health Insurance Corona Kavach Policy"
+   ],
+   "file": "20200722180607.pdf",
+   "source_url": "https://healthstatic.insurancedekho.com/prod/planpdf/20200722180607.pdf",
+   "sha256": "be193d2036b2a807e6643599690d8d716b10377f4cd79d663a6bf3e54efb1c6a",
+   "bytes": 1545590,
+   "pages": 12,
+   "mirrored_to": "documents/insurance/aditya-birla-health/20200722180607.pdf"
+  },
+  {
+   "product": "Corona Rakshak Policy, Star Health and Allied Insurance Co. Ltd",
+   "uin": "SHAHLIP21067V012021",
+   "uins_in_document": [
+    "SHAHLIP21067V012021"
+   ],
+   "doc_type": "Policy Clause",
+   "classified_from": "the document's own first page, which reads 'Policy Wordings'. It reproduces the Customer Information Sheet as a section, which is why an earlier pass misfiled it as a CIS.",
+   "site_titles": [
+    "Star Corona Rakshak Policy Brochure",
+    "Star Health Insurance Corona Rakshak Policy"
+   ],
+   "file": "20200730173626.pdf",
+   "source_url": "https://healthstatic.insurancedekho.com/prod/planpdf/20200730173626.pdf",
+   "sha256": "0b6e1c867a135da3728ee5d97c9396806205f178294488cfa3559f4c81f530be",
+   "bytes": 1596810,
+   "pages": 4,
+   "mirrored_to": "documents/insurance/star-health/20200730173626.pdf"
+  },
+  {
+   "product": "iCan_Enhance",
+   "uin": "HDHHLIP21321V022021",
+   "uins_in_document": [
+    "HDHHLIP21321V022021"
+   ],
+   "doc_type": "Policy Clause",
+   "classified_from": "the document's own first page, not the site's link text",
+   "site_titles": [
+    "HDFC ERGO iCan Cancer",
+    "HDFC ERGO iCan Cancer Brochure"
+   ],
+   "file": "20201214190227.pdf",
+   "source_url": "https://healthstatic.insurancedekho.com/prod/planpdf/20201214190227.pdf",
+   "sha256": "b1c4bcc4f3076b31c6e2170e1c44cc131b72f5c1a32f046ad2dc778d918dc895",
+   "bytes": 771774,
+   "pages": 16,
+   "mirrored_to": "documents/insurance/hdfc-ergo/20201214190227.pdf"
+  }
+ ]
+}
