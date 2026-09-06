@@ -87,5 +87,25 @@
   "finishing_existing_records": "9,208 uncrawled records lifted to the crawled rate = 102,732 values = 40.9% overall",
   "full_inventory": "57,562 pages remain of a 90,628 inventory. At the observed 87% distinct rate that is ~50,078 NEW records \u2014 but each arrives with ~38 empty slots as well as ~15.1 facts, so the full crawl lands at 37.4%, not higher. An earlier estimate of +46% counted the facts and not the slots they bring with them.",
   "conclusion": "37.4% is the projected end state of all crawling now in flight."
+ },
+ "what_separates_a_full_record_from_an_empty_one": {
+  "measured": "120 high-fill (>=70%) pages against 859 low-fill (<=30%) pages, same corpus",
+  "the_difference_is_the_nutrition_panel": {
+   "Sodium Per 100 g": "97% on high-fill pages, 0% on low-fill",
+   "Total Fat Per 100 g": "100% vs 3%",
+   "Serve Size": "94% vs 2%",
+   "Ingredients": "100% vs 28%",
+   "FSSAI License": "100% vs 87% \u2014 present on both, so not the discriminator",
+   "Packaging Type": "94% vs 91% \u2014 present on both"
+  },
+  "so": "A low-fill record is not a parsing failure. The page carries the identity fields and lacks the nutrition panel, and no amount of parser work creates one.",
+  "how_many_have_one": "73% of products Blinkit declares as food (veg/non-veg/egg) carry a nutrition panel. Of 2,000 sampled pages, 765 were declared non_food \u2014 soaps and cleaning supplies, where a nutrition panel correctly does not exist.",
+  "scale": "Nutrition-derived fields account for 543,933 slots, 33% of the entire repo. All of them sit on genuinely food categories, so the sheet is not misapplied \u2014 the 27% of food packs that decline to print a panel are simply unreachable.",
+  "per_record_ceiling_is_NOT_the_problem": "332 grocery records already reach 80% or better and the best reaches 84% (32 of 38 fields, Kellogg's Corn Flakes). 80% per record is achievable where the pack carries a full panel. It is the 27% without one, plus the non-food products, that hold the average down."
+ },
+ "redefining_the_metric_tested": {
+  "excluding_proven_absent_fields": "38.3% (157,455 slots removed)",
+  "excluding_every_field_no_source_has_ever_supplied": "39.3% (192,111 slots, 90 of 405 field/domain pairs)",
+  "verdict": "Neither redefinition reaches 80%. The gap is not an accounting artifact \u2014 it is 543,933 nutrition slots against packs that do not all carry a panel."
  }
 }
