@@ -420,6 +420,22 @@
       "result": "Not the same mistake. www.lg.com returns HTTP 403 on robots.txt itself to a non-browser client, which matches the appliances agent's independent finding. With the new fail-closed rule, lib/polite.py refuses every path on that host, which is correct: a site that will not serve its robots.txt to us has not given permission.",
       "status": "LG is off-limits by the site's own decision, not by a measurement error of ours.",
       "note": "This is the fail-closed change working as designed. Before it, a 403 on robots.txt would have read as 'no rules' and every LG path would have been crawled."
+    },
+    "funds_SID_RESULT": {
+      "checked": "2026-09-07",
+      "yield": "funds 58.20% -> 60.99%, about 5,700 values: exit_load_note +2,995, benchmark +2,683, lock_in_months +22. All from the 1,280 SEBI Scheme Information Documents already mirrored — nothing fetched.",
+      "match": "1,222 of 1,222 SIDs carrying facts matched a scheme family, reaching 4,056 of 8,525 records at mean fan-out 3.3. Proved rather than assumed: no family spans two AMCs and no two distinct base scheme names were merged.",
+      "THE_REAL_CEILING": "sid_url coverage. Only 4,179 of 8,525 records have one at all, so this pass could never have reached the 8,201 records missing exit_load_note regardless of parser quality.",
+      "audit_catches": {
+        "ticker_symbols_as_benchmarks": "18 ICICI ETFs were about to be told their benchmark is 'BSE : 533244 NSE : ICICIGOLD'. It passed every name test because the line contains 'BSE'.",
+        "the_label_itself_splits_across_the_gutter": "the benchmark row's LABEL is cut by the column gutter, so values read as 'Total Nifty 50 TRI' (8 schemes) and 'Total AMFI Tier 1 Benchmark: Nifty 500 TRI' (4 more).",
+        "opposite_failure_modes": "fixing that exposed the reverse: a greedy wrap-join welded ABSL's justification paragraph onto 'BSE Sensex TRI', while no join cut DSP's name to 'Nifty'. The two pull in opposite directions.",
+        "spliced_inside_a_sentence": "'(Consolidated Std. Obs. 47)' sat INSIDE an exit-load sentence between 'within' and '15 days'. Removed in place, since the text either side is the real clause.",
+        "utis_two_column_load_table": "its leading 'Nil' is the ENTRY load sitting where a reader takes it for the exit load. Refused whole rather than half-repaired."
+      },
+      "lock_in_deliberately_tiny": "Only 22 values. ~1,100 open-ended schemes could have been written 0, but a SID that never mentions a lock-in has not STATED it has none — that would be a derivation wearing a reading's clothes.",
+      "riskometer_confirmed_absent": "not attempted; my measurement that the level is a graphic in ~90% of SIDs was confirmed, not guessed around.",
+      "operational_finding": "26 SIDs are unreadable — diagnosed as truncated downloads with damaged xref tables (no %%EOF), NOT scans. They are recoverable by re-fetching if those schemes are wanted."
     }
   }
 }
