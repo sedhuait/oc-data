@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-05",
+ "generated": "2026-09-06",
  "generator": "sources/insurance/parse_wordings.py",
  "insurer": "Star Health and Allied Insurance Co Ltd",
  "note": "PROPOSED facts read from policy wordings. Nothing here is a record yet. Every value carries the sentence it came from and the page it was on so a person can check it against the PDF before it is published. Waiting periods and caps are financial figures: a wrong one costs somebody a claim, so they wait for a human. Run with --apply once this file has been read.",

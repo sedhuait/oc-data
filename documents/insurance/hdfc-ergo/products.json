@@ -1,0 +1,845 @@
+{
+ "insurer": "HDFC ERGO General Insurance Company Limited",
+ "source": "https://www.hdfcergo.com/download/policy-wordings",
+ "retrieved": "2026-09-06",
+ "note": "One entry per policy, assembled from the insurer's downloads page. A UIN is IRDAI's identifier for an approved product and is the reliable key — marketing names are reused and revised, the UIN is not. No figure from inside any wording is read here; that is a separate and careful job.",
+ "product_count": 76,
+ "products": [
+  {
+   "name": "ABCD Chronic care",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/assets/v2/docs/default-source/downloads/policy-wordings/health/abcd-chronic-care---policy-wordings/abcd-chronic-care---policy-wordings-588300043193.pdf"
+   }
+  },
+  {
+   "name": "Additional Disclaimer",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://www.hdfcergo.com/additional_disclaimer.pdf"
+   }
+  },
+  {
+   "name": "Arogya Sanjeevani - Group",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/arogya-sanjeevani-policy-group-pw-103668459667.pdf"
+   }
+  },
+  {
+   "name": "Arogya Sanjeevani - Retail",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/arogya-sanjeevani-policy-retail-pw-570443039657.pdf"
+   }
+  },
+  {
+   "name": "AYUSH treatments",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/assets/docs/default-source/public-disclosure/ayushtreatments-914243884484.pdf"
+   }
+  },
+  {
+   "name": "Card Sure Package Insurance",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/card-sure-package-insurance---pw-586378819767.pdf"
+   }
+  },
+  {
+   "name": "Chomp",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/assets/v2/docs/default-source/downloads/policy-wordings/health/chomp-pw/chomp-pw-433457127673.pdf"
+   }
+  },
+  {
+   "name": "Critical Advantage Rider",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/critical-advantage-rider-pw-cis(1)-992823989987.pdf"
+   }
+  },
+  {
+   "name": "Critical Illness Insurance",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/critical-illness-policy-wordings-361994503788.pdf"
+   }
+  },
+  {
+   "name": "Cumulative Bonus Plus",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/assets/v2/docs/default-source/downloads/policy-wordings/health/cumulative-bonus-plus/cumulative-bonus-plus-219401572140.pdf"
+   }
+  },
+  {
+   "name": "Cumulative Bonus Plus (Group)",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/assets/v2/docs/default-source/downloads/policy-wordings/health/cumulative-bonus-plus-(group)/cumulative-bonus-plus-(group)(1)-855251331096.pdf"
+   }
+  },
+  {
+   "name": "Day2Day Care",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/day2day-pw-476258543812.pdf"
+   }
+  },
+  {
+   "name": "Dengue Care",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/dengue-cis-pw-671855809030.pdf"
+   }
+  },
+  {
+   "name": "Disclosures on Stewardship Code",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/assets/docs/default-source/stewardship-code/disclosuresunderstewardshipcode-810102149608.pdf"
+   }
+  },
+  {
+   "name": "Easy Health (for policies with period of Insurance starting 03-March- 2026 onwards.)",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/PolicyWordings_EasyHealth-114935539788.pdf"
+   }
+  },
+  {
+   "name": "Energy (for policies with Period of Insurance starting 22-Aug-2025 onwards)",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/energy-combined-pw-cis-919573709506.pdf"
+   }
+  },
+  {
+   "name": "Group Mediclaim Insurance Policy",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/group-mediclaim-insurance-pw-430387928882.pdf"
+   }
+  },
+  {
+   "name": "GST Provisional IDs",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/assets/docs/default-source/policies/hdfcergogstprovisionalid-768032194063.pdf"
+   }
+  },
+  {
+   "name": "HDFC ERGO EquiCover Health",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/assets/v2/docs/default-source/downloads/policy-wordings/health/equicover-health-cis-pw/equicover-health-cis-pw-108534555408.pdf"
+   }
+  },
+  {
+   "name": "HDFC ERGO Group Health Insurance (for policies with Period of Insurance starting 30-Oct-2024 onwards)",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/assets/v2/docs/default-source/downloads/policy-wordings/health/group-health-insurance/group-health-insurance---pw-100009864323.pdf"
+   }
+  },
+  {
+   "name": "HDFC ERGO Group OPD Care (Add-on)",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/group-opd-care-(add-on)-pw-860894653556.pdf"
+   }
+  },
+  {
+   "name": "HDFC ERGO Group Protect",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/hdfc-ergo-group-protect-pw-509160030752.pdf"
+   }
+  },
+  {
+   "name": "HDFC ERGO Hospital Cash Insurance",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/hospital-cash-sep-2021-131167290320.pdf"
+   }
+  },
+  {
+   "name": "HDFC ERGO Janta Personal Accident Insurance Policy",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/janata-personal-accident-cis-450481960912.pdf"
+   }
+  },
+  {
+   "name": "HDFC ERGO Secure 4in1 (for policies with Period of Insurance starting from 19-09-2024 onwards)",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/HDFCERGOSecure4in1-NEWADD-21-05-2026-PW-962455142325.pdf"
+   }
+  },
+  {
+   "name": "HDFC ERGO Wellness Corner",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/wellness-corner-endorsment-document-(2)-171897235418.pdf"
+   }
+  },
+  {
+   "name": "HDFC ERGO Wellness Corner (Group)",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/wellness-corner(group)-endorsement-wording-338234546768.pdf"
+   }
+  },
+  {
+   "name": "HDFC Group Health Insurance",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/hdfc-group-health-insurance-pw-96104533042.pdf"
+   }
+  },
+  {
+   "name": "Health Suraksha Top Up_Plus",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/health-suraksha-top-up-plus-pw-638815876665.pdf"
+   }
+  },
+  {
+   "name": "Health Suraksha Top Up_Pro",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/health-suraksha-top-up_pro_policy-wording-760793548770.pdf"
+   }
+  },
+  {
+   "name": "Health Wallet",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/health-wallet-combined-pw-cis-hegi-373014324919.pdf"
+   }
+  },
+  {
+   "name": "Home Credit Assure",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/home-credit-assure-pw(1)-351111390728.pdf"
+   }
+  },
+  {
+   "name": "Home Credit Assure Shakti",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/policy-wordings_hca-shakti-605012200456.pdf"
+   }
+  },
+  {
+   "name": "Hospital Daily Cash Rider",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/assets/v2/docs/default-source/downloads/policy-wordings/health/hospital-daily-cash-pw/hospital-daily-cash-pw(1)-61659521614.pdf"
+   }
+  },
+  {
+   "name": "iCan_Enhance",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/ican-enhance-516743223207.pdf"
+   }
+  },
+  {
+   "name": "iCan_Essential",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/ican-essential-102186638081.pdf"
+   }
+  },
+  {
+   "name": "Individual Personal Accident_Advance",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/individual-personal-accident--advance---sep-2021-406216828418.pdf"
+   }
+  },
+  {
+   "name": "Individual Personal Accident_Elite",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/individual-personal-accident---elite---sep-2021-62450688630.pdf"
+   }
+  },
+  {
+   "name": "Individual Personal Accident_Essential",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/individual-personal-accident---essential--sep-2021-229434268364.pdf"
+   }
+  },
+  {
+   "name": "Individual Personal Accident_Premium",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/individual-personal-accident---premium--sep-2021-225544775475.pdf"
+   }
+  },
+  {
+   "name": "Individual Personal Accident Rider",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/assets/v2/docs/default-source/downloads/policy-wordings/health/ipa-rider/ipa-rider---pww(1)-893292659493.pdf"
+   }
+  },
+  {
+   "name": "Individual Personal Accident_Standard",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/individual-personal-accident--standard---sep-2021-443358790825.pdf"
+   }
+  },
+  {
+   "name": "Limitless",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com//documents/Policywordings_Limitless-727294559278.pdf"
+   }
+  },
+  {
+   "name": "Maxima",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/maxima-pw-cis-418068097035.pdf"
+   }
+  },
+  {
+   "name": "Mosquito Disease Protection Policy - Group",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com//documents/mosquito-disease-protection-policy-group-pw-327260039211.pdf"
+   }
+  },
+  {
+   "name": "my:credit Comprehensive Suraksha",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/mycredit-comprehensive-suraksha-pw-215860523300.pdf"
+   }
+  },
+  {
+   "name": "my:Credit - Personal Accident (Group)",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/my-credit-personal-accident-group---pww-623813790410.pdf"
+   }
+  },
+  {
+   "name": "my:health Critical Illness",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/myhealth-critical-illness---pww(1)-327722234399.pdf"
+   }
+  },
+  {
+   "name": "my:health Critical Suraksha Plus",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/myhealth-critical-suraksha-plus-pw-954531935739.pdf"
+   }
+  },
+  {
+   "name": "my:Health Hospital Cash Benefit (Add-on)",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/myhealth-suraksha-hospital-cash-add-on-pw(1)-626264177644.pdf"
+   }
+  },
+  {
+   "name": "my:health Koti Suraksha",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/myhealth-koti-suraksha-pw-327779800227.pdf"
+   }
+  },
+  {
+   "name": "my:health Medisure Super Top Up Insurance",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/myhealth-medisure-super-top-up-insurance-569138917326.pdf"
+   }
+  },
+  {
+   "name": "my:health Suraksha (for policies with Period of Insurance starting 30-Nov-2023 onwards)",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/myhealth-suraksha---pww-533762769949.pdf"
+   }
+  },
+  {
+   "name": "my:health Women Suraksha",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com//documents/my_health_Women_Suraksha-890200567473.pdf"
+   }
+  },
+  {
+   "name": "my:Optima Secure (for policies with period of Insurance starting 02-April- 2026 onwards)",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/PolicyWordings_myOptimaSecure-76673175551.pdf"
+   }
+  },
+  {
+   "name": "Optima Cash",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/optima-cash_policy-wordings_a5-241621764074.pdf"
+   }
+  },
+  {
+   "name": "Optima Plus",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/optima-plus-policy-wordings-579493504477.pdf"
+   }
+  },
+  {
+   "name": "Optima Restore (for policies with period of Insurance starting 03-March- 2026 onwards.)",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/PolicyWordings_OptimaRestore-811520192624.pdf"
+   }
+  },
+  {
+   "name": "Optima Senior",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/optima-senior-combined-pw-cis-hegi-757265377962.pdf"
+   }
+  },
+  {
+   "name": "Optima Super",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/optima-super-combined-pw-cis-hegi-503744224757.pdf"
+   }
+  },
+  {
+   "name": "Optima Vital",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/optima-vital---oct-2021-983646956725.pdf"
+   }
+  },
+  {
+   "name": "Optima Wellbeing (Add-on)",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com//documents/PolicyWordings_OptimaWellbeing(Add-on)-202041347369.pdf"
+   }
+  },
+  {
+   "name": "Parenthood",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/assets/v2/docs/default-source/downloads/policy-wordings/health/parenthood/parenthood-613771733087.pdf"
+   }
+  },
+  {
+   "name": "Policy of Protection",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/PPHIPolicy-V1.9(1)-14133981369.pdf"
+   }
+  },
+  {
+   "name": "PRADHAN MANTRI SURAKSHA BIMA YOJANA (PMSBY)",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/assets/v2/docs/default-source/downloads/policy-wordings/health/pradhan-mantri-suraksha-bima-yojana-(pmsby)/pradhan-mantri-suraksha-bima-yojana-(pmsby)(1)-443784640034.pdf"
+   }
+  },
+  {
+   "name": "Product Wise Cashless Services",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/assets/docs/default-source/default-document-library/disclosuresonwebsiteresponse-962341769599.pdf"
+   }
+  },
+  {
+   "name": "Protector Rider",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/protector-rider---sep-2021(1)-489847953208.pdf"
+   }
+  },
+  {
+   "name": "Regulatory",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/assets/docs/default-source/downloads/policy-wordings/notespertainingtoregulatorychanges2024-892382445782.pdf"
+   }
+  },
+  {
+   "name": "Revised Product List",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com//documents/RevisedProductList_25_08_2026-94109879598.pdf"
+   }
+  },
+  {
+   "name": "\"Sarv Suraksha Plus (Group) (for policies with Period of Insurance starting 30-Jan-2025 onwards)\"",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/assets/v2/docs/default-source/downloads/policy-wordings/health/sarv-suraksha-plus-group/sarv-suraksha-plus-group-pw-101464007196.pdf"
+   }
+  },
+  {
+   "name": "Serious Illness Booster",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/Policywordings_SeriousIllnessBooster-941452609852.pdf"
+   }
+  },
+  {
+   "name": "Stay Fit To Benefit",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/stay-fit-to-benefit-454777783564.pdf"
+   }
+  },
+  {
+   "name": "Stewardship Code",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/assets/docs/default-source/stewardship-code/stewardshipcodeversion13-846999525881.pdf"
+   }
+  },
+  {
+   "name": "Surrogacy and Oocyte Protect",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/assets/v2/docs/default-source/downloads/policy-wordings/health/surrogacy-and-oocyte-protect/surrogacy-and-oocyte-protect-353217759924.pdf"
+   }
+  },
+  {
+   "name": "Unlimited Restore (Add on)",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com//documents/PolicyWordings_UnlimitedRestore(Addon)-220558092606.pdf"
+   }
+  },
+  {
+   "name": "Withdrawn Product List",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Health Insurance"
+   ],
+   "documents": {
+    "policy_wording": "https://customer-portal-assets.hdfcergo.com/documents/list-of-withdrawn-product-1-411527700526.pdf"
+   }
+  }
+ ]
+}
