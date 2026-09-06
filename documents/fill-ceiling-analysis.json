@@ -515,6 +515,28 @@
       },
       "verdict": "Not a harvesting gap. All three rejections are the parser being careful with a source that is sometimes wrong, and the only one that could be recovered needs a field type that can hold a bound rather than a number.",
       "note": "The prose-panel path already captures 'less than' into its value string (line 361 of parse_pack_label.py) and hands it downstream, where the same numeric coercion refuses it. The question is deferred there, not answered."
+    },
+    "diet_preference_RESULT": {
+      "checked": "2026-09-07",
+      "TWO_OF_MY_PREMISES_WERE_WRONG": {
+        "Preferences_was_already_read": "I proposed reading Blinkit's 'Preferences' attribute into beauty fields. parse_beauty_label.py lines 897-971 already consumes it into flags, free_from, vegan, dermatologist_tested, fragrance and certifications. Stored counts track a fresh extraction nearly one-for-one (Paraben-free 5,213 stored vs 5,455 extracted). NO beauty field was written, and none should have been.",
+        "the_values_were_not_hiding_in_value_info": "I said these were multi-value attributes whose data is lost by reading the top-level 'value'. Wrong: the top-level value IS the complete comma-joined list. On 120 sampled pages with 3+ values, value.split(',') equalled the value_info list on all 120, differing only in ordering."
+      },
+      "what_was_real": "'Diet Preference' on grocery, genuinely unread. parse_pack_label.py answers these fields from the ingredient declaration only, so a pack stating a claim WITHOUT a readable ingredient list left them null.",
+      "written": {
+        "No Preservatives -> preservatives 'None declared'": "1,617 of 53,671 empty",
+        "No Palm Oil -> palm_oil false": "994 of 52,349",
+        "No Artificial Colours -> artificial_colours false": "253 of 54,020"
+      },
+      "corroboration": "Where both the claim and the ingredient parse spoke, they agreed on 3,504 records and conflicted on 58 — packs claiming no palm oil or no preservatives while naming one in the ingredients. Add-only kept the ingredient-derived value in all 58, which is the harder evidence.",
+      "claims_deliberately_not_mapped": {
+        "Organic (373)": "the schema note says uncertified use of the word is not a controlled claim, and a bare diet tag is exactly that",
+        "Vegan (920)": "`veg` records India's mandatory dot mark, not a marketing tag — and all 920 already carry veg:'Veg', so it was moot",
+        "NA (24)": "a null placeholder, discarded",
+        "no field exists": "High Protein (1,312), Gluten-Free (2,283), Cholesterol Free, High Fiber, No Refined Sugar, Plant-Based, Low-Fat, Lactose Free, No Trans Fat, Keto Friendly, Halal, Kosher"
+      },
+      "audit_catches": "Printing all 26 + 54 distinct values before mapping caught 'NA' as a null placeholder in both attributes; 'Non-Vegetarian' sitting INSIDE the Preferences list, which a naive substring match would have turned into vegan:true; and 'PETA Certified' / 'Halal Certified' being real certifications distinct from bare claims.",
+      "fill": "grocery 42.22% -> 42.34%; overall 43.28% -> 43.37%"
     }
   }
 }
