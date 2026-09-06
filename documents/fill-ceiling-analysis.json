@@ -72,5 +72,20 @@
   "why": "The proposal assumed the nutrition panel is printed on a pack image Blinkit serves. It is not, for the pages that need it. 224 of the 229 food pages missing a nutrition panel carry NO full-resolution image; the 5 that do carry exactly one, which is the front of the pack, not the back where the panel is printed. Pages generally offer only CDN-resized thumbnails at 120x120 and 480x480, at which a nutrition panel is a few pixels tall and unreadable. Original assets are 1000x1000 and would be readable, but they are absent precisely where they would be needed.",
   "cost_avoided": "The repo is stdlib-first with no requirements file. OCR would have added its first Python dependency plus a system binary in CI, for a 2% return.",
   "conclusion": "No remaining source moves grocery past its ~45% pack-label ceiling, so 49.3% stands as the measured best case. The honest options are to accept it, or to redefine the metric so it counts only fields some reachable source actually publishes."
+ },
+ "browser_path_tested": {
+  "verdict": "Works, but worth about +0.21% \u2014 not a route to 80%.",
+  "finding": "The Chrome extension became available later in the session, so the 359 records recorded as needing a human page-save were re-tested. Samsung's spec page renders fully in a browser: 4000 mAh battery, 8 GB RAM, 50+10+12 MP, OIS, 120 Hz, 147.0 x 70.6 x 7.6 mm, 167 g, launch date, eSIM, Bluetooth 5.3 \u2014 about 30 fields, including year/launch_month/camera_ois/esim that an earlier pass concluded no maker publishes. They are published; they were behind JavaScript.",
+  "why_it_is_small": "Discovery, not rendering, is the blocker. Samsung's sitemap has 7 entries and no per-product spec URLs, so each product needs its URL resolved by hand. Only 115 of 324 browser-blocked records (35%) carry an extractable model code. 115 records x ~30 fields = 3,450 values = +0.21% of overall fill.",
+  "also_found": "Most 'phone' records for these brands are laptops \u2014 Samsung's 40 are Galaxy Books, and HP/Lenovo/Acer likewise. They are marketplace listings with model codes embedded in the title, not clean model names."
+ },
+ "crawl_projection_corrected": {
+  "measured": {
+   "crawled_records_facts_each": 15.1,
+   "uncrawled_records_facts_each": 4.0
+  },
+  "finishing_existing_records": "9,208 uncrawled records lifted to the crawled rate = 102,732 values = 40.9% overall",
+  "full_inventory": "57,562 pages remain of a 90,628 inventory. At the observed 87% distinct rate that is ~50,078 NEW records \u2014 but each arrives with ~38 empty slots as well as ~15.1 facts, so the full crawl lands at 37.4%, not higher. An earlier estimate of +46% counted the facts and not the slots they bring with them.",
+  "conclusion": "37.4% is the projected end state of all crawling now in flight."
  }
 }
