@@ -1,0 +1,644 @@
+{
+ "note": "Insurance records whose stored `name` is shared by several UINs. A UIN identifies exactly one filed product, so a name covering many UINs is wrong for all but at most one of them. Traced to insurer downloads pages where one product heading was applied to every document listed beneath it. The UINs and therefore the ids are correct — these are display names only, and no record is duplicated. NOT repaired: the real name is on page 1 of each policy PDF, but a title regex resolved only 7 of 588 documents and three of those were disclaimer lines, so this needs a per-insurer reader rather than one pattern.",
+ "records_affected": 82,
+ "name_groups": 26,
+ "groups": {
+  "HDFC ERGO :: Critical Illness- HDFHLIA22141V032122": [
+   {
+    "id": "oc_12e5afc29d8a",
+    "uin": "HDFHLIP26058V082526",
+    "sources": [
+     "https://www.hdfcergo.com/health-insurance",
+     "https://customer-portal-assets.hdfcergo.com/documents/PolicyWordings_myOptimaSecure-76673175551.pdf"
+    ]
+   },
+   {
+    "id": "oc_7d29cb743d31",
+    "uin": "HDFHLIA21271V022021",
+    "sources": [
+     "https://www.hdfcergo.com/health-insurance",
+     "https://customer-portal-assets.hdfcergo.com/documents/myhealth-suraksha-hospital-cash-add-on-pw(1)-626264177644.pdf"
+    ]
+   },
+   {
+    "id": "oc_99aa58963dc1",
+    "uin": "HDFHLIA22188V012122",
+    "sources": [
+     "https://www.hdfcergo.com/health-insurance",
+     "https://customer-portal-assets.hdfcergo.com/documents/unlimited-restore-(add-on)---pw-cis(1)-236621799203.pdf"
+    ]
+   },
+   {
+    "id": "oc_b60e948fa126",
+    "uin": "HDFHLIP25012V082425",
+    "sources": [
+     "https://www.hdfcergo.com/health-insurance"
+    ]
+   },
+   {
+    "id": "oc_d785e70d0379",
+    "uin": "APOPAIP19004V011920",
+    "sources": [
+     "https://www.hdfcergo.com/health-insurance",
+     "https://customer-portal-assets.hdfcergo.com/assets/v2/docs/default-source/downloads/policy-wordings/health/ipa-rider/ipa-rider---pww(1)-893292659493.pdf"
+    ]
+   }
+  ],
+  "HDFC ERGO :: Medisure Super Top Up Insurance": [
+   {
+    "id": "oc_0740f225fedf",
+    "uin": "HDFHLIP22021V042122",
+    "sources": [
+     "https://www.hdfcergo.com/health-insurance",
+     "https://customer-portal-assets.hdfcergo.com/documents/myhealth-medisure-super-top-up-insurance-569138917326.pdf"
+    ]
+   },
+   {
+    "id": "oc_1e2ee8d9987b",
+    "uin": "HDFHLIP21131V012021",
+    "sources": [
+     "https://www.hdfcergo.com/health-insurance",
+     "https://customer-portal-assets.hdfcergo.com/documents/myhealth-koti-suraksha-pw-327779800227.pdf"
+    ]
+   },
+   {
+    "id": "oc_4e023b1054ab",
+    "uin": "HDFHLIP21464V022021",
+    "sources": [
+     "https://www.hdfcergo.com/health-insurance",
+     "https://customer-portal-assets.hdfcergo.com/documents/critical-illness-policy-wordings-361994503788.pdf"
+    ]
+   }
+  ],
+  "Max Life :: Axis Max Life Smart Fixed-return Digital Plan": [
+   {
+    "id": "oc_e61a528a0c57",
+    "uin": "104N116V16",
+    "sources": [
+     "https://www.maxlifeinsurance.com/term-insurance-plans"
+    ]
+   },
+   {
+    "id": "oc_f46c7dc48332",
+    "uin": "104N123V07",
+    "sources": [
+     "https://www.maxlifeinsurance.com/term-insurance-plans"
+    ]
+   }
+  ],
+  "Max Life :: Axis Max Life Smart Secure Plus Plan": [
+   {
+    "id": "oc_8788c71e7ca8",
+    "uin": "104N117V02",
+    "sources": [
+     "https://www.maxlifeinsurance.com/term-insurance-plans"
+    ]
+   },
+   {
+    "id": "oc_df7b10fb3521",
+    "uin": "104N118V13",
+    "sources": [
+     "https://www.maxlifeinsurance.com/term-insurance-plans"
+    ]
+   }
+  ],
+  "Bajaj Allianz Life :: Individual Life Insurance Term Plan": [
+   {
+    "id": "oc_4506b875d4d2",
+    "uin": "116N198V08",
+    "sources": [
+     "https://www.bajajallianzlife.com/term-insurance-plans.html"
+    ]
+   },
+   {
+    "id": "oc_827fb94664f6",
+    "uin": "116N198V07",
+    "sources": [
+     "https://www.bajajallianzlife.com/term-insurance-plans.html"
+    ]
+   }
+  ],
+  "Bajaj Allianz Life :: Individual Pure Risk Premium Life Insurance Plan Life": [
+   {
+    "id": "oc_1ef9bb56fd83",
+    "uin": "116N165V01",
+    "sources": [
+     "https://www.bajajallianzlife.com/term-insurance-plans.html",
+     "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/term-insurance/saral-jeevan-bima-policy-doc.pdf"
+    ]
+   },
+   {
+    "id": "oc_4d90ce4074bc",
+    "uin": "116N183V01",
+    "sources": [
+     "https://www.bajajallianzlife.com/term-insurance-plans.html",
+     "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/term-insurance/diabetic-term-plan-policy-doc.pdf"
+    ]
+   }
+  ],
+  "LIC :: B210V02 5 LIC's Linked Accidental Death Benefit Rider": [
+   {
+    "id": "oc_0c1b0a1e7ebb",
+    "uin": "512B203V03",
+    "sources": [
+     "https://licindia.in/insurance-plan"
+    ]
+   },
+   {
+    "id": "oc_44ad737d5642",
+    "uin": "512B227V01",
+    "sources": [
+     "https://licindia.in/insurance-plan"
+    ]
+   },
+   {
+    "id": "oc_5afde1f51c02",
+    "uin": "512A211V02",
+    "sources": [
+     "https://licindia.in/insurance-plan"
+    ]
+   },
+   {
+    "id": "oc_964b4cd0cc17",
+    "uin": "512B209V02",
+    "sources": [
+     "https://licindia.in/insurance-plan"
+    ]
+   },
+   {
+    "id": "oc_c80714963cff",
+    "uin": "512B226V01",
+    "sources": [
+     "https://licindia.in/insurance-plan"
+    ]
+   },
+   {
+    "id": "oc_ca5ba092e8cf",
+    "uin": "512B204V04",
+    "sources": [
+     "https://licindia.in/insurance-plan"
+    ]
+   }
+  ],
+  "LIC :: Credit Life 878 512N358V01 3 LIC’s Yuva Credit": [
+   {
+    "id": "oc_16e76ac87a5d",
+    "uin": "512N350V02",
+    "sources": [
+     "https://licindia.in/insurance-plan"
+    ]
+   },
+   {
+    "id": "oc_a6c3a3b84b97",
+    "uin": "512N341V01",
+    "sources": [
+     "https://licindia.in/insurance-plan"
+    ]
+   }
+  ],
+  "LIC :: LIC's Jeevan Tarun 734 512N299V03 Term Assurance Plans": [
+   {
+    "id": "oc_ab1cc6f56c33",
+    "uin": "512N278V03",
+    "sources": [
+     "https://licindia.in/insurance-plan"
+    ]
+   },
+   {
+    "id": "oc_b1a934b2f578",
+    "uin": "512N296V03",
+    "sources": [
+     "https://licindia.in/insurance-plan"
+    ]
+   }
+  ],
+  "LIC :: LIC's Jeevan Umang 745 512N312V03 2 LIC's Jeevan": [
+   {
+    "id": "oc_42e3a33192a0",
+    "uin": "512N316V03",
+    "sources": [
+     "https://licindia.in/insurance-plan"
+    ]
+   },
+   {
+    "id": "oc_b1da6cab033f",
+    "uin": "512N280V03",
+    "sources": [
+     "https://licindia.in/insurance-plan"
+    ]
+   }
+  ],
+  "LIC :: LIC's Single Premium Endowment Plan 717 512N283V03 2": [
+   {
+    "id": "oc_0bf027dc202d",
+    "uin": "512N297V03",
+    "sources": [
+     "https://licindia.in/insurance-plan"
+    ]
+   },
+   {
+    "id": "oc_6765b2414eb3",
+    "uin": "512N304V03",
+    "sources": [
+     "https://licindia.in/insurance-plan"
+    ]
+   },
+   {
+    "id": "oc_9444bf21e28f",
+    "uin": "512N365V02",
+    "sources": [
+     "https://licindia.in/insurance-plan"
+    ]
+   },
+   {
+    "id": "oc_c6bac5de3825",
+    "uin": "512N279V03",
+    "sources": [
+     "https://licindia.in/insurance-plan"
+    ]
+   },
+   {
+    "id": "oc_e995574b2bf1",
+    "uin": "512N277V03",
+    "sources": [
+     "https://licindia.in/insurance-plan"
+    ]
+   }
+  ],
+  "LIC :: N296V03 5 LIC's Jeevan Tarun 734 512N299V03 Term": [
+   {
+    "id": "oc_28b745c1ec18",
+    "uin": "512N357V01",
+    "sources": [
+     "https://licindia.in/insurance-plan"
+    ]
+   },
+   {
+    "id": "oc_7ec72e749ecf",
+    "uin": "512N358V01",
+    "sources": [
+     "https://licindia.in/insurance-plan"
+    ]
+   },
+   {
+    "id": "oc_b4ef149c2723",
+    "uin": "512N356V02",
+    "sources": [
+     "https://licindia.in/insurance-plan"
+    ]
+   }
+  ],
+  "LIC :: Plan 736 512N304V03 6 LIC's Amritbaal 774 512N365V02": [
+   {
+    "id": "oc_7b2ddc6f17af",
+    "uin": "512N393V01",
+    "sources": [
+     "https://licindia.in/insurance-plan"
+    ]
+   },
+   {
+    "id": "oc_894b9449d38a",
+    "uin": "512N387V02",
+    "sources": [
+     "https://licindia.in/insurance-plan"
+    ]
+   }
+  ],
+  "LIC :: Single Premium 888 512N393V01 11 LIC’s New Jeevan": [
+   {
+    "id": "oc_68edb837d5d5",
+    "uin": "512N312V03",
+    "sources": [
+     "https://licindia.in/insurance-plan"
+    ]
+   },
+   {
+    "id": "oc_6d58de4b53a7",
+    "uin": "512N394V01",
+    "sources": [
+     "https://licindia.in/insurance-plan"
+    ]
+   },
+   {
+    "id": "oc_75c74a60a342",
+    "uin": "512N392V01",
+    "sources": [
+     "https://licindia.in/insurance-plan"
+    ]
+   },
+   {
+    "id": "oc_cca60bb94490",
+    "uin": "512N363V02",
+    "sources": [
+     "https://licindia.in/insurance-plan"
+    ]
+   }
+  ],
+  "HDFC Life :: Explore Plan HDFC Life Critical Illness Plus Rider": [
+   {
+    "id": "oc_5b99ce9ea2fc",
+    "uin": "101N177V04",
+    "sources": [
+     "https://www.hdfclife.com/term-insurance-plans"
+    ]
+   },
+   {
+    "id": "oc_8bccf816247c",
+    "uin": "101N179V01",
+    "sources": [
+     "https://www.hdfclife.com/term-insurance-plans"
+    ]
+   }
+  ],
+  "HDFC Life :: HDFC Life Critical Illness Plus Rider": [
+   {
+    "id": "oc_26e0d6585d7c",
+    "uin": "101B040V01",
+    "sources": [
+     "https://www.hdfclife.com/term-insurance-plans"
+    ]
+   },
+   {
+    "id": "oc_3379b8a0fa62",
+    "uin": "101B014V02",
+    "sources": [
+     "https://www.hdfclife.com/term-insurance-plans"
+    ]
+   }
+  ],
+  "Aditya Birla Health :: Aditya Birla Health Insurance Co": [
+   {
+    "id": "oc_57f610dce491",
+    "uin": "ADIHLIP24097V012324",
+    "sources": [
+     "https://www.adityabirlacapital.com/healthinsurance/health-insurance-plans"
+    ]
+   },
+   {
+    "id": "oc_d4bf5c83e7c7",
+    "uin": "ADIHLIP21069V022021",
+    "sources": [
+     "https://www.adityabirlacapital.com/healthinsurance/health-insurance-plans"
+    ]
+   }
+  ],
+  "Aditya Birla Health :: Antyodaya Shramik Suraksha Yojana": [
+   {
+    "id": "oc_01bf399dece0",
+    "uin": "ADITGBP23002V012223",
+    "sources": [
+     "https://www.adityabirlacapital.com/healthinsurance/health-insurance-plans"
+    ]
+   },
+   {
+    "id": "oc_171e43cc6c41",
+    "uin": "ADIHLGP22023V032122",
+    "sources": [
+     "https://www.adityabirlacapital.com/healthinsurance/health-insurance-plans"
+    ]
+   },
+   {
+    "id": "oc_4a043eec4f4b",
+    "uin": "ADIHLIP18076V011718",
+    "sources": [
+     "https://www.adityabirlacapital.com/healthinsurance/health-insurance-plans",
+     "https://healthstatic.insurancedekho.com/prod/planpdf/20190613125009.pdf"
+    ]
+   },
+   {
+    "id": "oc_63734046121d",
+    "uin": "ADIHLIP20170V011920",
+    "sources": [
+     "https://www.adityabirlacapital.com/healthinsurance/health-insurance-plans"
+    ]
+   },
+   {
+    "id": "oc_7836664ca20b",
+    "uin": "ADIPAGP24071V012324",
+    "sources": [
+     "https://www.adityabirlacapital.com/healthinsurance/health-insurance-plans"
+    ]
+   },
+   {
+    "id": "oc_b2c299512ec9",
+    "uin": "ADIHLIP21136V012021",
+    "sources": [
+     "https://www.adityabirlacapital.com/healthinsurance/health-insurance-plans"
+    ]
+   },
+   {
+    "id": "oc_c97cae02ed10",
+    "uin": "ADIHLGP22190V032122",
+    "sources": [
+     "https://www.adityabirlacapital.com/healthinsurance/health-insurance-plans"
+    ]
+   },
+   {
+    "id": "oc_d19e516c7f2b",
+    "uin": "ADITGBP21600V032021",
+    "sources": [
+     "https://www.adityabirlacapital.com/healthinsurance/health-insurance-plans"
+    ]
+   },
+   {
+    "id": "oc_d44cfe30ecc9",
+    "uin": "ADIHLGP23155V032223",
+    "sources": [
+     "https://www.adityabirlacapital.com/healthinsurance/health-insurance-plans"
+    ]
+   },
+   {
+    "id": "oc_f8d706a50e38",
+    "uin": "ADIHLIP21080V012021",
+    "sources": [
+     "https://www.adityabirlacapital.com/healthinsurance/health-insurance-plans",
+     "https://healthstatic.insurancedekho.com/prod/planpdf/20200722180607.pdf"
+    ]
+   }
+  ],
+  "Aditya Birla Health :: Arogya Sanjeevani Policy": [
+   {
+    "id": "oc_207dec07d30c",
+    "uin": "ADIPAIP21628V012021",
+    "sources": [
+     "https://www.adityabirlacapital.com/healthinsurance/health-insurance-plans"
+    ]
+   },
+   {
+    "id": "oc_725e6dccb17c",
+    "uin": "ADIHLIA22177V012122",
+    "sources": [
+     "https://www.adityabirlacapital.com/healthinsurance/health-insurance-plans"
+    ]
+   },
+   {
+    "id": "oc_81e052898421",
+    "uin": "ADIHLIA22218V012122",
+    "sources": [
+     "https://www.adityabirlacapital.com/healthinsurance/health-insurance-plans"
+    ]
+   },
+   {
+    "id": "oc_af174c77b9e8",
+    "uin": "ADIHLIP21062V022021",
+    "sources": [
+     "https://www.adityabirlacapital.com/healthinsurance/health-insurance-plans"
+    ]
+   }
+  ],
+  "Aditya Birla Health :: Group Arogya Sanjeevani Policy": [
+   {
+    "id": "oc_3e4805292362",
+    "uin": "ADIHLIA24176V012324",
+    "sources": [
+     "https://www.adityabirlacapital.com/healthinsurance/health-insurance-plans"
+    ]
+   },
+   {
+    "id": "oc_3f59fe830ff5",
+    "uin": "ADIHLIA25035V012425",
+    "sources": [
+     "https://www.adityabirlacapital.com/healthinsurance/health-insurance-plans"
+    ]
+   },
+   {
+    "id": "oc_6e3d0bba693b",
+    "uin": "ADIHLAP21588V012021",
+    "sources": [
+     "https://www.adityabirlacapital.com/healthinsurance/health-insurance-plans"
+    ]
+   },
+   {
+    "id": "oc_8215f212e3f8",
+    "uin": "ADIHLGP21229V012021",
+    "sources": [
+     "https://www.adityabirlacapital.com/healthinsurance/health-insurance-plans"
+    ]
+   },
+   {
+    "id": "oc_843c571dd6f7",
+    "uin": "ADIHLGP21055V012021",
+    "sources": [
+     "https://www.adityabirlacapital.com/healthinsurance/health-insurance-plans"
+    ]
+   },
+   {
+    "id": "oc_d17ca8dc14de",
+    "uin": "ADIHLAP21590V012021",
+    "sources": [
+     "https://www.adityabirlacapital.com/healthinsurance/health-insurance-plans"
+    ]
+   },
+   {
+    "id": "oc_ffe3e41bac15",
+    "uin": "ADIHLAP21591V012021",
+    "sources": [
+     "https://www.adityabirlacapital.com/healthinsurance/health-insurance-plans"
+    ]
+   }
+  ],
+  "Aditya Birla Health :: Super Health Plus Top": [
+   {
+    "id": "oc_8fee0834d653",
+    "uin": "ADIHLIA22212V012122",
+    "sources": [
+     "https://www.adityabirlacapital.com/healthinsurance/health-insurance-plans"
+    ]
+   },
+   {
+    "id": "oc_d5c4aa5a1f6a",
+    "uin": "ADIHLIP22008V012223",
+    "sources": [
+     "https://www.adityabirlacapital.com/healthinsurance/health-insurance-plans"
+    ]
+   }
+  ],
+  "TATA AIA Life :: Individual Life Insurance Product": [
+   {
+    "id": "oc_76883a88cd29",
+    "uin": "110N176V02",
+    "sources": [
+     "https://www.tataaia.com/term-insurance-plans.html"
+    ]
+   },
+   {
+    "id": "oc_bb9b8920b0b9",
+    "uin": "110N171V16",
+    "sources": [
+     "https://www.tataaia.com/term-insurance-plans.html"
+    ]
+   }
+  ],
+  "TATA AIA Life :: Tata AIA Non-Linked Comprehensive Protection Rider": [
+   {
+    "id": "oc_07cc744b3569",
+    "uin": "110B046V04",
+    "sources": [
+     "https://www.tataaia.com/term-insurance-plans.html"
+    ]
+   },
+   {
+    "id": "oc_0b0fa80fe318",
+    "uin": "110B045V03",
+    "sources": [
+     "https://www.tataaia.com/term-insurance-plans.html"
+    ]
+   },
+   {
+    "id": "oc_d8602e7ac267",
+    "uin": "110B031V03",
+    "sources": [
+     "https://www.tataaia.com/term-insurance-plans.html"
+    ]
+   }
+  ],
+  "TATA AIA Life :: Tata AIA Smart Sampoorna Raksha Supreme Unit Linked": [
+   {
+    "id": "oc_2ed23ecbe53e",
+    "uin": "110N178V01",
+    "sources": [
+     "https://www.tataaia.com/term-insurance-plans.html"
+    ]
+   },
+   {
+    "id": "oc_6053b45db22e",
+    "uin": "110L179V02",
+    "sources": [
+     "https://www.tataaia.com/term-insurance-plans.html"
+    ]
+   }
+  ],
+  "TATA AIG :: HIV AIDS Treatment Expenses": [
+   {
+    "id": "oc_ccbc821b176d",
+    "uin": "TATHLIP23190V012223",
+    "sources": [
+     "https://www.tataaig.com/health-insurance"
+    ]
+   },
+   {
+    "id": "oc_d0e054dc4248",
+    "uin": "TATHLIA25035V012425",
+    "sources": [
+     "https://www.tataaig.com/health-insurance"
+    ]
+   }
+  ],
+  "TATA AIG :: View More Benefits Does Health Insurance Cover Covid-19": [
+   {
+    "id": "oc_01450a6e56dc",
+    "uin": "TATHLIA25039V012425",
+    "sources": [
+     "https://www.tataaig.com/health-insurance"
+    ]
+   },
+   {
+    "id": "oc_2c8b52a2dc0a",
+    "uin": "TATHLIP24159V042324",
+    "sources": [
+     "https://www.tataaig.com/health-insurance"
+    ]
+   }
+  ]
+ }
+}
