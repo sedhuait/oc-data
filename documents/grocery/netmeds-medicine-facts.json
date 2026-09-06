@@ -1,0 +1,340 @@
+{
+  "title": "Netmeds publishes, on every medicine page, four facts this repo has no field for",
+  "written": "2026-09-07",
+  "status": "evidence for the schema decision in medicines-proposal.json — NOT applied; schemas/ is frozen",
+  "why_this_exists": "medicines-proposal.json's 2026-09-06 review recommended new medicine fields (prescription_required, dosage_form, drug_sensitivity) on the strength of 3,472 cached Blinkit pages. This file is a SECOND, INDEPENDENT source saying the same thing, and it adds two facts Blinkit does not publish: the active ingredient and the Indian drug schedule. Counts below are read from the collected artefact, not projected.",
+  "source": {
+    "host": "www.netmeds.com",
+    "permission": "robots.txt read through lib/polite.py. It disallows carts, accounts, search and the faceted /products/?l1..l3 URLs; /product/ detail pages and /sitemap.xml are permitted. Fetcher.allowed() returns True for both. Crawled at 2s, one host, one worker.",
+    "where_the_facts_come_from": "The page's own schema.org/Drug JSON-LD block. Structured publisher fields, not marketing prose. The `offers` object is deleted before extraction and an assertion fails the run if any price/stock string survives — E10 forbids them and the page is full of both.",
+    "sitemap": "index of 657 children; 646 product sitemaps yielding 322,573 product URLs"
+  },
+  "population": {
+    "target": "4,162 records in products/grocery whose name states a prescription dosage form ('strip of N', or an N mg/mcg strength) inside category 'Health & supplements'",
+    "why_they_fill_badly": "they are licensed medicines scored against a food nutrition sheet",
+    "gtin_available": 5,
+    "join": "brand name + strength, because there is no barcode to join on"
+  },
+  "matching": {
+    "rule": "A name parses to (brand stem, qualifier set, strength set, dosage form) and ALL FOUR must agree. Nothing in the name is treated as marketing noise: single letters (D, LN, MR, HC), forte/plus/XR modifiers and combination ratios are all identity-bearing, because Telmiget 40mg and Telmiget LN are different drugs, as are Methycobal and Methycobal D.",
+    "second_check": "After fetching, the page's own availableStrength must contain the record's strength (subset, not equality — a combination product legitimately lists more components than the record names). A redirect away from the requested URL is treated as a non-match.",
+    "third_check": "The record's brand must appear in the page's marketer or manufacturer. Netmeds' own schema.org `brand` field is the retailer ('Netmeds'), so it cannot be used for this."
+  },
+  "measured": {
+    "records_with_facts_collected": 2228,
+    "field_presence_in_collected_records": {
+      "legal_status": {
+        "count": 2228,
+        "of": 2228,
+        "pct": 100.0
+      },
+      "rx": {
+        "count": 2228,
+        "of": 2228,
+        "pct": 100.0
+      },
+      "route": {
+        "count": 2228,
+        "of": 2228,
+        "pct": 100.0
+      },
+      "dosage_form": {
+        "count": 2227,
+        "of": 2228,
+        "pct": 100.0
+      },
+      "generic": {
+        "count": 2213,
+        "of": 2228,
+        "pct": 99.3
+      },
+      "strength": {
+        "count": 2182,
+        "of": 2228,
+        "pct": 97.9
+      },
+      "marketer": {
+        "count": 2162,
+        "of": 2228,
+        "pct": 97.0
+      },
+      "manufacturer": {
+        "count": 2035,
+        "of": 2228,
+        "pct": 91.3
+      },
+      "active": {
+        "count": 1724,
+        "of": 2228,
+        "pct": 77.4
+      },
+      "indication": {
+        "count": 1715,
+        "of": 2228,
+        "pct": 77.0
+      },
+      "netmeds_name": {
+        "count": 1698,
+        "of": 2228,
+        "pct": 76.2
+      },
+      "sku": {
+        "count": 1698,
+        "of": 2228,
+        "pct": 76.2
+      }
+    },
+    "written_into_the_schema_as_it_stands_today": {
+      "ingredients": 2100,
+      "manufacturer": 1253,
+      "marketed_by": 2058,
+      "note": "counts from the applied merge; re-running this generator after the merge reports zero remaining because the values are already in place."
+    },
+    "note_on_sku_and_name": "netmeds_name and sku are absent on exactly the records matched to a pack-size FAMILY (the same medicine in 10s and 15s). Those SKUs differ in name and id, so the consensus rule nulls the fields they disagree on and keeps only the ones they agree on. This is the safety rule working, not missing data."
+  },
+  "the_four_fields_this_repo_cannot_store": {
+    "prescription_required": {
+      "present_on": 2228,
+      "of": 2228,
+      "distinct_values": [
+        {
+          "value": "https://schema.org/PrescriptionOnly",
+          "count": 2228
+        }
+      ],
+      "why_it_matters": "arguably the single most important fact about a medicine",
+      "corroborates": "Blinkit: 3,269 Yes / 203 No across 3,472 pages",
+      "caveat_read_honestly": "Every record collected here is PrescriptionOnly, with no OTC variance — unlike Blinkit's 3,269/203 split. That is expected: this population was SELECTED for prescription dosage forms, so the field looks constant on this slice and would not on the wider catalogue. A field must not be justified on a sample chosen to make it constant; the Blinkit split is the better evidence that it varies."
+    },
+    "drug_schedule": {
+      "present_on": 2228,
+      "of": 2228,
+      "distinct_values": [
+        {
+          "value": "Schedule H (India)",
+          "count": 1992
+        },
+        {
+          "value": "Schedule NP (India)",
+          "count": 174
+        },
+        {
+          "value": "Schedule H1 (India)",
+          "count": 59
+        },
+        {
+          "value": "Schedule O (India)",
+          "count": 3
+        }
+      ],
+      "why_it_matters": "the Indian legal class (Schedule H, H1, X, NP) that governs how a medicine may be sold. Blinkit does not publish it."
+    },
+    "dosage_form": {
+      "present_on": 2227,
+      "of": 2228,
+      "distinct_values": [
+        {
+          "value": "TABLET",
+          "count": 1657
+        },
+        {
+          "value": "CAPSULE",
+          "count": 260
+        },
+        {
+          "value": "Tablet",
+          "count": 246
+        },
+        {
+          "value": "Capsule",
+          "count": 44
+        },
+        {
+          "value": "SYRUP",
+          "count": 7
+        },
+        {
+          "value": "SUPPOSITORIE",
+          "count": 4
+        },
+        {
+          "value": "ROTACAP",
+          "count": 2
+        },
+        {
+          "value": "VAGINAL CAPSULES",
+          "count": 1
+        },
+        {
+          "value": "Suspension",
+          "count": 1
+        },
+        {
+          "value": "KIT",
+          "count": 1
+        },
+        {
+          "value": "DRY SYRUP",
+          "count": 1
+        },
+        {
+          "value": "STRIP",
+          "count": 1
+        },
+        {
+          "value": "SUSPENSION",
+          "count": 1
+        },
+        {
+          "value": "CHEWABLE TABLET",
+          "count": 1
+        }
+      ],
+      "corroborates": "Blinkit Medicine Type: Tablet 2,872 / Capsule 546 / Gel 4",
+      "normalisation_needed": "Netmeds emits the value in mixed case ('TABLET' and 'Tablet' both occur). A field for this needs a controlled vocabulary and case folding, or it will carry both spellings."
+    },
+    "administration_route": {
+      "present_on": 2228,
+      "of": 2228,
+      "distinct_values": [
+        {
+          "value": "Oral",
+          "count": 2228
+        }
+      ]
+    },
+    "therapeutic_indication": {
+      "present_on": 1715,
+      "of": 2228,
+      "example_values": [
+        {
+          "value": "Type II diabetes mellitus",
+          "count": 146
+        },
+        {
+          "value": "Hypertension",
+          "count": 81
+        },
+        {
+          "value": "Bacterial infections",
+          "count": 80
+        },
+        {
+          "value": "Hyperlipidaemia",
+          "count": 61
+        },
+        {
+          "value": "Type II Diabetes mellitus",
+          "count": 47
+        },
+        {
+          "value": "Type 2 diabetes mellitus",
+          "count": 37
+        },
+        {
+          "value": "Hypertension (high blood pressure)",
+          "count": 27
+        },
+        {
+          "value": "High blood pressure",
+          "count": 26
+        },
+        {
+          "value": "Hypertension, Angina",
+          "count": 19
+        },
+        {
+          "value": "Pain relief",
+          "count": 18
+        },
+        {
+          "value": "Hypertension, Angina, Heart Attack, Stroke",
+          "count": 18
+        },
+        {
+          "value": "Epilepsy",
+          "count": 18
+        }
+      ],
+      "caution": "free text, not a controlled vocabulary; it would need one before it could be a field"
+    },
+    "strength": {
+      "present_on": 2182,
+      "of": 2228,
+      "example_values": [
+        {
+          "value": "Telmisartan 40 mg",
+          "count": 25
+        },
+        {
+          "value": "Rosuvastatin 10 mg",
+          "count": 22
+        },
+        {
+          "value": "Glimepiride 2 mg+Metformin 500 mg",
+          "count": 22
+        },
+        {
+          "value": "Glimepiride 2 mg+Metformin 500 mg+Voglibose 0.2 mg",
+          "count": 16
+        },
+        {
+          "value": "Glimepiride 2 mg+Metformin 500 mg+Pioglitazone 15 mg",
+          "count": 15
+        },
+        {
+          "value": "Glimepiride 1 mg+Metformin 500 mg",
+          "count": 15
+        },
+        {
+          "value": "Amlodipine 5 mg+Telmisartan 40 mg",
+          "count": 15
+        },
+        {
+          "value": "Hydrochlorothiazide 12.5 mg+Telmisartan 40 mg",
+          "count": 14
+        },
+        {
+          "value": "Rosuvastatin 20 mg",
+          "count": 14
+        },
+        {
+          "value": "Atorvastatin 10 mg",
+          "count": 13
+        }
+      ],
+      "note": "carried as 'Molecule N mg'. Used here only to VERIFY the match, never written: there is no field for it and stuffing it into ingredients would invent a shape the repo does not have."
+    }
+  },
+  "what_was_deliberately_not_written": {
+    "status_candidate": "NOT set. `candidate` (validate.ts E6) marks a record missing its category's REQUIRED fields; these 4,158 satisfy theirs (`quantity`). Demoting a record because a fact was ADDED to it inverts the flag, and it would overwrite an existing value, which the add-only rule forbids. Provenance rides in the sources entry; confidence already reads 'extracted'.",
+    "price_mrp_stock": "never read; the extractor deletes `offers` and asserts on the result",
+    "rx_schedule_indication_route_form": "no field exists and TOP_LEVEL_FIELDS/E7 is a closed allowlist, so writing them would be an error. That is what this document is for."
+  },
+  "a_trap_worth_recording": {
+    "finding": "A present field name is not a present fact.",
+    "what_happened": "Some Netmeds product pages emit schema.org @type 'Product' rather than 'Drug'. On those, the string `availableStrength` IS present in the HTML — but as an unrendered Mustache template, {{product.attributes.genericnamewithdosage}}. The page emits 'Product' precisely BECAUSE the drug attributes were absent, so the template never filled. Widening the extractor to accept 'Product' would have written literal '{{...}}' strings into `ingredients` on medicine records. Verified: 0 banked records contain a placeholder.",
+    "same_class_as": [
+      "Blinkit 'Standard Serve Size' = '1 g' on 7.5% of pages",
+      "Blinkit 'Shelf Life (In days)' = 36500 (one hundred years) on 3,459 of 3,472 medicine pages",
+      "Open Food Facts packaging = a bare 'plastic' on 305 of 677 values"
+    ],
+    "rule_of_thumb": "grep for the field NAME finds templates, defaults and placeholders as readily as data. Read the parsed VALUE, and read the distinct values in bulk."
+  },
+  "a_third_trap": {
+    "finding": "Describing a rule is not implementing it.",
+    "what_happened": "The strength check was described, in comments and in reports, as normalising units. It did not: it compared literal strings, so a record stating '1gm' was refused against a page stating '1000mg' — the same dose. Nine hand-written test cases all passed because every one of them happened to use mg or mcg. The gap was found only when someone reimplemented the rule from its prose description and got a different answer. Scope was 4 of 2,516 matched records; all 4 are now correctly banked (Gluconorm SR 1gm -> Metformin, Levipil XR 1gm -> Levetiracetam, Vegaz, Geomax).",
+    "guard_added": "IU and % are deliberately NOT convertible to a mass, so 400 IU never matches 400 mg, and 1g vs 1mg still refuses."
+  },
+  "a_second_trap": {
+    "finding": "A cumulative progress counter is not a measurement.",
+    "what_happened": "This run's usable-yield estimate moved 60.4% -> 40% -> 52% because the pages Netmeds publishes no drug attributes for were concentrated in the alphabetical head of the crawl. Every number in this file is therefore read from facts.jsonl at write time."
+  },
+  "held_back_for_human_review": {
+    "count": 112,
+    "file": "oc-crawlers/data/netmeds/held_back_brand_mismatch.json",
+    "why": "The record's brand does not appear in the page's marketer or manufacturer. These are NOT written. Reading them, most are not bad matches at all but corporate history: 57 of the 112 are Ranbaxy-branded products (Caverta, Cifran, Cepodem) whose pages name Sun Pharmaceutical, which acquired Ranbaxy in 2015. Others are licensed brands (a Cipla record against Novartis's Galvus) or a parent company (Crocin against GlaxoSmithKline Consumer).",
+    "why_not_fixed": "Resolving them needs a hand-written acquisition and licensing table, which is precisely the kind of guess this crawl exists to avoid. 82 of the 112 agree on strength, so most are probably correct — but 'probably' is not the standard for a medicine's active ingredient. They are held, listed, and left for a human."
+  },
+  "recommendation": "Two independent sources now agree that a medicine page publishes prescription status and dosage form on essentially every page, and Netmeds adds the drug schedule and the active ingredient. The active ingredient can be stored TODAY in the existing top-level `ingredients` array and this run does so. The other four need fields. That is the decision medicines-proposal.json already asked for, now with a second source behind it."
+}
