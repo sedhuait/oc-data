@@ -160,5 +160,24 @@
       "verdict": "too small to matter",
       "evidence": "195 records of 99,526; filling both to 100% moves the overall figure by about 0.1 point."
     }
+  },
+  "headline_figure_corrected": {
+    "checked": "2026-09-06",
+    "figure": "41.02%",
+    "was_reported": "41.80%",
+    "why": "The 41.80% figure excluded 3,153 grocery records whose category ('Other' 2,942, 'Confectionery' 211) is not declared in schemas/grocery.json. They are not unscored: validate.ts:111 falls back to categories._default, which declares a spec list, so the validator does hold them to it. Counting them adds 72,939 slots and 5,996 filled values, moving the headline from 41.80% to 41.02%.",
+    "method": "Slots = sum over records of len(categories[record.category].spec), falling back to categories._default exactly as validate.ts does. Filled = attributes with a value that is not null, '', [] or {}.",
+    "per_domain": {
+      "grocery": 39.6,
+      "beauty": 43.6,
+      "funds": 58.2,
+      "phones": 13.2,
+      "appliances": 20.2,
+      "cards": 25.9,
+      "insurance": 27.2,
+      "networking": 22.0,
+      "printers": 22.4,
+      "banking": 28.8
+    }
   }
 }
