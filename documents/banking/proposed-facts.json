@@ -115,6 +115,12 @@
    "bank": "ICICI Bank",
    "slug": "icici-bank",
    "fields": {
+    "min_balance_inr": {
+     "value": 0,
+     "quote": " Minimum Monthly Nil ",
+     "why": "the document states the account carries no minimum balance",
+     "page": null
+    },
     "forex_markup_pct": {
      "value": 3.5,
      "quote": "Cross - currency mark - up 3.5%",
@@ -134,9 +140,7 @@
      "page": null
     }
    },
-   "refused": {
-    "min_balance_inr": "no minimum-balance row found in this document"
-   }
+   "refused": {}
   },
   {
    "product": "Salary Account for Visually Impaired",
@@ -181,7 +185,8 @@
    "refused": {
     "min_balance_inr": "no unambiguous amount in the balance row (\"Eligibility Resident Indian, >18yrs Nil average of day-end \")",
     "annual_fee_inr": "the annual fee is stated per location tier ([150, 300] across ['gramin']) — different facts about different holders, so it stays null"
-   }
+   },
+   "renamed_from_extraction": "Savings Account for Visually Impaired / Incapacitated Customers"
   },
   {
    "product": "Broking / I Direct linked Savings Account",
@@ -205,7 +210,8 @@
    "refused": {
     "min_balance_inr": "no minimum-balance row found in this document",
     "annual_fee_inr": "the annual fee is stated per location tier ([150, 300] across ['gramin']) — different facts about different holders, so it stays null"
-   }
+   },
+   "renamed_from_extraction": "Broking IDirect Linked Savings Account"
   },
   {
    "product": "Campus Power Account",
@@ -243,7 +249,7 @@
    }
   },
   {
-   "product": "Savings Account",
+   "product": "Savings Account for Students",
    "file": "campus-power-account.pdf",
    "bank": "ICICI Bank",
    "slug": "icici-bank",
@@ -302,10 +308,11 @@
    "refused": {
     "min_balance_inr": "no minimum-balance row found in this document",
     "annual_fee_inr": "the annual fee is stated per location tier ([150, 300] across ['gramin']) — different facts about different holders, so it stays null"
-   }
+   },
+   "renamed_from_extraction": "Easy Receive Savings Account"
   },
   {
-   "product": "Family 360 Banking",
+   "product": "Family 360° Banking",
    "file": "family-360-banking-service-charges1.pdf",
    "bank": "ICICI Bank",
    "slug": "icici-bank",
@@ -480,7 +487,8 @@
    },
    "refused": {
     "min_balance_inr": "the document gives 3 different amounts ([100000, 500000, 1500000]) for tiers/variants unnamed — these are different facts about different variants, so this stays null"
-   }
+   },
+   "renamed_from_extraction": "BizSavings Account"
   },
   {
    "product": "Insta Save Premium Saving Account",
@@ -504,10 +512,11 @@
    "refused": {
     "min_balance_inr": "no minimum-balance row found in this document",
     "annual_fee_inr": "the annual fee is stated per location tier ([150, 300] across ['gramin']) — different facts about different holders, so it stays null"
-   }
+   },
+   "renamed_from_extraction": "Insta Save Premium Savings Account"
   },
   {
-   "product": "Savings Account",
+   "product": "Savings Account for Unlearned",
    "file": "iterate-savings-account-socs.pdf",
    "bank": "ICICI Bank",
    "slug": "icici-bank",
@@ -645,7 +654,8 @@
    },
    "refused": {
     "min_balance_inr": "the balance is stated as a conditional waiver (\"Minimum monthly Rs. 50,000 Rs. 125,000 requirement waived requirement waived subject to FD of min Rs.2.5 subje\") — the requirement and the escape from it are different numbers, so neither is written"
-   }
+   },
+   "renamed_from_extraction": "Privilege Accounts–Advantage Woman Savings Account"
   },
   {
    "product": "Privilege Accounts Young Star Smart Star",
@@ -679,8 +689,9 @@
     }
    },
    "refused": {
-    "min_balance_inr": "no minimum-balance row found in this document"
-   }
+    "min_balance_inr": "the minimum-balance row is present but empty in this document — unknown, which is not the same as zero"
+   },
+   "renamed_from_extraction": "Privilege Accounts – Young Star and Smart Star"
   },
   {
    "product": "Privilege Banking Accounts Non Senior Citizen",
@@ -704,7 +715,8 @@
    "refused": {
     "min_balance_inr": "no minimum-balance row found in this document",
     "annual_fee_inr": "the annual fee is stated per location tier ([150, 300] across ['gramin']) — different facts about different holders, so it stays null"
-   }
+   },
+   "renamed_from_extraction": "Gold Privilege Savings Account"
   },
   {
    "product": "Privilege Banking Accounts Senior Citizens",
@@ -733,7 +745,8 @@
    },
    "refused": {
     "min_balance_inr": "the balance is stated as a conditional waiver (\"Minimum monthly Rs.10,000 Rs. 50,000 Rs. 1,25,000 requirement requirement is the waived subject to FD waived s\") — the requirement and the escape from it are different numbers, so neither is written"
-   }
+   },
+   "renamed_from_extraction": "Privilege Banking Accounts – Senior Citizen"
   },
   {
    "product": "Regular Salary Account",
@@ -757,7 +770,7 @@
    "refused": {}
   },
   {
-   "product": "Regular Savings Account",
+   "product": "Regular Savings Account (Discontinued)",
    "file": "regular-savings-account-discontinue.pdf",
    "bank": "ICICI Bank",
    "slug": "icici-bank",
@@ -837,25 +850,8 @@
    },
    "refused": {
     "min_balance_inr": "the document gives 3 different amounts ([500000, 1500000, 2500000]) for tiers/variants unnamed — these are different facts about different variants, so this stays null"
-   }
-  },
-  {
-   "product": "Savings Account",
-   "file": "savings-account.pdf",
-   "bank": "ICICI Bank",
-   "slug": "icici-bank",
-   "fields": {
-    "atm_free_txns_other_bank": {
-     "value": 5,
-     "quote": "Maximum of 5 transactions free in a month, across locations, with a cap of 3 transactions at 6 ",
-     "why": "other banks' ATMs: stated as a monthly free count across locations (a lower metro sub-cap applies within it, see the quote)",
-     "page": null
-    }
    },
-   "refused": {
-    "min_balance_inr": "no minimum-balance row found in this document",
-    "annual_fee_inr": "the annual fee is stated per location tier ([3, 150] across ['gramin']) — different facts about different holders, so it stays null"
-   }
+   "renamed_from_extraction": "Salute Doctors Account"
   },
   {
    "product": "Savings Accounts Linked To Family Id",
@@ -879,7 +875,8 @@
    "refused": {
     "min_balance_inr": "the balance is stated as a conditional waiver (\" Minimum monthly Rs. 20,000 Rs. 30,000 Rs. 50,000 Rs. 1,00,000 Rs. 1,00,000 Rs. 2,00,000 requirement requireme\") — the requirement and the escape from it are different numbers, so neither is written",
     "annual_fee_inr": "the annual fee is stated per location tier ([150, 300] across ['gramin']) — different facts about different holders, so it stays null"
-   }
+   },
+   "renamed_from_extraction": "Savings Accounts Linked to Family ID"
   },
   {
    "product": "Senior Citizen Savings Account",
@@ -908,10 +905,11 @@
    },
    "refused": {
     "min_balance_inr": "the only figure is a footnote qualifying a subset of holders (\"Minimum monthly Rs.4 ,50 0 Not applicable subject to standalone FD of min imum Rs 10 ,000 under the same Custo\") — not the requirement for this product today"
-   }
+   },
+   "renamed_from_extraction": "Senior Citizen Regular Savings Account"
   },
   {
-   "product": "Savings Account",
+   "product": "Savings Account for Senior Citizens and Pensioners",
    "file": "senior-savings-account.pdf",
    "bank": "ICICI Bank",
    "slug": "icici-bank",
@@ -988,37 +986,8 @@
    },
    "refused": {
     "min_balance_inr": "no minimum-balance row found in this document"
-   }
-  },
-  {
-   "product": "Smart Star Account",
-   "file": "smart-star-account-service-charges.pdf",
-   "bank": "ICICI Bank",
-   "slug": "icici-bank",
-   "fields": {
-    "atm_free_txns_other_bank": {
-     "value": 5,
-     "quote": "Maximum of 5 transactions free in a month, across locations, with a July 2025) cap of 3 transactions at 6 metro loc",
-     "why": "other banks' ATMs: stated as a monthly free count across locations (a lower metro sub-cap applies within it, see the quote)",
-     "page": null
-    },
-    "forex_markup_pct": {
-     "value": 3.5,
-     "quote": "Cross-currency mark-up 3.5%",
-     "why": "stated as a percentage of the transaction amount",
-     "page": null
-    },
-    "issue_fee_inr": {
-     "value": 0,
-     "quote": "Nil",
-     "why": "the document states the card is issued free",
-     "page": null
-    }
    },
-   "refused": {
-    "min_balance_inr": "no minimum-balance row found in this document",
-    "annual_fee_inr": "the annual fee is stated per location tier ([99, 200] across ['gramin']) — different facts about different holders, so it stays null"
-   }
+   "renamed_from_extraction": "Smart Star Savings Account Without Guardian Consent"
   },
   {
    "product": "Unfunded Regular Salary Account",
@@ -1056,7 +1025,8 @@
      "page": null
     }
    },
-   "refused": {}
+   "refused": {},
+   "renamed_from_extraction": "Unfunded Privilege Salary Account"
   },
   {
    "product": "Select Banking Salary Account",
@@ -1071,7 +1041,8 @@
      "page": null
     }
    },
-   "refused": {}
+   "refused": {},
+   "renamed_from_extraction": "Select Banking"
   },
   {
    "product": "The ONE Savings Account",
@@ -1095,7 +1066,8 @@
    "refused": {
     "min_balance_inr": "the row states no balance requirement, only a penalty or an alternative threshold (\" Magnum Titanium of Rs. 2,00,000 of Rs. 1,00,000 Locker charges 30% discount 40% discount Daily ATM Rs. 1,00,0\")",
     "annual_fee_inr": "the annual fee is stated per location tier ([150, 300] across ['gramin']) — different facts about different holders, so it stays null"
-   }
+   },
+   "renamed_from_extraction": "The One Savings Account"
   },
   {
    "product": "Titanium Salary Account",
@@ -1139,7 +1111,8 @@
    },
    "refused": {
     "min_balance_inr": "no minimum-balance row found in this document"
-   }
+   },
+   "renamed_from_extraction": "Wealth and Private Banking"
   },
   {
    "product": "Young Star Account",
@@ -1163,6 +1136,460 @@
    "refused": {
     "min_balance_inr": "no minimum-balance row found in this document",
     "annual_fee_inr": "the annual fee is stated per location tier ([150, 300] across ['gramin']) — different facts about different holders, so it stays null"
+   }
+  },
+  {
+   "product": "Digital Savings Account",
+   "file": "Digital_Savings_25_9602d45ea4.pdf",
+   "bank": "Equitas Small Finance Bank",
+   "slug": "equitas-sfb",
+   "fields": {},
+   "refused": {
+    "min_balance_inr": "no minimum-balance row found in this document"
+   }
+  },
+  {
+   "product": "Eva Elite Savings Account",
+   "file": "Eva_Elite_SOC_25_2cf39a2756_2f73117e54.pdf",
+   "bank": "Equitas Small Finance Bank",
+   "slug": "equitas-sfb",
+   "fields": {},
+   "refused": {
+    "min_balance_inr": "no minimum-balance row found in this document"
+   }
+  },
+  {
+   "product": "NRE and NRO Rupee Savings Account",
+   "file": "NRE_and_NRO_SOC_7779cb853f.pdf",
+   "bank": "Equitas Small Finance Bank",
+   "slug": "equitas-sfb",
+   "fields": {},
+   "refused": {
+    "min_balance_inr": "no unambiguous amount in the balance row (\" / AVERAGE QUARTERLY BALANCE / Average Quarterly Balance AQB CHEQUE BOOK CHARGES 1 cheque book free per year 3\")"
+   }
+  },
+  {
+   "product": "Namma Savings Account",
+   "file": "Namma_S_Avings_SOC_25_f12eb0552c_152a128796.pdf",
+   "bank": "Equitas Small Finance Bank",
+   "slug": "equitas-sfb",
+   "fields": {},
+   "refused": {
+    "min_balance_inr": "no unambiguous amount in the balance row (\" NIL with continuation of RD + SIP as below MANDATORY : RECURRING DEPOSIT / SYSTEMATIC INVESTMENT PLAN IN LIEU\")"
+   }
+  },
+  {
+   "product": "Niyo Savings Account",
+   "file": "Niyo_SOC_25_308fcdda32_c3b7e4d74f.pdf",
+   "bank": "Equitas Small Finance Bank",
+   "slug": "equitas-sfb",
+   "fields": {},
+   "refused": {
+    "min_balance_inr": "no minimum-balance row found in this document"
+   }
+  },
+  {
+   "product": "Explorer NRE NRO Savings Account",
+   "file": "Seafarer_SOC_25_4_d5a9cd3e24_16e4fe7cd0.pdf",
+   "bank": "Equitas Small Finance Bank",
+   "slug": "equitas-sfb",
+   "fields": {},
+   "refused": {
+    "min_balance_inr": "the document gives 2 different amounts ([100000, 1000000]) for tiers/variants unnamed — these are different facts about different variants, so this stays null"
+   }
+  },
+  {
+   "product": "Selfe Savings Account",
+   "file": "Selfe_SOC_25_8e1d53d488.pdf",
+   "bank": "Equitas Small Finance Bank",
+   "slug": "equitas-sfb",
+   "fields": {},
+   "refused": {
+    "min_balance_inr": "no minimum-balance row found in this document"
+   }
+  },
+  {
+   "product": "Standard Savings Account",
+   "file": "Standard_SOC_25_0a76d407d9_27a85e4bf2.pdf",
+   "bank": "Equitas Small Finance Bank",
+   "slug": "equitas-sfb",
+   "fields": {},
+   "refused": {
+    "min_balance_inr": "no unambiguous amount in the balance row (\" `10,000/- In Metro, Urban branches `5,000/- in Semi-urban branches `2,500/- in Rural branches \")"
+   }
+  },
+  {
+   "product": "Universal Salary Account",
+   "file": "Universal_Salary_SOC_25_84e97b1c32.pdf",
+   "bank": "Equitas Small Finance Bank",
+   "slug": "equitas-sfb",
+   "fields": {
+    "min_balance_inr": {
+     "value": 0,
+     "quote": " Required NIL non-maintenance charges NA ",
+     "why": "the document states the account carries no minimum balance",
+     "page": null
+    }
+   },
+   "refused": {}
+  },
+  {
+   "product": "Value Plus Savings Account",
+   "file": "Value_Plus_SOC_25_666ba85ab0_b47895d920_bc93244ad8.pdf",
+   "bank": "Equitas Small Finance Bank",
+   "slug": "equitas-sfb",
+   "fields": {},
+   "refused": {
+    "min_balance_inr": "the row states no balance requirement, only a penalty or an alternative threshold (\" `25000 50% for Semi-urban and Rural branches \")"
+   }
+  },
+  {
+   "product": "Yellow Club Savings Account",
+   "file": "Yellow_Club_SOC_25_344e418972_af07a8440a.pdf",
+   "bank": "Equitas Small Finance Bank",
+   "slug": "equitas-sfb",
+   "fields": {},
+   "refused": {
+    "min_balance_inr": "no unambiguous amount in the balance row (\" `10000/- \")"
+   }
+  },
+  {
+   "product": "Govt TASC Savings Account",
+   "file": "govt_tasc_Savings_account_SOC_731e12cdec_c009778643_e486c79074.pdf",
+   "bank": "Equitas Small Finance Bank",
+   "slug": "equitas-sfb",
+   "fields": {
+    "min_balance_inr": {
+     "value": 0,
+     "quote": " NIL ",
+     "why": "the document states the account carries no minimum balance",
+     "page": null
+    }
+   },
+   "refused": {}
+  },
+  {
+   "product": "Salary Savings Account",
+   "file": "Salary-Account-Schedule-of-Charges.pdf",
+   "bank": "Bandhan Bank",
+   "slug": "bandhan-bank",
+   "fields": {},
+   "refused": {
+    "min_balance_inr": "the only figure is a footnote qualifying a subset of holders (\" opening, the Corporate Salary Account variant shall be converted to Sanchay Savings account variant, and the \") — not the requirement for this product today"
+   }
+  },
+  {
+   "product": "Savings Account",
+   "file": "Savings-Account-Product-Variants-Schedule-of-Charges-and-Features.pdf",
+   "bank": "Bandhan Bank",
+   "slug": "bandhan-bank",
+   "fields": {},
+   "refused": {
+    "min_balance_inr": "no minimum-balance row found in this document"
+   }
+  },
+  {
+   "product": "Bandhan Super Saver",
+   "file": "Schedule-of-Charges-Bandhan-Super-Saver.pdf",
+   "bank": "Bandhan Bank",
+   "slug": "bandhan-bank",
+   "fields": {
+    "min_balance_inr": {
+     "value": 0,
+     "quote": " Requirement NIL ",
+     "why": "the document states the account carries no minimum balance",
+     "page": null
+    }
+   },
+   "refused": {}
+  },
+  {
+   "product": "Aspire Banking",
+   "file": "aspire-banking.pdf",
+   "bank": "RBL Bank",
+   "slug": "rbl-bank",
+   "fields": {
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "cross-currency mark-up of 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "the row states no balance requirement, only a penalty or an alternative threshold (\" SOC_ Schedule of Benefits & Charges RBL Aspire Banking/February 10, 2026/Ver1.1 • Maintain a minimum of Rs.1 \")"
+   }
+  },
+  {
+   "product": "Basic And Classic Savings Account",
+   "file": "basic-and-classic-savings-account.pdf",
+   "bank": "RBL Bank",
+   "slug": "rbl-bank",
+   "fields": {
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "cross-currency mark-up of 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "the row states no balance requirement, only a penalty or an alternative threshold (\" RBL BANK Standard Charges Basic Savings Account Classic Savings and Chequebook Charges Indicates No Free Limi\")"
+   }
+  },
+  {
+   "product": "Capital Gains Account Scheme Savings Account",
+   "file": "capital-gains-account-scheme-savings-account.pdf",
+   "bank": "RBL Bank",
+   "slug": "rbl-bank",
+   "fields": {},
+   "refused": {
+    "min_balance_inr": "no minimum-balance row found in this document"
+   }
+  },
+  {
+   "product": "Digisaver Account",
+   "file": "digisaver-account.pdf",
+   "bank": "RBL Bank",
+   "slug": "rbl-bank",
+   "fields": {
+    "min_balance_inr": {
+     "value": 5000,
+     "quote": "Features Charges in INR applicable beyond free limits Without in Person KYC With in Person KYC Rs. 5000 Rs. 5000",
+     "why": "one figure stated for the whole product, with no tier or variant split",
+     "page": null
+    },
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "cross-currency mark-up charge of 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    }
+   },
+   "refused": {}
+  },
+  {
+   "product": "Digital Savings Account In Person Kyc",
+   "file": "digital-savings-account-in-person-kyc.pdf",
+   "bank": "RBL Bank",
+   "slug": "rbl-bank",
+   "fields": {
+    "min_balance_inr": {
+     "value": 0,
+     "quote": "Features Charges in INR applicable beyond free limits In-person KYC Nil",
+     "why": "the document states the account carries no minimum balance",
+     "page": null
+    },
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "cross-currency mark-up charge of 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    }
+   },
+   "refused": {}
+  },
+  {
+   "product": "Digital Savings Account Prime",
+   "file": "digital-savings-account-prime.pdf",
+   "bank": "RBL Bank",
+   "slug": "rbl-bank",
+   "fields": {
+    "min_balance_inr": {
+     "value": 5000,
+     "quote": "Features Charges in INR applicable beyond free limits OTP Based KYC In Person KYC Rs. 5000 Rs. 5000",
+     "why": "one figure stated for the whole product, with no tier or variant split",
+     "page": null
+    },
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "cross-currency mark-up charge of 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    }
+   },
+   "refused": {}
+  },
+  {
+   "product": "Digital Savings Account Womans",
+   "file": "digital-savings-account-womans.pdf",
+   "bank": "RBL Bank",
+   "slug": "rbl-bank",
+   "fields": {
+    "min_balance_inr": {
+     "value": 10000,
+     "quote": "Features Charges in INR applicable beyond free limits OTP Based KYC Rs. 10000",
+     "why": "one figure stated for the whole product, with no tier or variant split",
+     "page": null
+    },
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "cross-currency mark-up charge of 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    }
+   },
+   "refused": {}
+  },
+  {
+   "product": "Digital Savings Account",
+   "file": "digital-savings-account.pdf",
+   "bank": "RBL Bank",
+   "slug": "rbl-bank",
+   "fields": {
+    "min_balance_inr": {
+     "value": 0,
+     "quote": "Features Charges in INR applicable beyond free limits OTP Based KYC Nil",
+     "why": "the document states the account carries no minimum balance",
+     "page": null
+    },
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "cross-currency mark-up charge of 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    }
+   },
+   "refused": {}
+  },
+  {
+   "product": "Go Account",
+   "file": "go-account.pdf",
+   "bank": "RBL Bank",
+   "slug": "rbl-bank",
+   "fields": {
+    "min_balance_inr": {
+     "value": 0,
+     "quote": " & Non- Zero Balance Account Zero Balance Account maintenance Charges",
+     "why": "the document states the account carries no minimum balance",
+     "page": null
+    },
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "cross-currency mark-up of 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    }
+   },
+   "refused": {}
+  },
+  {
+   "product": "Imperium Savings Account",
+   "file": "imperium-savings-account.pdf",
+   "bank": "RBL Bank",
+   "slug": "rbl-bank",
+   "fields": {
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "cross-currency mark-up of 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "no minimum-balance row found in this document"
+   }
+  },
+  {
+   "product": "Kids And Finja Savings Account",
+   "file": "kids-and-finja-savings-account.pdf",
+   "bank": "RBL Bank",
+   "slug": "rbl-bank",
+   "fields": {
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "cross-currency mark-up of 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "the balance is stated as a conditional waiver (\" and Indicates No Free Limits Charge/Transaction Rs. 5,000 Rs. 5,000 Cheque book charges beyond Free limits wa\") — the requirement and the escape from it are different numbers, so neither is written"
+   }
+  },
+  {
+   "product": "Nri Account",
+   "file": "nri-account.pdf",
+   "bank": "RBL Bank",
+   "slug": "rbl-bank",
+   "fields": {
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "cross-currency mark-up of 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "the document gives 9 different amounts ([2, 5, 50, 75, 1000, 2500, 5000, 10000, 25000]) for tiers/variants ['metro', 'rural', 'semi urban', 'urban'] — these are different facts about different variants, so this stays null"
+   }
+  },
+  {
+   "product": "Revelio Savings Account",
+   "file": "revelio-savings-account.pdf",
+   "bank": "RBL Bank",
+   "slug": "rbl-bank",
+   "fields": {
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "cross-currency mark-up of 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "no minimum-balance row found in this document"
+   }
+  },
+  {
+   "product": "Savings Account",
+   "file": "savings-account.pdf",
+   "bank": "RBL Bank",
+   "slug": "rbl-bank",
+   "fields": {
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "cross-currency mark-up of 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "the document gives 7 different amounts ([2, 50, 2500, 5000, 10000, 25000, 50000]) for tiers/variants ['rural', 'semi urban'] — these are different facts about different variants, so this stays null"
+   }
+  },
+  {
+   "product": "Signature Banking",
+   "file": "signature-banking.pdf",
+   "bank": "RBL Bank",
+   "slug": "rbl-bank",
+   "fields": {
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "cross-currency mark-up of 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "the row states no balance requirement, only a penalty or an alternative threshold (\" SOC Schedule of Benefits Signature Banking/February 10, 2026/Ver1.1 • Maintain a minimum of Rs. 2 Lakhs in Sa\")"
+   }
+  },
+  {
+   "product": "Special Institutions Account",
+   "file": "special-institutions-account.pdf",
+   "bank": "RBL Bank",
+   "slug": "rbl-bank",
+   "fields": {
+    "forex_markup_pct": {
+     "value": 3.5,
+     "quote": "cross-currency mark-up of 3.5%",
+     "why": "stated as a percentage of the transaction amount",
+     "page": null
+    }
+   },
+   "refused": {
+    "min_balance_inr": "the document gives 3 different amounts ([2, 50, 50000]) for tiers/variants unnamed — these are different facts about different variants, so this stays null"
    }
   }
  ]

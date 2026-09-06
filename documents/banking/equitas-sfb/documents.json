@@ -1,0 +1,240 @@
+{
+ "bank": "Equitas Small Finance Bank",
+ "slug": "equitas-sfb",
+ "source": "https://equitas.bank.in/schedule-of-charges/",
+ "checked": "2026-09-06",
+ "documents": [
+  {
+   "label": "Advance Current Account SOC",
+   "file": "ADVANCE_CA_ca600d1a4a.pdf",
+   "url": "https://equitas.bank.in/strapi-dev/uploads/ADVANCE_CA_ca600d1a4a.pdf",
+   "bytes": 505416,
+   "sha256": "2297e30e9e49b3cd",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Business Current Account SOC",
+   "file": "BUSINESS_CA_591ba8b58f.pdf",
+   "url": "https://equitas.bank.in/strapi-dev/uploads/BUSINESS_CA_591ba8b58f.pdf",
+   "bytes": 497126,
+   "sha256": "5dc761a1f8945758",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Business Prime Current Account",
+   "file": "BUSINESS_PRIME_0b2114dcd3.pdf",
+   "url": "https://equitas.bank.in/strapi-dev/uploads/BUSINESS_PRIME_0b2114dcd3.pdf",
+   "bytes": 1684759,
+   "sha256": "ee904b51a848b441",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Credit Cards",
+   "file": "CC_SOC_1c5ebff2dd.pdf",
+   "url": "https://equitas.bank.in/strapi-dev/uploads/CC_SOC_1c5ebff2dd.pdf",
+   "bytes": 436439,
+   "sha256": "8399a602423c8a85",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Cross Border Remittances - AD1",
+   "file": "Customer_Service_Fedai_3171d65581.pdf",
+   "url": "https://equitas.bank.in/strapi-dev/uploads/Customer_Service_Fedai_3171d65581.pdf",
+   "bytes": 830769,
+   "sha256": "57db6aa59904ddfd",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Digital Savings Account",
+   "file": "Digital_Savings_25_9602d45ea4.pdf",
+   "url": "https://equitas.bank.in/strapi-dev/uploads/Digital_Savings_25_9602d45ea4.pdf",
+   "bytes": 6379465,
+   "sha256": "74de426ec4f14971",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Govt TASC Current Account",
+   "file": "Govt_Task_SOC_25_1f29ceec1a.pdf",
+   "url": "https://equitas.bank.in/strapi-dev/uploads/Govt_Task_SOC_25_1f29ceec1a.pdf",
+   "bytes": 144718,
+   "sha256": "4325002fc23e9665",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "My Business Current Account",
+   "file": "My_Business_CA_SOC_8bbe4b2046.pdf",
+   "url": "https://equitas.bank.in/strapi-dev/uploads/My_Business_CA_SOC_8bbe4b2046.pdf",
+   "bytes": 115206,
+   "sha256": "9c5f5e85ab65e0b1",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "NRE and NRO Current Account",
+   "file": "NRE_NRO_CA_SOC_26_83b0dac534.pdf",
+   "url": "https://equitas.bank.in/strapi-dev/uploads/NRE_NRO_CA_SOC_26_83b0dac534.pdf",
+   "bytes": 503565,
+   "sha256": "04391c26c98250fa",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "NRE NRO Savings Account",
+   "file": "NRE_and_NRO_SOC_7779cb853f.pdf",
+   "url": "https://equitas.bank.in/strapi-dev/uploads/NRE_and_NRO_SOC_7779cb853f.pdf",
+   "bytes": 615516,
+   "sha256": "2d204fbb0f08a0fd",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Niyo Savings Account",
+   "file": "Niyo_SOC_25_308fcdda32_c3b7e4d74f.pdf",
+   "url": "https://equitas.bank.in/strapi-dev/uploads/Niyo_SOC_25_308fcdda32_c3b7e4d74f.pdf",
+   "bytes": 751109,
+   "sha256": "a65c915d9a9813d2",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Reloadable Card",
+   "file": "Reloadable_Sep_26_c58054b82a.pdf",
+   "url": "https://equitas.bank.in/strapi-dev/uploads/Reloadable_Sep_26_c58054b82a.pdf",
+   "bytes": 130022,
+   "sha256": "1b9ab4f7e51e3b54",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Gift Card",
+   "file": "Retail_GIFT_Sep_26_5461aa8e09.pdf",
+   "url": "https://equitas.bank.in/strapi-dev/uploads/Retail_GIFT_Sep_26_5461aa8e09.pdf",
+   "bytes": 127577,
+   "sha256": "810272877701be06",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Corporate Banking",
+   "file": "SOC_Corporate_Banking_w_e_f_01062025_90b1bbe161.pdf",
+   "url": "https://equitas.bank.in/strapi-dev/uploads/SOC_Corporate_Banking_w_e_f_01062025_90b1bbe161.pdf",
+   "bytes": 576270,
+   "sha256": "f0c675b69f1f547e",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "MSE Banking",
+   "file": "SOC_MSE_Banking_5_0_w_e_f_01012026_51ff4cddaa.pdf",
+   "url": "https://equitas.bank.in/strapi-dev/uploads/SOC_MSE_Banking_5_0_w_e_f_01012026_51ff4cddaa.pdf",
+   "bytes": 586954,
+   "sha256": "184a7550d9f3df38",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Home Finance",
+   "file": "Schedule_of_Charges_HL_25072025_ed8ffba6f4_53dc58a18d_1_f5e929c2d0_dc5a3c3081_1_0b0a5043d0.pdf",
+   "url": "https://equitas.bank.in/strapi-dev/uploads/Schedule_of_Charges_HL_25072025_ed8ffba6f4_53dc58a18d_1_f5e929c2d0_dc5a3c3081_1_0b0a5043d0.pdf",
+   "bytes": 439902,
+   "sha256": "5d09835bcffa2513",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Loan Against Property",
+   "file": "Schedule_of_Charges_LAP_25072025_9cb343fbd4_Final_ff74937c32_1_d28ddaa1ac_9c86e76f4c_2_db2a23cc6c.pdf",
+   "url": "https://equitas.bank.in/strapi-dev/uploads/Schedule_of_Charges_LAP_25072025_9cb343fbd4_Final_ff74937c32_1_d28ddaa1ac_9c86e76f4c_2_db2a23cc6c.pdf",
+   "bytes": 438211,
+   "sha256": "3252a095efc0930e",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Explorer NRE NRO Savings Account",
+   "file": "Seafarer_SOC_25_4_d5a9cd3e24_16e4fe7cd0.pdf",
+   "url": "https://equitas.bank.in/strapi-dev/uploads/Seafarer_SOC_25_4_d5a9cd3e24_16e4fe7cd0.pdf",
+   "bytes": 141101,
+   "sha256": "2636dfefed883f8e",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Selfe Savings Account",
+   "file": "Selfe_SOC_25_8e1d53d488.pdf",
+   "url": "https://equitas.bank.in/strapi-dev/uploads/Selfe_SOC_25_8e1d53d488.pdf",
+   "bytes": 6301051,
+   "sha256": "b60839c61a83ae75",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Trade in Current Account SOC",
+   "file": "TRADE_IN_CA_5fd16628ff.pdf",
+   "url": "https://equitas.bank.in/strapi-dev/uploads/TRADE_IN_CA_5fd16628ff.pdf",
+   "bytes": 510815,
+   "sha256": "b393feb5a1b315ad",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Universal Salary Account",
+   "file": "Universal_Salary_SOC_25_84e97b1c32.pdf",
+   "url": "https://equitas.bank.in/strapi-dev/uploads/Universal_Salary_SOC_25_84e97b1c32.pdf",
+   "bytes": 120611,
+   "sha256": "e1ec66a460dd3c79",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Value Plus Account",
+   "file": "Value_Plus_SOC_25_666ba85ab0_b47895d920_bc93244ad8.pdf",
+   "url": "https://equitas.bank.in/strapi-dev/uploads/Value_Plus_SOC_25_666ba85ab0_b47895d920_bc93244ad8.pdf",
+   "bytes": 133539,
+   "sha256": "d0e08ca2551808e4",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Wings Current Account",
+   "file": "WINGS_CA_a27dd5152a.pdf",
+   "url": "https://equitas.bank.in/strapi-dev/uploads/WINGS_CA_a27dd5152a.pdf",
+   "bytes": 425228,
+   "sha256": "1fe15b8d1684f15d",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Eva Elite Savings Account",
+   "file": "Eva_Elite_SOC_25_2cf39a2756_2f73117e54.pdf",
+   "url": "https://www.equitasbank.com/strapi-dev/uploads/Eva_Elite_SOC_25_2cf39a2756_2f73117e54.pdf",
+   "bytes": 121436,
+   "sha256": "39d4ea25288e0403",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Namma Savings Account",
+   "file": "Namma_S_Avings_SOC_25_f12eb0552c_152a128796.pdf",
+   "url": "https://www.equitasbank.com/strapi-dev/uploads/Namma_S_Avings_SOC_25_f12eb0552c_152a128796.pdf",
+   "bytes": 169417,
+   "sha256": "0be16ce958081e8d",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Neo Current Account",
+   "file": "Neo_Current_Account_w_e_f_15th_Feb_2022_1_3575623689_481e24bb38_09b9772593.pdf",
+   "url": "https://www.equitasbank.com/strapi-dev/uploads/Neo_Current_Account_w_e_f_15th_Feb_2022_1_3575623689_481e24bb38_09b9772593.pdf",
+   "bytes": 92274,
+   "sha256": "e5a20cc5ed32abf3",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Standard Savings Account",
+   "file": "Standard_SOC_25_0a76d407d9_27a85e4bf2.pdf",
+   "url": "https://www.equitasbank.com/strapi-dev/uploads/Standard_SOC_25_0a76d407d9_27a85e4bf2.pdf",
+   "bytes": 140435,
+   "sha256": "f25e5506cccb453b",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Yellow Club Savings Account",
+   "file": "Yellow_Club_SOC_25_344e418972_af07a8440a.pdf",
+   "url": "https://www.equitasbank.com/strapi-dev/uploads/Yellow_Club_SOC_25_344e418972_af07a8440a.pdf",
+   "bytes": 149255,
+   "sha256": "26c18f8de28c1a8a",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Govt TASC Savings Account",
+   "file": "govt_tasc_Savings_account_SOC_731e12cdec_c009778643_e486c79074.pdf",
+   "url": "https://www.equitasbank.com/strapi-dev/uploads/govt_tasc_Savings_account_SOC_731e12cdec_c009778643_e486c79074.pdf",
+   "bytes": 123144,
+   "sha256": "d1ea6042c0127c5f",
+   "checked": "2026-09-06"
+  }
+ ]
+}

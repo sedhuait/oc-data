@@ -1,0 +1,464 @@
+{
+ "bank": "RBL Bank",
+ "slug": "rbl-bank",
+ "source": "https://www.rbl.bank.in/service-charges",
+ "checked": "2026-09-06",
+ "documents": [
+  {
+   "label": "Schedule of Benefits for Non Resident Accounts effective November 01, 2025",
+   "file": "SOC-NR.pdf",
+   "url": "https://webassets.rbl.bank.in/document/Service%20Charges/SOC-NR.pdf",
+   "bytes": 304405,
+   "sha256": "347b116bcdb3070f",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Schedule of Benefits for Savings Accounts effective February 10, 2026",
+   "file": "SOC-Saving.pdf",
+   "url": "https://webassets.rbl.bank.in/document/Service%20Charges/SOC-Saving.pdf",
+   "bytes": 83769,
+   "sha256": "c793fe8a349710e1",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Agri Business: Fees and Charges",
+   "file": "agri-business-fees-and-charges.pdf",
+   "url": "https://webassets.rbl.bank.in/document/agri-business/agri-business-fees-and-charges.pdf",
+   "bytes": 234200,
+   "sha256": "6c06bafe5a8cd4d6",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Dairy Loan: Fees and Charges",
+   "file": "dairy-loan-fees-and-charges.pdf",
+   "url": "https://webassets.rbl.bank.in/document/agri-business/dairy-loan-fees-and-charges.pdf",
+   "bytes": 222803,
+   "sha256": "b518b3ea036f3c6e",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Merchant Fee Rate",
+   "file": "merchant-upi-fee-rate.pdf",
+   "url": "https://webassets.rbl.bank.in/document/pdfs/merchant-upi-fee-rate.pdf",
+   "bytes": 178776,
+   "sha256": "8832b51ef3ab28e9",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Schedule of Benefits for Aspire Banking effective February 10, 2026",
+   "file": "aspire-banking.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/aspire-banking.pdf",
+   "bytes": 72183,
+   "sha256": "228984dab9ff6fd4",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Basic Savings Account and Classic Savings Account effective February 10, 2026",
+   "file": "basic-and-classic-savings-account.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/basic-and-classic-savings-account.pdf",
+   "bytes": 52359,
+   "sha256": "e88f7ca455e670de",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Business and Business Plus Current Account effective February 21, 2026",
+   "file": "business-and-business-plus-current-account.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/business-and-business-plus-current-account.pdf",
+   "bytes": 53405,
+   "sha256": "212ee745b7526bcb",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Capital Gains Account Scheme Savings Account effective April 16, 2026",
+   "file": "capital-gains-account-scheme-savings-account.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/capital-gains-account-scheme-savings-account.pdf",
+   "bytes": 40753,
+   "sha256": "c7b51f2c578ad150",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Collection Current Account effective April 01, 2026",
+   "file": "collection-current-account.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/collection-current-account.pdf",
+   "bytes": 99480,
+   "sha256": "0825da06ab4b07ad",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "DigiSaver / Apex Savings Account effective May 26, 2026",
+   "file": "digisaver-account.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/digisaver-account.pdf",
+   "bytes": 53512,
+   "sha256": "4e43d4dd4fd3694a",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Digital Corporate Salary Account effective February 10, 2026",
+   "file": "digital-corporate-salary-account.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/digital-corporate-salary-account.pdf",
+   "bytes": 58077,
+   "sha256": "5e80bca62e90c5f6",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Digital Savings Account effective February 10, 2026 (In-Person KYC)",
+   "file": "digital-savings-account-in-person-kyc.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/digital-savings-account-in-person-kyc.pdf",
+   "bytes": 53002,
+   "sha256": "ffb739efad512b38",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Digital Savings Account - Prime effective February 10, 2026",
+   "file": "digital-savings-account-prime.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/digital-savings-account-prime.pdf",
+   "bytes": 54808,
+   "sha256": "a2dbe9352cd5b88b",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Digital Savings Account - Woman's First effective February 10, 2026",
+   "file": "digital-savings-account-womans.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/digital-savings-account-womans.pdf",
+   "bytes": 53665,
+   "sha256": "06d4607c217de0e3",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Digital Savings Account effective February 10, 2026 (OTP Based KYC)",
+   "file": "digital-savings-account.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/digital-savings-account.pdf",
+   "bytes": 53611,
+   "sha256": "3dcece56d89baaa8",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Exceed Series (Extra, Express and Elite) and RBL Value + Gold 500 effective April 01, 2026",
+   "file": "exceed-series-and-value-plus-current-account.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/exceed-series-and-value-plus-current-account.pdf",
+   "bytes": 64341,
+   "sha256": "b4b29e9490eaa97c",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Fees and Charges",
+   "file": "fees-and-charges-personal-loan.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/fees-and-charges-personal-loan.pdf",
+   "bytes": 261782,
+   "sha256": "eb9b811efe0209c0",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Fees and Charges",
+   "file": "fees-and-charges-two-wheeler-loans.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/fees-and-charges-two-wheeler-loans.pdf",
+   "bytes": 93878,
+   "sha256": "454430c8d05ffa29",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Fees and Charges",
+   "file": "fees-charges-car-loan.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/fees-charges-car-loan.pdf",
+   "bytes": 263722,
+   "sha256": "7a4329dffef14c8d",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Schedule of Services & Fees for Current & Savings Account effective August 01, 2023",
+   "file": "general-soc-sa-and-ca-effective-august-2023.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/general-soc-sa-and-ca-effective-august-2023.pdf",
+   "bytes": 44744,
+   "sha256": "1beb147ececdc6d8",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "GO Account effective February 10, 2026",
+   "file": "go-account.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/go-account.pdf",
+   "bytes": 86990,
+   "sha256": "9b1454211b4ac359",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Imperium Savings Account effective February 02, 2026",
+   "file": "imperium-savings-account.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/imperium-savings-account.pdf",
+   "bytes": 349080,
+   "sha256": "475cbcdd0e9e9dc4",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Schedule of Benefits for Business Banking Current Account effective October 06, 2025",
+   "file": "insignia-business-banking.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/insignia-business-banking.pdf",
+   "bytes": 179281,
+   "sha256": "a5ed0de69a861063",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Fees and Charges",
+   "file": "joint-liability-group-loan-jlg-fees-and-charges.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/joint-liability-group-loan-jlg-fees-and-charges.pdf",
+   "bytes": 752096,
+   "sha256": "ddc2dc12773a407b",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Pricing Grid",
+   "file": "joint-liability-group-loan-jlg-pricing-grid.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/joint-liability-group-loan-jlg-pricing-grid.pdf",
+   "bytes": 349745,
+   "sha256": "c41ea3890a23ef45",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Junior FINJA & FINJA Savings Account effective February 10, 2026",
+   "file": "kids-and-finja-savings-account.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/kids-and-finja-savings-account.pdf",
+   "bytes": 69076,
+   "sha256": "cc863839cfdd4c4b",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Maestro Current Account effective February 21, 2026",
+   "file": "maestro-current-account.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/maestro-current-account.pdf",
+   "bytes": 60509,
+   "sha256": "750d0463c60aa97d",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "MAX Current Account effective February 21, 2026",
+   "file": "max-current-account.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/max-current-account.pdf",
+   "bytes": 61033,
+   "sha256": "f3548fd67717fde5",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Prime NRE & NRO, Prime Edge NRE & NRO and ACE NRE & NRO Savings Account effective February 10, 2026",
+   "file": "nri-account.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/nri-account.pdf",
+   "bytes": 108158,
+   "sha256": "ecacd9fc8aeb8db2",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Overdraft Against Fixed Deposit effective May 03, 2025",
+   "file": "overdraft-against-fixed-deposit.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/overdraft-against-fixed-deposit.pdf",
+   "bytes": 41741,
+   "sha256": "117937d6226ca85b",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Pricing Grid",
+   "file": "pricing-grid-car-loan.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/pricing-grid-car-loan.pdf",
+   "bytes": 55932,
+   "sha256": "06418dab3d7bee4d",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Pricing Grid",
+   "file": "pricing-grid-personal-loan.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/pricing-grid-personal-loan.pdf",
+   "bytes": 83693,
+   "sha256": "63234ce7dceb3d27",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Pricing Grid",
+   "file": "pricing-grid-rvf.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/pricing-grid-rvf.pdf",
+   "bytes": 86779,
+   "sha256": "4a203e53f4442862",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Pricing Grid",
+   "file": "pricing-grid-two-wheeler-loans.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/pricing-grid-two-wheeler-loans.pdf",
+   "bytes": 435011,
+   "sha256": "5e93b5478e0dad67",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Pricing Range",
+   "file": "pricing-range-car-loan.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/pricing-range-car-loan.pdf",
+   "bytes": 243387,
+   "sha256": "024fd363b0d537b7",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Pricing Range",
+   "file": "pricing-range-personal-loan.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/pricing-range-personal-loan.pdf",
+   "bytes": 93401,
+   "sha256": "f083bf4eb1db7f0b",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Pricing Range",
+   "file": "pricing-range-rvf.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/pricing-range-rvf.pdf",
+   "bytes": 170817,
+   "sha256": "04bf10b0f8517ac7",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Pricing Range",
+   "file": "pricing-range-two-wheeler-loans.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/pricing-range-two-wheeler-loans.pdf",
+   "bytes": 38935,
+   "sha256": "066018038ff9ce0e",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Professional Current Account effective February 21, 2026",
+   "file": "professional-current-account.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/professional-current-account.pdf",
+   "bytes": 54244,
+   "sha256": "aa47dd8cf1d1e79f",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Revelio Savings Account effective June 01, 2026",
+   "file": "revelio-savings-account.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/revelio-savings-account.pdf",
+   "bytes": 1297213,
+   "sha256": "fb578746c46699ba",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Fees and Charges",
+   "file": "rural-vehicle-finance-soc.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/rural-vehicle-finance-soc.pdf",
+   "bytes": 136029,
+   "sha256": "74b2806eed49c6c5",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Prime Savings Account, Prime Edge Savings Account, Seniors First Savings Account, Woman’s First Savings Account, Advantage Savings Account, RBL Rise Savings Account effective February 02, 2026",
+   "file": "savings-account.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/savings-account.pdf",
+   "bytes": 57167,
+   "sha256": "9264076f69f1507c",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Schedule of Charges",
+   "file": "schedule-of-charges-government-sponsored-schemes.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/schedule-of-charges-government-sponsored-schemes.pdf",
+   "bytes": 591095,
+   "sha256": "3f4c9637d5a205dc",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Schedule of Benefits for Signature Banking effective February 10, 2026",
+   "file": "signature-banking.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/signature-banking.pdf",
+   "bytes": 80105,
+   "sha256": "2b65873601b79a09",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Classic, Executive, Executive Plus, Next and Elevate Corporate Salary Account effective February 10, 2026",
+   "file": "soc-corporate-salary-account.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/soc-corporate-salary-account.pdf",
+   "bytes": 54221,
+   "sha256": "0f1a1eb088ac6353",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Plus Savings Account effective February 10, 2026",
+   "file": "soc-home-loan-savings-account.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/soc-home-loan-savings-account.pdf",
+   "bytes": 48030,
+   "sha256": "91d196fe5dc80a34",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Savings Account for Loan Against Gold effective February 10, 2026",
+   "file": "soc-loan-against-gold-savings-account.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/soc-loan-against-gold-savings-account.pdf",
+   "bytes": 49768,
+   "sha256": "58f0e3e56c297e3e",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Current and Savings Special Institutions Accounts effective July 01, 2025",
+   "file": "special-institutions-account.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/special-institutions-account.pdf",
+   "bytes": 69317,
+   "sha256": "eceb6a80de26e9ab",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Applicable & Default Interest Rates effective from November 05, 2024",
+   "file": "trade-finance-applicable-and-default-interest-rates.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/trade-finance-applicable-and-default-interest-rates.pdf",
+   "bytes": 163866,
+   "sha256": "1296d343383d235b",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Schedule of Charges (Domestic Trades, Foreign Trade and Cross Border Remittances) effective from October 20, 2025",
+   "file": "trade-finance-schedule-of-charges.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/trade-finance-schedule-of-charges.pdf",
+   "bytes": 240523,
+   "sha256": "31035355ac7f6f5d",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Traders Current Account effective February 21, 2026",
+   "file": "traders-current-account.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/traders-current-account.pdf",
+   "bytes": 54188,
+   "sha256": "4028a4fa99b7df36",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "RBL Value Silver 40 and RBL Value + Gold 100 effective February 21, 2026",
+   "file": "value-series-current-account.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/value-series-current-account.pdf",
+   "bytes": 55357,
+   "sha256": "a2235baea06faab8",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Penal Charges",
+   "file": "wb-penal-charges.pdf",
+   "url": "https://webassets.rbl.bank.in/document/service-charges/wb-penal-charges.pdf",
+   "bytes": 382998,
+   "sha256": "62a43e6a0146638c",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Warehouse Receipt Finance: Fees and Charges",
+   "file": "warehouse-receipt-finance-fees-charges.pdf",
+   "url": "https://www.rbl.bank.in/api/v1/doc/document/agri-business/warehouse-receipt-finance-fees-charges.pdf",
+   "bytes": 121132,
+   "sha256": "b64d100a085e13bb",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Click here",
+   "file": "free-services-casa-fd.pdf",
+   "url": "https://www.rbl.bank.in/api/v1/doc/document/service-charges/free-services-casa-fd.pdf",
+   "bytes": 107144,
+   "sha256": "6dbefd300825d21e",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "Schedule of Charges for handling transactions in GIFT CITY Branch effective from October 20, 2025",
+   "file": "trade-finance-schedule-of-charges-gift-city.pdf",
+   "url": "https://www.rbl.bank.in/api/v1/doc/document/service-charges/trade-finance-schedule-of-charges-gift-city.pdf",
+   "bytes": 147648,
+   "sha256": "e987a85d58d136b2",
+   "checked": "2026-09-06"
+  }
+ ]
+}

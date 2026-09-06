@@ -1,0 +1,160 @@
+{
+ "bank": "Bandhan Bank",
+ "slug": "bandhan-bank",
+ "source": "https://bandhan.bank.in/rates-charges",
+ "checked": "2026-09-06",
+ "documents": [
+  {
+   "label": "click here",
+   "file": "Biz-Elite-Current-Account-Schedule-of-Charges.pdf",
+   "url": "https://bandhan.bank.in/sites/default/files/2025-12/Biz-Elite-Current-Account-Schedule-of-Charges.pdf",
+   "bytes": 170404,
+   "sha256": "2161070dab459deb",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "click here",
+   "file": "Schedule-of-Charges-for-CVCE.pdf",
+   "url": "https://bandhan.bank.in/sites/default/files/2026-01/Schedule-of-Charges-for-CVCE.pdf",
+   "bytes": 115154,
+   "sha256": "9469b0a089c8e7ef",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "click here",
+   "file": "Schedule-of-Charges-Bandhan-Super-Saver.pdf",
+   "url": "https://bandhan.bank.in/sites/default/files/2026-04/Schedule-of-Charges-Bandhan-Super-Saver.pdf",
+   "bytes": 249128,
+   "sha256": "092eed70938df327",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "click here",
+   "file": "Current-Account-Product-Variants-Schedule-of-Charges-and-Features.pdf",
+   "url": "https://bandhan.bank.in/sites/default/files/2026-05/Current-Account-Product-Variants-Schedule-of-Charges-and-Features.pdf",
+   "bytes": 338143,
+   "sha256": "feb98722ec6d9c10",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "click here",
+   "file": "Car-Loan-Schedule-of-Charges-15072026.pdf",
+   "url": "https://bandhan.bank.in/sites/default/files/2026-07/Car-Loan-Schedule-of-Charges-15072026.pdf",
+   "bytes": 212149,
+   "sha256": "e7c6b8038c8024b4",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "click here",
+   "file": "Personal-Loan-Schedule-of-Charges-July-2026.pdf",
+   "url": "https://bandhan.bank.in/sites/default/files/2026-07/Personal-Loan-Schedule-of-Charges-July-2026.pdf",
+   "bytes": 216985,
+   "sha256": "6f3116a7808e16f6",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "click here",
+   "file": "Salary-Account-Schedule-of-Charges.pdf",
+   "url": "https://bandhan.bank.in/sites/default/files/2026-07/Salary-Account-Schedule-of-Charges.pdf",
+   "bytes": 268559,
+   "sha256": "86f13083364dc8d0",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "click here",
+   "file": "Savings-Account-Product-Variants-Schedule-of-Charges-and-Features.pdf",
+   "url": "https://bandhan.bank.in/sites/default/files/2026-07/Savings-Account-Product-Variants-Schedule-of-Charges-and-Features.pdf",
+   "bytes": 314904,
+   "sha256": "39362c0337fc87a1",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "click here",
+   "file": "Schedule-of-Charges-Aspiring-Business-Loan-14072026.pdf",
+   "url": "https://bandhan.bank.in/sites/default/files/2026-07/Schedule-of-Charges-Aspiring-Business-Loan-14072026.pdf",
+   "bytes": 310396,
+   "sha256": "5407d981da873918",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "click here",
+   "file": "Schedule-of-Charges-Two-Wheeler-Loan.pdf",
+   "url": "https://bandhan.bank.in/sites/default/files/2026-07/Schedule-of-Charges-Two-Wheeler-Loan.pdf",
+   "bytes": 216422,
+   "sha256": "c95592cc3e3ba6b1",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "click here",
+   "file": "Schedule-of-Charges-for-Trade-Finance-07072026.pdf",
+   "url": "https://bandhan.bank.in/sites/default/files/2026-07/Schedule-of-Charges-for-Trade-Finance-07072026.pdf",
+   "bytes": 371743,
+   "sha256": "3b0986613d80645c",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "click here",
+   "file": "Schedule-of-Charges-of-Home-Loan-and-LAP-03072026.pdf",
+   "url": "https://bandhan.bank.in/sites/default/files/2026-07/Schedule-of-Charges-of-Home-Loan-and-LAP-03072026.pdf",
+   "bytes": 233673,
+   "sha256": "76ebcb07508ffda0",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "click here",
+   "file": "Schedule-of-Charges-Agri-Loan-01082026.pdf",
+   "url": "https://bandhan.bank.in/sites/default/files/2026-08/Schedule-of-Charges-Agri-Loan-01082026.pdf",
+   "bytes": 324559,
+   "sha256": "b874c21406c86c8a",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "click here",
+   "file": "Schedule-of-Charges-Bandhan-Commodity-Finance-01082026.pdf",
+   "url": "https://bandhan.bank.in/sites/default/files/2026-08/Schedule-of-Charges-Bandhan-Commodity-Finance-01082026.pdf",
+   "bytes": 263462,
+   "sha256": "615faf445684cd45",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "click here",
+   "file": "Schedule-of-Charges-SME-and-Corporate-Loans-21082026.pdf",
+   "url": "https://bandhan.bank.in/sites/default/files/2026-08/Schedule-of-Charges-SME-and-Corporate-Loans-21082026.pdf",
+   "bytes": 388628,
+   "sha256": "a04709b1ac08bd07",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "click here",
+   "file": "Schedule-of-Charges-Small-Loan-Against-Property.pdf",
+   "url": "https://bandhan.bank.in/sites/default/files/2026-08/Schedule-of-Charges-Small-Loan-Against-Property.pdf",
+   "bytes": 214371,
+   "sha256": "905b2c8f34585d6d",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "click here",
+   "file": "Schedule-of-charges-for-Business-Banking-Group-21082026.pdf",
+   "url": "https://bandhan.bank.in/sites/default/files/2026-08/Schedule-of-charges-for-Business-Banking-Group-21082026.pdf",
+   "bytes": 399957,
+   "sha256": "f3e5ea3603479463",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "click here",
+   "file": "Standard-Schedule-of-Charges-for-Savings-NR-Accounts-and-Debit-Cards.pdf",
+   "url": "https://bandhan.bank.in/sites/default/files/2026-08/Standard-Schedule-of-Charges-for-Savings-NR-Accounts-and-Debit-Cards.pdf",
+   "bytes": 345502,
+   "sha256": "6667f1d214866917",
+   "checked": "2026-09-06"
+  },
+  {
+   "label": "click here",
+   "file": "Gold-Loan-Schedule-of-Charges-09-09-2025.pdf",
+   "url": "https://bandhanbank.com/sites/default/files/2025-09/Gold-Loan-Schedule-of-Charges-09-09-2025.pdf",
+   "bytes": 134757,
+   "sha256": "9c11c529c46ac838",
+   "checked": "2026-09-06"
+  }
+ ]
+}
