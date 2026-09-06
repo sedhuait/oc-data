@@ -339,6 +339,37 @@
       "consistent_with": "the earlier corpus finding that only 20.1% of Blinkit pages carry a real ingredient DECLARATION, as distinct from marketing copy.",
       "the_7698_with_a_gtin": "7,698 of the 53,663 carry a GTIN, so Open Food Facts' own computed NOVA could in principle be looked up. Not pursued: the OFF dump is already established as exhausted for our records — every barcode we hold already matched a dump row and gave what it had.",
       "verdict": "the remaining NOVA gap is an absent-input ceiling, not unfinished parsing"
+    },
+    "beauty_brandstore_RESULT": {
+      "checked": "2026-09-06",
+      "verdict": "The brand-storefront route is a much smaller lever than the 16,855 low-fill records suggested, and the structural reason is now measured.",
+      "the_ceiling": "sources/beauty/enrich_brand_specs.py already existed and gates on urls.brand matching /products/. EXACTLY 1,237 records have that, and they are already enriched — thedermaco had actives on 121 of 125 before this ran. The other 17,418 records have NO brand URL, and only ~1,600 belong to a brand with a storefront here at all. The rest are Lakme, Maybelline, L'Oreal, Nivea, Revlon: no D2C storefront, unreachable by this source. So the ceiling is low thousands, not 16,855.",
+      "the_actual_bug": "enrich_brand_specs.py fills key_ingredients but never actives.",
+      "yield": "98 records gained a value — alcohol_type 78, ingredients 78, actives 25, free_from 25, dermatologist_tested 18. actives 1,023 -> 1,048. Beauty fill 43.594% -> 43.663%.",
+      "robots": "All 13 hosts allowed /products.json on first contact; none refused. Then six crawled in parallel produced HTTP 429 on four storefronts, and mamaearth.in began 429-ing its own robots.txt. Fetching was stopped and the work finished from the 1,193 pages already lawfully cached. This produced the polite.py fix: an unreadable robots.txt is now a refusal, not an assumption of permission.",
+      "audit_catches": {
+        "benzoyl_peroxide_on_19_sunscreens": "'benzoyl' matches Diethylamino Hydroxybenzoyl Hexyl Benzoate and Butyl Methoxydibenzoylmethane — two common UV filters. 20 of 21 matches were UV filters, not the prescription acne active. Same class as the Vitamin C/E substring trap.",
+        "salicylic_acid_from_a_preservative_blend": "'Benzyl Alcohol (and) Salicylic Acid (and) Glycerin' is ONE INCI entry at a fraction of a percent, not an active.",
+        "aloe_vera_on_body_mists": "4th in a spray that is 78.7% denatured alcohol."
+      },
+      "actives_vocabulary": "schemas/beauty.json declares vocabulary 'actives.txt' and NO SUCH FILE EXISTS. The vocabulary actually lives hard-coded in two disagreeing files (36 and 24 terms, union 40). Reported, not created, since schemas/ is snapshot-frozen."
+    },
+    "appliances_maker_sites_RESULT": {
+      "checked": "2026-09-06",
+      "yield": "165 values on 39 records; fill 23.15% -> 24.35%; fields at exactly zero 15 -> 5.",
+      "per_maker": {
+        "Samsung": "reachable, 46 of 81 matched on model code, 0 category mismatches",
+        "LG": "robots.txt HTTP 403 — refused",
+        "Panasonic": "robots.txt HTTP 403 — refused",
+        "Whirlpool": "robots.txt HTTP 500 on both attempts — unreachable",
+        "Voltas": "HTTP 429 twice, 20s apart; already covered by the existing Shopify crawler",
+        "Godrej": "godrejappliances.com does not resolve; godrejenterprises.com's sitemap holds furniture fittings and About Us pages, zero appliance URLs"
+      },
+      "audit_catches": {
+        "samsung_serves_the_wrong_variant": "Requesting the 50-inch Q60D returned a complete, plausible 3.5 MB page for the 65-INCH — spec table reading 'Screen Size 1.63 m', priced in GBP. Only final_url reveals it. Reading it would have written 65-inch specs onto a 50-inch record. The crawler now drops any page whose final URL loses the requested model code.",
+        "installation_included_from_a_mounting_type": "'Installation|Free Standing' means free-standing vs built-in cabinetry. The reader saw 'free' and returned True. The field stays at zero rather than carrying a confident wrong boolean."
+      },
+      "left_null": "rating_year — Samsung states a star COUNT, never the issue year; inverter_compatible — every 'Inverter' here is an inverter COMPRESSOR, now blocked in code not just in comment; refresh_hz — 9 of 10 TVs state only 'Motion Xcelerator', a brand name with no rate, and absence was not defaulted to 60."
     }
   }
 }
