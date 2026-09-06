@@ -1,0 +1,20 @@
+{
+  "written": "2026-09-07",
+  "question": "Should the 1,280 mirrored SEBI Scheme Information Documents be committed?",
+  "state": {
+    "pdfs": 1280,
+    "size_on_disk": "1.4G",
+    "currently_tracked_under_documents/funds": 30,
+    "files_on_disk_under_documents/funds": 2590,
+    "git_dir_size": "726M"
+  },
+  "why_it_is_not_obvious": ".gitignore says plainly that source documents in documents/ ARE committed — 'that is the point of them, so a published fact can be checked against the document it was read from'. By that rule these belong in the repo. But the SIDs are 1.4 GB against a .git already at 726 MB, so committing them takes the repository past 2 GB and changes what cloning it costs anyone. The 30 tracked funds documents today are factsheets, not SIDs.",
+  "what_depends_on_them": "5,700 committed fund facts were read from these documents this session — exit_load_note on 2,995 records, benchmark on 2,683, lock_in_months on 22. Every one cites its SID. Without the documents in the repo those citations point at files only this machine holds.",
+  "options": {
+    "commit_them": "Honours the stated rule and makes every citation checkable. Repo goes past 2 GB.",
+    "commit_a_manifest_only": "documents.json per scheme already records the SEBI URL and a hash. SEBI serves these publicly and permits crawling, so a reader can re-fetch. Cheap, but a dead URL breaks the audit trail — and 12 of 15 MITC URLs in this repo have already died.",
+    "git_lfs": "Keeps the files addressable without the pack cost; adds a dependency and a store."
+  },
+  "recovered_today": "27 of these PDFs were truncated downloads with damaged xref tables — valid %PDF headers, no %%EOF. All 27 were re-fetched from the SEBI URLs in their manifests and now extract 8,486-27,044 characters where they previously yielded nothing. Two needed a second attempt after transient TLS handshake errors.",
+  "not_decided_here": "Repository shape is the owner's call, not a data fix. Left untracked."
+}
