@@ -1,621 +1,618 @@
 {
-  "domain": "funds",
-  "label": "Mutual funds",
-  "note": "Facts only. NAV, AUM, returns and expense ratio move — they live in the service, not this repo. What is here is scheme identity: who runs it, what it invests in, which plan and option, and its ISIN.",
-  "categories": {
-    "_default": {
-      "required": [
-        "amc",
-        "plan",
-        "option"
-      ],
-      "columns": [
-        "sub_category",
-        "management_style",
-        "plan",
-        "option"
-      ],
-      "facets": [
-        "brand",
-        "sub_category",
-        "management_style",
-        "plan",
-        "option",
-        "scheme_type",
-        "theme"
-      ],
-      "spec": [
-        "scheme_full_name",
-        "amc",
-        "rta",
-        "scheme_code",
-        "isin_growth",
-        "isin_reinvest",
-        "launch_date",
-        "scheme_type",
-        "sub_category",
-        "riskometer_label",
-        "benchmark",
-        "theme",
-        "management_style",
-        "fund_manager",
-        "plan",
-        "option",
-        "min_investment_inr",
-        "min_sip_inr",
-        "sip_frequencies",
-        "lock_in_months",
-        "exit_load_note",
-        "stp_swp_available",
-        "demat_available",
-        "sid_url",
-        "sid_version"
-      ]
-    },
-    "Equity": {
-      "required": [
-        "amc",
-        "plan",
-        "option"
-      ],
-      "columns": [
-        "sub_category",
-        "management_style",
-        "plan",
-        "option"
-      ],
-      "facets": [
-        "brand",
-        "sub_category",
-        "management_style",
-        "plan",
-        "option",
-        "scheme_type",
-        "fund_manager",
-        "theme"
-      ],
-      "spec": [
-        "scheme_full_name",
-        "amc",
-        "rta",
-        "scheme_code",
-        "isin_growth",
-        "isin_reinvest",
-        "launch_date",
-        "scheme_type",
-        "sub_category",
-        "riskometer_label",
-        "benchmark",
-        "theme",
-        "management_style",
-        "fund_manager",
-        "plan",
-        "option",
-        "min_investment_inr",
-        "min_sip_inr",
-        "sip_frequencies",
-        "lock_in_months",
-        "exit_load_note",
-        "stp_swp_available",
-        "demat_available",
-        "sid_url",
-        "sid_version"
-      ]
-    },
-    "Debt": {
-      "required": [
-        "amc",
-        "plan",
-        "option"
-      ],
-      "columns": [
-        "sub_category",
-        "management_style",
-        "plan",
-        "option"
-      ],
-      "facets": [
-        "brand",
-        "sub_category",
-        "management_style",
-        "plan",
-        "option",
-        "scheme_type"
-      ],
-      "spec": [
-        "scheme_full_name",
-        "amc",
-        "rta",
-        "scheme_code",
-        "isin_growth",
-        "isin_reinvest",
-        "launch_date",
-        "scheme_type",
-        "sub_category",
-        "riskometer_label",
-        "benchmark",
-        "theme",
-        "management_style",
-        "fund_manager",
-        "plan",
-        "option",
-        "min_investment_inr",
-        "min_sip_inr",
-        "sip_frequencies",
-        "lock_in_months",
-        "exit_load_note",
-        "stp_swp_available",
-        "demat_available",
-        "sid_url",
-        "sid_version"
-      ]
-    },
-    "Hybrid": {
-      "required": [
-        "amc",
-        "plan",
-        "option"
-      ],
-      "columns": [
-        "sub_category",
-        "management_style",
-        "plan",
-        "option"
-      ],
-      "facets": [
-        "brand",
-        "sub_category",
-        "management_style",
-        "plan",
-        "option"
-      ],
-      "spec": [
-        "scheme_full_name",
-        "amc",
-        "rta",
-        "scheme_code",
-        "isin_growth",
-        "isin_reinvest",
-        "launch_date",
-        "scheme_type",
-        "sub_category",
-        "riskometer_label",
-        "benchmark",
-        "theme",
-        "management_style",
-        "fund_manager",
-        "plan",
-        "option",
-        "min_investment_inr",
-        "min_sip_inr",
-        "sip_frequencies",
-        "lock_in_months",
-        "exit_load_note",
-        "stp_swp_available",
-        "demat_available",
-        "sid_url",
-        "sid_version"
-      ]
-    },
-    "Commodity": {
-      "required": [
-        "amc",
-        "plan",
-        "option"
-      ],
-      "columns": [
-        "sub_category",
-        "management_style",
-        "plan",
-        "option"
-      ],
-      "facets": [
-        "brand",
-        "sub_category",
-        "management_style",
-        "plan",
-        "option"
-      ],
-      "spec": [
-        "scheme_full_name",
-        "amc",
-        "rta",
-        "scheme_code",
-        "isin_growth",
-        "isin_reinvest",
-        "launch_date",
-        "scheme_type",
-        "sub_category",
-        "riskometer_label",
-        "benchmark",
-        "theme",
-        "management_style",
-        "fund_manager",
-        "plan",
-        "option",
-        "min_investment_inr",
-        "min_sip_inr",
-        "sip_frequencies",
-        "lock_in_months",
-        "exit_load_note",
-        "stp_swp_available",
-        "demat_available",
-        "sid_url",
-        "sid_version"
-      ]
-    },
-    "Solution oriented": {
-      "required": [
-        "amc",
-        "plan",
-        "option"
-      ],
-      "columns": [
-        "sub_category",
-        "plan",
-        "option"
-      ],
-      "facets": [
-        "brand",
-        "sub_category",
-        "plan",
-        "option"
-      ],
-      "spec": [
-        "scheme_full_name",
-        "amc",
-        "rta",
-        "scheme_code",
-        "isin_growth",
-        "isin_reinvest",
-        "launch_date",
-        "scheme_type",
-        "sub_category",
-        "riskometer_label",
-        "benchmark",
-        "theme",
-        "management_style",
-        "fund_manager",
-        "plan",
-        "option",
-        "min_investment_inr",
-        "min_sip_inr",
-        "sip_frequencies",
-        "lock_in_months",
-        "exit_load_note",
-        "stp_swp_available",
-        "demat_available",
-        "sid_url",
-        "sid_version"
-      ]
-    },
-    "Other": {
-      "required": [
-        "amc",
-        "plan",
-        "option"
-      ],
-      "columns": [
-        "sub_category",
-        "management_style",
-        "plan",
-        "option"
-      ],
-      "facets": [
-        "brand",
-        "sub_category",
-        "management_style",
-        "plan",
-        "option",
-        "theme"
-      ],
-      "spec": [
-        "scheme_full_name",
-        "amc",
-        "rta",
-        "scheme_code",
-        "isin_growth",
-        "isin_reinvest",
-        "launch_date",
-        "scheme_type",
-        "sub_category",
-        "riskometer_label",
-        "benchmark",
-        "theme",
-        "management_style",
-        "fund_manager",
-        "plan",
-        "option",
-        "min_investment_inr",
-        "min_sip_inr",
-        "sip_frequencies",
-        "lock_in_months",
-        "exit_load_note",
-        "stp_swp_available",
-        "demat_available",
-        "sid_url",
-        "sid_version"
-      ]
-    }
+ "domain": "funds",
+ "label": "Mutual funds",
+ "note": "Facts only. NAV, AUM, returns and expense ratio move — they live in the service, not this repo. What is here is scheme identity: who runs it, what it invests in, which plan and option, and its ISIN.",
+ "categories": {
+  "_default": {
+   "required": [
+    "amc",
+    "plan",
+    "option"
+   ],
+   "columns": [
+    "sub_category",
+    "management_style",
+    "plan",
+    "option"
+   ],
+   "facets": [
+    "brand",
+    "sub_category",
+    "management_style",
+    "plan",
+    "option",
+    "scheme_type",
+    "theme"
+   ],
+   "spec": [
+    "scheme_full_name",
+    "amc",
+    "scheme_code",
+    "isin_growth",
+    "isin_reinvest",
+    "launch_date",
+    "scheme_type",
+    "sub_category",
+    "riskometer_label",
+    "benchmark",
+    "theme",
+    "management_style",
+    "fund_manager",
+    "plan",
+    "option",
+    "min_investment_inr",
+    "min_sip_inr",
+    "sip_frequencies",
+    "lock_in_months",
+    "exit_load_note",
+    "stp_swp_available",
+    "demat_available",
+    "sid_url",
+    "sid_version"
+   ]
   },
-  "fields": {
-    "amc": {
-      "type": "string",
-      "label": "Fund house",
-      "group": "identity",
-      "note": "The asset management company running the scheme. Your money is held by a separate trustee and custodian, so the AMC manages but does not hold it."
-    },
-    "scheme_type": {
-      "type": "enum",
-      "values": [
-        "Open ended",
-        "Close ended",
-        "Interval"
-      ],
-      "label": "Scheme type",
-      "group": "classification",
-      "note": "Whether the scheme is open ended, close ended or interval. Open ended schemes can be bought and sold on any business day; close ended ones lock the money until maturity and trade only on an exchange, often below value."
-    },
-    "sub_category": {
-      "type": "enum",
-      "label": "SEBI sub-category",
-      "values": [
-        "Large Cap Fund",
-        "Large & Mid Cap Fund",
-        "Mid Cap Fund",
-        "Small Cap Fund",
-        "Multi Cap Fund",
-        "Flexi Cap Fund",
-        "Focused Fund",
-        "Dividend Yield Fund",
-        "Value / Contra Fund",
-        "Sectoral / Thematic",
-        "ELSS",
-        "Equity — other",
-        "Overnight Fund",
-        "Liquid Fund",
-        "Ultra Short Duration Fund",
-        "Low Duration Fund",
-        "Money Market Fund",
-        "Short Duration Fund",
-        "Medium Duration Fund",
-        "Medium to Long Duration Fund",
-        "Long Duration Fund",
-        "Dynamic Bond",
-        "Corporate Bond Fund",
-        "Credit Risk Fund",
-        "Banking and PSU Fund",
-        "Gilt Fund",
-        "10-year Constant Maturity Gilt",
-        "Floater Fund",
-        "Fixed Maturity Plan",
-        "Debt — other",
-        "Aggressive Hybrid Fund",
-        "Conservative Hybrid Fund",
-        "Balanced Hybrid Fund",
-        "Balanced Advantage / Dynamic Asset Allocation",
-        "Multi Asset Allocation",
-        "Arbitrage Fund",
-        "Equity Savings",
-        "Hybrid — other",
-        "Index Fund",
-        "Equity ETF",
-        "Debt ETF",
-        "Gold ETF",
-        "Silver ETF",
-        "ETF — other",
-        "Fund of Funds — domestic",
-        "Fund of Funds — overseas",
-        "Retirement Fund",
-        "Children's Fund",
-        "Life Cycle Fund"
-      ],
-      "group": "classification",
-      "note": "The SEBI sub-category, which since 2018 defines what the scheme may hold. It is the only classification that makes two funds genuinely comparable, because it fixes the market-cap or duration mandate rather than leaving it to the scheme's marketing name."
-    },
-    "plan": {
-      "type": "enum",
-      "values": [
-        "Direct",
-        "Regular"
-      ],
-      "label": "Plan",
-      "group": "terms",
-      "note": "Direct or Regular. Direct plans are bought from the AMC without a distributor and carry a lower expense ratio for the identical portfolio; Regular plans embed a distributor commission. The difference compounds over long holding periods."
-    },
-    "option": {
-      "type": "enum",
-      "values": [
-        "Growth",
-        "IDCW",
-        "IDCW Payout",
-        "IDCW Reinvestment",
-        "Bonus"
-      ],
-      "label": "Option",
-      "group": "terms",
-      "note": "What happens to the scheme's income. Growth reinvests it so it shows up in the unit value; IDCW pays it out, which is taxable in your hands and reduces the unit value by the amount paid."
-    },
-    "scheme_code": {
-      "type": "string",
-      "label": "AMFI scheme code",
-      "group": "identity",
-      "note": "AMFI's numeric code for the scheme, which identifies one specific plan and option combination. It is the key that distinguishes the four variants that share a single marketing name."
-    },
-    "isin_growth": {
-      "type": "string",
-      "label": "ISIN (growth / payout)",
-      "group": "identity",
-      "note": "The ISIN for the growth option, the globally unique securities identifier. It is the most reliable way to confirm you are looking at exactly the right plan and option."
-    },
-    "isin_reinvest": {
-      "type": "string",
-      "label": "ISIN (reinvestment)",
-      "group": "identity",
-      "note": "The ISIN for the IDCW reinvestment option of the same scheme."
-    },
-    "management_style": {
-      "type": "enum",
-      "values": [
-        "Active",
-        "Passive"
-      ],
-      "label": "Management style",
-      "note": "Whether the scheme is actively managed or tracks an index. Index schemes follow a rulebook with lower costs; active ones rely on the manager's decisions and charge more for it.",
-      "group": "management"
-    },
-    "fund_manager": {
-      "type": "string",
-      "label": "Fund manager",
-      "note": "Who manages the scheme. Not in AMFI's public file and empty on most records here, though it matters for an actively managed scheme because a manager change alters how the mandate is executed in practice.",
-      "group": "management"
-    },
-    "benchmark": {
-      "type": "string",
-      "label": "Benchmark index",
-      "note": "The index the scheme measures itself against, as declared in its offer document. It is the reference the scheme's own reporting must use, which is why it belongs to the scheme's identity rather than its performance.",
-      "group": "classification"
-    },
-    "launch_date": {
-      "type": "string",
-      "label": "Scheme launch date",
-      "group": "identity",
-      "note": "When the scheme opened. Read it with the sub-category, since schemes launched before SEBI's 2018 recategorisation were mapped into their current category rather than built for it."
-    },
-    "theme": {
-      "type": "string",
-      "label": "Theme",
-      "note": "The sector or theme a thematic scheme is restricted to. A narrower mandate means the scheme cannot diversify away from that theme even when the manager wants to.",
-      "group": "classification"
-    },
-    "scheme_full_name": {
-      "type": "string",
-      "label": "Full scheme name",
-      "group": "identity",
-      "note": "The scheme's complete registered name including plan and option. Marketing names drop these qualifiers, which is how people end up buying a Regular plan while intending a Direct one."
-    },
-    "rta": {
-      "type": "enum",
-      "label": "Registrar",
-      "group": "identity",
-      "values": [
-        "CAMS",
-        "KFintech",
-        "Franklin",
-        "Sundaram",
-        "Other"
-      ],
-      "note": "The registrar and transfer agent that keeps the unit records. It is who you approach for statements and non-financial changes, and it determines which service portal covers this scheme."
-    },
-    "riskometer_label": {
-      "type": "string",
-      "label": "Riskometer band",
-      "group": "classification",
-      "note": "The risk band SEBI requires the scheme to publish, from Low to Very High. It is the AMC's own mandated disclosure, calculated by a prescribed method, and it is reviewed monthly."
-    },
-    "min_investment_inr": {
-      "type": "number",
-      "min": 1,
-      "max": 10000000,
-      "unit": "₹",
-      "label": "Minimum investment",
-      "group": "terms",
-      "note": "The smallest lump-sum purchase the scheme accepts from a new investor."
-    },
-    "min_sip_inr": {
-      "type": "number",
-      "min": 1,
-      "max": 1000000,
-      "unit": "₹",
-      "label": "Minimum SIP",
-      "group": "terms",
-      "note": "The smallest recurring instalment the scheme accepts. It decides whether the scheme is reachable on a small monthly budget."
-    },
-    "lock_in_months": {
-      "type": "integer",
-      "min": 0,
-      "max": 360,
-      "unit": "months",
-      "label": "Lock-in",
-      "group": "terms",
-      "note": "How long units cannot be redeemed at all. ELSS schemes carry a mandatory three-year lock-in in exchange for the Section 80C deduction; most other open-ended schemes have none."
-    },
-    "exit_load_note": {
-      "type": "string",
-      "label": "Exit load terms",
-      "group": "terms",
-      "note": "The charge for redeeming within a stated period, and how long that period runs. It is a term of the scheme rather than a moving figure, and it is what makes short holding periods costly."
-    },
-    "sip_frequencies": {
-      "type": "list",
-      "label": "SIP frequencies",
-      "group": "terms",
-      "values": [
-        "Daily",
-        "Weekly",
-        "Fortnightly",
-        "Monthly",
-        "Quarterly"
-      ],
-      "note": "Which recurring investment intervals the scheme allows."
-    },
-    "stp_swp_available": {
-      "type": "boolean",
-      "label": "STP and SWP available",
-      "group": "terms",
-      "note": "Whether money can be moved in or out in instalments through systematic transfer or withdrawal plans, rather than only as lump sums."
-    },
-    "demat_available": {
-      "type": "boolean",
-      "label": "Can be held in demat",
-      "group": "terms",
-      "note": "Whether units can sit in a demat account alongside shares, rather than only in the registrar's records."
-    },
-    "sid_url": {
-      "type": "string",
-      "label": "Scheme Information Document",
-      "group": "documents",
-      "note": "A link to the scheme's SID, the SEBI-mandated document that states the mandate, costs and risks. It is the authoritative source for everything recorded here."
-    },
-    "sid_version": {
-      "type": "string",
-      "label": "SID version",
-      "group": "documents",
-      "note": "Which version of the Scheme Information Document these facts were read from. AMCs revise SIDs, so this records which document was in front of us."
-    }
+  "Equity": {
+   "required": [
+    "amc",
+    "plan",
+    "option"
+   ],
+   "columns": [
+    "sub_category",
+    "management_style",
+    "plan",
+    "option"
+   ],
+   "facets": [
+    "brand",
+    "sub_category",
+    "management_style",
+    "plan",
+    "option",
+    "scheme_type",
+    "fund_manager",
+    "theme"
+   ],
+   "spec": [
+    "scheme_full_name",
+    "amc",
+    "scheme_code",
+    "isin_growth",
+    "isin_reinvest",
+    "launch_date",
+    "scheme_type",
+    "sub_category",
+    "riskometer_label",
+    "benchmark",
+    "theme",
+    "management_style",
+    "fund_manager",
+    "plan",
+    "option",
+    "min_investment_inr",
+    "min_sip_inr",
+    "sip_frequencies",
+    "lock_in_months",
+    "exit_load_note",
+    "stp_swp_available",
+    "demat_available",
+    "sid_url",
+    "sid_version"
+   ]
   },
-  "not_in_this_repo": [
-    "nav",
-    "aum",
-    "returns",
-    "expense_ratio",
-    "exit_load",
-    "riskometer"
-  ],
-  "sanity": {
-    "isin": "^INF[A-Z0-9]{9}$",
-    "note": "Riskometer changes monthly and exit load can be revised; both belong in the live layer."
+  "Debt": {
+   "required": [
+    "amc",
+    "plan",
+    "option"
+   ],
+   "columns": [
+    "sub_category",
+    "management_style",
+    "plan",
+    "option"
+   ],
+   "facets": [
+    "brand",
+    "sub_category",
+    "management_style",
+    "plan",
+    "option",
+    "scheme_type"
+   ],
+   "spec": [
+    "scheme_full_name",
+    "amc",
+    "scheme_code",
+    "isin_growth",
+    "isin_reinvest",
+    "launch_date",
+    "scheme_type",
+    "sub_category",
+    "riskometer_label",
+    "benchmark",
+    "theme",
+    "management_style",
+    "fund_manager",
+    "plan",
+    "option",
+    "min_investment_inr",
+    "min_sip_inr",
+    "sip_frequencies",
+    "lock_in_months",
+    "exit_load_note",
+    "stp_swp_available",
+    "demat_available",
+    "sid_url",
+    "sid_version"
+   ]
   },
-  "groups": [
-    {
-      "id": "identity",
-      "label": "Scheme identity"
-    },
-    {
-      "id": "classification",
-      "label": "Category & mandate"
-    },
-    {
-      "id": "management",
-      "label": "Management"
-    },
-    {
-      "id": "terms",
-      "label": "Investment terms"
-    },
-    {
-      "id": "documents",
-      "label": "Official documents"
-    }
-  ]
+  "Hybrid": {
+   "required": [
+    "amc",
+    "plan",
+    "option"
+   ],
+   "columns": [
+    "sub_category",
+    "management_style",
+    "plan",
+    "option"
+   ],
+   "facets": [
+    "brand",
+    "sub_category",
+    "management_style",
+    "plan",
+    "option"
+   ],
+   "spec": [
+    "scheme_full_name",
+    "amc",
+    "scheme_code",
+    "isin_growth",
+    "isin_reinvest",
+    "launch_date",
+    "scheme_type",
+    "sub_category",
+    "riskometer_label",
+    "benchmark",
+    "theme",
+    "management_style",
+    "fund_manager",
+    "plan",
+    "option",
+    "min_investment_inr",
+    "min_sip_inr",
+    "sip_frequencies",
+    "lock_in_months",
+    "exit_load_note",
+    "stp_swp_available",
+    "demat_available",
+    "sid_url",
+    "sid_version"
+   ]
+  },
+  "Commodity": {
+   "required": [
+    "amc",
+    "plan",
+    "option"
+   ],
+   "columns": [
+    "sub_category",
+    "management_style",
+    "plan",
+    "option"
+   ],
+   "facets": [
+    "brand",
+    "sub_category",
+    "management_style",
+    "plan",
+    "option"
+   ],
+   "spec": [
+    "scheme_full_name",
+    "amc",
+    "scheme_code",
+    "isin_growth",
+    "isin_reinvest",
+    "launch_date",
+    "scheme_type",
+    "sub_category",
+    "riskometer_label",
+    "benchmark",
+    "theme",
+    "management_style",
+    "fund_manager",
+    "plan",
+    "option",
+    "min_investment_inr",
+    "min_sip_inr",
+    "sip_frequencies",
+    "lock_in_months",
+    "exit_load_note",
+    "stp_swp_available",
+    "demat_available",
+    "sid_url",
+    "sid_version"
+   ]
+  },
+  "Solution oriented": {
+   "required": [
+    "amc",
+    "plan",
+    "option"
+   ],
+   "columns": [
+    "sub_category",
+    "plan",
+    "option"
+   ],
+   "facets": [
+    "brand",
+    "sub_category",
+    "plan",
+    "option"
+   ],
+   "spec": [
+    "scheme_full_name",
+    "amc",
+    "scheme_code",
+    "isin_growth",
+    "isin_reinvest",
+    "launch_date",
+    "scheme_type",
+    "sub_category",
+    "riskometer_label",
+    "benchmark",
+    "theme",
+    "management_style",
+    "fund_manager",
+    "plan",
+    "option",
+    "min_investment_inr",
+    "min_sip_inr",
+    "sip_frequencies",
+    "lock_in_months",
+    "exit_load_note",
+    "stp_swp_available",
+    "demat_available",
+    "sid_url",
+    "sid_version"
+   ]
+  },
+  "Other": {
+   "required": [
+    "amc",
+    "plan",
+    "option"
+   ],
+   "columns": [
+    "sub_category",
+    "management_style",
+    "plan",
+    "option"
+   ],
+   "facets": [
+    "brand",
+    "sub_category",
+    "management_style",
+    "plan",
+    "option",
+    "theme"
+   ],
+   "spec": [
+    "scheme_full_name",
+    "amc",
+    "scheme_code",
+    "isin_growth",
+    "isin_reinvest",
+    "launch_date",
+    "scheme_type",
+    "sub_category",
+    "riskometer_label",
+    "benchmark",
+    "theme",
+    "management_style",
+    "fund_manager",
+    "plan",
+    "option",
+    "min_investment_inr",
+    "min_sip_inr",
+    "sip_frequencies",
+    "lock_in_months",
+    "exit_load_note",
+    "stp_swp_available",
+    "demat_available",
+    "sid_url",
+    "sid_version"
+   ]
+  }
+ },
+ "fields": {
+  "amc": {
+   "type": "string",
+   "label": "Fund house",
+   "group": "identity",
+   "note": "The asset management company running the scheme. Your money is held by a separate trustee and custodian, so the AMC manages but does not hold it."
+  },
+  "scheme_type": {
+   "type": "enum",
+   "values": [
+    "Open ended",
+    "Close ended",
+    "Interval"
+   ],
+   "label": "Scheme type",
+   "group": "classification",
+   "note": "Whether the scheme is open ended, close ended or interval. Open ended schemes can be bought and sold on any business day; close ended ones lock the money until maturity and trade only on an exchange, often below value."
+  },
+  "sub_category": {
+   "type": "enum",
+   "label": "SEBI sub-category",
+   "values": [
+    "Large Cap Fund",
+    "Large & Mid Cap Fund",
+    "Mid Cap Fund",
+    "Small Cap Fund",
+    "Multi Cap Fund",
+    "Flexi Cap Fund",
+    "Focused Fund",
+    "Dividend Yield Fund",
+    "Value / Contra Fund",
+    "Sectoral / Thematic",
+    "ELSS",
+    "Equity — other",
+    "Overnight Fund",
+    "Liquid Fund",
+    "Ultra Short Duration Fund",
+    "Low Duration Fund",
+    "Money Market Fund",
+    "Short Duration Fund",
+    "Medium Duration Fund",
+    "Medium to Long Duration Fund",
+    "Long Duration Fund",
+    "Dynamic Bond",
+    "Corporate Bond Fund",
+    "Credit Risk Fund",
+    "Banking and PSU Fund",
+    "Gilt Fund",
+    "10-year Constant Maturity Gilt",
+    "Floater Fund",
+    "Fixed Maturity Plan",
+    "Debt — other",
+    "Aggressive Hybrid Fund",
+    "Conservative Hybrid Fund",
+    "Balanced Hybrid Fund",
+    "Balanced Advantage / Dynamic Asset Allocation",
+    "Multi Asset Allocation",
+    "Arbitrage Fund",
+    "Equity Savings",
+    "Hybrid — other",
+    "Index Fund",
+    "Equity ETF",
+    "Debt ETF",
+    "Gold ETF",
+    "Silver ETF",
+    "ETF — other",
+    "Fund of Funds — domestic",
+    "Fund of Funds — overseas",
+    "Retirement Fund",
+    "Children's Fund",
+    "Life Cycle Fund"
+   ],
+   "group": "classification",
+   "note": "The SEBI sub-category, which since 2018 defines what the scheme may hold. It is the only classification that makes two funds genuinely comparable, because it fixes the market-cap or duration mandate rather than leaving it to the scheme's marketing name."
+  },
+  "plan": {
+   "type": "enum",
+   "values": [
+    "Direct",
+    "Regular"
+   ],
+   "label": "Plan",
+   "group": "terms",
+   "note": "Direct or Regular. Direct plans are bought from the AMC without a distributor and carry a lower expense ratio for the identical portfolio; Regular plans embed a distributor commission. The difference compounds over long holding periods."
+  },
+  "option": {
+   "type": "enum",
+   "values": [
+    "Growth",
+    "IDCW",
+    "IDCW Payout",
+    "IDCW Reinvestment",
+    "Bonus"
+   ],
+   "label": "Option",
+   "group": "terms",
+   "note": "What happens to the scheme's income. Growth reinvests it so it shows up in the unit value; IDCW pays it out, which is taxable in your hands and reduces the unit value by the amount paid."
+  },
+  "scheme_code": {
+   "type": "string",
+   "label": "AMFI scheme code",
+   "group": "identity",
+   "note": "AMFI's numeric code for the scheme, which identifies one specific plan and option combination. It is the key that distinguishes the four variants that share a single marketing name."
+  },
+  "isin_growth": {
+   "type": "string",
+   "label": "ISIN (growth / payout)",
+   "group": "identity",
+   "note": "The ISIN for the growth option, the globally unique securities identifier. It is the most reliable way to confirm you are looking at exactly the right plan and option."
+  },
+  "isin_reinvest": {
+   "type": "string",
+   "label": "ISIN (reinvestment)",
+   "group": "identity",
+   "note": "The ISIN for the IDCW reinvestment option of the same scheme."
+  },
+  "management_style": {
+   "type": "enum",
+   "values": [
+    "Active",
+    "Passive"
+   ],
+   "label": "Management style",
+   "note": "Whether the scheme is actively managed or tracks an index. Index schemes follow a rulebook with lower costs; active ones rely on the manager's decisions and charge more for it.",
+   "group": "management"
+  },
+  "fund_manager": {
+   "type": "string",
+   "label": "Fund manager",
+   "note": "Who manages the scheme. Not in AMFI's public file and empty on most records here, though it matters for an actively managed scheme because a manager change alters how the mandate is executed in practice.",
+   "group": "management"
+  },
+  "benchmark": {
+   "type": "string",
+   "label": "Benchmark index",
+   "note": "The index the scheme measures itself against, as declared in its offer document. It is the reference the scheme's own reporting must use, which is why it belongs to the scheme's identity rather than its performance.",
+   "group": "classification"
+  },
+  "launch_date": {
+   "type": "string",
+   "label": "Scheme launch date",
+   "group": "identity",
+   "note": "When the scheme opened. Read it with the sub-category, since schemes launched before SEBI's 2018 recategorisation were mapped into their current category rather than built for it."
+  },
+  "theme": {
+   "type": "string",
+   "label": "Theme",
+   "note": "The sector or theme a thematic scheme is restricted to. A narrower mandate means the scheme cannot diversify away from that theme even when the manager wants to.",
+   "group": "classification"
+  },
+  "scheme_full_name": {
+   "type": "string",
+   "label": "Full scheme name",
+   "group": "identity",
+   "note": "The scheme's complete registered name including plan and option. Marketing names drop these qualifiers, which is how people end up buying a Regular plan while intending a Direct one."
+  },
+  "rta": {
+   "type": "enum",
+   "label": "Registrar",
+   "group": "identity",
+   "values": [
+    "CAMS",
+    "KFintech",
+    "Franklin",
+    "Sundaram",
+    "Other"
+   ],
+   "note": "The registrar and transfer agent that keeps the unit records. It is who you approach for statements and non-financial changes, and it determines which service portal covers this scheme."
+  },
+  "riskometer_label": {
+   "type": "string",
+   "label": "Riskometer band",
+   "group": "classification",
+   "note": "The risk band SEBI requires the scheme to publish, from Low to Very High. It is the AMC's own mandated disclosure, calculated by a prescribed method, and it is reviewed monthly."
+  },
+  "min_investment_inr": {
+   "type": "number",
+   "min": 1,
+   "max": 10000000,
+   "unit": "₹",
+   "label": "Minimum investment",
+   "group": "terms",
+   "note": "The smallest lump-sum purchase the scheme accepts from a new investor."
+  },
+  "min_sip_inr": {
+   "type": "number",
+   "min": 1,
+   "max": 1000000,
+   "unit": "₹",
+   "label": "Minimum SIP",
+   "group": "terms",
+   "note": "The smallest recurring instalment the scheme accepts. It decides whether the scheme is reachable on a small monthly budget."
+  },
+  "lock_in_months": {
+   "type": "integer",
+   "min": 0,
+   "max": 360,
+   "unit": "months",
+   "label": "Lock-in",
+   "group": "terms",
+   "note": "How long units cannot be redeemed at all. ELSS schemes carry a mandatory three-year lock-in in exchange for the Section 80C deduction; most other open-ended schemes have none."
+  },
+  "exit_load_note": {
+   "type": "string",
+   "label": "Exit load terms",
+   "group": "terms",
+   "note": "The charge for redeeming within a stated period, and how long that period runs. It is a term of the scheme rather than a moving figure, and it is what makes short holding periods costly."
+  },
+  "sip_frequencies": {
+   "type": "list",
+   "label": "SIP frequencies",
+   "group": "terms",
+   "values": [
+    "Daily",
+    "Weekly",
+    "Fortnightly",
+    "Monthly",
+    "Quarterly"
+   ],
+   "note": "Which recurring investment intervals the scheme allows."
+  },
+  "stp_swp_available": {
+   "type": "boolean",
+   "label": "STP and SWP available",
+   "group": "terms",
+   "note": "Whether money can be moved in or out in instalments through systematic transfer or withdrawal plans, rather than only as lump sums."
+  },
+  "demat_available": {
+   "type": "boolean",
+   "label": "Can be held in demat",
+   "group": "terms",
+   "note": "Whether units can sit in a demat account alongside shares, rather than only in the registrar's records."
+  },
+  "sid_url": {
+   "type": "string",
+   "label": "Scheme Information Document",
+   "group": "documents",
+   "note": "A link to the scheme's SID, the SEBI-mandated document that states the mandate, costs and risks. It is the authoritative source for everything recorded here."
+  },
+  "sid_version": {
+   "type": "string",
+   "label": "SID version",
+   "group": "documents",
+   "note": "Which version of the Scheme Information Document these facts were read from. AMCs revise SIDs, so this records which document was in front of us."
+  }
+ },
+ "not_in_this_repo": [
+  "nav",
+  "aum",
+  "returns",
+  "expense_ratio",
+  "exit_load",
+  "riskometer",
+  "rta"
+ ],
+ "sanity": {
+  "isin": "^INF[A-Z0-9]{9}$",
+  "note": "Riskometer changes monthly and exit load can be revised; both belong in the live layer."
+ },
+ "groups": [
+  {
+   "id": "identity",
+   "label": "Scheme identity"
+  },
+  {
+   "id": "classification",
+   "label": "Category & mandate"
+  },
+  {
+   "id": "management",
+   "label": "Management"
+  },
+  {
+   "id": "terms",
+   "label": "Investment terms"
+  },
+  {
+   "id": "documents",
+   "label": "Official documents"
+  }
+ ],
+ "not_in_this_repo_why": {
+  "rta": "CAMS serves a byte-identical JS shell on every serviced-AMC path; KFintech times out; AMFI publishes no mapping."
+ }
 }

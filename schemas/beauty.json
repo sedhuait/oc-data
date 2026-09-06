@@ -1,768 +1,769 @@
 {
-  "domain": "beauty",
-  "label": "Beauty & personal care",
-  "categories": {
-    "_default": {
-      "required": [
-        "size"
-      ],
-      "columns": [
-        "size",
-        "actives"
-      ],
-      "facets": [
-        "brand",
-        "actives",
-        "flags",
-        "size"
-      ],
-      "spec": [
-        "size",
-        "quantity",
-        "form",
-        "texture",
-        "actives",
-        "key_ingredients",
-        "ingredients_order",
-        "skin",
-        "flags",
-        "pao_months",
-        "shelf_life",
-        "storage_note",
-        "manufacturer",
-        "marketed_by",
-        "country_of_origin",
-        "spec_url",
-        "spec_checked_version"
-      ]
-    },
-    "Sunscreen": {
-      "required": [
-        "size",
-        "spf"
-      ],
-      "columns": [
-        "spf",
-        "pa",
-        "size",
-        "skin"
-      ],
-      "facets": [
-        "brand",
-        "spf",
-        "pa",
-        "skin",
-        "flags",
-        "size",
-        "uv_filter_type"
-      ],
-      "spec": [
-        "size",
-        "quantity",
-        "form",
-        "texture",
-        "spf",
-        "pa",
-        "uv_filter_type",
-        "uv_filters",
-        "broad_spectrum",
-        "water_resistant_min",
-        "actives",
-        "key_ingredients",
-        "ingredients_order",
-        "fragrance",
-        "alcohol_type",
-        "ph",
-        "free_from",
-        "skin",
-        "flags",
-        "comedogenic_tested",
-        "dermatologist_tested",
-        "vegan",
-        "cruelty_free_cert",
-        "certifications",
-        "pao_months",
-        "shelf_life",
-        "storage_note",
-        "manufacturer",
-        "marketed_by",
-        "country_of_origin",
-        "spec_url",
-        "spec_checked_version"
-      ]
-    },
-    "Face serum": {
-      "required": [
-        "size",
-        "actives"
-      ],
-      "columns": [
-        "actives",
-        "size",
-        "skin"
-      ],
-      "facets": [
-        "brand",
-        "actives",
-        "skin",
-        "flags",
-        "size"
-      ],
-      "spec": [
-        "size",
-        "quantity",
-        "form",
-        "texture",
-        "actives",
-        "key_ingredients",
-        "ingredients_order",
-        "fragrance",
-        "alcohol_type",
-        "ph",
-        "free_from",
-        "skin",
-        "flags",
-        "comedogenic_tested",
-        "dermatologist_tested",
-        "vegan",
-        "cruelty_free_cert",
-        "certifications",
-        "pao_months",
-        "shelf_life",
-        "storage_note",
-        "manufacturer",
-        "marketed_by",
-        "country_of_origin",
-        "spec_url",
-        "spec_checked_version"
-      ]
-    },
-    "Moisturiser": {
-      "required": [
-        "size"
-      ],
-      "columns": [
-        "actives",
-        "size",
-        "skin"
-      ],
-      "facets": [
-        "brand",
-        "actives",
-        "skin",
-        "flags",
-        "size"
-      ],
-      "spec": [
-        "size",
-        "quantity",
-        "form",
-        "texture",
-        "actives",
-        "key_ingredients",
-        "ingredients_order",
-        "fragrance",
-        "alcohol_type",
-        "ph",
-        "free_from",
-        "skin",
-        "flags",
-        "spf_in_makeup",
-        "comedogenic_tested",
-        "dermatologist_tested",
-        "vegan",
-        "cruelty_free_cert",
-        "certifications",
-        "pao_months",
-        "shelf_life",
-        "storage_note",
-        "manufacturer",
-        "marketed_by",
-        "country_of_origin",
-        "spec_url",
-        "spec_checked_version"
-      ]
-    },
-    "Face wash & cleanser": {
-      "required": [
-        "size"
-      ],
-      "columns": [
-        "actives",
-        "size",
-        "skin"
-      ],
-      "facets": [
-        "brand",
-        "actives",
-        "skin",
-        "flags",
-        "size"
-      ],
-      "spec": [
-        "size",
-        "quantity",
-        "form",
-        "texture",
-        "actives",
-        "key_ingredients",
-        "ingredients_order",
-        "fragrance",
-        "alcohol_type",
-        "ph",
-        "free_from",
-        "skin",
-        "flags",
-        "comedogenic_tested",
-        "dermatologist_tested",
-        "vegan",
-        "cruelty_free_cert",
-        "certifications",
-        "pao_months",
-        "shelf_life",
-        "storage_note",
-        "manufacturer",
-        "marketed_by",
-        "country_of_origin",
-        "spec_url",
-        "spec_checked_version"
-      ]
-    },
-    "Shampoo": {
-      "required": [
-        "size"
-      ],
-      "columns": [
-        "actives",
-        "size"
-      ],
-      "facets": [
-        "brand",
-        "actives",
-        "flags",
-        "size"
-      ],
-      "spec": [
-        "size",
-        "quantity",
-        "form",
-        "texture",
-        "actives",
-        "key_ingredients",
-        "ingredients_order",
-        "fragrance",
-        "alcohol_type",
-        "ph",
-        "free_from",
-        "skin",
-        "flags",
-        "comedogenic_tested",
-        "dermatologist_tested",
-        "vegan",
-        "cruelty_free_cert",
-        "certifications",
-        "pao_months",
-        "shelf_life",
-        "storage_note",
-        "manufacturer",
-        "marketed_by",
-        "country_of_origin",
-        "spec_url",
-        "spec_checked_version"
-      ]
-    },
-    "Lipstick": {
-      "required": [
-        "shade"
-      ],
-      "columns": [
-        "shade",
-        "form"
-      ],
-      "facets": [
-        "brand",
-        "form",
-        "flags",
-        "finish",
-        "shade_family"
-      ],
-      "spec": [
-        "size",
-        "form",
-        "texture",
-        "shade",
-        "shade_family",
-        "undertone",
-        "finish",
-        "coverage",
-        "key_ingredients",
-        "ingredients_order",
-        "fragrance",
-        "free_from",
-        "comedogenic_tested",
-        "dermatologist_tested",
-        "vegan",
-        "cruelty_free_cert",
-        "certifications",
-        "pao_months",
-        "shelf_life",
-        "storage_note",
-        "manufacturer",
-        "marketed_by",
-        "country_of_origin",
-        "spec_url",
-        "spec_checked_version"
-      ]
-    },
-    "Fragrance": {
-      "required": [
-        "size"
-      ],
-      "columns": [
-        "size",
-        "form"
-      ],
-      "facets": [
-        "brand",
-        "size"
-      ],
-      "spec": [
-        "size",
-        "form",
-        "key_ingredients",
-        "ingredients_order",
-        "fragrance",
-        "comedogenic_tested",
-        "dermatologist_tested",
-        "vegan",
-        "cruelty_free_cert",
-        "certifications",
-        "pao_months",
-        "shelf_life",
-        "storage_note",
-        "manufacturer",
-        "marketed_by",
-        "country_of_origin",
-        "spec_url",
-        "spec_checked_version"
-      ]
-    },
-    "Beauty (Open Beauty Facts)": {
-      "required": [
-        "quantity"
-      ],
-      "columns": [
-        "quantity",
-        "ingredients_order"
-      ],
-      "facets": [
-        "brand",
-        "quantity"
-      ],
-      "note": "Imported from Open Beauty Facts under ODbL. Crowd-sourced from pack scans, so the fact sheet is an ingredient list and a pack size rather than the derived attributes we extract from brand storefronts.",
-      "spec": [
-        "quantity",
-        "size",
-        "form",
-        "actives",
-        "key_ingredients",
-        "ingredients_order",
-        "free_from",
-        "skin",
-        "flags",
-        "pao_months",
-        "shelf_life",
-        "storage_note",
-        "manufacturer",
-        "marketed_by",
-        "country_of_origin",
-        "spec_url",
-        "spec_checked_version"
-      ]
-    }
+ "domain": "beauty",
+ "label": "Beauty & personal care",
+ "categories": {
+  "_default": {
+   "required": [
+    "size"
+   ],
+   "columns": [
+    "size",
+    "actives"
+   ],
+   "facets": [
+    "brand",
+    "actives",
+    "flags",
+    "size"
+   ],
+   "spec": [
+    "size",
+    "quantity",
+    "form",
+    "texture",
+    "actives",
+    "key_ingredients",
+    "ingredients_order",
+    "skin",
+    "flags",
+    "pao_months",
+    "shelf_life",
+    "storage_note",
+    "manufacturer",
+    "marketed_by",
+    "country_of_origin",
+    "spec_url",
+    "spec_checked_version"
+   ]
   },
-  "fields": {
-    "size": {
-      "type": "quantity",
-      "units": [
-        "ml",
-        "g"
-      ],
-      "label": "Size",
-      "group": "identity"
-    },
-    "spf": {
-      "type": "integer",
-      "min": 6,
-      "max": 110,
-      "label": "SPF",
-      "group": "protection",
-      "note": "Sun Protection Factor, which measures protection against UVB, the rays that burn. The scale is not linear: SPF 30 blocks about 97% of UVB and SPF 50 about 98%, so the jump from 15 to 30 matters far more than 30 to 50. It says nothing about UVA, which is what PA rates."
-    },
-    "pa": {
-      "type": "enum",
-      "values": [
-        "PA+",
-        "PA++",
-        "PA+++",
-        "PA++++"
-      ],
-      "label": "PA rating",
-      "group": "protection",
-      "note": "Protection against UVA, the rays that drive ageing and pigmentation rather than burning. Graded from PA+ to PA++++ under the Japanese standard. A sunscreen with high SPF but low PA leaves a real gap, which is why both belong on the label.",
-      "values_note": {
-        "PA+": "Some UVA protection: roughly 2 to 4 times the wearer's own tolerance.",
-        "PA++": "Moderate UVA protection: roughly 4 to 8 times.",
-        "PA+++": "High UVA protection: roughly 8 to 16 times.",
-        "PA++++": "Very high UVA protection: 16 times or more."
-      }
-    },
-    "actives": {
-      "type": "list",
-      "label": "Key actives",
-      "vocabulary": "actives.txt",
-      "group": "formulation",
-      "note": "The ingredients doing the stated work, such as niacinamide or salicylic acid. Concentration decides the effect as much as presence does, and Indian labels rarely state it, so treat a long actives list as a claim about intent rather than strength."
-    },
-    "skin": {
-      "type": "list",
-      "values": [
-        "Oily",
-        "Dry",
-        "Combination",
-        "Sensitive",
-        "Acne-prone",
-        "Normal",
-        "All skin types"
-      ],
-      "label": "Skin type",
-      "group": "suitability",
-      "note": "The skin types the maker says the product suits. It is the maker's own claim, not a clinical finding, and 'all skin types' on a strong active is worth reading with the ingredient list."
-    },
-    "flags": {
-      "type": "list",
-      "values": [
-        "Fragrance-free",
-        "Paraben-free",
-        "Sulfate-free",
-        "Vegan",
-        "Cruelty-free",
-        "Non-comedogenic",
-        "Silicone-free",
-        "Mineral oil-free",
-        "Alcohol-free",
-        "Dermatologically tested"
-      ],
-      "label": "Claims",
-      "group": "suitability",
-      "note": "Claims printed on the pack, such as fragrance-free or non-comedogenic. Most are unregulated in India and self-declared, so they record what the brand states rather than an independent test. 'Fragrance-free' is the one with a testable meaning in the ingredient list."
-    },
-    "form": {
-      "type": "string",
-      "label": "Form",
-      "group": "identity"
-    },
-    "shade": {
-      "type": "string",
-      "label": "Shade",
-      "group": "colour"
-    },
-    "finish": {
-      "type": "enum",
-      "values": [
-        "Matte",
-        "Satin",
-        "Glossy",
-        "Dewy"
-      ],
-      "label": "Finish",
-      "group": "colour"
-    },
-    "quantity": {
-      "type": "string",
-      "label": "Net quantity",
-      "note": "As printed on the pack. Kept as text because packs say '2 x 75 g', and that is information.",
-      "group": "identity"
-    },
-    "ingredients_order": {
-      "type": "boolean",
-      "label": "Ingredients recorded in declared order",
-      "note": "Whether the ingredient list is in the required descending order of quantity. When it is, the position of an ingredient tells you roughly how much is present; when it is not, the list says only what is in the product, not how much.",
-      "group": "formulation"
-    },
-    "serving_size": {
-      "type": "string",
-      "label": "Serving size",
-      "note": "Present on some Open Beauty Facts records; kept as stated.",
-      "group": "nutrition"
-    },
-    "uv_filter_type": {
-      "type": "enum",
-      "label": "Filter type",
-      "group": "protection",
-      "values": [
-        "Chemical",
-        "Mineral",
-        "Hybrid"
-      ],
-      "note": "How the sunscreen blocks UV. Mineral filters sit on the skin and work immediately but can leave a white cast; chemical filters absorb UV, are lighter to wear, and need about 15 minutes to become effective.",
-      "values_note": {
-        "Chemical": "Organic filters that absorb UV and convert it to heat. Cosmetically lighter; needs time to activate.",
-        "Mineral": "Zinc oxide or titanium dioxide sitting on the skin. Works on application; can leave a white cast.",
-        "Hybrid": "Both types combined, to balance cosmetic feel against immediate protection."
-      }
-    },
-    "uv_filters": {
-      "type": "list",
-      "label": "UV filters used",
-      "group": "protection",
-      "note": "The specific filter molecules in the formula. Newer filters such as Tinosorb S and Uvinul A Plus hold up better in sunlight than older ones like Avobenzone used alone, which breaks down within hours unless stabilised."
-    },
-    "water_resistant_min": {
-      "type": "integer",
-      "min": 0,
-      "max": 240,
-      "unit": "minutes",
-      "label": "Water resistance",
-      "group": "protection",
-      "note": "How long the stated protection survives in water, as tested. Nothing is waterproof: after this period the sunscreen must be reapplied, and towelling removes it sooner."
-    },
-    "broad_spectrum": {
-      "type": "boolean",
-      "label": "Broad spectrum",
-      "group": "protection",
-      "note": "Whether the product is tested to protect against both UVA and UVB rather than UVB alone. Without it, a high SPF still leaves UVA exposure."
-    },
-    "texture": {
-      "type": "string",
-      "label": "Texture",
-      "group": "formulation"
-    },
-    "fragrance": {
-      "type": "enum",
-      "label": "Fragrance",
-      "group": "formulation",
-      "values": [
-        "Added fragrance",
-        "Fragrance-free",
-        "Naturally derived scent",
-        "Unscented with masking fragrance"
-      ],
-      "note": "Whether scent has been added. 'Unscented' can still contain a masking fragrance to hide a base smell, which is different from fragrance-free and matters for reactive skin."
-    },
-    "alcohol_type": {
-      "type": "enum",
-      "label": "Alcohol",
-      "group": "formulation",
-      "values": [
-        "None",
-        "Fatty alcohols only",
-        "Denatured alcohol",
-        "Both"
-      ],
-      "note": "Which alcohols are present. Fatty alcohols such as cetyl and stearyl are moisturising and unrelated to the drying denatured alcohol that appears high on some quick-drying formulas."
-    },
-    "ph": {
-      "type": "number",
-      "min": 1,
-      "max": 14,
-      "label": "pH",
-      "group": "formulation",
-      "note": "How acidic the formula is. It decides whether some actives work at all: vitamin C as ascorbic acid needs a low pH, while a cleanser far above skin's own pH of about 5 can leave it tight."
-    },
-    "key_ingredients": {
-      "type": "list",
-      "label": "Notable ingredients",
-      "group": "formulation",
-      "note": "Ingredients worth naming beyond the actives, such as ceramides or occlusives. Position in the full list indicates roughly how much is present when the list is in declared order."
-    },
-    "free_from": {
-      "type": "list",
-      "label": "Free from",
-      "group": "formulation",
-      "note": "Ingredient groups the brand states are absent, such as parabens or sulphates. These are marketing claims about exclusion, not safety findings, and an excluded ingredient is always replaced by something else."
-    },
-    "comedogenic_tested": {
-      "type": "boolean",
-      "label": "Non-comedogenic tested",
-      "group": "claims",
-      "note": "Whether the product has been tested for pore-blocking rather than only labelled non-comedogenic. The term is unregulated, so the distinction between tested and asserted is the whole information."
-    },
-    "dermatologist_tested": {
-      "type": "boolean",
-      "label": "Dermatologically tested",
-      "group": "claims",
-      "note": "Whether a dermatologist supervised a skin-tolerance test. It records that testing happened, not that the product passed any particular threshold, since the phrase has no legal definition in India."
-    },
-    "cruelty_free_cert": {
-      "type": "string",
-      "label": "Cruelty-free certification",
-      "group": "claims",
-      "note": "Which body certifies the no-animal-testing claim, such as Leaping Bunny or PETA. An uncertified claim on the pack is self-declared."
-    },
-    "vegan": {
-      "type": "boolean",
-      "label": "Vegan",
-      "group": "claims",
-      "note": "Whether the formula avoids animal-derived ingredients such as beeswax, lanolin or carmine. Separate from cruelty-free, which is about testing rather than contents."
-    },
-    "certifications": {
-      "type": "list",
-      "label": "Certifications",
-      "group": "claims",
-      "note": "Independent certifications the product carries, such as Ecocert or COSMOS. Unlike pack claims, these are audited against a published standard."
-    },
-    "shade_family": {
-      "type": "enum",
-      "label": "Shade family",
-      "group": "colour",
-      "values": [
-        "Fair",
-        "Light",
-        "Medium",
-        "Tan",
-        "Deep",
-        "Universal",
-        "Clear"
-      ],
-      "note": "Roughly where the shade sits on the depth range, so shades can be compared across brands that use their own naming."
-    },
-    "undertone": {
-      "type": "enum",
-      "label": "Undertone",
-      "group": "colour",
-      "values": [
-        "Cool",
-        "Warm",
-        "Neutral",
-        "Olive"
-      ],
-      "note": "The underlying colour cast of a shade. Matching undertone matters more than matching depth for whether a base product looks natural."
-    },
-    "coverage": {
-      "type": "enum",
-      "label": "Coverage",
-      "group": "colour",
-      "values": [
-        "Sheer",
-        "Light",
-        "Medium",
-        "Full",
-        "Buildable"
-      ],
-      "note": "How much the product conceals what is underneath. Buildable means thin layers can be added, so the same product can serve as light or full coverage."
-    },
-    "spf_in_makeup": {
-      "type": "integer",
-      "min": 1,
-      "max": 110,
-      "label": "SPF in this product",
-      "group": "colour",
-      "note": "Sun protection built into a colour product. In practice people apply far less makeup than the amount sunscreen testing assumes, so it should be read as a bonus rather than a replacement for sunscreen."
-    },
-    "pao_months": {
-      "type": "integer",
-      "min": 1,
-      "max": 60,
-      "unit": "months",
-      "label": "Period after opening",
-      "group": "lifecycle",
-      "note": "How many months the product stays good once opened, shown on the pack as a jar symbol with a number. It runs from first use and is usually much shorter than the unopened shelf life."
-    },
-    "shelf_life": {
-      "type": "string",
-      "label": "Shelf life",
-      "group": "lifecycle",
-      "note": "How long the product lasts unopened from manufacture. Read it with the period after opening, which takes over once the seal is broken."
-    },
-    "storage_note": {
-      "type": "string",
-      "label": "Storage",
-      "group": "lifecycle",
-      "note": "Conditions the product needs to stay stable, such as away from sunlight. It matters most for vitamin C and retinoids, which degrade in light and heat."
-    },
-    "manufacturer": {
-      "type": "string",
-      "label": "Manufactured by",
-      "group": "provenance"
-    },
-    "country_of_origin": {
-      "type": "string",
-      "label": "Country of origin",
-      "group": "provenance"
-    },
-    "marketed_by": {
-      "type": "string",
-      "label": "Marketed by",
-      "group": "provenance",
-      "note": "The company legally responsible for the product in India, which is often not the maker. It is the entity to approach with a complaint, and it is required on the pack."
-    },
-    "spec_url": {
-      "type": "string",
-      "label": "Official product page",
-      "group": "documents",
-      "note": "A link to the brand's own page for this exact product. It is the source a disputed fact here should be checked against, and it is where the full ingredient list is usually published."
-    },
-    "spec_checked_version": {
-      "type": "string",
-      "label": "Page version",
-      "group": "documents",
-      "note": "Which revision of the brand's page these facts were read from, as a date. Brands reformulate without renaming, so this records which version was in front of us."
-    }
+  "Sunscreen": {
+   "required": [
+    "size",
+    "spf"
+   ],
+   "columns": [
+    "spf",
+    "pa",
+    "size",
+    "skin"
+   ],
+   "facets": [
+    "brand",
+    "spf",
+    "pa",
+    "skin",
+    "flags",
+    "size",
+    "uv_filter_type"
+   ],
+   "spec": [
+    "size",
+    "quantity",
+    "form",
+    "texture",
+    "spf",
+    "pa",
+    "uv_filter_type",
+    "uv_filters",
+    "broad_spectrum",
+    "water_resistant_min",
+    "actives",
+    "key_ingredients",
+    "ingredients_order",
+    "fragrance",
+    "alcohol_type",
+    "ph",
+    "free_from",
+    "skin",
+    "flags",
+    "dermatologist_tested",
+    "vegan",
+    "cruelty_free_cert",
+    "certifications",
+    "pao_months",
+    "shelf_life",
+    "storage_note",
+    "manufacturer",
+    "marketed_by",
+    "country_of_origin",
+    "spec_url",
+    "spec_checked_version"
+   ]
   },
-  "sanity": {
-    "size": {
-      "ml": [
-        1,
-        5000
-      ],
-      "g": [
-        1,
-        5000
-      ]
-    },
-    "ingredients_min_for_verified": 5
+  "Face serum": {
+   "required": [
+    "size",
+    "actives"
+   ],
+   "columns": [
+    "actives",
+    "size",
+    "skin"
+   ],
+   "facets": [
+    "brand",
+    "actives",
+    "skin",
+    "flags",
+    "size"
+   ],
+   "spec": [
+    "size",
+    "quantity",
+    "form",
+    "texture",
+    "actives",
+    "key_ingredients",
+    "ingredients_order",
+    "fragrance",
+    "alcohol_type",
+    "ph",
+    "free_from",
+    "skin",
+    "flags",
+    "dermatologist_tested",
+    "vegan",
+    "cruelty_free_cert",
+    "certifications",
+    "pao_months",
+    "shelf_life",
+    "storage_note",
+    "manufacturer",
+    "marketed_by",
+    "country_of_origin",
+    "spec_url",
+    "spec_checked_version"
+   ]
   },
-  "groups": [
-    {
-      "id": "identity",
-      "label": "Product & size"
-    },
-    {
-      "id": "protection",
-      "label": "Sun protection"
-    },
-    {
-      "id": "formulation",
-      "label": "Formulation"
-    },
-    {
-      "id": "suitability",
-      "label": "Suitability"
-    },
-    {
-      "id": "claims",
-      "label": "Claims & certifications"
-    },
-    {
-      "id": "colour",
-      "label": "Shade & finish"
-    },
-    {
-      "id": "nutrition",
-      "label": "Label & nutrition"
-    },
-    {
-      "id": "lifecycle",
-      "label": "Shelf life"
-    },
-    {
-      "id": "provenance",
-      "label": "Who makes it"
-    },
-    {
-      "id": "documents",
-      "label": "Official sources"
-    }
-  ]
+  "Moisturiser": {
+   "required": [
+    "size"
+   ],
+   "columns": [
+    "actives",
+    "size",
+    "skin"
+   ],
+   "facets": [
+    "brand",
+    "actives",
+    "skin",
+    "flags",
+    "size"
+   ],
+   "spec": [
+    "size",
+    "quantity",
+    "form",
+    "texture",
+    "actives",
+    "key_ingredients",
+    "ingredients_order",
+    "fragrance",
+    "alcohol_type",
+    "ph",
+    "free_from",
+    "skin",
+    "flags",
+    "spf_in_makeup",
+    "dermatologist_tested",
+    "vegan",
+    "cruelty_free_cert",
+    "certifications",
+    "pao_months",
+    "shelf_life",
+    "storage_note",
+    "manufacturer",
+    "marketed_by",
+    "country_of_origin",
+    "spec_url",
+    "spec_checked_version"
+   ]
+  },
+  "Face wash & cleanser": {
+   "required": [
+    "size"
+   ],
+   "columns": [
+    "actives",
+    "size",
+    "skin"
+   ],
+   "facets": [
+    "brand",
+    "actives",
+    "skin",
+    "flags",
+    "size"
+   ],
+   "spec": [
+    "size",
+    "quantity",
+    "form",
+    "texture",
+    "actives",
+    "key_ingredients",
+    "ingredients_order",
+    "fragrance",
+    "alcohol_type",
+    "ph",
+    "free_from",
+    "skin",
+    "flags",
+    "dermatologist_tested",
+    "vegan",
+    "cruelty_free_cert",
+    "certifications",
+    "pao_months",
+    "shelf_life",
+    "storage_note",
+    "manufacturer",
+    "marketed_by",
+    "country_of_origin",
+    "spec_url",
+    "spec_checked_version"
+   ]
+  },
+  "Shampoo": {
+   "required": [
+    "size"
+   ],
+   "columns": [
+    "actives",
+    "size"
+   ],
+   "facets": [
+    "brand",
+    "actives",
+    "flags",
+    "size"
+   ],
+   "spec": [
+    "size",
+    "quantity",
+    "form",
+    "texture",
+    "actives",
+    "key_ingredients",
+    "ingredients_order",
+    "fragrance",
+    "alcohol_type",
+    "ph",
+    "free_from",
+    "skin",
+    "flags",
+    "dermatologist_tested",
+    "vegan",
+    "cruelty_free_cert",
+    "certifications",
+    "pao_months",
+    "shelf_life",
+    "storage_note",
+    "manufacturer",
+    "marketed_by",
+    "country_of_origin",
+    "spec_url",
+    "spec_checked_version"
+   ]
+  },
+  "Lipstick": {
+   "required": [
+    "shade"
+   ],
+   "columns": [
+    "shade",
+    "form"
+   ],
+   "facets": [
+    "brand",
+    "form",
+    "flags",
+    "finish",
+    "shade_family"
+   ],
+   "spec": [
+    "size",
+    "form",
+    "texture",
+    "shade",
+    "finish",
+    "coverage",
+    "key_ingredients",
+    "ingredients_order",
+    "fragrance",
+    "free_from",
+    "dermatologist_tested",
+    "vegan",
+    "cruelty_free_cert",
+    "certifications",
+    "pao_months",
+    "shelf_life",
+    "storage_note",
+    "manufacturer",
+    "marketed_by",
+    "country_of_origin",
+    "spec_url",
+    "spec_checked_version"
+   ]
+  },
+  "Fragrance": {
+   "required": [
+    "size"
+   ],
+   "columns": [
+    "size",
+    "form"
+   ],
+   "facets": [
+    "brand",
+    "size"
+   ],
+   "spec": [
+    "size",
+    "form",
+    "key_ingredients",
+    "ingredients_order",
+    "fragrance",
+    "dermatologist_tested",
+    "vegan",
+    "cruelty_free_cert",
+    "certifications",
+    "pao_months",
+    "shelf_life",
+    "storage_note",
+    "manufacturer",
+    "marketed_by",
+    "country_of_origin",
+    "spec_url",
+    "spec_checked_version"
+   ]
+  },
+  "Beauty (Open Beauty Facts)": {
+   "required": [
+    "quantity"
+   ],
+   "columns": [
+    "quantity",
+    "ingredients_order"
+   ],
+   "facets": [
+    "brand",
+    "quantity"
+   ],
+   "note": "Imported from Open Beauty Facts under ODbL. Crowd-sourced from pack scans, so the fact sheet is an ingredient list and a pack size rather than the derived attributes we extract from brand storefronts.",
+   "spec": [
+    "quantity",
+    "size",
+    "form",
+    "actives",
+    "key_ingredients",
+    "ingredients_order",
+    "free_from",
+    "skin",
+    "flags",
+    "pao_months",
+    "shelf_life",
+    "storage_note",
+    "manufacturer",
+    "marketed_by",
+    "country_of_origin",
+    "spec_url",
+    "spec_checked_version"
+   ]
+  }
+ },
+ "fields": {
+  "size": {
+   "type": "quantity",
+   "units": [
+    "ml",
+    "g"
+   ],
+   "label": "Size",
+   "group": "identity"
+  },
+  "spf": {
+   "type": "integer",
+   "min": 6,
+   "max": 110,
+   "label": "SPF",
+   "group": "protection",
+   "note": "Sun Protection Factor, which measures protection against UVB, the rays that burn. The scale is not linear: SPF 30 blocks about 97% of UVB and SPF 50 about 98%, so the jump from 15 to 30 matters far more than 30 to 50. It says nothing about UVA, which is what PA rates."
+  },
+  "pa": {
+   "type": "enum",
+   "values": [
+    "PA+",
+    "PA++",
+    "PA+++",
+    "PA++++"
+   ],
+   "label": "PA rating",
+   "group": "protection",
+   "note": "Protection against UVA, the rays that drive ageing and pigmentation rather than burning. Graded from PA+ to PA++++ under the Japanese standard. A sunscreen with high SPF but low PA leaves a real gap, which is why both belong on the label.",
+   "values_note": {
+    "PA+": "Some UVA protection: roughly 2 to 4 times the wearer's own tolerance.",
+    "PA++": "Moderate UVA protection: roughly 4 to 8 times.",
+    "PA+++": "High UVA protection: roughly 8 to 16 times.",
+    "PA++++": "Very high UVA protection: 16 times or more."
+   }
+  },
+  "actives": {
+   "type": "list",
+   "label": "Key actives",
+   "vocabulary": "actives.txt",
+   "group": "formulation",
+   "note": "The ingredients doing the stated work, such as niacinamide or salicylic acid. Concentration decides the effect as much as presence does, and Indian labels rarely state it, so treat a long actives list as a claim about intent rather than strength."
+  },
+  "skin": {
+   "type": "list",
+   "values": [
+    "Oily",
+    "Dry",
+    "Combination",
+    "Sensitive",
+    "Acne-prone",
+    "Normal",
+    "All skin types"
+   ],
+   "label": "Skin type",
+   "group": "suitability",
+   "note": "The skin types the maker says the product suits. It is the maker's own claim, not a clinical finding, and 'all skin types' on a strong active is worth reading with the ingredient list."
+  },
+  "flags": {
+   "type": "list",
+   "values": [
+    "Fragrance-free",
+    "Paraben-free",
+    "Sulfate-free",
+    "Vegan",
+    "Cruelty-free",
+    "Non-comedogenic",
+    "Silicone-free",
+    "Mineral oil-free",
+    "Alcohol-free",
+    "Dermatologically tested"
+   ],
+   "label": "Claims",
+   "group": "suitability",
+   "note": "Claims printed on the pack, such as fragrance-free or non-comedogenic. Most are unregulated in India and self-declared, so they record what the brand states rather than an independent test. 'Fragrance-free' is the one with a testable meaning in the ingredient list."
+  },
+  "form": {
+   "type": "string",
+   "label": "Form",
+   "group": "identity"
+  },
+  "shade": {
+   "type": "string",
+   "label": "Shade",
+   "group": "colour"
+  },
+  "finish": {
+   "type": "enum",
+   "values": [
+    "Matte",
+    "Satin",
+    "Glossy",
+    "Dewy"
+   ],
+   "label": "Finish",
+   "group": "colour"
+  },
+  "quantity": {
+   "type": "string",
+   "label": "Net quantity",
+   "note": "As printed on the pack. Kept as text because packs say '2 x 75 g', and that is information.",
+   "group": "identity"
+  },
+  "ingredients_order": {
+   "type": "boolean",
+   "label": "Ingredients recorded in declared order",
+   "note": "Whether the ingredient list is in the required descending order of quantity. When it is, the position of an ingredient tells you roughly how much is present; when it is not, the list says only what is in the product, not how much.",
+   "group": "formulation"
+  },
+  "serving_size": {
+   "type": "string",
+   "label": "Serving size",
+   "note": "Present on some Open Beauty Facts records; kept as stated.",
+   "group": "nutrition"
+  },
+  "uv_filter_type": {
+   "type": "enum",
+   "label": "Filter type",
+   "group": "protection",
+   "values": [
+    "Chemical",
+    "Mineral",
+    "Hybrid"
+   ],
+   "note": "How the sunscreen blocks UV. Mineral filters sit on the skin and work immediately but can leave a white cast; chemical filters absorb UV, are lighter to wear, and need about 15 minutes to become effective.",
+   "values_note": {
+    "Chemical": "Organic filters that absorb UV and convert it to heat. Cosmetically lighter; needs time to activate.",
+    "Mineral": "Zinc oxide or titanium dioxide sitting on the skin. Works on application; can leave a white cast.",
+    "Hybrid": "Both types combined, to balance cosmetic feel against immediate protection."
+   }
+  },
+  "uv_filters": {
+   "type": "list",
+   "label": "UV filters used",
+   "group": "protection",
+   "note": "The specific filter molecules in the formula. Newer filters such as Tinosorb S and Uvinul A Plus hold up better in sunlight than older ones like Avobenzone used alone, which breaks down within hours unless stabilised."
+  },
+  "water_resistant_min": {
+   "type": "integer",
+   "min": 0,
+   "max": 240,
+   "unit": "minutes",
+   "label": "Water resistance",
+   "group": "protection",
+   "note": "How long the stated protection survives in water, as tested. Nothing is waterproof: after this period the sunscreen must be reapplied, and towelling removes it sooner."
+  },
+  "broad_spectrum": {
+   "type": "boolean",
+   "label": "Broad spectrum",
+   "group": "protection",
+   "note": "Whether the product is tested to protect against both UVA and UVB rather than UVB alone. Without it, a high SPF still leaves UVA exposure."
+  },
+  "texture": {
+   "type": "string",
+   "label": "Texture",
+   "group": "formulation"
+  },
+  "fragrance": {
+   "type": "enum",
+   "label": "Fragrance",
+   "group": "formulation",
+   "values": [
+    "Added fragrance",
+    "Fragrance-free",
+    "Naturally derived scent",
+    "Unscented with masking fragrance"
+   ],
+   "note": "Whether scent has been added. 'Unscented' can still contain a masking fragrance to hide a base smell, which is different from fragrance-free and matters for reactive skin."
+  },
+  "alcohol_type": {
+   "type": "enum",
+   "label": "Alcohol",
+   "group": "formulation",
+   "values": [
+    "None",
+    "Fatty alcohols only",
+    "Denatured alcohol",
+    "Both"
+   ],
+   "note": "Which alcohols are present. Fatty alcohols such as cetyl and stearyl are moisturising and unrelated to the drying denatured alcohol that appears high on some quick-drying formulas."
+  },
+  "ph": {
+   "type": "number",
+   "min": 1,
+   "max": 14,
+   "label": "pH",
+   "group": "formulation",
+   "note": "How acidic the formula is. It decides whether some actives work at all: vitamin C as ascorbic acid needs a low pH, while a cleanser far above skin's own pH of about 5 can leave it tight."
+  },
+  "key_ingredients": {
+   "type": "list",
+   "label": "Notable ingredients",
+   "group": "formulation",
+   "note": "Ingredients worth naming beyond the actives, such as ceramides or occlusives. Position in the full list indicates roughly how much is present when the list is in declared order."
+  },
+  "free_from": {
+   "type": "list",
+   "label": "Free from",
+   "group": "formulation",
+   "note": "Ingredient groups the brand states are absent, such as parabens or sulphates. These are marketing claims about exclusion, not safety findings, and an excluded ingredient is always replaced by something else."
+  },
+  "comedogenic_tested": {
+   "type": "boolean",
+   "label": "Non-comedogenic tested",
+   "group": "claims",
+   "note": "Whether the product has been tested for pore-blocking rather than only labelled non-comedogenic. The term is unregulated, so the distinction between tested and asserted is the whole information."
+  },
+  "dermatologist_tested": {
+   "type": "boolean",
+   "label": "Dermatologically tested",
+   "group": "claims",
+   "note": "Whether a dermatologist supervised a skin-tolerance test. It records that testing happened, not that the product passed any particular threshold, since the phrase has no legal definition in India."
+  },
+  "cruelty_free_cert": {
+   "type": "string",
+   "label": "Cruelty-free certification",
+   "group": "claims",
+   "note": "Which body certifies the no-animal-testing claim, such as Leaping Bunny or PETA. An uncertified claim on the pack is self-declared."
+  },
+  "vegan": {
+   "type": "boolean",
+   "label": "Vegan",
+   "group": "claims",
+   "note": "Whether the formula avoids animal-derived ingredients such as beeswax, lanolin or carmine. Separate from cruelty-free, which is about testing rather than contents."
+  },
+  "certifications": {
+   "type": "list",
+   "label": "Certifications",
+   "group": "claims",
+   "note": "Independent certifications the product carries, such as Ecocert or COSMOS. Unlike pack claims, these are audited against a published standard."
+  },
+  "shade_family": {
+   "type": "enum",
+   "label": "Shade family",
+   "group": "colour",
+   "values": [
+    "Fair",
+    "Light",
+    "Medium",
+    "Tan",
+    "Deep",
+    "Universal",
+    "Clear"
+   ],
+   "note": "Roughly where the shade sits on the depth range, so shades can be compared across brands that use their own naming."
+  },
+  "undertone": {
+   "type": "enum",
+   "label": "Undertone",
+   "group": "colour",
+   "values": [
+    "Cool",
+    "Warm",
+    "Neutral",
+    "Olive"
+   ],
+   "note": "The underlying colour cast of a shade. Matching undertone matters more than matching depth for whether a base product looks natural."
+  },
+  "coverage": {
+   "type": "enum",
+   "label": "Coverage",
+   "group": "colour",
+   "values": [
+    "Sheer",
+    "Light",
+    "Medium",
+    "Full",
+    "Buildable"
+   ],
+   "note": "How much the product conceals what is underneath. Buildable means thin layers can be added, so the same product can serve as light or full coverage."
+  },
+  "spf_in_makeup": {
+   "type": "integer",
+   "min": 1,
+   "max": 110,
+   "label": "SPF in this product",
+   "group": "colour",
+   "note": "Sun protection built into a colour product. In practice people apply far less makeup than the amount sunscreen testing assumes, so it should be read as a bonus rather than a replacement for sunscreen."
+  },
+  "pao_months": {
+   "type": "integer",
+   "min": 1,
+   "max": 60,
+   "unit": "months",
+   "label": "Period after opening",
+   "group": "lifecycle",
+   "note": "How many months the product stays good once opened, shown on the pack as a jar symbol with a number. It runs from first use and is usually much shorter than the unopened shelf life."
+  },
+  "shelf_life": {
+   "type": "string",
+   "label": "Shelf life",
+   "group": "lifecycle",
+   "note": "How long the product lasts unopened from manufacture. Read it with the period after opening, which takes over once the seal is broken."
+  },
+  "storage_note": {
+   "type": "string",
+   "label": "Storage",
+   "group": "lifecycle",
+   "note": "Conditions the product needs to stay stable, such as away from sunlight. It matters most for vitamin C and retinoids, which degrade in light and heat."
+  },
+  "manufacturer": {
+   "type": "string",
+   "label": "Manufactured by",
+   "group": "provenance"
+  },
+  "country_of_origin": {
+   "type": "string",
+   "label": "Country of origin",
+   "group": "provenance"
+  },
+  "marketed_by": {
+   "type": "string",
+   "label": "Marketed by",
+   "group": "provenance",
+   "note": "The company legally responsible for the product in India, which is often not the maker. It is the entity to approach with a complaint, and it is required on the pack."
+  },
+  "spec_url": {
+   "type": "string",
+   "label": "Official product page",
+   "group": "documents",
+   "note": "A link to the brand's own page for this exact product. It is the source a disputed fact here should be checked against, and it is where the full ingredient list is usually published."
+  },
+  "spec_checked_version": {
+   "type": "string",
+   "label": "Page version",
+   "group": "documents",
+   "note": "Which revision of the brand's page these facts were read from, as a date. Brands reformulate without renaming, so this records which version was in front of us."
+  }
+ },
+ "sanity": {
+  "size": {
+   "ml": [
+    1,
+    5000
+   ],
+   "g": [
+    1,
+    5000
+   ]
+  },
+  "ingredients_min_for_verified": 5
+ },
+ "groups": [
+  {
+   "id": "identity",
+   "label": "Product & size"
+  },
+  {
+   "id": "protection",
+   "label": "Sun protection"
+  },
+  {
+   "id": "formulation",
+   "label": "Formulation"
+  },
+  {
+   "id": "suitability",
+   "label": "Suitability"
+  },
+  {
+   "id": "claims",
+   "label": "Claims & certifications"
+  },
+  {
+   "id": "colour",
+   "label": "Shade & finish"
+  },
+  {
+   "id": "nutrition",
+   "label": "Label & nutrition"
+  },
+  {
+   "id": "lifecycle",
+   "label": "Shelf life"
+  },
+  {
+   "id": "provenance",
+   "label": "Who makes it"
+  },
+  {
+   "id": "documents",
+   "label": "Official sources"
+  }
+ ],
+ "not_in_this_repo": [
+  "comedogenic_tested",
+  "shade_family",
+  "undertone"
+ ],
+ "not_in_this_repo_why": {
+  "comedogenic_tested": "No page states a comedogenicity TEST. \"Non-comedogenic\" is a claim and is kept as a flag.",
+  "shade_family": "The Shade field carries hair-dye colours and lipstick names, not the skin-depth enum this asks for.",
+  "undertone": "No page states an undertone."
+ }
 }

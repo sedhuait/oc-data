@@ -1,923 +1,902 @@
 {
-  "domain": "grocery",
-  "label": "Food & grocery",
-  "note": "The facts that matter on a packet are on the packet, and nowhere else a shopper can search. Ingredients in declared order, nutrition per 100 g, additives, allergens, veg or non-veg. Open Food Facts already holds much of this for India under ODbL — this schema is shaped to receive it without loss.",
-  "categories": {
-    "_default": {
-      "required": [
-        "quantity"
-      ],
-      "columns": [
-        "quantity",
-        "veg",
-        "energy_kcal_100g"
-      ],
-      "facets": [
-        "brand",
-        "veg",
-        "nova_group",
-        "palm_oil"
-      ],
-      "spec": [
-        "quantity",
-        "serving_size",
-        "serving_per_pack",
-        "veg",
-        "energy_kcal_100g",
-        "proteins_100g",
-        "carbohydrates_100g",
-        "sugars_100g",
-        "fat_100g",
-        "saturated_fat_100g",
-        "fiber_100g",
-        "sodium_100g",
-        "ingredients_order",
-        "additives",
-        "allergens",
-        "palm_oil",
-        "nova_group",
-        "organic",
-        "shelf_life",
-        "fssai_licence",
-        "manufacturer",
-        "marketed_by",
-        "country_of_origin",
-        "spec_url",
-        "spec_checked_version"
-      ]
-    },
-    "Biscuits & snacks": {
-      "required": [
-        "quantity"
-      ],
-      "columns": [
-        "quantity",
-        "energy_kcal_100g",
-        "sugars_100g",
-        "fat_100g",
-        "sodium_100g"
-      ],
-      "facets": [
-        "brand",
-        "veg",
-        "nova_group",
-        "palm_oil",
-        "sugars_100g"
-      ],
-      "spec": [
-        "quantity",
-        "serving_size",
-        "serving_per_pack",
-        "veg",
-        "energy_kcal_100g",
-        "energy_kcal_serving",
-        "proteins_100g",
-        "carbohydrates_100g",
-        "sugars_100g",
-        "added_sugar_100g",
-        "fat_100g",
-        "saturated_fat_100g",
-        "trans_fat_100g",
-        "cholesterol_100g",
-        "fiber_100g",
-        "sodium_100g",
-        "salt_100g",
-        "ingredients_order",
-        "additives",
-        "allergens",
-        "palm_oil",
-        "preservatives",
-        "artificial_colours",
-        "artificial_flavours",
-        "nova_group",
-        "organic",
-        "fortified",
-        "whole_grain_pct",
-        "shelf_life",
-        "best_before_type",
-        "storage_instructions",
-        "packaging_type",
-        "fssai_licence",
-        "manufacturer",
-        "marketed_by",
-        "country_of_origin",
-        "spec_url",
-        "spec_checked_version"
-      ]
-    },
-    "Dairy": {
-      "required": [
-        "quantity"
-      ],
-      "columns": [
-        "quantity",
-        "energy_kcal_100g",
-        "proteins_100g",
-        "fat_100g"
-      ],
-      "facets": [
-        "brand",
-        "veg",
-        "nova_group"
-      ],
-      "spec": [
-        "quantity",
-        "serving_size",
-        "serving_per_pack",
-        "veg",
-        "energy_kcal_100g",
-        "energy_kcal_serving",
-        "proteins_100g",
-        "carbohydrates_100g",
-        "sugars_100g",
-        "added_sugar_100g",
-        "fat_100g",
-        "saturated_fat_100g",
-        "trans_fat_100g",
-        "cholesterol_100g",
-        "fiber_100g",
-        "sodium_100g",
-        "salt_100g",
-        "calcium_100g",
-        "ingredients_order",
-        "additives",
-        "allergens",
-        "palm_oil",
-        "preservatives",
-        "artificial_colours",
-        "artificial_flavours",
-        "nova_group",
-        "organic",
-        "fortified",
-        "shelf_life",
-        "best_before_type",
-        "storage_instructions",
-        "packaging_type",
-        "fssai_licence",
-        "manufacturer",
-        "marketed_by",
-        "country_of_origin",
-        "spec_url",
-        "spec_checked_version"
-      ]
-    },
-    "Beverages": {
-      "required": [
-        "quantity"
-      ],
-      "columns": [
-        "quantity",
-        "energy_kcal_100g",
-        "sugars_100g",
-        "caffeine"
-      ],
-      "facets": [
-        "brand",
-        "veg",
-        "nova_group",
-        "sugars_100g"
-      ],
-      "spec": [
-        "quantity",
-        "serving_size",
-        "serving_per_pack",
-        "veg",
-        "caffeine",
-        "energy_kcal_100g",
-        "energy_kcal_serving",
-        "proteins_100g",
-        "carbohydrates_100g",
-        "sugars_100g",
-        "added_sugar_100g",
-        "fat_100g",
-        "saturated_fat_100g",
-        "trans_fat_100g",
-        "cholesterol_100g",
-        "fiber_100g",
-        "sodium_100g",
-        "salt_100g",
-        "ingredients_order",
-        "additives",
-        "allergens",
-        "palm_oil",
-        "preservatives",
-        "artificial_colours",
-        "artificial_flavours",
-        "nova_group",
-        "organic",
-        "fortified",
-        "shelf_life",
-        "best_before_type",
-        "storage_instructions",
-        "packaging_type",
-        "fssai_licence",
-        "manufacturer",
-        "marketed_by",
-        "country_of_origin",
-        "spec_url",
-        "spec_checked_version"
-      ]
-    },
-    "Staples & grains": {
-      "required": [
-        "quantity"
-      ],
-      "columns": [
-        "quantity",
-        "proteins_100g",
-        "energy_kcal_100g"
-      ],
-      "facets": [
-        "brand",
-        "veg",
-        "organic"
-      ],
-      "spec": [
-        "quantity",
-        "serving_size",
-        "serving_per_pack",
-        "veg",
-        "energy_kcal_100g",
-        "energy_kcal_serving",
-        "proteins_100g",
-        "carbohydrates_100g",
-        "sugars_100g",
-        "added_sugar_100g",
-        "fat_100g",
-        "saturated_fat_100g",
-        "trans_fat_100g",
-        "cholesterol_100g",
-        "fiber_100g",
-        "sodium_100g",
-        "salt_100g",
-        "ingredients_order",
-        "additives",
-        "allergens",
-        "palm_oil",
-        "preservatives",
-        "artificial_colours",
-        "artificial_flavours",
-        "nova_group",
-        "organic",
-        "fortified",
-        "millet_based",
-        "whole_grain_pct",
-        "shelf_life",
-        "best_before_type",
-        "storage_instructions",
-        "packaging_type",
-        "fssai_licence",
-        "manufacturer",
-        "marketed_by",
-        "country_of_origin",
-        "spec_url",
-        "spec_checked_version"
-      ]
-    },
-    "Oils & ghee": {
-      "required": [
-        "quantity"
-      ],
-      "columns": [
-        "quantity",
-        "fat_100g",
-        "saturated_fat_100g"
-      ],
-      "facets": [
-        "brand",
-        "veg",
-        "palm_oil"
-      ],
-      "spec": [
-        "quantity",
-        "serving_size",
-        "serving_per_pack",
-        "veg",
-        "energy_kcal_100g",
-        "energy_kcal_serving",
-        "proteins_100g",
-        "carbohydrates_100g",
-        "sugars_100g",
-        "added_sugar_100g",
-        "fat_100g",
-        "saturated_fat_100g",
-        "trans_fat_100g",
-        "cholesterol_100g",
-        "fiber_100g",
-        "sodium_100g",
-        "salt_100g",
-        "ingredients_order",
-        "additives",
-        "allergens",
-        "palm_oil",
-        "preservatives",
-        "artificial_colours",
-        "artificial_flavours",
-        "nova_group",
-        "organic",
-        "fortified",
-        "shelf_life",
-        "best_before_type",
-        "storage_instructions",
-        "packaging_type",
-        "fssai_licence",
-        "manufacturer",
-        "marketed_by",
-        "country_of_origin",
-        "spec_url",
-        "spec_checked_version"
-      ]
-    },
-    "Instant & ready to eat": {
-      "required": [
-        "quantity"
-      ],
-      "columns": [
-        "quantity",
-        "energy_kcal_100g",
-        "sodium_100g",
-        "palm_oil"
-      ],
-      "facets": [
-        "brand",
-        "veg",
-        "nova_group",
-        "palm_oil"
-      ],
-      "spec": [
-        "quantity",
-        "serving_size",
-        "serving_per_pack",
-        "veg",
-        "energy_kcal_100g",
-        "energy_kcal_serving",
-        "proteins_100g",
-        "carbohydrates_100g",
-        "sugars_100g",
-        "added_sugar_100g",
-        "fat_100g",
-        "saturated_fat_100g",
-        "trans_fat_100g",
-        "cholesterol_100g",
-        "fiber_100g",
-        "sodium_100g",
-        "salt_100g",
-        "ingredients_order",
-        "additives",
-        "allergens",
-        "palm_oil",
-        "preservatives",
-        "artificial_colours",
-        "artificial_flavours",
-        "nova_group",
-        "organic",
-        "fortified",
-        "shelf_life",
-        "best_before_type",
-        "storage_instructions",
-        "packaging_type",
-        "fssai_licence",
-        "manufacturer",
-        "marketed_by",
-        "country_of_origin",
-        "spec_url",
-        "spec_checked_version"
-      ]
-    },
-    "Baby food": {
-      "required": [
-        "quantity"
-      ],
-      "columns": [
-        "quantity",
-        "energy_kcal_100g",
-        "proteins_100g",
-        "sugars_100g"
-      ],
-      "facets": [
-        "brand",
-        "veg",
-        "nova_group"
-      ],
-      "spec": [
-        "quantity",
-        "serving_size",
-        "serving_per_pack",
-        "veg",
-        "energy_kcal_100g",
-        "energy_kcal_serving",
-        "proteins_100g",
-        "carbohydrates_100g",
-        "sugars_100g",
-        "added_sugar_100g",
-        "fat_100g",
-        "saturated_fat_100g",
-        "trans_fat_100g",
-        "cholesterol_100g",
-        "fiber_100g",
-        "sodium_100g",
-        "salt_100g",
-        "calcium_100g",
-        "iron_100g",
-        "ingredients_order",
-        "additives",
-        "allergens",
-        "palm_oil",
-        "preservatives",
-        "artificial_colours",
-        "artificial_flavours",
-        "nova_group",
-        "organic",
-        "fortified",
-        "shelf_life",
-        "best_before_type",
-        "storage_instructions",
-        "packaging_type",
-        "fssai_licence",
-        "manufacturer",
-        "marketed_by",
-        "country_of_origin",
-        "spec_url",
-        "spec_checked_version"
-      ]
-    },
-    "Spices & condiments": {
-      "required": [
-        "quantity"
-      ],
-      "columns": [
-        "quantity",
-        "sodium_100g"
-      ],
-      "facets": [
-        "brand",
-        "veg",
-        "organic"
-      ],
-      "spec": [
-        "quantity",
-        "serving_size",
-        "serving_per_pack",
-        "veg",
-        "energy_kcal_100g",
-        "energy_kcal_serving",
-        "proteins_100g",
-        "carbohydrates_100g",
-        "sugars_100g",
-        "added_sugar_100g",
-        "fat_100g",
-        "saturated_fat_100g",
-        "trans_fat_100g",
-        "cholesterol_100g",
-        "fiber_100g",
-        "sodium_100g",
-        "salt_100g",
-        "ingredients_order",
-        "additives",
-        "allergens",
-        "palm_oil",
-        "preservatives",
-        "artificial_colours",
-        "artificial_flavours",
-        "nova_group",
-        "organic",
-        "fortified",
-        "shelf_life",
-        "best_before_type",
-        "storage_instructions",
-        "packaging_type",
-        "fssai_licence",
-        "manufacturer",
-        "marketed_by",
-        "country_of_origin",
-        "spec_url",
-        "spec_checked_version"
-      ]
-    },
-    "Health & supplements": {
-      "required": [
-        "quantity"
-      ],
-      "columns": [
-        "quantity",
-        "proteins_100g",
-        "energy_kcal_100g"
-      ],
-      "facets": [
-        "brand",
-        "veg"
-      ],
-      "spec": [
-        "quantity",
-        "serving_size",
-        "serving_per_pack",
-        "veg",
-        "energy_kcal_100g",
-        "energy_kcal_serving",
-        "proteins_100g",
-        "carbohydrates_100g",
-        "sugars_100g",
-        "added_sugar_100g",
-        "fat_100g",
-        "saturated_fat_100g",
-        "trans_fat_100g",
-        "cholesterol_100g",
-        "fiber_100g",
-        "sodium_100g",
-        "salt_100g",
-        "calcium_100g",
-        "iron_100g",
-        "ingredients_order",
-        "additives",
-        "allergens",
-        "palm_oil",
-        "preservatives",
-        "artificial_colours",
-        "artificial_flavours",
-        "nova_group",
-        "organic",
-        "fortified",
-        "shelf_life",
-        "best_before_type",
-        "storage_instructions",
-        "packaging_type",
-        "fssai_licence",
-        "manufacturer",
-        "marketed_by",
-        "country_of_origin",
-        "spec_url",
-        "spec_checked_version"
-      ]
-    }
+ "domain": "grocery",
+ "label": "Food & grocery",
+ "note": "The facts that matter on a packet are on the packet, and nowhere else a shopper can search. Ingredients in declared order, nutrition per 100 g, additives, allergens, veg or non-veg. Open Food Facts already holds much of this for India under ODbL — this schema is shaped to receive it without loss.",
+ "categories": {
+  "_default": {
+   "required": [
+    "quantity"
+   ],
+   "columns": [
+    "quantity",
+    "veg",
+    "energy_kcal_100g"
+   ],
+   "facets": [
+    "brand",
+    "veg",
+    "nova_group",
+    "palm_oil"
+   ],
+   "spec": [
+    "quantity",
+    "serving_size",
+    "serving_per_pack",
+    "veg",
+    "energy_kcal_100g",
+    "proteins_100g",
+    "carbohydrates_100g",
+    "sugars_100g",
+    "fat_100g",
+    "saturated_fat_100g",
+    "fiber_100g",
+    "sodium_100g",
+    "ingredients_order",
+    "additives",
+    "allergens",
+    "palm_oil",
+    "nova_group",
+    "organic",
+    "shelf_life",
+    "fssai_licence",
+    "manufacturer",
+    "marketed_by",
+    "country_of_origin"
+   ]
   },
-  "fields": {
-    "quantity": {
-      "type": "string",
-      "label": "Net quantity",
-      "note": "As printed on the pack — '45 g', '1 L'. Kept as text because packs say '2 x 75 g' and that is information, not noise.",
-      "group": "identity"
-    },
-    "serving_size": {
-      "type": "string",
-      "label": "Serving size",
-      "group": "identity"
-    },
-    "veg": {
-      "type": "enum",
-      "values": [
-        "Veg",
-        "Non-veg",
-        "Vegan",
-        "Contains egg"
-      ],
-      "label": "Veg / non-veg",
-      "note": "India's mandatory veg/non-veg mark, shown as a green or brown dot on the pack. 'Contains egg' is legally distinct from non-veg here, and vegan is a stricter claim than veg because it also excludes dairy and honey.",
-      "group": "diet"
-    },
-    "ingredients_order": {
-      "type": "boolean",
-      "label": "Ingredients recorded in declared order",
-      "note": "Whether the ingredient list is in the required descending order of quantity. When it is, an ingredient's position tells you roughly how much is present, which is often more informative than the nutrition panel.",
-      "group": "ingredients"
-    },
-    "energy_kcal_100g": {
-      "type": "number",
-      "min": 0,
-      "max": 1000,
-      "label": "Energy per 100 g (kcal)",
-      "group": "nutrition",
-      "note": "Calories in 100 g, which is the figure that lets you compare two products directly. Packs often headline calories per serving instead, and servings are set by the brand, so a smaller stated serving can make a product look lighter than it is."
-    },
-    "proteins_100g": {
-      "type": "number",
-      "min": 0,
-      "max": 100,
-      "label": "Protein per 100 g",
-      "group": "nutrition",
-      "note": "Protein in 100 g. Read it against energy: a snack can carry a high protein number and still be mostly fat and refined carbohydrate."
-    },
-    "carbohydrates_100g": {
-      "type": "number",
-      "min": 0,
-      "max": 100,
-      "label": "Carbohydrate per 100 g",
-      "group": "nutrition",
-      "note": "Total carbohydrate in 100 g, which includes both starch and sugars. Subtract the sugar figure to see how much comes from starch."
-    },
-    "sugars_100g": {
-      "type": "number",
-      "min": 0,
-      "max": 100,
-      "label": "Sugar per 100 g",
-      "group": "nutrition",
-      "note": "All sugars in 100 g, whether added or naturally present. Indian labels rarely separate the two, so fruit-based products show high figures without added sugar; the ingredient list is what distinguishes them."
-    },
-    "fat_100g": {
-      "type": "number",
-      "min": 0,
-      "max": 100,
-      "label": "Fat per 100 g",
-      "group": "nutrition",
-      "note": "Total fat in 100 g. The saturated share below matters more for heart health than the total, and the ingredient list shows which oils were used."
-    },
-    "saturated_fat_100g": {
-      "type": "number",
-      "min": 0,
-      "max": 100,
-      "label": "Saturated fat per 100 g",
-      "group": "nutrition",
-      "note": "Saturated fat in 100 g. Palm oil, coconut oil and dairy fat push this up, and it is the fat figure dietary guidance limits most tightly."
-    },
-    "fiber_100g": {
-      "type": "number",
-      "min": 0,
-      "max": 100,
-      "label": "Fibre per 100 g",
-      "group": "nutrition",
-      "note": "Dietary fibre in 100 g. It is often absent from Indian labels because declaring it is not mandatory, so a blank means unstated rather than zero."
-    },
-    "sodium_100g": {
-      "type": "number",
-      "min": 0,
-      "max": 100,
-      "label": "Sodium per 100 g",
-      "group": "nutrition",
-      "note": "Sodium in 100 g. Multiply by 2.5 for the equivalent salt figure, since packs use the two interchangeably and the numbers differ by that factor."
-    },
-    "caffeine": {
-      "type": "string",
-      "label": "Caffeine",
-      "group": "nutrition",
-      "note": "Caffeine content where the pack declares it. It matters for coffee, energy drinks and some teas, and Indian rules cap it in packaged energy drinks."
-    },
-    "additives": {
-      "type": "list",
-      "label": "Additives (E numbers)",
-      "group": "ingredients",
-      "note": "Additives listed by their INS number or name, such as INS 330 for citric acid. The number identifies exactly which substance is present, where a category word like 'stabiliser' does not."
-    },
-    "allergens": {
-      "type": "list",
-      "label": "Allergens",
-      "group": "ingredients",
-      "note": "Allergens the label declares, such as milk, soy, nuts or wheat. Indian rules require declaring major allergens, and 'may contain' warnings cover cross-contamination in the same facility rather than an ingredient."
-    },
-    "palm_oil": {
-      "type": "boolean",
-      "label": "Contains palm oil",
-      "group": "ingredients",
-      "note": "Whether palm oil is in the product. It is often hidden behind 'vegetable oil' on Indian labels, and it is both high in saturated fat and the ingredient most associated with deforestation."
-    },
-    "organic": {
-      "type": "boolean",
-      "label": "Certified organic",
-      "group": "processing",
-      "note": "Whether the product carries an organic certification such as India Organic or Jaivik Bharat. Uncertified use of the word on packaging is not a controlled claim."
-    },
-    "nova_group": {
-      "type": "integer",
-      "min": 1,
-      "max": 4,
-      "label": "NOVA processing group",
-      "note": "A published classification of how heavily a food is processed, from 1 for unprocessed to 4 for ultra-processed. It is derived from the ingredient list by a defined method, not our judgement, and is recorded with its source.",
-      "group": "processing"
-    },
-    "fssai_licence": {
-      "type": "string",
-      "label": "FSSAI licence number",
-      "group": "provenance",
-      "note": "The 14-digit FSSAI licence number of the maker or packer, which is mandatory on Indian packaged food. It identifies who is legally answerable for the product and can be checked on the FSSAI register."
-    },
-    "manufacturer": {
-      "type": "string",
-      "label": "Manufacturer / marketer",
-      "group": "provenance"
-    },
-    "country_of_origin": {
-      "type": "string",
-      "label": "Country of origin",
-      "group": "provenance"
-    },
-    "shelf_life": {
-      "type": "string",
-      "label": "Shelf life",
-      "group": "storage",
-      "note": "How long the product keeps from manufacture, as stated on the pack. Read it with the storage instruction, since it usually assumes an unopened pack in cool dry conditions."
-    },
-    "serving_per_pack": {
-      "type": "number",
-      "min": 0.1,
-      "max": 1000,
-      "label": "Servings per pack",
-      "group": "identity",
-      "note": "How many servings the pack contains, by the brand's own serving size. It is what turns a per-serving nutrition panel into a per-pack figure, and small packs are often labelled as more than one serving."
-    },
-    "energy_kcal_serving": {
-      "type": "number",
-      "min": 0,
-      "max": 2000,
-      "unit": "kcal",
-      "label": "Calories per serving",
-      "group": "nutrition",
-      "note": "Calories in one serving as the brand defines it. Always check the serving size beside it: comparing two products on this figure alone compares the brands' marketing choices, not the food."
-    },
-    "trans_fat_100g": {
-      "type": "number",
-      "min": 0,
-      "max": 100,
-      "unit": "g",
-      "label": "Trans fat per 100 g",
-      "group": "nutrition",
-      "note": "Industrially produced trans fat in 100 g. India caps it at 2% of total fat; it comes from partially hydrogenated oils, which appear on labels as vanaspati or hydrogenated vegetable oil."
-    },
-    "cholesterol_100g": {
-      "type": "number",
-      "min": 0,
-      "max": 5000,
-      "unit": "mg",
-      "label": "Cholesterol per 100 g",
-      "group": "nutrition",
-      "note": "Cholesterol in 100 g. It occurs only in animal-derived ingredients, so a purely plant product declaring zero is stating the obvious rather than a benefit."
-    },
-    "added_sugar_100g": {
-      "type": "number",
-      "min": 0,
-      "max": 100,
-      "unit": "g",
-      "label": "Added sugar per 100 g",
-      "group": "nutrition",
-      "note": "Sugar added during manufacture, as distinct from sugar naturally in fruit or milk. Where a label separates it, this is the figure dietary guidance actually limits."
-    },
-    "salt_100g": {
-      "type": "number",
-      "min": 0,
-      "max": 100,
-      "unit": "g",
-      "label": "Salt per 100 g",
-      "group": "nutrition",
-      "note": "Salt in 100 g, which is sodium multiplied by about 2.5. Packs declare one or the other, so this exists to make the two comparable."
-    },
-    "calcium_100g": {
-      "type": "number",
-      "min": 0,
-      "max": 5000,
-      "unit": "mg",
-      "label": "Calcium per 100 g",
-      "group": "nutrition",
-      "note": "Calcium in 100 g, declared on fortified and dairy products."
-    },
-    "iron_100g": {
-      "type": "number",
-      "min": 0,
-      "max": 1000,
-      "unit": "mg",
-      "label": "Iron per 100 g",
-      "group": "nutrition",
-      "note": "Iron in 100 g, declared mainly on fortified staples and cereals."
-    },
-    "fortified": {
-      "type": "boolean",
-      "label": "Fortified",
-      "group": "processing",
-      "note": "Whether nutrients have been added beyond what the food naturally contains. India's +F logo marks staples fortified under its standards, such as iodised salt or vitamin-fortified oil."
-    },
-    "millet_based": {
-      "type": "boolean",
-      "label": "Millet based",
-      "group": "processing",
-      "note": "Whether millets are a principal ingredient. Worth separating from 'multigrain', which can mean a trace of several grains in a mostly refined-wheat product."
-    },
-    "whole_grain_pct": {
-      "type": "number",
-      "min": 0,
-      "max": 100,
-      "unit": "%",
-      "label": "Whole grain content",
-      "group": "processing",
-      "note": "How much of the grain content is whole rather than refined. 'Made with whole grain' on the front of a pack can mean a small fraction, and this is the number that settles it."
-    },
-    "preservatives": {
-      "type": "enum",
-      "label": "Preservatives",
-      "group": "ingredients",
-      "values": [
-        "None declared",
-        "Class I (natural)",
-        "Class II (chemical)",
-        "Both"
-      ],
-      "note": "Which preservative class the label declares. India's Class I covers common natural preservatives like salt, sugar and vinegar; Class II covers chemical ones such as sorbates and benzoates, which must be named with their INS number."
-    },
-    "artificial_colours": {
-      "type": "boolean",
-      "label": "Artificial colours",
-      "group": "ingredients",
-      "note": "Whether synthetic colours are used. Indian labels must declare them, and packs using natural colours instead usually say so explicitly."
-    },
-    "artificial_flavours": {
-      "type": "boolean",
-      "label": "Artificial flavours",
-      "group": "ingredients",
-      "note": "Whether synthetic flavouring is used. Labels distinguish natural, nature-identical and artificial flavouring substances, which is a legal classification rather than a quality one."
-    },
-    "storage_instructions": {
-      "type": "string",
-      "label": "Storage",
-      "group": "storage",
-      "note": "How the pack says to keep the product, and whether that changes after opening. Many shelf-stable products need refrigeration once opened, which shortens their life considerably."
-    },
-    "best_before_type": {
-      "type": "enum",
-      "label": "Date marking",
-      "group": "storage",
-      "values": [
-        "Best before",
-        "Use by",
-        "Expiry date"
-      ],
-      "note": "Which date the pack carries. 'Best before' is about quality and food is usually still safe after it; 'use by' and 'expiry date' are about safety and are not the same promise."
-    },
-    "packaging_type": {
-      "type": "enum",
-      "label": "Packaging",
-      "group": "storage",
-      "values": [
-        "Plastic pouch",
-        "Plastic bottle",
-        "Glass bottle",
-        "Glass jar",
-        "Tetra Pak",
-        "Metal can",
-        "Carton",
-        "Paper",
-        "Composite"
-      ],
-      "note": "What the product is packed in. It affects shelf life and whether the pack is recyclable in Indian streams, where multi-layer pouches largely are not."
-    },
-    "marketed_by": {
-      "type": "string",
-      "label": "Marketed by",
-      "group": "provenance",
-      "note": "The company legally responsible for the product in India, which is often not the maker. It is the entity to approach with a complaint, and it is required on the pack."
-    },
-    "spec_url": {
-      "type": "string",
-      "label": "Official product page",
-      "group": "documents",
-      "note": "A link to the brand's own page for this exact product. It is the source a disputed fact here should be checked against, and where the full ingredient declaration is usually published."
-    },
-    "spec_checked_version": {
-      "type": "string",
-      "label": "Page version",
-      "group": "documents",
-      "note": "Which revision of the brand's page or pack these facts were read from, as a date. Recipes change without a rename, so this records which version was in front of us."
-    }
+  "Biscuits & snacks": {
+   "required": [
+    "quantity"
+   ],
+   "columns": [
+    "quantity",
+    "energy_kcal_100g",
+    "sugars_100g",
+    "fat_100g",
+    "sodium_100g"
+   ],
+   "facets": [
+    "brand",
+    "veg",
+    "nova_group",
+    "palm_oil",
+    "sugars_100g"
+   ],
+   "spec": [
+    "quantity",
+    "serving_size",
+    "serving_per_pack",
+    "veg",
+    "energy_kcal_100g",
+    "energy_kcal_serving",
+    "proteins_100g",
+    "carbohydrates_100g",
+    "sugars_100g",
+    "added_sugar_100g",
+    "fat_100g",
+    "saturated_fat_100g",
+    "trans_fat_100g",
+    "cholesterol_100g",
+    "fiber_100g",
+    "sodium_100g",
+    "salt_100g",
+    "ingredients_order",
+    "additives",
+    "allergens",
+    "palm_oil",
+    "preservatives",
+    "artificial_colours",
+    "artificial_flavours",
+    "nova_group",
+    "organic",
+    "fortified",
+    "shelf_life",
+    "storage_instructions",
+    "packaging_type",
+    "fssai_licence",
+    "manufacturer",
+    "marketed_by",
+    "country_of_origin"
+   ]
   },
-  "not_in_this_repo": [
-    "price",
-    "mrp",
-    "in_stock",
-    "rating",
-    "healthiness",
-    "recommendation"
-  ],
-  "sanity": {
-    "no_scores": "No health scores, no 'good for you', no traffic lights. We publish sugar per 100 g and let the reader decide. NOVA is recorded because it is a published classification with a method, not an opinion of ours.",
-    "crowd_sourced": "Open Food Facts records come from phone scans and vary in quality. A record with no product name, or with neither ingredients nor nutrition, is a candidate — never an entry.",
-    "quantity_required": "Nutrition per 100 g is meaningless for comparison without knowing what you are buying. No quantity, no entry."
+  "Dairy": {
+   "required": [
+    "quantity"
+   ],
+   "columns": [
+    "quantity",
+    "energy_kcal_100g",
+    "proteins_100g",
+    "fat_100g"
+   ],
+   "facets": [
+    "brand",
+    "veg",
+    "nova_group"
+   ],
+   "spec": [
+    "quantity",
+    "serving_size",
+    "serving_per_pack",
+    "veg",
+    "energy_kcal_100g",
+    "energy_kcal_serving",
+    "proteins_100g",
+    "carbohydrates_100g",
+    "sugars_100g",
+    "added_sugar_100g",
+    "fat_100g",
+    "saturated_fat_100g",
+    "trans_fat_100g",
+    "cholesterol_100g",
+    "fiber_100g",
+    "sodium_100g",
+    "salt_100g",
+    "calcium_100g",
+    "ingredients_order",
+    "additives",
+    "allergens",
+    "palm_oil",
+    "preservatives",
+    "artificial_colours",
+    "artificial_flavours",
+    "nova_group",
+    "organic",
+    "fortified",
+    "shelf_life",
+    "storage_instructions",
+    "packaging_type",
+    "fssai_licence",
+    "manufacturer",
+    "marketed_by",
+    "country_of_origin"
+   ]
   },
-  "groups": [
-    {
-      "id": "identity",
-      "label": "Pack & serving"
-    },
-    {
-      "id": "diet",
-      "label": "Dietary"
-    },
-    {
-      "id": "nutrition",
-      "label": "Nutrition per 100 g"
-    },
-    {
-      "id": "ingredients",
-      "label": "Ingredients & additives"
-    },
-    {
-      "id": "processing",
-      "label": "Processing"
-    },
-    {
-      "id": "storage",
-      "label": "Storage & shelf life"
-    },
-    {
-      "id": "provenance",
-      "label": "Who makes it"
-    },
-    {
-      "id": "documents",
-      "label": "Official sources"
-    }
-  ]
+  "Beverages": {
+   "required": [
+    "quantity"
+   ],
+   "columns": [
+    "quantity",
+    "energy_kcal_100g",
+    "sugars_100g"
+   ],
+   "facets": [
+    "brand",
+    "veg",
+    "nova_group",
+    "sugars_100g"
+   ],
+   "spec": [
+    "quantity",
+    "serving_size",
+    "serving_per_pack",
+    "veg",
+    "energy_kcal_100g",
+    "energy_kcal_serving",
+    "proteins_100g",
+    "carbohydrates_100g",
+    "sugars_100g",
+    "added_sugar_100g",
+    "fat_100g",
+    "saturated_fat_100g",
+    "trans_fat_100g",
+    "cholesterol_100g",
+    "fiber_100g",
+    "sodium_100g",
+    "salt_100g",
+    "ingredients_order",
+    "additives",
+    "allergens",
+    "palm_oil",
+    "preservatives",
+    "artificial_colours",
+    "artificial_flavours",
+    "nova_group",
+    "organic",
+    "fortified",
+    "shelf_life",
+    "storage_instructions",
+    "packaging_type",
+    "fssai_licence",
+    "manufacturer",
+    "marketed_by",
+    "country_of_origin"
+   ]
+  },
+  "Staples & grains": {
+   "required": [
+    "quantity"
+   ],
+   "columns": [
+    "quantity",
+    "proteins_100g",
+    "energy_kcal_100g"
+   ],
+   "facets": [
+    "brand",
+    "veg",
+    "organic"
+   ],
+   "spec": [
+    "quantity",
+    "serving_size",
+    "serving_per_pack",
+    "veg",
+    "energy_kcal_100g",
+    "energy_kcal_serving",
+    "proteins_100g",
+    "carbohydrates_100g",
+    "sugars_100g",
+    "added_sugar_100g",
+    "fat_100g",
+    "saturated_fat_100g",
+    "trans_fat_100g",
+    "cholesterol_100g",
+    "fiber_100g",
+    "sodium_100g",
+    "salt_100g",
+    "ingredients_order",
+    "additives",
+    "allergens",
+    "palm_oil",
+    "preservatives",
+    "artificial_colours",
+    "artificial_flavours",
+    "nova_group",
+    "organic",
+    "fortified",
+    "millet_based",
+    "shelf_life",
+    "storage_instructions",
+    "packaging_type",
+    "fssai_licence",
+    "manufacturer",
+    "marketed_by",
+    "country_of_origin"
+   ]
+  },
+  "Oils & ghee": {
+   "required": [
+    "quantity"
+   ],
+   "columns": [
+    "quantity",
+    "fat_100g",
+    "saturated_fat_100g"
+   ],
+   "facets": [
+    "brand",
+    "veg",
+    "palm_oil"
+   ],
+   "spec": [
+    "quantity",
+    "serving_size",
+    "serving_per_pack",
+    "veg",
+    "energy_kcal_100g",
+    "energy_kcal_serving",
+    "proteins_100g",
+    "carbohydrates_100g",
+    "sugars_100g",
+    "added_sugar_100g",
+    "fat_100g",
+    "saturated_fat_100g",
+    "trans_fat_100g",
+    "cholesterol_100g",
+    "fiber_100g",
+    "sodium_100g",
+    "salt_100g",
+    "ingredients_order",
+    "additives",
+    "allergens",
+    "palm_oil",
+    "preservatives",
+    "artificial_colours",
+    "artificial_flavours",
+    "nova_group",
+    "organic",
+    "fortified",
+    "shelf_life",
+    "storage_instructions",
+    "packaging_type",
+    "fssai_licence",
+    "manufacturer",
+    "marketed_by",
+    "country_of_origin"
+   ]
+  },
+  "Instant & ready to eat": {
+   "required": [
+    "quantity"
+   ],
+   "columns": [
+    "quantity",
+    "energy_kcal_100g",
+    "sodium_100g",
+    "palm_oil"
+   ],
+   "facets": [
+    "brand",
+    "veg",
+    "nova_group",
+    "palm_oil"
+   ],
+   "spec": [
+    "quantity",
+    "serving_size",
+    "serving_per_pack",
+    "veg",
+    "energy_kcal_100g",
+    "energy_kcal_serving",
+    "proteins_100g",
+    "carbohydrates_100g",
+    "sugars_100g",
+    "added_sugar_100g",
+    "fat_100g",
+    "saturated_fat_100g",
+    "trans_fat_100g",
+    "cholesterol_100g",
+    "fiber_100g",
+    "sodium_100g",
+    "salt_100g",
+    "ingredients_order",
+    "additives",
+    "allergens",
+    "palm_oil",
+    "preservatives",
+    "artificial_colours",
+    "artificial_flavours",
+    "nova_group",
+    "organic",
+    "fortified",
+    "shelf_life",
+    "storage_instructions",
+    "packaging_type",
+    "fssai_licence",
+    "manufacturer",
+    "marketed_by",
+    "country_of_origin"
+   ]
+  },
+  "Baby food": {
+   "required": [
+    "quantity"
+   ],
+   "columns": [
+    "quantity",
+    "energy_kcal_100g",
+    "proteins_100g",
+    "sugars_100g"
+   ],
+   "facets": [
+    "brand",
+    "veg",
+    "nova_group"
+   ],
+   "spec": [
+    "quantity",
+    "serving_size",
+    "serving_per_pack",
+    "veg",
+    "energy_kcal_100g",
+    "energy_kcal_serving",
+    "proteins_100g",
+    "carbohydrates_100g",
+    "sugars_100g",
+    "added_sugar_100g",
+    "fat_100g",
+    "saturated_fat_100g",
+    "trans_fat_100g",
+    "cholesterol_100g",
+    "fiber_100g",
+    "sodium_100g",
+    "salt_100g",
+    "calcium_100g",
+    "iron_100g",
+    "ingredients_order",
+    "additives",
+    "allergens",
+    "palm_oil",
+    "preservatives",
+    "artificial_colours",
+    "artificial_flavours",
+    "nova_group",
+    "organic",
+    "fortified",
+    "shelf_life",
+    "storage_instructions",
+    "packaging_type",
+    "fssai_licence",
+    "manufacturer",
+    "marketed_by",
+    "country_of_origin"
+   ]
+  },
+  "Spices & condiments": {
+   "required": [
+    "quantity"
+   ],
+   "columns": [
+    "quantity",
+    "sodium_100g"
+   ],
+   "facets": [
+    "brand",
+    "veg",
+    "organic"
+   ],
+   "spec": [
+    "quantity",
+    "serving_size",
+    "serving_per_pack",
+    "veg",
+    "energy_kcal_100g",
+    "energy_kcal_serving",
+    "proteins_100g",
+    "carbohydrates_100g",
+    "sugars_100g",
+    "added_sugar_100g",
+    "fat_100g",
+    "saturated_fat_100g",
+    "trans_fat_100g",
+    "cholesterol_100g",
+    "fiber_100g",
+    "sodium_100g",
+    "salt_100g",
+    "ingredients_order",
+    "additives",
+    "allergens",
+    "palm_oil",
+    "preservatives",
+    "artificial_colours",
+    "artificial_flavours",
+    "nova_group",
+    "organic",
+    "fortified",
+    "shelf_life",
+    "storage_instructions",
+    "packaging_type",
+    "fssai_licence",
+    "manufacturer",
+    "marketed_by",
+    "country_of_origin"
+   ]
+  },
+  "Health & supplements": {
+   "required": [
+    "quantity"
+   ],
+   "columns": [
+    "quantity",
+    "proteins_100g",
+    "energy_kcal_100g"
+   ],
+   "facets": [
+    "brand",
+    "veg"
+   ],
+   "spec": [
+    "quantity",
+    "serving_size",
+    "serving_per_pack",
+    "veg",
+    "energy_kcal_100g",
+    "energy_kcal_serving",
+    "proteins_100g",
+    "carbohydrates_100g",
+    "sugars_100g",
+    "added_sugar_100g",
+    "fat_100g",
+    "saturated_fat_100g",
+    "trans_fat_100g",
+    "cholesterol_100g",
+    "fiber_100g",
+    "sodium_100g",
+    "salt_100g",
+    "calcium_100g",
+    "iron_100g",
+    "ingredients_order",
+    "additives",
+    "allergens",
+    "palm_oil",
+    "preservatives",
+    "artificial_colours",
+    "artificial_flavours",
+    "nova_group",
+    "organic",
+    "fortified",
+    "shelf_life",
+    "storage_instructions",
+    "packaging_type",
+    "fssai_licence",
+    "manufacturer",
+    "marketed_by",
+    "country_of_origin"
+   ]
+  }
+ },
+ "fields": {
+  "quantity": {
+   "type": "string",
+   "label": "Net quantity",
+   "note": "As printed on the pack — '45 g', '1 L'. Kept as text because packs say '2 x 75 g' and that is information, not noise.",
+   "group": "identity"
+  },
+  "serving_size": {
+   "type": "string",
+   "label": "Serving size",
+   "group": "identity"
+  },
+  "veg": {
+   "type": "enum",
+   "values": [
+    "Veg",
+    "Non-veg",
+    "Vegan",
+    "Contains egg"
+   ],
+   "label": "Veg / non-veg",
+   "note": "India's mandatory veg/non-veg mark, shown as a green or brown dot on the pack. 'Contains egg' is legally distinct from non-veg here, and vegan is a stricter claim than veg because it also excludes dairy and honey.",
+   "group": "diet"
+  },
+  "ingredients_order": {
+   "type": "boolean",
+   "label": "Ingredients recorded in declared order",
+   "note": "Whether the ingredient list is in the required descending order of quantity. When it is, an ingredient's position tells you roughly how much is present, which is often more informative than the nutrition panel.",
+   "group": "ingredients"
+  },
+  "energy_kcal_100g": {
+   "type": "number",
+   "min": 0,
+   "max": 1000,
+   "label": "Energy per 100 g (kcal)",
+   "group": "nutrition",
+   "note": "Calories in 100 g, which is the figure that lets you compare two products directly. Packs often headline calories per serving instead, and servings are set by the brand, so a smaller stated serving can make a product look lighter than it is."
+  },
+  "proteins_100g": {
+   "type": "number",
+   "min": 0,
+   "max": 100,
+   "label": "Protein per 100 g",
+   "group": "nutrition",
+   "note": "Protein in 100 g. Read it against energy: a snack can carry a high protein number and still be mostly fat and refined carbohydrate."
+  },
+  "carbohydrates_100g": {
+   "type": "number",
+   "min": 0,
+   "max": 100,
+   "label": "Carbohydrate per 100 g",
+   "group": "nutrition",
+   "note": "Total carbohydrate in 100 g, which includes both starch and sugars. Subtract the sugar figure to see how much comes from starch."
+  },
+  "sugars_100g": {
+   "type": "number",
+   "min": 0,
+   "max": 100,
+   "label": "Sugar per 100 g",
+   "group": "nutrition",
+   "note": "All sugars in 100 g, whether added or naturally present. Indian labels rarely separate the two, so fruit-based products show high figures without added sugar; the ingredient list is what distinguishes them."
+  },
+  "fat_100g": {
+   "type": "number",
+   "min": 0,
+   "max": 100,
+   "label": "Fat per 100 g",
+   "group": "nutrition",
+   "note": "Total fat in 100 g. The saturated share below matters more for heart health than the total, and the ingredient list shows which oils were used."
+  },
+  "saturated_fat_100g": {
+   "type": "number",
+   "min": 0,
+   "max": 100,
+   "label": "Saturated fat per 100 g",
+   "group": "nutrition",
+   "note": "Saturated fat in 100 g. Palm oil, coconut oil and dairy fat push this up, and it is the fat figure dietary guidance limits most tightly."
+  },
+  "fiber_100g": {
+   "type": "number",
+   "min": 0,
+   "max": 100,
+   "label": "Fibre per 100 g",
+   "group": "nutrition",
+   "note": "Dietary fibre in 100 g. It is often absent from Indian labels because declaring it is not mandatory, so a blank means unstated rather than zero."
+  },
+  "sodium_100g": {
+   "type": "number",
+   "min": 0,
+   "max": 100,
+   "label": "Sodium per 100 g",
+   "group": "nutrition",
+   "note": "Sodium in 100 g. Multiply by 2.5 for the equivalent salt figure, since packs use the two interchangeably and the numbers differ by that factor."
+  },
+  "caffeine": {
+   "type": "string",
+   "label": "Caffeine",
+   "group": "nutrition",
+   "note": "Caffeine content where the pack declares it. It matters for coffee, energy drinks and some teas, and Indian rules cap it in packaged energy drinks."
+  },
+  "additives": {
+   "type": "list",
+   "label": "Additives (E numbers)",
+   "group": "ingredients",
+   "note": "Additives listed by their INS number or name, such as INS 330 for citric acid. The number identifies exactly which substance is present, where a category word like 'stabiliser' does not."
+  },
+  "allergens": {
+   "type": "list",
+   "label": "Allergens",
+   "group": "ingredients",
+   "note": "Allergens the label declares, such as milk, soy, nuts or wheat. Indian rules require declaring major allergens, and 'may contain' warnings cover cross-contamination in the same facility rather than an ingredient."
+  },
+  "palm_oil": {
+   "type": "boolean",
+   "label": "Contains palm oil",
+   "group": "ingredients",
+   "note": "Whether palm oil is in the product. It is often hidden behind 'vegetable oil' on Indian labels, and it is both high in saturated fat and the ingredient most associated with deforestation."
+  },
+  "organic": {
+   "type": "boolean",
+   "label": "Certified organic",
+   "group": "processing",
+   "note": "Whether the product carries an organic certification such as India Organic or Jaivik Bharat. Uncertified use of the word on packaging is not a controlled claim."
+  },
+  "nova_group": {
+   "type": "integer",
+   "min": 1,
+   "max": 4,
+   "label": "NOVA processing group",
+   "note": "A published classification of how heavily a food is processed, from 1 for unprocessed to 4 for ultra-processed. It is derived from the ingredient list by a defined method, not our judgement, and is recorded with its source.",
+   "group": "processing"
+  },
+  "fssai_licence": {
+   "type": "string",
+   "label": "FSSAI licence number",
+   "group": "provenance",
+   "note": "The 14-digit FSSAI licence number of the maker or packer, which is mandatory on Indian packaged food. It identifies who is legally answerable for the product and can be checked on the FSSAI register."
+  },
+  "manufacturer": {
+   "type": "string",
+   "label": "Manufacturer / marketer",
+   "group": "provenance"
+  },
+  "country_of_origin": {
+   "type": "string",
+   "label": "Country of origin",
+   "group": "provenance"
+  },
+  "shelf_life": {
+   "type": "string",
+   "label": "Shelf life",
+   "group": "storage",
+   "note": "How long the product keeps from manufacture, as stated on the pack. Read it with the storage instruction, since it usually assumes an unopened pack in cool dry conditions."
+  },
+  "serving_per_pack": {
+   "type": "number",
+   "min": 0.1,
+   "max": 1000,
+   "label": "Servings per pack",
+   "group": "identity",
+   "note": "How many servings the pack contains, by the brand's own serving size. It is what turns a per-serving nutrition panel into a per-pack figure, and small packs are often labelled as more than one serving."
+  },
+  "energy_kcal_serving": {
+   "type": "number",
+   "min": 0,
+   "max": 2000,
+   "unit": "kcal",
+   "label": "Calories per serving",
+   "group": "nutrition",
+   "note": "Calories in one serving as the brand defines it. Always check the serving size beside it: comparing two products on this figure alone compares the brands' marketing choices, not the food."
+  },
+  "trans_fat_100g": {
+   "type": "number",
+   "min": 0,
+   "max": 100,
+   "unit": "g",
+   "label": "Trans fat per 100 g",
+   "group": "nutrition",
+   "note": "Industrially produced trans fat in 100 g. India caps it at 2% of total fat; it comes from partially hydrogenated oils, which appear on labels as vanaspati or hydrogenated vegetable oil."
+  },
+  "cholesterol_100g": {
+   "type": "number",
+   "min": 0,
+   "max": 5000,
+   "unit": "mg",
+   "label": "Cholesterol per 100 g",
+   "group": "nutrition",
+   "note": "Cholesterol in 100 g. It occurs only in animal-derived ingredients, so a purely plant product declaring zero is stating the obvious rather than a benefit."
+  },
+  "added_sugar_100g": {
+   "type": "number",
+   "min": 0,
+   "max": 100,
+   "unit": "g",
+   "label": "Added sugar per 100 g",
+   "group": "nutrition",
+   "note": "Sugar added during manufacture, as distinct from sugar naturally in fruit or milk. Where a label separates it, this is the figure dietary guidance actually limits."
+  },
+  "salt_100g": {
+   "type": "number",
+   "min": 0,
+   "max": 100,
+   "unit": "g",
+   "label": "Salt per 100 g",
+   "group": "nutrition",
+   "note": "Salt in 100 g, which is sodium multiplied by about 2.5. Packs declare one or the other, so this exists to make the two comparable."
+  },
+  "calcium_100g": {
+   "type": "number",
+   "min": 0,
+   "max": 5000,
+   "unit": "mg",
+   "label": "Calcium per 100 g",
+   "group": "nutrition",
+   "note": "Calcium in 100 g, declared on fortified and dairy products."
+  },
+  "iron_100g": {
+   "type": "number",
+   "min": 0,
+   "max": 1000,
+   "unit": "mg",
+   "label": "Iron per 100 g",
+   "group": "nutrition",
+   "note": "Iron in 100 g, declared mainly on fortified staples and cereals."
+  },
+  "fortified": {
+   "type": "boolean",
+   "label": "Fortified",
+   "group": "processing",
+   "note": "Whether nutrients have been added beyond what the food naturally contains. India's +F logo marks staples fortified under its standards, such as iodised salt or vitamin-fortified oil."
+  },
+  "millet_based": {
+   "type": "boolean",
+   "label": "Millet based",
+   "group": "processing",
+   "note": "Whether millets are a principal ingredient. Worth separating from 'multigrain', which can mean a trace of several grains in a mostly refined-wheat product."
+  },
+  "whole_grain_pct": {
+   "type": "number",
+   "min": 0,
+   "max": 100,
+   "unit": "%",
+   "label": "Whole grain content",
+   "group": "processing",
+   "note": "How much of the grain content is whole rather than refined. 'Made with whole grain' on the front of a pack can mean a small fraction, and this is the number that settles it."
+  },
+  "preservatives": {
+   "type": "enum",
+   "label": "Preservatives",
+   "group": "ingredients",
+   "values": [
+    "None declared",
+    "Class I (natural)",
+    "Class II (chemical)",
+    "Both"
+   ],
+   "note": "Which preservative class the label declares. India's Class I covers common natural preservatives like salt, sugar and vinegar; Class II covers chemical ones such as sorbates and benzoates, which must be named with their INS number."
+  },
+  "artificial_colours": {
+   "type": "boolean",
+   "label": "Artificial colours",
+   "group": "ingredients",
+   "note": "Whether synthetic colours are used. Indian labels must declare them, and packs using natural colours instead usually say so explicitly."
+  },
+  "artificial_flavours": {
+   "type": "boolean",
+   "label": "Artificial flavours",
+   "group": "ingredients",
+   "note": "Whether synthetic flavouring is used. Labels distinguish natural, nature-identical and artificial flavouring substances, which is a legal classification rather than a quality one."
+  },
+  "storage_instructions": {
+   "type": "string",
+   "label": "Storage",
+   "group": "storage",
+   "note": "How the pack says to keep the product, and whether that changes after opening. Many shelf-stable products need refrigeration once opened, which shortens their life considerably."
+  },
+  "best_before_type": {
+   "type": "enum",
+   "label": "Date marking",
+   "group": "storage",
+   "values": [
+    "Best before",
+    "Use by",
+    "Expiry date"
+   ],
+   "note": "Which date the pack carries. 'Best before' is about quality and food is usually still safe after it; 'use by' and 'expiry date' are about safety and are not the same promise."
+  },
+  "packaging_type": {
+   "type": "enum",
+   "label": "Packaging",
+   "group": "storage",
+   "values": [
+    "Plastic pouch",
+    "Plastic bottle",
+    "Glass bottle",
+    "Glass jar",
+    "Tetra Pak",
+    "Metal can",
+    "Carton",
+    "Paper",
+    "Composite"
+   ],
+   "note": "What the product is packed in. It affects shelf life and whether the pack is recyclable in Indian streams, where multi-layer pouches largely are not."
+  },
+  "marketed_by": {
+   "type": "string",
+   "label": "Marketed by",
+   "group": "provenance",
+   "note": "The company legally responsible for the product in India, which is often not the maker. It is the entity to approach with a complaint, and it is required on the pack."
+  },
+  "spec_url": {
+   "type": "string",
+   "label": "Official product page",
+   "group": "documents",
+   "note": "A link to the brand's own page for this exact product. It is the source a disputed fact here should be checked against, and where the full ingredient declaration is usually published."
+  },
+  "spec_checked_version": {
+   "type": "string",
+   "label": "Page version",
+   "group": "documents",
+   "note": "Which revision of the brand's page or pack these facts were read from, as a date. Recipes change without a rename, so this records which version was in front of us."
+  }
+ },
+ "not_in_this_repo": [
+  "price",
+  "mrp",
+  "in_stock",
+  "rating",
+  "healthiness",
+  "recommendation",
+  "spec_url",
+  "spec_checked_version",
+  "best_before_type",
+  "whole_grain_pct",
+  "caffeine"
+ ],
+ "sanity": {
+  "no_scores": "No health scores, no 'good for you', no traffic lights. We publish sugar per 100 g and let the reader decide. NOVA is recorded because it is a published classification with a method, not an opinion of ours.",
+  "crowd_sourced": "Open Food Facts records come from phone scans and vary in quality. A record with no product name, or with neither ingredients nor nutrition, is a candidate — never an entry.",
+  "quantity_required": "Nutrition per 100 g is meaningless for comparison without knowing what you are buying. No quantity, no entry."
+ },
+ "groups": [
+  {
+   "id": "identity",
+   "label": "Pack & serving"
+  },
+  {
+   "id": "diet",
+   "label": "Dietary"
+  },
+  {
+   "id": "nutrition",
+   "label": "Nutrition per 100 g"
+  },
+  {
+   "id": "ingredients",
+   "label": "Ingredients & additives"
+  },
+  {
+   "id": "processing",
+   "label": "Processing"
+  },
+  {
+   "id": "storage",
+   "label": "Storage & shelf life"
+  },
+  {
+   "id": "provenance",
+   "label": "Who makes it"
+  },
+  {
+   "id": "documents",
+   "label": "Official sources"
+  }
+ ],
+ "not_in_this_repo_why": {
+  "best_before_type": "0 of 6,000 sampled pages; the only candidate is a warehouse flag.",
+  "caffeine": "0 of 6,000 sampled pages — read only where a pack declares it, and none does.",
+  "spec_checked_version": "Same as spec_url. 0 of 67,424.",
+  "spec_url": "Blinkit is a retailer; this field means the brand’s own page. 0 of 67,424 slots after a complete crawl.",
+  "whole_grain_pct": "0 of 6,000 sampled pages."
+ }
 }
