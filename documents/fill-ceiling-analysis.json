@@ -259,6 +259,24 @@
       "amul": "Open robots, but zero occurrences of Nutrition, Energy, Protein, Ingredient or FSSAI on the site root.",
       "parle_and_mondelez": "Robots permit product paths; not pursued after the Britannia and Amul results.",
       "verdict": "Indian FMCG food brands publish campaign sites, not spec sheets. This is the opposite of the beauty D2C brands, which publish product catalogues via Shopify. The asymmetry is why beauty has a brand-store source kind and grocery does not."
+    },
+    "source_hunt_summary_2026_09_06": {
+      "question": "Is there a legal, crawlable source for the ~270,500 empty grocery panel slots?",
+      "tested_today": {
+        "Open Food Facts bulk dump": "exhausted at ~14% — the data is empty at the source, not filtered out",
+        "Open Food Facts API": "disallowed by robots.txt",
+        "BigBasket": "robots disallows /p/ and /product/",
+        "Swiggy Instamart": "robots disallows /product (established earlier)",
+        "JioMart": "robots permits everything, but publishes no panel — no Energy, FSSAI, origin or shelf life on a product page",
+        "Zepto": "robots permits everything, but serves 0 bytes to a non-browser client and has empty sitemaps",
+        "Britannia / Amul / Parle / Mondelez": "campaign sites, no product catalogue",
+        "Haldiram's": "robots disallows /",
+        "data.gov.in": "robots disallows, including its own robots.txt path",
+        "FSSAI / FoSCoS": "JS-rendered SPA shells, and a licence registry is a register of BUSINESSES, not product nutrition — it would not fill a panel even if reachable",
+        "CDSCO": "reachable and publishes drug data, but medicine facts have no schema home (TOP_LEVEL_FIELDS is a closed allowlist)"
+      },
+      "conclusion": "Blinkit remains the only Indian source found that both permits crawling and publishes the FSS-mandated pack label as structured data, and it has been crawled to completion (90,621 of 90,628 pages). Grocery's ceiling is a property of what Indian retailers publish, not of work left undone.",
+      "what_would_change_it": "A retailer or brand that publishes the mandated panel as structured page data and permits crawling. None of the ten sources above does. The remaining levers inside the repo are derivation (nova_group from ingredient lists, in progress) and the medicines schema decision, which would release roughly 30,000 facts already on disk."
     }
   }
 }
