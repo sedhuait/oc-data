@@ -1,0 +1,164 @@
+{
+ "insurer": "Bajaj Allianz Life Insurance Company Limited",
+ "source": "https://www.bajajlifeinsurance.com/download-center.html",
+ "retrieved": "2026-09-06",
+ "note": "One entry per policy, assembled from the insurer's downloads page. A UIN is IRDAI's identifier for an approved product and is the reliable key — marketing names are reused and revised, the UIN is not. No figure from inside any wording is read here; that is a separate and careful job.",
+ "product_count": 19,
+ "products": [
+  {
+   "name": "1600 Series Numbers",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Services"
+   ],
+   "documents": {}
+  },
+  {
+   "name": "Citizen Charter",
+   "uin": null,
+   "uins": null,
+   "categories": [],
+   "documents": {}
+  },
+  {
+   "name": "Customer Service TAT",
+   "uin": null,
+   "uins": null,
+   "categories": [],
+   "documents": {}
+  },
+  {
+   "name": "Download",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Services"
+   ],
+   "documents": {}
+  },
+  {
+   "name": "Fraud Awareness Booklet",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Services"
+   ],
+   "documents": {}
+  },
+  {
+   "name": "Fraud Prevention Tips",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Services"
+   ],
+   "documents": {}
+  },
+  {
+   "name": "Fund Pro -->",
+   "uin": null,
+   "uins": null,
+   "categories": [],
+   "documents": {}
+  },
+  {
+   "name": "Health Insurance Coverage to Transgender persons",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Services"
+   ],
+   "documents": {}
+  },
+  {
+   "name": "Insurance coverage to People affected by HIV/AIDS",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Services"
+   ],
+   "documents": {}
+  },
+  {
+   "name": "Insurance coverage to Persons with Disability and Mental Illness",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Services"
+   ],
+   "documents": {}
+  },
+  {
+   "name": "Interest Rates (Group Products)",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Services"
+   ],
+   "documents": {}
+  },
+  {
+   "name": "Investment Insight -->",
+   "uin": null,
+   "uins": null,
+   "categories": [],
+   "documents": {}
+  },
+  {
+   "name": "ISO/IEC 27001:2022 Certified",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Services"
+   ],
+   "documents": {}
+  },
+  {
+   "name": "List of Active Agents",
+   "uin": null,
+   "uins": null,
+   "categories": [],
+   "documents": {}
+  },
+  {
+   "name": "List of Agents terminated due to malpractices",
+   "uin": null,
+   "uins": null,
+   "categories": [],
+   "documents": {}
+  },
+  {
+   "name": "List of Corporate Agents",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Services"
+   ],
+   "documents": {}
+  },
+  {
+   "name": "List of Institutional Intermediaries",
+   "uin": null,
+   "uins": null,
+   "categories": [],
+   "documents": {}
+  },
+  {
+   "name": "List of Insurance Marketing Firms",
+   "uin": null,
+   "uins": null,
+   "categories": [],
+   "documents": {}
+  },
+  {
+   "name": "Supplier Terms and Conditions",
+   "uin": null,
+   "uins": null,
+   "categories": [
+    "Services"
+   ],
+   "documents": {}
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "counts": {
+  "annex_documents_skipped": 0,
+  "carried_a_uin": 0,
+  "cis_documents_in_manifest": 0,
+  "matched_an_existing_record": 0,
+  "no_extractable_text": 0,
+  "no_uin_in_document": 0,
+  "prospectus_documents_read": 0,
+  "read_ok": 0,
+  "true_cis_considered": 0,
+  "values_dropped_out_of_range": 0
+ },
+ "generated": "2026-09-06",
+ "generator": "sources/insurance/parse_cis.py",
+ "insurer": "HDFC ERGO General Insurance Company Limited",
+ "no_uin_documents": [],
+ "note": "PROPOSED facts read from IRDAI-mandated Customer Information Sheets. Nothing here is a record yet. A CIS is a regulatory summary, not a brochure, so it is a legitimate source WHERE THE WORDING IS SILENT — and --apply is add-only, so a value parse_wordings.py already read from the wording is never overwritten. Every value carries the row it came from, the page, and the reason. Waiting periods, caps and co-pays are financial figures: a wrong one costs somebody a claim, so they stay candidates until a person checks them against the PDF.",
+ "policies": [],
+ "policy_count": 0,
+ "source": "Customer Information Sheets mirrored under documents/insurance/star-health/",
+ "unreadable": []
+}

@@ -1,0 +1,2729 @@
+{
+ "generated": "2026-09-06",
+ "generator": "sources/insurance/parse_wordings.py",
+ "insurer": "Bajaj Allianz Life Insurance Company Limited",
+ "note": "PROPOSED facts read from policy wordings. Nothing here is a record yet. Every value carries the sentence it came from and the page it was on so a person can check it against the PDF before it is published. Waiting periods and caps are financial figures: a wrong one costs somebody a claim, so they wait for a human. Run with --apply once this file has been read.",
+ "policies": [
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 8,
+     "quote": "enefits As per the Rider Document available with the Policy Part D 6. Free Look Period You shall be provided a Free Look Period of 30 days beginning from the date of receipt of Policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/Fortune-Gain-policy-doc.pdf",
+     "why": "the wording these facts were read from"
+    }
+   },
+   "file": "Fortune-Gain-policy-doc.pdf",
+   "pages": 33,
+   "product": "Bajaj Life Fortune Gain II",
+   "sha256": "bde810cbbef65e401e3d5bb5711c203ae1c5a0a8c78ca62e1f21db64fe3a995f",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/Fortune-Gain-policy-doc.pdf",
+   "uin": null
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 2,
+     "quote": "tions wherein nothing has been concealed. (1) You shall be provided a Free look period of 30 days beginning from the date of receipt of policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/group-insurance/GCPP-policy-document.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (36 occurrences)",
+     "value": "116N094V08",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "GCPP-policy-document.pdf",
+   "pages": 41,
+   "product": "Bajaj Life Group Credit Protection Plus",
+   "sha256": "cc62609ea4aa238d6d2326f08d0d0e999a9a7a18b4f6cb1bad6ecfea1675645a",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/group-insurance/GCPP-policy-document.pdf",
+   "uin": "116N094V08"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 2,
+     "quote": "any) <xxxxxxxxxxxxxxx> <xxxxxxxxxxxxxxx> (1) You shall be provided a Free Look Period of 30 days beginning from the date of receipt of Policy Document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/group-insurance/GEB-Policy-Doc.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (29 occurrences)",
+     "value": "116L161V04",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "GEB-Policy-Doc.pdf",
+   "pages": 32,
+   "product": "Bajaj Life Group Employee Benefit",
+   "sha256": "82889015c0fc288cd1961ab79457ffa507dc5977fceb04ac59d0865491f838c8",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/group-insurance/GEB-Policy-Doc.pdf",
+   "uin": "116L161V04"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 2,
+     "quote": "tions wherein nothing has been concealed. (1) You shall be provided a Free Look Period of 30 days beginning from the date of receipt of Policy Document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/group-insurance/GEC-policy-document.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (22 occurrences)",
+     "value": "116N160V02",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "GEC-policy-document.pdf",
+   "pages": 25,
+   "product": "Bajaj Life Group Employee Care",
+   "sha256": "054d60addc0959947ac237facd948d19c45f623ab12199d94b1023c44be3695a",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/group-insurance/GEC-policy-document.pdf",
+   "uin": "116N160V02"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 2,
+     "quote": "tions wherein nothing has been concealed. (1) You shall be provided a free look period of 30 days beginning from the date of receipt of Policy Document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/group-insurance/GSJS-PD.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (44 occurrences)",
+     "value": "116N166V02",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "GSJS-PD.pdf",
+   "pages": 49,
+   "product": "Bajaj Life Group Sampoorna Jeevan Suraksha",
+   "sha256": "d631dd34ffa836be26068d5dd9e0e146f59878a71164e883de5cced882d610ac",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/group-insurance/GSJS-PD.pdf",
+   "uin": "116N166V02"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 12,
+     "quote": "the Grace Period. d) The date on which Surrender Value is paid. e) On Free Look cancellation Part E CHARGES, FUND OPTIONS, PORTFOLIO STRATEGIES, Etc Not Applicable Part F General Conditions",
+     "value": 0,
+     "why": "free look stated as not applicable — an explicit nil, not a missing value"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/group-insurance/GSSK_Policy_Doc.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (32 occurrences)",
+     "value": "116N143V03",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "GSSK_Policy_Doc.pdf",
+   "pages": 36,
+   "product": "Bajaj Life Group Sampoorna Suraksha Kavach",
+   "sha256": "1110ebc0bc4912a86aaf38760cb3bfc213c210926468a3ae78fdb82f56fcaa0f",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/group-insurance/GSSK_Policy_Doc.pdf",
+   "uin": "116N143V03"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 10,
+     "quote": "e terminated Free Look 1. The Policyholder/Member shall be provided a Free Look Period of 30 days beginning from the date of receipt of Policy Document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/group-insurance/GSSK_SL.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (1 occurrences)",
+     "value": "116N143V03",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "GSSK_SL.pdf",
+   "pages": 14,
+   "product": "Group Sampoorna Suraksha Kavach",
+   "sha256": "afe5d24c18299de8d21d9fec8876ff90f8644840c0fad44c68cf582d4bba2922",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/group-insurance/GSSK_SL.pdf",
+   "uin": "116N143V03"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 2,
+     "quote": "tions wherein nothing has been concealed. (1) You shall be provided a free look period of 30 days beginning from the date of receipt of Policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/group-insurance/GTL-Policy-Document.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (21 occurrences)",
+     "value": "116N021V08",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "GTL-Policy-Document.pdf",
+   "pages": 24,
+   "product": "Bajaj Life Group Term Life",
+   "sha256": "c460566a343fb113902b342826f233509cc2c55c875a682f3a5854204de28a06",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/group-insurance/GTL-Policy-Document.pdf",
+   "uin": "116N021V08"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 13,
+     "quote": "your nearest Ombudsman office at https://www.cioins.co.i n/ombudsman Free look cancellation - As per the base policy Policy Renewal - Not applicable Part D- Migration and Portability - Not",
+     "value": 0,
+     "why": "free look stated as not applicable — an explicit nil, not a missing value"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/riders/Grp-Trad-Policy-Document.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "portability_allowed": {
+     "confidence": "extracted",
+     "page": 13,
+     "quote": "the base policy Policy Renewal - Not applicable Part D- Migration and Portability - Not applicable Sect Change in sum insured - Not applicable Moratorium Period - Not applicable",
+     "value": false,
+     "why": "portability stated as not applicable"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (7 occurrences)",
+     "value": "116B010V04",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "Grp-Trad-Policy-Document.pdf",
+   "pages": 15,
+   "product": "Bajaj Life Group Accidental Permanent Total/Partial Disability Benefit Rider",
+   "sha256": "e7a24d41cc1b33e591b8805e417b915ed3cc111d8de9be72b8aac10fbedddbf1",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/riders/Grp-Trad-Policy-Document.pdf",
+   "uin": "116B010V04"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 2,
+     "quote": "tions wherein nothing has been concealed. (1) You shall be provided a Free Look Period of 30 days beginning from the date of receipt of Policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/group-insurance/PMJJBY-policy-document.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (18 occurrences)",
+     "value": "116G133V01",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "PMJJBY-policy-document.pdf",
+   "pages": 21,
+   "product": "Bajaj Life Pradhan Mantri Jeevan Jyoti Bima Yojana",
+   "sha256": "7cfba87e9df204ae488bf376c3389e646615edcba874355d1037a264f8502fc0",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/group-insurance/PMJJBY-policy-document.pdf",
+   "uin": "116G133V01"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 6,
+     "quote": "r those policies with tenure of less than a year) shall be provided a free look period of 30 days beginning from the date of receipt of Rider , whether received electronically or otherwise, to review the Rid",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/riders/ULIP-LAPR-Policy-Document.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (11 occurrences)",
+     "value": "116A057V03",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    },
+    "wellness_benefits": {
+     "confidence": "extracted",
+     "page": 8,
+     "quote": "n, etc. from the service providers registered with the Company. These wellness services can help the Life Assured to get correct diagnosis of a medical condition and to procure appropriate illness care. These services are available subject to: i) The availability of the particular service with the s",
+     "value": "wellness services can help the Life Assured to get correct diagnosis of a medical condition and to procure appropriate illness",
+     "why": "wellness or health check-up benefit as stated"
+    }
+   },
+   "file": "ULIP-LAPR-Policy-Document.pdf",
+   "pages": 12,
+   "product": "Bajaj Life Linked Accident Protection Rider II",
+   "sha256": "93fdf49618283c3e4cb730d73620ba1fcdaf4b3c43651c0de6647128acb0d2e4",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/riders/ULIP-LAPR-Policy-Document.pdf",
+   "uin": "116A057V03"
+  },
+  {
+   "category": null,
+   "fields": {
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/riders/ULIP-LCIR-Policy-Document.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (20 occurrences)",
+     "value": "116A060V01",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    },
+    "wellness_benefits": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "n, etc. from the service providers registered with the Company. These wellness services can help the Life Assured to get correct diagnosis of a medical condition and to procure appropriate illness care. These services are available subject to: i. The availability of the service with the service prov",
+     "value": "wellness services can help the Life Assured to get correct diagnosis of a medical condition and to procure appropriate illness",
+     "why": "wellness or health check-up benefit as stated"
+    }
+   },
+   "file": "ULIP-LCIR-Policy-Document.pdf",
+   "pages": 21,
+   "product": "Bajaj Life Linked New Critical Illness Benefit Rider",
+   "sha256": "ab4641e42716d089a8d9b27972f7f85f0f0b79a967bc02a9cafed5423f9c8754",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/riders/ULIP-LCIR-Policy-Document.pdf",
+   "uin": "116A060V01"
+  },
+  {
+   "category": null,
+   "fields": {
+    "cashless_claim": {
+     "confidence": "extracted",
+     "page": 14,
+     "quote": "will be asked to pay the transaction amount. ii. This is a completely cashless service. iii. Voucher Value payment will be allowed only in exception cases like not availability of network through",
+     "value": true,
+     "why": "cashless facility offered"
+    },
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 4,
+     "quote": "be available. Part D SERVICING OF YOUR RIDER AND OPTIONS OFFERED VI. Free Look Period You shall be provided a Free Look Period of 30 days beginning from the date of receipt of this rider document, whether received electronically or otherwise, to r",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "opd_covered": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "l Total Partial Disability (ATPD) Sum Assured Out-Patient Department (OPD)$ Rider Option Selected <Prime/Pro/Ultra/Prestige/Optima> Rider Option Prime Pro Ultra Prestige Optima Tele C",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/riders/ULIP-linked-care-plus-rider-policy-document.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (16 occurrences)",
+     "value": "116A059V01",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "ULIP-linked-care-plus-rider-policy-document.pdf",
+   "pages": 16,
+   "product": "Bajaj Life Care Plus Rider",
+   "sha256": "31d7844c8c9be12bc28674237a3c35de6737eea7b3fcafcdf1c056a00b0af19d",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/riders/ULIP-linked-care-plus-rider-policy-document.pdf",
+   "uin": "116A059V01"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "structions and nothing has been concealed. 1. You shall be provided a free look period of 30 days beginning from the date of receipt of policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/savings-plans/ace-advantage-pd.pdf",
+     "why": "the wording these facts were read from"
+    }
+   },
+   "file": "ace-advantage-pd.pdf",
+   "pages": 24,
+   "product": "Bajaj Life ACE Advantage",
+   "sha256": "4bd59ae57ff2214a87dde308b26119cb6eab987f5afaf909a1c24dbc3d7bcbe2",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/savings-plans/ace-advantage-pd.pdf",
+   "uin": null
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "e Act, 1938, as amended from time to time. 1. You shall be provided a Free Look Period of 30 days beginning from the date of receipt of Policy Document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/savings-plans/ace-policydoc.pdf",
+     "why": "the wording these facts were read from"
+    }
+   },
+   "file": "ace-policydoc.pdf",
+   "pages": 27,
+   "product": "Bajaj Life ACE",
+   "sha256": "c86c7b2959609a82b3970066ff0e10c4d6ea49f9b62869b77d0c63b1445e768f",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/savings-plans/ace-policydoc.pdf",
+   "uin": null
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "tructions and nothing has been concealed. (1) You shall be provided a Free Look Period of 30 days beginning from the date of receipt of Policy Document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/savings-plans/awg-platinum-policydoc.pdf",
+     "why": "the wording these facts were read from"
+    }
+   },
+   "file": "awg-platinum-policydoc.pdf",
+   "pages": 25,
+   "product": "Bajaj Life Assured Wealth Goal Platinum",
+   "sha256": "962f1e2d0be131a9b47a166d67fab27681fe1f1d1cb20d19391cd380c3de0123",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/savings-plans/awg-platinum-policydoc.pdf",
+   "uin": null
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "Act, 1938, as amended from time to time. (1) You shall be provided a Free Look Period of 30 days beginning from the date of receipt of Policy Document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/savings-plans/awg-policydoc.pdf",
+     "why": "the wording these facts were read from"
+    }
+   },
+   "file": "awg-policydoc.pdf",
+   "pages": 30,
+   "product": "Bajaj Life Assured Wealth Goal",
+   "sha256": "4923a15a46e098d660177e5d80ac330bb51083174cfc2e0d4ba588298784c3f5",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/savings-plans/awg-policydoc.pdf",
+   "uin": null
+  },
+  {
+   "category": "Term life",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "tructions and nothing has been concealed. (1) You shall be provided a Free Look Period of 30 days beginning from the date of receipt of Policy Document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/term-insurance/diabetic-term-plan-policy-doc.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (19 occurrences)",
+     "value": "116N183V01",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    },
+    "wellness_benefits": {
+     "confidence": "extracted",
+     "page": 8,
+     "quote": "ebinars from the service providers registered with the Company. These wellness services can help the Life Assured to manage their diabetes condition better, get correct diagnosis of a medical condition and to Bajaj Life Insurance Limited",
+     "value": "wellness services can help the Life Assured to manage their diabetes condition better, get correct diagnosis of a medical condi",
+     "why": "wellness or health check-up benefit as stated"
+    }
+   },
+   "file": "diabetic-term-plan-policy-doc.pdf",
+   "pages": 19,
+   "product": "Bajaj Life Diabetic Term Plan II Sub 8 HbA1c",
+   "sha256": "69db0d04b4a53df52fe4d6f4f6578fab5229ba22aca624930d6fd1c84eb1dfda",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/term-insurance/diabetic-term-plan-policy-doc.pdf",
+   "uin": "116N183V01"
+  },
+  {
+   "category": "Term life",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "Individual, Pure Risk Premium Life Insurance Plan Terms & Conditions Free Look Period You will have a free look period of thirty (30) days beginning from the date of receipt of the Policy Document, whether received electronically or otherwise, to r",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/term-insurance/diabetic-term-plan-sl.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (1 occurrences)",
+     "value": "116N183V01",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    },
+    "wellness_benefits": {
+     "confidence": "extracted",
+     "page": 4,
+     "quote": "ltation from the service providers registered with the company. These wellness services can help you (life assured) to get correct diagnosis of a medical condition and to procure appropriate illness care. For more details on these services, applicable terms & conditions please refer to the rider pol",
+     "value": "wellness services can help you (life assured) to get correct diagnosis of a medical condition and to procure appropriate illnes",
+     "why": "wellness or health check-up benefit as stated"
+    }
+   },
+   "file": "diabetic-term-plan-sl.pdf",
+   "pages": 9,
+   "product": "Diabetic Term Plan II Sub 8HbA1c",
+   "sha256": "a8379c30c55ea8adb4c610a012bdd7b4f0d57374b9d30c583646993b0c4a850c",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/term-insurance/diabetic-term-plan-sl.pdf",
+   "uin": "116N183V01"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "structions and nothing has been concealed. 1. You shall be provided a Free Look Period of 30 days beginning from the date of receipt of Policy Document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/investment-plans/elite-assure-policy-document.pdf",
+     "why": "the wording these facts were read from"
+    }
+   },
+   "file": "elite-assure-policy-document.pdf",
+   "pages": 23,
+   "product": "Bajaj Life Elite Assure",
+   "sha256": "be2460eca46e058ece0686a36a7dc3bca3538f16f1ca90a8077060e4979f452d",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/investment-plans/elite-assure-policy-document.pdf",
+   "uin": null
+  },
+  {
+   "category": null,
+   "fields": {
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/claims/deathClaim/employer-employee.pdf",
+     "why": "the wording these facts were read from"
+    }
+   },
+   "file": "employer-employee.pdf",
+   "pages": 3,
+   "product": "Bajaj Life Insurance Limited",
+   "sha256": "cd0d0f2d469c9935c479ffc3a4edd6c2532de5a85d29232167bbd8e4344bf462",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/claims/deathClaim/employer-employee.pdf",
+   "uin": null
+  },
+  {
+   "category": "Term life",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 15,
+     "quote": "and before claiming any benefit under the policy. Terms & Conditions Free Look Period You will have a free look period of thirty (30) days beginning from the date of receipt of the Policy Document, whether received electronically or otherwise, to r",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "max_cover_age": {
+     "confidence": "extracted",
+     "page": 9,
+     "quote": "lity Variant Parameter Life Shield & Life Shield Plus Life Shield ROP Cover up to Age 99 Cover not up to Age 99 Minimum: 18 years (For Pay till 60 option, Minimum: 18 years Minimum: 25 years) Age at",
+     "value": 99,
+     "why": "age stated in the wording"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/term-insurance/etouch-plan-sl.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "wellness_benefits": {
+     "confidence": "extracted",
+     "page": 12,
+     "quote": "ce providers registered with the company at no additional cost. These wellness services can help you (life assured) to get correct diagnosis of a medical condition and to procure appropriate illness care. Please note that: i. The company can choose to commence/discontinue the service/s or change the",
+     "value": "wellness services can help you (life assured) to get correct diagnosis of a medical condition and to procure appropriate illnes",
+     "why": "wellness or health check-up benefit as stated"
+    }
+   },
+   "file": "etouch-plan-sl.pdf",
+   "pages": 22,
+   "product": "Download",
+   "sha256": "1b7347349016bd096d417249b4f7b4ca72bff56b1c5ceaf8ea766281798e1f57",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/term-insurance/etouch-plan-sl.pdf",
+   "uin": null
+  },
+  {
+   "category": "Term life",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "tructions and nothing has been concealed. (1) You shall be provided a Free Look Period of 30 days beginning from the date of receipt of Policy Document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/term-insurance/etouch-policy-document.pdf",
+     "why": "the wording these facts were read from"
+    }
+   },
+   "file": "etouch-policy-document.pdf",
+   "pages": 22,
+   "product": "Bajaj Life eTouch II",
+   "sha256": "916bb0f9c93a60a298a6b6c188f1085a0dc5d5bbfe395776fb3218aab19a84bb",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/term-insurance/etouch-policy-document.pdf",
+   "uin": null
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 12,
+     "quote": "nefits As per the Rider Document available with the Policy. Part D 6. Free Look Period You shall be provided a Free Look Period of 30 days beginning from the date of receipt of Policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/fwg-policy-document.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (40 occurrences)",
+     "value": "116L202V01",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "fwg-policy-document.pdf",
+   "pages": 40,
+   "product": "Bajaj Life Future Wealth Gain IV",
+   "sha256": "22fb4abe9e750f619e0609f0cea3f00131b9324ffc16ac031f29aaea407d2d66",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/fwg-policy-document.pdf",
+   "uin": "116L202V01"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 12,
+     "quote": "r Benefits As per the Rider Document available with the Policy Part D Free Look Period You shall be provided a Free Look Period of 30 days beginning from the date of receipt of Policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/goal-assure-pd.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (41 occurrences)",
+     "value": "116L204V01",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "goal-assure-pd.pdf",
+   "pages": 41,
+   "product": "Bajaj Life Goal Assure IV",
+   "sha256": "a1ef6336ef35947d982a86f4452f80892f5dabca62da388080b9374e109eabf9",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/goal-assure-pd.pdf",
+   "uin": "116L204V01"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "ance Act, 1938, as amended from time to time. You shall be provided a Free Look Period of 30 days beginning from the date of receipt of Policy Document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/savings-plans/goal-suraksha-policy-document.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (21 occurrences)",
+     "value": "116N155V20",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "goal-suraksha-policy-document.pdf",
+   "pages": 21,
+   "product": "Bajaj Life Goal Suraksha",
+   "sha256": "63e61a66208de85e9d6d98950674d59955578cb598e1d884f3e5c56533f140ca",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/savings-plans/goal-suraksha-policy-document.pdf",
+   "uin": "116N155V20"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "Act, 1938, as amended from time to time. (1) You shall be provided a Free Look Period of 30 days beginning from the date of receipt of Policy Document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/retirement-plans/gpg-ii-pd.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (31 occurrences)",
+     "value": "116N187V10",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    },
+    "wellness_benefits": {
+     "confidence": "extracted",
+     "page": 19,
+     "quote": "tation, from the service providers registered with the Company. These wellness services can help the Policyholder/Life Assured to get correct diagnosis of a medical condition and to procure appropriate illness care. These services are available subject to: i) The availability of the particular servi",
+     "value": "wellness services can help the Policyholder/Life Assured to get correct diagnosis of a medical condition and to procure appropr",
+     "why": "wellness or health check-up benefit as stated"
+    }
+   },
+   "file": "gpg-ii-pd.pdf",
+   "pages": 31,
+   "product": "Bajaj Life Guaranteed Pension Goal II",
+   "sha256": "75dee3f09e151d013706ce5ca54059bcb5b96ee66fdce1c4b07ce0e5a32276ce",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/retirement-plans/gpg-ii-pd.pdf",
+   "uin": "116N187V10"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 17,
+     "quote": "AI. FREE LOOK CANCELLATION Individual Policy • You will be provided a free look period of 30 days beginning from the date of receipt of policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/retirement-plans/gpg-ii-sl.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (1 occurrences)",
+     "value": "116N187V10",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    },
+    "wellness_benefits": {
+     "confidence": "extracted",
+     "page": 10,
+     "quote": "ltation from the service providers registered with the company. These wellness services can help the Policy holder/life assured/member to get correct diagnosis of a medical condition and to procure appropriate illness care. These services are available subject to: a) The availability of the particul",
+     "value": "wellness services can help the Policy holder/life assured/member to get correct diagnosis of a medical condition and to procure",
+     "why": "wellness or health check-up benefit as stated"
+    }
+   },
+   "file": "gpg-ii-sl.pdf",
+   "pages": 22,
+   "product": "RETIRE EARLY WITH GUARANTEED1",
+   "sha256": "2a994a6d8a23808472a45db5f8806ce5087a8496e2f2ef7edb99ae670b7e7aa3",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/retirement-plans/gpg-ii-sl.pdf",
+   "uin": "116N187V10"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 23,
+     "quote": "12. Things to Free look cancellation - As per Base Policy remember Policy Renewal - Not applicable Migration and Portability - Not app",
+     "value": 0,
+     "why": "free look stated as not applicable — an explicit nil, not a missing value"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/riders/group-ci-rider-policy-doc.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "portability_allowed": {
+     "confidence": "extracted",
+     "page": 23,
+     "quote": "er Base Policy remember Policy Renewal - Not applicable Migration and Portability - Not applicable Change in sum insured - Not applicable Moratorium Period - Not applicable 13 Your Please dis",
+     "value": false,
+     "why": "portability stated as not applicable"
+    },
+    "survival_period_days": {
+     "confidence": "extracted",
+     "page": 16,
+     "quote": "er for the member with the company; 2. If the insured dies within the Survival Period of 30 days of the diagnosis of the covered Critical Illness; 3. Pre-Existing Disease: Pre-existing Disease means any con",
+     "value": 30,
+     "why": "survival period clause"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (18 occurrences)",
+     "value": "116B054V03",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "group-ci-rider-policy-doc.pdf",
+   "pages": 25,
+   "product": "Bajaj Life Group Critical Illness Rider",
+   "sha256": "968eef93cfc140c87b8b780b84d3e72aad8a1d676f1cb87e4147e254f6ebf075",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/riders/group-ci-rider-policy-doc.pdf",
+   "uin": "116B054V03"
+  },
+  {
+   "category": null,
+   "fields": {
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/riders/group-ci-rider-policy-sl.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "survival_period_days": {
+     "confidence": "extracted",
+     "page": 13,
+     "quote": "er for the member with the company; 2. If the insured dies within the Survival Period of 30 days of the diagnosis of the covered Critical Illness; 3. Pre-Existing Disease: Pre-existing Disease means any con",
+     "value": 30,
+     "why": "survival period clause"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (1 occurrences)",
+     "value": "116B054V03",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "group-ci-rider-policy-sl.pdf",
+   "pages": 17,
+   "product": "Group Critical Illness Rider",
+   "sha256": "b208e9c4a062074ea1b8315c9df22ad66aa8173f97f5bc6b0f11bf1c9867de90",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/riders/group-ci-rider-policy-sl.pdf",
+   "uin": "116B054V03"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 2,
+     "quote": "tions wherein nothing has been concealed. (1) You shall be provided a free look period of 30 days beginning from the date of receipt of policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/group-insurance/group-secure-shield-policy-document.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (41 occurrences)",
+     "value": "116N199V01",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    },
+    "wellness_benefits": {
+     "confidence": "extracted",
+     "page": 14,
+     "quote": "n, etc. from the service providers registered with the company. These wellness services can help the Life Assured to get correct diagnosis of a medical condition and to procure appropriate illness care. These services are available subject to: (i) The availability of the particular service with the ",
+     "value": "wellness services can help the Life Assured to get correct diagnosis of a medical condition and to procure appropriate illness",
+     "why": "wellness or health check-up benefit as stated"
+    }
+   },
+   "file": "group-secure-shield-policy-document.pdf",
+   "pages": 46,
+   "product": "Bajaj Life Group Secure Shield",
+   "sha256": "a1ae72bea510c0c30d2253c4e88a59e37f18f6157d2340c0f94213a11845df36",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/group-insurance/group-secure-shield-policy-document.pdf",
+   "uin": "116N199V01"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 12,
+     "quote": "on the maturity date/ completion of the term of the cover for member Free Look (1) The policyholder will be provided a free look period of 30 days beginning from the date of receipt of policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/group-insurance/group-secure-shield-sl.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (1 occurrences)",
+     "value": "116N199V01",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    },
+    "wellness_benefits": {
+     "confidence": "extracted",
+     "page": 4,
+     "quote": "n, etc. from the service providers registered with the company. These wellness services can help the life assured to get correct diagnosis of a medical condition and to procure appro- priate illness care. These services are available subject to: (i) The availability of the particular service with th",
+     "value": "wellness services can help the life assured to get correct diagnosis of a medical condition and to procure appro- priate illnes",
+     "why": "wellness or health check-up benefit as stated"
+    }
+   },
+   "file": "group-secure-shield-sl.pdf",
+   "pages": 27,
+   "product": "Group Secure Shield",
+   "sha256": "858597e8b1526c25cf695f19d2432a2fbeca7de1fab3463422fbe9cd9360c666",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/group-insurance/group-secure-shield-sl.pdf",
+   "uin": "116N199V01"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 11,
+     "quote": "ur nearest Ombudsman office at https://www.cioins.co.i n/ombudsman 12 Free look cancellation - As per Base Policy Policy Renewal - Not applicable Things to Migration and Portability - Not ap",
+     "value": 0,
+     "why": "free look stated as not applicable — an explicit nil, not a missing value"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/riders/grp-trad-adb-policy-document.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "portability_allowed": {
+     "confidence": "extracted",
+     "page": 11,
+     "quote": "r Base Policy Policy Renewal - Not applicable Things to Migration and Portability - Not applicable remember Change in sum insured - Not applicable Moratorium Period - Not applicable 13 Please",
+     "value": false,
+     "why": "portability stated as not applicable"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (5 occurrences)",
+     "value": "116B005V06",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "grp-trad-adb-policy-document.pdf",
+   "pages": 13,
+   "product": "Bajaj Life Group Accidental Death Benefit Rider",
+   "sha256": "cf63d1722025f7b4393aeabefada4c9acaec7c9e6a4af489c568d46f91bfbc4c",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/riders/grp-trad-adb-policy-document.pdf",
+   "uin": "116B005V06"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 11,
+     "quote": "remiums/Surrender Value under suicide clause on suicide of the Member Free Look (1) The policyholder/member shall be provided a free look period of 30 days beginning from the date of receipt of policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "max_entry_age": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "Employer groups as well as for Non-Employ Employer groups For ACI the maximum age at entry is 69 years Age at Maturity Minimum: 15 years for Employee Employer groups (Age at last birthday) 6 years for Non-Employe",
+     "value": 69,
+     "why": "age stated in the wording"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/group-insurance/gsjs-sl.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (1 occurrences)",
+     "value": "116N166V02",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "gsjs-sl.pdf",
+   "pages": 17,
+   "product": "Group Sampoorna Jeevan Suraksha",
+   "sha256": "055353f9a0f31ef9fa63a18c96160c094399a28d87f27bc0c6ec999221f8b1ab",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/group-insurance/gsjs-sl.pdf",
+   "uin": "116N166V02"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 2,
+     "quote": "nothing has been concealed. (1) The policyholder shall be provided a Free Look Period of 30 days beginning from the date of receipt of Policy Document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/group-insurance/gsr-pd.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (20 occurrences)",
+     "value": "116N184V02",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "gsr-pd.pdf",
+   "pages": 23,
+   "product": "Bajaj Life Group Secure Return",
+   "sha256": "416bd9ad7c717d5c5c1783bfd43e29a5ffc72d83702ec7424a15cc0e4c0dd0be",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/group-insurance/gsr-pd.pdf",
+   "uin": "116N184V02"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 2,
+     "quote": "tions wherein nothing has been concealed. (1) You shall be provided a Free look period of 30 days beginning from the date of receipt of Policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/group-insurance/gss-pd.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (23 occurrences)",
+     "value": "116N115V05",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "gss-pd.pdf",
+   "pages": 26,
+   "product": "Bajaj Life Group Superannuation Secure",
+   "sha256": "7140db24651f79f11a1a9820ee33980fe6d5cf7fca9429ace62103a3d00dbfe0",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/group-insurance/gss-pd.pdf",
+   "uin": "116N115V05"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 2,
+     "quote": "tions wherein nothing has been concealed. (1) You shall be provided a Free look period of 30 days beginning from the date of receipt of Policy doc- ument, whether received electronically or otherwise, to rev",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/group-insurance/gssp-pd.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (20 occurrences)",
+     "value": "116N175V02",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "gssp-pd.pdf",
+   "pages": 23,
+   "product": "Bajaj Life Group Superannuation Secure Plus",
+   "sha256": "73c80fc9f24ad6d9e35c6ece39796582e409867942a6462ddd8ae805e99a2ec1",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/group-insurance/gssp-pd.pdf",
+   "uin": "116N175V02"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "Act, 1938, as amended from time to time. (1) You shall be provided a Free Look Period of 30 days beginning from the date of receipt of Policy Document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/savings-plans/guaranteed-wealth-goal-policydoc.pdf",
+     "why": "the wording these facts were read from"
+    }
+   },
+   "file": "guaranteed-wealth-goal-policydoc.pdf",
+   "pages": 28,
+   "product": "Bajaj Life Guaranteed Wealth Goal",
+   "sha256": "67a6df8697b393f8298d3e2f13e3d008f1bdcc382af5ee57a9956191ba86f876",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/savings-plans/guaranteed-wealth-goal-policydoc.pdf",
+   "uin": null
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 24,
+     "quote": "/s up to the date of death will be deducted from the benefit payable. Free Look Period You will have a free look period of thirty (30) days beginning from the date of receipt of the Policy Document, whether received electronically or otherwise, to r",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/savings-plans/guaranteed-wealth-goal-sl.pdf",
+     "why": "the wording these facts were read from"
+    }
+   },
+   "file": "guaranteed-wealth-goal-sl.pdf",
+   "pages": 29,
+   "product": "A Non linked, Non Participating,",
+   "sha256": "c8d58705c0ab7ddb55c19d06c01a4c84fc2254a4a891168379588e75b7b63767",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/savings-plans/guaranteed-wealth-goal-sl.pdf",
+   "uin": null
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "tructions and nothing has been concealed. (1) You shall be provided a Free Look Period of 30 days beginning from the date of receipt of Policy Document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/invest-protect-goal-pd.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (39 occurrences)",
+     "value": "116L205V01",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "invest-protect-goal-pd.pdf",
+   "pages": 39,
+   "product": "Bajaj Life Invest Protect Goal III",
+   "sha256": "5c4451c16bd76fbb916edabbbd7f6bf0360bbd2ba181deba5f4d9d152a311221",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/invest-protect-goal-pd.pdf",
+   "uin": "116L205V01"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 12,
+     "quote": "ate upon payment of the surrender value by the Company.  What is the Free Look period available under this plan? • You will have a free look period of 30 days beginning from the date of receipt of policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "grace_period_days": {
+     "confidence": "unconfirmed",
+     "page": 13,
+     "quote": "me to time can be done.  What is the Grace period under this plan? A grace period of 30 days for yearly, half-yearly & quarterly premium payment frequency and 15 days is available for monthly premium pa",
+     "value": 30,
+     "why": "grace period stated without naming renewal — a person should confirm"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/invest-protect-goal-sl.pdf",
+     "why": "the wording these facts were read from"
+    }
+   },
+   "file": "invest-protect-goal-sl.pdf",
+   "pages": 19,
+   "product": "Invest Protect Goal III",
+   "sha256": "a10a8e3d2587d11cd52f3bc038e89279a9b0c8032f6274318c640f61eb5aa076",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/invest-protect-goal-sl.pdf",
+   "uin": null
+  },
+  {
+   "category": "Term life",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "structions and nothing has been concealed. 1. You shall be provided a Free Look Period of 30 days beginning from the date of receipt of Policy Document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/term-insurance/isecure-insurance-policy-document.pdf",
+     "why": "the wording these facts were read from"
+    }
+   },
+   "file": "isecure-insurance-policy-document.pdf",
+   "pages": 18,
+   "product": "Bajaj Life iSecure II",
+   "sha256": "b6e6491020d0947d504e8a55a4290d1923d942c0c0b31e8f478be68ef89bf46d",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/term-insurance/isecure-insurance-policy-document.pdf",
+   "uin": null
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 13,
+     "quote": "Part D Free Look Period You shall be provided a Free Look Period of 30 days beginning from the date of receipt of Policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/retirement-plans/longlife-goal-policy-doc.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (42 occurrences)",
+     "value": "116L203V01",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "longlife-goal-policy-doc.pdf",
+   "pages": 42,
+   "product": "Bajaj Life LongLife Goal III",
+   "sha256": "a3fffae1faafaecc70643bbaa3e966b55dd5aad744ed7a82bcbf59208c42eaa0",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/retirement-plans/longlife-goal-policy-doc.pdf",
+   "uin": "116L203V01"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 13,
+     "quote": "Benefits As per the Rider Document available with the Policy. Part D Free Look Period You shall be provided a Free Look Period of 30 days beginning from the date of receipt of Policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/magnum-fortune-plus-pd.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (42 occurrences)",
+     "value": "116L207V02",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "magnum-fortune-plus-pd.pdf",
+   "pages": 42,
+   "product": "Bajaj Life Magnum Fortune Plus III",
+   "sha256": "afdf5c81027ef53ad1f5c8e78cd66fe4465e3470a5f87491ad99f60f2af2f043",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/magnum-fortune-plus-pd.pdf",
+   "uin": "116L207V02"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 17,
+     "quote": "cover without any interruption as per the Policy Terms and conditions Free Look Period • You will be provided a free look period of 30 days beginning from the date of receipt of policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "grace_period_days": {
+     "confidence": "unconfirmed",
+     "page": 17,
+     "quote": "ividual Life Savings Insurance Plan Terms & Conditions Grace Period A grace period of 30 days for yearly, half yearly & quarterly Premium payment frequency and 15 days is available for monthly Premium pa",
+     "value": 30,
+     "why": "grace period stated without naming renewal — a person should confirm"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/magnum-fortune-plus-sl.pdf",
+     "why": "the wording these facts were read from"
+    }
+   },
+   "file": "magnum-fortune-plus-sl.pdf",
+   "pages": 23,
+   "product": "IN THIS POLICY, THE INVESTMENT RISK IN INVESTMENT PORTFOLIO IS BORNE BY THE POLICYHOLDER",
+   "sha256": "077e37086df8e61dc7ec70330660aa6fb71b25d53af30c2ea8aef2e3ffb3d244",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/magnum-fortune-plus-sl.pdf",
+   "uin": null
+  },
+  {
+   "category": "Term life",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "id and the Sum Assured shall not be paid. (1) You shall be provided a Free Look Period of 30 days beginning from the date of receipt of Policy Document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "grace_period_days": {
+     "confidence": "unconfirmed",
+     "page": 8,
+     "quote": "case of Limited Premium and Regular Premium payment policies only): A Grace Period of 30 days where the mode of payment of Premium is yearly or half yearly and 15 days in case of monthly, is allowed for",
+     "value": 30,
+     "why": "grace period stated without naming renewal — a person should confirm"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/term-insurance/saral-jeevan-bima-policy-doc.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (18 occurrences)",
+     "value": "116N165V01",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "saral-jeevan-bima-policy-doc.pdf",
+   "pages": 18,
+   "product": "Bajaj Life Saral Jeevan Bima",
+   "sha256": "1977e244f40a9b52decd2252ba2193f91579795b533bb0d4b478297e2ab9f88f",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/term-insurance/saral-jeevan-bima-policy-doc.pdf",
+   "uin": "116N165V01"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "Act, 1938, as amended from time to time. (1) You shall be provided a Free Look Period of 30 days beginning from the date of receipt of Policy Document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/retirement-plans/saral-pension-pd.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (23 occurrences)",
+     "value": "116N169V17",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "saral-pension-pd.pdf",
+   "pages": 23,
+   "product": "Bajaj Life Saral Pension",
+   "sha256": "67bfc7774497151da95f66dde88346dc7137ce8de9b17d5f56480db480ea4000",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/retirement-plans/saral-pension-pd.pdf",
+   "uin": "116N169V17"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 9,
+     "quote": "n A Non-Linked, Non-Participating, Individual, Immediate Annuity Plan Free Look Cancellation (1) You will be provided a Free Look Period of 30 days beginning from the date of receipt of Policy Document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/retirement-plans/saral-pension-sl.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (1 occurrences)",
+     "value": "116N169V17",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "saral-pension-sl.pdf",
+   "pages": 12,
+   "product": "Download",
+   "sha256": "b3dcd25dcc8feacc9705730ed04048cdc6fabcf0640b4d7beb12265780d91059",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/retirement-plans/saral-pension-sl.pdf",
+   "uin": "116N169V17"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "shall be available. Part D rvicing of your Policy and Options offered Free Look Period You shall be provided a Free Look Period of 30 days beginning from the date of receipt of Policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/retirement-plans/smart-pension-policy-doc.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (24 occurrences)",
+     "value": "116L209V03",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "smart-pension-policy-doc.pdf",
+   "pages": 24,
+   "product": "Bajaj Allianz Life Smart Pension",
+   "sha256": "f4e1f59d1188215f496b694600b06515b57a913b8ca5fc7b38576f6305f900fd",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/retirement-plans/smart-pension-policy-doc.pdf",
+   "uin": "116L209V03"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 19,
+     "quote": "erwise, not. 5) Loan No loan facility is available under the plan. 6) Free look period • You will be provided a free look period of 30 days beginning from the date of receipt of policy docu- ment, whether received electronically or otherwise, to rev",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "grace_period_days": {
+     "confidence": "unconfirmed",
+     "page": 20,
+     "quote": "-Linked, Non-Participating, Individual Pension Plan 7) Grace Period A grace period of 30 days for yearly, half yearly & quarterly Premium payment frequency and 15 days is available for monthly premium pa",
+     "value": 30,
+     "why": "grace period stated without naming renewal — a person should confirm"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "max_entry_age": {
+     "confidence": "extracted",
+     "page": 3,
+     "quote": "t 1: Classic Variant 2: Assure Minimum Age at Entry 18 years 18 years Maximum Age at Entry 65 years 55 years Minimum Age at Vesting 45 years 45 years Maximum Age at Vesting 75 years 70 years Policy Term (subje",
+     "value": 65,
+     "why": "age stated in the wording"
+    },
+    "min_entry_age": {
+     "confidence": "extracted",
+     "page": 3,
+     "quote": "an Product Eligibility Parameter Variant 1: Classic Variant 2: Assure Minimum Age at Entry 18 years 18 years Maximum Age at Entry 65 years 55 years Minimum Age at Vesting 45 years 45 years Maximum Age at Vesti",
+     "value": 18,
+     "why": "age stated in the wording"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/retirement-plans/smart-pension-sl.pdf",
+     "why": "the wording these facts were read from"
+    }
+   },
+   "file": "smart-pension-sl.pdf",
+   "pages": 24,
+   "product": "Download",
+   "sha256": "cd02c7508df7da7de09ecb743a194911a90d403e4ecc45d2a4bc094363d05810",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/retirement-plans/smart-pension-sl.pdf",
+   "uin": null
+  },
+  {
+   "category": "Term life",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "tructions and nothing has been concealed. (1) You shall be provided a Free Look Period of 30 days beginning from the date of receipt of Policy Document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/term-insurance/spg-policy-doc.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (25 occurrences)",
+     "value": "116N174V05",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    },
+    "wellness_benefits": {
+     "confidence": "extracted",
+     "page": 13,
+     "quote": "n, etc. from the service providers registered with the Company. These wellness services can help the Life Assured to get correct diagnosis of a medical condition and to procure appropriate illness care. These services are available subject to: i) The availability of the particular service with the s",
+     "value": "wellness services can help the Life Assured to get correct diagnosis of a medical condition and to procure appropriate illness",
+     "why": "wellness or health check-up benefit as stated"
+    }
+   },
+   "file": "spg-policy-doc.pdf",
+   "pages": 25,
+   "product": "Bajaj Life Smart Protection Goal",
+   "sha256": "99ad8cb559f411503eef0c7870b96345039d147c34069526d3863dba0765d4d8",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/term-insurance/spg-policy-doc.pdf",
+   "uin": "116N174V05"
+  },
+  {
+   "category": "Term life",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 8,
+     "quote": "or those policies with tenure of less than a year shall be provided a Free Look Period of 30 days beginning from the date of receipt of Policy Document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "max_cover_age": {
+     "confidence": "extracted",
+     "page": 2,
+     "quote": "Premium (ROP)1 as Maturity Benefit • Option to choose Whole of Life1 cover up to age 99 years • Option to get covered for listed Critical Illnesses available • Flexibility to opt for Limited or Reg",
+     "value": 99,
+     "why": "age stated in the wording"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/term-insurance/spg-sl.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (1 occurrences)",
+     "value": "116N174V05",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    },
+    "wellness_benefits": {
+     "confidence": "extracted",
+     "page": 9,
+     "quote": "n, etc. from the service providers registered with the Company. These wellness services can help the Life Assured to get correct diagnosis of a medical condition and to procure appropriate illness care. These services are available subject to: i) The availability of the particular service with the s",
+     "value": "wellness services can help the Life Assured to get correct diagnosis of a medical condition and to procure appropriate illness",
+     "why": "wellness or health check-up benefit as stated"
+    }
+   },
+   "file": "spg-sl.pdf",
+   "pages": 25,
+   "product": "Smart Protection Goal",
+   "sha256": "19dd0244a2184bccab2163efef8f19c5736c3e7506f4fee570af906351d53def",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/term-insurance/spg-sl.pdf",
+   "uin": "116N174V05"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "nded annually. Part D Servicing of your Policy and Options offered 8) Free Look Period You shall be provided a Free Look Period of 30 days beginning from the date of receipt of Policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/supreme-policy-doc.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (25 occurrences)",
+     "value": "116L211V02",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "supreme-policy-doc.pdf",
+   "pages": 25,
+   "product": "Bajaj Life Supreme",
+   "sha256": "1012d20ca0018f7becf87bafe7338873739557b7fcddca3717112599b95bcf81",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/supreme-policy-doc.pdf",
+   "uin": "116L211V02"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "tructions and nothing has been concealed. (1) You shall be provided a Free Look Period of 30 days beginning from the date of receipt of Policy Document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/swg-Joint-Life-policydoc.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (39 occurrences)",
+     "value": "116L214V01",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "swg-Joint-Life-policydoc.pdf",
+   "pages": 39,
+   "product": "Bajaj Life Smart Wealth Goal VI",
+   "sha256": "e7067bbed9993bc0f7f64687dbefd30a21c59e132d2e4c51ccff28b7a3f56a71",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/swg-Joint-Life-policydoc.pdf",
+   "uin": "116L214V01"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "tructions and nothing has been concealed. (1) You shall be provided a Free Look Period of 30 days beginning from the date of receipt of Policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/swg-child-wealth-policydoc.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (49 occurrences)",
+     "value": "116L214V01",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "swg-child-wealth-policydoc.pdf",
+   "pages": 49,
+   "product": "Bajaj Life Smart Wealth Goal VI",
+   "sha256": "e38ded55a23c8436a0cd5f077064e5edb81e3f51cf530699b4ace2a94985c0b2",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/swg-child-wealth-policydoc.pdf",
+   "uin": "116L214V01"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "tructions and nothing has been concealed. (1) You shall be provided a Free Look Period of 30 days beginning from the date of receipt of Policy Document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/swg-wealth-policydoc.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (44 occurrences)",
+     "value": "116L214V01",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "swg-wealth-policydoc.pdf",
+   "pages": 44,
+   "product": "Bajaj Life Smart Wealth Goal VI",
+   "sha256": "f6d527c1123125b6019f0726f502236068cd05e18e3699f4caa6a14f565270be",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/swg-wealth-policydoc.pdf",
+   "uin": "116L214V01"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 3,
+     "quote": "hose riders with tenure of less than a year, shall be provided with a free look period of 30 days beginning from the date of receipt of rider policy document, whether received electronically or otherwise, to",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/riders/trad-ADB-policy-document.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (7 occurrences)",
+     "value": "116B063V01",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "trad-ADB-policy-document.pdf",
+   "pages": 7,
+   "product": "Bajaj Life Accidental Death Benefit Rider II",
+   "sha256": "59a70636bb7ece739b3cdd7c91c6cd25a601e563edc877f903e732cd84bd06ff",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/riders/trad-ADB-policy-document.pdf",
+   "uin": "116B063V01"
+  },
+  {
+   "category": null,
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 3,
+     "quote": "hose riders with tenure of less than a year, shall be provided with a free look period of 30 days beginning from the date of receipt of rider policy document, whether received electronically or otherwise, to",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/riders/trad-APTPDB-policy-document.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (8 occurrences)",
+     "value": "116B064V01",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "trad-APTPDB-policy-document.pdf",
+   "pages": 8,
+   "product": "Bajaj Life Accidental Permanent Total/Partial Disability Benefit Rider II",
+   "sha256": "b0ddff503ec55de76a80f5c7188abe1f91b560b42a47dd67d15dcdf2e013ad34",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/riders/trad-APTPDB-policy-document.pdf",
+   "uin": "116B064V01"
+  },
+  {
+   "category": null,
+   "fields": {
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/riders/trad-critical-illness-benefit-policy-doc.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (20 occurrences)",
+     "value": "116B058V01",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    },
+    "wellness_benefits": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "n, etc. from the service providers registered with the Company. These wellness services can help the Life Assured to get correct diagnosis of a medical condition and to procure appropriate illness care. These services are available subject to: i. The availability of the service with the Bajaj Life I",
+     "value": "wellness services can help the Life Assured to get correct diagnosis of a medical condition and to procure appropriate illness",
+     "why": "wellness or health check-up benefit as stated"
+    }
+   },
+   "file": "trad-critical-illness-benefit-policy-doc.pdf",
+   "pages": 21,
+   "product": "Bajaj Life New Critical Illness Benefit Rider",
+   "sha256": "e5354b51291bab09b2d595473ccd2a18cda3c039729e8ed65396117af8a3a1ac",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/riders/trad-critical-illness-benefit-policy-doc.pdf",
+   "uin": "116B058V01"
+  },
+  {
+   "category": null,
+   "fields": {
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Bajaj Allianz Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/riders/trad-fpr-policy-document.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (9 occurrences)",
+     "value": "116B056V01",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    },
+    "wellness_benefits": {
+     "confidence": "extracted",
+     "page": 6,
+     "quote": "n, etc. from the service providers registered with the Company. These wellness services can help the Life Assured to get correct diagnosis of a medical condition and to procure appropriate illness care. These services are available subject to: i. The availability of the particular service with the s",
+     "value": "wellness services can help the Life Assured to get correct diagnosis of a medical condition and to procure appropriate illness",
+     "why": "wellness or health check-up benefit as stated"
+    }
+   },
+   "file": "trad-fpr-policy-document.pdf",
+   "pages": 10,
+   "product": "Bajaj Life Family Protect Rider",
+   "sha256": "f3b464b62f74dc707c01f1416ed98973d226bbd35580b17e5e63611685b3263f",
+   "source_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/riders/trad-fpr-policy-document.pdf",
+   "uin": "116B056V01"
+  }
+ ],
+ "policy_count": 60,
+ "source": "https://www.starhealth.in/downloads/",
+ "unreadable": []
+}

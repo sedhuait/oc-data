@@ -1,0 +1,619 @@
+{
+ "counts": {
+  "annex_documents_skipped": 0,
+  "carried_a_uin": 25,
+  "cis_documents_in_manifest": 27,
+  "matched_an_existing_record": 6,
+  "no_extractable_text": 0,
+  "no_uin_in_document": 2,
+  "prospectus_documents_read": 0,
+  "read_ok": 27,
+  "true_cis_considered": 27,
+  "values_dropped_out_of_range": 0
+ },
+ "generated": "2026-09-06",
+ "generator": "sources/insurance/parse_cis.py",
+ "insurer": "Bajaj Allianz Life Insurance Company Limited",
+ "no_uin_documents": [
+  "goal-suraksha-cis.pdf",
+  "gwg-cis.pdf"
+ ],
+ "note": "PROPOSED facts read from IRDAI-mandated Customer Information Sheets. Nothing here is a record yet. A CIS is a regulatory summary, not a brochure, so it is a legitimate source WHERE THE WORDING IS SILENT — and --apply is add-only, so a value parse_wordings.py already read from the wording is never overwritten. Every value carries the row it came from, the page, and the reason. Waiting periods, caps and co-pays are financial figures: a wrong one costs somebody a claim, so they stay candidates until a person checks them against the PDF.",
+ "policies": [
+  {
+   "category": null,
+   "cis_bytes": 278236,
+   "cis_file": "ULIP-linked-care-plus-rider-cis.pdf",
+   "cis_sha256": "945e50ba2626d5a9c4774bc3ac30c4aa7c6f8e8547702fefa67c6686579a86a6",
+   "cis_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/riders/ULIP-linked-care-plus-rider-cis.pdf",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "document": "ULIP-linked-care-plus-rider-cis.pdf",
+     "document_type": "Customer Information Sheet",
+     "document_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/riders/ULIP-linked-care-plus-rider-cis.pdf",
+     "page": 2,
+     "quote": "Free look cancellation - 30 days • Policy Renewal - Not applicable Part D - • Migration and Portability - Not applicable Section 7 • Change in sum insured - Not applicable • Moratoriu",
+     "source_document": "Customer Information Sheet",
+     "value": 30,
+     "why": "free-look clause in the CIS"
+    },
+    "policy_type": {
+     "confidence": "extracted",
+     "document": "ULIP-linked-care-plus-rider-cis.pdf",
+     "document_type": "Customer Information Sheet",
+     "document_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/riders/ULIP-linked-care-plus-rider-cis.pdf",
+     "page": 1,
+     "quote": "3 Type of Insurance Benefit (Where an Insurance Policy pays a fixed amount As per Product/ Policy under the policy on the occurrence of a covered event) Base Policy",
+     "source_document": "Customer Information Sheet",
+     "value": "Benefit",
+     "why": "type-of-product row of the CIS"
+    }
+   },
+   "has_record": false,
+   "product": "Download",
+   "uin": "116A059V01"
+  },
+  {
+   "category": null,
+   "cis_bytes": 266478,
+   "cis_file": "CIS-document-LCIR.pdf",
+   "cis_sha256": "89e12665baca5288db793bb684e75aab34459bce0c8f11966c12d88ef9f22118",
+   "cis_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/riders/CIS-document-LCIR.pdf",
+   "fields": {
+    "copay_pct": {
+     "confidence": "extracted",
+     "document": "CIS-document-LCIR.pdf",
+     "document_type": "Customer Information Sheet",
+     "document_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/riders/CIS-document-LCIR.pdf",
+     "page": 2,
+     "quote": "Co-payment - Not Applicable Applicable i) Sub- (It is a iii) Deductible - Not Applicable pre- iv) Any other (as applicable) - Not Applicable ) ii) Co-payment (It is a specified amount/percenta ge of the admissible claim amount to be paid by",
+     "source_document": "Customer Information Sheet",
+     "value": 0,
+     "why": "co-payment sub-row states NIL"
+    },
+    "free_look_days": {
+     "confidence": "extracted",
+     "document": "CIS-document-LCIR.pdf",
+     "document_type": "Customer Information Sheet",
+     "document_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/riders/CIS-document-LCIR.pdf",
+     "page": 3,
+     "quote": "Free look cancellation - 30 days Part D - • Policy Renewal - Not applicable Section 7 • Migration and Portability - Not applicable • Change in sum insured - Not applicable • Moratorium Period - Not applicable 13 Your obligations Please disclose all pre-existin",
+     "source_document": "Customer Information Sheet",
+     "value": 30,
+     "why": "free-look clause in the CIS"
+    },
+    "policy_type": {
+     "confidence": "extracted",
+     "document": "CIS-document-LCIR.pdf",
+     "document_type": "Customer Information Sheet",
+     "document_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/riders/CIS-document-LCIR.pdf",
+     "page": 1,
+     "quote": "3 Type of Insurance Benefit (Where an Insurance Policy pays a fixed amount under As per Product/ Policy the policy on the occurrence of a covered event) Base Policy",
+     "source_document": "Customer Information Sheet",
+     "value": "Benefit",
+     "why": "type-of-product row of the CIS"
+    }
+   },
+   "has_record": false,
+   "product": "Download",
+   "uin": "116A060V01"
+  },
+  {
+   "category": "Term life",
+   "cis_bytes": 268353,
+   "cis_file": "trad-critical-illness-benefit-cis.pdf",
+   "cis_sha256": "70b051227f6164d0ebc2cb58888c2c2a49e5e9f3607e0c774d4185355f294c9b",
+   "cis_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/riders/trad-critical-illness-benefit-cis.pdf",
+   "fields": {
+    "copay_pct": {
+     "confidence": "extracted",
+     "document": "trad-critical-illness-benefit-cis.pdf",
+     "document_type": "Customer Information Sheet",
+     "document_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/riders/trad-critical-illness-benefit-cis.pdf",
+     "page": 2,
+     "quote": "Co-payment - Not Applicable Applicabl i) Sub- (It is a pre- iii) Deductible - Not Applicable e and the iv) Any other (as applicable) - Not Applicable insurance ) ii) Co-payment (It is a specified amount/percentage of the admissible claim amount to be paid by",
+     "source_document": "Customer Information Sheet",
+     "value": 0,
+     "why": "co-payment sub-row states NIL"
+    },
+    "free_look_days": {
+     "confidence": "extracted",
+     "document": "trad-critical-illness-benefit-cis.pdf",
+     "document_type": "Customer Information Sheet",
+     "document_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/riders/trad-critical-illness-benefit-cis.pdf",
+     "page": 3,
+     "quote": "Free look cancellation - 30 days Part D - • Policy Renewal - Not applicable Section 7 • Migration and Portability - Not applicable • Change in sum insured - Not applicable • Moratorium Period - Not applicable 13 Your obligations Please disclose all pre-existin",
+     "source_document": "Customer Information Sheet",
+     "value": 30,
+     "why": "free-look clause in the CIS"
+    },
+    "policy_type": {
+     "confidence": "extracted",
+     "document": "trad-critical-illness-benefit-cis.pdf",
+     "document_type": "Customer Information Sheet",
+     "document_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/riders/trad-critical-illness-benefit-cis.pdf",
+     "page": 1,
+     "quote": "3 Type of Insurance Benefit (Where an Insurance Policy pays a fixed amount under As per Product/ Policy the policy on the occurrence of a covered event) Base Policy",
+     "source_document": "Customer Information Sheet",
+     "value": "Benefit",
+     "why": "type-of-product row of the CIS"
+    }
+   },
+   "has_record": true,
+   "product": "Non-linked Non- Participating Individual Life Insurance Term Plan",
+   "uin": "116B058V01"
+  },
+  {
+   "category": null,
+   "cis_bytes": 358054,
+   "cis_file": "Fortune-Gain-cis.pdf",
+   "cis_sha256": "d6752bca618b371a8b526a07eaa4f856b5c3752422b4b7164e5b619c0709568b",
+   "cis_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/Fortune-Gain-cis.pdf",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "document": "Fortune-Gain-cis.pdf",
+     "document_type": "Customer Information Sheet",
+     "document_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/Fortune-Gain-cis.pdf",
+     "page": 2,
+     "quote": "Free Look Period Thirty (30) Days Section 6 Lapse - Not applicable - Lapse, paid-up and Revival Paid-up - Not applicable - 13. of the Policy",
+     "source_document": "Customer Information Sheet",
+     "value": 30,
+     "why": "free-look clause in the CIS"
+    },
+    "policy_type": {
+     "confidence": "extracted",
+     "document": "Fortune-Gain-cis.pdf",
+     "document_type": "Customer Information Sheet",
+     "document_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/Fortune-Gain-cis.pdf",
+     "page": 1,
+     "quote": "3. Type of Insurance Policy Linked - • Installment Premium (₹): <xxxxxxxxxx> • Mode of Premium Payment: Single Premium • Sum Assured on Death (₹): <xxxxxxxxxx> 4. Basic Policy Details Policy Schedule • Sum Assured on Maturity (₹):<xxxxxxxxx",
+     "source_document": "Customer Information Sheet",
+     "value": "Benefit",
+     "why": "type-of-product row of the CIS"
+    }
+   },
+   "has_record": false,
+   "product": "Download",
+   "uin": "116L196V05"
+  },
+  {
+   "category": null,
+   "cis_bytes": 509425,
+   "cis_file": "fwg-cis.pdf",
+   "cis_sha256": "e2a6f07e3f08b84cc9847e63503ccda4e03c9d66d6c3e3e7bc07020553de6159",
+   "cis_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/fwg-cis.pdf",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "document": "fwg-cis.pdf",
+     "document_type": "Customer Information Sheet",
+     "document_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/fwg-cis.pdf",
+     "page": 1,
+     "quote": "Free Look Period Thirty (30) Days Section 6 Lapse If premiums have not been paid Lapse, paid-up and Revival During the first five (5) policy years: Policy will be converted to a discontinued Part D 13. of the Policy life policy at the end of the grace period",
+     "source_document": "Customer Information Sheet",
+     "value": 30,
+     "why": "free-look clause in the CIS"
+    },
+    "policy_type": {
+     "confidence": "extracted",
+     "document": "fwg-cis.pdf",
+     "document_type": "Customer Information Sheet",
+     "document_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/fwg-cis.pdf",
+     "page": 1,
+     "quote": "3. Type of Insurance Policy Linked -  Installment Premium (₹): <xxxxxxxxxx>  Mode of Premium Payment: <xxxxxxxxxx>  Sum Assured on Death (₹): <xxxxxxxxxx> 4. Basic Policy Details Policy Schedule  Sum Assured on Maturity (₹): <xxxxxxxxxx",
+     "source_document": "Customer Information Sheet",
+     "value": "Benefit",
+     "why": "type-of-product row of the CIS"
+    }
+   },
+   "has_record": false,
+   "product": "Download",
+   "uin": "116L202V01"
+  },
+  {
+   "category": null,
+   "cis_bytes": 507563,
+   "cis_file": "LLG-CIS.pdf",
+   "cis_sha256": "ac314e83501ae9d1224990f725deb566fa56651ea15bec34ecf13e487afa61f0",
+   "cis_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/retirement-plans/LLG-CIS.pdf",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "document": "LLG-CIS.pdf",
+     "document_type": "Customer Information Sheet",
+     "document_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/retirement-plans/LLG-CIS.pdf",
+     "page": 2,
+     "quote": "Free Look Period Thirty (30) Days Section 6 Lapse If premiums have not been paid During the first five (5) policy years: Policy will be converted to a discontinued Part D life policy at the end of the grace period",
+     "source_document": "Customer Information Sheet",
+     "value": 30,
+     "why": "free-look clause in the CIS"
+    },
+    "policy_type": {
+     "confidence": "extracted",
+     "document": "LLG-CIS.pdf",
+     "document_type": "Customer Information Sheet",
+     "document_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/retirement-plans/LLG-CIS.pdf",
+     "page": 1,
+     "quote": "3. Type of Insurance Policy Linked  Installment Premium (₹): <xxxxxxxxxx>  Mode of Premium Payment: <xxxxxxxxxx>  Sum Assured on Death (₹): <xxxxxxxxxx> 4. Basic Policy Details Policy Schedule  Sum Assured on Maturity (₹): <xxxxxxxxxx> ",
+     "source_document": "Customer Information Sheet",
+     "value": "Benefit",
+     "why": "type-of-product row of the CIS"
+    }
+   },
+   "has_record": false,
+   "product": "Download",
+   "uin": "116L203V01"
+  },
+  {
+   "category": null,
+   "cis_bytes": 510086,
+   "cis_file": "goal-assure-cis.pdf",
+   "cis_sha256": "fafb14675af54d67f43ac9849db8df041666bda01550da687c9885836e50ffdf",
+   "cis_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/goal-assure-cis.pdf",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "document": "goal-assure-cis.pdf",
+     "document_type": "Customer Information Sheet",
+     "document_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/goal-assure-cis.pdf",
+     "page": 2,
+     "quote": "Free Look Period Thirty (30) Days Part D Section 6 Lapse If premiums have not been paid During the first five (5) policy years: Policy will be converted to a discontinued Part D",
+     "source_document": "Customer Information Sheet",
+     "value": 30,
+     "why": "free-look clause in the CIS"
+    },
+    "policy_type": {
+     "confidence": "extracted",
+     "document": "goal-assure-cis.pdf",
+     "document_type": "Customer Information Sheet",
+     "document_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/goal-assure-cis.pdf",
+     "page": 1,
+     "quote": "3. Type of Insurance Policy Linked -  Installment Premium (₹): <xxxxxxxxxx>  Mode of Premium Payment: <xxxxxxxxxx>  Sum Assured on Death (₹): <xxxxxxxxxx> 4. Basic Policy Details Policy Schedule  Sum Assured on Maturity (₹): <xxxxxxxxxx",
+     "source_document": "Customer Information Sheet",
+     "value": "Benefit",
+     "why": "type-of-product row of the CIS"
+    }
+   },
+   "has_record": false,
+   "product": "Download",
+   "uin": "116L204V01"
+  },
+  {
+   "category": null,
+   "cis_bytes": 669799,
+   "cis_file": "ipg-cis.pdf",
+   "cis_sha256": "eb7d9181e481e72dd690873d1bed4706d764cd2cce89d02eb80cfbd87712134b",
+   "cis_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/ipg-cis.pdf",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "document": "ipg-cis.pdf",
+     "document_type": "Customer Information Sheet",
+     "document_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/ipg-cis.pdf",
+     "page": 1,
+     "quote": "Free Look Period Thirty (30) Days Section 6 Lapse If premiums have not been paid  During the first five (5) policy years: Policy will be converted to a discontinued life policy at Part D the end of the grace period",
+     "source_document": "Customer Information Sheet",
+     "value": 30,
+     "why": "free-look clause in the CIS"
+    }
+   },
+   "has_record": false,
+   "product": "Download",
+   "uin": "116L205V01"
+  },
+  {
+   "category": null,
+   "cis_bytes": 503145,
+   "cis_file": "magnum-fortune-plus-cis.pdf",
+   "cis_sha256": "0511ebfef8192cf79bb7d6b99e10658d2b11401bb698c0059e4bab983c11023b",
+   "cis_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/magnum-fortune-plus-cis.pdf",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "document": "magnum-fortune-plus-cis.pdf",
+     "document_type": "Customer Information Sheet",
+     "document_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/magnum-fortune-plus-cis.pdf",
+     "page": 2,
+     "quote": "Free Look Period Thirty (30) Days Section 6 Lapse If premiums have not been paid During the first five (5) policy years: Policy will be converted to a discontinued Part D life policy at the end of the grace period",
+     "source_document": "Customer Information Sheet",
+     "value": 30,
+     "why": "free-look clause in the CIS"
+    },
+    "policy_type": {
+     "confidence": "extracted",
+     "document": "magnum-fortune-plus-cis.pdf",
+     "document_type": "Customer Information Sheet",
+     "document_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/magnum-fortune-plus-cis.pdf",
+     "page": 1,
+     "quote": "3. Type of Insurance Policy Linked  Installment Premium (₹): <xxxxxxxxxx>  Mode of Premium Payment: <xxxxxxxxxx>  Sum Assured on Death (₹): <xxxxxxxxxx> 4. Basic Policy Details Policy Schedule  Sum Assured on Maturity (₹): <xxxxxxxxxx> ",
+     "source_document": "Customer Information Sheet",
+     "value": "Benefit",
+     "why": "type-of-product row of the CIS"
+    }
+   },
+   "has_record": false,
+   "product": "Download",
+   "uin": "116L207V02"
+  },
+  {
+   "category": null,
+   "cis_bytes": 509915,
+   "cis_file": "smart-pension-cis.pdf",
+   "cis_sha256": "e1806e63a1add70f81d6bf765edeb68f214e2e66113b3d9986ec011b6ff6e0e3",
+   "cis_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/retirement-plans/smart-pension-cis.pdf",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "document": "smart-pension-cis.pdf",
+     "document_type": "Customer Information Sheet",
+     "document_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/retirement-plans/smart-pension-cis.pdf",
+     "page": 2,
+     "quote": "Free Look Period Thirty (30) Days Section VII Lapse If premiums have not been paid During the first five (5) policy years: Policy will be converted to a Part D",
+     "source_document": "Customer Information Sheet",
+     "value": 30,
+     "why": "free-look clause in the CIS"
+    }
+   },
+   "has_record": false,
+   "product": "Download",
+   "uin": "116L209V05"
+  },
+  {
+   "category": null,
+   "cis_bytes": 605143,
+   "cis_file": "supreme-cis.pdf",
+   "cis_sha256": "f5dfdb1b4973ae747429acfd1a663c1eab10f7f9ef96a310c21dc8e46ee5fa92",
+   "cis_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/supreme-cis.pdf",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "document": "supreme-cis.pdf",
+     "document_type": "Customer Information Sheet",
+     "document_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/supreme-cis.pdf",
+     "page": 2,
+     "quote": "Free Look Period Thirty (30) Days Section 8 Lapse If premiums have not been paid During the first five (5) policy years: Policy will be converted to a discontinued Part D life policy at the end of the grace period",
+     "source_document": "Customer Information Sheet",
+     "value": 30,
+     "why": "free-look clause in the CIS"
+    },
+    "policy_type": {
+     "confidence": "extracted",
+     "document": "supreme-cis.pdf",
+     "document_type": "Customer Information Sheet",
+     "document_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/supreme-cis.pdf",
+     "page": 1,
+     "quote": "3. Type of Insurance Policy Linked  Installment Premium (₹)*: <xxxxxxxxxx>  Mode of Premium Payment: <xxxxxxxxxx>  Sum Assured on Death (₹): <xxxxxxxxxx>  Sum Assured on Maturity (₹): NA 4. Basic Policy Details  Premium Payment Term (Y",
+     "source_document": "Customer Information Sheet",
+     "value": "Benefit",
+     "why": "type-of-product row of the CIS"
+    }
+   },
+   "has_record": false,
+   "product": "Download",
+   "uin": "116L211V02"
+  },
+  {
+   "category": null,
+   "cis_bytes": 687561,
+   "cis_file": "swg-childwealth-cis.pdf",
+   "cis_sha256": "cf72c04f827f48d73bb723ec3c8db00349ff92a4ce55d47834bec1687a27e43e",
+   "cis_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/swg-childwealth-cis.pdf",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "document": "swg-childwealth-cis.pdf",
+     "document_type": "Customer Information Sheet",
+     "document_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/swg-childwealth-cis.pdf",
+     "page": 2,
+     "quote": "Free Look Period Thirty (30) Days Section 8 Lapse If premiums have not been paid During the first five (5) policy years: Policy will be converted to a discontinued",
+     "source_document": "Customer Information Sheet",
+     "value": 30,
+     "why": "free-look clause in the CIS"
+    },
+    "policy_type": {
+     "confidence": "extracted",
+     "document": "swg-childwealth-cis.pdf",
+     "document_type": "Customer Information Sheet",
+     "document_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ulip/swg-childwealth-cis.pdf",
+     "page": 1,
+     "quote": "3. Type of Insurance Policy Linked  Installment Premium (₹): <xxxxxxxxxx>  Mode of Premium Payment: <xxxxxxxxxx>  Sum Assured on Death (₹): <xxxxxxxxxx> 4. Basic Policy Details Policy Schedule  Sum Assured on Maturity (₹): <xxxxxxxxxx> ",
+     "source_document": "Customer Information Sheet",
+     "value": "Benefit",
+     "why": "type-of-product row of the CIS"
+    }
+   },
+   "has_record": false,
+   "product": "Download",
+   "uin": "116L218V01"
+  },
+  {
+   "category": "Term life",
+   "cis_bytes": 297257,
+   "cis_file": "saral-jeevan-bima-cis.pdf",
+   "cis_sha256": "066564702608c6f2c24ba3d31a7131a3c0d7ed7a6ced8d9ed257aacd7e2e3924",
+   "cis_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/term-insurance/saral-jeevan-bima-cis.pdf",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "document": "saral-jeevan-bima-cis.pdf",
+     "document_type": "Customer Information Sheet",
+     "document_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/term-insurance/saral-jeevan-bima-cis.pdf",
+     "page": 1,
+     "quote": "Free Look Thirty (30) days Part D - 12. Period Section 2 Lapse, paid-up Non-Payment of Premiums (Lapse and Paid-up): 13 and revival of If premiums have not been paid before the expiry of the grace Part D - the Policy period, the policy",
+     "source_document": "Customer Information Sheet",
+     "value": 30,
+     "why": "free-look clause in the CIS"
+    }
+   },
+   "has_record": true,
+   "product": "Individual Pure Risk Premium Life Insurance Plan Life",
+   "uin": "116N165V01"
+  },
+  {
+   "category": null,
+   "cis_bytes": 267756,
+   "cis_file": "cis-saral-pension.pdf",
+   "cis_sha256": "635e7a463e484e66ae513fd1183b9d3de32cd2b6a9a5555a1e0c922d9eda15a0",
+   "cis_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/retirement-plans/cis-saral-pension.pdf",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "document": "cis-saral-pension.pdf",
+     "document_type": "Customer Information Sheet",
+     "document_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/retirement-plans/cis-saral-pension.pdf",
+     "page": 1,
+     "quote": "Free Look Period Thirty (30) Days Section 8 Lapse, Paid-up and 13. Not Applicable - Revival of the Policy Policy Loan, Loan can be availed any time after six months from the date of commencement of the poli",
+     "source_document": "Customer Information Sheet",
+     "value": 30,
+     "why": "free-look clause in the CIS"
+    }
+   },
+   "has_record": false,
+   "product": "Download",
+   "uin": "116N169V17"
+  },
+  {
+   "category": null,
+   "cis_bytes": 443265,
+   "cis_file": "awg-cis.pdf",
+   "cis_sha256": "56488f16f920352efba06fbccd3fa97143f22c7e091bd52580552b0cd6f093ee",
+   "cis_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/savings-plans/awg-cis.pdf",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "document": "awg-cis.pdf",
+     "document_type": "Customer Information Sheet",
+     "document_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/savings-plans/awg-cis.pdf",
+     "page": 2,
+     "quote": "Free Look Period 30 days Section 5 1) Non- payment of premium -  If at least one (1) full years' Regular Premium is not paid, the policy will, immediately & automatically, lapse at the expiry of Part D - the grace period, and no benefit will be payable under ",
+     "source_document": "Customer Information Sheet",
+     "value": 30,
+     "why": "free-look clause in the CIS"
+    }
+   },
+   "has_record": false,
+   "product": "Download",
+   "uin": "116N170V14"
+  },
+  {
+   "category": "Term life",
+   "cis_bytes": 236273,
+   "cis_file": "diabetic-term-plan-cis.pdf",
+   "cis_sha256": "1a02c302c626ab9ee7abd42ae93d4b8bfcbce5e4440d5fff2232e774c188982d",
+   "cis_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/term-insurance/diabetic-term-plan-cis.pdf",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "document": "diabetic-term-plan-cis.pdf",
+     "document_type": "Customer Information Sheet",
+     "document_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/term-insurance/diabetic-term-plan-cis.pdf",
+     "page": 1,
+     "quote": "Free Look Thirty (30) days Part D - 12. Period Section 5 Non-Payment of Premiums (Lapse and Paid-up): Part D - If premiums have not been paid before the expiry of the grace Section 6 Lapse, paid-up period, the policy will lapse and no benefit will be paid. 13 ",
+     "source_document": "Customer Information Sheet",
+     "value": 30,
+     "why": "free-look clause in the CIS"
+    }
+   },
+   "has_record": true,
+   "product": "Individual Pure Risk Premium Life Insurance Plan Life",
+   "uin": "116N183V01"
+  },
+  {
+   "category": null,
+   "cis_bytes": 510114,
+   "cis_file": "awg-platinum-cis.pdf",
+   "cis_sha256": "76396945e8be21f7afa98d5f3d2e0a6affdc251af1ad79686cda881b2f20221f",
+   "cis_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/savings-plans/awg-platinum-cis.pdf",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "document": "awg-platinum-cis.pdf",
+     "document_type": "Customer Information Sheet",
+     "document_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/savings-plans/awg-platinum-cis.pdf",
+     "page": 1,
+     "quote": "Free Look Thirty (30) days Part D - 12. Period Section 5 Non-Payment of Premiums (Lapse and Paid-up):  If at least first one (1) full years' premiums have not been paid - Policy will, immediately & automatically, Part D - lapse at the expiry of the grace peri",
+     "source_document": "Customer Information Sheet",
+     "value": 30,
+     "why": "free-look clause in the CIS"
+    }
+   },
+   "has_record": false,
+   "product": "Download",
+   "uin": "116N188V09"
+  },
+  {
+   "category": null,
+   "cis_bytes": 434020,
+   "cis_file": "ace-advantage-cis.pdf",
+   "cis_sha256": "0b353d4a91df542b493442ff419500cbcca94850f8a1fc3f51c1f4bc25a36e76",
+   "cis_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/savings-plans/ace-advantage-cis.pdf",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "document": "ace-advantage-cis.pdf",
+     "document_type": "Customer Information Sheet",
+     "document_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/savings-plans/ace-advantage-cis.pdf",
+     "page": 1,
+     "quote": "Free Look Period 30 days Part D - Section 5 13. Lapse, paid-up and Non- payment of premium - Part D - revival of the Policy  If you have not paid one (1) years' premium, then, your Section 6 policy will immediately and automatically la",
+     "source_document": "Customer Information Sheet",
+     "value": 30,
+     "why": "free-look clause in the CIS"
+    }
+   },
+   "has_record": false,
+   "product": "Download",
+   "uin": "116N189V02"
+  },
+  {
+   "category": "Term life",
+   "cis_bytes": 244815,
+   "cis_file": "etouchii-cis.pdf",
+   "cis_sha256": "9274def1346cfcbdce0fbd21599a309e3379ea476ec3fcdcc3ae55fe72694802",
+   "cis_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/term-insurance/etouchii-cis.pdf",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "document": "etouchii-cis.pdf",
+     "document_type": "Customer Information Sheet",
+     "document_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/term-insurance/etouchii-cis.pdf",
+     "page": 1,
+     "quote": "Free Look Thirty (30) days Part D - 12. Period Section 7 Non-Payment of Premiums (Lapse and Paid-up): Part C - Life Shield Variant & Life Shield Plus Variant: If premiums Section 5",
+     "source_document": "Customer Information Sheet",
+     "value": 30,
+     "why": "free-look clause in the CIS"
+    }
+   },
+   "has_record": true,
+   "product": "Individual Life Insurance Term Plan Up",
+   "uin": "116N198V09"
+  },
+  {
+   "category": "Term life",
+   "cis_bytes": 237763,
+   "cis_file": "isecure-cis.pdf",
+   "cis_sha256": "232e94ee25b56f50451de664b76118aa845ef8fb356c970c1dba1b4648bcd196",
+   "cis_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/term-insurance/isecure-cis.pdf",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "document": "isecure-cis.pdf",
+     "document_type": "Customer Information Sheet",
+     "document_url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/term-insurance/isecure-cis.pdf",
+     "page": 1,
+     "quote": "Free Look Thirty (30) days Part D - 12. Period Section 7 Non-Payment of Premiums (Lapse and Paid-up): Part C - For Life & Easy Variant: If premiums are not paid by the Section 5 & end o",
+     "source_document": "Customer Information Sheet",
+     "value": 30,
+     "why": "free-look clause in the CIS"
+    }
+   },
+   "has_record": true,
+   "product": "Free Women Health Management Services",
+   "uin": "116N208V03"
+  }
+ ],
+ "policy_count": 20,
+ "source": "Customer Information Sheets mirrored under documents/insurance/star-health/",
+ "unreadable": []
+}

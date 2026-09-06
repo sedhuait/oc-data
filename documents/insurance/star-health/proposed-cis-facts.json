@@ -6,7 +6,7 @@
   "matched_an_existing_record": 66,
   "no_extractable_text": 0,
   "no_uin_in_document": 7,
-  "prospectus_documents_read": 42,
+  "prospectus_documents_read": 0,
   "read_ok": 75,
   "true_cis_considered": 75,
   "values_dropped_out_of_range": 0
@@ -1545,270 +1545,11 @@
      "source_document": "Customer Information Sheet",
      "value": 30,
      "why": "free-look clause in the CIS"
-    },
-    "max_entry_age": {
-     "confidence": "extracted",
-     "document": "Prospectus_Family_Accident_Care_Insurance_Policy_a803e78cda.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Family_Accident_Care_Insurance_Policy_a803e78cda.pdf",
-     "page": 1,
-     "quote": "For the Any person aged between 16 days and 65 years can take this insurance",
-     "source_document": "Customer Information Sheet",
-     "value": 65,
-     "why": "entry-age template in the prospectus"
-    },
-    "min_entry_age": {
-     "confidence": "extracted",
-     "document": "Prospectus_Family_Accident_Care_Insurance_Policy_a803e78cda.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Family_Accident_Care_Insurance_Policy_a803e78cda.pdf",
-     "page": 1,
-     "quote": "For the Any person aged between 16 days and 65 years can take this insurance",
-     "source_document": "Customer Information Sheet",
-     "value": 0,
-     "why": "entry-age template in the prospectus"
-    },
-    "renewability": {
-     "confidence": "extracted",
-     "document": "Prospectus_Family_Accident_Care_Insurance_Policy_a803e78cda.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Family_Accident_Care_Insurance_Policy_a803e78cda.pdf",
-     "page": 1,
-     "quote": "purpose of this exclusion Air Travel means being in or on or boarding an Life-long renewal",
-     "source_document": "Customer Information Sheet",
-     "value": "Lifelong renewal",
-     "why": "lifelong renewability stated in the prospectus"
     }
    },
    "has_record": true,
    "product": "Family Accident Care Insurance Policy",
    "uin": "SHAHLIP21042V012021"
-  },
-  {
-   "category": "Health — indemnity",
-   "cis_bytes": 178117,
-   "cis_file": "7_Prospectus_SNCV_n_Co_V_COVID_19_Insurance_Policy_2a3e37970b.pdf",
-   "cis_sha256": "33d32b751c7da73d3e5da92bbb05a72179d92cbbc891f4425488ef96a2748702",
-   "cis_url": "https://d28c6jni2fmamz.cloudfront.net/7_Prospectus_SNCV_n_Co_V_COVID_19_Insurance_Policy_2a3e37970b.pdf",
-   "fields": {
-    "max_entry_age": {
-     "confidence": "extracted",
-     "document": "7_Prospectus_SNCV_n_Co_V_COVID_19_Insurance_Policy_2a3e37970b.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/7_Prospectus_SNCV_n_Co_V_COVID_19_Insurance_Policy_2a3e37970b.pdf",
-     "page": 1,
-     "quote": ": SHAHLIP21047V022021 The product provides lumpsum benefit to the person who is hospitalized and diagnosed v Automatic Termination of Insurance: The insurance provided in respect of each positive with Novel Coronavirus (nCoV) (COVID -19) relevant person insure",
-     "source_document": "Customer Information Sheet",
-     "value": 65,
-     "why": "entry-age template in the prospectus"
-    },
-    "min_entry_age": {
-     "confidence": "extracted",
-     "document": "7_Prospectus_SNCV_n_Co_V_COVID_19_Insurance_Policy_2a3e37970b.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/7_Prospectus_SNCV_n_Co_V_COVID_19_Insurance_Policy_2a3e37970b.pdf",
-     "page": 1,
-     "quote": ": SHAHLIP21047V022021 The product provides lumpsum benefit to the person who is hospitalized and diagnosed v Automatic Termination of Insurance: The insurance provided in respect of each positive with Novel Coronavirus (nCoV) (COVID -19) relevant person insure",
-     "source_document": "Customer Information Sheet",
-     "value": 18,
-     "why": "entry-age template in the prospectus"
-    },
-    "pre_policy_checkup": {
-     "confidence": "extracted",
-     "document": "7_Prospectus_SNCV_n_Co_V_COVID_19_Insurance_Policy_2a3e37970b.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/7_Prospectus_SNCV_n_Co_V_COVID_19_Insurance_Policy_2a3e37970b.pdf",
-     "page": 1,
-     "quote": "on of the insured by sending the Insured 30 days notice by registered letter at the Insured v Policy Term: 1 year person's last known address in which case the refund of premium will be on pro-rata v Pre-acceptance medical screening: No pre-acceptanc",
-     "source_document": "Customer Information Sheet",
-     "value": false,
-     "why": "the prospectus states no pre-policy check-up is required"
-    }
-   },
-   "has_record": true,
-   "product": "Star Novel Coronavirus (nCoV) (COVID-19) Insurance Policy (Pilot Product)",
-   "uin": "SHAHLIP21047V022021"
-  },
-  {
-   "category": "Health — indemnity",
-   "cis_bytes": 290211,
-   "cis_file": "11_Prospectus_Corona_Kavach_Policy_Star_Health_and_Allied_Insurance_Co_Ltd_d66fa4fe76.pdf",
-   "cis_sha256": "b66191f151acd0a0e66d5a35499fc120809371f8e510f06cfdfdf2dff185040b",
-   "cis_url": "https://d28c6jni2fmamz.cloudfront.net/11_Prospectus_Corona_Kavach_Policy_Star_Health_and_Allied_Insurance_Co_Ltd_d66fa4fe76.pdf",
-   "fields": {
-    "max_entry_age": {
-     "confidence": "extracted",
-     "document": "11_Prospectus_Corona_Kavach_Policy_Star_Health_and_Allied_Insurance_Co_Ltd_d66fa4fe76.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/11_Prospectus_Corona_Kavach_Policy_Star_Health_and_Allied_Insurance_Co_Ltd_d66fa4fe76.pdf",
-     "page": 1,
-     "quote": "ª Eligibility · Adults :18 yrs to 65 yrs",
-     "source_document": "Customer Information Sheet",
-     "value": 65,
-     "why": "entry-age template in the prospectus"
-    },
-    "min_entry_age": {
-     "confidence": "extracted",
-     "document": "11_Prospectus_Corona_Kavach_Policy_Star_Health_and_Allied_Insurance_Co_Ltd_d66fa4fe76.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/11_Prospectus_Corona_Kavach_Policy_Star_Health_and_Allied_Insurance_Co_Ltd_d66fa4fe76.pdf",
-     "page": 1,
-     "quote": "ª Eligibility · Adults :18 yrs to 65 yrs",
-     "source_document": "Customer Information Sheet",
-     "value": 18,
-     "why": "entry-age template in the prospectus"
-    },
-    "pre_policy_checkup": {
-     "confidence": "extracted",
-     "document": "11_Prospectus_Corona_Kavach_Policy_Star_Health_and_Allied_Insurance_Co_Ltd_d66fa4fe76.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/11_Prospectus_Corona_Kavach_Policy_Star_Health_and_Allied_Insurance_Co_Ltd_d66fa4fe76.pdf",
-     "page": 1,
-     "quote": "5,00,000/- ª Policy Terms: 3½ months (105 Days); 6½ months (195 Days); 9½ months (285 Days) (No annual policy term) ª Pre acceptance medical screening: No pre-acceptance medical screening",
-     "source_document": "Customer Information Sheet",
-     "value": false,
-     "why": "the prospectus states no pre-policy check-up is required"
-    }
-   },
-   "has_record": true,
-   "product": "Corona Kavach Policy, Star Health and Allied Insurance Co. Ltd",
-   "uin": "SHAHLIP21066V012021"
-  },
-  {
-   "category": "Health — indemnity",
-   "cis_bytes": 245858,
-   "cis_file": "10_Prospectus_Corona_Rakshak_Policy_Star_Health_and_Allied_Insurance_Co_Ltd_071816ca4c.pdf",
-   "cis_sha256": "e973d7b8f173cd79b3a399ce180f48927fe8f18ba349d86a87173193011a9a47",
-   "cis_url": "https://d28c6jni2fmamz.cloudfront.net/10_Prospectus_Corona_Rakshak_Policy_Star_Health_and_Allied_Insurance_Co_Ltd_071816ca4c.pdf",
-   "fields": {
-    "max_entry_age": {
-     "confidence": "extracted",
-     "document": "10_Prospectus_Corona_Rakshak_Policy_Star_Health_and_Allied_Insurance_Co_Ltd_071816ca4c.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/10_Prospectus_Corona_Rakshak_Policy_Star_Health_and_Allied_Insurance_Co_Ltd_071816ca4c.pdf",
-     "page": 1,
-     "quote": "ª Eligibility: Adults :18 yrs to 65 yrs",
-     "source_document": "Customer Information Sheet",
-     "value": 65,
-     "why": "entry-age template in the prospectus"
-    },
-    "min_entry_age": {
-     "confidence": "extracted",
-     "document": "10_Prospectus_Corona_Rakshak_Policy_Star_Health_and_Allied_Insurance_Co_Ltd_071816ca4c.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/10_Prospectus_Corona_Rakshak_Policy_Star_Health_and_Allied_Insurance_Co_Ltd_071816ca4c.pdf",
-     "page": 1,
-     "quote": "ª Eligibility: Adults :18 yrs to 65 yrs",
-     "source_document": "Customer Information Sheet",
-     "value": 18,
-     "why": "entry-age template in the prospectus"
-    },
-    "pre_policy_checkup": {
-     "confidence": "extracted",
-     "document": "10_Prospectus_Corona_Rakshak_Policy_Star_Health_and_Allied_Insurance_Co_Ltd_071816ca4c.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/10_Prospectus_Corona_Rakshak_Policy_Star_Health_and_Allied_Insurance_Co_Ltd_071816ca4c.pdf",
-     "page": 1,
-     "quote": "2,50,000; ª Policy Terms:3½ months (105 Days); 6½ months (195 Days); 9½ months (285 Days) (No annual policy term) ª Pre acceptance medical screening: No pre-acceptance medical screening",
-     "source_document": "Customer Information Sheet",
-     "value": false,
-     "why": "the prospectus states no pre-policy check-up is required"
-    }
-   },
-   "has_record": true,
-   "product": "Corona Rakshak Policy, Star Health and Allied Insurance Co. Ltd",
-   "uin": "SHAHLIP21067V012021"
-  },
-  {
-   "category": "Health — indemnity",
-   "cis_bytes": 331213,
-   "cis_file": "6_Prospectus_Star_True_Value_Health_Insurance_Policy_a52e6ababb.pdf",
-   "cis_sha256": "a399438bce3e9ae321c663febd55c0f8fc004c4ba23be3419fb4b1fc0f59ffb3",
-   "cis_url": "https://d28c6jni2fmamz.cloudfront.net/6_Prospectus_Star_True_Value_Health_Insurance_Policy_a52e6ababb.pdf",
-   "fields": {
-    "max_entry_age": {
-     "confidence": "extracted",
-     "document": "6_Prospectus_Star_True_Value_Health_Insurance_Policy_a52e6ababb.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/6_Prospectus_Star_True_Value_Health_Insurance_Policy_a52e6ababb.pdf",
-     "page": 1,
-     "quote": "Any person aged between 5 months and 70 years can take this insurance",
-     "source_document": "Customer Information Sheet",
-     "value": 70,
-     "why": "entry-age template in the prospectus"
-    },
-    "min_entry_age": {
-     "confidence": "extracted",
-     "document": "6_Prospectus_Star_True_Value_Health_Insurance_Policy_a52e6ababb.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/6_Prospectus_Star_True_Value_Health_Insurance_Policy_a52e6ababb.pdf",
-     "page": 1,
-     "quote": "Any person aged between 5 months and 70 years can take this insurance",
-     "source_document": "Customer Information Sheet",
-     "value": 0,
-     "why": "entry-age template in the prospectus"
-    }
-   },
-   "has_record": true,
-   "product": "Star True Value Health Insurance Policy",
-   "uin": "SHAHLIP21177V022021"
-  },
-  {
-   "category": "Health — critical illness",
-   "cis_bytes": 228266,
-   "cis_file": "5_Prospectus_Star_Criticare_Plus_Insurance_Policy_61ecc3a3a2.pdf",
-   "cis_sha256": "386c79ccf7a3401b57bd8e01d4022fdae3bbaadc6f14bd2f6dbce82ccad46c59",
-   "cis_url": "https://d28c6jni2fmamz.cloudfront.net/5_Prospectus_Star_Criticare_Plus_Insurance_Policy_61ecc3a3a2.pdf",
-   "fields": {
-    "max_entry_age": {
-     "confidence": "extracted",
-     "document": "5_Prospectus_Star_Criticare_Plus_Insurance_Policy_61ecc3a3a2.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/5_Prospectus_Star_Criticare_Plus_Insurance_Policy_61ecc3a3a2.pdf",
-     "page": 1,
-     "quote": "Only waitin period of 90 days from the date of inception of the IONM-(Intra Operative Neuro policy (not applicable for renewals) Monitoring) v Eligibility Any person aged between 18 yrs and 65 years residing in India can take Stem cell therapy: Hematopoietic s",
-     "source_document": "Customer Information Sheet",
-     "value": 65,
-     "why": "entry-age template in the prospectus"
-    },
-    "min_entry_age": {
-     "confidence": "extracted",
-     "document": "5_Prospectus_Star_Criticare_Plus_Insurance_Policy_61ecc3a3a2.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/5_Prospectus_Star_Criticare_Plus_Insurance_Policy_61ecc3a3a2.pdf",
-     "page": 1,
-     "quote": "Only waitin period of 90 days from the date of inception of the IONM-(Intra Operative Neuro policy (not applicable for renewals) Monitoring) v Eligibility Any person aged between 18 yrs and 65 years residing in India can take Stem cell therapy: Hematopoietic s",
-     "source_document": "Customer Information Sheet",
-     "value": 18,
-     "why": "entry-age template in the prospectus"
-    }
-   },
-   "has_record": true,
-   "product": "Star Criticare Plus Insurance Policy",
-   "uin": "SHAHLIP21179V022021"
-  },
-  {
-   "category": "Health — indemnity",
-   "cis_bytes": 305657,
-   "cis_file": "12_Prospectus_Star_Care_Micro_f6c6a7766e.pdf",
-   "cis_sha256": "8970da6924327200905a2acae3459b263b867f43b8d9277245da8d8a1e1282fb",
-   "cis_url": "https://d28c6jni2fmamz.cloudfront.net/12_Prospectus_Star_Care_Micro_f6c6a7766e.pdf",
-   "fields": {
-    "renewability": {
-     "confidence": "extracted",
-     "document": "12_Prospectus_Star_Care_Micro_f6c6a7766e.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/12_Prospectus_Star_Care_Micro_f6c6a7766e.pdf",
-     "page": 1,
-     "quote": "Life long renewal Medical Management (Major diseases) Rs",
-     "source_document": "Customer Information Sheet",
-     "value": "Lifelong renewal",
-     "why": "lifelong renewability stated in the prospectus"
-    }
-   },
-   "has_record": true,
-   "product": "Star Care Micro Insurance Policy",
-   "uin": "SHAHLIP21180V022021"
   },
   {
    "category": "Health — indemnity",
@@ -1871,17 +1612,6 @@
      "source_document": "Customer Information Sheet",
      "value": "Indemnity",
      "why": "type-of-product row of the CIS"
-    },
-    "pre_policy_checkup": {
-     "confidence": "extracted",
-     "document": "Prospectus_Star_Special_Care_V_5_feca088cb1.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Star_Special_Care_V_5_feca088cb1.pdf",
-     "page": 1,
-     "quote": "Immunotherapy-Monoclonal 75,000/- v Pre-acceptance medical Screening: There is no pre-acceptance medical Antibody to be given as injection screening",
-     "source_document": "Customer Information Sheet",
-     "value": false,
-     "why": "the prospectus states no pre-policy check-up is required"
     },
     "specific_waiting_months": {
      "confidence": "extracted",
@@ -2084,17 +1814,6 @@
      "value": 36,
      "why": "PED operative exclusion in the CIS waiting-period row"
     },
-    "pre_policy_checkup": {
-     "confidence": "extracted",
-     "document": "Prospectus_Star_Cardiac_Care_Insurance_Policy_V_9_6f5df309df.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Star_Cardiac_Care_Insurance_Policy_V_9_6f5df309df.pdf",
-     "page": 1,
-     "quote": "4,00,000/- only Intra Vitreal injections 15,000/- 40,000/- v Pre-acceptance medical screening Robotic surgeries 75,000/- 2,00,000/- No pre-acceptance medical screening",
-     "source_document": "Customer Information Sheet",
-     "value": false,
-     "why": "the prospectus states no pre-policy check-up is required"
-    },
     "specific_waiting_months": {
      "confidence": "extracted",
      "document": "CIS_Star_Cardiac_Care_Insurance_Policy_V_2_48bed2a044.pdf",
@@ -2150,17 +1869,6 @@
      "source_document": "Customer Information Sheet",
      "value": 36,
      "why": "PED operative exclusion in the CIS waiting-period row"
-    },
-    "pre_policy_checkup": {
-     "confidence": "extracted",
-     "document": "Star_Cardiac_Care_Insurance_Policy_Platinum_f7cbb91a02.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Star_Cardiac_Care_Insurance_Policy_Platinum_f7cbb91a02.pdf",
-     "page": 1,
-     "quote": "purposes v Pre-acceptance medical screening: No pre-acceptance medical screening",
-     "source_document": "Customer Information Sheet",
-     "value": false,
-     "why": "the prospectus states no pre-policy check-up is required"
     },
     "specific_waiting_months": {
      "confidence": "extracted",
@@ -2229,28 +1937,6 @@
      "value": 30,
      "why": "renewal grace period in the CIS"
     },
-    "max_entry_age": {
-     "confidence": "extracted",
-     "document": "Prospectus_Star_Super_Surplus_Floater_Insurance_Policy_V_8_110cf775c2.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Star_Super_Surplus_Floater_Insurance_Policy_V_8_110cf775c2.pdf",
-     "page": 1,
-     "quote": "Air ambulance is payable v Eligibility for only from the place of first occurrence of illness / accident to the nearest · Any person aged between 18 years and 65 years can take this insurance",
-     "source_document": "Customer Information Sheet",
-     "value": 65,
-     "why": "entry-age template in the prospectus"
-    },
-    "min_entry_age": {
-     "confidence": "extracted",
-     "document": "Prospectus_Star_Super_Surplus_Floater_Insurance_Policy_V_8_110cf775c2.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Star_Super_Surplus_Floater_Insurance_Policy_V_8_110cf775c2.pdf",
-     "page": 1,
-     "quote": "Air ambulance is payable v Eligibility for only from the place of first occurrence of illness / accident to the nearest · Any person aged between 18 years and 65 years can take this insurance",
-     "source_document": "Customer Information Sheet",
-     "value": 18,
-     "why": "entry-age template in the prospectus"
-    },
     "ped_waiting_months": {
      "confidence": "extracted",
      "document": "CIS_Star_Super_Surplus_Floater_V_2_ffe04a3d40.pdf",
@@ -2272,17 +1958,6 @@
      "source_document": "Customer Information Sheet",
      "value": 60,
      "why": "pre-hospitalisation cover grant in the CIS coverage row"
-    },
-    "pre_policy_checkup": {
-     "confidence": "extracted",
-     "document": "Prospectus_Star_Super_Surplus_Floater_Insurance_Policy_V_8_110cf775c2.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Star_Super_Surplus_Floater_Insurance_Policy_V_8_110cf775c2.pdf",
-     "page": 1,
-     "quote": "vered under the Policy on \"floater\" sum insured basis · The opinion should be only for medical reasons and not for medico-legal · All terms and conditions are applicable to all the members purposes v Pre-acceptance medical screening: No pre-acceptanc",
-     "source_document": "Customer Information Sheet",
-     "value": false,
-     "why": "the prospectus states no pre-policy check-up is required"
     },
     "specific_waiting_months": {
      "confidence": "extracted",
@@ -2362,28 +2037,6 @@
      "value": 30,
      "why": "initial waiting period in the CIS waiting-period row"
     },
-    "max_entry_age": {
-     "confidence": "extracted",
-     "document": "Prospectus_Super_Surplus_Insurance_Policy_V_8_6a6ce677ee.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Super_Surplus_Insurance_Policy_V_8_6a6ce677ee.pdf",
-     "page": 1,
-     "quote": "Air ambulance is payable · Any person aged between 18 years and 65 years can take this insurance",
-     "source_document": "Customer Information Sheet",
-     "value": 65,
-     "why": "entry-age template in the prospectus"
-    },
-    "min_entry_age": {
-     "confidence": "extracted",
-     "document": "Prospectus_Super_Surplus_Insurance_Policy_V_8_6a6ce677ee.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Super_Surplus_Insurance_Policy_V_8_6a6ce677ee.pdf",
-     "page": 1,
-     "quote": "Air ambulance is payable · Any person aged between 18 years and 65 years can take this insurance",
-     "source_document": "Customer Information Sheet",
-     "value": 18,
-     "why": "entry-age template in the prospectus"
-    },
     "ped_waiting_months": {
      "confidence": "extracted",
      "document": "CIS_Super_Surplus_Insurance_Policy_V_2_16afae80fa.pdf",
@@ -2416,17 +2069,6 @@
      "source_document": "Customer Information Sheet",
      "value": 30,
      "why": "pre-hospitalisation cover grant in the CIS coverage row"
-    },
-    "pre_policy_checkup": {
-     "confidence": "extracted",
-     "document": "Prospectus_Super_Surplus_Insurance_Policy_V_8_6a6ce677ee.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Super_Surplus_Insurance_Policy_V_8_6a6ce677ee.pdf",
-     "page": 1,
-     "quote": "· This opinion is given without examining the patient, based only on the v Pre-acceptance medical screening: No pre-acceptance medical screening",
-     "source_document": "Customer Information Sheet",
-     "value": false,
-     "why": "the prospectus states no pre-policy check-up is required"
     },
     "room_rent_cap": {
      "confidence": "extracted",
@@ -2516,39 +2158,6 @@
      "source_document": "Customer Information Sheet",
      "value": 30,
      "why": "renewal grace period in the CIS"
-    },
-    "max_entry_age": {
-     "confidence": "extracted",
-     "document": "Star_Critical_Illness_Multipay_Insurance_Prospectus_77a39bd32a.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Star_Critical_Illness_Multipay_Insurance_Prospectus_77a39bd32a.pdf",
-     "page": 1,
-     "quote": "Alzheimer's Disease ‰ Type of Policy: Individual ‰ Eligibility: Persons aged between 18 years to 65 years can avail this Insurance",
-     "source_document": "Customer Information Sheet",
-     "value": 65,
-     "why": "entry-age template in the prospectus"
-    },
-    "min_entry_age": {
-     "confidence": "extracted",
-     "document": "Star_Critical_Illness_Multipay_Insurance_Prospectus_77a39bd32a.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Star_Critical_Illness_Multipay_Insurance_Prospectus_77a39bd32a.pdf",
-     "page": 1,
-     "quote": "Alzheimer's Disease ‰ Type of Policy: Individual ‰ Eligibility: Persons aged between 18 years to 65 years can avail this Insurance",
-     "source_document": "Customer Information Sheet",
-     "value": 18,
-     "why": "entry-age template in the prospectus"
-    },
-    "pre_policy_checkup": {
-     "confidence": "extracted",
-     "document": "Star_Critical_Illness_Multipay_Insurance_Prospectus_77a39bd32a.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Star_Critical_Illness_Multipay_Insurance_Prospectus_77a39bd32a.pdf",
-     "page": 1,
-     "quote": "Progressive Supranuclear Palsy ‰ Pre acceptance medical screening: No medical examination is required where the 28",
-     "source_document": "Customer Information Sheet",
-     "value": true,
-     "why": "the prospectus states a pre-policy check-up is required"
     }
    },
    "has_record": true,
@@ -2627,17 +2236,6 @@
      "source_document": "Customer Information Sheet",
      "value": 24,
      "why": "PED operative exclusion in the CIS waiting-period row"
-    },
-    "pre_policy_checkup": {
-     "confidence": "extracted",
-     "document": "Prospectus_Health_Premier_Insurance_V_2_1d07f8ba27.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Health_Premier_Insurance_V_2_1d07f8ba27.pdf",
-     "page": 1,
-     "quote": "ä Pre-acceptance medical screening: No pre-acceptance Medical Screening irrespective of the age of the person and the sum insured opted",
-     "source_document": "Customer Information Sheet",
-     "value": false,
-     "why": "the prospectus states no pre-policy check-up is required"
     },
     "specific_waiting_months": {
      "confidence": "extracted",
@@ -2751,28 +2349,6 @@
      "value": 30,
      "why": "renewal grace period in the CIS"
     },
-    "max_entry_age": {
-     "confidence": "extracted",
-     "document": "medi_classic_accident_insurance_prospectus_e33ca9cfd2.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/medi_classic_accident_insurance_prospectus_e33ca9cfd2.pdf",
-     "page": 1,
-     "quote": "Eligibility · Any person aged between 5 Months and 65 years can take this insurance",
-     "source_document": "Customer Information Sheet",
-     "value": 65,
-     "why": "entry-age template in the prospectus"
-    },
-    "min_entry_age": {
-     "confidence": "extracted",
-     "document": "medi_classic_accident_insurance_prospectus_e33ca9cfd2.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/medi_classic_accident_insurance_prospectus_e33ca9cfd2.pdf",
-     "page": 1,
-     "quote": "Eligibility · Any person aged between 5 Months and 65 years can take this insurance",
-     "source_document": "Customer Information Sheet",
-     "value": 0,
-     "why": "entry-age template in the prospectus"
-    },
     "ped_waiting_months": {
      "confidence": "extracted",
      "document": "CIS_MCI_Accident_Care_V_1_Static_40f53f760f_a15c490df8.pdf",
@@ -2783,17 +2359,6 @@
      "source_document": "Customer Information Sheet",
      "value": 36,
      "why": "PED operative exclusion in the CIS waiting-period row"
-    },
-    "renewability": {
-     "confidence": "extracted",
-     "document": "medi_classic_accident_insurance_prospectus_e33ca9cfd2.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/medi_classic_accident_insurance_prospectus_e33ca9cfd2.pdf",
-     "page": 7,
-     "quote": "Life-long renewal",
-     "source_document": "Customer Information Sheet",
-     "value": "Lifelong renewal",
-     "why": "lifelong renewability stated in the prospectus"
     },
     "sum_insured_options_inr": {
      "confidence": "extracted",
@@ -2865,17 +2430,6 @@
      "source_document": "Customer Information Sheet",
      "value": 36,
      "why": "PED operative exclusion in the CIS waiting-period row"
-    },
-    "pre_policy_checkup": {
-     "confidence": "extracted",
-     "document": "Prospectus_Diabetes_Safe_Insurance_Policy_V_12_c8ec1d269d.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Diabetes_Safe_Insurance_Policy_V_12_c8ec1d269d.pdf",
-     "page": 1,
-     "quote": "v Is there any Pre-Acceptance Medical screening? There are 2 plans available under this policy:- - Plan A: Pre-acceptance medical examination is required for all persons opting for this plan",
-     "source_document": "Customer Information Sheet",
-     "value": true,
-     "why": "the prospectus states a pre-policy check-up is required"
     },
     "specific_waiting_months": {
      "confidence": "extracted",
@@ -2957,17 +2511,6 @@
      "value": 24,
      "why": "PED operative exclusion in the CIS waiting-period row"
     },
-    "pre_policy_checkup": {
-     "confidence": "extracted",
-     "document": "Prospectus_Star_Women_Care_Insurance_Policy_V_4_7f70e88a4c.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Star_Women_Care_Insurance_Policy_V_4_7f70e88a4c.pdf",
-     "page": 1,
-     "quote": "1,00,00,000/- m Pre-acceptance medical screening: There is no Pre-acceptance medical screening",
-     "source_document": "Customer Information Sheet",
-     "value": false,
-     "why": "the prospectus states no pre-policy check-up is required"
-    },
     "specific_waiting_months": {
      "confidence": "extracted",
      "document": "CIS_Star_Women_Care_Insurance_Policy_V_2_c191b434ab.pdf",
@@ -3024,28 +2567,6 @@
      "value": 120,
      "why": "renewal grace period in the CIS"
     },
-    "max_entry_age": {
-     "confidence": "extracted",
-     "document": "Family_Health_Optima_Accident_Care_Policy_2af80fb37b.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Family_Health_Optima_Accident_Care_Policy_2af80fb37b.pdf",
-     "page": 15,
-     "quote": "9 / 2025 26 of 30 Section II - Accident Care Coverage ò Who can take this insurance? Any person aged between 18 years and 70 years can take this insurance",
-     "source_document": "Customer Information Sheet",
-     "value": 70,
-     "why": "entry-age template in the prospectus"
-    },
-    "min_entry_age": {
-     "confidence": "extracted",
-     "document": "Family_Health_Optima_Accident_Care_Policy_2af80fb37b.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Family_Health_Optima_Accident_Care_Policy_2af80fb37b.pdf",
-     "page": 15,
-     "quote": "9 / 2025 26 of 30 Section II - Accident Care Coverage ò Who can take this insurance? Any person aged between 18 years and 70 years can take this insurance",
-     "source_document": "Customer Information Sheet",
-     "value": 18,
-     "why": "entry-age template in the prospectus"
-    },
     "ped_waiting_months": {
      "confidence": "extracted",
      "document": "CIS_FHO_Accident_Care_Policy_V_2_e899275903.pdf",
@@ -3056,28 +2577,6 @@
      "source_document": "Customer Information Sheet",
      "value": 36,
      "why": "PED operative exclusion in the CIS waiting-period row"
-    },
-    "pre_policy_checkup": {
-     "confidence": "extracted",
-     "document": "Family_Health_Optima_Accident_Care_Policy_2af80fb37b.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Family_Health_Optima_Accident_Care_Policy_2af80fb37b.pdf",
-     "page": 1,
-     "quote": "2,00,000/- are available only for renewals ò Pre-acceptance medical screening: All persons above 50 years of age and those who declare adverse medical history in the proposal form are required to undergo pre-acceptance medical screening at the Compan",
-     "source_document": "Customer Information Sheet",
-     "value": true,
-     "why": "the prospectus states a pre-policy check-up is required"
-    },
-    "renewability": {
-     "confidence": "extracted",
-     "document": "Family_Health_Optima_Accident_Care_Policy_2af80fb37b.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Family_Health_Optima_Accident_Care_Policy_2af80fb37b.pdf",
-     "page": 15,
-     "quote": "Life-long renewal",
-     "source_document": "Customer Information Sheet",
-     "value": "Lifelong renewal",
-     "why": "lifelong renewability stated in the prospectus"
     },
     "specific_waiting_months": {
      "confidence": "extracted",
@@ -3217,17 +2716,6 @@
      "source_document": "Customer Information Sheet",
      "value": "Indemnity",
      "why": "type-of-product row of the CIS"
-    },
-    "pre_policy_checkup": {
-     "confidence": "extracted",
-     "document": "Prospectus_Smart_Health_Pro_V_3_ef61087a6b.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Smart_Health_Pro_V_3_ef61087a6b.pdf",
-     "page": 1,
-     "quote": "1,00,00,000/- v Pre-Policy Medical check-up - Not required: Based on declared medical history, company may subject the applicant/s to undergo pre-policy medical check-up",
-     "source_document": "Customer Information Sheet",
-     "value": false,
-     "why": "the prospectus states no pre-policy check-up is required"
     },
     "specific_waiting_months": {
      "confidence": "extracted",
@@ -3420,28 +2908,6 @@
      "source_document": "Customer Information Sheet",
      "value": 30,
      "why": "initial waiting period in the CIS waiting-period row"
-    },
-    "max_entry_age": {
-     "confidence": "extracted",
-     "document": "Prospectus_Senior_Citizens_Red_Carpet_Policy_V_11_ed34026052.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Senior_Citizens_Red_Carpet_Policy_V_11_ed34026052.pdf",
-     "page": 1,
-     "quote": "� Eligibility: Any person aged between 60 years and 75 years can take this insurance",
-     "source_document": "Customer Information Sheet",
-     "value": 75,
-     "why": "entry-age template in the prospectus"
-    },
-    "min_entry_age": {
-     "confidence": "extracted",
-     "document": "Prospectus_Senior_Citizens_Red_Carpet_Policy_V_11_ed34026052.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Senior_Citizens_Red_Carpet_Policy_V_11_ed34026052.pdf",
-     "page": 1,
-     "quote": "� Eligibility: Any person aged between 60 years and 75 years can take this insurance",
-     "source_document": "Customer Information Sheet",
-     "value": 60,
-     "why": "entry-age template in the prospectus"
     },
     "ped_waiting_months": {
      "confidence": "extracted",
@@ -3667,28 +3133,6 @@
      "value": 30,
      "why": "renewal grace period in the CIS"
     },
-    "max_entry_age": {
-     "confidence": "extracted",
-     "document": "Prospectus_Young_Star_Insurance_Policy_V_8_f21b6037ff.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Young_Star_Insurance_Policy_V_8_f21b6037ff.pdf",
-     "page": 1,
-     "quote": ": 129 P R O S P E C T U S YOUNG STAR INSURANCE POLICY Unique Identification No: SHAHLIP26043V062526 � Eligibility i \u0007 Any person aged between 18 years and 40 years can take this insurance",
-     "source_document": "Customer Information Sheet",
-     "value": 40,
-     "why": "entry-age template in the prospectus"
-    },
-    "min_entry_age": {
-     "confidence": "extracted",
-     "document": "Prospectus_Young_Star_Insurance_Policy_V_8_f21b6037ff.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Young_Star_Insurance_Policy_V_8_f21b6037ff.pdf",
-     "page": 1,
-     "quote": ": 129 P R O S P E C T U S YOUNG STAR INSURANCE POLICY Unique Identification No: SHAHLIP26043V062526 � Eligibility i \u0007 Any person aged between 18 years and 40 years can take this insurance",
-     "source_document": "Customer Information Sheet",
-     "value": 18,
-     "why": "entry-age template in the prospectus"
-    },
     "ped_waiting_months": {
      "confidence": "extracted",
      "document": "CIS_Young_Star_Insurance_Policy_V_2_090b7cbb41.pdf",
@@ -3699,17 +3143,6 @@
      "source_document": "Customer Information Sheet",
      "value": 12,
      "why": "PED operative exclusion in the CIS waiting-period row"
-    },
-    "renewability": {
-     "confidence": "extracted",
-     "document": "Prospectus_Young_Star_Insurance_Policy_V_8_f21b6037ff.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Young_Star_Insurance_Policy_V_8_f21b6037ff.pdf",
-     "page": 1,
-     "quote": "Lifelong renewal",
-     "source_document": "Customer Information Sheet",
-     "value": "Lifelong renewal",
-     "why": "lifelong renewability stated in the prospectus"
     },
     "specific_waiting_months": {
      "confidence": "extracted",
@@ -3924,28 +3357,6 @@
      "source_document": "Customer Information Sheet",
      "value": 30,
      "why": "initial waiting period in the CIS waiting-period row"
-    },
-    "max_entry_age": {
-     "confidence": "extracted",
-     "document": "Prospectus_Arogya_Sanjeevani_Policy_V_8_9a95b2c87f.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Arogya_Sanjeevani_Policy_V_8_9a95b2c87f.pdf",
-     "page": 2,
-     "quote": "Unique Identification No: SHAHLIP26045V042526  Eligibility • \u0007Any person aged between 18 years and 65 years can take this insurance",
-     "source_document": "Customer Information Sheet",
-     "value": 65,
-     "why": "entry-age template in the prospectus"
-    },
-    "min_entry_age": {
-     "confidence": "extracted",
-     "document": "Prospectus_Arogya_Sanjeevani_Policy_V_8_9a95b2c87f.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Arogya_Sanjeevani_Policy_V_8_9a95b2c87f.pdf",
-     "page": 2,
-     "quote": "Unique Identification No: SHAHLIP26045V042526  Eligibility • \u0007Any person aged between 18 years and 65 years can take this insurance",
-     "source_document": "Customer Information Sheet",
-     "value": 18,
-     "why": "entry-age template in the prospectus"
     },
     "no_claim_bonus": {
      "confidence": "extracted",
@@ -4228,28 +3639,6 @@
      "source_document": "Customer Information Sheet",
      "value": 30,
      "why": "renewal grace period in the CIS"
-    },
-    "max_entry_age": {
-     "confidence": "extracted",
-     "document": "Prospectus_Medi_Classic_Insurance_Policy_Individual_V_12_37dd902200.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Medi_Classic_Insurance_Policy_Individual_V_12_37dd902200.pdf",
-     "page": 2,
-     "quote": "Any person aged between 5 Months and 65 years can take this insurance",
-     "source_document": "Customer Information Sheet",
-     "value": 65,
-     "why": "entry-age template in the prospectus"
-    },
-    "min_entry_age": {
-     "confidence": "extracted",
-     "document": "Prospectus_Medi_Classic_Insurance_Policy_Individual_V_12_37dd902200.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Medi_Classic_Insurance_Policy_Individual_V_12_37dd902200.pdf",
-     "page": 2,
-     "quote": "Any person aged between 5 Months and 65 years can take this insurance",
-     "source_document": "Customer Information Sheet",
-     "value": 0,
-     "why": "entry-age template in the prospectus"
     },
     "ped_waiting_months": {
      "confidence": "extracted",
@@ -4553,28 +3942,6 @@
      "value": 30,
      "why": "renewal grace period in the CIS"
     },
-    "max_entry_age": {
-     "confidence": "extracted",
-     "document": "Prospectus_Star_Micro_Rural_And_Farmers_Care_V_8_71a9c45e22.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Star_Micro_Rural_And_Farmers_Care_V_8_71a9c45e22.pdf",
-     "page": 1,
-     "quote": "However this time limit will not apply for the day care treatments / v Eligibility procedures, where treatment is taken in Hospital/Nursing Home and the Insured · Any person aged between 18 years and 65 years can take this insurance",
-     "source_document": "Customer Information Sheet",
-     "value": 65,
-     "why": "entry-age template in the prospectus"
-    },
-    "min_entry_age": {
-     "confidence": "extracted",
-     "document": "Prospectus_Star_Micro_Rural_And_Farmers_Care_V_8_71a9c45e22.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Star_Micro_Rural_And_Farmers_Care_V_8_71a9c45e22.pdf",
-     "page": 1,
-     "quote": "However this time limit will not apply for the day care treatments / v Eligibility procedures, where treatment is taken in Hospital/Nursing Home and the Insured · Any person aged between 18 years and 65 years can take this insurance",
-     "source_document": "Customer Information Sheet",
-     "value": 18,
-     "why": "entry-age template in the prospectus"
-    },
     "ped_waiting_months": {
      "confidence": "extracted",
      "document": "CIS_Star_Micro_Rural_And_Farmers_Care_V_2_723fa1ad09.pdf",
@@ -4585,17 +3952,6 @@
      "source_document": "Customer Information Sheet",
      "value": 6,
      "why": "PED operative exclusion in the CIS waiting-period row"
-    },
-    "pre_policy_checkup": {
-     "confidence": "extracted",
-     "document": "Prospectus_Star_Micro_Rural_And_Farmers_Care_V_8_71a9c45e22.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Star_Micro_Rural_And_Farmers_Care_V_8_71a9c45e22.pdf",
-     "page": 1,
-     "quote": "Note : Claims under Yoga and Naturopathy system of treatment will be payable v Pre-acceptance medical screening: No pre-acceptance medical screening subject to prior approval from the company",
-     "source_document": "Customer Information Sheet",
-     "value": false,
-     "why": "the prospectus states no pre-policy check-up is required"
     },
     "specific_waiting_months": {
      "confidence": "extracted",
@@ -4665,39 +4021,6 @@
      "source_document": "Customer Information Sheet",
      "value": 30,
      "why": "renewal grace period in the CIS"
-    },
-    "max_entry_age": {
-     "confidence": "extracted",
-     "document": "Prospectus_POS_Accident_Care_Individual_Insurance_Policy_V_4_6d619e0017.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_POS_Accident_Care_Individual_Insurance_Policy_V_4_6d619e0017.pdf",
-     "page": 1,
-     "quote": "Who can take this insurance? Any person aged between 18 years and 70 years can take this insurance",
-     "source_document": "Customer Information Sheet",
-     "value": 70,
-     "why": "entry-age template in the prospectus"
-    },
-    "min_entry_age": {
-     "confidence": "extracted",
-     "document": "Prospectus_POS_Accident_Care_Individual_Insurance_Policy_V_4_6d619e0017.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_POS_Accident_Care_Individual_Insurance_Policy_V_4_6d619e0017.pdf",
-     "page": 1,
-     "quote": "Who can take this insurance? Any person aged between 18 years and 70 years can take this insurance",
-     "source_document": "Customer Information Sheet",
-     "value": 18,
-     "why": "entry-age template in the prospectus"
-    },
-    "renewability": {
-     "confidence": "extracted",
-     "document": "Prospectus_POS_Accident_Care_Individual_Insurance_Policy_V_4_6d619e0017.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_POS_Accident_Care_Individual_Insurance_Policy_V_4_6d619e0017.pdf",
-     "page": 1,
-     "quote": "Life-long renewal",
-     "source_document": "Customer Information Sheet",
-     "value": "Lifelong renewal",
-     "why": "lifelong renewability stated in the prospectus"
     },
     "sum_insured_options_inr": {
      "confidence": "extracted",
@@ -4827,39 +4150,6 @@
      "source_document": "Customer Information Sheet",
      "value": 30,
      "why": "renewal grace period in the CIS"
-    },
-    "max_entry_age": {
-     "confidence": "extracted",
-     "document": "Prospectus_Saral_Suraksha_Bima_Star_Health_and_Allied_Insurance_Co_Ltd_V_4_69d48d8c1b.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Saral_Suraksha_Bima_Star_Health_and_Allied_Insurance_Co_Ltd_V_4_69d48d8c1b.pdf",
-     "page": 1,
-     "quote": "Loss of Index finger v Who can take this insurance? three phalanges 10% Any person aged between 18 years and 70 years can take this insurance",
-     "source_document": "Customer Information Sheet",
-     "value": 70,
-     "why": "entry-age template in the prospectus"
-    },
-    "min_entry_age": {
-     "confidence": "extracted",
-     "document": "Prospectus_Saral_Suraksha_Bima_Star_Health_and_Allied_Insurance_Co_Ltd_V_4_69d48d8c1b.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Saral_Suraksha_Bima_Star_Health_and_Allied_Insurance_Co_Ltd_V_4_69d48d8c1b.pdf",
-     "page": 1,
-     "quote": "Loss of Index finger v Who can take this insurance? three phalanges 10% Any person aged between 18 years and 70 years can take this insurance",
-     "source_document": "Customer Information Sheet",
-     "value": 18,
-     "why": "entry-age template in the prospectus"
-    },
-    "renewability": {
-     "confidence": "extracted",
-     "document": "Prospectus_Saral_Suraksha_Bima_Star_Health_and_Allied_Insurance_Co_Ltd_V_4_69d48d8c1b.pdf",
-     "document_type": "Prospectus",
-     "document_url": "https://d28c6jni2fmamz.cloudfront.net/Prospectus_Saral_Suraksha_Bima_Star_Health_and_Allied_Insurance_Co_Ltd_V_4_69d48d8c1b.pdf",
-     "page": 1,
-     "quote": "Life-long renewal",
-     "source_document": "Customer Information Sheet",
-     "value": "Lifelong renewal",
-     "why": "lifelong renewability stated in the prospectus"
     }
    },
    "has_record": true,
@@ -4946,7 +4236,7 @@
    "uin": "SHATIDP23122V012223"
   }
  ],
- "policy_count": 55,
+ "policy_count": 49,
  "source": "Customer Information Sheets mirrored under documents/insurance/star-health/",
  "unreadable": []
 }
