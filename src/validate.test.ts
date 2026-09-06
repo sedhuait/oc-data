@@ -163,6 +163,34 @@ describe("warnings", () => {
     const res = validateRecord(r, "products/appliances/lg.jsonl", 1, schemas, fresh());
     assert.ok(res.warnings.some((w) => w.code === "W3"));
   });
+  test("W5 flags a nutrition panel that contradicts itself", () => {
+    const mk = (attributes: Record<string, unknown>) =>
+      validateRecord(
+        good({ domain: "grocery", brand: "Amul", category: "Dairy",
+               attributes: { quantity: "100 g", ...attributes }, size: null }),
+        "products/grocery/amul.jsonl", 1, schemas, fresh(),
+      ).warnings.filter((w) => w.code === "W5");
+
+    // a component cannot exceed the total it belongs to
+    assert.equal(mk({ fat_100g: 0, saturated_fat_100g: 16 }).length, 1);
+    assert.equal(mk({ carbohydrates_100g: 20, sugars_100g: 30 }).length, 1);
+    assert.equal(mk({ sugars_100g: 5, added_sugar_100g: 13 }).length, 1);
+    // nor can the macros exceed the 100 g they are declared per
+    assert.equal(
+      mk({ fat_100g: 50, carbohydrates_100g: 50, proteins_100g: 20 }).length, 1);
+
+    // a panel declaring to one decimal rounds; that is not a contradiction
+    assert.equal(mk({ fat_100g: 3, saturated_fat_100g: 3.4 }).length, 0);
+    assert.equal(mk({ carbohydrates_100g: 99, sugars_100g: 99.7 }).length, 0);
+    assert.equal(
+      mk({ fat_100g: 40, carbohydrates_100g: 40, proteins_100g: 20.5 }).length, 0);
+
+    // a consistent panel is silent, and so is one with a figure missing
+    assert.equal(mk({ fat_100g: 10, saturated_fat_100g: 4,
+                      carbohydrates_100g: 60, sugars_100g: 20,
+                      added_sugar_100g: 5, proteins_100g: 8 }).length, 0);
+    assert.equal(mk({ saturated_fat_100g: 16 }).length, 0);
+  });
   test("W2 flags a near-duplicate", () => {
     const state = fresh();
     validateRecord(good(), "products/beauty/minimalist.jsonl", 1, schemas, state);

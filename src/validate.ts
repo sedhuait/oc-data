@@ -175,6 +175,27 @@ export function validateRecord(
   if (r.domain === "appliances" && Number(attrs.star ?? 0) >= 4 && !attrs.rating_year)
     W("W3", "BEE star rating of 4 or more with no rating_year — thresholds are revised, so this can mislead");
 
+  // A nutrition panel that contradicts itself. These are faithful reads: the
+  // source page really does declare "Total Fat 0 g" beside "Saturated Fat 16 g",
+  // so the figure is not ours to correct — but a component cannot exceed the
+  // total it belongs to, and publishing both without a mark would pass the
+  // contradiction on silently. Tolerances absorb honest rounding on a panel
+  // that declares to one decimal.
+  if (r.domain === "grocery") {
+    const n = (k: string) => (typeof attrs[k] === "number" ? (attrs[k] as number) : null);
+    const fat = n("fat_100g"), sat = n("saturated_fat_100g");
+    const carb = n("carbohydrates_100g"), sug = n("sugars_100g"), add = n("added_sugar_100g");
+    const pro = n("proteins_100g");
+    if (fat !== null && sat !== null && sat > fat + 0.5)
+      W("W5", `saturated fat ${sat} g exceeds total fat ${fat} g per 100 g — the source panel contradicts itself`);
+    if (carb !== null && sug !== null && sug > carb + 1)
+      W("W5", `sugars ${sug} g exceed carbohydrates ${carb} g per 100 g — the source panel contradicts itself`);
+    if (sug !== null && add !== null && add > sug + 1)
+      W("W5", `added sugar ${add} g exceeds total sugars ${sug} g per 100 g — the source panel contradicts itself`);
+    if (fat !== null && carb !== null && pro !== null && fat + carb + pro > 101)
+      W("W5", `fat, carbohydrate and protein sum to ${(fat + carb + pro).toFixed(1)} g per 100 g — the source panel contradicts itself`);
+  }
+
   return { errors, warnings };
 }
 
