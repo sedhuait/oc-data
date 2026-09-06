@@ -159,6 +159,21 @@
       "records": 195,
       "verdict": "too small to matter",
       "evidence": "195 records of 99,526; filling both to 100% moves the overall figure by about 0.1 point."
+    },
+    "beauty_open_beauty_facts_category": {
+      "records": 862,
+      "fill": "15.9% against a beauty domain average of 43.6%",
+      "verdict": "ceiling — crowd-sourced entries that cannot be matched to a crawlable page",
+      "evidence": "Normalised brand+name matching against the 16,579 non-OBF beauty records finds 14 matches out of 862. The records themselves show why: brands are misspelled ('Listerene', 'Loreal') and names are fragments ('boom', 'Shower Grl'), so there is no reliable key to match them to a Blinkit page or a brand storefront.",
+      "why_not_fuzzy_matched": "A fuzzy match would attach one product's pack facts to a different product. The 82 insurance records already carrying a name belonging to another product show what that costs."
+    },
+    "grocery_derived_fields_rechecked": {
+      "checked": "2026-09-06",
+      "why": "additives (13.9%), nova_group (6.3%) and fortified (0.4%) look like derivable fields rather than absent ones, so I retested whether they could be computed from data already held.",
+      "ingredients_order_is_a_boolean": "It is a flag meaning 'ingredients are listed in declared order', not the ingredient text. There is no ingredient string stored in the records to mine — a mistake worth recording, since the name reads like it holds the list.",
+      "cached_pages_still_present": "All 90,621 Blinkit pages remain on disk (3.5 GB at oc-crawlers/sources/blinkit/data/pages), so re-derivation needs no new crawl.",
+      "additives_verdict": "ceiling by deliberate design. In a 40-page sample, 23 carry ingredient text and ZERO contain an INS number — Indian labels here name additives in words. parse_pack_label.py refuses to map a name to a number (its own comment: doing so 'would put invented E-numbers on thousands of records'), and only records numbers the label prints. That restraint is correct: INS 330 is exactly citric acid, but a bare 'stabiliser' is not identifiable.",
+      "nova_group_note": "NOVA is computed from the ingredient list by a defined method. With no ingredient text in the records and additives unidentifiable by name, the input for that method is not held either."
     }
   },
   "headline_figure_corrected": {

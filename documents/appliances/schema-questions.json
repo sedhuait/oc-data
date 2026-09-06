@@ -1,0 +1,28 @@
+{
+  "generated": "2026-09-06",
+  "note": "Schema questions found while mining specs from stored titles. oc-data/schemas/ is frozen by a snapshot test, so these are reported rather than applied. Each needs a person to decide.",
+  "issues": [
+    {
+      "field": "wash_programs",
+      "where": "schemas/appliances.json categories['Microwave ovens'].spec",
+      "problem": "A microwave has no wash programmes. The field is an integer count of washing-machine preset cycles, and it sits on the microwave spec sheet, so 80 microwave records are asked a question that cannot apply to them.",
+      "effect": "80 slots that can never be filled, counted against appliances fill.",
+      "suggested": "Remove wash_programs from the Microwave ovens spec list.",
+      "adjacent": "Microwave titles do state auto-cook menu counts, but a menu is not a wash programme and one observed value ('375 Instacook Menus') exceeds the field's max of 50. If a count is wanted for microwaves it needs its own field."
+    },
+    {
+      "field": "panel_type",
+      "where": "schemas/appliances.json fields.panel_type.values",
+      "problem": "The enum is [LED LCD, QLED, OLED, QD-OLED, MiniLED, Plasma] and omits QNED, which is LG's own marketing name for a real panel construction.",
+      "effect": "1 record whose title states its panel type cannot record it.",
+      "suggested": "Add QNED to the enum. Widening an enum is the safe direction of change."
+    },
+    {
+      "field": "screen_in",
+      "where": "schemas/phones.json fields.screen_in.min",
+      "problem": "min is 4 inches. Feature phones genuinely sit below that: two records state 2.8 in (oc_5c46a942a261, IAIR) and 3 in (oc_a57dfe72275c, Shreyansh).",
+      "effect": "Those values were dropped rather than clamped, per the repo's rule.",
+      "suggested": "Lower min to about 2.4 if feature phones are in scope for this domain."
+    }
+  ]
+}
