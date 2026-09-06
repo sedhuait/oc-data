@@ -202,7 +202,21 @@
       "claim_that_was_wrong": "the 12,326 Open Food Facts grocery records have no crawlable page",
       "what_is_true": "12,116 of them carry a GTIN and 10,254 carry India's GS1 prefix (890), but only 766 have any country_of_origin recorded. fetch_dump.py lines 103-105 keep a dump row only when countries_tags contains 'india', so roughly 9,500 of our own records -- Indian barcode, blank country tag -- were very likely never matched against the dump. That is a filter too narrow, not an absent source.",
       "size": "336,969 empty slots = 10.8% of every slot in the repo, filling at 13.0%",
-      "action": "re-scan dispatched, keyed on the barcodes we already hold"
+      "action": "re-scan dispatched, keyed on the barcodes we already hold",
+      "RESULT_2026_09_06": {
+        "verdict": "MY HYPOTHESIS WAS WRONG. This is a measured ceiling, not a filter bug.",
+        "match_rate": "All 12,326 records already matched a row in the EXISTING India-filtered dump. The countries filter had excluded none of them, so widening it would have caught zero additional rows. Tested by re-running the join locally before downloading anything.",
+        "why_the_fields_are_empty": "They are empty AT THE SOURCE. Dump coverage across these exact rows tracks our own fill almost exactly: energy-kcal 13.4% (we had 15%), proteins 13.3% (15%), sodium 12.0% (13%), fiber 7.0% (8%).",
+        "yield": "67 values across 40 records, not the tens of thousands I projected.",
+        "real_bug_found_anyway": "The eight core panel columns were being parsed from the dump and then discarded by enrich_from_dump.py's MAP. Fixed; it will pay off whenever the dump itself improves.",
+        "corrections_to_my_figures": "cohort fill is 14.1% not 13.0%; empty slots 270,562 not 336,969; country_of_origin is set on 921 not 766.",
+        "audit_catches": {
+          "sodium_mg_in_a_gram_column": "2.2% of dump rows (35 of 1,616) type milligrams into the grams column — values like 1920 and 652.6 per 100 g. The median salt/sodium ratio across the dump is exactly 2.5000, confirming grams is the intended unit. Dropped as out of range, never rescaled: a contributor typo is not a unit.",
+          "packaging_en_placeholder": "305 of 677 candidate values are a bare 'plastic' — the same dominant-value pattern as Blinkit's '1 g'. It names a material with no form, and the enum needs both. The tail is dates, brand and city names. Only 31 of 677 were safely mappable.",
+          "no_nutrition_data": "84 rows declare no panel; guarded so no nutrient is written for them."
+        },
+        "bottom_line": "Open Food Facts is exhausted for these 12,326 products at ~14%. The remaining 270,498 empty slots are not reachable from this source. Filling them needs a source that actually publishes Indian panel data."
+      }
     },
     "off_api_is_disallowed": "world.openfoodfacts.org and in.openfoodfacts.org disallow /api/ in robots.txt; lib/polite.py refuses it. The ODbL bulk dump is the sanctioned path and is what this repo uses.",
     "nova_group_is_derivable_and_testable": {
