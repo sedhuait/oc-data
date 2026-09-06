@@ -370,6 +370,19 @@
         "installation_included_from_a_mounting_type": "'Installation|Free Standing' means free-standing vs built-in cabinetry. The reader saw 'free' and returned True. The field stays at zero rather than carrying a confident wrong boolean."
       },
       "left_null": "rating_year — Samsung states a star COUNT, never the issue year; inverter_compatible — every 'Inverter' here is an inverter COMPRESSOR, now blocked in code not just in comment; refresh_hz — 9 of 10 TVs state only 'Motion Xcelerator', a brand name with no rate, and absence was not defaulted to 60."
+    },
+    "actives_vocabulary_audit": {
+      "checked": "2026-09-06",
+      "why": "A subagent reported schemas/beauty.json declares vocabulary 'actives.txt' with no such file, and that the vocabulary lives in 'two disagreeing files'. Checked all three copies directly — the picture is slightly different and worth stating right.",
+      "the_missing_file": "schemas/beauty.json declares `\"vocabulary\": \"actives.txt\"` and no actives.txt exists anywhere in either repo.",
+      "where_it_actually_lives": {
+        "oc-crawlers/sources/shopify/extract.py": "40 canonical terms",
+        "oc-crawlers/sources/beauty_brandstore/crawl.py": "40 canonical terms — IDENTICAL to shopify/extract.py, verified set-equal",
+        "oc-crawlers/sources/beauty/import_obf_beauty.py": "24 terms, a strict SUBSET of the 40"
+      },
+      "correction": "The two dict-based vocabularies do NOT disagree; they are identical. The real defect is that the Open Food/Beauty Facts importer recognises 16 fewer actives than the other two paths, so an OBF-sourced record silently misses AHA, Alpha arbutin, Azelaic acid, Bakuchiol, Benzoyl peroxide, Biotin, Centella / Cica, Coffee, Kojic acid, Onion, Rice, Rosemary, Saffron, Sandalwood, Tranexamic acid and Ubtan.",
+      "risk": "Three copies of one controlled vocabulary in three files, with no shared source of truth and a schema pointing at a file that does not exist. They agree today; nothing keeps them agreeing. The 16-term shortfall in the OBF path is the consequence already visible.",
+      "not_fixed_here": "Creating actives.txt inside schemas/ would enrol it in the snapshot test, and choosing where a shared vocabulary should live is a structural decision rather than a data fix."
     }
   }
 }
