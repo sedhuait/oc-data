@@ -545,5 +545,18 @@
       "result": "The apparent finds did not survive checking. 'Calories per 100g (Kcal)' looked like a 61%-of-pages attribute used on only 77 of 3,711 records. Measured precisely: of 5,033 records whose page declares it, 5,002 are FILLED and 31 empty — 99.4% harvested. The 31 misses are ranges ('70-80 Kcal'), out-of-range figures (2,396 kcal against the schema max) and wrong units ('386 g'), all correct refusals.",
       "conclusion": "The Blinkit corpus is mined out. The attributes that remain unread are logistics and tax metadata — HSN Code, Customer Care Details, tax_reform_version, product_engagement_score, Return Type, Inward Guidelines — which do not belong in a product catalogue. Diet Preference and Jaivik were the last two real finds, and both have now been applied."
     }
+  },
+  "blinkit_was_NOT_crawled_to_completion": {
+    "checked": "2026-09-07",
+    "what_I_had_been_saying": "'Blinkit crawled to completion — 90,621 of 90,628 pages.' True of the INVENTORY, and the inventory is stale. It was built at crawl time and the catalogue has grown since.",
+    "measured_against_the_live_sitemaps": {
+      "live product sitemaps": "306, projecting ~165,000 products against our 90,628",
+      "beauty-cosmetics": "live 18,499 prids, ours 10,588, NEW 7,915",
+      "pharma-wellness": "live 13,212, ours 11,126, NEW 2,087",
+      "personal-care": "live 9,595, ours 7,731, NEW 1,864",
+      "total_new_in_already_crawled_categories": "11,866, about 13% more pages"
+    },
+    "sixteen_categories_deliberately_left_alone": "fashion-and-accessories, toys-games, books, home-furnishing-decor, kitchen-dining, stationery-needs, electronics-electricals, pet-care, vegetables-fruits, cleaning-essentials, magazines-newspapers, paan-corner and four more have never been inventoried. They stay out: the standing instruction is not to add categories, and no existing grocery or beauty category fits fresh produce or cleaning supplies. Letting them fall through to `_default` would score a cabbage against a packaged-food nutrition sheet — the same defect that put 5,139 medicines on a food sheet.",
+    "honest_expectation": "New records arrive with empty slots too. ~12,000 records at roughly the domain average will move the overall percentage very little and could lower it if the new products are sparser. The value is more products, not a higher percentage — and an earlier estimate in this project claimed '+46% from crawling' by counting facts while ignoring the empty slots each new record brings; the true figure was 37.4%."
   }
 }
