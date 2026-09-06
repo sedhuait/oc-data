@@ -285,6 +285,21 @@
       "sebi": "www.sebi.gov.in — robots permits everything except /js and /css. This is already the source of the 1,283 Scheme Information Documents on disk, and it is the one open financial regulator of the three.",
       "policyholder_gov_in": "DNS does not resolve.",
       "implication": "Two of the three financial regulators refuse crawling, so cards, insurance and banking depend on issuer-published documents rather than a central register. That is why those domains are document-harvesting problems and funds is not."
+    },
+    "phone_maker_spec_pages_ARE_reachable": {
+      "checked": "2026-09-06",
+      "claim_that_was_wrong": "Manufacturer spec pages are JS-rendered and need browser automation. That was recorded in the plan and repeated since.",
+      "what_is_true": "Five makers serve real spec content to lib/polite.py with no browser and no forged headers. Spec-token hits = occurrences of mAh, Snapdragon/Dimensity/Exynos/Tensor, and AMOLED/LCD/OLED:",
+      "measured": {
+        "store.google.com": "2,644,125 b, 35 hits",
+        "asus.com": "268,571 b, 92 hits",
+        "oppo.com": "188,428 b, 8 hits",
+        "vivo.com": "127,179 b, 6 hits",
+        "mi.com": "96,192 b, 10 hits"
+      },
+      "robots": "All five permit crawling with light restrictions — realme 2 disallows, oppo 1, mi.com 6, vivo 15, store.google.com 75. Individual paths still need checking.",
+      "what_stays_true": "OnePlus's /specs pages remain a dead template (58-78 characters on every current model, zero overlap with our 16 records), and model_number is still unfillable — no maker publishes it.",
+      "scale": "phones is 430 records and 24,208 slots, 0.8% of the repo, so even a perfect result moves the headline a fraction of a point. Worth doing because the domain is the weakest at 14.1% and the source is live and permitted."
     }
   }
 }
