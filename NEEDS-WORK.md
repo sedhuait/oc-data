@@ -84,6 +84,35 @@ a product can only be matched by name, which is guesswork.
 | printers | 98 |
 | networking | 97 |
 
+## Insurance: the Customer Information Sheets are exhausted
+
+The 97 files under `documents/insurance/` with `cis` in the name have been read
+end to end (`oc-crawlers/sources/insurance/parse_cis.py`). They add **nothing**,
+and the reason is worth recording so nobody spends another day on it.
+
+- **83 are real CIS documents**, not 97. All 14 HDFC ERGO `*-cis-*.pdf` files are
+  policy wordings that merely carry "cis" in the filename — no CIS table, no
+  "Customer Information Sheet" heading anywhere in the text. The manifest is
+  right to type them `Policy Clause`.
+- **The CIS covers 53 of 254 records** (48 Star Health, 5 Bajaj Allianz Life).
+  9 documents carry no UIN at all and are reported, never force-matched.
+- **Every field it proposes is already filled on every matched record.** Across
+  all 20 proposable fields the "still blank" count is 0. `parse_wordings.py` had
+  already read the same facts from the wording, which is the stronger source and
+  wins by construction — the merge is add-only and overwrote nothing.
+
+So the CIS is not a way in. The 201 records carrying the real gaps — HDFC ERGO
+(57), LIC (34), Aditya Birla Health (30) — have **no CIS on disk at all**, and
+that, not parsing, is the thing to fix. `sum_insured_options_inr` alone is
+missing on 128 records.
+
+A "blank template" is a per-FIELD property here, not a per-document one. All 27
+Bajaj Allianz Life sheets are specimens carrying `<xxxxxx>` placeholders, but
+every placeholder sits in a policy-specific row (policy number, premium paid,
+sum assured, policy term) which is not a product fact and must not be recorded
+anyway. Their product rows — UIN, product type, waiting periods, free-look — are
+real. No document is discarded for being a specimen; individual cells are.
+
 ## How to fill one in
 
 1. Find the record: `grep -rn "<product name>" products/`
