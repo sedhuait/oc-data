@@ -1,139 +1,164 @@
 {
- "generated": "2026-09-06",
- "question": "Can the catalogue reach 80% field fill with the current schemas?",
- "answer": "No. Best case at every measured source ceiling is 49.3%.",
- "why": "Overall fill is filled/declared slots. Grocery is 64.4% of all declared slots (1,026,255 of 1,594,100), so overall fill is dominated by grocery's fill. Non-grocery slots total 567,845 \u2014 even at a perfect 100% they supply only 45% of what 80% requires. Grocery must therefore reach 69% of its own slots for 80% overall, and its measured ceiling from the Blinkit pack label is 45%.",
- "measured_ceilings": {
-  "grocery": {
-   "ceiling": 0.45,
-   "method": "mean label coverage over 42 schema fields on a 1,200-page sample; verified twice independently at 45.0% and 42.6%"
+  "generated": "2026-09-06",
+  "question": "Can the catalogue reach 80% field fill with the current schemas?",
+  "answer": "No. Best case at every measured source ceiling is 49.3%.",
+  "why": "Overall fill is filled/declared slots. Grocery is 64.4% of all declared slots (1,026,255 of 1,594,100), so overall fill is dominated by grocery's fill. Non-grocery slots total 567,845 — even at a perfect 100% they supply only 45% of what 80% requires. Grocery must therefore reach 69% of its own slots for 80% overall, and its measured ceiling from the Blinkit pack label is 45%.",
+  "measured_ceilings": {
+    "grocery": {
+      "ceiling": 0.45,
+      "method": "mean label coverage over 42 schema fields on a 1,200-page sample; verified twice independently at 45.0% and 42.6%"
+    },
+    "beauty": {
+      "ceiling": 0.6,
+      "method": "26% of records are the Open Beauty Facts island with no GTIN bridge and no storefront"
+    },
+    "funds": {
+      "ceiling": 0.575,
+      "method": "factsheets reach 37% of records; SEBI SIDs lift sid_* and the SIP terms"
+    },
+    "phones": {
+      "ceiling": 0.3,
+      "method": "only 87 of 430 records have a reachable page; 167 are JS-rendered"
+    }
   },
-  "beauty": {
-   "ceiling": 0.6,
-   "method": "26% of records are the Open Beauty Facts island with no GTIN bridge and no storefront"
+  "crawl_vs_ceiling": {
+    "note": "Finishing the crawl helps, but does not close the gap.",
+    "crawled_records_fill": 0.399,
+    "uncrawled_records_fill": 0.105,
+    "grocery_if_fully_crawled": 0.399,
+    "grocery_needed_for_80_overall": 0.69
   },
-  "funds": {
-   "ceiling": 0.575,
-   "method": "factsheets reach 37% of records; SEBI SIDs lift sid_* and the SIP terms"
+  "trimming_the_sheet": {
+    "note": "Keeping only the best-covered grocery fields does not reach 80% either, because even the top 8 average 66.4%.",
+    "top_8": 0.664,
+    "top_14": 0.573,
+    "top_20": 0.482,
+    "all_42": 0.299
   },
-  "phones": {
-   "ceiling": 0.3,
-   "method": "only 87 of 430 records have a reachable page; 167 are JS-rendered"
+  "proven_absent": {
+    "grocery": [
+      "caffeine",
+      "whole_grain_pct",
+      "best_before_type",
+      "spec_url",
+      "spec_checked_version"
+    ],
+    "grocery_evidence": "0 occurrences across 6,000 Blinkit pages",
+    "beauty": [
+      "pao_months",
+      "comedogenic_tested"
+    ],
+    "beauty_evidence": "pao_months on 0 of 1,200 pages; Shelf Life is a different fact",
+    "funds": [
+      "rta"
+    ],
+    "funds_evidence": "CAMS serves a byte-identical Angular shell on every serviced-AMC path; KFintech times out; AMFI publishes no mapping"
+  },
+  "what_would_change_the_answer": [
+    "Pack-photo OCR for grocery — the nutrition panel and ingredient list are printed on the pack image, which Blinkit serves. This is the only route to the fields the structured data omits.",
+    "Redefining the metric to exclude fields proven absent from every reachable source, so the number measures what is obtainable rather than what was hoped for.",
+    "Accepting ~50% as the honest ceiling and reporting it as such."
+  ],
+  "pack_photo_ocr_tested": {
+    "verdict": "Rejected. It would address about 2% of the gap it was proposed to fix.",
+    "measured_2026_09_06": {
+      "sample_pages": 1500,
+      "food_pages": 967,
+      "food_with_nutrition_already": 738,
+      "food_MISSING_nutrition": 229,
+      "of_those_with_a_full_res_image": 5,
+      "of_those_with_no_image_at_all": 224
+    },
+    "why": "The proposal assumed the nutrition panel is printed on a pack image Blinkit serves. It is not, for the pages that need it. 224 of the 229 food pages missing a nutrition panel carry NO full-resolution image; the 5 that do carry exactly one, which is the front of the pack, not the back where the panel is printed. Pages generally offer only CDN-resized thumbnails at 120x120 and 480x480, at which a nutrition panel is a few pixels tall and unreadable. Original assets are 1000x1000 and would be readable, but they are absent precisely where they would be needed.",
+    "cost_avoided": "The repo is stdlib-first with no requirements file. OCR would have added its first Python dependency plus a system binary in CI, for a 2% return.",
+    "conclusion": "No remaining source moves grocery past its ~45% pack-label ceiling, so 49.3% stands as the measured best case. The honest options are to accept it, or to redefine the metric so it counts only fields some reachable source actually publishes."
+  },
+  "browser_path_tested": {
+    "verdict": "Works, but worth about +0.21% — not a route to 80%.",
+    "finding": "The Chrome extension became available later in the session, so the 359 records recorded as needing a human page-save were re-tested. Samsung's spec page renders fully in a browser: 4000 mAh battery, 8 GB RAM, 50+10+12 MP, OIS, 120 Hz, 147.0 x 70.6 x 7.6 mm, 167 g, launch date, eSIM, Bluetooth 5.3 — about 30 fields, including year/launch_month/camera_ois/esim that an earlier pass concluded no maker publishes. They are published; they were behind JavaScript.",
+    "why_it_is_small": "Discovery, not rendering, is the blocker. Samsung's sitemap has 7 entries and no per-product spec URLs, so each product needs its URL resolved by hand. Only 115 of 324 browser-blocked records (35%) carry an extractable model code. 115 records x ~30 fields = 3,450 values = +0.21% of overall fill.",
+    "also_found": "Most 'phone' records for these brands are laptops — Samsung's 40 are Galaxy Books, and HP/Lenovo/Acer likewise. They are marketplace listings with model codes embedded in the title, not clean model names."
+  },
+  "crawl_projection_corrected": {
+    "measured": {
+      "crawled_records_facts_each": 15.1,
+      "uncrawled_records_facts_each": 4.0
+    },
+    "finishing_existing_records": "9,208 uncrawled records lifted to the crawled rate = 102,732 values = 40.9% overall",
+    "full_inventory": "57,562 pages remain of a 90,628 inventory. At the observed 87% distinct rate that is ~50,078 NEW records — but each arrives with ~38 empty slots as well as ~15.1 facts, so the full crawl lands at 37.4%, not higher. An earlier estimate of +46% counted the facts and not the slots they bring with them.",
+    "conclusion": "37.4% is the projected end state of all crawling now in flight."
+  },
+  "what_separates_a_full_record_from_an_empty_one": {
+    "measured": "120 high-fill (>=70%) pages against 859 low-fill (<=30%) pages, same corpus",
+    "the_difference_is_the_nutrition_panel": {
+      "Sodium Per 100 g": "97% on high-fill pages, 0% on low-fill",
+      "Total Fat Per 100 g": "100% vs 3%",
+      "Serve Size": "94% vs 2%",
+      "Ingredients": "100% vs 28%",
+      "FSSAI License": "100% vs 87% — present on both, so not the discriminator",
+      "Packaging Type": "94% vs 91% — present on both"
+    },
+    "so": "A low-fill record is not a parsing failure. The page carries the identity fields and lacks the nutrition panel, and no amount of parser work creates one.",
+    "how_many_have_one": "73% of products Blinkit declares as food (veg/non-veg/egg) carry a nutrition panel. Of 2,000 sampled pages, 765 were declared non_food — soaps and cleaning supplies, where a nutrition panel correctly does not exist.",
+    "scale": "Nutrition-derived fields account for 543,933 slots, 33% of the entire repo. All of them sit on genuinely food categories, so the sheet is not misapplied — the 27% of food packs that decline to print a panel are simply unreachable.",
+    "per_record_ceiling_is_NOT_the_problem": "332 grocery records already reach 80% or better and the best reaches 84% (32 of 38 fields, Kellogg's Corn Flakes). 80% per record is achievable where the pack carries a full panel. It is the 27% without one, plus the non-food products, that hold the average down."
+  },
+  "redefining_the_metric_tested": {
+    "excluding_proven_absent_fields": "38.3% (157,455 slots removed)",
+    "excluding_every_field_no_source_has_ever_supplied": "39.3% (192,111 slots, 90 of 405 field/domain pairs)",
+    "verdict": "Neither redefinition reaches 80%. The gap is not an accounting artifact — it is 543,933 nutrition slots against packs that do not all carry a panel."
+  },
+  "prose_nutrition_reader_measured": {
+    "what_it_found": "A complete mandated panel written as text in a `Nutrition Information` field rather than split into structured attributes. Nothing was reading it. This disproved my earlier claim that packs without structured attributes simply do not declare nutrition.",
+    "measured_over_3000_pages": {
+      "food_pages": 1828,
+      "non_food": 1172,
+      "structured_panel": "1,350 (73.9%)",
+      "prose_panel_only": "41 (2.2%) — previously unread",
+      "no_panel_at_all": "437 (23.9%)"
+    },
+    "effect": "panel coverage 73.9% -> 76.1%; overall fill 34.7% -> 35.07%",
+    "correction": "I described this as potentially invalidating the 45% grocery ceiling, on a 19.3% figure taken from a smaller and differently-filtered sample. The corpus-wide number is 2.2%. The ceiling analysis stands: 23.9% of food packs carry no panel in any form, structured or prose.",
+    "what_did_not_transfer": "The same technique applied to beauty yields almost nothing. Description and Key Features are unread on 80.7% and 64.7% of pages, but the facts in them are marketing claims rather than declarations — dermatologist_tested appears in 2.8%, vegan 2.2%, pH 0.3%. `Nutrition Information` worked because it is a labelled panel; a claim in a description is not the same kind of statement."
+  },
+  "final_state_after_the_complete_crawl": {
+    "overall_fill": 0.4153,
+    "records": 93113,
+    "facts": 1263390,
+    "checked_at_the_end": {
+      "nova_group_looks_like_a_regression_and_is_not": "0% on Blinkit-crawled records against 44.8% on the older Open Food Facts import. The parser is right: the schema says NOVA is 'derived from the ingredient list by a defined method, not our judgement, and is recorded with its source'. OFF publishes it; a Blinkit page does not. All 4,450 values trace to openfoodfacts.org. Computing it ourselves would be our judgement with no source to cite.",
+      "12,326_grocery_records_have_no_blinkit_page": "They are the Open Food Facts import and were never in Blinkit's inventory, so a complete crawl could not reach them. Only 178 share an exact normalised brand+name with a Blinkit record and NONE carries a GTIN, so there is no bridge — the same island as the 862 Open Beauty Facts records.",
+      "the_low_fields_are_dilution_not_ceiling_for_two_of_them": "energy_kcal_100g is 63.3% on crawled records against 17.0% on uncrawled, and sugars_100g 57.6% against 15.7%. Both sit below 57% overall only because the uncrawled island drags them down."
+    },
+    "browser_path_costed": {
+      "works": "Samsung renders fully at the SKU URL, e.g. /galaxy-a36-5g-awesome-lavender-128gb-sm-a366elvjins/",
+      "worth": "36 Samsung + 33 Motorola + 16 OnePlus + 12 Apple + 9 Nothing = 106 records, ~3,180 values, +0.10% overall, at roughly 4 browser calls each",
+      "why_so_small": "phones is 25,068 of 3,041,841 slots — 0.8% of the repo, against grocery's 64%"
+    }
+  },
+  "largest_remaining_gaps_tested": {
+    "checked": "2026-09-06",
+    "why": "`npm run gaps` ranks the biggest missing-field counts in the repo. Each of the three largest was tested against the live source before being treated as a ceiling, because a large gap that is merely a parsing miss is the cheapest fill there is.",
+    "funds.plan / funds.option": {
+      "records_missing": 1797,
+      "verdict": "ceiling — AMFI itself leaves the column blank",
+      "evidence": "Re-fetched NAVAll.txt through lib/polite.py: 14,340 data rows, 5,756 with a blank Plan column and 5,762 with a blank Option column. Recovery from the scheme name was tested and fails: the name carries a plan word in 8 of 5,756 rows and an option word in 42 of 5,762.",
+      "why_not_guessed": "Plan (Direct vs Regular) sets the expense ratio and Option (Growth vs IDCW) changes what the investor receives. Defaulting either would invent a distinction that decides returns."
+    },
+    "grocery.quantity": {
+      "records_missing": 5271,
+      "verdict": "ceiling — these are Open Food Facts records with no size in the name",
+      "evidence": "A unit regex over the name matches 168 of 5,271 (3%)."
+    },
+    "beauty.size": {
+      "records_missing": 2959,
+      "verdict": "ceiling — same shape as grocery.quantity",
+      "evidence": "A unit regex over the name matches 65 of 2,959 (2%), and several of those are 'Pack of 2' titles where the printed size is per unit, so reading the number as the pack size would be wrong."
+    },
+    "printers_and_networking": {
+      "records": 195,
+      "verdict": "too small to matter",
+      "evidence": "195 records of 99,526; filling both to 100% moves the overall figure by about 0.1 point."
+    }
   }
- },
- "crawl_vs_ceiling": {
-  "note": "Finishing the crawl helps, but does not close the gap.",
-  "crawled_records_fill": 0.399,
-  "uncrawled_records_fill": 0.105,
-  "grocery_if_fully_crawled": 0.399,
-  "grocery_needed_for_80_overall": 0.69
- },
- "trimming_the_sheet": {
-  "note": "Keeping only the best-covered grocery fields does not reach 80% either, because even the top 8 average 66.4%.",
-  "top_8": 0.664,
-  "top_14": 0.573,
-  "top_20": 0.482,
-  "all_42": 0.299
- },
- "proven_absent": {
-  "grocery": [
-   "caffeine",
-   "whole_grain_pct",
-   "best_before_type",
-   "spec_url",
-   "spec_checked_version"
-  ],
-  "grocery_evidence": "0 occurrences across 6,000 Blinkit pages",
-  "beauty": [
-   "pao_months",
-   "comedogenic_tested"
-  ],
-  "beauty_evidence": "pao_months on 0 of 1,200 pages; Shelf Life is a different fact",
-  "funds": [
-   "rta"
-  ],
-  "funds_evidence": "CAMS serves a byte-identical Angular shell on every serviced-AMC path; KFintech times out; AMFI publishes no mapping"
- },
- "what_would_change_the_answer": [
-  "Pack-photo OCR for grocery \u2014 the nutrition panel and ingredient list are printed on the pack image, which Blinkit serves. This is the only route to the fields the structured data omits.",
-  "Redefining the metric to exclude fields proven absent from every reachable source, so the number measures what is obtainable rather than what was hoped for.",
-  "Accepting ~50% as the honest ceiling and reporting it as such."
- ],
- "pack_photo_ocr_tested": {
-  "verdict": "Rejected. It would address about 2% of the gap it was proposed to fix.",
-  "measured_2026_09_06": {
-   "sample_pages": 1500,
-   "food_pages": 967,
-   "food_with_nutrition_already": 738,
-   "food_MISSING_nutrition": 229,
-   "of_those_with_a_full_res_image": 5,
-   "of_those_with_no_image_at_all": 224
-  },
-  "why": "The proposal assumed the nutrition panel is printed on a pack image Blinkit serves. It is not, for the pages that need it. 224 of the 229 food pages missing a nutrition panel carry NO full-resolution image; the 5 that do carry exactly one, which is the front of the pack, not the back where the panel is printed. Pages generally offer only CDN-resized thumbnails at 120x120 and 480x480, at which a nutrition panel is a few pixels tall and unreadable. Original assets are 1000x1000 and would be readable, but they are absent precisely where they would be needed.",
-  "cost_avoided": "The repo is stdlib-first with no requirements file. OCR would have added its first Python dependency plus a system binary in CI, for a 2% return.",
-  "conclusion": "No remaining source moves grocery past its ~45% pack-label ceiling, so 49.3% stands as the measured best case. The honest options are to accept it, or to redefine the metric so it counts only fields some reachable source actually publishes."
- },
- "browser_path_tested": {
-  "verdict": "Works, but worth about +0.21% \u2014 not a route to 80%.",
-  "finding": "The Chrome extension became available later in the session, so the 359 records recorded as needing a human page-save were re-tested. Samsung's spec page renders fully in a browser: 4000 mAh battery, 8 GB RAM, 50+10+12 MP, OIS, 120 Hz, 147.0 x 70.6 x 7.6 mm, 167 g, launch date, eSIM, Bluetooth 5.3 \u2014 about 30 fields, including year/launch_month/camera_ois/esim that an earlier pass concluded no maker publishes. They are published; they were behind JavaScript.",
-  "why_it_is_small": "Discovery, not rendering, is the blocker. Samsung's sitemap has 7 entries and no per-product spec URLs, so each product needs its URL resolved by hand. Only 115 of 324 browser-blocked records (35%) carry an extractable model code. 115 records x ~30 fields = 3,450 values = +0.21% of overall fill.",
-  "also_found": "Most 'phone' records for these brands are laptops \u2014 Samsung's 40 are Galaxy Books, and HP/Lenovo/Acer likewise. They are marketplace listings with model codes embedded in the title, not clean model names."
- },
- "crawl_projection_corrected": {
-  "measured": {
-   "crawled_records_facts_each": 15.1,
-   "uncrawled_records_facts_each": 4.0
-  },
-  "finishing_existing_records": "9,208 uncrawled records lifted to the crawled rate = 102,732 values = 40.9% overall",
-  "full_inventory": "57,562 pages remain of a 90,628 inventory. At the observed 87% distinct rate that is ~50,078 NEW records \u2014 but each arrives with ~38 empty slots as well as ~15.1 facts, so the full crawl lands at 37.4%, not higher. An earlier estimate of +46% counted the facts and not the slots they bring with them.",
-  "conclusion": "37.4% is the projected end state of all crawling now in flight."
- },
- "what_separates_a_full_record_from_an_empty_one": {
-  "measured": "120 high-fill (>=70%) pages against 859 low-fill (<=30%) pages, same corpus",
-  "the_difference_is_the_nutrition_panel": {
-   "Sodium Per 100 g": "97% on high-fill pages, 0% on low-fill",
-   "Total Fat Per 100 g": "100% vs 3%",
-   "Serve Size": "94% vs 2%",
-   "Ingredients": "100% vs 28%",
-   "FSSAI License": "100% vs 87% \u2014 present on both, so not the discriminator",
-   "Packaging Type": "94% vs 91% \u2014 present on both"
-  },
-  "so": "A low-fill record is not a parsing failure. The page carries the identity fields and lacks the nutrition panel, and no amount of parser work creates one.",
-  "how_many_have_one": "73% of products Blinkit declares as food (veg/non-veg/egg) carry a nutrition panel. Of 2,000 sampled pages, 765 were declared non_food \u2014 soaps and cleaning supplies, where a nutrition panel correctly does not exist.",
-  "scale": "Nutrition-derived fields account for 543,933 slots, 33% of the entire repo. All of them sit on genuinely food categories, so the sheet is not misapplied \u2014 the 27% of food packs that decline to print a panel are simply unreachable.",
-  "per_record_ceiling_is_NOT_the_problem": "332 grocery records already reach 80% or better and the best reaches 84% (32 of 38 fields, Kellogg's Corn Flakes). 80% per record is achievable where the pack carries a full panel. It is the 27% without one, plus the non-food products, that hold the average down."
- },
- "redefining_the_metric_tested": {
-  "excluding_proven_absent_fields": "38.3% (157,455 slots removed)",
-  "excluding_every_field_no_source_has_ever_supplied": "39.3% (192,111 slots, 90 of 405 field/domain pairs)",
-  "verdict": "Neither redefinition reaches 80%. The gap is not an accounting artifact \u2014 it is 543,933 nutrition slots against packs that do not all carry a panel."
- },
- "prose_nutrition_reader_measured": {
-  "what_it_found": "A complete mandated panel written as text in a `Nutrition Information` field rather than split into structured attributes. Nothing was reading it. This disproved my earlier claim that packs without structured attributes simply do not declare nutrition.",
-  "measured_over_3000_pages": {
-   "food_pages": 1828,
-   "non_food": 1172,
-   "structured_panel": "1,350 (73.9%)",
-   "prose_panel_only": "41 (2.2%) \u2014 previously unread",
-   "no_panel_at_all": "437 (23.9%)"
-  },
-  "effect": "panel coverage 73.9% -> 76.1%; overall fill 34.7% -> 35.07%",
-  "correction": "I described this as potentially invalidating the 45% grocery ceiling, on a 19.3% figure taken from a smaller and differently-filtered sample. The corpus-wide number is 2.2%. The ceiling analysis stands: 23.9% of food packs carry no panel in any form, structured or prose.",
-  "what_did_not_transfer": "The same technique applied to beauty yields almost nothing. Description and Key Features are unread on 80.7% and 64.7% of pages, but the facts in them are marketing claims rather than declarations \u2014 dermatologist_tested appears in 2.8%, vegan 2.2%, pH 0.3%. `Nutrition Information` worked because it is a labelled panel; a claim in a description is not the same kind of statement."
- },
- "final_state_after_the_complete_crawl": {
-  "overall_fill": 0.4153,
-  "records": 93113,
-  "facts": 1263390,
-  "checked_at_the_end": {
-   "nova_group_looks_like_a_regression_and_is_not": "0% on Blinkit-crawled records against 44.8% on the older Open Food Facts import. The parser is right: the schema says NOVA is 'derived from the ingredient list by a defined method, not our judgement, and is recorded with its source'. OFF publishes it; a Blinkit page does not. All 4,450 values trace to openfoodfacts.org. Computing it ourselves would be our judgement with no source to cite.",
-   "12,326_grocery_records_have_no_blinkit_page": "They are the Open Food Facts import and were never in Blinkit's inventory, so a complete crawl could not reach them. Only 178 share an exact normalised brand+name with a Blinkit record and NONE carries a GTIN, so there is no bridge \u2014 the same island as the 862 Open Beauty Facts records.",
-   "the_low_fields_are_dilution_not_ceiling_for_two_of_them": "energy_kcal_100g is 63.3% on crawled records against 17.0% on uncrawled, and sugars_100g 57.6% against 15.7%. Both sit below 57% overall only because the uncrawled island drags them down."
-  },
-  "browser_path_costed": {
-   "works": "Samsung renders fully at the SKU URL, e.g. /galaxy-a36-5g-awesome-lavender-128gb-sm-a366elvjins/",
-   "worth": "36 Samsung + 33 Motorola + 16 OnePlus + 12 Apple + 9 Nothing = 106 records, ~3,180 values, +0.10% overall, at roughly 4 browser calls each",
-   "why_so_small": "phones is 25,068 of 3,041,841 slots \u2014 0.8% of the repo, against grocery's 64%"
-  }
- }
 }
