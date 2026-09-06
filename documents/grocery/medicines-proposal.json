@@ -278,6 +278,13 @@
       "legal_status varies and is unobtainable elsewhere": "Schedule H 179, Schedule NP 11, Schedule H1 7 at 197 records. Schedule H1 is the narcotic/antibiotic-restricted class, so this distinguishes products with different legal handling. Blinkit publishes a Schedule field too, but the active ingredient alongside it is what makes the pairing useful.",
       "the active ingredient": "generic 183/186, active 121/186 — Blinkit does not publish this at all.",
       "dosage_form needs normalising": "arrives in MIXED CASE — TABLET 149, Tablet 22, CAPSULE 23, Capsule 3. It needs a controlled vocabulary and case folding, or it will carry two spellings of one value. Recorded before anything is written."
+    },
+    "what_the_merge_is_actually_worth": {
+      "measured": "2026-09-07, before the merge ran",
+      "the_arithmetic": "`ingredients` is a TOP-LEVEL field, not a member of any category's spec sheet, so a value written there does not count toward fill at all. Only `manufacturer` and `marketed_by` are spec slots in Health & supplements.",
+      "headroom": "Of the 4,162 medicine-signal records, 2,714 lack manufacturer and 4,064 lack marketed_by. At the crawl's measured 86% usable rate over 2,516 matches, the upper bound on new spec-counted values is about 4,063 — roughly **0.13 percentage points** of overall fill.",
+      "why_it_is_still_worth_doing": "The ~2,000 active ingredients are the most useful fact in the set and the reason the crawl exists: they say what a medicine IS. They simply are not scored, because the field that can hold them today is outside the spec sheet. That is another way of stating the case for the schema change — the catalogue cannot currently count the best fact it holds about a medicine.",
+      "honesty_note": "Anyone reading a fill delta after this merge should expect ~0.1 points, not a jump. The value is in what the records say, not in the percentage."
     }
   }
 }
