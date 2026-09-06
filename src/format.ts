@@ -1,4 +1,5 @@
 import { readFileSync, writeFileSync } from "node:fs";
+import { resolve } from "node:path";
 import { productFiles, readRecords, rel, type ProductRecord } from "./schema.ts";
 
 /** Drop empty values so diffs stay small, but keep the shape containers. */
@@ -38,9 +39,18 @@ export function render(records: ProductRecord[]): string {
   return sorted.map((r) => JSON.stringify(sortKeysDeep(clean(r))) + "\n").join("");
 }
 
-export function formatAll(check: boolean): string[] {
+export function formatAll(check: boolean, only?: string[]): string[] {
   const dirty: string[] = [];
+  // `only` narrows the walk to paths under the given prefixes. Several
+  // crawlers write to this tree at once, and a repo-wide rewrite launched
+  // while another process is mid-write has cost records here: one run left
+  // 14 files at zero bytes and dropped 36 grocery records. Formatting your
+  // own domain should not require touching anybody else's.
+  const prefixes = (only ?? []).map((p) => resolve(p));
+  const wanted = (file: string) =>
+    prefixes.length === 0 || prefixes.some((p) => file === p || file.startsWith(p + "/"));
   for (const file of productFiles()) {
+    if (!wanted(file)) continue;
     const records: ProductRecord[] = [];
     for (const item of readRecords(file)) if ("record" in item) records.push(item.record);
     const body = render(records);
@@ -54,7 +64,8 @@ export function formatAll(check: boolean): string[] {
 
 if (import.meta.filename === process.argv[1]) {
   const check = process.argv.includes("--check");
-  const dirty = formatAll(check);
+  const only = process.argv.slice(2).filter((a) => !a.startsWith("--"));
+  const dirty = formatAll(check, only);
   if (check && dirty.length) {
     console.log("These files are not canonically formatted. Run: npm run format");
     for (const d of dirty) console.log("  " + d);

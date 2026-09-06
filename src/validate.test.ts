@@ -1,7 +1,7 @@
 import { test, describe } from "node:test";
 import assert from "node:assert/strict";
 import { validateRecord, checkAttribute, today } from "./validate.ts";
-import { render, clean } from "./format.ts";
+import { render, clean, formatAll } from "./format.ts";
 import { gtinValid, mintId, slugify, loadDomainSchemas, type ProductRecord } from "./schema.ts";
 
 const schemas = loadDomainSchemas();
@@ -200,6 +200,25 @@ describe("warnings", () => {
 });
 
 describe("formatter", () => {
+  test("a path filter confines formatAll to that subtree", () => {
+    // Several crawlers write this tree at once. A repo-wide rewrite launched
+    // while another process is mid-write has cost records here, so formatting
+    // one domain must not read or touch another.
+    const funds = formatAll(true, ["products/funds"]);
+    const beauty = formatAll(true, ["products/beauty"]);
+    assert.ok(funds.every((f) => f.startsWith("products/funds/")),
+      `scoped to funds but reported: ${funds.join(", ")}`);
+    assert.ok(beauty.every((f) => f.startsWith("products/beauty/")),
+      `scoped to beauty but reported: ${beauty.join(", ")}`);
+
+    // No filter still means the whole repo, so the default is unchanged.
+    const all = formatAll(true);
+    assert.ok(all.length >= funds.length + beauty.length);
+
+    // A prefix must not match a sibling by string alone.
+    assert.deepEqual(formatAll(true, ["products/fund"]), []);
+  });
+
   test("output is deterministic and sorted", () => {
     const a = good({ id: "oc_00000000000b", name: "Zinc serum", category: "Face serum" });
     const b = good({ id: "oc_00000000000a", name: "Alpha serum", category: "Face serum" });
