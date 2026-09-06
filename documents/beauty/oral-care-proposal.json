@@ -1,0 +1,317 @@
+{
+ "generated": "2026-09-07",
+ "note": "A crawl that was measured and then not published. Blinkit's beauty-cosmetics, personal-care and pharma-wellness headings contain sub-categories that categories.json maps to null. A previous pass refused all of them on the grounds that none fits a beauty or grocery category. That refusal was right in aggregate and this pass set out to find the part of it that was too broad — the formulated products, such as toothpaste, hiding among the brushes and tweezers. The formulated products are real and this document counts them. They are still not published, because the reason they cannot be is not that they are implements: it is that schemas/beauty.json has no category that is true of them, and schemas/*.json are snapshot-frozen with a standing instruction not to add categories. This is that decision, written down with the numbers behind it.",
+ "what_was_measured": {
+  "method": "Blinkit's own published sitemaps were walked for the nine null-mapped sub-categories under the three beauty/personal-care headings (lib/polite.py, BLINKIT_DELAY=0.2, BLINKIT_WORKERS=5). 9,797 distinct products. Product slugs were classified without fetching, then a 544-page sample was fetched and parsed with sources/blinkit/parse_beauty_label.py UNMODIFIED to check the classification against what the pages actually say.",
+  "sitemap_totals": {
+   "tools-accessories": 3644,
+   "face-cosmetics": 1799,
+   "nail-cosmetics": 1063,
+   "eye-makeup": 1025,
+   "feminine-care": 871,
+   "oral-care": 795,
+   "gift-kits": 384,
+   "bath-beauty-gifts": 197,
+   "antiseptic-liquid": 19,
+   "total": 9797
+  }
+ },
+ "the_classification": {
+  "rule": "Three groups, not two. The question is not 'does this product have an ingredient list' — almost every cosmetic does. The question the schema actually asks is: can beauty.json's _default sheet describe this product WITHOUT dropping the fact that identifies it? Tests run in order, first match wins: (1) IMPLEMENT — the slug names an article rather than a formulation (toothbrush, comb, tweezer, file, sponge, pad, tampon, kit, set...), or names a multi-product set, which one pack panel cannot describe. This test runs FIRST and wins outright, because 'Colgate Zig Zag Toothbrush With Charcoal Gel Grip' carries the word 'gel' and a formulated-first rule would take it. (2) COLOUR — the slug names a colour cosmetic (nail paint, eye shadow, kajal, mascara, foundation, concealer, blush, compact, highlighter, BB/CC cream) or carries a trailing shade code. (3) SHADELESS — the slug names a dosage form with no shade to lose (toothpaste, mouthwash, antiseptic, intimate wash, cleansing oil, remover). Anything matching none of the three is UNCLASSIFIED and was left alone; unclassified is the safe bucket here, not a failure.",
+  "counts": {
+   "implement": 6342,
+   "colour": 2643,
+   "shadeless": 627,
+   "unclassified": 185,
+   "total": 9797
+  },
+  "per_subcategory": {
+   "tools-accessories": {
+    "total": 3644,
+    "shadeless": 12,
+    "colour": 1,
+    "implement": 3552,
+    "unclassified": 79
+   },
+   "face-cosmetics": {
+    "total": 1799,
+    "shadeless": 219,
+    "colour": 1230,
+    "implement": 267,
+    "unclassified": 83
+   },
+   "nail-cosmetics": {
+    "total": 1063,
+    "shadeless": 0,
+    "colour": 821,
+    "implement": 240,
+    "unclassified": 2
+   },
+   "eye-makeup": {
+    "total": 1025,
+    "shadeless": 0,
+    "colour": 585,
+    "implement": 440,
+    "unclassified": 0
+   },
+   "feminine-care": {
+    "total": 871,
+    "shadeless": 65,
+    "colour": 1,
+    "implement": 793,
+    "unclassified": 12
+   },
+   "oral-care": {
+    "total": 795,
+    "shadeless": 309,
+    "colour": 5,
+    "implement": 475,
+    "unclassified": 6
+   },
+   "gift-kits": {
+    "total": 384,
+    "shadeless": 1,
+    "colour": 0,
+    "implement": 382,
+    "unclassified": 1
+   },
+   "bath-beauty-gifts": {
+    "total": 197,
+    "shadeless": 2,
+    "colour": 0,
+    "implement": 193,
+    "unclassified": 2
+   },
+   "antiseptic-liquid": {
+    "total": 19,
+    "shadeless": 19,
+    "colour": 0,
+    "implement": 0,
+    "unclassified": 0
+   }
+  }
+ },
+ "why_the_colour_group_is_excluded": {
+  "finding": "A colour cosmetic is genuinely formulated and genuinely carries a Rule 149 ingredient declaration. It is still wrong for the _default sheet, and the reason is mechanical rather than a matter of taste. parse_beauty_label.py reads `shade` only where the category's own spec declares the field (the guard at the 'shade and finish' block, which exists so a colour field cannot leak onto a shampoo). _default's spec does not declare `shade`. So a nail paint routed to _default has its Shade read off the page and then dropped, and _default records are written out with category 'Moisturiser'.",
+  "measured": "14 colour-cosmetic pages were fetched and parsed unmodified. 14 of 14 carried a Shade on the page. 0 of 14 had `shade` written into the record. All 14 were assigned category 'Moisturiser'. Examples of the discarded value: 'Rustic Love L11', 'Hot Pink Flash', 'Lime Zest', 'Ciao Bella X10', 'Sunkissed', 'Intense Black', 'Ivory Glow 01', '27N Camel', 'Bubblegum'.",
+  "consequence": "Publishing them would file 2,643 colour cosmetics as moisturisers while silently discarding the one fact that tells 'Rustic Love L11' from 'Hot Pink Flash'. Two shades of one nail paint would also collide on a single id, since the id is sha1(brand|name|size) and neither name nor size distinguishes them. This is the same class of defect as the 5,139 medicines scored against a food nutrition sheet, so it is refused on the same grounds."
+ },
+ "the_shadeless_group": {
+  "note": "Of the 627 shadeless products, only the sub-categories a live probe showed to be free of hidden shades were carried forward. face-cosmetics was dropped despite 219 shadeless hits: a 40-page probe found 14 of 40 (35%) carried a real Shade — loose face powders in 'Banana', 'Ivory Beige', 'Dusky', a CC cream in 'Almond Crème', strobe creams in 'Pink' and 'Gold' — shade names the slug does not spell as a code. tools-accessories was dropped for the same reason plus mislabelling: 9 of its 12 carried a Shade and the pages' own ptype named them 'Blackhead Remover Tool' and 'Nail Sticker'.",
+  "cohort_fetched": 393,
+  "parsed_successfully": 392,
+  "refused_by_the_parser": {
+   "a combo pack — one panel cannot describe two products": 1
+  },
+  "carrying_a_shade": 1,
+  "shade_note": "The one is a 'Teeth Whitening Serum' whose Shade is 'Black', which is the packaging colour rather than a product shade.",
+  "category_the_parser_assigned": {
+   "Moisturiser": 392
+  },
+  "assignment_is_wrong": "All 392. Not one of these products is a moisturiser. The parser is behaving exactly as written — categories.json maps these sub-categories to null, the parser falls back to _default, and _default records are emitted as 'Moisturiser' by design so that a fallback record is never forced into a category whose required field the page does not state. The design is sound; there is simply no true category for it to fall back to."
+ },
+ "what_the_392_actually_are": {
+  "ORAL": {
+   "count": 307,
+   "share": "78%",
+   "ptypes": {
+    "Toothpaste": 89,
+    "Mouthwash": 48,
+    "Herbal Toothpaste": 45,
+    "Sensitive Toothpaste": 41,
+    "Whitening Toothpaste": 30,
+    "Gel Toothpaste": 23,
+    "Tooth Powder": 5,
+    "Teeth Whitening Serum": 5,
+    "Oil Pulling Oil": 5,
+    "Mouth Freshener": 4,
+    "Kids Toothpaste": 4,
+    "Mouth Spray": 3,
+    "Teeth Whitening Powder": 3,
+    "Dental Gel": 1,
+    "Gum Serum": 1
+   },
+   "cannot_fill_size": 67
+  },
+  "INTIMATE": {
+   "count": 62,
+   "share": "16%",
+   "ptypes": {
+    "Intimate Wash": 33,
+    "Intimate Cream": 13,
+    "Breast Cream": 5,
+    "Intimate Tightening Gel": 3,
+    "Women's Intimate Spray": 2,
+    "Intimate Gel": 2,
+    "Anti Chafing Roll on": 1,
+    "Intimate Care Oil": 1,
+    "Intimate Powder": 1,
+    "Men's Intimate Serum": 1
+   },
+   "cannot_fill_size": 3
+  },
+  "ANTISEPTIC": {
+   "count": 19,
+   "share": "5%",
+   "ptypes": {
+    "Antiseptic Liquid": 17,
+    "Hydrogen Peroxide": 2
+   },
+   "cannot_fill_size": 1
+  },
+  "OTHER": {
+   "count": 4,
+   "ptypes": {
+    "Body Cream": 1,
+    "Women's Deodorant": 1,
+    "Skin Treatment Gel": 1,
+    "Special Offer": 1
+   },
+   "cannot_fill_size": 0
+  },
+  "total_that_cannot_fill_size": 71,
+  "size_note": "71 of 392 (18%) state no net quantity the parser can read, so they would have landed as status 'candidate' rather than 'entry'. That is the honest outcome and not a reason to invent a size — it is recorded here because the question was asked."
+ },
+ "why_no_existing_category_fits": {
+  "mechanical_test": "Four categories would ACCEPT these records, because their required field is just `size`: Moisturiser, Face wash & cleanser, Shampoo and Fragrance each satisfiable on 321 of 392. 'Beauty (Open Beauty Facts)' would accept all 392, since its required field is `quantity`. A required field being satisfiable is not the same as the category being true, and this is exactly the trap the standing instruction guards against.",
+  "per_category": {
+   "Moisturiser": "A toothpaste is not a moisturiser. This is what the parser does today and it is the defect, not the fix.",
+   "Face wash & cleanser": "Named for the face. An intimate wash is a wash, but filing it here tells a reader to put it on their face. An antiseptic liquid is not a cleanser at all.",
+   "Shampoo": "Not arguable for any of the 392.",
+   "Fragrance": "Not arguable, though 4 intimate products are already misfiled here in the repo today.",
+   "Beauty (Open Beauty Facts)": "This is a PROVENANCE label meaning 'imported from Open Beauty Facts', not a product type. Writing Blinkit-sourced records into it would be a false statement about where the facts came from. That 30 toothpastes already sit there is a pre-existing defect, not a precedent to extend."
+  },
+  "the_default_sheet_on_a_toothpaste": {
+   "note": "The brief's argument is that _default's 17 fields do not demand SPF or PA, so a formulated cosmetic answers the sheet honestly. That holds for an intimate wash. It holds less well for a toothpaste, and the measured fill says where.",
+   "fill_across_the_392": {
+    "size": 321,
+    "quantity": 392,
+    "form": 0,
+    "texture": 0,
+    "actives": 0,
+    "key_ingredients": 221,
+    "ingredients_order": 131,
+    "skin": 57,
+    "flags": 77,
+    "pao_months": 0,
+    "shelf_life": 380,
+    "storage_note": 96,
+    "manufacturer": 358,
+    "marketed_by": 348,
+    "country_of_origin": 391,
+    "spec_url": 0,
+    "spec_checked_version": 0
+   },
+   "overall": "2,772 of 6,664 slots = 41.6%",
+   "reading": "The mandated pack-panel fields fill well — country of origin 99.7%, shelf life 96.9%, manufacturer 91.3%, marketer 88.8%, quantity 100%. The cosmetic-specific fields do not, and could not: `actives` 0%, `texture` 0%, `pao_months` 0%. `skin` fills on 57 of 392, and a skin type is a claim about a toothpaste that no reader should be shown. The sheet is not neutral about a toothpaste; it asks questions that do not apply and then counts the silence against it."
+  }
+ },
+ "the_disorder_this_would_add_to": {
+  "note": "The repo already holds products of exactly these three kinds, scattered with no consistency. This is evidence that a category is missing rather than that one of the existing ones quietly works.",
+  "counts_today": {
+   "oral (toothpaste, mouthwash, tooth powder, dental)": {
+    "Beauty (Open Beauty Facts)": 30
+   },
+   "antiseptic": {
+    "Moisturiser": 5,
+    "Face wash & cleanser": 3,
+    "Beauty (Open Beauty Facts)": 2
+   },
+   "intimate": {
+    "Moisturiser": 40,
+    "Fragrance": 4,
+    "Face wash & cleanser": 2,
+    "Beauty (Open Beauty Facts)": 1
+   }
+  },
+  "total": 87,
+  "reading": "87 records across 5 categories, including 40 intimate washes filed as moisturisers and 4 as fragrances. Publishing 392 more without a category would take this from 87 to 479 and make the inconsistency four times harder to unpick later."
+ },
+ "the_proposal": {
+  "not_applied": "schemas/beauty.json is snapshot-frozen and the standing instruction is not to add categories. Nothing in schemas/ was touched. This needs a person to decide.",
+  "suggested": [
+   {
+    "category": "Oral care",
+    "would_hold": 307,
+    "required": [
+     "size"
+    ],
+    "spec": [
+     "size",
+     "quantity",
+     "form",
+     "flavour",
+     "fluoride_ppm",
+     "key_ingredients",
+     "ingredients_order",
+     "free_from",
+     "flags",
+     "shelf_life",
+     "storage_note",
+     "manufacturer",
+     "marketed_by",
+     "country_of_origin",
+     "spec_url",
+     "spec_checked_version"
+    ],
+    "rationale": "The mandated declarations a toothpaste pack actually carries. `fluoride_ppm` is the fact a person comparing toothpastes wants and no current field can hold it; it is stated on many Indian packs. `skin`, `texture`, `actives` and `pao_months` are dropped because they say nothing true about a toothpaste. Note that toothpaste is regulated as a drug under the Drugs & Cosmetics Rules rather than as a cosmetic, which is the point categories.json already makes — a separate category is what that regulatory difference looks like in a schema.",
+    "new_fields_needed": [
+     "flavour",
+     "fluoride_ppm"
+    ],
+    "caution": "fluoride_ppm was NOT measured in this pass — the 392 pages were parsed with the current parser, which has no such field. Before adding it someone should check how many pages state it."
+   },
+   {
+    "category": "Intimate care",
+    "would_hold": 62,
+    "required": [
+     "size"
+    ],
+    "spec": [
+     "size",
+     "quantity",
+     "form",
+     "texture",
+     "ph",
+     "key_ingredients",
+     "ingredients_order",
+     "fragrance",
+     "free_from",
+     "flags",
+     "dermatologist_tested",
+     "shelf_life",
+     "storage_note",
+     "manufacturer",
+     "marketed_by",
+     "country_of_origin",
+     "spec_url",
+     "spec_checked_version"
+    ],
+    "rationale": "Every field here already exists in schemas/beauty.json, so this needs a category entry and no new fields. `ph` is the fact that matters for an intimate wash and the schema already declares it. This is the cheapest of the three and would also give the 47 already-misfiled intimate products a correct home.",
+    "new_fields_needed": []
+   },
+   {
+    "category": "Antiseptic & first aid",
+    "would_hold": 19,
+    "required": [
+     "size"
+    ],
+    "note": "Only 19 products, and they are arguably not beauty at all — Dettol, Savlon and hydrogen peroxide are first-aid disinfectants. The honest options are a category here, a home in another domain, or leaving them out. 19 records is not enough to justify a category on its own; recorded so the decision is explicit rather than an omission."
+   }
+  ]
+ },
+ "what_was_deliberately_not_crawled": {
+  "implements": 6342,
+  "colour_cosmetics": 2643,
+  "unclassified": 185,
+  "note": "No brush, comb, clip, tweezer, file, case, kit, applicator, sponge, tongue cleaner, sanitary pad, adult diaper, knee brace or gift hamper was fetched. The colour cosmetics were not fetched beyond the 14-page probe that established why they are excluded. The sixteen top-level Blinkit categories never inventoried (fashion, toys, books, home furnishing, kitchen, stationery, electronics, pet-care, vegetables-fruits, cleaning-essentials and the rest) remain out of scope entirely."
+ },
+ "effect_on_fill_if_it_were_published": {
+  "note": "Recorded so the trade is visible, and because an earlier estimate in this project claimed '+46% from crawling' by counting facts and ignoring the empty slots each new record brings. These 392 would fill at 41.6% against a beauty domain currently at 43.67%.",
+  "beauty_before": "43.67% (193,948 of 444,135 slots)",
+  "beauty_after_if_published": "43.64% (196,720 of 450,799 slots) — a fall of 0.03 points",
+  "overall_before": "43.37% (1,350,861 of 3,114,457 slots)",
+  "overall_after_if_published": "43.37% (1,353,633 of 3,121,121 slots) — a fall of 0.004 points",
+  "reading": "Publishing all 392 would LOWER beauty fill by 0.03 points, because these products are sparser against the _default sheet (41.6%) than the beauty domain already is (43.67%), and would move overall fill by 0.004 points. The entire question is therefore about correctness, not coverage: there is no fill-rate argument for filing 392 toothpastes as moisturisers, because doing so costs a little and buys nothing."
+ }
+}
