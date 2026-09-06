@@ -1,1019 +1,1015 @@
 {
-  "domain": "phones",
-  "label": "Phones, laptops & tablets",
-  "note": "Specs are facts and belong here. Price and stock are not — they change daily and live in the service. Model year matters more than it looks for anything with a spec race: a chipset name alone does not tell you whether a device is current.",
-  "categories": {
-    "Smartphones": {
-      "required": [
-        "ram",
-        "storage"
-      ],
-      "columns": [
-        "ram",
-        "storage",
-        "soc",
-        "screen_in",
-        "battery_mah"
-      ],
-      "facets": [
-        "brand",
-        "ram",
-        "storage",
-        "soc",
-        "year",
-        "network_5g",
-        "panel_type",
-        "refresh_hz",
-        "ip_rating",
-        "wifi_standard"
-      ],
-      "spec": [
-        "year",
-        "launch_month",
-        "model_number",
-        "discontinued",
-        "screen_in",
-        "resolution",
-        "ppi",
-        "panel_type",
-        "refresh_hz",
-        "brightness_nits",
-        "screen_protection",
-        "screen_to_body_pct",
-        "hdr_support",
-        "always_on_display",
-        "soc",
-        "soc_fab_nm",
-        "cpu_cores",
-        "cpu_clock_ghz",
-        "gpu",
-        "ram",
-        "ram_type",
-        "storage",
-        "storage_type",
-        "storage_expandable",
-        "camera_mp",
-        "camera_aperture",
-        "camera_sensor_size",
-        "camera_ois",
-        "camera_ultrawide_mp",
-        "camera_tele_mp",
-        "camera_tele_zoom_x",
-        "camera_macro_mp",
-        "camera_front_mp",
-        "camera_video_max",
-        "camera_flash",
-        "battery_mah",
-        "battery_type",
-        "battery_removable",
-        "charging_w",
-        "charging_wireless_w",
-        "reverse_charging",
-        "charger_in_box",
-        "network_5g",
-        "network_bands",
-        "sim_slots",
-        "sim_type",
-        "esim",
-        "wifi_standard",
-        "bluetooth",
-        "nfc",
-        "usb_type",
-        "headphone_jack",
-        "ir_blaster",
-        "gps",
-        "os",
-        "os_version_launch",
-        "os_updates",
-        "security_updates_years",
-        "ui_skin",
-        "weight_g",
-        "dimensions_mm",
-        "build_material",
-        "ip_rating",
-        "colours",
-        "speakers",
-        "audio_codecs",
-        "fingerprint",
-        "sensors",
-        "spec_url",
-        "spec_checked_version"
-      ]
-    },
-    "Laptops": {
-      "required": [
-        "ram",
-        "storage"
-      ],
-      "columns": [
-        "ram",
-        "storage",
-        "soc",
-        "screen_in",
-        "os"
-      ],
-      "facets": [
-        "brand",
-        "ram",
-        "storage",
-        "soc",
-        "os",
-        "year"
-      ],
-      "spec": [
-        "year",
-        "launch_month",
-        "model_number",
-        "discontinued",
-        "screen_in",
-        "resolution",
-        "ppi",
-        "panel_type",
-        "refresh_hz",
-        "brightness_nits",
-        "soc",
-        "soc_fab_nm",
-        "cpu_cores",
-        "cpu_clock_ghz",
-        "gpu",
-        "ram",
-        "ram_type",
-        "storage",
-        "storage_type",
-        "camera_front_mp",
-        "battery_mah",
-        "charging_w",
-        "charger_in_box",
-        "wifi_standard",
-        "bluetooth",
-        "usb_type",
-        "headphone_jack",
-        "os",
-        "os_version_launch",
-        "os_updates",
-        "security_updates_years",
-        "weight_g",
-        "dimensions_mm",
-        "build_material",
-        "colours",
-        "speakers",
-        "fingerprint",
-        "spec_url",
-        "spec_checked_version"
-      ]
-    },
-    "Tablets": {
-      "required": [
-        "storage"
-      ],
-      "columns": [
-        "storage",
-        "ram",
-        "screen_in",
-        "os"
-      ],
-      "facets": [
-        "brand",
-        "storage",
-        "ram",
-        "screen_in",
-        "os",
-        "network_5g"
-      ],
-      "spec": [
-        "year",
-        "launch_month",
-        "model_number",
-        "discontinued",
-        "screen_in",
-        "resolution",
-        "ppi",
-        "panel_type",
-        "refresh_hz",
-        "brightness_nits",
-        "screen_protection",
-        "soc",
-        "soc_fab_nm",
-        "cpu_cores",
-        "gpu",
-        "ram",
-        "ram_type",
-        "storage",
-        "storage_type",
-        "storage_expandable",
-        "camera_mp",
-        "camera_front_mp",
-        "camera_video_max",
-        "battery_mah",
-        "charging_w",
-        "charger_in_box",
-        "network_5g",
-        "sim_slots",
-        "esim",
-        "wifi_standard",
-        "bluetooth",
-        "usb_type",
-        "headphone_jack",
-        "gps",
-        "os",
-        "os_version_launch",
-        "os_updates",
-        "security_updates_years",
-        "ui_skin",
-        "weight_g",
-        "dimensions_mm",
-        "build_material",
-        "ip_rating",
-        "colours",
-        "speakers",
-        "audio_codecs",
-        "fingerprint",
-        "sensors",
-        "spec_url",
-        "spec_checked_version"
-      ]
-    },
-    "Cameras": {
-      "required": [
-        "camera_mp"
-      ],
-      "columns": [
-        "camera_mp",
-        "screen_in"
-      ],
-      "facets": [
-        "brand",
-        "camera_mp",
-        "year"
-      ],
-      "spec": [
-        "year",
-        "launch_month",
-        "model_number",
-        "discontinued",
-        "camera_mp",
-        "camera_sensor_size",
-        "camera_aperture",
-        "camera_ois",
-        "camera_video_max",
-        "camera_flash",
-        "screen_in",
-        "resolution",
-        "panel_type",
-        "storage_expandable",
-        "storage_type",
-        "battery_mah",
-        "battery_removable",
-        "charging_w",
-        "wifi_standard",
-        "bluetooth",
-        "usb_type",
-        "gps",
-        "weight_g",
-        "dimensions_mm",
-        "build_material",
-        "ip_rating",
-        "colours",
-        "spec_url",
-        "spec_checked_version"
-      ]
-    },
-    "Storage": {
-      "required": [
-        "storage"
-      ],
-      "columns": [
-        "storage",
-        "type"
-      ],
-      "facets": [
-        "brand",
-        "storage",
-        "type",
-        "storage_type"
-      ],
-      "spec": [
-        "year",
-        "launch_month",
-        "model_number",
-        "discontinued",
-        "type",
-        "storage",
-        "storage_type",
-        "usb_type",
-        "weight_g",
-        "dimensions_mm",
-        "build_material",
-        "ip_rating",
-        "colours",
-        "spec_url",
-        "spec_checked_version"
-      ]
-    }
+ "domain": "phones",
+ "label": "Phones, laptops & tablets",
+ "note": "Specs are facts and belong here. Price and stock are not — they change daily and live in the service. Model year matters more than it looks for anything with a spec race: a chipset name alone does not tell you whether a device is current.",
+ "categories": {
+  "Smartphones": {
+   "required": [
+    "ram",
+    "storage"
+   ],
+   "columns": [
+    "ram",
+    "storage",
+    "soc",
+    "screen_in",
+    "battery_mah"
+   ],
+   "facets": [
+    "brand",
+    "ram",
+    "storage",
+    "soc",
+    "year",
+    "network_5g",
+    "panel_type",
+    "refresh_hz",
+    "ip_rating",
+    "wifi_standard"
+   ],
+   "spec": [
+    "year",
+    "model_number",
+    "screen_in",
+    "resolution",
+    "ppi",
+    "panel_type",
+    "refresh_hz",
+    "brightness_nits",
+    "screen_protection",
+    "screen_to_body_pct",
+    "hdr_support",
+    "always_on_display",
+    "soc",
+    "soc_fab_nm",
+    "cpu_cores",
+    "cpu_clock_ghz",
+    "gpu",
+    "ram",
+    "ram_type",
+    "storage",
+    "storage_type",
+    "storage_expandable",
+    "camera_mp",
+    "camera_aperture",
+    "camera_sensor_size",
+    "camera_ois",
+    "camera_ultrawide_mp",
+    "camera_tele_mp",
+    "camera_tele_zoom_x",
+    "camera_macro_mp",
+    "camera_front_mp",
+    "camera_video_max",
+    "camera_flash",
+    "battery_mah",
+    "battery_type",
+    "battery_removable",
+    "charging_w",
+    "charging_wireless_w",
+    "reverse_charging",
+    "charger_in_box",
+    "network_5g",
+    "network_bands",
+    "sim_slots",
+    "sim_type",
+    "esim",
+    "wifi_standard",
+    "bluetooth",
+    "nfc",
+    "usb_type",
+    "headphone_jack",
+    "ir_blaster",
+    "gps",
+    "os",
+    "os_version_launch",
+    "os_updates",
+    "security_updates_years",
+    "ui_skin",
+    "weight_g",
+    "dimensions_mm",
+    "build_material",
+    "ip_rating",
+    "colours",
+    "speakers",
+    "audio_codecs",
+    "fingerprint",
+    "sensors",
+    "spec_url",
+    "spec_checked_version"
+   ]
   },
-  "fields": {
-    "ram": {
-      "type": "integer",
-      "min": 1,
-      "max": 128,
-      "unit": "GB",
-      "label": "RAM",
-      "group": "performance",
-      "note": "Working memory, which decides how many apps stay open in the background instead of reloading when you switch back. Read it with the RAM type and the software: makers advertise 'virtual RAM' borrowed from storage, which is much slower than the real thing."
-    },
-    "storage": {
-      "type": "integer",
-      "min": 8,
-      "max": 8192,
-      "unit": "GB",
-      "label": "Storage",
-      "group": "performance",
-      "note": "Built-in space for apps, photos and video, before the operating system takes its share. The usable figure is typically 10-20 GB lower than the number advertised."
-    },
-    "soc": {
-      "type": "string",
-      "label": "Processor",
-      "group": "performance"
-    },
-    "screen_in": {
-      "type": "number",
-      "min": 4,
-      "max": 20,
-      "unit": "inch",
-      "label": "Screen size",
-      "group": "display"
-    },
-    "refresh_hz": {
-      "type": "integer",
-      "min": 30,
-      "max": 240,
-      "unit": "Hz",
-      "label": "Refresh rate",
-      "group": "display",
-      "note": "How many times per second the screen redraws. 120 Hz makes scrolling look smoother than 60 Hz; the trade is battery, which is why panels that can drop back down to 1 Hz exist."
-    },
-    "battery_mah": {
-      "type": "integer",
-      "min": 1000,
-      "max": 12000,
-      "unit": "mAh",
-      "label": "Battery",
-      "group": "battery",
-      "note": "Battery capacity in milliamp-hours. Compare it only alongside screen size, panel type and chipset efficiency, since a bigger screen at a higher refresh rate drains a larger battery faster."
-    },
-    "charging_w": {
-      "type": "integer",
-      "min": 5,
-      "max": 300,
-      "unit": "W",
-      "label": "Wired charging",
-      "group": "battery",
-      "note": "The fastest wired charging the phone accepts, in watts. Reaching it usually needs the maker's own charger and cable, and the quoted speed applies to the early part of the charge, not the last stretch."
-    },
-    "camera_mp": {
-      "type": "integer",
-      "min": 1,
-      "max": 300,
-      "unit": "MP",
-      "label": "Main camera",
-      "group": "camera",
-      "note": "Resolution of the main rear camera in megapixels. On its own it does not predict photo quality: sensor size, aperture and processing matter more, and most high-megapixel phones combine groups of pixels and output a much smaller image by default."
-    },
-    "os": {
-      "type": "string",
-      "label": "Operating system",
-      "group": "software"
-    },
-    "os_updates": {
-      "type": "string",
-      "label": "Update policy",
-      "group": "software",
-      "note": "How many years of operating-system upgrades the maker commits to. Rarely on a marketplace listing, always on the maker's own page, and together with the security window it decides how long the phone stays safe to use."
-    },
-    "network_5g": {
-      "type": "boolean",
-      "label": "5G",
-      "group": "connectivity",
-      "note": "Whether the phone supports 5G. In India, check the supported bands too: a 5G phone missing the band your network uses locally will fall back to 4G."
-    },
-    "year": {
-      "type": "integer",
-      "min": 2015,
-      "max": 2035,
-      "label": "Model year",
-      "group": "identity"
-    },
-    "type": {
-      "type": "string",
-      "label": "Type",
-      "group": "identity"
-    },
-    "weight_g": {
-      "type": "integer",
-      "min": 50,
-      "max": 5000,
-      "unit": "g",
-      "label": "Weight",
-      "group": "physical"
-    },
-    "launch_month": {
-      "type": "string",
-      "label": "Announced",
-      "group": "identity",
-      "note": "The month the maker announced this model, as YYYY-MM. Two devices with the same chipset can be a year apart in software support, and this is what tells them apart."
-    },
-    "model_number": {
-      "type": "string",
-      "label": "Model number",
-      "group": "identity",
-      "note": "The maker's own model code, like SM-S928B. Regional variants of the same marketing name often differ in chipset or bands, and the model number is the only reliable way to tell which one a listing is selling."
-    },
-    "discontinued": {
-      "type": "boolean",
-      "label": "Discontinued",
-      "group": "identity",
-      "note": "True when the maker has stopped producing this model. A discontinued phone can still be on sale, but it is closer to the end of its software support window than its listing suggests."
-    },
-    "resolution": {
-      "type": "string",
-      "label": "Resolution",
-      "group": "display",
-      "note": "Pixel count as width x height. Read it with the screen size: the same 1080x2400 is sharp on a 6.1-inch phone and visibly softer on a 6.9-inch one."
-    },
-    "ppi": {
-      "type": "integer",
-      "min": 100,
-      "max": 800,
-      "unit": "ppi",
-      "label": "Pixel density",
-      "group": "display",
-      "note": "Pixels per inch, which is resolution and screen size combined into the number that actually decides sharpness. Around 400 ppi and above, most people stop seeing individual pixels at normal viewing distance."
-    },
-    "panel_type": {
-      "type": "enum",
-      "label": "Panel type",
-      "group": "display",
-      "values": [
-        "LCD",
-        "IPS LCD",
-        "TFT LCD",
-        "OLED",
-        "AMOLED",
-        "Super AMOLED",
-        "LTPO AMOLED",
-        "LTPO OLED",
-        "MiniLED"
-      ],
-      "note": "How the screen makes light. LCD types use a backlight, so black is really dark grey; OLED types light each pixel individually, giving true black and better contrast. LTPO variants can drop their refresh rate to save power.",
-      "values_note": {
-        "LCD": "Backlit panel. Cheapest to make; blacks look grey and contrast is limited.",
-        "IPS LCD": "An LCD with wide viewing angles and more accurate colour than plain LCD.",
-        "TFT LCD": "A basic LCD. Viewing angles and contrast are usually the weakest of the LCD family.",
-        "OLED": "Each pixel makes its own light, so black pixels are fully off. True black, high contrast.",
-        "AMOLED": "Samsung's OLED family. Same self-lit behaviour as OLED.",
-        "Super AMOLED": "AMOLED with the touch layer built into the panel rather than sitting above it.",
-        "LTPO AMOLED": "AMOLED that can vary its refresh rate down to 1 Hz, cutting battery use on static screens.",
-        "LTPO OLED": "OLED that can vary its refresh rate down to 1 Hz to save power.",
-        "MiniLED": "An LCD with thousands of tiny backlight zones, narrowing the contrast gap with OLED."
-      }
-    },
-    "brightness_nits": {
-      "type": "integer",
-      "min": 100,
-      "max": 6000,
-      "unit": "nits",
-      "label": "Peak brightness",
-      "group": "display",
-      "note": "How bright the screen can get, in nits, usually quoted as a peak a small part of the screen can hit briefly. This is what decides whether the screen is readable in direct sunlight; makers often quote the peak rather than the full-screen figure."
-    },
-    "screen_protection": {
-      "type": "string",
-      "label": "Screen protection",
-      "group": "display",
-      "note": "The cover glass, such as Gorilla Glass Victus 2. Newer generations of the same family are more scratch and drop resistant, and a phone with no stated protection usually has plain glass."
-    },
-    "screen_to_body_pct": {
-      "type": "number",
-      "min": 30,
-      "max": 100,
-      "unit": "%",
-      "label": "Screen-to-body ratio",
-      "group": "display",
-      "note": "How much of the phone's face is screen. A higher figure means slimmer bezels, so the phone carries a bigger screen in a smaller body."
-    },
-    "hdr_support": {
-      "type": "list",
-      "label": "HDR support",
-      "group": "display",
-      "values": [
-        "HDR10",
-        "HDR10+",
-        "Dolby Vision",
-        "HLG"
-      ],
-      "note": "Which high dynamic range video formats the screen can display. Without a matching format, HDR content plays but falls back to standard range, losing the extra highlight detail."
-    },
-    "always_on_display": {
-      "type": "boolean",
-      "label": "Always-on display",
-      "group": "display",
-      "note": "Whether the screen can show a clock and notifications while the phone is idle. On LTPO panels this costs very little battery; on others it costs noticeably more."
-    },
-    "soc_fab_nm": {
-      "type": "integer",
-      "min": 1,
-      "max": 60,
-      "unit": "nm",
-      "label": "Process node",
-      "group": "performance",
-      "note": "How small the chip's transistors are, in nanometres. A smaller number generally means more work per unit of battery, so a 4 nm chip usually runs cooler and longer than a 7 nm one of similar speed."
-    },
-    "cpu_cores": {
-      "type": "integer",
-      "min": 1,
-      "max": 32,
-      "label": "CPU cores",
-      "group": "performance",
-      "note": "How many processor cores the chip has. Phone chips mix fast cores for demanding work with efficient ones for background tasks, so the count alone does not rank two chips."
-    },
-    "cpu_clock_ghz": {
-      "type": "number",
-      "min": 0.5,
-      "max": 6,
-      "unit": "GHz",
-      "label": "Peak clock speed",
-      "group": "performance",
-      "note": "The top speed of the fastest core. Only comparable between chips of the same generation and family; a newer chip at a lower clock often does more work per cycle."
-    },
-    "gpu": {
-      "type": "string",
-      "label": "Graphics",
-      "group": "performance"
-    },
-    "ram_type": {
-      "type": "enum",
-      "label": "RAM type",
-      "group": "performance",
-      "values": [
-        "LPDDR3",
-        "LPDDR4",
-        "LPDDR4X",
-        "LPDDR5",
-        "LPDDR5X"
-      ],
-      "note": "The memory generation. Newer types move data faster and use less power at the same capacity, so 8 GB of LPDDR5X is not the same as 8 GB of LPDDR4X."
-    },
-    "storage_type": {
-      "type": "enum",
-      "label": "Storage type",
-      "group": "performance",
-      "values": [
-        "eMMC 5.1",
-        "UFS 2.1",
-        "UFS 2.2",
-        "UFS 3.1",
-        "UFS 4.0",
-        "UFS 4.1",
-        "NVMe SSD",
-        "SATA SSD"
-      ],
-      "note": "How fast the built-in storage is. UFS is several times quicker than eMMC, which shows up in app install times, large file copies and how fast a big game loads."
-    },
-    "storage_expandable": {
-      "type": "boolean",
-      "label": "microSD slot",
-      "group": "performance",
-      "note": "Whether storage can be extended with a memory card. Cards are much slower than built-in storage, so they suit photos and media rather than apps."
-    },
-    "camera_aperture": {
-      "type": "string",
-      "label": "Main aperture",
-      "group": "camera",
-      "note": "How wide the main lens opens, written as f/1.8 or similar. A smaller number lets in more light, which mostly matters after dark."
-    },
-    "camera_sensor_size": {
-      "type": "string",
-      "label": "Main sensor size",
-      "group": "camera",
-      "note": "The physical size of the main sensor, like 1/1.3 inch. A bigger sensor collects more light than a higher megapixel count on a small sensor does, which is why megapixels alone do not predict low-light quality."
-    },
-    "camera_ois": {
-      "type": "boolean",
-      "label": "Optical stabilisation",
-      "group": "camera",
-      "note": "Whether the main camera physically compensates for hand shake. It matters most in low light and for video, where it is the difference between a usable shot and a blurred one."
-    },
-    "camera_ultrawide_mp": {
-      "type": "integer",
-      "min": 1,
-      "max": 300,
-      "unit": "MP",
-      "label": "Ultra-wide camera",
-      "group": "camera",
-      "note": "Resolution of the wide-angle camera, which fits more into the frame for landscapes and group shots. Ultra-wide sensors are usually smaller than the main one, so they fall behind in low light."
-    },
-    "camera_tele_mp": {
-      "type": "integer",
-      "min": 1,
-      "max": 300,
-      "unit": "MP",
-      "label": "Telephoto camera",
-      "group": "camera",
-      "note": "Resolution of the dedicated zoom camera. A phone without one crops the main sensor instead, which loses detail as you zoom in."
-    },
-    "camera_tele_zoom_x": {
-      "type": "number",
-      "min": 1,
-      "max": 30,
-      "unit": "x",
-      "label": "Optical zoom",
-      "group": "camera",
-      "note": "How far the telephoto lens reaches without cropping, as a multiple of the main lens. Optical zoom keeps full detail; the much larger digital zoom figures makers advertise do not."
-    },
-    "camera_macro_mp": {
-      "type": "integer",
-      "min": 1,
-      "max": 300,
-      "unit": "MP",
-      "label": "Macro camera",
-      "group": "camera",
-      "note": "Resolution of the close-up camera. Low-resolution macro cameras of 2 MP are common on cheaper phones and add little that cropping the main camera would not."
-    },
-    "camera_front_mp": {
-      "type": "integer",
-      "min": 1,
-      "max": 300,
-      "unit": "MP",
-      "label": "Front camera",
-      "group": "camera",
-      "note": "Resolution of the selfie camera. Front cameras usually have fixed focus and smaller sensors than the rear main camera."
-    },
-    "camera_video_max": {
-      "type": "string",
-      "label": "Max video",
-      "group": "camera",
-      "note": "The highest video mode the phone records, such as 4K 60fps or 8K 30fps. Higher modes fill storage quickly and some are unavailable on the front camera."
-    },
-    "camera_flash": {
-      "type": "enum",
-      "label": "Flash",
-      "group": "camera",
-      "values": [
-        "None",
-        "LED",
-        "Dual LED",
-        "Dual-tone LED",
-        "Ring LED",
-        "Xenon"
-      ],
-      "note": "The type of flash fitted. Dual-tone units mix warm and cool LEDs so skin tones look less washed out than under a single LED."
-    },
-    "battery_type": {
-      "type": "enum",
-      "label": "Battery type",
-      "group": "battery",
-      "values": [
-        "Li-Ion",
-        "Li-Po",
-        "Si/C Li-Ion"
-      ],
-      "note": "The cell chemistry. Silicon-carbon cells pack more capacity into the same space, which is how recent phones fit larger batteries without getting thicker."
-    },
-    "battery_removable": {
-      "type": "boolean",
-      "label": "Removable battery",
-      "group": "battery",
-      "note": "Whether the battery can be swapped without tools. Almost no modern phone allows it, which makes battery health part of the phone's usable life."
-    },
-    "charging_wireless_w": {
-      "type": "integer",
-      "min": 1,
-      "max": 100,
-      "unit": "W",
-      "label": "Wireless charging",
-      "group": "battery",
-      "note": "The fastest wireless charging the phone accepts. Wireless charging is slower and warmer than wired at the same wattage, and needs a pad that supports the speed."
-    },
-    "reverse_charging": {
-      "type": "boolean",
-      "label": "Reverse charging",
-      "group": "battery",
-      "note": "Whether the phone can charge other devices such as earbuds from its own battery, by cable or by laying them on its back."
-    },
-    "charger_in_box": {
-      "type": "boolean",
-      "label": "Charger in the box",
-      "group": "battery",
-      "note": "Whether a wall charger is included. Many makers now ship a cable only, so hitting the quoted charging speed can mean buying the charger separately."
-    },
-    "network_bands": {
-      "type": "list",
-      "label": "Network bands",
-      "group": "connectivity",
-      "note": "The cellular bands the phone supports. An imported model can miss a band an Indian network relies on, which shows up as poor indoor signal even where coverage is good."
-    },
-    "sim_slots": {
-      "type": "integer",
-      "min": 1,
-      "max": 3,
-      "label": "SIM slots",
-      "group": "connectivity"
-    },
-    "sim_type": {
-      "type": "enum",
-      "label": "SIM type",
-      "group": "connectivity",
-      "values": [
-        "Nano-SIM",
-        "Nano-SIM + eSIM",
-        "Dual Nano-SIM",
-        "Dual Nano-SIM + eSIM",
-        "eSIM only"
-      ],
-      "note": "Which SIM formats the phone takes. Hybrid slots make you choose between a second SIM and a memory card, and eSIM-only models cannot take a physical SIM at all."
-    },
-    "esim": {
-      "type": "boolean",
-      "label": "eSIM",
-      "group": "connectivity",
-      "note": "Whether the phone supports a digital SIM. An eSIM can be added without a shop visit, and lets a phone hold a travel plan alongside its usual number."
-    },
-    "wifi_standard": {
-      "type": "enum",
-      "label": "Wi-Fi",
-      "group": "connectivity",
-      "values": [
-        "Wi-Fi 4 (n)",
-        "Wi-Fi 5 (ac)",
-        "Wi-Fi 6 (ax)",
-        "Wi-Fi 6E",
-        "Wi-Fi 7 (be)"
-      ],
-      "note": "The Wi-Fi generation. The phone and the router both have to support a generation for its speed to apply, so a Wi-Fi 7 phone on a Wi-Fi 5 router runs at Wi-Fi 5."
-    },
-    "bluetooth": {
-      "type": "enum",
-      "label": "Bluetooth",
-      "group": "connectivity",
-      "values": [
-        "4.2",
-        "5.0",
-        "5.1",
-        "5.2",
-        "5.3",
-        "5.4",
-        "6.0"
-      ],
-      "note": "The Bluetooth version. Later versions add range and lower-power audio, but the headphones have to support the same features for any of it to apply."
-    },
-    "nfc": {
-      "type": "boolean",
-      "label": "NFC",
-      "group": "connectivity",
-      "note": "Whether the phone can make tap-to-pay transactions and read NFC tags. Absent on many budget models even in 2025."
-    },
-    "usb_type": {
-      "type": "enum",
-      "label": "USB port",
-      "group": "connectivity",
-      "values": [
-        "Micro-USB",
-        "USB-C 2.0",
-        "USB-C 3.1",
-        "USB-C 3.2",
-        "USB-C 4",
-        "Lightning"
-      ],
-      "note": "The port and its data speed. All USB-C ports charge, but a USB-C 2.0 port transfers files at a fraction of the speed of a 3.x one, which matters when moving large video files."
-    },
-    "headphone_jack": {
-      "type": "boolean",
-      "label": "3.5 mm jack",
-      "group": "connectivity",
-      "note": "Whether the phone has a headphone socket. Without one, wired headphones need a USB-C adapter or a USB-C connector."
-    },
-    "ir_blaster": {
-      "type": "boolean",
-      "label": "Infrared blaster",
-      "group": "connectivity",
-      "note": "Whether the phone can act as a remote control for TVs and air conditioners."
-    },
-    "gps": {
-      "type": "list",
-      "label": "Satellite positioning",
-      "group": "connectivity",
-      "values": [
-        "GPS",
-        "A-GPS",
-        "GLONASS",
-        "Galileo",
-        "BeiDou",
-        "QZSS",
-        "NavIC"
-      ],
-      "note": "Which satellite systems the phone can use to fix its position. Supporting more of them, including India's NavIC, generally means a faster and steadier fix in cities."
-    },
-    "os_version_launch": {
-      "type": "string",
-      "label": "Ships with",
-      "group": "software",
-      "note": "The OS version the phone shipped with, such as Android 15. Read it against the update policy: a phone launched two versions behind has already used up part of its support window."
-    },
-    "security_updates_years": {
-      "type": "integer",
-      "min": 0,
-      "max": 10,
-      "unit": "years",
-      "label": "Security update window",
-      "group": "software",
-      "note": "How many years the maker commits to security patches. This is the fact that decides how long the phone stays safe to bank on, and it is often shorter than the OS upgrade promise."
-    },
-    "ui_skin": {
-      "type": "string",
-      "label": "Interface",
-      "group": "software",
-      "note": "The maker's software layer on top of Android, such as One UI or HyperOS. It decides the look, the bundled apps and, on some brands, whether the phone shows ads in system apps."
-    },
-    "dimensions_mm": {
-      "type": "string",
-      "label": "Dimensions",
-      "group": "physical",
-      "note": "Height x width x thickness in millimetres. Worth reading with the weight: two phones of the same screen size can feel very different in the hand."
-    },
-    "build_material": {
-      "type": "string",
-      "label": "Build",
-      "group": "physical",
-      "note": "What the frame and back are made of, such as an aluminium frame with a glass back. Plastic backs survive drops better; glass and metal feel more solid and allow wireless charging."
-    },
-    "ip_rating": {
-      "type": "enum",
-      "label": "Water and dust resistance",
-      "group": "physical",
-      "values": [
-        "None",
-        "IP52",
-        "IP53",
-        "IP54",
-        "IPX4",
-        "IP64",
-        "IP65",
-        "IP66",
-        "IP67",
-        "IP68",
-        "IP69"
-      ],
-      "note": "Sealing against dust and water, tested to a lab standard. The first digit is dust, the second water: IP67 survives brief immersion, IP54 only handles splashes. Ratings cover fresh water and are not a warranty against liquid damage.",
-      "values_note": {
-        "None": "No stated sealing. Treat any liquid contact as a risk.",
-        "IP52": "Limited dust protection; resists dripping water at a slight angle.",
-        "IP53": "Limited dust protection; resists light spray.",
-        "IP54": "Limited dust protection; resists splashes from any direction.",
-        "IPX4": "No stated dust rating; resists splashes from any direction.",
-        "IP64": "Fully dust tight; resists splashes from any direction.",
-        "IP65": "Fully dust tight; resists low-pressure water jets.",
-        "IP66": "Fully dust tight; resists powerful water jets.",
-        "IP67": "Fully dust tight; survives immersion to 1 m for 30 minutes.",
-        "IP68": "Fully dust tight; survives immersion beyond 1 m, to the depth the maker states.",
-        "IP69": "Fully dust tight; survives high-pressure, high-temperature jets."
-      }
-    },
-    "colours": {
-      "type": "list",
-      "label": "Colours",
-      "group": "physical",
-      "note": "The finishes this model is sold in. Some colours are exclusive to one storage tier or one region."
-    },
-    "speakers": {
-      "type": "enum",
-      "label": "Speakers",
-      "group": "audio",
-      "values": [
-        "Mono",
-        "Stereo",
-        "Stereo (earpiece + bottom)",
-        "Quad"
-      ],
-      "note": "How many speakers carry sound. Stereo pairs sound noticeably fuller for video and games; many stereo phones use the earpiece as the second channel, so the two sides are not equally loud."
-    },
-    "audio_codecs": {
-      "type": "list",
-      "label": "Bluetooth audio codecs",
-      "group": "audio",
-      "values": [
-        "SBC",
-        "AAC",
-        "aptX",
-        "aptX HD",
-        "aptX Adaptive",
-        "LDAC",
-        "LHDC",
-        "LC3"
-      ],
-      "note": "How the phone compresses audio sent to wireless headphones. Both ends must support a codec for it to be used, otherwise both fall back to SBC, the basic one."
-    },
-    "fingerprint": {
-      "type": "enum",
-      "label": "Fingerprint sensor",
-      "group": "sensors",
-      "values": [
-        "None",
-        "Rear-mounted",
-        "Side-mounted",
-        "Under-display optical",
-        "Under-display ultrasonic"
-      ],
-      "note": "Where the fingerprint reader sits and how it works. Ultrasonic under-display readers cope better with wet or dry fingers than optical ones, which light up the screen to take a picture of the fingerprint."
-    },
-    "sensors": {
-      "type": "list",
-      "label": "Sensors",
-      "group": "sensors",
-      "values": [
-        "Accelerometer",
-        "Gyroscope",
-        "Proximity",
-        "Compass",
-        "Barometer",
-        "Ambient light",
-        "Colour spectrum",
-        "Infrared thermometer",
-        "Hall sensor"
-      ],
-      "note": "The sensors fitted. A gyroscope is the one to check if you care about VR or camera stabilisation, and cheaper phones sometimes emulate a compass in software instead of fitting one."
-    },
-    "spec_url": {
-      "type": "string",
-      "label": "Official spec sheet",
-      "group": "documents",
-      "note": "A link to the maker's own specification page for this exact model. It is the source a disputed fact here should be checked against, and it outranks any marketplace listing."
-    },
-    "spec_checked_version": {
-      "type": "string",
-      "label": "Spec sheet version",
-      "group": "documents",
-      "note": "Which revision of the maker's spec page these facts were read from, as a date or version. Makers quietly edit spec pages after launch, so this records which wording was in front of us."
-    }
+  "Laptops": {
+   "required": [
+    "ram",
+    "storage"
+   ],
+   "columns": [
+    "ram",
+    "storage",
+    "soc",
+    "screen_in",
+    "os"
+   ],
+   "facets": [
+    "brand",
+    "ram",
+    "storage",
+    "soc",
+    "os",
+    "year"
+   ],
+   "spec": [
+    "year",
+    "model_number",
+    "screen_in",
+    "resolution",
+    "ppi",
+    "panel_type",
+    "refresh_hz",
+    "brightness_nits",
+    "soc",
+    "soc_fab_nm",
+    "cpu_cores",
+    "cpu_clock_ghz",
+    "gpu",
+    "ram",
+    "ram_type",
+    "storage",
+    "storage_type",
+    "camera_front_mp",
+    "battery_mah",
+    "charging_w",
+    "charger_in_box",
+    "wifi_standard",
+    "bluetooth",
+    "usb_type",
+    "headphone_jack",
+    "os",
+    "os_version_launch",
+    "os_updates",
+    "security_updates_years",
+    "weight_g",
+    "dimensions_mm",
+    "build_material",
+    "colours",
+    "speakers",
+    "fingerprint",
+    "spec_url",
+    "spec_checked_version"
+   ]
   },
-  "not_in_this_repo": [
-    "price",
-    "mrp",
-    "in_stock",
-    "rating",
-    "review_count",
-    "rank",
-    "antutu_score",
-    "benchmark_score",
-    "best_for"
-  ],
-  "sanity": {
-    "note": "RAM and storage come from the title on Indian marketplace listings — '(8 GB RAM)' on phones, '(16 GB/512 GB SSD/…)' on laptops. Both patterns are needed; missing the second silently produced 134 laptops with no RAM.",
-    "os_updates": "Empty on every record today. It comes from the maker's own site, and it is the most useful fact this category could carry."
+  "Tablets": {
+   "required": [
+    "storage"
+   ],
+   "columns": [
+    "storage",
+    "ram",
+    "screen_in",
+    "os"
+   ],
+   "facets": [
+    "brand",
+    "storage",
+    "ram",
+    "screen_in",
+    "os",
+    "network_5g"
+   ],
+   "spec": [
+    "year",
+    "model_number",
+    "screen_in",
+    "resolution",
+    "ppi",
+    "panel_type",
+    "refresh_hz",
+    "brightness_nits",
+    "screen_protection",
+    "soc",
+    "soc_fab_nm",
+    "cpu_cores",
+    "gpu",
+    "ram",
+    "ram_type",
+    "storage",
+    "storage_type",
+    "storage_expandable",
+    "camera_mp",
+    "camera_front_mp",
+    "camera_video_max",
+    "battery_mah",
+    "charging_w",
+    "charger_in_box",
+    "network_5g",
+    "sim_slots",
+    "esim",
+    "wifi_standard",
+    "bluetooth",
+    "usb_type",
+    "headphone_jack",
+    "gps",
+    "os",
+    "os_version_launch",
+    "os_updates",
+    "security_updates_years",
+    "ui_skin",
+    "weight_g",
+    "dimensions_mm",
+    "build_material",
+    "ip_rating",
+    "colours",
+    "speakers",
+    "audio_codecs",
+    "fingerprint",
+    "sensors",
+    "spec_url",
+    "spec_checked_version"
+   ]
   },
-  "groups": [
-    {
-      "id": "identity",
-      "label": "Identity & launch"
-    },
-    {
-      "id": "display",
-      "label": "Display"
-    },
-    {
-      "id": "performance",
-      "label": "Processor & memory"
-    },
-    {
-      "id": "camera",
-      "label": "Camera"
-    },
-    {
-      "id": "battery",
-      "label": "Battery & charging"
-    },
-    {
-      "id": "connectivity",
-      "label": "Network & connectivity"
-    },
-    {
-      "id": "software",
-      "label": "Software & support"
-    },
-    {
-      "id": "physical",
-      "label": "Body & build"
-    },
-    {
-      "id": "audio",
-      "label": "Sound"
-    },
-    {
-      "id": "sensors",
-      "label": "Sensors & security"
-    },
-    {
-      "id": "documents",
-      "label": "Official sources"
-    }
-  ]
+  "Cameras": {
+   "required": [
+    "camera_mp"
+   ],
+   "columns": [
+    "camera_mp",
+    "screen_in"
+   ],
+   "facets": [
+    "brand",
+    "camera_mp",
+    "year"
+   ],
+   "spec": [
+    "year",
+    "model_number",
+    "camera_mp",
+    "camera_sensor_size",
+    "camera_aperture",
+    "camera_ois",
+    "camera_video_max",
+    "camera_flash",
+    "screen_in",
+    "resolution",
+    "panel_type",
+    "storage_expandable",
+    "storage_type",
+    "battery_mah",
+    "battery_removable",
+    "charging_w",
+    "wifi_standard",
+    "bluetooth",
+    "usb_type",
+    "gps",
+    "weight_g",
+    "dimensions_mm",
+    "build_material",
+    "ip_rating",
+    "colours",
+    "spec_url",
+    "spec_checked_version"
+   ]
+  },
+  "Storage": {
+   "required": [
+    "storage"
+   ],
+   "columns": [
+    "storage",
+    "type"
+   ],
+   "facets": [
+    "brand",
+    "storage",
+    "type",
+    "storage_type"
+   ],
+   "spec": [
+    "year",
+    "model_number",
+    "type",
+    "storage",
+    "storage_type",
+    "usb_type",
+    "weight_g",
+    "dimensions_mm",
+    "build_material",
+    "ip_rating",
+    "colours",
+    "spec_url",
+    "spec_checked_version"
+   ]
+  }
+ },
+ "fields": {
+  "ram": {
+   "type": "integer",
+   "min": 1,
+   "max": 128,
+   "unit": "GB",
+   "label": "RAM",
+   "group": "performance",
+   "note": "Working memory, which decides how many apps stay open in the background instead of reloading when you switch back. Read it with the RAM type and the software: makers advertise 'virtual RAM' borrowed from storage, which is much slower than the real thing."
+  },
+  "storage": {
+   "type": "integer",
+   "min": 8,
+   "max": 8192,
+   "unit": "GB",
+   "label": "Storage",
+   "group": "performance",
+   "note": "Built-in space for apps, photos and video, before the operating system takes its share. The usable figure is typically 10-20 GB lower than the number advertised."
+  },
+  "soc": {
+   "type": "string",
+   "label": "Processor",
+   "group": "performance"
+  },
+  "screen_in": {
+   "type": "number",
+   "min": 4,
+   "max": 20,
+   "unit": "inch",
+   "label": "Screen size",
+   "group": "display"
+  },
+  "refresh_hz": {
+   "type": "integer",
+   "min": 30,
+   "max": 240,
+   "unit": "Hz",
+   "label": "Refresh rate",
+   "group": "display",
+   "note": "How many times per second the screen redraws. 120 Hz makes scrolling look smoother than 60 Hz; the trade is battery, which is why panels that can drop back down to 1 Hz exist."
+  },
+  "battery_mah": {
+   "type": "integer",
+   "min": 1000,
+   "max": 12000,
+   "unit": "mAh",
+   "label": "Battery",
+   "group": "battery",
+   "note": "Battery capacity in milliamp-hours. Compare it only alongside screen size, panel type and chipset efficiency, since a bigger screen at a higher refresh rate drains a larger battery faster."
+  },
+  "charging_w": {
+   "type": "integer",
+   "min": 5,
+   "max": 300,
+   "unit": "W",
+   "label": "Wired charging",
+   "group": "battery",
+   "note": "The fastest wired charging the phone accepts, in watts. Reaching it usually needs the maker's own charger and cable, and the quoted speed applies to the early part of the charge, not the last stretch."
+  },
+  "camera_mp": {
+   "type": "integer",
+   "min": 1,
+   "max": 300,
+   "unit": "MP",
+   "label": "Main camera",
+   "group": "camera",
+   "note": "Resolution of the main rear camera in megapixels. On its own it does not predict photo quality: sensor size, aperture and processing matter more, and most high-megapixel phones combine groups of pixels and output a much smaller image by default."
+  },
+  "os": {
+   "type": "string",
+   "label": "Operating system",
+   "group": "software"
+  },
+  "os_updates": {
+   "type": "string",
+   "label": "Update policy",
+   "group": "software",
+   "note": "How many years of operating-system upgrades the maker commits to. Rarely on a marketplace listing, always on the maker's own page, and together with the security window it decides how long the phone stays safe to use."
+  },
+  "network_5g": {
+   "type": "boolean",
+   "label": "5G",
+   "group": "connectivity",
+   "note": "Whether the phone supports 5G. In India, check the supported bands too: a 5G phone missing the band your network uses locally will fall back to 4G."
+  },
+  "year": {
+   "type": "integer",
+   "min": 2015,
+   "max": 2035,
+   "label": "Model year",
+   "group": "identity"
+  },
+  "type": {
+   "type": "string",
+   "label": "Type",
+   "group": "identity"
+  },
+  "weight_g": {
+   "type": "integer",
+   "min": 50,
+   "max": 5000,
+   "unit": "g",
+   "label": "Weight",
+   "group": "physical"
+  },
+  "launch_month": {
+   "type": "string",
+   "label": "Announced",
+   "group": "identity",
+   "note": "The month the maker announced this model, as YYYY-MM. Two devices with the same chipset can be a year apart in software support, and this is what tells them apart."
+  },
+  "model_number": {
+   "type": "string",
+   "label": "Model number",
+   "group": "identity",
+   "note": "The maker's own model code, like SM-S928B. Regional variants of the same marketing name often differ in chipset or bands, and the model number is the only reliable way to tell which one a listing is selling."
+  },
+  "discontinued": {
+   "type": "boolean",
+   "label": "Discontinued",
+   "group": "identity",
+   "note": "True when the maker has stopped producing this model. A discontinued phone can still be on sale, but it is closer to the end of its software support window than its listing suggests."
+  },
+  "resolution": {
+   "type": "string",
+   "label": "Resolution",
+   "group": "display",
+   "note": "Pixel count as width x height. Read it with the screen size: the same 1080x2400 is sharp on a 6.1-inch phone and visibly softer on a 6.9-inch one."
+  },
+  "ppi": {
+   "type": "integer",
+   "min": 100,
+   "max": 800,
+   "unit": "ppi",
+   "label": "Pixel density",
+   "group": "display",
+   "note": "Pixels per inch, which is resolution and screen size combined into the number that actually decides sharpness. Around 400 ppi and above, most people stop seeing individual pixels at normal viewing distance."
+  },
+  "panel_type": {
+   "type": "enum",
+   "label": "Panel type",
+   "group": "display",
+   "values": [
+    "LCD",
+    "IPS LCD",
+    "TFT LCD",
+    "OLED",
+    "AMOLED",
+    "Super AMOLED",
+    "LTPO AMOLED",
+    "LTPO OLED",
+    "MiniLED"
+   ],
+   "note": "How the screen makes light. LCD types use a backlight, so black is really dark grey; OLED types light each pixel individually, giving true black and better contrast. LTPO variants can drop their refresh rate to save power.",
+   "values_note": {
+    "LCD": "Backlit panel. Cheapest to make; blacks look grey and contrast is limited.",
+    "IPS LCD": "An LCD with wide viewing angles and more accurate colour than plain LCD.",
+    "TFT LCD": "A basic LCD. Viewing angles and contrast are usually the weakest of the LCD family.",
+    "OLED": "Each pixel makes its own light, so black pixels are fully off. True black, high contrast.",
+    "AMOLED": "Samsung's OLED family. Same self-lit behaviour as OLED.",
+    "Super AMOLED": "AMOLED with the touch layer built into the panel rather than sitting above it.",
+    "LTPO AMOLED": "AMOLED that can vary its refresh rate down to 1 Hz, cutting battery use on static screens.",
+    "LTPO OLED": "OLED that can vary its refresh rate down to 1 Hz to save power.",
+    "MiniLED": "An LCD with thousands of tiny backlight zones, narrowing the contrast gap with OLED."
+   }
+  },
+  "brightness_nits": {
+   "type": "integer",
+   "min": 100,
+   "max": 6000,
+   "unit": "nits",
+   "label": "Peak brightness",
+   "group": "display",
+   "note": "How bright the screen can get, in nits, usually quoted as a peak a small part of the screen can hit briefly. This is what decides whether the screen is readable in direct sunlight; makers often quote the peak rather than the full-screen figure."
+  },
+  "screen_protection": {
+   "type": "string",
+   "label": "Screen protection",
+   "group": "display",
+   "note": "The cover glass, such as Gorilla Glass Victus 2. Newer generations of the same family are more scratch and drop resistant, and a phone with no stated protection usually has plain glass."
+  },
+  "screen_to_body_pct": {
+   "type": "number",
+   "min": 30,
+   "max": 100,
+   "unit": "%",
+   "label": "Screen-to-body ratio",
+   "group": "display",
+   "note": "How much of the phone's face is screen. A higher figure means slimmer bezels, so the phone carries a bigger screen in a smaller body."
+  },
+  "hdr_support": {
+   "type": "list",
+   "label": "HDR support",
+   "group": "display",
+   "values": [
+    "HDR10",
+    "HDR10+",
+    "Dolby Vision",
+    "HLG"
+   ],
+   "note": "Which high dynamic range video formats the screen can display. Without a matching format, HDR content plays but falls back to standard range, losing the extra highlight detail."
+  },
+  "always_on_display": {
+   "type": "boolean",
+   "label": "Always-on display",
+   "group": "display",
+   "note": "Whether the screen can show a clock and notifications while the phone is idle. On LTPO panels this costs very little battery; on others it costs noticeably more."
+  },
+  "soc_fab_nm": {
+   "type": "integer",
+   "min": 1,
+   "max": 60,
+   "unit": "nm",
+   "label": "Process node",
+   "group": "performance",
+   "note": "How small the chip's transistors are, in nanometres. A smaller number generally means more work per unit of battery, so a 4 nm chip usually runs cooler and longer than a 7 nm one of similar speed."
+  },
+  "cpu_cores": {
+   "type": "integer",
+   "min": 1,
+   "max": 32,
+   "label": "CPU cores",
+   "group": "performance",
+   "note": "How many processor cores the chip has. Phone chips mix fast cores for demanding work with efficient ones for background tasks, so the count alone does not rank two chips."
+  },
+  "cpu_clock_ghz": {
+   "type": "number",
+   "min": 0.5,
+   "max": 6,
+   "unit": "GHz",
+   "label": "Peak clock speed",
+   "group": "performance",
+   "note": "The top speed of the fastest core. Only comparable between chips of the same generation and family; a newer chip at a lower clock often does more work per cycle."
+  },
+  "gpu": {
+   "type": "string",
+   "label": "Graphics",
+   "group": "performance"
+  },
+  "ram_type": {
+   "type": "enum",
+   "label": "RAM type",
+   "group": "performance",
+   "values": [
+    "LPDDR3",
+    "LPDDR4",
+    "LPDDR4X",
+    "LPDDR5",
+    "LPDDR5X"
+   ],
+   "note": "The memory generation. Newer types move data faster and use less power at the same capacity, so 8 GB of LPDDR5X is not the same as 8 GB of LPDDR4X."
+  },
+  "storage_type": {
+   "type": "enum",
+   "label": "Storage type",
+   "group": "performance",
+   "values": [
+    "eMMC 5.1",
+    "UFS 2.1",
+    "UFS 2.2",
+    "UFS 3.1",
+    "UFS 4.0",
+    "UFS 4.1",
+    "NVMe SSD",
+    "SATA SSD"
+   ],
+   "note": "How fast the built-in storage is. UFS is several times quicker than eMMC, which shows up in app install times, large file copies and how fast a big game loads."
+  },
+  "storage_expandable": {
+   "type": "boolean",
+   "label": "microSD slot",
+   "group": "performance",
+   "note": "Whether storage can be extended with a memory card. Cards are much slower than built-in storage, so they suit photos and media rather than apps."
+  },
+  "camera_aperture": {
+   "type": "string",
+   "label": "Main aperture",
+   "group": "camera",
+   "note": "How wide the main lens opens, written as f/1.8 or similar. A smaller number lets in more light, which mostly matters after dark."
+  },
+  "camera_sensor_size": {
+   "type": "string",
+   "label": "Main sensor size",
+   "group": "camera",
+   "note": "The physical size of the main sensor, like 1/1.3 inch. A bigger sensor collects more light than a higher megapixel count on a small sensor does, which is why megapixels alone do not predict low-light quality."
+  },
+  "camera_ois": {
+   "type": "boolean",
+   "label": "Optical stabilisation",
+   "group": "camera",
+   "note": "Whether the main camera physically compensates for hand shake. It matters most in low light and for video, where it is the difference between a usable shot and a blurred one."
+  },
+  "camera_ultrawide_mp": {
+   "type": "integer",
+   "min": 1,
+   "max": 300,
+   "unit": "MP",
+   "label": "Ultra-wide camera",
+   "group": "camera",
+   "note": "Resolution of the wide-angle camera, which fits more into the frame for landscapes and group shots. Ultra-wide sensors are usually smaller than the main one, so they fall behind in low light."
+  },
+  "camera_tele_mp": {
+   "type": "integer",
+   "min": 1,
+   "max": 300,
+   "unit": "MP",
+   "label": "Telephoto camera",
+   "group": "camera",
+   "note": "Resolution of the dedicated zoom camera. A phone without one crops the main sensor instead, which loses detail as you zoom in."
+  },
+  "camera_tele_zoom_x": {
+   "type": "number",
+   "min": 1,
+   "max": 30,
+   "unit": "x",
+   "label": "Optical zoom",
+   "group": "camera",
+   "note": "How far the telephoto lens reaches without cropping, as a multiple of the main lens. Optical zoom keeps full detail; the much larger digital zoom figures makers advertise do not."
+  },
+  "camera_macro_mp": {
+   "type": "integer",
+   "min": 1,
+   "max": 300,
+   "unit": "MP",
+   "label": "Macro camera",
+   "group": "camera",
+   "note": "Resolution of the close-up camera. Low-resolution macro cameras of 2 MP are common on cheaper phones and add little that cropping the main camera would not."
+  },
+  "camera_front_mp": {
+   "type": "integer",
+   "min": 1,
+   "max": 300,
+   "unit": "MP",
+   "label": "Front camera",
+   "group": "camera",
+   "note": "Resolution of the selfie camera. Front cameras usually have fixed focus and smaller sensors than the rear main camera."
+  },
+  "camera_video_max": {
+   "type": "string",
+   "label": "Max video",
+   "group": "camera",
+   "note": "The highest video mode the phone records, such as 4K 60fps or 8K 30fps. Higher modes fill storage quickly and some are unavailable on the front camera."
+  },
+  "camera_flash": {
+   "type": "enum",
+   "label": "Flash",
+   "group": "camera",
+   "values": [
+    "None",
+    "LED",
+    "Dual LED",
+    "Dual-tone LED",
+    "Ring LED",
+    "Xenon"
+   ],
+   "note": "The type of flash fitted. Dual-tone units mix warm and cool LEDs so skin tones look less washed out than under a single LED."
+  },
+  "battery_type": {
+   "type": "enum",
+   "label": "Battery type",
+   "group": "battery",
+   "values": [
+    "Li-Ion",
+    "Li-Po",
+    "Si/C Li-Ion"
+   ],
+   "note": "The cell chemistry. Silicon-carbon cells pack more capacity into the same space, which is how recent phones fit larger batteries without getting thicker."
+  },
+  "battery_removable": {
+   "type": "boolean",
+   "label": "Removable battery",
+   "group": "battery",
+   "note": "Whether the battery can be swapped without tools. Almost no modern phone allows it, which makes battery health part of the phone's usable life."
+  },
+  "charging_wireless_w": {
+   "type": "integer",
+   "min": 1,
+   "max": 100,
+   "unit": "W",
+   "label": "Wireless charging",
+   "group": "battery",
+   "note": "The fastest wireless charging the phone accepts. Wireless charging is slower and warmer than wired at the same wattage, and needs a pad that supports the speed."
+  },
+  "reverse_charging": {
+   "type": "boolean",
+   "label": "Reverse charging",
+   "group": "battery",
+   "note": "Whether the phone can charge other devices such as earbuds from its own battery, by cable or by laying them on its back."
+  },
+  "charger_in_box": {
+   "type": "boolean",
+   "label": "Charger in the box",
+   "group": "battery",
+   "note": "Whether a wall charger is included. Many makers now ship a cable only, so hitting the quoted charging speed can mean buying the charger separately."
+  },
+  "network_bands": {
+   "type": "list",
+   "label": "Network bands",
+   "group": "connectivity",
+   "note": "The cellular bands the phone supports. An imported model can miss a band an Indian network relies on, which shows up as poor indoor signal even where coverage is good."
+  },
+  "sim_slots": {
+   "type": "integer",
+   "min": 1,
+   "max": 3,
+   "label": "SIM slots",
+   "group": "connectivity"
+  },
+  "sim_type": {
+   "type": "enum",
+   "label": "SIM type",
+   "group": "connectivity",
+   "values": [
+    "Nano-SIM",
+    "Nano-SIM + eSIM",
+    "Dual Nano-SIM",
+    "Dual Nano-SIM + eSIM",
+    "eSIM only"
+   ],
+   "note": "Which SIM formats the phone takes. Hybrid slots make you choose between a second SIM and a memory card, and eSIM-only models cannot take a physical SIM at all."
+  },
+  "esim": {
+   "type": "boolean",
+   "label": "eSIM",
+   "group": "connectivity",
+   "note": "Whether the phone supports a digital SIM. An eSIM can be added without a shop visit, and lets a phone hold a travel plan alongside its usual number."
+  },
+  "wifi_standard": {
+   "type": "enum",
+   "label": "Wi-Fi",
+   "group": "connectivity",
+   "values": [
+    "Wi-Fi 4 (n)",
+    "Wi-Fi 5 (ac)",
+    "Wi-Fi 6 (ax)",
+    "Wi-Fi 6E",
+    "Wi-Fi 7 (be)"
+   ],
+   "note": "The Wi-Fi generation. The phone and the router both have to support a generation for its speed to apply, so a Wi-Fi 7 phone on a Wi-Fi 5 router runs at Wi-Fi 5."
+  },
+  "bluetooth": {
+   "type": "enum",
+   "label": "Bluetooth",
+   "group": "connectivity",
+   "values": [
+    "4.2",
+    "5.0",
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4",
+    "6.0"
+   ],
+   "note": "The Bluetooth version. Later versions add range and lower-power audio, but the headphones have to support the same features for any of it to apply."
+  },
+  "nfc": {
+   "type": "boolean",
+   "label": "NFC",
+   "group": "connectivity",
+   "note": "Whether the phone can make tap-to-pay transactions and read NFC tags. Absent on many budget models even in 2025."
+  },
+  "usb_type": {
+   "type": "enum",
+   "label": "USB port",
+   "group": "connectivity",
+   "values": [
+    "Micro-USB",
+    "USB-C 2.0",
+    "USB-C 3.1",
+    "USB-C 3.2",
+    "USB-C 4",
+    "Lightning"
+   ],
+   "note": "The port and its data speed. All USB-C ports charge, but a USB-C 2.0 port transfers files at a fraction of the speed of a 3.x one, which matters when moving large video files."
+  },
+  "headphone_jack": {
+   "type": "boolean",
+   "label": "3.5 mm jack",
+   "group": "connectivity",
+   "note": "Whether the phone has a headphone socket. Without one, wired headphones need a USB-C adapter or a USB-C connector."
+  },
+  "ir_blaster": {
+   "type": "boolean",
+   "label": "Infrared blaster",
+   "group": "connectivity",
+   "note": "Whether the phone can act as a remote control for TVs and air conditioners."
+  },
+  "gps": {
+   "type": "list",
+   "label": "Satellite positioning",
+   "group": "connectivity",
+   "values": [
+    "GPS",
+    "A-GPS",
+    "GLONASS",
+    "Galileo",
+    "BeiDou",
+    "QZSS",
+    "NavIC"
+   ],
+   "note": "Which satellite systems the phone can use to fix its position. Supporting more of them, including India's NavIC, generally means a faster and steadier fix in cities."
+  },
+  "os_version_launch": {
+   "type": "string",
+   "label": "Ships with",
+   "group": "software",
+   "note": "The OS version the phone shipped with, such as Android 15. Read it against the update policy: a phone launched two versions behind has already used up part of its support window."
+  },
+  "security_updates_years": {
+   "type": "integer",
+   "min": 0,
+   "max": 10,
+   "unit": "years",
+   "label": "Security update window",
+   "group": "software",
+   "note": "How many years the maker commits to security patches. This is the fact that decides how long the phone stays safe to bank on, and it is often shorter than the OS upgrade promise."
+  },
+  "ui_skin": {
+   "type": "string",
+   "label": "Interface",
+   "group": "software",
+   "note": "The maker's software layer on top of Android, such as One UI or HyperOS. It decides the look, the bundled apps and, on some brands, whether the phone shows ads in system apps."
+  },
+  "dimensions_mm": {
+   "type": "string",
+   "label": "Dimensions",
+   "group": "physical",
+   "note": "Height x width x thickness in millimetres. Worth reading with the weight: two phones of the same screen size can feel very different in the hand."
+  },
+  "build_material": {
+   "type": "string",
+   "label": "Build",
+   "group": "physical",
+   "note": "What the frame and back are made of, such as an aluminium frame with a glass back. Plastic backs survive drops better; glass and metal feel more solid and allow wireless charging."
+  },
+  "ip_rating": {
+   "type": "enum",
+   "label": "Water and dust resistance",
+   "group": "physical",
+   "values": [
+    "None",
+    "IP52",
+    "IP53",
+    "IP54",
+    "IPX4",
+    "IP64",
+    "IP65",
+    "IP66",
+    "IP67",
+    "IP68",
+    "IP69"
+   ],
+   "note": "Sealing against dust and water, tested to a lab standard. The first digit is dust, the second water: IP67 survives brief immersion, IP54 only handles splashes. Ratings cover fresh water and are not a warranty against liquid damage.",
+   "values_note": {
+    "None": "No stated sealing. Treat any liquid contact as a risk.",
+    "IP52": "Limited dust protection; resists dripping water at a slight angle.",
+    "IP53": "Limited dust protection; resists light spray.",
+    "IP54": "Limited dust protection; resists splashes from any direction.",
+    "IPX4": "No stated dust rating; resists splashes from any direction.",
+    "IP64": "Fully dust tight; resists splashes from any direction.",
+    "IP65": "Fully dust tight; resists low-pressure water jets.",
+    "IP66": "Fully dust tight; resists powerful water jets.",
+    "IP67": "Fully dust tight; survives immersion to 1 m for 30 minutes.",
+    "IP68": "Fully dust tight; survives immersion beyond 1 m, to the depth the maker states.",
+    "IP69": "Fully dust tight; survives high-pressure, high-temperature jets."
+   }
+  },
+  "colours": {
+   "type": "list",
+   "label": "Colours",
+   "group": "physical",
+   "note": "The finishes this model is sold in. Some colours are exclusive to one storage tier or one region."
+  },
+  "speakers": {
+   "type": "enum",
+   "label": "Speakers",
+   "group": "audio",
+   "values": [
+    "Mono",
+    "Stereo",
+    "Stereo (earpiece + bottom)",
+    "Quad"
+   ],
+   "note": "How many speakers carry sound. Stereo pairs sound noticeably fuller for video and games; many stereo phones use the earpiece as the second channel, so the two sides are not equally loud."
+  },
+  "audio_codecs": {
+   "type": "list",
+   "label": "Bluetooth audio codecs",
+   "group": "audio",
+   "values": [
+    "SBC",
+    "AAC",
+    "aptX",
+    "aptX HD",
+    "aptX Adaptive",
+    "LDAC",
+    "LHDC",
+    "LC3"
+   ],
+   "note": "How the phone compresses audio sent to wireless headphones. Both ends must support a codec for it to be used, otherwise both fall back to SBC, the basic one."
+  },
+  "fingerprint": {
+   "type": "enum",
+   "label": "Fingerprint sensor",
+   "group": "sensors",
+   "values": [
+    "None",
+    "Rear-mounted",
+    "Side-mounted",
+    "Under-display optical",
+    "Under-display ultrasonic"
+   ],
+   "note": "Where the fingerprint reader sits and how it works. Ultrasonic under-display readers cope better with wet or dry fingers than optical ones, which light up the screen to take a picture of the fingerprint."
+  },
+  "sensors": {
+   "type": "list",
+   "label": "Sensors",
+   "group": "sensors",
+   "values": [
+    "Accelerometer",
+    "Gyroscope",
+    "Proximity",
+    "Compass",
+    "Barometer",
+    "Ambient light",
+    "Colour spectrum",
+    "Infrared thermometer",
+    "Hall sensor"
+   ],
+   "note": "The sensors fitted. A gyroscope is the one to check if you care about VR or camera stabilisation, and cheaper phones sometimes emulate a compass in software instead of fitting one."
+  },
+  "spec_url": {
+   "type": "string",
+   "label": "Official spec sheet",
+   "group": "documents",
+   "note": "A link to the maker's own specification page for this exact model. It is the source a disputed fact here should be checked against, and it outranks any marketplace listing."
+  },
+  "spec_checked_version": {
+   "type": "string",
+   "label": "Spec sheet version",
+   "group": "documents",
+   "note": "Which revision of the maker's spec page these facts were read from, as a date or version. Makers quietly edit spec pages after launch, so this records which wording was in front of us."
+  }
+ },
+ "not_in_this_repo": [
+  "price",
+  "mrp",
+  "in_stock",
+  "rating",
+  "review_count",
+  "rank",
+  "antutu_score",
+  "benchmark_score",
+  "best_for",
+  "discontinued",
+  "launch_month"
+ ],
+ "sanity": {
+  "note": "RAM and storage come from the title on Indian marketplace listings — '(8 GB RAM)' on phones, '(16 GB/512 GB SSD/…)' on laptops. Both patterns are needed; missing the second silently produced 134 laptops with no RAM.",
+  "os_updates": "Empty on every record today. It comes from the maker's own site, and it is the most useful fact this category could carry."
+ },
+ "groups": [
+  {
+   "id": "identity",
+   "label": "Identity & launch"
+  },
+  {
+   "id": "display",
+   "label": "Display"
+  },
+  {
+   "id": "performance",
+   "label": "Processor & memory"
+  },
+  {
+   "id": "camera",
+   "label": "Camera"
+  },
+  {
+   "id": "battery",
+   "label": "Battery & charging"
+  },
+  {
+   "id": "connectivity",
+   "label": "Network & connectivity"
+  },
+  {
+   "id": "software",
+   "label": "Software & support"
+  },
+  {
+   "id": "physical",
+   "label": "Body & build"
+  },
+  {
+   "id": "audio",
+   "label": "Sound"
+  },
+  {
+   "id": "sensors",
+   "label": "Sensors & security"
+  },
+  {
+   "id": "documents",
+   "label": "Official sources"
+  }
+ ],
+ "not_in_this_repo_why": {
+  "discontinued": "A maker does not publish whether it has stopped making a model. 0 of 1,227 slots across appliances, phones, networking and printers, and recorded as unpublished in sources/manufacturers/brands.json.",
+  "launch_month": "Not published by any of the five makers tested. 0 of 1,227 slots. vivo’s apparent dates are the IEC 60529-2013 standard cited in an IP68 note, not a launch."
+ }
 }
