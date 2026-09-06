@@ -309,6 +309,28 @@
       "what_is_available": "sources/mitc/card_pages.json already holds per-card URLs for 15 issuers, and those pages are live. Fetched the first card page of five issuers through polite.py: SBI Card 987 KB with joining fee 42 / annual fee 263 / cash advance 3 / lounge 594 occurrences; ICICI 465 KB with joining fee 6, annual fee 7, lounge 41; Axis 692 KB with joining and annual fee 3 each. HDFC's page is 1.2 MB but names no fee at all.",
       "verdict": "Real, reachable, unfinished work — per-card fee pages that were discovered but never parsed. Not dispatched today only because cards is 11,115 slots, 0.4% of the repo, and five agents were already running.",
       "caution": "A page mentioning 'annual fee' 263 times is mostly navigation and marketing. The fee must be read from a labelled fee table, not counted in prose."
+    },
+    "nova_group_derivation_RESULT": {
+      "checked": "2026-09-06",
+      "verdict": "the derivation worked, and the refusals are the point",
+      "method": "Implemented Open Food Facts' own published NOVA markers, validated on a held-out half of the 4,107 records that carry both an OFF-assigned group and an ingredient list. Split 50/50 by record-id hash; rules developed only against the other half.",
+      "held_out_scores": {
+        "group_1": "precision 96.49%, recall 48.4% (220 tp, 8 fp) — WRITTEN",
+        "group_4": "precision 98.09%, recall 82.8% (926 tp, 18 fp) — WRITTEN",
+        "group_2": "not separable from group 1 at all — REFUSED",
+        "group_3": "50.8% precision, a coin flip — REFUSED"
+      },
+      "overall": "97.78% accuracy where written, at 58.6% coverage, versus a crude heuristic's 81% at full coverage",
+      "written": "12,464 records of 26,155 carrying ingredients; 13,691 declined rather than guessed",
+      "distribution_check": "As 1-vs-4 the result is 31.2% / 68.8% against OFF's own 27.8% / 72.2% on the labelled set — no bug signal.",
+      "why_groups_2_and_3_were_refused": "Group 2 cannot be told from group 1 by ingredients: ghee reads as 'milk fat', mustard oil as 'mustard seeds'. Applying OFF's 2-vs-3 escalation to the declined records scores 50.8% precision, and 163 of those would be ULTRA-PROCESSED foods labelled merely 'processed' — the error that actually misleads someone reading a food registry.",
+      "audit_catches": [
+        "truncated lists declaring under 100% ('Peanuts (18%)') were wrong 12 times in 16",
+        "72 combo packs with placeholder lists ('... :- NA') read as whole foods",
+        "'Contains Wheat (Gluten)' allergen notices made plain semolina ultra-processed",
+        "markers invented beyond OFF's published list (malt extract, raising agent, sugar syrup) cost precision and were removed"
+      ],
+      "fill": "grocery 39.65% -> 40.17%; overall 41.04% -> 41.44%"
     }
   }
 }
