@@ -277,6 +277,14 @@
       },
       "conclusion": "Blinkit remains the only Indian source found that both permits crawling and publishes the FSS-mandated pack label as structured data, and it has been crawled to completion (90,621 of 90,628 pages). Grocery's ceiling is a property of what Indian retailers publish, not of work left undone.",
       "what_would_change_it": "A retailer or brand that publishes the mandated panel as structured page data and permits crawling. None of the ten sources above does. The remaining levers inside the repo are derivation (nova_group from ingredient lists, in progress) and the medicines schema decision, which would release roughly 30,000 facts already on disk."
+    },
+    "financial_regulators_tested": {
+      "checked": "2026-09-06",
+      "irdai": "www.irdai.gov.in — robots.txt DISALLOWS, including its own robots.txt path. So insurance's mandated disclosures cannot be taken from the regulator; the insurer's own documents (already mirrored) are the only route.",
+      "rbi": "www.rbi.org.in — HTTP 418. An explicit refusal to non-browser clients, not a misconfiguration. Banking facts therefore come from each bank's own published schedule of charges, which is what the banking crawler already does.",
+      "sebi": "www.sebi.gov.in — robots permits everything except /js and /css. This is already the source of the 1,283 Scheme Information Documents on disk, and it is the one open financial regulator of the three.",
+      "policyholder_gov_in": "DNS does not resolve.",
+      "implication": "Two of the three financial regulators refuse crawling, so cards, insurance and banking depend on issuer-published documents rather than a central register. That is why those domains are document-harvesting problems and funds is not."
     }
   }
 }
