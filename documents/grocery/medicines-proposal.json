@@ -1,0 +1,230 @@
+{
+  "title": "Medicines and medical devices are being scored against a food nutrition sheet",
+  "written": "2026-09-06",
+  "status": "proposal — schemas/ is frozen by a snapshot test, so this is NOT applied",
+  "problem": "grocery's category \"Health & supplements\" holds 11,128 records and is scored against a 36-field food nutrition spec sheet. Roughly half of them are licensed medicines (a strip of 10 tablets, a dry syrup, a metered-dose inhaler) and a further 571 are devices and PPE (N95 masks, hot water bags, contact lenses). Neither will ever have energy_kcal_100g, nova_group, palm_oil or serving_size. The category fills at 19.93% against a grocery domain average of 39.65%, and the shortfall is almost entirely these two populations being asked food questions.",
+  "measured": {
+    "category_records": 11128,
+    "category_fill": "79836/400608 = 19.93%",
+    "grocery_fill_now": "951,864 / 2,400,814 = 39.65%",
+    "repo_fill_now": "1,277,874 / 3,113,753 = 41.04%",
+    "grocery_fill_after": "951,579 / 2,276,336 = 41.80%",
+    "repo_fill_after": "1,277,589 / 2,989,275 = 42.74%",
+    "note": "No attribute value is removed by this change. E7 validates attributes against the domain's `fields` dictionary, not against a category's `spec`, so a nutrition value already recorded on a medicine stays on the record and stays valid; it simply stops being a question the medicine's product page asks. 285 recorded values move out of the counted slots this way, out of 79,836."
+  },
+  "classification": {
+    "principle": "Every rule reads the product NAME. Manufacturer identity is deliberately NOT a rule: Cipla sells both Telmiget and a protein shake, so brand alone would misfile both directions.",
+    "rules_in_priority_order": [
+      {
+        "rule": "drug molecule / drug class / disease word",
+        "verdict": "medicine",
+        "why": "Food labelling law does not permit a molecule name or a disease claim on a supplement.",
+        "matched": 151
+      },
+      {
+        "rule": "prescription dosage form",
+        "verdict": "medicine",
+        "why": "'strip of N', dry syrup, oral suspension, respules, rotacaps, metered-dose inhaler, eye/ear/nasal drops. Checked BEFORE food vocabulary so a flavoured paediatric cough syrup reads as the medicine it is.",
+        "matched": 4378
+      },
+      {
+        "rule": "medicated or percent-strength topical",
+        "verdict": "medicine",
+        "why": "'Medicated' or a % strength turns a soap or shampoo into a drug product (Ketocip 2% Shampoo).",
+        "matched": 193
+      },
+      {
+        "rule": "dose strength + tablet/capsule/drops form",
+        "verdict": "medicine",
+        "why": "A mg/mcg/IU strength on a hard dosage form with no food vocabulary anywhere in the name.",
+        "matched": 417
+      },
+      {
+        "rule": "device / PPE vocabulary",
+        "verdict": "device",
+        "why": "Masks, bandages, hot water bags, contact lenses, pepper spray, thermometers. Neither food nor medicine.",
+        "matched": 571
+      },
+      {
+        "rule": "food / nutraceutical vocabulary",
+        "verdict": "supplement",
+        "why": "Whey, creatine, gummies, ashwagandha, shilajit, a named vitamin or mineral. This is what keeps 'Fish Oil 1000 mg' and 'HealthAid 500 mg Calcium Supplement' out of medicines — a bare mg number is NOT evidence of a drug.",
+        "matched": 3395
+      }
+    ],
+    "counts": {
+      "supplement": 3395,
+      "device": 571,
+      "unclear": 1707,
+      "medicine": 5139,
+      "cosmetic": 95,
+      "topical-relief": 221
+    },
+    "examples": {
+      "medicine": [
+        "Refresh Tears 0.5% Bottle of 10 ml Eye Drops",
+        "Abvida M 50/500mg Strip Of 15 Tablets",
+        "Actrapid Flexpen 100iu Pre Filled Pen of 3ml Solution for Injection",
+        "Actrapid Flexpen- 100 Iu Injection 5x 3 Ml",
+        "Actrapid HM Penfill 100iu Cartridge of 3ml Solution for Injection",
+        "Amoxyclav 375 mg Tablets",
+        "Amoxyclav 625mg Strip Of 10 Tablets",
+        "Arachitol Nano 60k Sugar Free Bottle Of 5ml Solution",
+        "Arachitol Nano 60k Sugar Free Bottle of 5ml Solution (Pack of 4)",
+        "Ascabiol Bottle Of 120ml Emulsion",
+        "Bactrim Bottle Of 50ml Suspension",
+        "Bactrim DS Tablets"
+      ],
+      "supplement": [
+        "1MLFIX Anti-Oxidant Selenium Support Supplement Drops",
+        "1MLFIX Cholesterol Support Liquid Supplement",
+        "1Mlfix Heprotect Liver Care Supplement Tonic",
+        "1Mlfix Heptogen Advanced Liver Care Supplement Tonic",
+        "1MLFIX Lactation Support Women's Supplement Drops",
+        "Soya chunks",
+        "2X Nutrition Creatine Monohydrate",
+        "2X Nutrition High-performance Pre Workout (Mango)",
+        "360 Love Apple Cider Vinegar Effervescent Tablets",
+        "4 U Well Shinkease Weight Management Supplement",
+        "A TATA Product - Organic India Amla Powder",
+        "A TATA Product - Organic India Ashwagandha Capsules"
+      ],
+      "device": [
+        "3M 9513 Respirator K N95 Mask",
+        "3M Respirator N95 Mask",
+        "Accu-Chek Active Blood Glucometer Kit (10 Test strips Free)",
+        "Accu-Chek Active Glucometer Test Strips",
+        "Addmax Electric Heating Pad (XL)",
+        "Addmax Electric Orthopaedic Heating Pad (Grey)",
+        "Adify Rubber Hot Water Bag (Teal Green)",
+        "Adify Velvet Electric Hot Water Bag (Grey)",
+        "Aegon Hot Water Bag",
+        "AeroFlowTape Nasal Strips",
+        "Agarwals Absorbent Gauze Swab",
+        "Aksobha Herbal Microwavable Eye Heating Pad"
+      ],
+      "cosmetic": [
+        "Hydent Pro Foaming Fluoridated Toothpaste",
+        "Ketomaster Bottle of 100 ml Shampoo",
+        "Salisia KT Shampoo",
+        "Xtra Denser Bottle of 90 ml Hair Serum",
+        "Ketokem CT Box of 75 gm Soap",
+        "New Orogard Fresh Mint Flavour Bottle of 100 ml Mouth Wash",
+        "Amrutveni LiceQit Anti Lice Treatment Shampoo",
+        "Tarscalp Bottle of 100 ml Shampoo",
+        "Atogla Resyl Body Moisturizer for Sensitive Skin Bottle of 250 ml Lotion",
+        "Ketogime Ct Soap 75gm",
+        "Belzole Box of 75 gm Soap",
+        "Well Grow Gold Bottle of 60 ml Hair Serum"
+      ],
+      "topical-relief": [
+        "Addmax Orthopaedic Electric Heating Pain Relief Belt (Grey)",
+        "Sumo Plus Pain Relief Balm 30 gm",
+        "Amrutanjan Advanced Back Pain Relieving Roll On",
+        "Amrutanjan Extra Power Pain Relieving Balm",
+        "Amrutanjan Headache Pain Relieving Roll On",
+        "Amrutanjan Maha Strong Pain Relieving Balm",
+        "Amrutanjan Strong Pain Relieving Balm",
+        "Antson Herbal Knee Pain Relief Patch",
+        "Assure Heal-Pain Fast Pain Relief Spray",
+        "Astrotalk Joint & Muscular Pain Relief Massage Oil",
+        "Aswini Hiran Strong Pain Relieving Oil",
+        "Aushadhi Joint-Jod Pain Relieving Oil"
+      ],
+      "unclear": [
+        "3M Corded Disposable Ear Plug",
+        "Calak Bottle of 100 ml Lotion",
+        "Salytar Solution 100 ml",
+        "A TATA Product - Organic India Wheat Grass Powder",
+        "Citro Soda UTI Cranberry Flavour Sachet of 5gm Oral Powder",
+        "Crema Ano Cream",
+        "Cremaffin Fresh Tablets",
+        "Cremaffin Plus Refreshing Flavour Sugar Free Emulsion",
+        "Cremagel L Gel",
+        "Cremagel Tube Of 30gm Gel",
+        "Creon 10000 Tablets",
+        "Curenext Tube of 50 gm Oral Gel"
+      ]
+    }
+  },
+  "proposed_categories": {
+    "Medicines": {
+      "required": [
+        "quantity"
+      ],
+      "columns": [
+        "quantity",
+        "manufacturer",
+        "country_of_origin"
+      ],
+      "facets": [
+        "brand",
+        "manufacturer"
+      ],
+      "spec": [
+        "quantity",
+        "shelf_life",
+        "storage_instructions",
+        "packaging_type",
+        "manufacturer",
+        "marketed_by",
+        "country_of_origin",
+        "veg",
+        "fssai_licence",
+        "ingredients_order",
+        "allergens",
+        "additives",
+        "preservatives",
+        "artificial_colours",
+        "artificial_flavours"
+      ],
+      "why_required_is_unchanged": "Keeping required at ['quantity'] means no record becomes an E6 error on the move. Only 3 of the 5,139 medicines lack quantity and all 3 are already status:candidate."
+    },
+    "Medical devices": {
+      "required": [
+        "quantity"
+      ],
+      "columns": [
+        "quantity",
+        "manufacturer",
+        "country_of_origin"
+      ],
+      "facets": [
+        "brand",
+        "manufacturer"
+      ],
+      "spec": [
+        "quantity",
+        "shelf_life",
+        "storage_instructions",
+        "packaging_type",
+        "manufacturer",
+        "marketed_by",
+        "country_of_origin"
+      ],
+      "why": "A mask, a crepe bandage and a hot water bag answer pack, maker and origin questions, and nothing else on the food sheet."
+    }
+  },
+  "fields_this_needs": {
+    "new_fields_required": [],
+    "note": "Both proposed spec sheets are built ONLY from fields already declared in schemas/grocery.json, so this proposal adds no new field and cannot retype, narrow or drop an existing one. The ideal medicine sheet would also ask composition, strength, dosage form, prescription-required and marketing licence — those are five NEW fields and a larger change; they are deliberately left out of this proposal so the category move can be judged on its own."
+  },
+  "blockers": [
+    "schemas/grocery.json is frozen: src/schemas.test.ts asserts every domain's `required` map against src/required.snapshot.json. Adding the two categories adds two keys to the grocery map, so src/required.snapshot.json must be updated in the same commit. The test's own failure message sanctions exactly this.",
+    "Until the schema declares the categories, moving a record to \"Medicines\" is an E5 error ('category is not declared'). So the reclassification cannot be applied before the schema change is accepted."
+  ],
+  "left_alone": {
+    "unclear": {
+      "count": 1707,
+      "why": "No decisive signal in the name. Includes Ayurvedic proprietary medicines ('Himalaya Tentex Forte Tablets') that are genuinely hard to call without the pack."
+    },
+    "cosmetic": {
+      "count": 95,
+      "why": "Grooming products. About 23 of them are antifungal shampoos and soaps whose brand stems (Ketocip, Zocon, Candidox) are drugs, but naming them needs a brand-stem list I could not verify without fetching, so they stay put."
+    },
+    "topical-relief": {
+      "count": 221,
+      "why": "OTC counter-irritant rubs, balms and roll-ons (Moov, Zandu Balm, Volini). Drugs by licence in India but they read as personal care; they deserve their own decision rather than being forced either way."
+    }
+  }
+}
