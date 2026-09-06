@@ -120,5 +120,20 @@
   "effect": "panel coverage 73.9% -> 76.1%; overall fill 34.7% -> 35.07%",
   "correction": "I described this as potentially invalidating the 45% grocery ceiling, on a 19.3% figure taken from a smaller and differently-filtered sample. The corpus-wide number is 2.2%. The ceiling analysis stands: 23.9% of food packs carry no panel in any form, structured or prose.",
   "what_did_not_transfer": "The same technique applied to beauty yields almost nothing. Description and Key Features are unread on 80.7% and 64.7% of pages, but the facts in them are marketing claims rather than declarations \u2014 dermatologist_tested appears in 2.8%, vegan 2.2%, pH 0.3%. `Nutrition Information` worked because it is a labelled panel; a claim in a description is not the same kind of statement."
+ },
+ "final_state_after_the_complete_crawl": {
+  "overall_fill": 0.4153,
+  "records": 93113,
+  "facts": 1263390,
+  "checked_at_the_end": {
+   "nova_group_looks_like_a_regression_and_is_not": "0% on Blinkit-crawled records against 44.8% on the older Open Food Facts import. The parser is right: the schema says NOVA is 'derived from the ingredient list by a defined method, not our judgement, and is recorded with its source'. OFF publishes it; a Blinkit page does not. All 4,450 values trace to openfoodfacts.org. Computing it ourselves would be our judgement with no source to cite.",
+   "12,326_grocery_records_have_no_blinkit_page": "They are the Open Food Facts import and were never in Blinkit's inventory, so a complete crawl could not reach them. Only 178 share an exact normalised brand+name with a Blinkit record and NONE carries a GTIN, so there is no bridge \u2014 the same island as the 862 Open Beauty Facts records.",
+   "the_low_fields_are_dilution_not_ceiling_for_two_of_them": "energy_kcal_100g is 63.3% on crawled records against 17.0% on uncrawled, and sugars_100g 57.6% against 15.7%. Both sit below 57% overall only because the uncrawled island drags them down."
+  },
+  "browser_path_costed": {
+   "works": "Samsung renders fully at the SKU URL, e.g. /galaxy-a36-5g-awesome-lavender-128gb-sm-a366elvjins/",
+   "worth": "36 Samsung + 33 Motorola + 16 OnePlus + 12 Apple + 9 Nothing = 106 records, ~3,180 values, +0.10% overall, at roughly 4 browser calls each",
+   "why_so_small": "phones is 25,068 of 3,041,841 slots \u2014 0.8% of the repo, against grocery's 64%"
+  }
  }
 }
