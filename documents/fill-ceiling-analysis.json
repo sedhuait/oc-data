@@ -436,6 +436,27 @@
       "lock_in_deliberately_tiny": "Only 22 values. ~1,100 open-ended schemes could have been written 0, but a SID that never mentions a lock-in has not STATED it has none — that would be a derivation wearing a reading's clothes.",
       "riskometer_confirmed_absent": "not attempted; my measurement that the level is a graphic in ~90% of SIDs was confirmed, not guessed around.",
       "operational_finding": "26 SIDs are unreadable — diagnosed as truncated downloads with damaged xref tables (no %%EOF), NOT scans. They are recoverable by re-fetching if those schemes are wanted."
+    },
+    "netmeds_and_the_pharmacy_class": {
+      "checked": "2026-09-07",
+      "netmeds": {
+        "verdict": "USABLE FOR MEDICINES — crawl dispatched",
+        "robots": "disallows carts, accounts and faceted /products/?l1* URLs, NOT /product/ detail pages. Fetcher.allowed() returns True for a product URL and the sitemap.",
+        "scale": "sitemap.xml is an index of 657 children, 646 of them /sitemap/products/N/page.sitemap.xml at 500 URLs each — roughly 323,000 products. A 2,000-URL sample across 4 sitemaps is ~37% medicines, 15% beauty, 7% nutrition.",
+        "what_a_medicine_page_carries": "genericName-Metformin (the active pharmaceutical ingredient), marketerName, manufacturer as schema.org JSON-LD, 'Rx required', Therapeutic Indication, and categoryNameLevel2. Verified on /product/aciformin-500-tablet-10s-m9pl5y-10230093.",
+        "where_it_goes_without_a_schema_change": "`ingredients` is a TOP-LEVEL array, not a schema-validated attribute, and is already used on 2,216 records in this very category — including Ayurvedic products whose entries are botanical actives. An active pharmaceutical ingredient is the same kind of fact."
+      },
+      "netmeds_does_NOT_publish_nutrition_panels": "Tested directly on Horlicks Lite 450 g, a product whose pack carries a full mandated panel: Energy 0 occurrences, Carbohydrate 0, 'per 100' 0, 'Nutrition Facts' 0 across 3.5 MB. So Netmeds does nothing for the ~270,500 empty grocery panel slots; it is a medicines source only.",
+      "other_pharmacies": {
+        "PharmEasy": "robots.txt carries a bare Disallow: / — excluded",
+        "1mg": "product paths are permitted by robots, but a product fetch timed out. Not pursued.",
+        "Apollo Pharmacy": "product paths permitted, but /sitemap.xml 404s. Its real index would have to be found from robots.txt, never guessed."
+      },
+      "barcode_lookup_services_tested": {
+        "GS1 India": "robots permits everything, but gs1india.org is a CORPORATE site — its 55-URL sitemap is careers, blog and product-marketing pages. DataKart is their paid subscription, not an open lookup. Consistent with the earlier GS1 GDSN verdict: authoritative, subscription-gated.",
+        "Smart Consumer (smartconsumer.gov.in)": "DNS does not resolve. Not a refusal — the host is simply gone.",
+        "DataKart (datakart.com)": "TLS certificate verification fails. Not a refusal either."
+      }
     }
   }
 }
