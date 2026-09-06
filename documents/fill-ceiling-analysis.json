@@ -471,5 +471,26 @@
       "the_pattern_now_established": "Fifteen Indian sources have been tested for the FSS-mandated nutrition panel. Exactly one publishes it as structured page data while permitting the crawl: Blinkit, which is already crawled to completion at 90,621 of 90,628 pages. Quick-commerce rivals either refuse (BigBasket, Swiggy, Milkbasket, Otipy, Nature's Basket), publish no panel (JioMart, Netmeds), serve nothing to a non-browser client (Zepto), or sell fresh produce that carries no panel at all (FreshToHome, Licious, Country Delight). Brand-owned food sites are campaign pages, not catalogues.",
       "conclusion": "The ~270,500 empty grocery panel slots are not reachable by crawling. That is now a measured result across fifteen sources rather than an assumption. The medicines gap, by contrast, IS reachable — Netmeds publishes the active ingredient — and that crawl is running."
     }
+  },
+  "where_the_empty_slots_actually_are": {
+    "measured": "2026-09-07",
+    "method": "every empty slot in the repo, grouped by domain/field and ranked",
+    "headline": "1,812,448 empty slots of 3,114,390. The top 22 empty fields are ALL grocery and account for 63% of every empty slot in the repo. Any argument about reaching 80% is an argument about grocery.",
+    "top_fields": {
+      "grocery/organic": "69,609 empty (1% filled) — 3.8% of all empties",
+      "grocery/fortified": "67,147 empty (0% filled)",
+      "grocery/serving_per_pack": "60,928 empty (14%)",
+      "grocery/additives": "60,772 empty (14%)",
+      "grocery/energy_kcal_serving": "58,734 empty (13%)"
+    },
+    "MY_ORGANIC_VERDICT_WAS_WRONG": {
+      "what_I_said": "Blinkit's 'Jaivik Bharat Certification' reads 'No' on ~95% of pages, so it is an unfilled catalogue default and must not be read. I refused it.",
+      "what_the_test_shows": "Over 8,922 cached pages carrying the attribute: products whose NAME contains 'Organic' read 148 Yes / 125 No (54.2% certified); every other product reads 17 Yes / 8,632 No (0.20%). That is **276x more likely to be certified when the name says Organic**.",
+      "why_that_settles_it": "A blanket default would read 'No' everywhere. This discriminates sharply, in exactly the direction the schema note describes — 'Hillpure Organic Organic Hemp Seeds' reading No is Jaivik Bharat certification genuinely absent from a product using 'organic' as marketing, which is the distinction the field exists to record.",
+      "cost": "roughly 69,000 slots left empty on an inference I never tested",
+      "status": "a crawl is running to verify independently and apply it"
+    },
+    "the_other_high_empty_fields_are_genuinely_sparse": "Checked the same way over a 2,000-page sample: no attribute at all for preservatives, artificial colours, artificial flavours, additives or fibre; 'No Palm Oil' on 2%, 'Allergen Information' on 3%. 'No. of Servings' appears on 1% and mixes counts with serving sizes ('33 Servings' beside '1 scoop per serving'), so it is not usable. Jaivik at 65% is the outlier, not the pattern.",
+    "counting_top_level_ingredients_would_not_help": "39,701 records carry a top-level `ingredients` array and NO category spec sheet includes that field, so 40% of the catalogue holds an ingredient list the fill metric cannot see. Adding it to grocery and beauty spec sheets moves overall fill only 41.80% -> 41.88%, because it adds 89,232 slots to reach 39,701 filled ones. Worth knowing before anyone proposes it as a lever."
   }
 }
