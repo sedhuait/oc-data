@@ -565,6 +565,22 @@
       "why_they_stay_excluded": "No category in schemas/beauty.json or schemas/grocery.json fits any of them, so all 11,865 would fall to `_default` — a formulated-cosmetic sheet asking for INCI, SPF and PA, or a food nutrition sheet. That is the same defect that put 5,139 medicines on a food sheet. My own cabbage argument applies verbatim; the boundary simply sits at sub-category level rather than top-level, and I had not looked there.",
       "what_the_crawl_actually_did": "4 pages fetched (1 new prid plus 3 previously-failed that now succeed), 3 new beauty records, 0 new grocery. 16,543 of 16,546 parsed beauty records collided with records already held. Fill: overall unchanged at 43.3739%; beauty ticks DOWN 0.0001pp because the 3 new records filled 29 of 67 slots — 43.3%, essentially the domain average. Exactly the arithmetic I predicted before the run.",
       "a_narrow_gap_reported_not_fixed": "A three-soap gift set ('3 x 125 g') has its three separate ingredient declarations merged into one 34-item array, because the parser deliberately treats 'N x M g' as a multipack of ONE product and has an explicit test pinning that. The repo already holds records of this shape, so changing the rule would alter committed records — a separate decision."
+    },
+    "excluded_subcategories_revisited": {
+      "checked": "2026-09-07",
+      "the_blanket_refusal_was_too_broad": "The 11,865 excluded products were refused on the grounds that they would fall to `_default` and be scored against the wrong sheet. That is right for a toothbrush and wrong for toothpaste. beauty's `_default` asks 17 fields — size, quantity, form, texture, actives, key_ingredients, ingredients_order, skin, flags, pao_months, shelf_life, storage_note, manufacturer, marketed_by, country_of_origin, spec_url, spec_checked_version. It does NOT demand SPF or PA. A formulated cosmetic answers that honestly.",
+      "measured_split": {
+        "face-cosmetics": "1,799 products, 545 formulated (30%)",
+        "oral-care": "795, 381 (47%)",
+        "eye-makeup": "1,025, 131 (12%)",
+        "nail-cosmetics": "1,063, 96 (9%)",
+        "feminine-care": "871, 71 (8%)",
+        "antiseptic-liquid": "19, 18 (94%)",
+        "total": "~1,242 formulated against ~4,300 implements"
+      },
+      "what_stays_out": "Brushes, combs, clips, tweezers, files, cases, kits, applicators, sponges, tongue cleaners, sanitary pads, adult diapers, knee braces and gift hampers — none has a size, form, texture or ingredient list, so none can answer the sheet. Also still out: the sixteen top-level categories never inventoried.",
+      "the_boundary_held": "A crawl is running to take the formulated subset only, and it is instructed NOT to add a category — if its honest conclusion is that toothpaste needs an Oral care category, it writes a proposal and stops rather than forcing these into a category that does not fit.",
+      "expectation": "~1,240 new records at roughly the domain average will move overall fill well under a point and could lower beauty if they are sparser. Recorded before the result."
     }
   }
 }
