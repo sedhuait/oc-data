@@ -457,6 +457,19 @@
         "Smart Consumer (smartconsumer.gov.in)": "DNS does not resolve. Not a refusal — the host is simply gone.",
         "DataKart (datakart.com)": "TLS certificate verification fails. Not a refusal either."
       }
+    },
+    "food_platforms_round_two": {
+      "checked": "2026-09-07",
+      "tested": {
+        "FreshToHome": "robots permits and it publishes a 4,746-URL sitemap, but it sells FRESH fish and meat — no packaged panel. Its 'product' URLs are city landing pages (adibatla, adilabad). A sample page has FSSAI 257 times and Energy 0, because the licence is the seller's, not a pack declaration.",
+        "Milkbasket": "robots.txt carries a bare Disallow: / — excluded",
+        "Otipy": "robots.txt disallows its own robots.txt path — no permission established",
+        "Nature's Basket": "same — robots.txt disallows its own path",
+        "Licious / Country Delight": "reachable, but fresh meat and dairy subscription — no packaged panels",
+        "Amazon India": "robots permits /dp/ paths, but this repo stores NO ASINs, so there is no join key. Amazon product data is the affiliate API's job here, and scraping detail pages is a different proposition from a sitemap-published catalogue. Not pursued."
+      },
+      "the_pattern_now_established": "Fifteen Indian sources have been tested for the FSS-mandated nutrition panel. Exactly one publishes it as structured page data while permitting the crawl: Blinkit, which is already crawled to completion at 90,621 of 90,628 pages. Quick-commerce rivals either refuse (BigBasket, Swiggy, Milkbasket, Otipy, Nature's Basket), publish no panel (JioMart, Netmeds), serve nothing to a non-browser client (Zepto), or sell fresh produce that carries no panel at all (FreshToHome, Licious, Country Delight). Brand-owned food sites are campaign pages, not catalogues.",
+      "conclusion": "The ~270,500 empty grocery panel slots are not reachable by crawling. That is now a measured result across fifteen sources rather than an assumption. The medicines gap, by contrast, IS reachable — Netmeds publishes the active ingredient — and that crawl is running."
     }
   }
 }
