@@ -2,16 +2,16 @@
  "counts": {
   "issuers_with_a_matrix": 1,
   "issuers_without_records": 6,
-  "rows_found": 22,
-  "rows_matched": 4,
-  "rows_unmatched": 18
+  "rows_found": 17,
+  "rows_matched": 6,
+  "rows_unmatched": 11
  },
  "generated": "2026-09-06",
  "generator": "sources/mitc/parse_fee_matrix.py",
- "note": "PROPOSED per-card fees read from the fee matrix in each issuer's MITC, by column position rather than by regex over flattened text. Nothing here is a record yet. A blank cell is left null; only an explicit Nil/Free becomes 0. A row that could not be matched to exactly one card is dropped rather than guessed, and every such row is listed in `unmatched` so the miss rate is visible. Fees are financial figures: they stay candidates until a person checks them against the PDF.",
+ "note": "PROPOSED per-card fees read from the fee matrix in each issuer's MITC, by column position rather than by regex over flattened text. Nothing here is a record yet. A blank cell is left null; only an explicit Nil/Free becomes 0. A row that could not be matched to exactly one card is dropped rather than guessed, and every such row is listed in `unmatched` so the miss rate is visible. A row naming several cards states one fee schedule for all of them, so it is split and each card gets the fee, with `row_as_printed` keeping the line as the PDF set it. Fees are financial figures: they stay candidates until a person checks them against the PDF.",
  "proposals": [
   {
-   "card": "Unparalleled Privileges for a Life of Luxury Times Black Credit Card",
+   "card": "Times Black ICICI Bank Credit Card",
    "fields": {
     "addon_card_fee_inr": {
      "cell": "3,500*****",
@@ -35,12 +35,13 @@
      "why": "joining_fee_inr column of the per-card fee matrix, read by column position"
     }
    },
-   "id": "oc_f99d440b2f5e",
+   "id": "oc_5255a2d5effb",
    "issuer": "ICICI Bank",
    "mitc_checked": "2026-09-05",
    "mitc_sha": "7727324c30b06d94",
    "mitc_url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/mitc_cc.pdf",
    "row": "Times Black ICICI Bank Credit Card",
+   "row_as_printed": null,
    "slug": "icici-bank"
   },
   {
@@ -74,10 +75,11 @@
    "mitc_sha": "7727324c30b06d94",
    "mitc_url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/mitc_cc.pdf",
    "row": "ICICI Bank Coral Credit Card",
+   "row_as_printed": null,
    "slug": "icici-bank"
   },
   {
-   "card": "Cricket Enthusiasts Chennai Super Kings Credit Card",
+   "card": "Chennai Super Kings ICICI Bank Credit Card",
    "fields": {
     "addon_card_fee_inr": {
      "cell": "199",
@@ -101,12 +103,81 @@
      "why": "joining_fee_inr column of the per-card fee matrix, read by column position"
     }
    },
-   "id": "oc_81feeed7707a",
+   "id": "oc_be305e7ca9b6",
    "issuer": "ICICI Bank",
    "mitc_checked": "2026-09-05",
    "mitc_sha": "7727324c30b06d94",
    "mitc_url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/mitc_cc.pdf",
    "row": "Chennai Super Kings ICICI Bank Credit Card",
+   "row_as_printed": null,
+   "slug": "icici-bank"
+  },
+  {
+   "card": "MakeMyTrip ICICI Bank Platinum Credit Card",
+   "fields": {
+    "addon_card_fee_inr": {
+     "cell": "199",
+     "confidence": "extracted",
+     "row": "MakeMyTrip ICICI Bank Platinum Credit Card",
+     "value": 199,
+     "why": "addon_card_fee_inr column of the per-card fee matrix, read by column position"
+    },
+    "annual_fee_inr": {
+     "cell": "Nil",
+     "confidence": "extracted",
+     "row": "MakeMyTrip ICICI Bank Platinum Credit Card",
+     "value": 0,
+     "why": "annual_fee_inr column of the per-card fee matrix, read by column position"
+    },
+    "joining_fee_inr": {
+     "cell": "500",
+     "confidence": "extracted",
+     "row": "MakeMyTrip ICICI Bank Platinum Credit Card",
+     "value": 500,
+     "why": "joining_fee_inr column of the per-card fee matrix, read by column position"
+    }
+   },
+   "id": "oc_5d8cb13a9f60",
+   "issuer": "ICICI Bank",
+   "mitc_checked": "2026-09-05",
+   "mitc_sha": "7727324c30b06d94",
+   "mitc_url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/mitc_cc.pdf",
+   "row": "MakeMyTrip ICICI Bank Platinum Credit Card",
+   "row_as_printed": null,
+   "slug": "icici-bank"
+  },
+  {
+   "card": "Emirates Skywards ICICI Bank Rubyx Credit Card",
+   "fields": {
+    "addon_card_fee_inr": {
+     "cell": "199",
+     "confidence": "extracted",
+     "row": "Emirates Skywards ICICI Bank Rubyx Credit Card",
+     "value": 199,
+     "why": "addon_card_fee_inr column of the per-card fee matrix, read by column position"
+    },
+    "annual_fee_inr": {
+     "cell": "1,000",
+     "confidence": "extracted",
+     "row": "Emirates Skywards ICICI Bank Rubyx Credit Card",
+     "value": 1000,
+     "why": "annual_fee_inr column of the per-card fee matrix, read by column position"
+    },
+    "joining_fee_inr": {
+     "cell": "1,000",
+     "confidence": "extracted",
+     "row": "Emirates Skywards ICICI Bank Rubyx Credit Card",
+     "value": 1000,
+     "why": "joining_fee_inr column of the per-card fee matrix, read by column position"
+    }
+   },
+   "id": "oc_1fa09344f160",
+   "issuer": "ICICI Bank",
+   "mitc_checked": "2026-09-05",
+   "mitc_sha": "7727324c30b06d94",
+   "mitc_url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/mitc_cc.pdf",
+   "row": "Emirates Skywards ICICI Bank Rubyx Credit Card",
+   "row_as_printed": null,
    "slug": "icici-bank"
   },
   {
@@ -140,10 +211,327 @@
    "mitc_sha": "7727324c30b06d94",
    "mitc_url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/mitc_cc.pdf",
    "row": "ICICI Bank Expressions Credit Card",
+   "row_as_printed": null,
    "slug": "icici-bank"
   }
  ],
- "proposed_count": 4,
+ "proposed_count": 6,
+ "refused_ambiguous_width": [
+  {
+   "names": "",
+   "tokens": 1
+  },
+  {
+   "names": "6E Rewards Indigo XL (****)",
+   "tokens": 5
+  },
+  {
+   "names": "",
+   "tokens": 2
+  },
+  {
+   "names": "",
+   "tokens": 2
+  },
+  {
+   "names": "",
+   "tokens": 2
+  },
+  {
+   "names": "#FCC charges on Times Tit",
+   "tokens": 5
+  },
+  {
+   "names": "",
+   "tokens": 2
+  },
+  {
+   "names": "## FCC charges changing t",
+   "tokens": 4
+  },
+  {
+   "names": "co Ma on at ar Ma on p. q. tr",
+   "tokens": 4
+  },
+  {
+   "names": "Page 18 of 48 Table of Content Card Account and other Add-on cards will be inval",
+   "tokens": 1
+  },
+  {
+   "names": "",
+   "tokens": 2
+  },
+  {
+   "names": "The fees as applicable the month in which they have these charges levi revise th",
+   "tokens": 1
+  },
+  {
+   "names": "Monthly Plan Na",
+   "tokens": 2
+  },
+  {
+   "names": "Monthly Fee (₹)",
+   "tokens": 3
+  },
+  {
+   "names": "Spends for Monthly Fee Reversal (₹) Supplementary Card Fee",
+   "tokens": 3
+  },
+  {
+   "names": "FIRST WOW! Credit Card",
+   "tokens": 3
+  },
+  {
+   "names": "Quantum+ Credit Card",
+   "tokens": 3
+  },
+  {
+   "names": "LIC Classic Credit Card",
+   "tokens": 3
+  },
+  {
+   "names": "LIC Select Credit Card",
+   "tokens": 3
+  },
+  {
+   "names": "FIRST Digital RuPay Credit Card###",
+   "tokens": 3
+  },
+  {
+   "names": "FIRST EA`N Credit Card",
+   "tokens": 3
+  },
+  {
+   "names": "FIRST Power Credit Card",
+   "tokens": 3
+  },
+  {
+   "names": "FIRST Power+ Credit Card",
+   "tokens": 3
+  },
+  {
+   "names": "FIRST SWYP Credit Card",
+   "tokens": 3
+  },
+  {
+   "names": "Diamond Reserve Credit Card",
+   "tokens": 3
+  },
+  {
+   "names": "Club Vistara IDFC FIRST Credit Card",
+   "tokens": 3
+  },
+  {
+   "names": "",
+   "tokens": 2
+  },
+  {
+   "names": "Service Charges",
+   "tokens": 1
+  }
+ ],
+ "refused_merged_rows": [
+  {
+   "names": "Infinia (Metal Edition) Infinia Diners Black Metal Edition Diners Black BizBlack",
+   "values_lines": 7
+  },
+  {
+   "names": "Regalia Gold BizPower Tata Neu Infinity HDFC Bank",
+   "values_lines": 3
+  },
+  {
+   "names": "",
+   "values_lines": 2
+  },
+  {
+   "names": "Regalia First, ₹ Business Regalia First ## Diners Club Rewardz Diners Club Miles",
+   "values_lines": 13
+  },
+  {
+   "names": "6E Rewards Indigo ₹ (****) HDFC Bank UPI ₹ RuPay/ HDFC Bank UPI RuPay Biz/ HDFC ",
+   "values_lines": 6
+  },
+  {
+   "names": "Business Platinum F Times ₹ Platinum/Times Card Credit Platinum Equitas Elegance",
+   "values_lines": 9
+  },
+  {
+   "names": "Millennia",
+   "values_lines": 3
+  },
+  {
+   "names": "Equitas Excite ₹ BizGrow BizFirst Micro Enterprise card GIGA Business MoneyBack,",
+   "values_lines": 17
+  },
+  {
+   "names": "AllMiles Doctors Superia Paytm HDFC Bank Select Business Best Price Save Max",
+   "values_lines": 6
+  },
+  {
+   "names": "Pine Labs HDFC Bank Pro Paytm HDFC Bank Business Pharmeasy HDFC Bank IRCTC HDFC ",
+   "values_lines": 14
+  },
+  {
+   "names": "Pine Labs HDFC Bank Retailio HDFC Bank Flipkart Wholesale",
+   "values_lines": 5
+  },
+  {
+   "names": "Tata Neu Plus HDFC Bank Shoppers Stop HDFC Bank Platinum Edge Business Program S",
+   "values_lines": 19
+  },
+  {
+   "names": "PhonePe HDFC Bank Uno Credit Card",
+   "values_lines": 3
+  },
+  {
+   "names": "be co mi yo Th to Oc No In Em Bl Ef th ac co",
+   "values_lines": 5
+  },
+  {
+   "names": "ii us fr of or",
+   "values_lines": 2
+  },
+  {
+   "names": "s Ba Ra tr Ra we fo Fo tr fe bo Ch tr 10 de a. on Je EM a an al b. ov (N Cr Ca n",
+   "values_lines": 6
+  },
+  {
+   "names": "e. pa br",
+   "values_lines": 4
+  },
+  {
+   "names": "j 20 on me pe k. on re Ma ₹2 te wh th ca cr Rs te 20 l. Re Re Re us eq lo co eq ",
+   "values_lines": 11
+  },
+  {
+   "names": "C Ch me Pr in fr In fr th th to an He cr on Th pr un mo",
+   "values_lines": 3
+  },
+  {
+   "names": "PIXEL Play",
+   "values_lines": 2
+  },
+  {
+   "names": "post redempt the transact balance is c Then, the ru cashpoints w 1 CashPoint a. ",
+   "values_lines": 5
+  },
+  {
+   "names": "• Tariff st changes w • Please be our fees Maharasht Address: Nomencla • IWe her",
+   "values_lines": 4
+  },
+  {
+   "names": "Free credit period TravelOne Credit C Please note that t valid if any balan bill",
+   "values_lines": 3
+  },
+  {
+   "names": "ICICI Bank Emeralde Private Metal Credit Card",
+   "values_lines": 3
+  },
+  {
+   "names": "ICICI Bank Emeralde Credit Card ICICI Bank Sapphiro Credit Card ICICI Bank Rubyx",
+   "values_lines": 3
+  },
+  {
+   "names": "ICICI Bank HPCL Platinum Credit Card / ICICI Bank HPCL Titanium Credit Card / IC",
+   "values_lines": 2
+  },
+  {
+   "names": "Manchester United Signature Credit Card",
+   "values_lines": 2
+  },
+  {
+   "names": "Adani One ICICI Bank Signature Credit Card Adani One ICICI Bank Platinum Credit ",
+   "values_lines": 2
+  },
+  {
+   "names": "MakeMyTrip ICICI Bank Credit Card",
+   "values_lines": 2
+  },
+  {
+   "names": "ICICI Bank Parakram Credit Card ICICI Bank Parakram Select Credit Card Emirates ",
+   "values_lines": 4
+  },
+  {
+   "names": "Amazon Pay ICICI Bank Credit Card",
+   "values_lines": 2
+  },
+  {
+   "names": "ICICI Bank NRI Coral Credit Card ICICI Bank NRI Sapphiro Credit Card ICICI Bank ",
+   "values_lines": 4
+  },
+  {
+   "names": "FIRST WOW! Black Credit Card Gaj: Credit Card",
+   "values_lines": 4
+  },
+  {
+   "names": "FIRST Private Credit Card",
+   "values_lines": 3
+  },
+  {
+   "names": "Image Personalisation Fee* No joining fee, annual fee, or add-on ###",
+   "values_lines": 2
+  },
+  {
+   "names": "",
+   "values_lines": 5
+  },
+  {
+   "names": "xiv. The Cardmembe or payable by whether in In charges etc., other amount/ withd",
+   "values_lines": 4
+  },
+  {
+   "names": "Fee y LumièreTM INR NovaTM INR RBL Bank INR Shoppers Stop Black Credit Card",
+   "values_lines": 7
+  },
+  {
+   "names": "IN QuickPay NI Pr iGlobe Ba Cu IN RBL Bank IN Shoppers Stop Platinum Credit Card",
+   "values_lines": 11
+  },
+  {
+   "names": "Platinum INR Delight RBL Bank INR Popcorn Credit Card RBL Bank INR Movies & More",
+   "values_lines": 17
+  },
+  {
+   "names": "Signature N Banking ( B C Aspire Banking NIL Ban Cus RBL Bank I Paisabazaar Duet",
+   "values_lines": 9
+  },
+  {
+   "names": "RBL Bank NIL Bank Bazaar SaveMax Credit Card YOUnique Cus (customisable) Fee Coo",
+   "values_lines": 11
+  },
+  {
+   "names": "Fe Platinum INR ShopDaily Platinum Plus INR Platinum INR Bonus Platinum INR Shop",
+   "values_lines": 18
+  },
+  {
+   "names": "Platinum Edge INR RBL Bank INR Binge Credit Card",
+   "values_lines": 6
+  },
+  {
+   "names": "World Xclusive Nil RBL Bank INR Patanjali Swarn Credit Card RBL Bank INR Patanja",
+   "values_lines": 17
+  },
+  {
+   "names": "Annual Membership post first debit t will reflect in th to the Cardmember. a. An",
+   "values_lines": 2
+  },
+  {
+   "names": "may vary fro and from one The applicabl to the Cardme the Credit Ca of the said ",
+   "values_lines": 10
+  },
+  {
+   "names": "Duplicate Stateme Fee Foreign Currency Transaction/Dynami & Static Conversio Tra",
+   "values_lines": 20
+  },
+  {
+   "names": "Fee on FASTag loading and Toll Payment Transactio",
+   "values_lines": 4
+  },
+  {
+   "names": "",
+   "values_lines": 6
+  }
+ ],
  "unmatched": [
   {
    "cells": {
@@ -154,16 +542,6 @@
    },
    "issuer": "ICICI Bank",
    "row": "ICICI Bank Emeralde Private Credit Card"
-  },
-  {
-   "cells": {
-    "addon_card_fee_inr": "Nil",
-    "annual_fee_inr": "12,000",
-    "fee_waiver_spend_inr": "10,00,000***",
-    "joining_fee_inr": "12,000"
-   },
-   "issuer": "ICICI Bank",
-   "row": "ICICI Bank Emeralde Credit Card ICICI Bank Sapphiro Credit Card ICICI Bank Rubyx Credit Card"
   },
   {
    "cells": {
@@ -208,32 +586,12 @@
   {
    "cells": {
     "addon_card_fee_inr": "199",
-    "annual_fee_inr": "199",
-    "fee_waiver_spend_inr": "50,000*",
-    "joining_fee_inr": "199"
-   },
-   "issuer": "ICICI Bank",
-   "row": "ICICI Bank HPCL Platinum Credit Card / ICICI Bank HPCL Titanium Credit Card / ICICI Bank HPCL Coral Credit Card ICICI Bank HPCL Super Saver Credit Card"
-  },
-  {
-   "cells": {
-    "addon_card_fee_inr": "199",
     "annual_fee_inr": "499",
     "fee_waiver_spend_inr": "1,25,000*",
     "joining_fee_inr": "499"
    },
    "issuer": "ICICI Bank",
    "row": "Manchester United Platinum Credit Card"
-  },
-  {
-   "cells": {
-    "addon_card_fee_inr": "199",
-    "annual_fee_inr": "5,000",
-    "fee_waiver_spend_inr": "6,00,000*",
-    "joining_fee_inr": "5,000"
-   },
-   "issuer": "ICICI Bank",
-   "row": "Adani One ICICI Bank Signature Credit Card Adani One ICICI Bank Platinum Credit Card"
   },
   {
    "cells": {
@@ -280,51 +638,11 @@
     "addon_card_fee_inr": "199",
     "annual_fee_inr": "Nil",
     "fee_waiver_spend_inr": "NA",
-    "joining_fee_inr": "500"
-   },
-   "issuer": "ICICI Bank",
-   "row": "MakeMyTrip ICICI Bank Platinum Credit Card"
-  },
-  {
-   "cells": {
-    "addon_card_fee_inr": "199",
-    "annual_fee_inr": "Nil",
-    "fee_waiver_spend_inr": "NA",
     "joining_fee_inr": "2,500"
    },
    "issuer": "ICICI Bank",
    "row": "MakeMyTrip ICICI Bank Signature Credit Card"
-  },
-  {
-   "cells": {
-    "addon_card_fee_inr": "199",
-    "annual_fee_inr": "Nil",
-    "fee_waiver_spend_inr": "NA",
-    "joining_fee_inr": "Nil"
-   },
-   "issuer": "ICICI Bank",
-   "row": "ICICI Bank Parakram Credit Card ICICI Bank Parakram Select Credit Card Emirates Skywards ICICI Bank Emerald Credit Card Emirates Skywards ICICI Bank Sapphiro Credit Card"
-  },
-  {
-   "cells": {
-    "addon_card_fee_inr": "199",
-    "annual_fee_inr": "1,000",
-    "fee_waiver_spend_inr": "NA",
-    "joining_fee_inr": "1,000"
-   },
-   "issuer": "ICICI Bank",
-   "row": "Emirates Skywards ICICI Bank Rubyx Credit Card"
-  },
-  {
-   "cells": {
-    "addon_card_fee_inr": "199",
-    "annual_fee_inr": "500",
-    "fee_waiver_spend_inr": "1,50,000***",
-    "joining_fee_inr": "1,000"
-   },
-   "issuer": "ICICI Bank",
-   "row": "ICICI Bank NRI Coral Credit Card ICICI Bank NRI Sapphiro Credit Card ICICI Bank Rubyx Credit Card against Fixed Deposit ICICI Bank Diamant World Mastercard Credit Card"
   }
  ],
- "unmatched_count": 18
+ "unmatched_count": 11
 }
