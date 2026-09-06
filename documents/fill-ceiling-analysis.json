@@ -107,5 +107,18 @@
   "excluding_proven_absent_fields": "38.3% (157,455 slots removed)",
   "excluding_every_field_no_source_has_ever_supplied": "39.3% (192,111 slots, 90 of 405 field/domain pairs)",
   "verdict": "Neither redefinition reaches 80%. The gap is not an accounting artifact \u2014 it is 543,933 nutrition slots against packs that do not all carry a panel."
+ },
+ "prose_nutrition_reader_measured": {
+  "what_it_found": "A complete mandated panel written as text in a `Nutrition Information` field rather than split into structured attributes. Nothing was reading it. This disproved my earlier claim that packs without structured attributes simply do not declare nutrition.",
+  "measured_over_3000_pages": {
+   "food_pages": 1828,
+   "non_food": 1172,
+   "structured_panel": "1,350 (73.9%)",
+   "prose_panel_only": "41 (2.2%) \u2014 previously unread",
+   "no_panel_at_all": "437 (23.9%)"
+  },
+  "effect": "panel coverage 73.9% -> 76.1%; overall fill 34.7% -> 35.07%",
+  "correction": "I described this as potentially invalidating the 45% grocery ceiling, on a 19.3% figure taken from a smaller and differently-filtered sample. The corpus-wide number is 2.2%. The ceiling analysis stands: 23.9% of food packs carry no panel in any form, structured or prose.",
+  "what_did_not_transfer": "The same technique applied to beauty yields almost nothing. Description and Key Features are unread on 80.7% and 64.7% of pages, but the facts in them are marketing claims rather than declarations \u2014 dermatologist_tested appears in 2.8%, vegan 2.2%, pH 0.3%. `Nutrition Information` worked because it is a labelled panel; a claim in a description is not the same kind of statement."
  }
 }
