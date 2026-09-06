@@ -1,0 +1,10 @@
+{
+  "sbi_card_empty_file": {
+    "noted": "2026-09-06",
+    "file": "products/cards/sbi-card.jsonl",
+    "state": "Zero bytes, and zero bytes at HEAD since the commit that created it. Not damage — it predates today's work and is unmodified in the working tree.",
+    "why_it_matters": "SBI Card is India's largest standalone credit card issuer and the catalogue has NO SBI card records at all, while carrying 58 Axis, 47 ICICI and 41 IndusInd. Its MITC is already mirrored at documents/cards/mitc/sbi-card/, so the document side is done and only the records are missing.",
+    "source_state": "sbicard.com never moved to a .bank.in host, and its card listing page fetched cleanly through polite.py at 987 KB with joining fee 42, annual fee 263, cash advance 3 and lounge 594 occurrences — the richest of the five issuer pages tested.",
+    "recommendation": "Fill it or delete it. An empty brand file is a promise the catalogue does not keep. Left in place rather than removed, because deleting a file someone created deliberately is not a call to make silently."
+  }
+}
