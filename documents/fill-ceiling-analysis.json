@@ -391,6 +391,28 @@
       "why_it_held": "NOVA fires only where a real ingredient declaration exists, and prescription products do not carry one — their pages publish Salt_composition instead. The gate did the work without anyone coordinating the two.",
       "sample_check": "961 of the 1,009 are group 4, which is the right shape: whey protein isolates, fermented yeast protein, artificial flavours, INS 950 sweetener, INS 440/418/407 gelling agents. These are food supplements and the classification reads correctly on them.",
       "implication": "The medicines schema decision stays independent of the NOVA work; neither blocks nor invalidates the other."
+    },
+    "phones_RESULT_and_my_corrections": {
+      "checked": "2026-09-07",
+      "yield": "phones 14.13% -> 19.80% (3,420 -> 4,794 of 24,208 slots). Smartphones 14.4 -> 21.4%, Tablets 9.9 -> 18.4%. 32 spec URLs found for brands that had none, all from published sitemaps, none guessed. 49 of 69 records joined.",
+      "THREE_THINGS_I_STATED_AS_SETTLED_THAT_WERE_WRONG": {
+        "samsung_serves_js": "brands.json recorded served:'js'. That was measured against the model FAMILY page, which is a shell. The per-SKU page returns 586 KB with ~90 label/value rows in delivered HTML.",
+        "motorola_publishes_no_specs": "Recorded twice as no-specs and once as a cookie wall. Both wrong. The response is GZIP and the rows sit in an Apollo GraphQL blob: strip tags and you get 98 lines of nav; decompress and parse and you get 103 rows. This was a bug in lib/polite.py, which returned raw bytes and is now fixed.",
+        "model_number_is_unfillable": "I stated this flatly, twice, and briefed agents not to attempt it. It is fillable for Samsung — 19 values — because Samsung publishes it IN THE URL of each variant page (SM-M476BLBBINS). `year` likewise, 19 values, split across lines by a <sup>th</sup> ordinal. Unfillable elsewhere, as stated."
+      },
+      "lesson": "Each of these was a real measurement that I generalised into a permanent verdict. A negative finding needs its scope recorded — 'the family page is a shell' is true and 'Samsung serves JS' is not.",
+      "confirmed_negatives": {
+        "OnePlus": "the sitemap DOES list models we hold (13s, nord-5), but the pages are genuinely empty: 95 KB, zero spec tokens. My earlier finding stands.",
+        "Acer": "robots.txt disallows all sitemap paths — refused, nothing fetched",
+        "iQOO": "robots.txt disallows /sitemap.xml — refused, nothing fetched",
+        "POCO": "every path returns the same 1,708-byte shell; mi.com's sitemap holds only the 2018 Pocophone F1"
+      },
+      "audit_catches": {
+        "colour_collapse_wrote_two_wrong_records": "'A36 5G (Dark Green)' matched Samsung's 'Awesome Emerald Green' page because 'dark' was stripped as a marketing adjective. TWO records were written with another variant's model code before it was caught; both files were reverted to HEAD and re-run with an exact-token rule.",
+        "stereo_support_no_became_mono": "'Stereo Support: No' was read as speakers='Mono' on 11 records. Denying stereo is not claiming one driver. Now null.",
+        "others": "gpu absorbing a clock ('Mali G57 MC4 @650Hz'), network_bands keeping '5G: sub-6' (a spectrum family, not bands), build_material truncated mid-word, charging_w taking a wireless figure as the wired rate, battery_mah missed on Motorola because the label reads 'battery size'."
+      },
+      "pre_existing_defect_reported": "soc: 'Snapdragon 695 Tablet ' on a Galaxy Tab A9+ exists at HEAD — name-derived, with a trailing space. Left alone by add-only; the title parser's owner should look."
     }
   }
 }
