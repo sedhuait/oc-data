@@ -383,6 +383,14 @@
       "correction": "The two dict-based vocabularies do NOT disagree; they are identical. The real defect is that the Open Food/Beauty Facts importer recognises 16 fewer actives than the other two paths, so an OBF-sourced record silently misses AHA, Alpha arbutin, Azelaic acid, Bakuchiol, Benzoyl peroxide, Biotin, Centella / Cica, Coffee, Kojic acid, Onion, Rice, Rosemary, Saffron, Sandalwood, Tranexamic acid and Ubtan.",
       "risk": "Three copies of one controlled vocabulary in three files, with no shared source of truth and a schema pointing at a file that does not exist. They agree today; nothing keeps them agreeing. The 16-term shortfall in the OBF path is the consequence already visible.",
       "not_fixed_here": "Creating actives.txt inside schemas/ would enrol it in the snapshot test, and choosing where a shared vocabulary should live is a structural decision rather than a data fix."
+    },
+    "nova_did_not_touch_medicines": {
+      "checked": "2026-09-06",
+      "why": "The NOVA derivation and the medicines proposal both act on the 'Health & supplements' category, so they could have collided — a food processing group written onto a prescription medicine would be nonsense.",
+      "result": "1,009 records in that category now carry a nova_group. Of those, records whose name states a prescription dosage form (strip of N, respules, dry syrup, inhaler, vial, injection): ZERO.",
+      "why_it_held": "NOVA fires only where a real ingredient declaration exists, and prescription products do not carry one — their pages publish Salt_composition instead. The gate did the work without anyone coordinating the two.",
+      "sample_check": "961 of the 1,009 are group 4, which is the right shape: whey protein isolates, fermented yeast protein, artificial flavours, INS 950 sweetener, INS 440/418/407 gelling agents. These are food supplements and the classification reads correctly on them.",
+      "implication": "The medicines schema decision stays independent of the NOVA work; neither blocks nor invalidates the other."
     }
   }
 }
