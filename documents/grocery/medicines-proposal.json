@@ -226,5 +226,31 @@
       "count": 221,
       "why": "OTC counter-irritant rubs, balms and roll-ons (Moov, Zandu Balm, Volini). Drugs by licence in India but they read as personal care; they deserve their own decision rather than being forced either way."
     }
+  },
+  "review_2026_09_06": {
+    "verdict": "The classification work is sound and the schema change is the right call, but the proposed Medicines spec sheet is wrong: it carries food fields that medicines do not have, and omits medicine fields the source pages publish on 100% of pages.",
+    "proposed_sheet_measured": {
+      "on": "3,601 records whose name states an Rx dosage form",
+      "fill": "15,774 / 54,015 = 29.2%",
+      "dead_fields": "fssai_licence 0 of 3,601 (a medicine carries a DRUG licence, not an FSSAI one), allergens 0, additives 0, packaging_type 1, ingredients_order 5, preservatives 5, artificial_colours 5, artificial_flavours 5, marketed_by 13, shelf_life 22.",
+      "live_fields": "quantity 100%, storage_instructions 100%, country_of_origin 100%, veg 99%, manufacturer 36%"
+    },
+    "what_the_source_actually_publishes": {
+      "checked": "3,472 cached Blinkit medicine pages",
+      "note": "Medicine pages carry a different attribute vocabulary entirely. None of them has a nutrition panel or an FSSAI number. These appear on 100% of pages and the repo captures none of them:",
+      "usable": {
+        "Prescription required": "3,269 Yes / 203 No — arguably the single most important fact about a medicine",
+        "Medicine Type": "Tablet 2,872 / Capsule 546 / Gel 4 (3,422 pages)",
+        "Drug Sensitivity Level": "Moderate 1,423 / Low 1,396 / High 462 (3,281 pages)",
+        "Refill Eligibility": "Yes 2,004 / No 1,468"
+      },
+      "rejected_as_placeholders": {
+        "Shelf Life (In days)": "36500 — one hundred years — on 3,459 of 3,472 pages. A placeholder, the same failure mode as Blinkit's '1 g' Standard Serve Size. Do not read it.",
+        "intake_per_dose": "'1' on all 3,469 pages that carry it, so it is a default and not a fact.",
+        "Pharma license needed": "'DL' on 3,454 of 3,472 — near-constant, so it distinguishes nothing."
+      }
+    },
+    "recommendation": "Keep the two new categories, but build the Medicines sheet from what a medicine actually declares rather than from the food sheet's leftovers. That needs new FIELDS (prescription_required, dosage_form, drug_sensitivity), which is a larger schema decision than adding two categories -- and it turns this from 'ask fewer questions to raise the percentage' into 'ask the right questions', which is the difference that matters here.",
+    "caution": "A 5-field sheet of only what is already filled reaches 87.3%, but adopting it for that reason would be trimming the sheet to flatter the number. The case for dropping fssai_licence and the nutrition fields is that medicines do not have them -- verified on the pages -- not that they are empty."
   }
 }
