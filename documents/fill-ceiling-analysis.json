@@ -823,5 +823,36 @@
     },
     "the_conclusion": "Adding records that fill at 43.9% cannot raise a 43.4% average — it converges toward 43.9% and never approaches 80%. More crawling makes the catalogue LARGER and leaves the percentage where it is. This is why 'identify sources and start filling' cannot reach the target: the target is a ratio, and the source's own ceiling is the ratio's limit.",
     "what_this_completes": "Four independent proofs now agree. (1) Perfect nutrition AND ingredients across all of grocery reaches 73.6%. (2) All of grocery at 100% reaches 87.69%, so 80% needs grocery near 90% against a measured ~45% source ceiling. (3) The join that would lift Blinkit records to the 63% cohort needs a barcode that exists on neither side. (4) More records converge to 43.9%. The only remaining path is the trim, which reaches 80.2% by deleting 655,493 recorded facts."
+  },
+  "riskometer_label_is_a_dial_image_not_text": {
+    "date": "2026-09-07",
+    "field": "funds.riskometer_label",
+    "missing_slots": 8273,
+    "question": "riskometer_label sits at 3.0% while SEBI mandates a riskometer on every scheme and all 1,283 SIDs are already on disk. Is this the largest single fillable gap left?",
+    "answer": "No. It is not fillable from the SIDs.",
+    "evidence": {
+      "sids_yield_text": "every SID sampled extracts 160,000-250,000 chars; zero are image-only PDFs, so the earlier 'SIDs are scanned images' framing is wrong",
+      "word_riskometer_present": "~58% of SIDs contain the word, but every occurrence sampled is BOILERPLATE explaining what a riskometer is (SEBI Master Circular para 17.4 text), not the scheme's band",
+      "sebi_product_label_absent": "0 of 150 SIDs contain 'principal will be at <band> risk' — SEBI's actual product-label sentence. The band is rendered inside the dial GRAPHIC.",
+      "keyword_read_would_fabricate": "a loose '<band> risk' grep matches 67% of SIDs, but the matches are investment-objective prose ('reasonable returns commensurate with low risk') and anti-money-laundering clauses ('clients of high risk jurisdictions'). 360-one-liquid-fund matches BOTH 'low risk' and 'high risk'; a liquid fund is Low-to-Moderate and never High."
+    },
+    "verdict": "Publishing a riskometer band read from SID text would fabricate a risk rating on up to 8,273 funds — same defect class as the 17 invented free_look_days:0. Field stays empty.",
+    "cost_if_wrong": "a buyer choosing a fund on a fabricated risk band"
+  },
+  "networking_remaining_fields_are_path_scoped": {
+    "date": "2026-09-07",
+    "checked": "www.tp-link.com/in/home-networking/deco/deco-m3/",
+    "robots": "ALLOWED — tp-link.com/robots.txt blocks only /ir/, /iq/ and query-param patterns",
+    "published": {
+      "coverage_sqft": "yes — '2,400 square feet' in page text",
+      "dimensions_mm": "yes, already parsed"
+    },
+    "not_published": {
+      "weight_g": "absent",
+      "wall_mountable": "absent",
+      "year": "absent — no release/launch date on the page"
+    },
+    "scale": "only 31 of 97 networking records carry a spec_url, so the whole lever is ~31 slots against 1,768,247 empty — 0.002%. Confirms the ceiling arithmetic rather than overturning it.",
+    "verdict": "real but negligible; recorded so the 0.0% fields are not mistaken for unexplored"
   }
 }
