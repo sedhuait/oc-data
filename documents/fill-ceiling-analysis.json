@@ -964,5 +964,34 @@
     "verdict": "recording 30,263 real, published, legally-crawlable facts makes the headline metric WORSE, because the field is added to 70,577 records and fillable on 30,263. This is the clearest case in the catalogue of the fill metric disagreeing with the catalogue's usefulness.",
     "not_done": "adding a field is a schema change and the standing instruction is to fill existing categories, not add to them. Recorded as a decision, not applied.",
     "why_it_matters_to_a_reader": "an ingredient list is the single most useful thing on a food pack — it answers allergy, dietary and additive questions the nutrition panel cannot."
+  },
+  "beauty_gaps_checked_against_a_live_blinkit_page": {
+    "date": "2026-09-07",
+    "method": "fetched a live Blinkit beauty page (garnier-men-clay-d-tox face wash, robots-allowed) and enumerated all 44 attributes it publishes, rather than reasoning from the cache — the cache retains page hashes and parsed records, not label text.",
+    "ph": {
+      "fill": "0.3% (32 of 18,658)",
+      "result": "NOT on the page. 'pH' appears nowhere in 550KB of markup. The 32 values we hold come from brand storefronts, the only place it is published.",
+      "verdict": "source ceiling, not a parser gap"
+    },
+    "pao_months": {
+      "fill": "0.1%",
+      "result": "parse_beauty_label.py already reads it from 'Period After Opening', 'PAO', 'Use Within' and 'Shelf Life', and deliberately refuses to conflate a 36-month shelf life with a 36-month PAO.",
+      "verdict": "already read; Blinkit rarely states it"
+    },
+    "skin": {
+      "fill": "47.3% (8,832)",
+      "result": "already read from both 'Skin Type' and 'Skin/Hair Type', with range values ('Combination to Oily') expanded to two entries.",
+      "verdict": "working"
+    },
+    "key_ingredients": {
+      "result": "already read, with 'Hero Ingredient' then INCI as ordered fallbacks, deliberately not merged so one field's marketing sentence cannot dilute the other's clean list.",
+      "verdict": "working"
+    },
+    "attributes_blinkit_publishes_with_no_schema_field": [
+      "Concern / Hero Concern (e.g. Brightening)",
+      "Gender (e.g. Men)",
+      "Fragrance Family (e.g. Fresh)"
+    ],
+    "verdict": "every large beauty gap is either already parsed or absent at source. The only unexploited data needs new schema fields, which the standing instruction excludes."
   }
 }
