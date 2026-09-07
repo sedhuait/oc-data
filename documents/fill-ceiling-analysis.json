@@ -894,5 +894,19 @@
         "also_fixed": "harvest_sids.py is now run with python3 -u; its output buffered until completion, which is why three runs were undiagnosable and why the 30.5s reading went unchallenged."
       }
     }
+  },
+  "insurance_premium_payment_terms_is_a_per_customer_value": {
+    "date": "2026-09-07",
+    "field": "insurance.premium_payment_terms",
+    "missing": 290,
+    "first_look": "25 of 40 wordings mention 'premium payment term/mode', so the field looked unparsed rather than absent",
+    "why_that_was_misleading": [
+      "the schema field is a LIST of payment TERMS (durations: Regular, Limited 10 years). Most matches were payment MODES (Annual/Semi-Annual/Quarterly/Monthly) — a different field.",
+      "'Premium Payment Term of 50 years' appears inside worked EXAMPLES about a fictional buyer",
+      "'Limited Pay is where the Premium Payment Term is limited' is a GLOSSARY definition"
+    ],
+    "decisive_evidence": "the IRDAI Customer Information Sheets — the standardised, labelled, most authoritative source — print the row as a literal placeholder: 'Premium Payment Term (Years): <xxxxxxxxxx>'. Confirmed on supreme-cis, spg-cis, awg-cis and saral-jeevan-bima-cis.",
+    "verdict": "genuine absence. The value is set per customer in the Policy Schedule at purchase and is not published in any public document. Field stays empty.",
+    "cost_if_wrong": "reading a worked example's '50 years' as the policy's term would publish a fabricated commitment length"
   }
 }
