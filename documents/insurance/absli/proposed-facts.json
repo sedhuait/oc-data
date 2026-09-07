@@ -1,0 +1,262 @@
+{
+ "generated": "2026-09-07",
+ "generator": "sources/insurance/parse_wordings.py",
+ "insurer": "Aditya Birla Sun Life Insurance Company Limited",
+ "note": "PROPOSED facts read from policy wordings. Nothing here is a record yet. Every value carries the sentence it came from and the page it was on so a person can check it against the PDF before it is published. Waiting periods and caps are financial figures: a wrong one costs somebody a claim, so they wait for a human. Run with --apply once this file has been read.",
+ "policies": [
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 20,
+     "quote": "urance Plan PART D - POLICY TERMS AND CONDITIONS POLICY PROVISIONS 1. Free-look Period You have a free look period of 30 days from the date of receipt of the Policy, to review the terms and conditions of the Policy, in case You disagre",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Aditya Birla Sun Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://lifeinsurance.adityabirlacapital.com/uploads/5_ABSLI_Digi_Shield_Plan_V13_Policy_Contract_d5cbf72580.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (1 occurrences)",
+     "value": "109N108V13",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "5_ABSLI_Digi_Shield_Plan_V13_Policy_Contract_d5cbf72580.pdf",
+   "pages": 39,
+   "product": "5 ABSLI Digi Shield Plan V13 Policy Contract",
+   "sha256": "ed52a0bf6a61e0a0b7e34fac8ebd37f354993bf39704dc572c333d9f8049740e",
+   "source_url": "https://lifeinsurance.adityabirlacapital.com/uploads/5_ABSLI_Digi_Shield_Plan_V13_Policy_Contract_d5cbf72580.pdf",
+   "uin": "109N108V13"
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 23,
+     "quote": "urance Plan PART D - POLICY TERMS AND CONDITIONS POLICY PROVISIONS 1. Free-look Period You have a free look period of 30 days from the date of receipt of the Policy, to review the terms and conditions of the Policy, in case You disagre",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "initial_waiting_days": {
+     "confidence": "extracted",
+     "page": 31,
+     "quote": "rer at inception. o Any sickness-related condition manifesting itself within 90 days from the policy commencement date or its latest revival date, whichever is later; o Any sexually transmitted diseases; o Suicide or attemp",
+     "value": 90,
+     "why": "initial waiting clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Aditya Birla Sun Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Poorna_Suraksha_Kawach_V04_Policy_Contract_2e9efd7128.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (1 occurrences)",
+     "value": "109N138V04",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "ABSLI_Poorna_Suraksha_Kawach_V04_Policy_Contract_2e9efd7128.pdf",
+   "pages": 43,
+   "product": "ABSLI Poorna Suraksha Kawach V04 Policy Contract",
+   "sha256": "cf164265ba5e019dc0a6b52df031222126565225d212c90e0c146657d9c6ef93",
+   "source_url": "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Poorna_Suraksha_Kawach_V04_Policy_Contract_2e9efd7128.pdf",
+   "uin": "109N138V04"
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 18,
+     "quote": "PART D - POLICY TERMS AND CONDITIONS POLICY PROVISIONS 1. Free-look Period You have a free look period of 30 days from the date of receipt of the Policy, to review the terms and conditions of the Policy, in case You disagre",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "initial_waiting_days": {
+     "confidence": "extracted",
+     "page": 16,
+     "quote": "rer at inception; • Any sickness-related condition manifesting itself within 90 days from the policy commencement date or its latest revival date, whichever is later; • Any sexually transmitted diseases; • Any congenital co",
+     "value": 90,
+     "why": "initial waiting clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Aditya Birla Sun Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Salaried_Term_Plan_Policy_Contract_52931a52e2.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (1 occurrences)",
+     "value": "109N141V05",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "ABSLI_Salaried_Term_Plan_Policy_Contract_52931a52e2.pdf",
+   "pages": 40,
+   "product": "ABSLI Salaried Term Plan Policy Contract",
+   "sha256": "938ec077a490d3a5fcf621812c9ab0f0aa26a5b3d1b19604068e29068c6d13d7",
+   "source_url": "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Salaried_Term_Plan_Policy_Contract_52931a52e2.pdf",
+   "uin": "109N141V05"
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 22,
+     "quote": "urance Plan PART D - POLICY TERMS AND CONDITIONS POLICY PROVISIONS 1. Free-look Period You have a free look period of 30 days from the date of receipt of the Policy, to review the terms and conditions of the Policy, in case You disagre",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Aditya Birla Sun Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Super_Term_Plan_Plus_Policy_Contract_fd518ad9be.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (1 occurrences)",
+     "value": "109N155V01",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "ABSLI_Super_Term_Plan_Plus_Policy_Contract_fd518ad9be.pdf",
+   "pages": 40,
+   "product": "ABSLI Super Term Plan Plus Policy Contract",
+   "sha256": "44d30217679f8b0c8b073c59872614283434037adf78fba7f29f6731446f33da",
+   "source_url": "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Super_Term_Plan_Plus_Policy_Contract_fd518ad9be.pdf",
+   "uin": "109N155V01"
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 23,
+     "quote": "urance Plan PART D - POLICY TERMS AND CONDITIONS POLICY PROVISIONS 1. Free-look Period You have a free look period of 30 days from the date of receipt of the Policy, to review the terms and conditions of the Policy, in case You disagre",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "grace_period_days": {
+     "confidence": "unconfirmed",
+     "page": 22,
+     "quote": "Premium is not paid by the due date, You may pay the same during the Grace Period of 30 days without any penalty or late fee. The insurance coverage continues during the grace period, however, in case o",
+     "value": 30,
+     "why": "grace period stated without naming renewal — a person should confirm"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Aditya Birla Sun Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Super_term_plan_V02_Policy_Contract_3fcdd4d65b.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (1 occurrences)",
+     "value": "109N153V02",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "ABSLI_Super_term_plan_V02_Policy_Contract_3fcdd4d65b.pdf",
+   "pages": 43,
+   "product": "ABSLI Super term plan V02 Policy Contract",
+   "sha256": "927161f8233cad3ead25329afa672a51303693ffa136f015868ba1b7552d7c6d",
+   "source_url": "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Super_term_plan_V02_Policy_Contract_3fcdd4d65b.pdf",
+   "uin": "109N153V02"
+  }
+ ],
+ "policy_count": 5,
+ "source": "https://www.starhealth.in/downloads/",
+ "unreadable": []
+}

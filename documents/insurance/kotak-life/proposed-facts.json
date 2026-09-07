@@ -1,0 +1,57 @@
+{
+ "generated": "2026-09-07",
+ "generator": "sources/insurance/parse_wordings.py",
+ "insurer": "Kotak Mahindra Life Insurance Company Limited",
+ "note": "PROPOSED facts read from policy wordings. Nothing here is a record yet. Every value carries the sentence it came from and the page it was on so a person can check it against the PDF before it is published. Waiting periods and caps are financial figures: a wrong one costs somebody a claim, so they wait for a human. Run with --apply once this file has been read.",
+ "policies": [
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "r: KLI servicing branch address: Free Look Period The Policyholder is offered a 30 days' free look period to review the terms and conditions of the Policy (except for policies having a policy term of less tha",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "Kotak Mahindra Life Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.kotaklife.com/assets/images/uploads/insurance-plans/Kotak_Term_Plan_UIN_107N005V07_Policy_Document.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json (insurer's downloads page)",
+     "value": "107N005V07",
+     "why": "UIN as published by the insurer on its downloads page"
+    }
+   },
+   "file": "Kotak_Term_Plan_UIN_107N005V07_Policy_Document.pdf",
+   "pages": 36,
+   "product": "Kotak Term Plan UIN 107N005V07 Policy Document",
+   "sha256": "10a594e5284da5f7a85017f0f50aedc5b56af4e356383fb2a56d6a667f8eb2e2",
+   "source_url": "https://www.kotaklife.com/assets/images/uploads/insurance-plans/Kotak_Term_Plan_UIN_107N005V07_Policy_Document.pdf",
+   "uin": "107N005V07"
+  }
+ ],
+ "policy_count": 1,
+ "source": "https://www.starhealth.in/downloads/",
+ "unreadable": []
+}

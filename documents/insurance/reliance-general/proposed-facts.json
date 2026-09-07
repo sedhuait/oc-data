@@ -1,0 +1,531 @@
+{
+ "generated": "2026-09-07",
+ "generator": "sources/insurance/parse_wordings.py",
+ "insurer": "IndusInd General Insurance Limited (formerly Reliance General Insurance)",
+ "note": "PROPOSED facts read from policy wordings. Nothing here is a record yet. Every value carries the sentence it came from and the page it was on so a person can check it against the PDF before it is published. Waiting periods and caps are financial figures: a wrong one costs somebody a claim, so they wait for a human. Run with --apply once this file has been read.",
+ "policies": [
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "ayush_covered": {
+     "confidence": "extracted",
+     "page": 12,
+     "quote": "red or `40,000/-, whichever is lower, per eye, under one policy year. AYUSH Expenses incurred for Inpatient Care treatment under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeop",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "cashless_claim": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "s not paid on or before the premium renewal date or grace period. 3.8 Cashless Facility means a facility extended by the insurer to the insured where the payments, of the costs of treatment undergo",
+     "value": true,
+     "why": "cashless facility offered"
+    },
+    "copay_pct": {
+     "confidence": "extracted",
+     "page": 8,
+     "quote": "o-payment Each and every claim under the Policy shall be subject to a Copayment of 5% applicable to claim amount admissible and payable as per the terms and conditions of the Policy. The amount p",
+     "value": 5,
+     "why": "co-payment clause"
+    },
+    "exclusions": {
+     "confidence": "extracted",
+     "page": 7,
+     "quote": "onal Surrogacy iv. Reversal of sterilization 7.15 Maternity Expenses (Code - Excl 18) i. Medical treatment expenses traceable to childbirth (including complicated deliveries and caesarean sectio",
+     "value": [
+      "Maternity"
+     ],
+     "why": "1 IRDAI standard exclusions, identified by their code numbers"
+    },
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 11,
+     "quote": "ls or at the time of porting the policy. The insured shall be allowed a period of thirty days from date of receipt of the Policy to review the terms and conditions of the Policy, and to return the same if not acceptable. If the insured has not made any claim",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "icu_cap": {
+     "confidence": "extracted",
+     "page": 12,
+     "quote": "t to maximum of `5000/- per day. 2. Intensive Care Unit (ICU) charges Intensive Cardiac Care Unit (ICCU) charges all-inclusive as provided by the Hospital/ Nursing Home up to 5% of the sum insured subject to maximum of `10,000/-, per day Cataract Treatment Up to 25% of Sum insured or `40,000/-, whic",
+     "value": "5% of sum insured per day",
+     "why": "percentage-of-sum-insured ICU cap"
+    },
+    "initial_waiting_days": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "d (Code: Excl 03) i. Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered. i i. This exc",
+     "value": 30,
+     "why": "initial waiting clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "IndusInd General Insurance Limited (formerly Reliance General Insurance)",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "no_claim_bonus": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "er List-II, List- III and List-IV of Annexure-A respectivel SECTION-5 CUMULATIVE BONUS Cumulative Bonus will be increased by 5% in respect of each claim free policy year (where no claims are repor",
+     "value": "CUMULATIVE BONUS Cumulative Bonus will be increased by 5% in respect of each claim free policy year (where no claims are reported)",
+     "why": "cumulative bonus clause"
+    },
+    "ped_waiting_months": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "ng Diseases (Code: Excl 01) i. Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with us. ii. In case of enhancement of sum insured the ",
+     "value": 36,
+     "why": "operative PED exclusion clause"
+    },
+    "policy_term_years": {
+     "confidence": "extracted",
+     "page": 12,
+     "quote": "family member On Floater basis - SI shall apply to the entire family Policy Period 1 year Eligibility Policy can be availed by persons between the age of 18 years and 65 years, as Proposer. Proposer",
+     "value": "1 year",
+     "why": "policy term declared in the wording"
+    },
+    "policy_type": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "educe only in case of claim from the same Insured Person. ii. In case where the policy is on floater basis, the CB shall be added and available to the family on floater basis, provided no claim has been reported from",
+     "value": "Individual or family floater",
+     "why": "policy states both bases are available"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.indusindinsurance.com/Downloads/Arogya_Sanjeevani_Policy_Reliance_General-Policy_Wording.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "portability_allowed": {
+     "confidence": "extracted",
+     "page": 10,
+     "quote": ".gov. in (Circular-IRDA/HLT/REG/CIR/003/012020, Dated 01012020) 10.14 Portability The Insured Person will have the option to port the Policy to other insurers as per extant Guidelines related",
+     "value": true,
+     "why": "portability offered at renewal"
+    },
+    "renewability": {
+     "confidence": "extracted",
+     "page": 10,
+     "quote": "A/HLT/REG/CIR/003/012020, dated 01012020) 10.15 Renewal of Policy The policy shall ordinarily be renewable except on grounds of fraud, moral hazard, misrepresentation by the insured person. The Company is not bound to give notice that it is due for renewal. i. Renewal shall not be denied on the gr",
+     "value": "policy shall ordinarily be renewable except on grounds of fraud, moral hazard, misrepresentation by the insured person",
+     "why": "guaranteed renewal except for fraud or non-disclosure"
+    },
+    "room_rent_cap": {
+     "confidence": "extracted",
+     "page": 12,
+     "quote": "date of discharge from the hospital Sublimit for room/ doctors fee 1. Room Rent, Boarding, Nursing Expenses all inclusive as provided by the Hospital/ Nursing Home up to 2% of the sum insured subject to maximum of `5000/- per day. 2. Intensive Care Unit (ICU) charges Intensive Cardiac Care Unit (ICC",
+     "value": "2% of sum insured per day",
+     "why": "percentage-of-sum-insured room cap"
+    },
+    "sub_limits": {
+     "confidence": "extracted",
+     "page": 12,
+     "quote": "up to 5% of the sum insured subject to maximum of `10,000/-, per day Cataract Treatment Up to 25% of Sum insured or `40,000/-, whichever is lower, per eye, under one policy year. AYUSH Expenses incurred for",
+     "value": [
+      "Cataract: 25%"
+     ],
+     "why": "named treatment with a stated cap"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (20 occurrences)",
+     "value": "RELHLIP21001V012021",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "Arogya_Sanjeevani_Policy_Reliance_General-Policy_Wording.pdf",
+   "pages": 21,
+   "product": "Arogya Sanjeevani Policy Reliance General Policy Wording",
+   "sha256": "19112755f15e0268c29cc48d3ec7c6b1bab0fb71a77b7ff90a6a3f257b60a212",
+   "source_url": "https://www.indusindinsurance.com/Downloads/Arogya_Sanjeevani_Policy_Reliance_General-Policy_Wording.pdf",
+   "uin": "RELHLIP21001V012021"
+  },
+  {
+   "category": "Health — critical illness",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 7,
+     "quote": "all be determined by the Indian Courts and subject to Indian law. 12. Free Look Period The Policyholder would be given a period of 15 days (Free Look Period) from the date of receipt of the Policy to review the entire Policy. Where the Policyholder",
+     "value": 15,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "IndusInd General Insurance Limited (formerly Reliance General Insurance)",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.indusindinsurance.com/Downloads/Critical_Illness_Policy_wording.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (12 occurrences)",
+     "value": "RELHLGP08003V010708",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "Critical_Illness_Policy_wording.pdf",
+   "pages": 13,
+   "product": "Critical Illness Policy wording",
+   "sha256": "8701d53d7ada3314c87e4f82a294c0cd20c4232aa097c3151823a41ea038a1d2",
+   "source_url": "https://www.indusindinsurance.com/Downloads/Critical_Illness_Policy_wording.pdf",
+   "uin": "RELHLGP08003V010708"
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 9,
+     "quote": "date of enhancement of sums insured only on the enhanced limits. (o) Free Look Period You have a period of 30 days from the date of receipt of the Policy document to review the terms and conditions of this Policy. If You hav",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "grace_period_days": {
+     "confidence": "extracted",
+     "page": 8,
+     "quote": "r Renewal must be received by Us before the end of the Policy Period. Grace Period of 30 days for renewing the policy is provided under this Policy. Any Illness/ condition contracted in the break in period will no",
+     "value": 30,
+     "why": "renewal grace period clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "IndusInd General Insurance Limited (formerly Reliance General Insurance)",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.indusindinsurance.com/Downloads/indusind-hospi-care-insurance-policy-wording.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "renewability": {
+     "confidence": "extracted",
+     "page": 8,
+     "quote": "will be treated as a Pre-existing Disease. This Policy is ordinarily Renewable for life except on grounds of fraud, or misrepresentation or by the Insured Person. We are not under any obligation to",
+     "value": "Lifelong",
+     "why": "lifelong renewability stated"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (23 occurrences)",
+     "value": "RELHLIP20027V012021",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "indusind-hospi-care-insurance-policy-wording.pdf",
+   "pages": 23,
+   "product": "indusind hospi care insurance policy wording",
+   "sha256": "8bff7e080cd716e3f11807c8eda47b6169986138720baa80ecb574683560221e",
+   "source_url": "https://www.indusindinsurance.com/Downloads/indusind-hospi-care-insurance-policy-wording.pdf",
+   "uin": "RELHLIP20027V012021"
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "cashless_claim": {
+     "confidence": "extracted",
+     "page": 17,
+     "quote": "e i. Cashless Intimation If the Insured Person notifies a request for Cashless facility for Benefit 3.1.1 Hospitalization Expenses as per Section-6.1, along with complete set of documents & informa",
+     "value": true,
+     "why": "cashless facility offered"
+    },
+    "deductible_type": {
+     "confidence": "extracted",
+     "page": 22,
+     "quote": "oned in the Policy Schedule. This benefit is subject to following: i. Deductible under this benefit is an annual Aggregate Deductible. For a claim to become payable, the sum of all admissible claims under the Policy, subject to Poli",
+     "value": "Aggregate (per policy year)",
+     "why": "wording states the deductible is aggregate over the policy year"
+    },
+    "domiciliary_covered": {
+     "confidence": "extracted",
+     "page": 8,
+     "quote": "y Schedule for 'Intercity Ambulance cost' (beyond 100km in distance). Domiciliary Hospitalization The Company shall indemnify the Policyholder/Insured Person up to an amount specified in the Policy Schedule,",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "exclusions": {
+     "confidence": "extracted",
+     "page": 19,
+     "quote": "eriods shall be considered under this benefit: Pre-Existing Diseases (Code-Excl 01), Specific Waiting Period (Code-Excl 02), and 24 months Waiting Period for Vision Correction. Provided that t",
+     "value": [
+      "Pre-existing diseases",
+      "Specified disease/procedure waiting period",
+      "First thirty-day waiting period",
+      "Maternity"
+     ],
+     "why": "4 IRDAI standard exclusions, identified by their code numbers"
+    },
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 37,
+     "quote": "of porting/migrating the policy. The Insured Person shall be allowed free look period of thirty days from date of receipt of the policy document to review the terms and conditions of the Policy, and to return t",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "initial_waiting_days": {
+     "confidence": "extracted",
+     "page": 31,
+     "quote": "od (Code- Excl03) i. Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an Accident, provided the same are covered. ii. This excl",
+     "value": 30,
+     "why": "initial waiting clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "IndusInd General Insurance Limited (formerly Reliance General Insurance)",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "maternity_covered": {
+     "confidence": "extracted",
+     "page": 28,
+     "quote": "t 3.1.1.1 In-Patient Treatment. 3.7.13 Mother and Child Care 3.7.13.1 Maternity Cover The Company shall indemnify the Insured Person up to the limit specified in the Policy Schedule towards",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "no_claim_bonus": {
+     "confidence": "extracted",
+     "page": 12,
+     "quote": "eurological damage due to SLE is excluded. 3.5 Renewal Benefits 3.5.1 Cumulative Bonus The Company shall provide 33.33 % (one third) of the Base Sum Insured as Cumulative Bonus at the end of each",
+     "value": "Cumulative Bonus The Company shall provide 33.33 % (one third) of the Base Sum Insured as Cumulative Bonus at the end of each completed and continuous Policy Year",
+     "why": "cumulative bonus clause"
+    },
+    "opd_covered": {
+     "confidence": "extracted",
+     "page": 28,
+     "quote": "Pre- natal and Post-natal Medical Expenses maximum up to Rs 10,000 on OPD basis vii. For a covered delivery or termination, the total of all expenses paid under this benefit along wit",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "ped_waiting_months": {
+     "confidence": "extracted",
+     "page": 30,
+     "quote": "ng Diseases (Code- Excl 01) i. Expenses related to the treatment of a Pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36months of continuous coverage after the date of inception of the first policy with us. ii. In case of enhancement of Base Sum Insured ",
+     "value": 36,
+     "why": "operative PED exclusion clause"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.indusindinsurance.com/Downloads/revised-indusind-health-gain-policy-wordings.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "portability_allowed": {
+     "confidence": "extracted",
+     "page": 36,
+     "quote": ".gov.in (Circular-IRDA/HLT/REG/CIR/003/012020, Dated-01012020) 5.1.9. Portability The Insured Person will have the option to port the Policy to other insurers by applying to such insurer to p",
+     "value": true,
+     "why": "portability offered at renewal"
+    },
+    "renewability": {
+     "confidence": "extracted",
+     "page": 36,
+     "quote": "REG/CIR/003/012020, dated 01012020). 5.1.10. Renewal of Policy i. The Policy shall ordinarily be renewable except on grounds of fraud, misrepresentation by the Insured Person. ii. The Company shall endeavor to give notice for renewal. However, the Company is not under obligation to g",
+     "value": "Policy shall ordinarily be renewable except on grounds of fraud, misrepresentation by the Insured Person",
+     "why": "guaranteed renewal except for fraud or non-disclosure"
+    },
+    "specific_waiting_months": {
+     "confidence": "extracted",
+     "page": 30,
+     "quote": "(Code- Excl 02) i. Expenses related to the treatment of the following listed conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage, as may be the case after the date of inception of the first Policy with the Company. This exclusion shall no",
+     "value": 24,
+     "why": "specified-disease exclusion clause"
+    },
+    "sub_limits": {
+     "confidence": "extracted",
+     "page": 45,
+     "quote": "efit Ambulance hospitalization Actuals Intercity (Including Intercity ambulance Ambulance cost: beyond 100km) cost (beyond 100km): upto Rs. 20,000 per hospitalization 3.1.3 Domiciliary Within the Sum Insured Indemnity Hospitalization indusindinsurance.com",
+     "value": [
+      "Ambulance: Rs 20,000",
+      "Maternity: Rs 10,000"
+     ],
+     "why": "named treatment with a stated cap"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (59 occurrences)",
+     "value": "INIHLIP26040V042526",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    },
+    "wellness_benefits": {
+     "confidence": "extracted",
+     "page": 13,
+     "quote": "5.3 Loyalty Cover, • Benefit 3.5.4 No Claim Discount, • Benefit-3.6.1 Wellness Services, • Benefit-3.6.3 Policy Pause, • Benefit- 3.6.5 Preventive Care Cover, • Benefit - 3.7.4 Double Cover (if opted), • Benefi",
+     "value": "Wellness Services, • Benefit-3",
+     "why": "wellness or health check-up benefit as stated"
+    },
+    "zone_based_pricing": {
+     "confidence": "extracted",
+     "page": 44,
+     "quote": ", Barrackpore, Bhatpara, Bidhannagar, Dum Dum, Garulia, and Halisahar Zone B: Rest of India If the Insured Person has paid the premium for Zone A then Insured can avail treatment anywhere in I",
+     "value": true,
+     "why": "policy defines pricing zones by city"
+    }
+   },
+   "file": "revised-indusind-health-gain-policy-wordings.pdf",
+   "pages": 60,
+   "product": "revised indusind health gain policy wordings",
+   "sha256": "bccee4530c797dd6283e85926fbeba46d6b89ca8f7cd4a60104ff62e0aea7f4f",
+   "source_url": "https://www.indusindinsurance.com/Downloads/revised-indusind-health-gain-policy-wordings.pdf",
+   "uin": "INIHLIP26040V042526"
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "ayush_covered": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "icy. (vi) Expenses incurred on hospitalization due to accident, under AYUSH (as defined in IRDAI (health Insurance) Regu- lations, 2016) systems of medicine shall be covered without any",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "cashless_claim": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "person on last birthday as on date of commencement of the Policy 3.3. Cashless Facility means a facility extended by the insurer to the insured where the payments, of the costs of treat- ment under",
+     "value": true,
+     "why": "cashless facility offered"
+    },
+    "exclusions": {
+     "confidence": "extracted",
+     "page": 7,
+     "quote": "n in connection with or in respect of: i. Investigation & Evaluation (Code- Excl04) a. Expenses related to any admission primarily for diagnostics and evaluation purposes. b. Any diagnostic ex",
+     "value": [
+      "Investigation and evaluation",
+      "Dietary supplements and substances bought without prescription"
+     ],
+     "why": "2 IRDAI standard exclusions, identified by their code numbers"
+    },
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 12,
+     "quote": "on the new policy and not on renewals i. The insured will be allowed a period of thirty days from date of receipt of the Policy to review the terms and conditions of the Policy, and to return the same if not acceptable ii. If the insured has not made any cl",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "grace_period_days": {
+     "confidence": "extracted",
+     "page": 11,
+     "quote": "licy period, the policy shall terminate and can be renewed within the Grace period of 30 days to maintain continuity of benefits without break in policy. Coverage is not available during the grace period. iv. No loading shall",
+     "value": 30,
+     "why": "renewal grace period clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "IndusInd General Insurance Limited (formerly Reliance General Insurance)",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "no_claim_bonus": {
+     "confidence": "extracted",
+     "page": 6,
+     "quote": "s independent of claim admissibility under the base covers. SECTION-5 CUMULATIVE BONUS Sum insured (excluding cumulative bonus) shall be increased by 5% in respect of each claim free policy year,",
+     "value": "CUMULATIVE BONUS Sum insured (excluding cumulative bonus) shall be increased by 5% in respect of each claim free policy year",
+     "why": "cumulative bonus clause"
+    },
+    "policy_term_years": {
+     "confidence": "extracted",
+     "page": 13,
+     "quote": "On Individual basis - SI shall apply to each individual family member Policy Period 1 year Base Covers i. Death ii. Permanent total disablement iii. Permanent partial disablement Optional Covers i. Te",
+     "value": "1 year",
+     "why": "policy term declared in the wording"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://www.indusindinsurance.com/Downloads/Saral_Suraksha_Bima_Reliance_General-Policy_Wordings.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "renewability": {
+     "confidence": "extracted",
+     "page": 11,
+     "quote": "8.13. Renewal of the Policy: The policy shall ordinarily be renewable except on grounds of fraud, misrepresentation by the insured person. i. The Company shall endeavour to give notice for renewal. However, the Company is not under obligation to g",
+     "value": "policy shall ordinarily be renewable except on grounds of fraud, misrepresentation by the insured person",
+     "why": "guaranteed renewal except for fraud or non-disclosure"
+    },
+    "sub_limits": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "ery. (iii) All the day care treatments (iv) Expenses incurred on road Ambulance subject to a maximum of Rs. 2000/- per hospitalization Note: The expenses that are not covered under the section 4.2(b) are placed under List-",
+     "value": [
+      "Ambulance: Rs 2,000"
+     ],
+     "why": "named treatment with a stated cap"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (32 occurrences)",
+     "value": "RELPAIP21641V012021",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "Saral_Suraksha_Bima_Reliance_General-Policy_Wordings.pdf",
+   "pages": 19,
+   "product": "Saral Suraksha Bima Reliance General Policy Wordings",
+   "sha256": "3dcc1fc52331cf7f68723a0c5c6b83c2e790c1110dab1218829e6554edc1c45a",
+   "source_url": "https://www.indusindinsurance.com/Downloads/Saral_Suraksha_Bima_Reliance_General-Policy_Wordings.pdf",
+   "uin": "RELPAIP21641V012021"
+  }
+ ],
+ "policy_count": 5,
+ "source": "https://www.starhealth.in/downloads/",
+ "unreadable": []
+}

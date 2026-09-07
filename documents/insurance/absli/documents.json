@@ -1,0 +1,242 @@
+{
+ "source": [
+  "https://lifeinsurance.adityabirlacapital.com/term-insurance/"
+ ],
+ "insurer": "absli",
+ "retrieved": "2026-09-07",
+ "how_found": "Current policy contracts live on each product page. The forms-and-downloads 'brochures-and-specimen-contracts' page is WITHDRAWN products only and is deliberately not mirrored as current.",
+ "note": "Every file was downloaded from the insurer's own site, reached by following its own navigation. No URL was guessed. Each file was verified to begin with %PDF before being kept, so a 404 page served under a 200 status cannot masquerade as a document.",
+ "document_count": 23,
+ "documents": [
+  {
+   "product": "5 ABSLI Digi Shield Plan V13 Policy Contract",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "5 ABSLI Digi Shield Plan V13 Policy Contract",
+   "file": "5_ABSLI_Digi_Shield_Plan_V13_Policy_Contract_d5cbf72580.pdf",
+   "source_url": "https://lifeinsurance.adityabirlacapital.com/uploads/5_ABSLI_Digi_Shield_Plan_V13_Policy_Contract_d5cbf72580.pdf",
+   "sha256": "ed52a0bf6a61e0a0b7e34fac8ebd37f354993bf39704dc572c333d9f8049740e",
+   "bytes": 944644
+  },
+  {
+   "product": "ABSLI Accidental Death and Disability Rider Brochure",
+   "uin": null,
+   "doc_type": "Brochure",
+   "title": "ABSLI Accidental Death and Disability Rider Brochure",
+   "file": "ABSLI_Accidental_Death_and_Disability_Rider_Brochure_89e58ceae6.pdf",
+   "source_url": "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Accidental_Death_and_Disability_Rider_Brochure_89e58ceae6.pdf",
+   "sha256": "af4b8770cff952413bc8e57b208ee7573ed496447e5b5521f8b4d57bb6d019fd",
+   "bytes": 168735
+  },
+  {
+   "product": "ABSLI Accidental Death Benefit Rider Plus Brochure",
+   "uin": null,
+   "doc_type": "Brochure",
+   "title": "ABSLI Accidental Death Benefit Rider Plus Brochure",
+   "file": "ABSLI_Accidental_Death_Benefit_Rider_Plus_Brochure_6f09152351.pdf",
+   "source_url": "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Accidental_Death_Benefit_Rider_Plus_Brochure_6f09152351.pdf",
+   "sha256": "a8a41433a7a666a8287849ad55becd9d3ea14eed3a1185474c908216eae07636",
+   "bytes": 896362
+  },
+  {
+   "product": "ABSLI Critical Illness Rider Brochure",
+   "uin": null,
+   "doc_type": "Brochure",
+   "title": "ABSLI Critical Illness Rider Brochure",
+   "file": "ABSLI_Critical_Illness_Rider_Brochure_6b983b5557.pdf",
+   "source_url": "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Critical_Illness_Rider_Brochure_6b983b5557.pdf",
+   "sha256": "774c749d87384f153bd6e33c30953199e4387054245bf910080f6a13d6d6d0ae",
+   "bytes": 269901
+  },
+  {
+   "product": "ABSLI Digi Shield Plan V13 Brochure Web Version",
+   "uin": null,
+   "doc_type": "Brochure",
+   "title": "ABSLI Digi Shield Plan V13 Brochure Web Version",
+   "file": "ABSLI_Digi_Shield_Plan_V13_Brochure_Web_Version_1a00282cef.pdf",
+   "source_url": "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Digi_Shield_Plan_V13_Brochure_Web_Version_1a00282cef.pdf",
+   "sha256": "5380e8b4547f9deef6b80594cc7e322cc68384fd2dd9e3ece9efb40564112075",
+   "bytes": 3640915
+  },
+  {
+   "product": "ABSLI Income Suraksha Plan V02 Brochure Web Version",
+   "uin": null,
+   "doc_type": "Brochure",
+   "title": "ABSLI Income Suraksha Plan V02 Brochure Web Version",
+   "file": "ABSLI_Income_Suraksha_Plan_V02_Brochure_Web_Version_e9f60f20dd.pdf",
+   "source_url": "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Income_Suraksha_Plan_V02_Brochure_Web_Version_e9f60f20dd.pdf",
+   "sha256": "a10d6165f553d4adfd5d7ffea53b509f6a4a5c8992a6f212ad3d9d66a8719cdd",
+   "bytes": 513063
+  },
+  {
+   "product": "ABSLI Insta Digi Term Plan V03 Brochure Web Version",
+   "uin": null,
+   "doc_type": "Brochure",
+   "title": "ABSLI Insta Digi Term Plan V03 Brochure Web Version",
+   "file": "ABSLI_Insta_Digi_Term_Plan_V03_Brochure_Web_Version_136b98e376.pdf",
+   "source_url": "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Insta_Digi_Term_Plan_V03_Brochure_Web_Version_136b98e376.pdf",
+   "sha256": "94cd9a23556b495d8285ca064fabfd7bbc8970cb697e7fc1abd39aa10470436a",
+   "bytes": 551260
+  },
+  {
+   "product": "ABSLI Insta Digi Term Plan V03 CIS",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "ABSLI Insta Digi Term Plan V03 CIS",
+   "file": "ABSLI_Insta_Digi_Term_Plan_V03_CIS_a454a4a987.pdf",
+   "source_url": "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Insta_Digi_Term_Plan_V03_CIS_a454a4a987.pdf",
+   "sha256": "968e2b802994ab272f12236ddc3fe736f03f06a1001f0942998b2954ad2da61f",
+   "bytes": 251654
+  },
+  {
+   "product": "ABSLI Insta Digi Term Plan V03 Leaflet Web Version",
+   "uin": null,
+   "doc_type": "Brochure",
+   "title": "ABSLI Insta Digi Term Plan V03 Leaflet Web Version",
+   "file": "ABSLI_Insta_Digi_Term_Plan_V03_Leaflet_Web_Version_e3b67b1500.pdf",
+   "source_url": "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Insta_Digi_Term_Plan_V03_Leaflet_Web_Version_e3b67b1500.pdf",
+   "sha256": "ded9a79a920140458bf7f7c9c5c9989e5e55b3c67ed1fa988dbca4df3ee41ed3",
+   "bytes": 454673
+  },
+  {
+   "product": "ABSLI Poorna Suraksha Kawach Plan V04 Brochure Web Version 2",
+   "uin": null,
+   "doc_type": "Brochure",
+   "title": "ABSLI Poorna Suraksha Kawach Plan V04 Brochure Web Version 2",
+   "file": "ABSLI_Poorna_Suraksha_Kawach_Plan_V04_Brochure_Web_Version_2_ccb0f1c2d1.pdf",
+   "source_url": "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Poorna_Suraksha_Kawach_Plan_V04_Brochure_Web_Version_2_ccb0f1c2d1.pdf",
+   "sha256": "48588f4d5d6cd582d8c3a8022a2a14248f0cbecec71069d64bb2b2e22a3fcd55",
+   "bytes": 1776408
+  },
+  {
+   "product": "ABSLI Poorna Suraksha Kawach V04 Policy Contract",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "ABSLI Poorna Suraksha Kawach V04 Policy Contract",
+   "file": "ABSLI_Poorna_Suraksha_Kawach_V04_Policy_Contract_2e9efd7128.pdf",
+   "source_url": "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Poorna_Suraksha_Kawach_V04_Policy_Contract_2e9efd7128.pdf",
+   "sha256": "cf164265ba5e019dc0a6b52df031222126565225d212c90e0c146657d9c6ef93",
+   "bytes": 1560560
+  },
+  {
+   "product": "ABSLI Salaried Term Plan Policy Contract",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "ABSLI Salaried Term Plan Policy Contract",
+   "file": "ABSLI_Salaried_Term_Plan_Policy_Contract_52931a52e2.pdf",
+   "source_url": "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Salaried_Term_Plan_Policy_Contract_52931a52e2.pdf",
+   "sha256": "938ec077a490d3a5fcf621812c9ab0f0aa26a5b3d1b19604068e29068c6d13d7",
+   "bytes": 1694985
+  },
+  {
+   "product": "ABSLI Salaried Term Plan V05 Brochure Web Version",
+   "uin": null,
+   "doc_type": "Brochure",
+   "title": "ABSLI Salaried Term Plan V05 Brochure Web Version",
+   "file": "ABSLI_Salaried_Term_Plan_V05_Brochure_Web_Version_9743b6e5d7.pdf",
+   "source_url": "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Salaried_Term_Plan_V05_Brochure_Web_Version_9743b6e5d7.pdf",
+   "sha256": "d95e067daafdd987c56177d4e718436b2b4a9453bae481798219b18be57dc113",
+   "bytes": 1651132
+  },
+  {
+   "product": "ABSLI Salaried Term Plan V05 Leaflet Web Version 1",
+   "uin": null,
+   "doc_type": "Brochure",
+   "title": "ABSLI Salaried Term Plan V05 Leaflet Web Version 1",
+   "file": "ABSLI_Salaried_Term_Plan_V05_Leaflet_Web_Version_1_7981db334b.pdf",
+   "source_url": "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Salaried_Term_Plan_V05_Leaflet_Web_Version_1_7981db334b.pdf",
+   "sha256": "422c7859a781036c30acd1f2c3c689cedd3b214340abffea35ed2256760ab2ec",
+   "bytes": 1464552
+  },
+  {
+   "product": "ABSLI Saral Jeevan Bima V01 Brochure Web Version",
+   "uin": null,
+   "doc_type": "Brochure",
+   "title": "ABSLI Saral Jeevan Bima V01 Brochure Web Version",
+   "file": "ABSLI_Saral_Jeevan_Bima_V01_Brochure_Web_Version_1d3b9aef33.pdf",
+   "source_url": "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Saral_Jeevan_Bima_V01_Brochure_Web_Version_1d3b9aef33.pdf",
+   "sha256": "05535b7f98d44e42e06e25efa01e0399caa31f09bd176c0d28ad78d7882df4d3",
+   "bytes": 316418
+  },
+  {
+   "product": "ABSLI Super Term Plan 2 Pager Leaflet AW 4 130625 2",
+   "uin": null,
+   "doc_type": "Brochure",
+   "title": "ABSLI Super Term Plan 2 Pager Leaflet AW 4 130625 2",
+   "file": "ABSLI_Super_Term_Plan_2_Pager_Leaflet_AW_4_130625_2_57798b06e5.pdf",
+   "source_url": "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Super_Term_Plan_2_Pager_Leaflet_AW_4_130625_2_57798b06e5.pdf",
+   "sha256": "7d4a7b48830a09ab52203ac835b46d90380a1ad310eba4948130685d47f2bd33",
+   "bytes": 327305
+  },
+  {
+   "product": "ABSLI Super Term Plan Plus CIS",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "ABSLI Super Term Plan Plus CIS",
+   "file": "ABSLI_Super_Term_Plan_Plus_CIS_119375907e.pdf",
+   "source_url": "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Super_Term_Plan_Plus_CIS_119375907e.pdf",
+   "sha256": "b6c12b39a7b44b90c9979ff41a9936c918aa03db808d054ac78d8803fa5c2f61",
+   "bytes": 344031
+  },
+  {
+   "product": "ABSLI Super Term Plan Plus Leaflet",
+   "uin": null,
+   "doc_type": "Brochure",
+   "title": "ABSLI Super Term Plan Plus Leaflet",
+   "file": "ABSLI_Super_Term_Plan_Plus_Leaflet_8402d835c7.pdf",
+   "source_url": "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Super_Term_Plan_Plus_Leaflet_8402d835c7.pdf",
+   "sha256": "513394f0fab7a2f60b109cd778e849264aee178a42a5592dd6dd77c9737c1793",
+   "bytes": 621828
+  },
+  {
+   "product": "ABSLI Super Term Plan Plus Policy Contract",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "ABSLI Super Term Plan Plus Policy Contract",
+   "file": "ABSLI_Super_Term_Plan_Plus_Policy_Contract_fd518ad9be.pdf",
+   "source_url": "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Super_Term_Plan_Plus_Policy_Contract_fd518ad9be.pdf",
+   "sha256": "44d30217679f8b0c8b073c59872614283434037adf78fba7f29f6731446f33da",
+   "bytes": 1048619
+  },
+  {
+   "product": "ABSLI Super Term Plan V02 Brochure Web Version",
+   "uin": null,
+   "doc_type": "Brochure",
+   "title": "ABSLI Super Term Plan V02 Brochure Web Version",
+   "file": "ABSLI_Super_Term_Plan_V02_Brochure_Web_Version_ac63b34e77.pdf",
+   "source_url": "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Super_Term_Plan_V02_Brochure_Web_Version_ac63b34e77.pdf",
+   "sha256": "bc60bfe87a27f6af9e64eb9e536a7c7d69482c94056cca0f8b890d9f7d80baf1",
+   "bytes": 1639649
+  },
+  {
+   "product": "ABSLI Super term plan V02 Policy Contract",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "ABSLI Super term plan V02 Policy Contract",
+   "file": "ABSLI_Super_term_plan_V02_Policy_Contract_3fcdd4d65b.pdf",
+   "source_url": "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Super_term_plan_V02_Policy_Contract_3fcdd4d65b.pdf",
+   "sha256": "927161f8233cad3ead25329afa672a51303693ffa136f015868ba1b7552d7c6d",
+   "bytes": 1800840
+  },
+  {
+   "product": "CIS ABSLI Salaried Term plan V05",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "CIS ABSLI Salaried Term plan V05",
+   "file": "CIS_ABSLI_Salaried_Term_plan_V05_8b839ee551.pdf",
+   "source_url": "https://lifeinsurance.adityabirlacapital.com/uploads/CIS_ABSLI_Salaried_Term_plan_V05_8b839ee551.pdf",
+   "sha256": "4aaec63ea9009859c24bc08faec4be191e82d08410772c21faf61f60f1d199d6",
+   "bytes": 414029
+  },
+  {
+   "product": "CIS ABSLI Super Term V02",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "CIS ABSLI Super Term V02",
+   "file": "CIS_ABSLI_Super_Term_V02_5b758e6101.pdf",
+   "source_url": "https://lifeinsurance.adityabirlacapital.com/uploads/CIS_ABSLI_Super_Term_V02_5b758e6101.pdf",
+   "sha256": "63048196fc390ac293189255567a59e114eaf44c772ccb64cba5ff884403b901",
+   "bytes": 1046344
+  }
+ ]
+}

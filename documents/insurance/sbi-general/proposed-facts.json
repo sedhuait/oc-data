@@ -1,0 +1,3436 @@
+{
+ "generated": "2026-09-07",
+ "generator": "sources/insurance/parse_wordings.py",
+ "insurer": "SBI General Insurance Company Limited",
+ "note": "PROPOSED facts read from policy wordings. Nothing here is a record yet. Every value carries the sentence it came from and the page it was on so a person can check it against the PDF before it is published. Waiting periods and caps are financial figures: a wrong one costs somebody a claim, so they wait for a human. Run with --apply once this file has been read.",
+ "policies": [
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "ayush_covered": {
+     "confidence": "extracted",
+     "page": 8,
+     "quote": "Certificate of Insurance. Inpatient Care under Alternative Treatment (AYUSH) We will indemnify the Insured Person upto the limit specified in the Policy Schedule/Certificate of Insuranc",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "cashless_claim": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "ot paid on or before the premium Renewal date or Grace Period. 2.1(f) Cashless Facility means a facility extended by the insurer to the Insured Persons where the payments, of the costs of treatment",
+     "value": true,
+     "why": "cashless facility offered"
+    },
+    "exclusions": {
+     "confidence": "extracted",
+     "page": 19,
+     "quote": "sly stated to the contrary in this Policy; 4.1 Pre-Existing Diseases (Code- Excl01) i) Expenses related to the treatment of a Pre-Existing Disease (PED) and its direct complications shall be e",
+     "value": [
+      "Pre-existing diseases",
+      "Specified disease/procedure waiting period",
+      "First thirty-day waiting period",
+      "Investigation and evaluation",
+      "Rest cure, rehabilitation and respite care",
+      "Obesity / weight control",
+      "Change-of-gender treatments",
+      "Cosmetic or plastic surgery",
+      "Hazardous or adventure sports",
+      "Breach of law",
+      "Excluded providers",
+      "Refractive error",
+      "Unproven treatments",
+      "Sterility and infertility",
+      "Maternity"
+     ],
+     "why": "15 IRDAI standard exclusions, identified by their code numbers"
+    },
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 24,
+     "quote": "cies except those with tenure of less than a year, shal be provided a free look period of 30 days beginning from the date of receipt of Policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "grace_period_days": {
+     "confidence": "extracted",
+     "page": 31,
+     "quote": "licy Period, the Policy shall terminate and can be renewed within the Grace Period of 30 days to maintain continuity of benefits without Break in Policy. Coverage is not available during the Grace Period. vi. No loading shall",
+     "value": 30,
+     "why": "renewal grace period clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "SBI General Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "opd_covered": {
+     "confidence": "extracted",
+     "page": 27,
+     "quote": "ical Expenses Post- Hospitalization Medical Expenses Modern Treatment OPD Cover Emergency Ground Ambulance Weekly Benefit Home Health Care Common Disease Cover Health Check Up E-Opini",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://content.sbigeneral.in/uploads/1_0_SBI_General_Arogya_Gold_Group_Policy_Wordings_2703fd827f.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "portability_allowed": {
+     "confidence": "extracted",
+     "page": 31,
+     "quote": "t.sbigeneral.in//uploads/ c6a2844dd65446019b130ffbae1fa20f.pdf 6.4(b) Portability The Insured Person will have the option to port the Policy to other insurers by applying to such insurer to p",
+     "value": true,
+     "why": "portability offered at renewal"
+    },
+    "renewability": {
+     "confidence": "extracted",
+     "page": 31,
+     "quote": "c6a2844dd65446019b130ffbae1fa20f.pdf 6.4(c) Renewal of Policy i. The Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person. ii. The Company shall endeavor to give notice for Rene",
+     "value": "Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person",
+     "why": "guaranteed renewal except for fraud or non-disclosure"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (42 occurrences)",
+     "value": "SBIHLGP27035V012627",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    },
+    "wellness_benefits": {
+     "confidence": "extracted",
+     "page": 13,
+     "quote": "er. 1.16 Wellness Care Under this Cover, The Insured Person may avail wellness services. The services may include any or all programs/ services intended to maintain, improve, promote health and fit",
+     "value": "wellness services",
+     "why": "wellness or health check-up benefit as stated"
+    }
+   },
+   "file": "1_0_SBI_General_Arogya_Gold_Group_Policy_Wordings_2703fd827f.pdf",
+   "pages": 43,
+   "product": "1 0 SBI General Arogya Gold Group Policy Wordings",
+   "sha256": "6d2d37eb84dc90dd02cefc7d30871b4b398c5b9331045702beb1607379ca2ae8",
+   "source_url": "https://content.sbigeneral.in/uploads/1_0_SBI_General_Arogya_Gold_Group_Policy_Wordings_2703fd827f.pdf",
+   "uin": "SBIHLGP27035V012627"
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "ayush_covered": {
+     "confidence": "extracted",
+     "page": 11,
+     "quote": ",000/-, Treatment whichever is lower, per eye, under one policy year. AYUSH Expenses incurred for Inpatient Care treatment under Ayurveda, Yoga and Naturopathy, Unani, Siddha and I-home",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "cashless_claim": {
+     "confidence": "extracted",
+     "page": 7,
+     "quote": "culars shall be sent to the Company/TPA (if applicable) as under: For Cashless Hospitalization: i. Within 24 hours from the date of emergency hospitalization required or before the Insured Person's discha",
+     "value": true,
+     "why": "cashless facility offered"
+    },
+    "copay_pct": {
+     "confidence": "extracted",
+     "page": 8,
+     "quote": "o-payment Each and every claim under the Policy shall be subject to a Co-payment of 5% applicable to claim amount admissible and payable as per the terms and conditions of the Policy. The amount p",
+     "value": 5,
+     "why": "co-payment clause"
+    },
+    "exclusions": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "the expiry of waiting period mentioned below: Pre-Existing Diseases (Code- Excl01) a) Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be e",
+     "value": [
+      "Pre-existing diseases",
+      "Specified disease/procedure waiting period",
+      "First thirty-day waiting period",
+      "Investigation and evaluation",
+      "Rest cure, rehabilitation and respite care",
+      "Obesity / weight control",
+      "Change-of-gender treatments",
+      "Cosmetic or plastic surgery",
+      "Hazardous or adventure sports",
+      "Breach of law",
+      "Excluded providers",
+      "Alcohol and substance abuse",
+      "Dietary supplements and substances bought without prescription",
+      "Refractive error",
+      "Sterility and infertility",
+      "Maternity"
+     ],
+     "why": "16 IRDAI standard exclusions, identified by their code numbers"
+    },
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 10,
+     "quote": "ies except those with tenure of less than a year, shall be provided a free look period of 30 days beginning from the date of receipt of Policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "grace_period_days": {
+     "confidence": "extracted",
+     "page": 10,
+     "quote": "licy Period, the Policy shall terminate and can be renewed within the Grace Period of 30 days to maintain continuity of benefits without Break in Policy. Coverage is not available during the Grace Period. vi. No loading shall",
+     "value": 30,
+     "why": "renewal grace period clause"
+    },
+    "icu_cap": {
+     "confidence": "extracted",
+     "page": 4,
+     "quote": "Home up to 2% of the sum insured subject to maximum `5,000/ par day. Intensive Care Unit (ICU) / Intensive Cardiac Care Unit (ICCU) expenses up to 5% of sum insured subject to maximum of `10,000/- per day. Surgeon, Anaesthetist, Medical Practitioner, Consultants, Specialist",
+     "value": "5% of sum insured per day",
+     "why": "percentage-of-sum-insured ICU cap"
+    },
+    "initial_waiting_days": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "riod Code Excl03) i. Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered. ii. This excl",
+     "value": 30,
+     "why": "initial waiting clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "SBI General Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "no_claim_bonus": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "ed under List-II, List-Ill and List-IV of Annexure-A respectively. 5. Cumulative Bonus (CB) Cumulative Bonus will be increased by 5% in respect of each claim free policy year (where no claims are",
+     "value": "Cumulative Bonus (CB) Cumulative Bonus will be increased by 5% in respect of each claim free policy year (where no claims are reported)",
+     "why": "cumulative bonus clause"
+    },
+    "ped_waiting_months": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "ing Diseases (Code- Excl01) a) Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with us. b) In case of enhancement of sum insured the e",
+     "value": 36,
+     "why": "operative PED exclusion clause"
+    },
+    "policy_term_years": {
+     "confidence": "extracted",
+     "page": 11,
+     "quote": "ach ind family member On Floater basis - Sl shall apply to the entire Policy Period 1 Year Eligibility Policy can be availed by persons between the age of 18 years and 65 years, as Proposer. Proposer",
+     "value": "1 year",
+     "why": "policy term declared in the wording"
+    },
+    "policy_type": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "educe only in case of claim from the same Insured Person. ii. In case where the policy is on floater basis, the CB shall be added and available to the family on floater basis, provided no claim has been reported from",
+     "value": "Individual or family floater",
+     "why": "policy states both bases are available"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://content.sbigeneral.in/uploads/Arogya_Sanjeevani_Policy_Wording_KEN_034037d936.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "portability_allowed": {
+     "confidence": "extracted",
+     "page": 9,
+     "quote": "nt.sbigeneral.in//uploads/c6a2844dd6544601 9b130ffbae1fa20f.pdf 10.14 Portability The Insured Person will have the option to port the Policy to other Insurers by applying to such Insurer to p",
+     "value": true,
+     "why": "portability offered at renewal"
+    },
+    "pre_hosp_days": {
+     "confidence": "extracted",
+     "page": 11,
+     "quote": "treatment is undergone in a Day Care Centre. Pre Hospitalisation For 30 days prior to the date of hospitalization SBI General Insurance Company Limited, Corporate & Registered Office: Fulcr CIN: U66000MH2009PLC190546 | Toll",
+     "value": 30,
+     "why": "pre-?\\s*hospitali cover period"
+    },
+    "renewability": {
+     "confidence": "extracted",
+     "page": 9,
+     "quote": "/c6a2844dd6544601 9b130ffbae1fa20f.pdf 10.15 Renewal of Policy i. The Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person. ii. The Company shall endeavor to give notice for Ren",
+     "value": "Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person",
+     "why": "guaranteed renewal except for fraud or non-disclosure"
+    },
+    "room_rent_cap": {
+     "confidence": "extracted",
+     "page": 4,
+     "quote": "Room Rent, Boarding, Nursing Expenses as provided by the Hospital / Nursing Home up to 2% of the sum insured subject to maximum `5,000/ par day. Intensive Care Unit (ICU) / Intensive Cardiac Care Unit (ICCU) expenses u",
+     "value": "2% of sum insured per day",
+     "why": "percentage-of-sum-insured room cap"
+    },
+    "sub_limits": {
+     "confidence": "extracted",
+     "page": 11,
+     "quote": "up to 5% of the sum insured subject to maximum of `10,000/-, per day. Cataract Up to 25% of Sum insured or `40,000/-, Treatment whichever is lower, per eye, under one policy year. AYUSH Expenses inc",
+     "value": [
+      "Cataract: 25%"
+     ],
+     "why": "named treatment with a stated cap"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (14 occurrences)",
+     "value": "SBIHLIP20180V011920",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "Arogya_Sanjeevani_Policy_Wording_KEN_034037d936.pdf",
+   "pages": 15,
+   "product": "Arogya Sanjeevani Policy Wording KEN",
+   "sha256": "659ab45a0113c628b29c5989d43ad25feb54a762f1a9f013ce9634ad8abfa171",
+   "source_url": "https://content.sbigeneral.in/uploads/Arogya_Sanjeevani_Policy_Wording_KEN_034037d936.pdf",
+   "uin": "SBIHLIP20180V011920"
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "ayush_covered": {
+     "confidence": "extracted",
+     "page": 11,
+     "quote": ",000/-, Treatment whichever is lower, per eye, under one policy year. AYUSH Expenses incurred for Inpatient Care treatment under Ayurveda, Yoga and Naturopathy, Unani, Siddha and I-home",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "cashless_claim": {
+     "confidence": "extracted",
+     "page": 7,
+     "quote": "culars shall be sent to the Company/TPA (if applicable) as under: For Cashless Hospitalization: i. Within 24 hours from the date of emergency hospitalization required or before the Insured Person's discha",
+     "value": true,
+     "why": "cashless facility offered"
+    },
+    "copay_pct": {
+     "confidence": "extracted",
+     "page": 8,
+     "quote": "o-payment Each and every claim under the Policy shall be subject to a Co-payment of 5% applicable to claim amount admissible and payable as per the terms and conditions of the Policy. The amount p",
+     "value": 5,
+     "why": "co-payment clause"
+    },
+    "exclusions": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "the expiry of waiting period mentioned below: Pre-Existing Diseases (Code- Excl01) a) Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be e",
+     "value": [
+      "Pre-existing diseases",
+      "Specified disease/procedure waiting period",
+      "First thirty-day waiting period",
+      "Investigation and evaluation",
+      "Rest cure, rehabilitation and respite care",
+      "Obesity / weight control",
+      "Change-of-gender treatments",
+      "Cosmetic or plastic surgery",
+      "Hazardous or adventure sports",
+      "Breach of law",
+      "Excluded providers",
+      "Alcohol and substance abuse",
+      "Dietary supplements and substances bought without prescription",
+      "Refractive error",
+      "Sterility and infertility",
+      "Maternity"
+     ],
+     "why": "16 IRDAI standard exclusions, identified by their code numbers"
+    },
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 10,
+     "quote": "ies except those with tenure of less than a year, shall be provided a free look period of 30 days beginning from the date of receipt of Policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "grace_period_days": {
+     "confidence": "unconfirmed",
+     "page": 9,
+     "quote": "licy Period, the Policy shall terminate and can be renewed within the Grace Period of 30 days to , 9th Floor, A & B Wing, Sahar Road, Andheri (East), Mumbai - 400099. | .sbigeneral.in | SBI Logo displaye",
+     "value": 30,
+     "why": "grace period stated without naming renewal — a person should confirm"
+    },
+    "icu_cap": {
+     "confidence": "extracted",
+     "page": 4,
+     "quote": "Home up to 2% of the sum insured subject to maximum `5,000/ par day. Intensive Care Unit (ICU) / Intensive Cardiac Care Unit (ICCU) expenses up to 5% of sum insured subject to maximum of `10,000/- per day. Surgeon, Anaesthetist, Medical Practitioner, Consultants, Specialist",
+     "value": "5% of sum insured per day",
+     "why": "percentage-of-sum-insured ICU cap"
+    },
+    "initial_waiting_days": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "riod Code Excl03) i. Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered. ii. This excl",
+     "value": 30,
+     "why": "initial waiting clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "SBI General Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "no_claim_bonus": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "ed under List-II, List-Ill and List-IV of Annexure-A respectively. 5. Cumulative Bonus (CB) Cumulative Bonus will be increased by 5% in respect of each claim free policy year (where no claims are",
+     "value": "Cumulative Bonus (CB) Cumulative Bonus will be increased by 5% in respect of each claim free policy year (where no claims are reported)",
+     "why": "cumulative bonus clause"
+    },
+    "ped_waiting_months": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "ing Diseases (Code- Excl01) a) Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with us. b) In case of enhancement of sum insured the e",
+     "value": 36,
+     "why": "operative PED exclusion clause"
+    },
+    "policy_term_years": {
+     "confidence": "extracted",
+     "page": 11,
+     "quote": "vi family member. On Floater basis - Sl shall apply to the entire fam Policy Period 1 Year Eligibility Policy can be availed by persons between the age of 18 years and 65 years, as Proposer. Proposer",
+     "value": "1 year",
+     "why": "policy term declared in the wording"
+    },
+    "policy_type": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "educe only in case of claim from the same Insured Person. ii. In case where the policy is on floater basis, the CB shall be added and available to the family on floater basis, provided no claim has been reported from",
+     "value": "Individual or family floater",
+     "why": "policy states both bases are available"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://content.sbigeneral.in/uploads/Arogya_Sanjeevani_Policy_Wording_Micro_Insurance_KEN_41940000a6.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "portability_allowed": {
+     "confidence": "extracted",
+     "page": 9,
+     "quote": "tent.sbigeneral.in//uploads/c6a2844dd6544601 9b130ffbae1fa20f.pdf .14 Portability The Insured Person will have the option to port the Policy to other Insurers by applying to such Insurer to p",
+     "value": true,
+     "why": "portability offered at renewal"
+    },
+    "pre_hosp_days": {
+     "confidence": "extracted",
+     "page": 11,
+     "quote": "treatment is undergone in a Day Care Centre. Pre Hospitalisation For 30 days prior to the date of hospitalization Post For 60 days from the date of discharge from the Hospitalisation hospital SBI General Insurance Company L",
+     "value": 30,
+     "why": "pre-?\\s*hospitali cover period"
+    },
+    "renewability": {
+     "confidence": "extracted",
+     "page": 9,
+     "quote": "ds/c6a2844dd6544601 9b130ffbae1fa20f.pdf .15 Renewal of Policy i. The Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person. ii. The Company shall endeavor to give notice for Ren",
+     "value": "Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person",
+     "why": "guaranteed renewal except for fraud or non-disclosure"
+    },
+    "room_rent_cap": {
+     "confidence": "extracted",
+     "page": 4,
+     "quote": "Room Rent, Boarding, Nursing Expenses as provided by the Hospital / Nursing Home up to 2% of the sum insured subject to maximum `5,000/ par day. Intensive Care Unit (ICU) / Intensive Cardiac Care Unit (ICCU) expenses u",
+     "value": "2% of sum insured per day",
+     "why": "percentage-of-sum-insured room cap"
+    },
+    "sub_limits": {
+     "confidence": "extracted",
+     "page": 11,
+     "quote": "up to 5% of the sum insured subject to maximum of `10,000/-, per day. Cataract Up to 25% of Sum insured or `40,000/-, Treatment whichever is lower, per eye, under one policy year. AYUSH Expenses inc",
+     "value": [
+      "Cataract: 25%"
+     ],
+     "why": "named treatment with a stated cap"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (14 occurrences)",
+     "value": "SBIHMIP21598V012021",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "Arogya_Sanjeevani_Policy_Wording_Micro_Insurance_KEN_41940000a6.pdf",
+   "pages": 15,
+   "product": "Arogya Sanjeevani Policy Wording Micro Insurance KEN",
+   "sha256": "50ddce6523204e6a120289ab406776e983853fdf47859e6435501d9ff29a2462",
+   "source_url": "https://content.sbigeneral.in/uploads/Arogya_Sanjeevani_Policy_Wording_Micro_Insurance_KEN_41940000a6.pdf",
+   "uin": "SBIHMIP21598V012021"
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "ayush_covered": {
+     "confidence": "extracted",
+     "page": 11,
+     "quote": "ted and specified in the Policy Schedule. 15. Alternative Treatment / AYUSH We will pay Medical Expenses up to the Sum Insured as specified in the Policy Schedule, as listed under Secti",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "cashless_claim": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "is not paid on or before the premium renewal date or grace period. 7 Cashless Facility means a facility extended by the insurer to the insured where the payments, of the costs of treatment undergo",
+     "value": true,
+     "why": "cashless facility offered"
+    },
+    "copay_pct": {
+     "confidence": "extracted",
+     "page": 14,
+     "quote": "nception of the Policy. 6. Co-Payment On availing this option, 10% or 20% Co-Payment as specified in the Policy Schedule, shall be applied on each and every admissible claim after Deductible whe",
+     "value": 20,
+     "why": "co-payment clause"
+    },
+    "domiciliary_covered": {
+     "confidence": "extracted",
+     "page": 10,
+     "quote": "ed and claim under Section C.1 - In patient Hospitalization or C.11 - Domiciliary Hospitalization or C.12-Day Care Treatment is admissible under the Policy. We will pay expenses on reimbursement basis for th",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "exclusions": {
+     "confidence": "extracted",
+     "page": 14,
+     "quote": "waiting period mentioned below: I) First Thirty Days Waiting Period (Code-Excl 03): a) Expenses related to the treatment of any Illness within 30 days from the first Policy Commencement Date",
+     "value": [
+      "Pre-existing diseases",
+      "Specified disease/procedure waiting period",
+      "First thirty-day waiting period",
+      "Investigation and evaluation",
+      "Rest cure, rehabilitation and respite care",
+      "Obesity / weight control",
+      "Change-of-gender treatments",
+      "Cosmetic or plastic surgery",
+      "Hazardous or adventure sports",
+      "Breach of law",
+      "Excluded providers",
+      "Alcohol and substance abuse",
+      "Treatments in establishments for domestic reasons",
+      "Dietary supplements and substances bought without prescription",
+      "Refractive error",
+      "Unproven treatments",
+      "Sterility and infertility",
+      "Maternity"
+     ],
+     "why": "18 IRDAI standard exclusions, identified by their code numbers"
+    },
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 17,
+     "quote": "ies except those with tenure of less than a year, shall be provided a free look period of 30 days beginning from the date of receipt of policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "grace_period_days": {
+     "confidence": "extracted",
+     "page": 21,
+     "quote": "licy Period, the Policy shall terminate and can be renewed within the Grace Period of 30 days to maintain continuity of benefits without Break in Policy. Coverage is not available during the Grace Period. vi. No loading shall",
+     "value": 30,
+     "why": "renewal grace period clause"
+    },
+    "initial_waiting_days": {
+     "confidence": "extracted",
+     "page": 14,
+     "quote": "d (Code-Excl 03): a) Expenses related to the treatment of any Illness within 30 days from the first Policy Commencement Date shall be excluded excepts claims arising due to an accident, provided the same are covered. b) This excl",
+     "value": 30,
+     "why": "initial waiting clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "SBI General Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "no_claim_bonus": {
+     "confidence": "extracted",
+     "page": 9,
+     "quote": "elow limits • 1% of base Sum Insured (excluding cumulative / enhanced cumulative bonus) OR • Single private Air-Conditioned room OR • At actuals up to Sum Insured b) Intensive Care Unit Expenses •",
+     "value": "cumulative bonus) OR • Single private Air-Conditioned room OR • At actuals up to Sum Insured b) Intensive Care Unit Expenses • 2% of the base Sum Insured (excluding cumulative / enhanced cumulative",
+     "why": "cumulative bonus clause"
+    },
+    "ped_waiting_months": {
+     "confidence": "extracted",
+     "page": 15,
+     "quote": "ing Diseases (Code-Excl01): a) Expenses related to the treatment of a Pre-Existing Diseases (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first Policy with Us. b) In case of enhancement of Sum Insured the ",
+     "value": 36,
+     "why": "operative PED exclusion clause"
+    },
+    "policy_type": {
+     "confidence": "extracted",
+     "page": 13,
+     "quote": "ring Policy and who continue to remain insured in Renewal. v. In case where the policy is on floater basis, the Cumulative Bonus shall be added and available to the family on floater basis, provided no claim has been",
+     "value": "Individual or family floater",
+     "why": "policy states both bases are available"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://content.sbigeneral.in/uploads/AROGYA_SUPREME_Policy_Wording_19e6aaaec0.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "portability_allowed": {
+     "confidence": "extracted",
+     "page": 21,
+     "quote": "ntent.sbigeneral.in//uploads/c6a2844dd6544 6019b130ffbae1fa20f.pdf 3. Portability The Insured Person will have the option to port the Policy to other Insurers by applying to such Insurer to p",
+     "value": true,
+     "why": "portability offered at renewal"
+    },
+    "post_hosp_days": {
+     "confidence": "extracted",
+     "page": 10,
+     "quote": "under Section E.6 is opted and specified in the Policy Schedule. 10. Post-Hospitalization Cover We will pay Medical Expenses incurred up to 60 days, 90 days or 180 days (as specified in Policy Schedule) from the date of Your discharge from Hospital, provide",
+     "value": 60,
+     "why": "post-?\\s*hospitali cover period"
+    },
+    "specific_waiting_months": {
+     "confidence": "extracted",
+     "page": 15,
+     "quote": "aiting Period (Code-Excl 02): a) Expenses related to the treatment of listed Conditions; Surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy with Us. This exclusion shall not be applicable for claims ar",
+     "value": 24,
+     "why": "specified-disease exclusion clause"
+    },
+    "sub_limits": {
+     "confidence": "extracted",
+     "page": 11,
+     "quote": "rocedures list is given in Annexure-II of t Policy Document. 13. Road Ambulance We will pay for expenses incurred up to Rs. 3,000/- or Rs. 5,000 or Rs. 7,000/- as specified in Policy Schedule, on Road Ambulance Services if You required;. i",
+     "value": [
+      "Ambulance: Rs 3,000"
+     ],
+     "why": "named treatment with a stated cap"
+    },
+    "survival_period_days": {
+     "confidence": "extracted",
+     "page": 6,
+     "quote": "); and iv. Dyspnea at rest. In case the Insured person dies after the survival period of 30 days but before assessment period 90 days where the death is due to complications arising out of the said major il",
+     "value": 30,
+     "why": "survival period clause"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (28 occurrences)",
+     "value": "SBIHLIP21043V012122",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "AROGYA_SUPREME_Policy_Wording_19e6aaaec0.pdf",
+   "pages": 29,
+   "product": "AROGYA SUPREME Policy Wording",
+   "sha256": "666ee54c6dc9f2e4bd92f3c036927ceba89e1a09c705e16462704c32dae411a9",
+   "source_url": "https://content.sbigeneral.in/uploads/AROGYA_SUPREME_Policy_Wording_19e6aaaec0.pdf",
+   "uin": "SBIHLIP21043V012122"
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "ayush_covered": {
+     "confidence": "extracted",
+     "page": 10,
+     "quote": "italization or C.12-Day Care Treatment or C.15 Alternative Treatment/ AYUSH is admissible under the Policy. We will pay expenses on reimbursement basis for the above cover. Insured Pers",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "cashless_claim": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "is not paid on or before the premium renewal date or grace period. 8 Cashless Facility means a facility extended by the insurer to the insured where the payments, of the costs of treatment undergo",
+     "value": true,
+     "why": "cashless facility offered"
+    },
+    "copay_pct": {
+     "confidence": "extracted",
+     "page": 14,
+     "quote": "laim Discount is opted. 6. Co-Payment On availing this option, 10% or 20% Co-Payment as specified in the Policy Schedule, shall be applied on each and every admissible claim after Deductible whe",
+     "value": 20,
+     "why": "co-payment clause"
+    },
+    "domiciliary_covered": {
+     "confidence": "extracted",
+     "page": 10,
+     "quote": "ed and claim under Section C.1 - In patient Hospitalization or C.11 - Domiciliary Hospitalization or C.12-Day Care Treatment or C.15 Alternative Treatment/ AYUSH is admissible under the Policy. We will pay e",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "exclusions": {
+     "confidence": "extracted",
+     "page": 15,
+     "quote": "of waiting per mentioned below: I) First Thirty Days Waiting Period (Code-Excl 03): a) Expenses related to the treatment of any Illness within 30 day from the first Policy Commencement Date s",
+     "value": [
+      "Pre-existing diseases",
+      "Specified disease/procedure waiting period",
+      "First thirty-day waiting period",
+      "Investigation and evaluation",
+      "Rest cure, rehabilitation and respite care",
+      "Obesity / weight control",
+      "Change-of-gender treatments",
+      "Cosmetic or plastic surgery",
+      "Hazardous or adventure sports",
+      "Breach of law",
+      "Excluded providers",
+      "Alcohol and substance abuse",
+      "Treatments in establishments for domestic reasons",
+      "Dietary supplements and substances bought without prescription",
+      "Refractive error",
+      "Unproven treatments",
+      "Sterility and infertility",
+      "Maternity"
+     ],
+     "why": "18 IRDAI standard exclusions, identified by their code numbers"
+    },
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 17,
+     "quote": "ies except those with tenure of less than a year, shall be provided a free look period of 30 days beginning from the date of receipt of policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "grace_period_days": {
+     "confidence": "extracted",
+     "page": 21,
+     "quote": "licy Period, the Policy shall terminate and can be renewed within the Grace Period of 30 days to maintain continuity of benefits without Break in Policy. Coverage is not available during the Grace Period. vi. No loading shall",
+     "value": 30,
+     "why": "renewal grace period clause"
+    },
+    "initial_waiting_days": {
+     "confidence": "extracted",
+     "page": 15,
+     "quote": "d (Code-Excl 03): a) Expenses related to the treatment of any Illness within 30 day from the first Policy Commencement Date shall be excluded excepts claims arising due to an accident, provided the same are covered. b) This excl",
+     "value": 30,
+     "why": "initial waiting clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "SBI General Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "no_claim_bonus": {
+     "confidence": "extracted",
+     "page": 9,
+     "quote": "elow limits • 1% of base Sum Insured (excluding cumulative / enhanced cumulative bonus) OR • Single private Air-Conditioned room OR • At actuals up to Sum Insured b) Intensive Care Unit Expenses •",
+     "value": "cumulative bonus) OR • Single private Air-Conditioned room OR • At actuals up to Sum Insured b) Intensive Care Unit Expenses • 2% of the base Sum Insured (excluding cumulative / enhanced cumulative",
+     "why": "cumulative bonus clause"
+    },
+    "ped_waiting_months": {
+     "confidence": "extracted",
+     "page": 15,
+     "quote": "ing Diseases (Code-Excl01): a) Expenses related to the treatment of a Pre-Existing Diseases (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first Policy with Us. b) In case of enhancement of Sum Insured the ",
+     "value": 36,
+     "why": "operative PED exclusion clause"
+    },
+    "policy_type": {
+     "confidence": "extracted",
+     "page": 13,
+     "quote": "ring Policy and who continue to remain insured in Renewal. v. In case where the policy is on floater basis, the Cumulative Bonus shall be added and available to the family on floater basis, provided no claim has been",
+     "value": "Individual or family floater",
+     "why": "policy states both bases are available"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://content.sbigeneral.in/uploads/Arogya_Supreme_Policy_Wordings_w_e_f_10th_July_2026_1237d56950.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "portability_allowed": {
+     "confidence": "extracted",
+     "page": 22,
+     "quote": "SBI General Insurance Company Limited 019b130ffbae1fa20f.pdf 3. Portability The Insured Person will have the option to port the Policy to other Insurers by applying to such Insurer to p",
+     "value": true,
+     "why": "portability offered at renewal"
+    },
+    "post_hosp_days": {
+     "confidence": "extracted",
+     "page": 10,
+     "quote": "Section E.6 is opted and specified in the Policy Schedule. 10. Post-Hospitalization Cover We will pay Medical Expenses incurred up to 60 days, 90 days or 180 days (as specified in Policy Schedule) from the date of Your discharge from Hospital, provide",
+     "value": 60,
+     "why": "post-?\\s*hospitali cover period"
+    },
+    "specific_waiting_months": {
+     "confidence": "extracted",
+     "page": 15,
+     "quote": "aiting Period (Code-Excl 02): a) Expenses related to the treatment of listed Conditions; Surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy with Us. This exclusion shall not be applicab for claims aris",
+     "value": 24,
+     "why": "specified-disease exclusion clause"
+    },
+    "sub_limits": {
+     "confidence": "extracted",
+     "page": 11,
+     "quote": "SBI General Insurance Company Limited 13. Road Ambulance We will pay for expenses incurred up to Rs. 3,000/- or Rs. 5,000/ or Rs. 7,000/- as specified in Policy Schedule, on Road Ambulance Services if You required;.",
+     "value": [
+      "Ambulance: Rs 3,000"
+     ],
+     "why": "named treatment with a stated cap"
+    },
+    "survival_period_days": {
+     "confidence": "extracted",
+     "page": 6,
+     "quote": "); and iv. Dyspnea at rest. In case the Insured person dies after the survival period of 30 days but before assessment period 90 days where the death is due to complications arising out of the said major il",
+     "value": 30,
+     "why": "survival period clause"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (29 occurrences)",
+     "value": "SBIHLIP27036V022627",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "Arogya_Supreme_Policy_Wordings_w_e_f_10th_July_2026_1237d56950.pdf",
+   "pages": 30,
+   "product": "Arogya Supreme Policy Wordings (w.e.f 10th July 2026)",
+   "sha256": "564a77d69c2c85da6f2bf21e8ded1b501cfc2e79d7852b489ead6d8d9e06d0f2",
+   "source_url": "https://content.sbigeneral.in/uploads/Arogya_Supreme_Policy_Wordings_w_e_f_10th_July_2026_1237d56950.pdf",
+   "uin": "SBIHLIP27036V022627"
+  },
+  {
+   "category": "Health — critical illness",
+   "fields": {
+    "exclusions": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "onally self inflicted Injury or Illness. Change of Gender Treatments (Code- Excl 07) Expenses related to any treatment, including surgical management, to change characteristics of the body to t",
+     "value": [
+      "Change-of-gender treatments"
+     ],
+     "why": "1 IRDAI standard exclusions, identified by their code numbers"
+    },
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "ies except those with tenure of less than a year, shall be provided a free look period of 30 days beginning from the date of receipt of Policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "grace_period_days": {
+     "confidence": "extracted",
+     "page": 6,
+     "quote": "licy Period, the Policy shall terminate and can be renewed within the Grace Period of 30 days to maintain continuity of benefits without Break in Policy. Coverage is not available during the Grace Period. vi. No loading shall",
+     "value": 30,
+     "why": "renewal grace period clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "SBI General Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://content.sbigeneral.in/uploads/CRITICAL_ILLNESS_INSURANCE_POLICY_Policy_Wording_KEN_65bb5b2f37.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "portability_allowed": {
+     "confidence": "extracted",
+     "page": 6,
+     "quote": "ntent.sbigeneral.in//uploads/c6a2844dd65446019b1 30ffbae1fa20f.pdf 8. Portability: The Insured Person will have the option to port the Policy to other Insurers by applying to such Insurer to",
+     "value": true,
+     "why": "portability offered at renewal"
+    },
+    "renewability": {
+     "confidence": "extracted",
+     "page": 6,
+     "quote": ".in//uploads/c6a2844dd65446019b1 30ffbae1fa20f.pdf 9. Renewal: I. The Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person. ii. The Company shall endeavor to give notice for Ren",
+     "value": "Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person",
+     "why": "guaranteed renewal except for fraud or non-disclosure"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (8 occurrences)",
+     "value": "SBIHLIP11004V011011",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "CRITICAL_ILLNESS_INSURANCE_POLICY_Policy_Wording_KEN_65bb5b2f37.pdf",
+   "pages": 9,
+   "product": "CRITICAL ILLNESS INSURANCE POLICY Policy Wording KEN",
+   "sha256": "219e61644796fbf165d94ff25030df320f487a9317bb28563b7c9ff4de56a64a",
+   "source_url": "https://content.sbigeneral.in/uploads/CRITICAL_ILLNESS_INSURANCE_POLICY_Policy_Wording_KEN_65bb5b2f37.pdf",
+   "uin": "SBIHLIP11004V011011"
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "ayush_covered": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "only after the first commencement of the Policy with the Company. 4.2 AYUSH Treatment The Company shall indemnify medical expenses incurred for inpatient care treatment under Ayurveda,",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "cashless_claim": {
+     "confidence": "extracted",
+     "page": 12,
+     "quote": "ions and assessments, under this Policy by way of preauthorization of cashless treatment or processing of claims other than cashless claims or both, as per the underlying terms and conditions of the",
+     "value": true,
+     "why": "cashless facility offered"
+    },
+    "copay_pct": {
+     "confidence": "extracted",
+     "page": 12,
+     "quote": "he pre-existing disability Disability Cover covered under the policy. Co-pay 20% on all claims made under the policy unless waiver for Co-pay is opted and premium is paid for the same ANNEXU",
+     "value": 20,
+     "why": "co-payment clause"
+    },
+    "exclusions": {
+     "confidence": "extracted",
+     "page": 6,
+     "quote": "1. Pre-Existing Diseases (Code- Excl01) a. Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be e",
+     "value": [
+      "Pre-existing diseases",
+      "Specified disease/procedure waiting period",
+      "First thirty-day waiting period",
+      "Investigation and evaluation",
+      "Rest cure, rehabilitation and respite care",
+      "Obesity / weight control",
+      "Change-of-gender treatments",
+      "Cosmetic or plastic surgery",
+      "Hazardous or adventure sports",
+      "Breach of law",
+      "Excluded providers",
+      "Alcohol and substance abuse",
+      "Treatments in establishments for domestic reasons",
+      "Dietary supplements and substances bought without prescription",
+      "Refractive error",
+      "Unproven treatments",
+      "Sterility and infertility",
+      "Maternity"
+     ],
+     "why": "18 IRDAI standard exclusions, identified by their code numbers"
+    },
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 10,
+     "quote": "ies except those with tenure of less than a year, shall be provided a free look period of 30 days beginning from the date of receipt of Policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "grace_period_days": {
+     "confidence": "extracted",
+     "page": 9,
+     "quote": "licy Period, the Policy shall terminate and can be renewed within the Grace Period of 30 days to maintain continuity of benefits without Break in Policy. Coverage is not available during the Grace Period. vi. No loading shall",
+     "value": 30,
+     "why": "renewal grace period clause"
+    },
+    "icu_cap": {
+     "confidence": "extracted",
+     "page": 12,
+     "quote": "ximum of 1% of the sum per day. 2. Intensive Care Unit (ICU) charges/ Intensive Cardiac Care Unit (ICCU) charges all-inclusive as provided by the Hospital / Nursing Home up to maximum of 2% of the sum insured per day. Cataract Upto `40,000/-, per each eye in one Treatment policy year SBI General Ins",
+     "value": "2% of sum insured per day",
+     "why": "percentage-of-sum-insured ICU cap"
+    },
+    "initial_waiting_days": {
+     "confidence": "extracted",
+     "page": 6,
+     "quote": "iod- Code- Excl03 a. Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered. b. This exclu",
+     "value": 30,
+     "why": "initial waiting clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "SBI General Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_term_years": {
+     "confidence": "extracted",
+     "page": 12,
+     "quote": "ach individual member Sum insured 4 lacs and 5 lacs available(in INR) Policy Period 1 Year Eligibility • Policy can be availed by availed on Individual basis • Age eligibility for adults: 18 years to",
+     "value": "1 year",
+     "why": "policy term declared in the wording"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://content.sbigeneral.in/uploads/Divyanga_Suraksha_Policy_Wording_3eb214670f.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "portability_allowed": {
+     "confidence": "extracted",
+     "page": 9,
+     "quote": "/content.sbigeneral.in//uploads/c6a2844dd65446019b1 30ffbae1fa20f.pdf Portability The Insured Person will have the option to port the Policy to other Insurers by applying to such Insurer to p",
+     "value": true,
+     "why": "portability offered at renewal"
+    },
+    "renewability": {
+     "confidence": "extracted",
+     "page": 9,
+     "quote": "ploads/c6a2844dd65446019b1 30ffbae1fa20f.pdf Renewal of Policy i. The Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person. ii. The Company shall endeavor to give notice for Ren",
+     "value": "Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person",
+     "why": "guaranteed renewal except for fraud or non-disclosure"
+    },
+    "room_rent_cap": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "al / Nursing Home up to maximum of 1% of the Sum Insured per day. ii. Room Rent, Boarding, Nursing Expenses as provided by the Hospital / Nursing Home up to maximum of 1% of the Sum Insured per day. iii. Surgeon, Anaesthetist, Medical Practitioner, Consultants, Specialist Fees whether paid directly",
+     "value": "1% of sum insured per day",
+     "why": "percentage-of-sum-insured room cap"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (19 occurrences)",
+     "value": "SBIHLIP23191V012223",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "Divyanga_Suraksha_Policy_Wording_3eb214670f.pdf",
+   "pages": 20,
+   "product": "Divyanga Suraksha Policy Wording",
+   "sha256": "94a6829d24814bc2406b416220064755f5a1e6703a793c6e1b7b2eaac049e5a6",
+   "source_url": "https://content.sbigeneral.in/uploads/Divyanga_Suraksha_Policy_Wording_3eb214670f.pdf",
+   "uin": "SBIHLIP23191V012223"
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "exclusions": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "under the policy including add on covers: 1. Pre-Existing Diseases - Code- Excl01 a) Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be ex",
+     "value": [
+      "Pre-existing diseases",
+      "Specified disease/procedure waiting period",
+      "First thirty-day waiting period",
+      "Investigation and evaluation",
+      "Rest cure, rehabilitation and respite care",
+      "Obesity / weight control",
+      "Change-of-gender treatments",
+      "Cosmetic or plastic surgery",
+      "Hazardous or adventure sports",
+      "Breach of law",
+      "Alcohol and substance abuse",
+      "Treatments in establishments for domestic reasons",
+      "Dietary supplements and substances bought without prescription",
+      "Refractive error",
+      "Unproven treatments",
+      "Sterility and infertility",
+      "Maternity"
+     ],
+     "why": "17 IRDAI standard exclusions, identified by their code numbers"
+    },
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 8,
+     "quote": "ies except those with tenure of less than a year, shall be provided a free look period of 30 days beginning from the date of receipt of policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "grace_period_days": {
+     "confidence": "extracted",
+     "page": 10,
+     "quote": "licy Period, the Policy shall terminate and can be renewed within the Grace Period of 30 days to maintain continuity of benefits without Break in Policy. Coverage is not available during the Grace Period. vi. No loading shall",
+     "value": 30,
+     "why": "renewal grace period clause"
+    },
+    "icu_cap": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "e Sum Insured max Rs.1500/- for Normal Room per day. If admitted into Intensive Care Unit up to 2% of the Sum Insured per day max Rs.2500/-. In case the insured opts for a higher room category than his eligibility the same can",
+     "value": "2% of sum insured per day",
+     "why": "percentage-of-sum-insured ICU cap"
+    },
+    "initial_waiting_days": {
+     "confidence": "extracted",
+     "page": 6,
+     "quote": "iod- Code- Excl03 a) Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered. b) This exclu",
+     "value": 30,
+     "why": "initial waiting clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "SBI General Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "maternity_covered": {
+     "confidence": "extracted",
+     "page": 16,
+     "quote": "All other terms and conditions under the policy remain unaltered. 3. Maternity Benefit Extension with waiting period of 9 months: It is hereby declared and agreed that the exclusion No.20",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "maternity_waiting_months": {
+     "confidence": "extracted",
+     "page": 16,
+     "quote": "All other terms and conditions under the policy remain unaltered. 3. Maternity Benefit Extension with waiting period of 9 months: It is hereby declared and agreed that the exclusion No.20 of the \"Exclusions\" stands deleted and Insurer wil",
+     "value": 9,
+     "why": "maternity waiting clause"
+    },
+    "ped_waiting_months": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "ing Diseases - Code- Excl01 a) Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer. b) In case of enhancement of sum insured ",
+     "value": 36,
+     "why": "operative PED exclusion clause"
+    },
+    "policy_type": {
+     "confidence": "extracted",
+     "page": 19,
+     "quote": "t. All other terms and conditions of the policy remain unaltered. 27. Family Floater Cover: It is hereby agreed and declared that this policy covers the Primary Insured and his Family as defined",
+     "value": "Family floater",
+     "why": "floater basis stated"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://content.sbigeneral.in/uploads/GROUP_HEALTH_INSURANCE_Policy_Wording_KEN_505f0ad0e0.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "portability_allowed": {
+     "confidence": "extracted",
+     "page": 10,
+     "quote": "tent.sbigeneral.in//uploads/c6a2844dd65446019b1 30ffbae1fa20f.pdf 22. Portability: The Insured Person will have the option to port the Policy to other Insurers by applying to such Insurer to",
+     "value": true,
+     "why": "portability offered at renewal"
+    },
+    "post_hosp_days": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "Insurer shall pay for expenses as defined in the policy and incurred 60 days after the date of discharge from the hospital or Domiciliary Hospitalisation 6. Day Care Expenses - Insurer shall pay for Day Care expens",
+     "value": 60,
+     "why": "post-?\\s*hospitali cover period"
+    },
+    "renewability": {
+     "confidence": "extracted",
+     "page": 10,
+     "quote": "venue for all the hearings shall be within India. 19. Renewal i. The Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person. ii. The Company shall endeavor to give notice for Rene",
+     "value": "Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person",
+     "why": "guaranteed renewal except for fraud or non-disclosure"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (19 occurrences)",
+     "value": "SBIHLGP21330V022021",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "GROUP_HEALTH_INSURANCE_Policy_Wording_KEN_505f0ad0e0.pdf",
+   "pages": 20,
+   "product": "GROUP HEALTH INSURANCE Policy Wording KEN",
+   "sha256": "c7d148f511ed0b16c52c968c0ced1bbcf71f6dc25df52e89af3c005237a93b6e",
+   "source_url": "https://content.sbigeneral.in/uploads/GROUP_HEALTH_INSURANCE_Policy_Wording_KEN_505f0ad0e0.pdf",
+   "uin": "SBIHLGP21330V022021"
+  },
+  {
+   "category": "Personal accident",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 6,
+     "quote": "ies except those with tenure of less than a year, shall be provided a free look period of 30 days beginning from the date of receipt of policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "grace_period_days": {
+     "confidence": "extracted",
+     "page": 6,
+     "quote": "licy Period, the Policy shall terminate and can be renewed within the Grace Period of 30 days to maintain continuity of bene�ts without Break in Policy. Coverage is not available during the Grace Period. vi. No loading shall a",
+     "value": 30,
+     "why": "renewal grace period clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "SBI General Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "max_entry_age": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "ement date of the policy. Minimum Age for this Policy is 18 Years and Maximum Age is 65 Years. 4. Ambulance means any vehicle used solely for the conveyance of injured persons from Accident location or r",
+     "value": 65,
+     "why": "age stated in the wording"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://content.sbigeneral.in/uploads/Group_Personal_Accident_Policy_Wording_New_KEN_cb5c003648.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "renewability": {
+     "confidence": "extracted",
+     "page": 6,
+     "quote": "escribed in the Schedule to the Policy. 3. Renewal Conditions: i. The Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person. ii. The Company shall endeavor to give notice for Ren",
+     "value": "Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person",
+     "why": "guaranteed renewal except for fraud or non-disclosure"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (13 occurrences)",
+     "value": "SBIPAGP11005V011011",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "Group_Personal_Accident_Policy_Wording_New_KEN_cb5c003648.pdf",
+   "pages": 14,
+   "product": "Group Personal Accident Policy Wording New KEN",
+   "sha256": "14c3dc98c19cab61dd6b138ea7240dc25f8676adc9a62b18aee5ca266fd06cff",
+   "source_url": "https://content.sbigeneral.in/uploads/Group_Personal_Accident_Policy_Wording_New_KEN_cb5c003648.pdf",
+   "uin": "SBIPAGP11005V011011"
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "ayush_covered": {
+     "confidence": "extracted",
+     "page": 8,
+     "quote": "der Section C.1 (Inpatient Hospitalization Treatment) or Section C.8 (AYUSH Treatments). Condition i. This Benefit is over and above Base Sum Insured ii. This is available per Hospitali",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "cashless_claim": {
+     "confidence": "extracted",
+     "page": 7,
+     "quote": "y two qualified surgeons and the Insured shall obtain prior appro for cashless treatment from the Company. iv. Insured Person shall not bear specified percentage of admissible Claim amount under eac",
+     "value": true,
+     "why": "cashless facility offered"
+    },
+    "copay_pct": {
+     "confidence": "extracted",
+     "page": 16,
+     "quote": "ugs and medicines prescribed by a Medical Practitioner. Condition: i. 50% co-payment will be applicable on Professional Fees ii. 30% co-payment will be applicable on Diagnostics and Pharmacy Exp",
+     "value": 50,
+     "why": "co-payment clause"
+    },
+    "exclusions": {
+     "confidence": "extracted",
+     "page": 22,
+     "quote": "waiting period mentioned below: I) First Thirty Days Waiting Period (Code-Excl 03): a) Expenses related to the treatment of any Illness within 30 day from the first Policy Commencement Date s",
+     "value": [
+      "Pre-existing diseases",
+      "Specified disease/procedure waiting period",
+      "First thirty-day waiting period",
+      "Investigation and evaluation",
+      "Rest cure, rehabilitation and respite care",
+      "Change-of-gender treatments",
+      "Cosmetic or plastic surgery",
+      "Hazardous or adventure sports",
+      "Breach of law",
+      "Excluded providers",
+      "Alcohol and substance abuse",
+      "Treatments in establishments for domestic reasons",
+      "Dietary supplements and substances bought without prescription",
+      "Refractive error",
+      "Unproven treatments",
+      "Sterility and infertility",
+      "Maternity"
+     ],
+     "why": "17 IRDAI standard exclusions, identified by their code numbers"
+    },
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 24,
+     "quote": "ies except those with tenure of less than a year, shall be provided a free look period of 30 days beginning from the date of receipt of policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "grace_period_days": {
+     "confidence": "extracted",
+     "page": 28,
+     "quote": "licy Period, the Policy shall terminate and can be renewed within the Grace Period of 30 days to maintain continuity of benefits without Break in Policy. Coverage is not available during the Grace Period. vi. No loading shall",
+     "value": 30,
+     "why": "renewal grace period clause"
+    },
+    "initial_waiting_days": {
+     "confidence": "extracted",
+     "page": 22,
+     "quote": "d (Code-Excl 03): a) Expenses related to the treatment of any Illness within 30 day from the first Policy Commencement Date shall be excluded excepts claims arising due to an accident, provided the same are covered. b) This excl",
+     "value": 30,
+     "why": "initial waiting clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "SBI General Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "maternity_covered": {
+     "confidence": "extracted",
+     "page": 17,
+     "quote": "and specified in the Policy Schedule. D.12 Women Care Benefit D.12.1 Maternity Expenses On availing this option, We will indemnify the Medical Expenses incurred up to the amount specified",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "max_cover_age": {
+     "confidence": "extracted",
+     "page": 9,
+     "quote": "28. Aplastic Anaemia 29. Loss of Independent Existence (Cover up to Age 74) 30. Dissecting Aortic Aneurysm 31. Progressive Scleroderma 32. Chronic Adrenal Insufficiency (Addison's Dise",
+     "value": 74,
+     "why": "age stated in the wording"
+    },
+    "opd_covered": {
+     "confidence": "extracted",
+     "page": 16,
+     "quote": "related to that particular claim will become payable D.9 Out Patient (OPD) Cover On availing this option, We will indemnify the Medical Expenses per member incurred up to the amount s",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "ped_waiting_months": {
+     "confidence": "extracted",
+     "page": 22,
+     "quote": "ing Diseases (Code-Excl01): a) Expenses related to the treatment of a Pre-Existing Diseases (PED) and its direct complications shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy with Us. b) In case of enhancement of Sum Insured the ",
+     "value": 24,
+     "why": "operative PED exclusion clause"
+    },
+    "policy_type": {
+     "confidence": "extracted",
+     "page": 16,
+     "quote": "educe only in case of claim from the same Insured Person. ii. In case where the Policy is on floater basis, the Booster Benefit shall be added and available to the family on floater basis, provided no claim has been",
+     "value": "Individual or family floater",
+     "why": "policy states both bases are available"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://content.sbigeneral.in/uploads/Health_Edge_Insurance_Policy_wording_75e1ad1343.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "portability_allowed": {
+     "confidence": "extracted",
+     "page": 28,
+     "quote": "b130ffbae1fa20f.pdf 3. Portability The Insured Person will have the option to port the Policy to other Insurers by applying to such Insurer to p",
+     "value": true,
+     "why": "portability offered at renewal"
+    },
+    "renewability": {
+     "confidence": "extracted",
+     "page": 28,
+     "quote": "Conditions for renewal of the contract 1. Renewal Conditions: i. The Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person. ii. The Company shall endeavor to give notice for Rene",
+     "value": "Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person",
+     "why": "guaranteed renewal except for fraud or non-disclosure"
+    },
+    "specific_waiting_months": {
+     "confidence": "extracted",
+     "page": 22,
+     "quote": "aiting Period (Code-Excl 02): a) Expenses related to the treatment of listed Conditions; Surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Policy with Us. This exclusion shall not be applicab for claims aris",
+     "value": 24,
+     "why": "specified-disease exclusion clause"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (33 occurrences)",
+     "value": "SBIHLIP23173V012223",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    },
+    "wellness_benefits": {
+     "confidence": "extracted",
+     "page": 20,
+     "quote": "ation Parameter (if Insured Person may avail applicable as per Policy wellness services as mentioned Schedule) in the Policy Schedule. The services may include any or all as specified in the policy schedule: Services D.14.1 Health Assistance (",
+     "value": "wellness services as mentioned Schedule) in the Policy Schedule",
+     "why": "wellness or health check-up benefit as stated"
+    }
+   },
+   "file": "Health_Edge_Insurance_Policy_wording_75e1ad1343.pdf",
+   "pages": 34,
+   "product": "Health Edge Insurance Policy wording",
+   "sha256": "391622b1cedad4a0f4004e63c07f7910683493bd1efe725027779fcc76793f30",
+   "source_url": "https://content.sbigeneral.in/uploads/Health_Edge_Insurance_Policy_wording_75e1ad1343.pdf",
+   "uin": "SBIHLIP23173V012223"
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "deductible_type": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "red and subject to waiting period, minimum hospitalization period and Deductible/Time Deductible/Aggregate Deductible/Co- Pay/Voluntary Co-Pay / Franchise as mentioned on Policy Schedule/ Certificate of Insurance. Th",
+     "value": "Aggregate (per policy year)",
+     "why": "wording states the deductible is aggregate over the policy year"
+    },
+    "exclusions": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "mentioned in Pre-Existing Diseases (Code- Excl01), Specified disease/procedure waiting period- Code- Excl 02 &30-day waiting period- Code- Excl 03 i.e. Diseas",
+     "value": [
+      "Pre-existing diseases",
+      "Specified disease/procedure waiting period",
+      "First thirty-day waiting period",
+      "Investigation and evaluation",
+      "Rest cure, rehabilitation and respite care",
+      "Change-of-gender treatments",
+      "Cosmetic or plastic surgery",
+      "Hazardous or adventure sports",
+      "Breach of law",
+      "Excluded providers",
+      "Alcohol and substance abuse",
+      "Dietary supplements and substances bought without prescription",
+      "Refractive error",
+      "Maternity"
+     ],
+     "why": "14 IRDAI standard exclusions, identified by their code numbers"
+    },
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 8,
+     "quote": "ies except those with tenure of less than a year, shall be provided a free look period of 30 days beginning from the date of receipt of policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "grace_period_days": {
+     "confidence": "extracted",
+     "page": 10,
+     "quote": "licy Period, the Policy shall terminate and can be renewed within the Grace Period of 30 days to maintain continuity of benefits without Break in Policy. Coverage is not available during the Grace Period. vi. No loading shall",
+     "value": 30,
+     "why": "renewal grace period clause"
+    },
+    "initial_waiting_days": {
+     "confidence": "extracted",
+     "page": 6,
+     "quote": "iod- Code- Excl03 i. Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered. ii. This excl",
+     "value": 30,
+     "why": "initial waiting clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "SBI General Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "maternity_covered": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "Person per Policy Period and No deductible will be applicable. B.6 - MATERNITY HOSPITAL CASH BENEFIT We will pay daily fixed benefit amount as specified in the Policy Schedule/Certificate",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "ped_waiting_months": {
+     "confidence": "extracted",
+     "page": 6,
+     "quote": "ing Diseases (Code- Excl01) a. Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer. b. In case of enhancement of sum insured ",
+     "value": 36,
+     "why": "operative PED exclusion clause"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://content.sbigeneral.in/uploads/Hospi_Cash_Loan_Insurance_Policy_Wording_KEN_f5819e21cc.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "renewability": {
+     "confidence": "extracted",
+     "page": 10,
+     "quote": "ard Conditions for renewal of the contract Renewal Conditions: i. The Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person. ii. The Company shall endeavor to give notice for Ren",
+     "value": "Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person",
+     "why": "guaranteed renewal except for fraud or non-disclosure"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (18 occurrences)",
+     "value": "SBIHLGP23005V012223",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "Hospi_Cash_Loan_Insurance_Policy_Wording_KEN_f5819e21cc.pdf",
+   "pages": 19,
+   "product": "Hospi Cash Loan Insurance Policy Wording KEN",
+   "sha256": "663ed328ae836df81b3e0936b5473c326303706edb3c44b1b2f992b01994473c",
+   "source_url": "https://content.sbigeneral.in/uploads/Hospi_Cash_Loan_Insurance_Policy_Wording_KEN_f5819e21cc.pdf",
+   "uin": "SBIHLGP23005V012223"
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "deductible_type": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "red and subject to waiting period, minimum hospitalization period and Deductible/Time Deductible/Aggregate Deductible/Co- Pay/Voluntary Co-Pay/Franchise as mentioned on Policy Schedule/Certificate of Insurance. This",
+     "value": "Aggregate (per policy year)",
+     "why": "wording states the deductible is aggregate over the policy year"
+    },
+    "exclusions": {
+     "confidence": "extracted",
+     "page": 6,
+     "quote": "extended to reduce waiting period mentioned in Pre-Existing Diseases (Code- Excl01), Specified disease/procedure waiting period- Code- Excl 02 &30-day waiting period- Code- Excl 03 i.e. Diseas",
+     "value": [
+      "Pre-existing diseases",
+      "Specified disease/procedure waiting period",
+      "First thirty-day waiting period",
+      "Investigation and evaluation",
+      "Rest cure, rehabilitation and respite care",
+      "Change-of-gender treatments",
+      "Cosmetic or plastic surgery",
+      "Hazardous or adventure sports",
+      "Breach of law",
+      "Excluded providers",
+      "Alcohol and substance abuse",
+      "Dietary supplements and substances bought without prescription",
+      "Refractive error",
+      "Sterility and infertility",
+      "Maternity"
+     ],
+     "why": "15 IRDAI standard exclusions, identified by their code numbers"
+    },
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 9,
+     "quote": "ies except those with tenure of less than a year, shall be provided a free look period of 30 days beginning from the date of receipt of Policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "grace_period_days": {
+     "confidence": "extracted",
+     "page": 11,
+     "quote": "licy Period, the Policy shall terminate and can be renewed within the Grace Period of 30 days to maintain continuity of benefits without Break in Policy. Coverage is not available during the Grace Period. SBI General Insurance",
+     "value": 30,
+     "why": "renewal grace period clause"
+    },
+    "initial_waiting_days": {
+     "confidence": "extracted",
+     "page": 7,
+     "quote": "iod- Code- Excl03 i. Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered ii. This exclu",
+     "value": 30,
+     "why": "initial waiting clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "SBI General Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "maternity_covered": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "red by the virtue of standard definition of \"Day Care Treatment\") B.6 Maternity hospital cash benefit We will pay daily fixed benefit amount as specified in the Policy Schedule/ Certificate",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "ped_waiting_months": {
+     "confidence": "extracted",
+     "page": 6,
+     "quote": "ing Diseases (Code- Excl01) a. Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer. b. In case of enhancement of sum insured ",
+     "value": 36,
+     "why": "operative PED exclusion clause"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://content.sbigeneral.in/uploads/Hospicash_Flexi_Insurance_Policy_Wording_cdr15_rev_KEN_62ad313e82.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (14 occurrences)",
+     "value": "SBIHLIP23181V012223",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "Hospicash_Flexi_Insurance_Policy_Wording_cdr15_rev_KEN_62ad313e82.pdf",
+   "pages": 15,
+   "product": "Hospicash Flexi Insurance Policy Wording cdr15 rev KEN",
+   "sha256": "ca78c14030214bb7d36b0dc7d14a3575b1a9780a909d0464790cd873fae8b7ff",
+   "source_url": "https://content.sbigeneral.in/uploads/Hospicash_Flexi_Insurance_Policy_Wording_cdr15_rev_KEN_62ad313e82.pdf",
+   "uin": "SBIHLIP23181V012223"
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "deductible_type": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "red and subject to waiting period, minimum hospitalization period and Deductible/Time Deductible/Aggregate Deductible/Co- Pay/Voluntary Co-Pay / Franchise as mentioned on Policy Schedule/ Certificate of Insurance. Th",
+     "value": "Aggregate (per policy year)",
+     "why": "wording states the deductible is aggregate over the policy year"
+    },
+    "exclusions": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "extended to reduce waiting period mentioned in Pre-Existing Diseases (Code- Excl01), oor, A & B Wing, Sahar Road, Andheri (East), Mumbai - 400099. | CIN: n | SBI Logo displayed belongs to Stat",
+     "value": [
+      "Pre-existing diseases",
+      "Specified disease/procedure waiting period",
+      "First thirty-day waiting period",
+      "Investigation and evaluation",
+      "Rest cure, rehabilitation and respite care",
+      "Change-of-gender treatments",
+      "Cosmetic or plastic surgery",
+      "Hazardous or adventure sports",
+      "Breach of law",
+      "Excluded providers",
+      "Alcohol and substance abuse",
+      "Dietary supplements and substances bought without prescription",
+      "Refractive error",
+      "Maternity"
+     ],
+     "why": "14 IRDAI standard exclusions, identified by their code numbers"
+    },
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 8,
+     "quote": "ies except those with tenure of less than a year, shall be provided a free look period of 30 days beginning from the date of receipt of policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "grace_period_days": {
+     "confidence": "extracted",
+     "page": 11,
+     "quote": "licy Period, the Policy shall terminate and can be renewed within the Grace Period of 30 days to maintain continuity of benefits without Break in Policy. Coverage is not available during the Grace Period. vi. No loading shall",
+     "value": 30,
+     "why": "renewal grace period clause"
+    },
+    "initial_waiting_days": {
+     "confidence": "extracted",
+     "page": 6,
+     "quote": "iod- Code- Excl03 i. Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered. ii. This excl",
+     "value": 30,
+     "why": "initial waiting clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "SBI General Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "maternity_covered": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "cted to pay for first 2 deliveries only. • This benefit is subject to maternity waiting period of 3 Years and deductibles as specified in the Policy Schedule/ Certificate of Insurance. • We",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "ped_waiting_months": {
+     "confidence": "extracted",
+     "page": 6,
+     "quote": "ing Diseases (Code- Excl01) a. Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer. b. In case of enhancement of sum insured ",
+     "value": 36,
+     "why": "operative PED exclusion clause"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://content.sbigeneral.in/uploads/Hospital_Daily_Cash_Group_Micro_Insurance_Product_Policy_Wordings_260be42f03.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "renewability": {
+     "confidence": "extracted",
+     "page": 10,
+     "quote": "ard Conditions for renewal of the contract Renewal Conditions: i. The Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person. ii. The Company shall endeavor to give notice for Ren",
+     "value": "Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person",
+     "why": "guaranteed renewal except for fraud or non-disclosure"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (19 occurrences)",
+     "value": "SBIPMGP22196V012122",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "Hospital_Daily_Cash_Group_Micro_Insurance_Product_Policy_Wordings_260be42f03.pdf",
+   "pages": 20,
+   "product": "Hospital Daily Cash Group Micro Insurance Product Policy Wordings",
+   "sha256": "644936c29c42746647e984526234538203c265fa83c19618c82df67d13013e74",
+   "source_url": "https://content.sbigeneral.in/uploads/Hospital_Daily_Cash_Group_Micro_Insurance_Product_Policy_Wordings_260be42f03.pdf",
+   "uin": "SBIPMGP22196V012122"
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "deductible_type": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "red and subject to waiting period, minimum hospitalization period and Deductible/Time Deductible/Aggregate Deductible/Co- Pay/Voluntary Co-Pay / Franchise as mentioned on Policy Schedule/Certificate of Insurance. Thi",
+     "value": "Aggregate (per policy year)",
+     "why": "wording states the deductible is aggregate over the policy year"
+    },
+    "exclusions": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "extended to reduce waiting period mentioned in Pre-Existing Diseases (Code- Excl01), Specified disease/procedure waiting period- Code- Excl 02 &30-day waiting period- Code- Excl 03 i.e. Diseas",
+     "value": [
+      "Pre-existing diseases",
+      "Specified disease/procedure waiting period",
+      "First thirty-day waiting period",
+      "Investigation and evaluation",
+      "Rest cure, rehabilitation and respite care",
+      "Change-of-gender treatments",
+      "Cosmetic or plastic surgery",
+      "Hazardous or adventure sports",
+      "Breach of law",
+      "Excluded providers",
+      "Alcohol and substance abuse",
+      "Dietary supplements and substances bought without prescription",
+      "Refractive error",
+      "Maternity"
+     ],
+     "why": "14 IRDAI standard exclusions, identified by their code numbers"
+    },
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 8,
+     "quote": "cies except those with tenure of less than a year, shal be provided a free look period of 30 days beginning from the date of receipt of policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "grace_period_days": {
+     "confidence": "extracted",
+     "page": 10,
+     "quote": "licy Period, the Policy shall terminate and can be renewed within the Grace Period of 30 days to maintain continuity of benefits without Break in Policy. Coverage is not available during the Grace Period. vi. No loading shall",
+     "value": 30,
+     "why": "renewal grace period clause"
+    },
+    "initial_waiting_days": {
+     "confidence": "extracted",
+     "page": 6,
+     "quote": "iod- Code- Excl03 i. Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered. ii. This excl",
+     "value": 30,
+     "why": "initial waiting clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "SBI General Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "maternity_covered": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "ed Person per Policy Period and No deductible will be applicable. B.6 MATERNITY HOSPITAL CASH BENEFIT We will pay daily fixed benefit amount as specified in the Policy Schedule/ Certificate",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "ped_waiting_months": {
+     "confidence": "extracted",
+     "page": 6,
+     "quote": "ing Diseases (Code- Excl01) a. Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with insurer. b. In case of enhancement of sum insured ",
+     "value": 36,
+     "why": "operative PED exclusion clause"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://content.sbigeneral.in/uploads/Hospital_Daily_Cash_Group_Policy_Wordings_2491817067.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "renewability": {
+     "confidence": "extracted",
+     "page": 3,
+     "quote": "the Nursing Council of any state in India. 34. Renewal of Policy the Policy shall ordinarily be renewable except on grounds of fraud or non-disclosure or misrepresentation by the Insured Person. 35. Senior Citizen means any person, who has attained the Age of sixty years or above. 36. Specific waiti",
+     "value": "Policy shall ordinarily be renewable except on grounds of fraud or non-disclosure or misrepresentation by the Insured Person",
+     "why": "guaranteed renewal except for fraud or non-disclosure"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (21 occurrences)",
+     "value": "SBIPAGP22182V012122",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "Hospital_Daily_Cash_Group_Policy_Wordings_2491817067.pdf",
+   "pages": 22,
+   "product": "Hospital Daily Cash Group Policy Wordings",
+   "sha256": "a983e4ece95435d0a05c8d923b5581c07abb614d77bee7d4711f6198377d9e4e",
+   "source_url": "https://content.sbigeneral.in/uploads/Hospital_Daily_Cash_Group_Policy_Wordings_2491817067.pdf",
+   "uin": "SBIPAGP22182V012122"
+  },
+  {
+   "category": "Personal accident",
+   "fields": {
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 6,
+     "quote": "ies except those with tenure of less than a year, shall be provided a free look period of 30 days beginning from the date of receipt of Policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "grace_period_days": {
+     "confidence": "extracted",
+     "page": 6,
+     "quote": "licy Period, the Policy shall terminate and can be renewed within the Grace Period of 30 days to maintain continuity of benefits without Break in Policy. Coverage is not available during the Grace Period. vi. No loading shall",
+     "value": 30,
+     "why": "renewal grace period clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "SBI General Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "max_entry_age": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "ement date of the policy. Minimum Age for this Policy is 18 Years and Maximum Age is 65 Years. 4. Ambulance means any vehicle used solely for the conveyance of injured persons from Accident location or r",
+     "value": 65,
+     "why": "age stated in the wording"
+    },
+    "opd_covered": {
+     "confidence": "extracted",
+     "page": 10,
+     "quote": "red Person suffers an Accident during the Policy Period that requires Outpatient Treatment, We will pay the Reasonable and Customary Charges, subject to the Deductible shown in the Policy Schedule, fo",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://content.sbigeneral.in/uploads/Jan_Rakshak_Personal_Accident_Policy_Wording_KEN_db91704c36.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "renewability": {
+     "confidence": "extracted",
+     "page": 6,
+     "quote": "escribed in the Schedule to the Policy. 3. Renewal Conditions: I. The Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person. ii. The Company shall endeavor to give notice for Ren",
+     "value": "Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person",
+     "why": "guaranteed renewal except for fraud or non-disclosure"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (12 occurrences)",
+     "value": "SBIPMGP21594V012021",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "Jan_Rakshak_Personal_Accident_Policy_Wording_KEN_db91704c36.pdf",
+   "pages": 13,
+   "product": "Jan Rakshak Personal Accident Policy Wording KEN",
+   "sha256": "0ea20ba7572b4195e43a084c8492aff52033dd4292bef8dac3c249882316e924",
+   "source_url": "https://content.sbigeneral.in/uploads/Jan_Rakshak_Personal_Accident_Policy_Wording_KEN_db91704c36.pdf",
+   "uin": "SBIPMGP21594V012021"
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "SBI General Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://content.sbigeneral.in/uploads/Pradhan_Mantri_Suraksha_Bima_Yojana_Policy_Wordings_264e081042.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "renewability": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "y shall be renewed on annual basis. b. The Policy shall ordinarily be renewable up to the age of 70 years except on grounds of fraud, misrepresentation by the Master Policyholder/ Insured Person. 20. Enrolment",
+     "value": "Up to age 70",
+     "why": "renewability age stated"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (5 occurrences)",
+     "value": "SBIPGSP26037V012526",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "Pradhan_Mantri_Suraksha_Bima_Yojana_Policy_Wordings_264e081042.pdf",
+   "pages": 6,
+   "product": "Pradhan Mantri Suraksha Bima Yojana Policy Wordings",
+   "sha256": "327157308d24e5707e880dbdf1c756b28addaf6c791292b8e82f68949a773356",
+   "source_url": "https://content.sbigeneral.in/uploads/Pradhan_Mantri_Suraksha_Bima_Yojana_Policy_Wordings_264e081042.pdf",
+   "uin": "SBIPGSP26037V012526"
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "cashless_claim": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "is not paid on or before the premium renewal date or grace period. 10 Cashless Facility means a facility extended by the Insurer to the Insured Person where the payments, of the costs of treatment",
+     "value": true,
+     "why": "cashless facility offered"
+    },
+    "copay_condition": {
+     "confidence": "extracted",
+     "page": 8,
+     "quote": "te of Insurance. I.B.5 VOLUNTARY CO-PAYMENT If You avail this option, 20% Co-Payment as mentioned on the Schedule of Coverage in the Policy Schedule / Certificate of Insurance will be applied on",
+     "value": "age in the Policy Schedule / Certificate of Insurance will be applied on each and every admissible claim after Deductible/Excess if any, applicable under",
+     "why": "co-pay condition as stated"
+    },
+    "copay_pct": {
+     "confidence": "extracted",
+     "page": 8,
+     "quote": "te of Insurance. I.B.5 VOLUNTARY CO-PAYMENT If You avail this option, 20% Co-Payment as mentioned on the Schedule of Coverage in the Policy Schedule / Certificate of Insurance will be applied on",
+     "value": 20,
+     "why": "co-payment clause"
+    },
+    "deductible_type": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "red and subject to waiting period, minimum hospitalization period and deductible/Time Deductible/Aggregate Deductible/Co- Pay/Voluntary Co-Pay as mentioned on Policy Schedule/Certificate of Insurance. This Policy is",
+     "value": "Aggregate (per policy year)",
+     "why": "wording states the deductible is aggregate over the policy year"
+    },
+    "domiciliary_covered": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "the Insured Person's date of admission to the Hospital or in case of domiciliary hospitalisation up to 30 or 60 days as specified in the Policy Schedule/Certificate of Insurance, provided that a claim made",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "exclusions": {
+     "confidence": "extracted",
+     "page": 13,
+     "quote": "[ Except for Section IV. Personal Accident] 1. Pre-Existing Diseases (Code- Excl01) a. Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be e",
+     "value": [
+      "Pre-existing diseases",
+      "Specified disease/procedure waiting period",
+      "First thirty-day waiting period",
+      "Investigation and evaluation",
+      "Rest cure, rehabilitation and respite care",
+      "Obesity / weight control",
+      "Change-of-gender treatments",
+      "Cosmetic or plastic surgery",
+      "Hazardous or adventure sports",
+      "Alcohol and substance abuse",
+      "Treatments in establishments for domestic reasons",
+      "Dietary supplements and substances bought without prescription",
+      "Refractive error",
+      "Unproven treatments",
+      "Sterility and infertility",
+      "Maternity"
+     ],
+     "why": "16 IRDAI standard exclusions, identified by their code numbers"
+    },
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 16,
+     "quote": "ies except those with tenure of less than a year, shall be provided a free look period of 30 days beginning from the date of receipt of policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "grace_period_days": {
+     "confidence": "extracted",
+     "page": 21,
+     "quote": "licy Period, the Policy shall terminate and can be renewed within the Grace Period of 30 days to maintain continuity of benefits without Break in Policy. Coverage is not available during the Grace Period. vi. No loading shall",
+     "value": 30,
+     "why": "renewal grace period clause"
+    },
+    "initial_waiting_days": {
+     "confidence": "extracted",
+     "page": 14,
+     "quote": "od (Code- Excl03) a. Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered. b. This exclu",
+     "value": 30,
+     "why": "initial waiting clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "SBI General Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "maternity_covered": {
+     "confidence": "extracted",
+     "page": 6,
+     "quote": "not be available for claims towards Alternative treatments I.A.9 and Maternity Expenses I.B.3 and New Born Baby Expenses I.B.4 and, if opted for This is an in-built cover for Sum Insured o",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "ped_waiting_months": {
+     "confidence": "extracted",
+     "page": 13,
+     "quote": "ing Diseases (Code- Excl01) a. Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with us. b. In case of enhancement of sum insured the e",
+     "value": 36,
+     "why": "operative PED exclusion clause"
+    },
+    "policy_type": {
+     "confidence": "extracted",
+     "page": 8,
+     "quote": "ther conditions applicable to this benefit a. Can be opted only under Family Floater plans covering two or more members under the same Policy b. This cover cannot be opted independent of Materni",
+     "value": "Family floater",
+     "why": "floater basis stated"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://content.sbigeneral.in/uploads/SAMPOORNA_AROGYA_GROUP_Policy_Wording_new_0a5de49c03.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "portability_allowed": {
+     "confidence": "extracted",
+     "page": 21,
+     "quote": "ing shall apply on Renewals based on individual Claims experience. 2. Portability The Insured Person will have the option to port the Policy to other Insurers by applying to such Insurer to p",
+     "value": true,
+     "why": "portability offered at renewal"
+    },
+    "specific_waiting_months": {
+     "confidence": "extracted",
+     "page": 13,
+     "quote": "ng period: (Code- Excl02) a. Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 12 months of continuous coverage after the date of inception of the first policy with the Insurer. This exclusion shall not be applicable for",
+     "value": 12,
+     "why": "specified-disease exclusion clause"
+    },
+    "sub_limits": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "is attached in Annexure V (Please refer at the end of this document) AMBULANCE CHARGES We will pay for expenses incurred up to 1% of Sum Insured subject to maximum of Rs. 5,000/- or Rs. 10,000/- as specified in Policy Schedule/ Certificate",
+     "value": [
+      "Ambulance: 1%",
+      "New Born: Rs 2,500"
+     ],
+     "why": "named treatment with a stated cap"
+    },
+    "survival_period_days": {
+     "confidence": "extracted",
+     "page": 9,
+     "quote": "); and iv. Dyspnea at rest. In case the Insured person dies after the survival period of 30 days but before assessment period 90 days where the death is due to complications arising out of the said major il",
+     "value": 30,
+     "why": "survival period clause"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (27 occurrences)",
+     "value": "SBIHLGP21605V012021",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "SAMPOORNA_AROGYA_GROUP_Policy_Wording_new_0a5de49c03.pdf",
+   "pages": 28,
+   "product": "SAMPOORNA AROGYA GROUP Policy Wording new",
+   "sha256": "47ec2227da1aa312d86f0c5c2ec344f13e37c5a207bd5628c33d6d0139cd968b",
+   "source_url": "https://content.sbigeneral.in/uploads/SAMPOORNA_AROGYA_GROUP_Policy_Wording_new_0a5de49c03.pdf",
+   "uin": "SBIHLGP21605V012021"
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "SBI General Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://content.sbigeneral.in/uploads/SARAL_BHARAT_LAGHU_UDYAM_SURAKSHA_Wording_29b3f46acb.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "restoration": {
+     "confidence": "extracted",
+     "page": 4,
+     "quote": "valuation certificate being submitted and found acceptable by Us. 3. Restoration of Sum Insured Except as stated in Clause H (III) (3) (e) of this Policy, the insurance cover will at all times be maintaine",
+     "value": "Restoration of Sum Insured Except as stated in Clause H (III) (3) (e) of this Policy, the insurance cover will at all times be maintained during the Policy Period to the full extent of the respective",
+     "why": "restoration clause as stated"
+    }
+   },
+   "file": "SARAL_BHARAT_LAGHU_UDYAM_SURAKSHA_Wording_29b3f46acb.pdf",
+   "pages": 16,
+   "product": "SARAL BHARAT LAGHU UDYAM SURAKSHA Wording",
+   "sha256": "5234a432c6794c051b851d094f8dc9a438d32a022ad12d3fe0f9eebd3a08fd07",
+   "source_url": "https://content.sbigeneral.in/uploads/SARAL_BHARAT_LAGHU_UDYAM_SURAKSHA_Wording_29b3f46acb.pdf",
+   "uin": null
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "SBI General Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://content.sbigeneral.in/uploads/Saral_Bharat_Sookshma_Udyam_Suraksha_Policy_Wording_ed62d43919.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "restoration": {
+     "confidence": "extracted",
+     "page": 3,
+     "quote": "a valuation certi�cate being submitted and found acceptable by Us. 3. Restoration of Sum Insured Except as stated in Clause H (III) (3) (e) of this Policy, the insurance cover will at all times be maintaine",
+     "value": "Restoration of Sum Insured Except as stated in Clause H (III) (3) (e) of this Policy, the insurance cover will at all times be maintained during the Policy Period to the full extent of the respective",
+     "why": "restoration clause as stated"
+    }
+   },
+   "file": "Saral_Bharat_Sookshma_Udyam_Suraksha_Policy_Wording_ed62d43919.pdf",
+   "pages": 17,
+   "product": "Saral Bharat Sookshma Udyam Suraksha Policy Wording",
+   "sha256": "456dc4e0968daab90468372b538d721223c7f923cbe4d116061fc5a382b1ddbd",
+   "source_url": "https://content.sbigeneral.in/uploads/Saral_Bharat_Sookshma_Udyam_Suraksha_Policy_Wording_ed62d43919.pdf",
+   "uin": null
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "ayush_covered": {
+     "confidence": "extracted",
+     "page": 3,
+     "quote": "olicy vi. Expenses incurred on hospitalization due to accident, under AYUSH (as defined in IRDAI (Health Insurance) Regulations, 2016) systems of medicine shall be covered without any s",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "exclusions": {
+     "confidence": "extracted",
+     "page": 4,
+     "quote": "n in connection with or in respect of: I. Investigation & Evaluation (Code- Excl04) a) Expenses related to any admission primarily for diagnostics and evaluation purposes. b) Any diagnostic ex",
+     "value": [
+      "Investigation and evaluation",
+      "Dietary supplements and substances bought without prescription"
+     ],
+     "why": "2 IRDAI standard exclusions, identified by their code numbers"
+    },
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 7,
+     "quote": "ies except those with tenure of less than a year, shall be provided a free look period of 30 days beginning from the date of receipt of policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "grace_period_days": {
+     "confidence": "extracted",
+     "page": 7,
+     "quote": "licy Period, the Policy shall terminate and can be renewed within the Grace Period of 30 days to maintain continuity of benefits without Break in Policy. Coverage is not available during the Grace Period. vi. No loading shall",
+     "value": 30,
+     "why": "renewal grace period clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "SBI General Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "no_claim_bonus": {
+     "confidence": "extracted",
+     "page": 4,
+     "quote": "dent\" is independent of claim admissibility under the base covers. 5. CUMULATIVE BONUS Sum insured (excluding cumulative bonus) shall be increased by 5% in respect of each claim free policy year,",
+     "value": "CUMULATIVE BONUS Sum insured (excluding cumulative bonus) shall be increased by 5% in respect of each claim free policy year",
+     "why": "cumulative bonus clause"
+    },
+    "policy_term_years": {
+     "confidence": "extracted",
+     "page": 8,
+     "quote": "On Individual basis - SI shall apply to each individual family member Policy Period 1 year Base covers I. Death ii. Permanent total disablement iii.Permanent partial disablement Optional i. Temporary",
+     "value": "1 year",
+     "why": "policy term declared in the wording"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://content.sbigeneral.in/uploads/SARAL_SURAKSHA_BIMA_Policy_Wording_d06ae350e3.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "renewability": {
+     "confidence": "extracted",
+     "page": 7,
+     "quote": "f its liability under the policy. 8. 13. Renewal of the Policy I. The Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person. ii. The Company shall endeavor to give notice for Ren",
+     "value": "Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person",
+     "why": "guaranteed renewal except for fraud or non-disclosure"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (11 occurrences)",
+     "value": "SBIPAIP21639V012021",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "SARAL_SURAKSHA_BIMA_Policy_Wording_d06ae350e3.pdf",
+   "pages": 12,
+   "product": "SARAL SURAKSHA BIMA Policy Wording",
+   "sha256": "a8d7d0415dddf4125e1ac7a081a6966d6ea9fe43c8a677da0139cb73973a7de7",
+   "source_url": "https://content.sbigeneral.in/uploads/SARAL_SURAKSHA_BIMA_Policy_Wording_d06ae350e3.pdf",
+   "uin": "SBIPAIP21639V012021"
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "SBI General Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://content.sbigeneral.in/uploads/SBI_GENERAL_BHARAT_LAGHU_UDYAM_SURAKSHA_Wording_c2460a9810.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "restoration": {
+     "confidence": "extracted",
+     "page": 4,
+     "quote": "valuation certificate being submitted and found acceptable by Us. 3. Restoration of Sum Insured Except as stated in Clause G (III) (3) (e) of this Policy, the insurance cover will at all times be maintaine",
+     "value": "Restoration of Sum Insured Except as stated in Clause G (III) (3) (e) of this Policy, the insurance cover will at all times be maintained during the Policy Period to the full extent of the respective",
+     "why": "restoration clause as stated"
+    }
+   },
+   "file": "SBI_GENERAL_BHARAT_LAGHU_UDYAM_SURAKSHA_Wording_c2460a9810.pdf",
+   "pages": 10,
+   "product": "SBI GENERAL BHARAT LAGHU UDYAM SURAKSHA Wording",
+   "sha256": "87ffc4a15e24ffa153999192007e3e25805ab194defdd62b123ffd8cc4e9eca3",
+   "source_url": "https://content.sbigeneral.in/uploads/SBI_GENERAL_BHARAT_LAGHU_UDYAM_SURAKSHA_Wording_c2460a9810.pdf",
+   "uin": null
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "SBI General Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://content.sbigeneral.in/uploads/SBI_GENERAL_BHARAT_SOOKSHMA_UDYAM_SURAKSHA_Wording_b5da3e206c.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "restoration": {
+     "confidence": "extracted",
+     "page": 4,
+     "quote": "valuation certificate being submitted and found acceptable by Us. 3. Restoration of Sum Insured Except as stated in Clause G (III) (3) (e) of this Policy, the insurance cover will, at all times, be maintai",
+     "value": "Restoration of Sum Insured Except as stated in Clause G (III) (3) (e) of this Policy, the insurance cover will, at all times",
+     "why": "restoration clause as stated"
+    }
+   },
+   "file": "SBI_GENERAL_BHARAT_SOOKSHMA_UDYAM_SURAKSHA_Wording_b5da3e206c.pdf",
+   "pages": 10,
+   "product": "SBI GENERAL BHARAT SOOKSHMA UDYAM SURAKSHA Wording",
+   "sha256": "d3dd97cc6691b89de6ed35784cac1dec4bcf85880fa9bc9c4d6f6b1d6415c281",
+   "source_url": "https://content.sbigeneral.in/uploads/SBI_GENERAL_BHARAT_SOOKSHMA_UDYAM_SURAKSHA_Wording_b5da3e206c.pdf",
+   "uin": null
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "cashless_claim": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "t paid on or before the Premium renewal date or Grace Period. 2.1(i). Cashless Facility means a facility extended by the Company to the Insured where the payments, of the costs of treatment undergo",
+     "value": true,
+     "why": "cashless facility offered"
+    },
+    "deductible_type": {
+     "confidence": "extracted",
+     "page": 20,
+     "quote": "he Policy Schedule. For the purposes of this bene�t, Annual Aggregate Deductible: under this option an annual Aggregate Deductible is applicable. For a claim to become payable, the sum of all admissible claims under the Policy, s",
+     "value": "Aggregate (per policy year)",
+     "why": "wording states the deductible is aggregate over the policy year"
+    },
+    "domiciliary_covered": {
+     "confidence": "extracted",
+     "page": 6,
+     "quote": "speci�ed i the Policy Schedule, for the Medical Expenses incurred for Domiciliary Hospitalization during the Policy Year, provided that the condition for which the medical treatment is required continues for",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "exclusions": {
+     "confidence": "extracted",
+     "page": 8,
+     "quote": "xvii. Standard Exclusion no. 13.1(f). Hazardous or Adventure Sports: Code- Excl09 shall not be applicable to the extent mentioned under this bene�t if opted. Specific Conditions applicable to",
+     "value": [
+      "Pre-existing diseases",
+      "Specified disease/procedure waiting period",
+      "First thirty-day waiting period",
+      "Change-of-gender treatments",
+      "Cosmetic or plastic surgery",
+      "Hazardous or adventure sports",
+      "Maternity"
+     ],
+     "why": "7 IRDAI standard exclusions, identified by their code numbers"
+    },
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 24,
+     "quote": "ies except those with tenure of less than a year, shall be provided a free look period of 30 days beginning from the date of receipt of Policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "grace_period_days": {
+     "confidence": "extracted",
+     "page": 28,
+     "quote": "licy Period, the Policy shall terminate and can be renewed within the Grace Period of 30 days to maintain continuity of bene�ts without Break in Policy. Coverage is not available during the Grace Period. vi. No loading shall a",
+     "value": 30,
+     "why": "renewal grace period clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "SBI General Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "maternity_covered": {
+     "confidence": "extracted",
+     "page": 12,
+     "quote": "rom the date of childbirth or termination shall be covered within the Maternity limit. vi. For an admissible claim, this bene�t also covers the Pre- natal and Post-natal Medical Expenses ma",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "maternity_waiting_months": {
+     "confidence": "extracted",
+     "page": 21,
+     "quote": "be applicable for Claims arising due to Critical Illness Cover. 12.4. Maternity and Child Care Cover A Waiting Period of 24 months shall apply for all Claims under the benefit 3.3. Maternity and Child Care Cover. 12.5. Vision Correction A W",
+     "value": 24,
+     "why": "maternity waiting clause"
+    },
+    "opd_covered": {
+     "confidence": "extracted",
+     "page": 15,
+     "quote": "mergency Care. iii. In-Patient Hospitalization, Day Care Procedure or Out-Patient treatment, taken as Emergency Care shall be covered up to the Sum Insured speci�ed in the Policy Schedule, provided the",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "ped_waiting_months": {
+     "confidence": "extracted",
+     "page": 20,
+     "quote": "ing Diseases (Code-Excl01): i. Expenses related to the treatment of a Pre-Existing Diseases (PED) and its direct complications shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the �rst Policy with Us. ii. In case of enhancement of Sum Insured the ",
+     "value": 24,
+     "why": "operative PED exclusion clause"
+    },
+    "policy_term_years": {
+     "confidence": "extracted",
+     "page": 29,
+     "quote": "15 Illustrations Illustration 1 - Application of Endless Sum Insured Policy Period 1 year Sum Insured 10 lakhs Cumulative Bonus 5 lakhs Base cover Hospitalization Cover Optional cover Endless Sum Ins",
+     "value": "1 year",
+     "why": "policy term declared in the wording"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://content.sbigeneral.in/uploads/SBI_General_Health_Alpha_Policy_Wording_New_002_a04e639c0d.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "portability_allowed": {
+     "confidence": "extracted",
+     "page": 28,
+     "quote": ".sbigeneral.in//uploads/c6a2844dd65446 019b130�bae1fa20f.pdf 14.4(b). Portability The Insured Person will have the option to port the Policy to other Insurers by applying to such Insurer to p",
+     "value": true,
+     "why": "portability offered at renewal"
+    },
+    "renewability": {
+     "confidence": "extracted",
+     "page": 28,
+     "quote": "2844dd65446 019b130�bae1fa20f.pdf 14.4(c). Renewal Conditions: i. The Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person. ii. The Company shall endeavor to give notice for Ren",
+     "value": "Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person",
+     "why": "guaranteed renewal except for fraud or non-disclosure"
+    },
+    "specific_waiting_months": {
+     "confidence": "extracted",
+     "page": 21,
+     "quote": "aiting Period (Code-Excl 02): i. Expenses related to the treatment of listed Conditions; Surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the �rst Policy with Us. This exclusion shall be applicable for Claims arising",
+     "value": 24,
+     "why": "specified-disease exclusion clause"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (30 occurrences)",
+     "value": "SBIHLIP26038V012526",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "SBI_General_Health_Alpha_Policy_Wording_New_002_a04e639c0d.pdf",
+   "pages": 31,
+   "product": "SBI General Health Alpha Policy Wording New 002",
+   "sha256": "5b8f496626bee04361b6669ad5e5a5b51bffbc223126197457106e0dccdb2c63",
+   "source_url": "https://content.sbigeneral.in/uploads/SBI_General_Health_Alpha_Policy_Wording_New_002_a04e639c0d.pdf",
+   "uin": "SBIHLIP26038V012526"
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "SBI General Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://content.sbigeneral.in/uploads/SBI_General_Prakritik_Suraksha_Bima_Policy_Wording_5967a0e726.pdf",
+     "why": "the wording these facts were read from"
+    }
+   },
+   "file": "SBI_General_Prakritik_Suraksha_Bima_Policy_Wording_5967a0e726.pdf",
+   "pages": 7,
+   "product": "SBI General Prakritik Suraksha Bima Policy Wording",
+   "sha256": "b66e8a86668ae99edf71eed0942a0cbc472a2095b738ee84c4acf661cdffe2a2",
+   "source_url": "https://content.sbigeneral.in/uploads/SBI_General_Prakritik_Suraksha_Bima_Policy_Wording_5967a0e726.pdf",
+   "uin": null
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "SBI General Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://content.sbigeneral.in/uploads/SBI_General_Terrorism_Suraksha_Bima_Policy_Wording_26dc6b8ecb.pdf",
+     "why": "the wording these facts were read from"
+    }
+   },
+   "file": "SBI_General_Terrorism_Suraksha_Bima_Policy_Wording_26dc6b8ecb.pdf",
+   "pages": 136,
+   "product": "SBI General Terrorism Suraksha Bima Policy Wording",
+   "sha256": "ca95862a3e3f98ebddddc45a32f7368a3ff8bc2f34757944858960d2b0a3478e",
+   "source_url": "https://content.sbigeneral.in/uploads/SBI_General_Terrorism_Suraksha_Bima_Policy_Wording_26dc6b8ecb.pdf",
+   "uin": null
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "ayush_covered": {
+     "confidence": "extracted",
+     "page": 11,
+     "quote": ",000/-, Treatment whichever is lower, per eye, under one policy year. AYUSH Expenses incurred for Inpatient Care treatment under Ayurveda, Yoga and Naturopathy, Unani, Siddha and I-home",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "cashless_claim": {
+     "confidence": "extracted",
+     "page": 7,
+     "quote": "culars shall be sent to the Company/TPA (if applicable) as under: For Cashless Hospitalization i. Within 24 hours from the date of emergency hospitalization required or before the Insured Person's dischar",
+     "value": true,
+     "why": "cashless facility offered"
+    },
+    "copay_pct": {
+     "confidence": "extracted",
+     "page": 7,
+     "quote": "o-payment Each and every claim under the Policy shall be subject to a Co-payment of 5% applicable to claim amount admissible and payable as per the terms and conditions of the Policy. The amount p",
+     "value": 5,
+     "why": "co-payment clause"
+    },
+    "exclusions": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "expiry of waiting period mentioned below: 6.1. Pre-Existing Diseases (Code- Excl01) a) Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be e",
+     "value": [
+      "Pre-existing diseases",
+      "Specified disease/procedure waiting period",
+      "First thirty-day waiting period",
+      "Investigation and evaluation",
+      "Rest cure, rehabilitation and respite care",
+      "Obesity / weight control",
+      "Change-of-gender treatments",
+      "Cosmetic or plastic surgery",
+      "Hazardous or adventure sports",
+      "Breach of law",
+      "Excluded providers",
+      "Alcohol and substance abuse",
+      "Dietary supplements and substances bought without prescription",
+      "Refractive error",
+      "Sterility and infertility",
+      "Maternity"
+     ],
+     "why": "16 IRDAI standard exclusions, identified by their code numbers"
+    },
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 9,
+     "quote": "ies except those with tenure of less than a year, shall be provided a free look period of 30 days beginning from the date of receipt of Policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "grace_period_days": {
+     "confidence": "extracted",
+     "page": 9,
+     "quote": "licy Period, the Policy shall terminate and can be renewed within the Grace Period of 30 days to maintain continuity of benefits without Break in Policy. Coverage is not available during the Grace Period. vi. No loading shall",
+     "value": 30,
+     "why": "renewal grace period clause"
+    },
+    "icu_cap": {
+     "confidence": "extracted",
+     "page": 11,
+     "quote": "to maximum of `5000/- per day. 2. Intensive Care Unit (ICU) charges/ Intensive Cardiac Care Unit (ICCU) charges all-inclusive as provided by the Hospital / Nursing Home up to 5% of the sum insured subject to maximum of `10,000/- per day. Cataract Up to 25% of Sum insured or `40,000/-, Treatment whic",
+     "value": "5% of sum insured per day",
+     "why": "percentage-of-sum-insured ICU cap"
+    },
+    "initial_waiting_days": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "riod Code Excl03) i. Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered. ii. This excl",
+     "value": 30,
+     "why": "initial waiting clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "SBI General Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "no_claim_bonus": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "SBI General Insurance Company Limited 5. CUMULATIVE BONUS (CB) Cumulative Bonus will be increased by 5% in respect of each claim free policy year (where no claims are",
+     "value": "CUMULATIVE BONUS (CB) Cumulative Bonus will be increased by 5% in respect of each claim free policy year (where no claims are reported)",
+     "why": "cumulative bonus clause"
+    },
+    "ped_waiting_months": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "ing Diseases (Code- Excl01) a) Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with us. b) In case of enhancement of sum insured the e",
+     "value": 36,
+     "why": "operative PED exclusion clause"
+    },
+    "policy_term_years": {
+     "confidence": "extracted",
+     "page": 10,
+     "quote": "amily member. On Floater basis - Sl shall apply to the entire family. Policy Period 1 Year Eligibility Policy can be availed by persons between the age of 18 years and 65 years, as Proposer. Proposer",
+     "value": "1 year",
+     "why": "policy term declared in the wording"
+    },
+    "policy_type": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "educe only in case of claim from the same Insured Person. ii. In case where the policy is on floater basis, the CB shall be added and available to the family on floater basis, provided no claim has been reported from",
+     "value": "Individual or family floater",
+     "why": "policy states both bases are available"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://content.sbigeneral.in/uploads/SBIG_AROGYA_SANJEEVANI_GROUP_Micro_Insurance_POLICY_WORDING_KEN_a4a9f37e0b.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "portability_allowed": {
+     "confidence": "extracted",
+     "page": 9,
+     "quote": "nt.sbigeneral.in//uploads/c6a2844dd65446019 b130ffbae1fa20f.pdf 10.14 Portability The Insured Person will have the option to port the Policy to other Insurers by applying to such Insurer to p",
+     "value": true,
+     "why": "portability offered at renewal"
+    },
+    "pre_hosp_days": {
+     "confidence": "extracted",
+     "page": 11,
+     "quote": "treatment is undergone in a Day Care Centre. Pre Hospitalisation For 30 days prior to the date of hospitalization Post For 60 days from the date of discharge Hospitalisation from the hospital Sublimit for room/ 1. Room Rent",
+     "value": 30,
+     "why": "pre-?\\s*hospitali cover period"
+    },
+    "renewability": {
+     "confidence": "extracted",
+     "page": 9,
+     "quote": "ads/c6a2844dd65446019 b130ffbae1fa20f. 10.15 Renewal of Policy i. The Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person. ii. The Company shall endeavor to give notice for Ren",
+     "value": "Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person",
+     "why": "guaranteed renewal except for fraud or non-disclosure"
+    },
+    "sub_limits": {
+     "confidence": "extracted",
+     "page": 11,
+     "quote": "up to 5% of the sum insured subject to maximum of `10,000/- per day. Cataract Up to 25% of Sum insured or `40,000/-, Treatment whichever is lower, per eye, under one policy year. AYUSH Expenses inc",
+     "value": [
+      "Cataract: 25%"
+     ],
+     "why": "named treatment with a stated cap"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (13 occurrences)",
+     "value": "SBIHMGP21599V012021",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "SBIG_AROGYA_SANJEEVANI_GROUP_Micro_Insurance_POLICY_WORDING_KEN_a4a9f37e0b.pdf",
+   "pages": 14,
+   "product": "SBIG AROGYA SANJEEVANI GROUP Micro Insurance POLICY WORDING KEN",
+   "sha256": "ee8ac2d0c63abfb65c8ae287c67d88f546181c8f7406c578968d33675f3bba7c",
+   "source_url": "https://content.sbigeneral.in/uploads/SBIG_AROGYA_SANJEEVANI_GROUP_Micro_Insurance_POLICY_WORDING_KEN_a4a9f37e0b.pdf",
+   "uin": "SBIHMGP21599V012021"
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "ayush_covered": {
+     "confidence": "extracted",
+     "page": 11,
+     "quote": ",000/-, Treatment whichever is lower, per eye, under one policy year. AYUSH Expenses incurred for Inpatient Care treatment under Ayurveda, Yoga and Naturopathy, Unani, Siddha and I-home",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "cashless_claim": {
+     "confidence": "extracted",
+     "page": 7,
+     "quote": "culars shall be sent to the Company/TPA (if applicable) as under: For Cashless Hospitalization i. Within 24 hours from the date of emergency hospitalization required or before the Insured Person's dischar",
+     "value": true,
+     "why": "cashless facility offered"
+    },
+    "copay_pct": {
+     "confidence": "extracted",
+     "page": 8,
+     "quote": "o-payment Each and every claim under the Policy shall be subject to a Co-payment of 5% applicable to claim amount admissible and payable as per the terms and conditions of the Policy. The amount p",
+     "value": 5,
+     "why": "co-payment clause"
+    },
+    "exclusions": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "expiry of waiting period mentioned below: 6.1. Pre-Existing Diseases (Code- Excl01) a) Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be e",
+     "value": [
+      "Pre-existing diseases",
+      "Specified disease/procedure waiting period",
+      "First thirty-day waiting period",
+      "Investigation and evaluation",
+      "Rest cure, rehabilitation and respite care",
+      "Obesity / weight control",
+      "Change-of-gender treatments",
+      "Cosmetic or plastic surgery",
+      "Hazardous or adventure sports",
+      "Breach of law",
+      "Excluded providers",
+      "Alcohol and substance abuse",
+      "Dietary supplements and substances bought without prescription",
+      "Refractive error",
+      "Sterility and infertility",
+      "Maternity"
+     ],
+     "why": "16 IRDAI standard exclusions, identified by their code numbers"
+    },
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 10,
+     "quote": "icies except those with tenure of less than a year, shall be provided free look period of 30 days beginning from the date of receipt of Policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "grace_period_days": {
+     "confidence": "extracted",
+     "page": 9,
+     "quote": "licy Period, the Policy shall terminate and can be renewed within the Grace Period of 30 days to maintain continuity of benefits without Break in Policy. Coverage is not available during the Grace Period. vi. No loading shall",
+     "value": 30,
+     "why": "renewal grace period clause"
+    },
+    "icu_cap": {
+     "confidence": "extracted",
+     "page": 11,
+     "quote": "to maximum of `5000/- per day. 2. Intensive Care Unit (ICU) charges/ Intensive Cardiac Care Unit (ICCU) charges all-inclusive as provided by the Hospital / Nursing Home up to 5% of the sum insured subject to maximum of `10,000/- per day. Cataract Up to 25% of Sum insured or `40,000/-, Treatment whic",
+     "value": "5% of sum insured per day",
+     "why": "percentage-of-sum-insured ICU cap"
+    },
+    "initial_waiting_days": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "Period Code Excl03) Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered. This exclusio",
+     "value": 30,
+     "why": "initial waiting clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "SBI General Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "no_claim_bonus": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "ed under List-II, List-Ill and List-IV of Annexure-A respectively. 5. CUMULATIVE BONUS (CB) Cumulative Bonus will be increased by 5% in respect of each claim free policy year (where no claims are",
+     "value": "CUMULATIVE BONUS (CB) Cumulative Bonus will be increased by 5% in respect of each claim free policy year (where no claims are reported)",
+     "why": "cumulative bonus clause"
+    },
+    "ped_waiting_months": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "ing Diseases (Code- Excl01) a) Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first policy with us. b) In case of enhancement of sum insured the e",
+     "value": 36,
+     "why": "operative PED exclusion clause"
+    },
+    "policy_term_years": {
+     "confidence": "extracted",
+     "page": 11,
+     "quote": "family member On Floater basis - Sl shall apply to the entire family Policy Period 1 Year Eligibility Policy can be availed by persons between the age of 18 years and 65 years, as Proposer. Proposer",
+     "value": "1 year",
+     "why": "policy term declared in the wording"
+    },
+    "policy_type": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "educe only in case of claim from the same Insured Person. ii. In case where the policy is on floater basis, the CB shall be added and available to the family on floater basis, provided no claim has been reported from",
+     "value": "Individual or family floater",
+     "why": "policy states both bases are available"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://content.sbigeneral.in/uploads/SBIG_AROGYA_SANJEEVANI_GROUP_POLICY_WORDING_ac53d48fbd.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "portability_allowed": {
+     "confidence": "extracted",
+     "page": 9,
+     "quote": "nt.sbigeneral.in//uploads/c6a2844dd65446019 b130ffbae1fa20f.pdf 10.14 Portability The Insured Person will have the option to port the Policy to other Insurers by applying to such Insurer to p",
+     "value": true,
+     "why": "portability offered at renewal"
+    },
+    "pre_hosp_days": {
+     "confidence": "extracted",
+     "page": 11,
+     "quote": "treatment is undergone in a Day Care Centre. Pre Hospitalisation For 30 days prior to the date of hospitalization Post For 60 days from the date of discharge Hospitalisation from the hospital Sublimit for room/ 1. Room Rent",
+     "value": 30,
+     "why": "pre-?\\s*hospitali cover period"
+    },
+    "renewability": {
+     "confidence": "extracted",
+     "page": 9,
+     "quote": "ads/c6a2844dd65446019 b130ffbae1fa20f. 10.15 Renewal of Policy i. The Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person. ii. The Company shall endeavor to give notice for Ren",
+     "value": "Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person",
+     "why": "guaranteed renewal except for fraud or non-disclosure"
+    },
+    "sub_limits": {
+     "confidence": "extracted",
+     "page": 11,
+     "quote": "up to 5% of the sum insured subject to maximum of `10,000/- per day. Cataract Up to 25% of Sum insured or `40,000/-, Treatment whichever is lower, per eye, under one policy year. AYUSH Expenses inc",
+     "value": [
+      "Cataract: 25%"
+     ],
+     "why": "named treatment with a stated cap"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (13 occurrences)",
+     "value": "SBIHLGP21111V012021",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "SBIG_AROGYA_SANJEEVANI_GROUP_POLICY_WORDING_ac53d48fbd.pdf",
+   "pages": 14,
+   "product": "SBIG AROGYA SANJEEVANI GROUP POLICY WORDING",
+   "sha256": "b5352fbca3138023c0ccefbfaaf404476c01474718bf379e67c30c986c3dc13f",
+   "source_url": "https://content.sbigeneral.in/uploads/SBIG_AROGYA_SANJEEVANI_GROUP_POLICY_WORDING_ac53d48fbd.pdf",
+   "uin": "SBIHLGP21111V012021"
+  },
+  {
+   "category": "Health — top-up",
+   "fields": {
+    "cashless_claim": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "is not paid on or before the premium Renewal date or Grace Period. 7) Cashless Facility means a facility extended by the Insurer to the Insured where the payments, of the costs of treatment undergo",
+     "value": true,
+     "why": "cashless facility offered"
+    },
+    "exclusions": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "owsoever related to any of the following: 1. Pre-Existing Diseases - (Code- Excl01) a) Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be e",
+     "value": [
+      "Pre-existing diseases",
+      "First thirty-day waiting period",
+      "Investigation and evaluation",
+      "Rest cure, rehabilitation and respite care",
+      "Obesity / weight control",
+      "Change-of-gender treatments",
+      "Cosmetic or plastic surgery",
+      "Hazardous or adventure sports",
+      "Breach of law",
+      "Treatments in establishments for domestic reasons",
+      "Dietary supplements and substances bought without prescription",
+      "Refractive error",
+      "Unproven treatments",
+      "Sterility and infertility"
+     ],
+     "why": "14 IRDAI standard exclusions, identified by their code numbers"
+    },
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 7,
+     "quote": "ies except those with tenure of less than a year, shall be provided a free look period of 30 days beginning from the date of receipt of Policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "grace_period_days": {
+     "confidence": "unconfirmed",
+     "page": 9,
+     "quote": "licy Period, the Policy shall terminate and can be renewed within the Grace Period of 30 days to maintain available during the Grace Period. vi. No loading shall apply on Renewals based on individual Cla",
+     "value": 30,
+     "why": "grace period stated without naming renewal — a person should confirm"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "SBI General Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "ped_waiting_months": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "g Diseases - (Code- Excl01) a) Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of b) In case of enhancement of sum insured the exclusion shall apply afresh to the exte",
+     "value": 36,
+     "why": "operative PED exclusion clause"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://content.sbigeneral.in/uploads/SBIG_AROGYA_TOP_UP_POLICY_WORDING_N_2b7e9840fc.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "portability_allowed": {
+     "confidence": "extracted",
+     "page": 10,
+     "quote": "link- https://content.sbigeneral.in//uploads/c6a2844dd65446019b1 20. Portability: The Insured Person will have the option to port the Policy to other Insurers by applying to such Insurer to",
+     "value": true,
+     "why": "portability offered at renewal"
+    },
+    "renewability": {
+     "confidence": "extracted",
+     "page": 9,
+     "quote": "ellation provision. b. On the policy expiry date. 17. Renewal: i. The Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person. ii. The Company shall endeavor to give notice for Ren",
+     "value": "Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person",
+     "why": "guaranteed renewal except for fraud or non-disclosure"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (15 occurrences)",
+     "value": "SBIHLIP22137V032122",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "SBIG_AROGYA_TOP_UP_POLICY_WORDING_N_2b7e9840fc.pdf",
+   "pages": 16,
+   "product": "SBIG AROGYA TOP UP POLICY WORDING N",
+   "sha256": "8985211ee8716162d9203832bee5d986cd6f99dc24566876dfaf3b917cf6440e",
+   "source_url": "https://content.sbigeneral.in/uploads/SBIG_AROGYA_TOP_UP_POLICY_WORDING_N_2b7e9840fc.pdf",
+   "uin": "SBIHLIP22137V032122"
+  },
+  {
+   "category": "Health — top-up",
+   "fields": {
+    "cashless_claim": {
+     "confidence": "extracted",
+     "page": 17,
+     "quote": "icy, the claim procedures set out below shall be followed. Procedures Cashless Hospitalization Reimbursement Claims Claim Intimation You shall intimate the Claims to us through any available mode of commu",
+     "value": true,
+     "why": "cashless facility offered"
+    },
+    "deductible_type": {
+     "confidence": "extracted",
+     "page": 19,
+     "quote": "d 1/2/3 years There are 2 Plans. Plus and Pro. Plus: Annual Aggregate Deductible Plans Pro: Long Term Aggregate Deductible (applicable to 2 and 3 years policy period) Room Rent Category Actuals Covers Plan 'Plus'- Plan 'P",
+     "value": "Aggregate (per policy year)",
+     "why": "wording states the deductible is aggregate over the policy year"
+    },
+    "exclusions": {
+     "confidence": "extracted",
+     "page": 11,
+     "quote": "waiting period mentioned below: 4.1 First Thirty Days Waiting Period (Code-Excl 03): i. Expenses related to the treatment of any Illness within 30 days from the �rst Policy Commencement Date s",
+     "value": [
+      "Pre-existing diseases",
+      "Specified disease/procedure waiting period",
+      "First thirty-day waiting period",
+      "Maternity"
+     ],
+     "why": "4 IRDAI standard exclusions, identified by their code numbers"
+    },
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 15,
+     "quote": "ies except those with tenure of less than a year, shall be provided a free look period of 30 days beginning from the date of receipt of policy document, whether received uilding, 9th Floor, A & B Wing, Sahar",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "grace_period_days": {
+     "confidence": "extracted",
+     "page": 15,
+     "quote": "licy Period, the policy shall terminate and can be renewed within the Grace Period of 30 days to maintain continuity of bene�ts without break in policy. Coverage is not available during the grace period. vi. No loading shall a",
+     "value": 30,
+     "why": "renewal grace period clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "SBI General Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "no_claim_bonus": {
+     "confidence": "extracted",
+     "page": 11,
+     "quote": "3D. Renewal Benefits 3.25 Cumulative Bonus At the end of each completed and continuous claim free Policy Year, We will provide Cumulative Bonus which wi",
+     "value": "Cumulative Bonus At the end of each completed and continuous claim free Policy Year, We will provide Cumulative Bonus which will increase 10% of the Sum Insured of immediate preceding Policy Year",
+     "why": "cumulative bonus clause"
+    },
+    "ped_waiting_months": {
+     "confidence": "extracted",
+     "page": 12,
+     "quote": "ing Diseases (Code-Excl01): i. Expenses related to the treatment of a Pre-Existing Diseases (PED) and its direct complications shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the �rst Policy with Us. ii. In case of enhancement of Sum Insured the ",
+     "value": 24,
+     "why": "operative PED exclusion clause"
+    },
+    "policy_term_years": {
+     "confidence": "extracted",
+     "page": 20,
+     "quote": "ow: Policy Details Sum Insured (INR) 5 lakhs Deductible (INR) 2 lakhs Policy Period 3 years Policy Start Date 1-1-2021 Policy End Date 31-12-2023 SBI General Insurance Company Limited, Corporate & Regi",
+     "value": "3 years",
+     "why": "policy term declared in the wording"
+    },
+    "policy_type": {
+     "confidence": "extracted",
+     "page": 11,
+     "quote": "ll test (TMT) and Ultrasound test. iii. Irrespective of Individual or Family Floater, this bene�t available to all adult members above 18 years of age on individual basis. iv. The bene�t shall b",
+     "value": "Family floater",
+     "why": "floater basis stated"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://content.sbigeneral.in/uploads/SBIG_Health_Super_Top_up_Policy_Wordings_20240502_ed4c52d8d7.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "portability_allowed": {
+     "confidence": "extracted",
+     "page": 15,
+     "quote": "ontent.sbigeneral.in//uploads/c6a2844dd65446019b 130�bae1fa20f.pdf 9) Portability The Insured Person will have the option to port the Policy to other Insurers by applying to such Insurer to p",
+     "value": true,
+     "why": "portability offered at renewal"
+    },
+    "renewability": {
+     "confidence": "extracted",
+     "page": 15,
+     "quote": "ads/c6a2844dd65446019b 130�bae1fa20f.pdf 10) Renewal of Policy i. The Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person. ii. The Company shall endeavor to give notice for ren",
+     "value": "Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person",
+     "why": "guaranteed renewal except for fraud or non-disclosure"
+    },
+    "specific_waiting_months": {
+     "confidence": "extracted",
+     "page": 12,
+     "quote": "aiting Period (Code-Excl 02): i. Expenses related to the treatment of listed Conditions; Surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the �rst Policy with Us. This exclusion shall not be applicable for claims ari",
+     "value": 24,
+     "why": "specified-disease exclusion clause"
+    },
+    "sub_limits": {
+     "confidence": "extracted",
+     "page": 19,
+     "quote": "m Insured Domiciliary Covered Within Sum Insured Hospitalization Road Ambulance Up to INR 5000 per Within Sum Insured hospitalization Home Health Care Covered Within Sum Insured Optional Covers ilding, 9t",
+     "value": [
+      "Ambulance: Rs 5,000"
+     ],
+     "why": "named treatment with a stated cap"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (22 occurrences)",
+     "value": "SBIHLIP25035V012425",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "SBIG_Health_Super_Top_up_Policy_Wordings_20240502_ed4c52d8d7.pdf",
+   "pages": 23,
+   "product": "SBIG Health Super Top up Policy Wordings 20240502",
+   "sha256": "9639edfa25186aa48808e15dd26a456efc7b91e617cb05c9dfe4b96d4b7c3598",
+   "source_url": "https://content.sbigeneral.in/uploads/SBIG_Health_Super_Top_up_Policy_Wordings_20240502_ed4c52d8d7.pdf",
+   "uin": "SBIHLIP25035V012425"
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "ayush_covered": {
+     "confidence": "extracted",
+     "page": 13,
+     "quote": "Sub-limit speci�ed against this Cover in the Policy Schedule, in any AYUSH Hospital. C. 16. Recovery Benefit We will pay a lump sum amount as speci�ed in the Policy Schedule upon Your",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "cashless_claim": {
+     "confidence": "extracted",
+     "page": 13,
+     "quote": "two quali�ed surgeons and the Insured shall obtain prior approval for cashless treatment from the Company. iv. Standard Exclusion A. III. (Obesity / Weight Control) shall no be applicable to the ext",
+     "value": true,
+     "why": "cashless facility offered"
+    },
+    "copay_pct": {
+     "confidence": "extracted",
+     "page": 17,
+     "quote": "gs and medicines prescribed by a Medical Practitioner. Conditions: a. 20% Co-payment will be applicable on Professional Fees b. 30% Co-payment will be applicable on Diagnostics and Pharmacy Expe",
+     "value": 20,
+     "why": "co-payment clause"
+    },
+    "domiciliary_covered": {
+     "confidence": "extracted",
+     "page": 30,
+     "quote": "l Expenses (up to Sum Insured) Day Care Treatment (up to Sum Insured) Domiciliary Hospitalization Home Health Care Emergency Road Ambulance Cover (per Hospitalization) Air Ambulance Cover (Domestic) Organ Do",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "exclusions": {
+     "confidence": "extracted",
+     "page": 20,
+     "quote": "waiting period mentioned below: I) First Thirty Days Waiting Period (Code-Excl 03): a) Expenses related to the treatment of any Illness within 30 days from the �rst Policy Commencement Date s",
+     "value": [
+      "Pre-existing diseases",
+      "Specified disease/procedure waiting period",
+      "First thirty-day waiting period",
+      "Investigation and evaluation",
+      "Rest cure, rehabilitation and respite care",
+      "Obesity / weight control",
+      "Change-of-gender treatments",
+      "Cosmetic or plastic surgery",
+      "Hazardous or adventure sports",
+      "Breach of law",
+      "Excluded providers",
+      "Alcohol and substance abuse",
+      "Treatments in establishments for domestic reasons",
+      "Dietary supplements and substances bought without prescription",
+      "Refractive error",
+      "Unproven treatments",
+      "Sterility and infertility",
+      "Maternity"
+     ],
+     "why": "18 IRDAI standard exclusions, identified by their code numbers"
+    },
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 24,
+     "quote": "ies except those with tenure of less than a year, shall be provided a free look period of 30 days beginning from the date of receipt of Policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "grace_period_days": {
+     "confidence": "extracted",
+     "page": 23,
+     "quote": "olicy Period, the Policy shall terminat and can be renewed within the Grace Period of 30 days to maintain continuity of bene�ts without Break in Policy. Coverage is not available during the Grace Period. SBI General Insurance",
+     "value": 30,
+     "why": "renewal grace period clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "SBI General Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "maternity_covered": {
+     "confidence": "extracted",
+     "page": 30,
+     "quote": "tion) Recovery Benefit Claims Shield E-Opinion Annual Health Check-up Maternity Expenses New Born Baby Cover Child Vaccination (Up to 12 years of age) Enhanced Cumulative Bonus (reduction i",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "no_claim_bonus": {
+     "confidence": "extracted",
+     "page": 14,
+     "quote": "med under this Section on a Reimbursement basis only. C. 22. Enhanced Cumulative Bonus Enhanced Cumulative Bonus (ECB) will be applied by 50% of the Base Sum Insured of immediate preceding Policy",
+     "value": "Cumulative Bonus Enhanced Cumulative Bonus (ECB) will be applied by 50% of the Base Sum Insured of immediate preceding Policy Year in respect of each claim free Policy Year (where no claims are",
+     "why": "cumulative bonus clause"
+    },
+    "opd_covered": {
+     "confidence": "extracted",
+     "page": 17,
+     "quote": "per family limit) against this Bene�t in the Policy Schedule for the OPD expenses including Diagnostics and Pharmacy. hat all is covered under this: rofessional Fees for medically ne",
+     "value": true,
+     "why": "affirmative grant of cover"
+    },
+    "ped_waiting_months": {
+     "confidence": "extracted",
+     "page": 20,
+     "quote": "ing Diseases (Code-Excl01): a) Expenses related to the treatment of a Pre-Existing Diseases (PED) and its direct complications shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the �rst Policy with Us. b) In case of enhancement of Sum Insured the e",
+     "value": 24,
+     "why": "operative PED exclusion clause"
+    },
+    "policy_type": {
+     "confidence": "extracted",
+     "page": 14,
+     "quote": "Function Test (LFT), Treadmill test (TMT) and Ultrasound test. c. For Family Floater, this cover will be applicable only to adult members of the Family who are aged 18 years and above on the sta",
+     "value": "Family floater",
+     "why": "floater basis stated"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://content.sbigeneral.in/uploads/Super_Health_Insurance_Policy_Wording_New_1512_1a70d6d07a.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "portability_allowed": {
+     "confidence": "extracted",
+     "page": 23,
+     "quote": "ontent.sbigeneral.in//uploads/c6a2844dd654460 19b130�bae1fa20f.pdf i. Portability The Insured Person will have the option to port the Policy to other Insurers by applying to such Insurer to p",
+     "value": true,
+     "why": "portability offered at renewal"
+    },
+    "renewability": {
+     "confidence": "extracted",
+     "page": 23,
+     "quote": "ds/c6a2844dd654460 19b130�bae1fa20f.pdf j. Renewal Conditions: i. The Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person. ii. The Company shall endeavor to give notice for Ren",
+     "value": "Policy shall ordinarily be renewable provided the product is not withdrawn, except on grounds of established fraud or non-disclosure or misrepresentation by the Insured Person",
+     "why": "guaranteed renewal except for fraud or non-disclosure"
+    },
+    "sub_limits": {
+     "confidence": "extracted",
+     "page": 30,
+     "quote": "1st renewal onwards/year Up to INR 25,000 (N)/INR 50,000(C-sec) Up to Maternity SI NA 50% of Base Sum Insured up to 100% NA NA NA NA INR 5000/Policy heri (East), Mumbai - 400 longs to State Bank of LIP24141V022324. | SBI Ge produc",
+     "value": [
+      "Maternity: 100%",
+      "Maternity: 200%",
+      "Bariatric: Rs 50,000"
+     ],
+     "why": "named treatment with a stated cap"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (31 occurrences)",
+     "value": "SBIHLIP24141V022324",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    },
+    "wellness_benefits": {
+     "confidence": "extracted",
+     "page": 18,
+     "quote": "ellness Benefit On availing this option, The Insured Person may avail wellness services as mentioned in the Policy Schedule. The services may include any or all as speci�ed in the policy schedule: Services Utilization Parameter (if a",
+     "value": "wellness services as mentioned in the Policy Schedule",
+     "why": "wellness or health check-up benefit as stated"
+    }
+   },
+   "file": "Super_Health_Insurance_Policy_Wording_New_1512_1a70d6d07a.pdf",
+   "pages": 32,
+   "product": "Super Health Insurance Policy Wording New 1512",
+   "sha256": "78dea28e930c87dd594f6665ff5491bb68669741a32103fbc75ab5e741826ccb",
+   "source_url": "https://content.sbigeneral.in/uploads/Super_Health_Insurance_Policy_Wording_New_1512_1a70d6d07a.pdf",
+   "uin": "SBIHLIP24141V022324"
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "SBI General Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://content.sbigeneral.in/uploads/SURAKSHA_PRO_D_and_O_INSURANCE_Wording_28189b0a1c.pdf",
+     "why": "the wording these facts were read from"
+    }
+   },
+   "file": "SURAKSHA_PRO_D_and_O_INSURANCE_Wording_28189b0a1c.pdf",
+   "pages": 11,
+   "product": "SURAKSHA PRO D and O INSURANCE Wording",
+   "sha256": "1136e3cd5046cee49c574928a5c8c2c7f8a7cfc86ad88ee7355ecd33b9cee4cd",
+   "source_url": "https://content.sbigeneral.in/uploads/SURAKSHA_PRO_D_and_O_INSURANCE_Wording_28189b0a1c.pdf",
+   "uin": null
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "cashless_claim": {
+     "confidence": "extracted",
+     "page": 1,
+     "quote": "n with the Hospital/Nursing Home center where treatment was taken. 3. Cashless Facility means a facility extended by the Company to the Insured where the payments, of the costs of treatment undergo",
+     "value": true,
+     "why": "cashless facility offered"
+    },
+    "exclusions": {
+     "confidence": "extracted",
+     "page": 5,
+     "quote": "waiting period mentioned below: 4.1 First Thirty Days Waiting Period (Code-Excl 03): Expenses related to the treatment of any Illness within 30 days from the first Rider Commencement Date shal",
+     "value": [
+      "First thirty-day waiting period",
+      "Change-of-gender treatments",
+      "Maternity"
+     ],
+     "why": "3 IRDAI standard exclusions, identified by their code numbers"
+    },
+    "free_look_days": {
+     "confidence": "extracted",
+     "page": 7,
+     "quote": "ies except those with tenure of less than a year, shall be provided a free look period of 30 days beginning from the date of receipt of Policy document, whether received electronically or otherwise, to revie",
+     "value": 30,
+     "why": "free look clause"
+    },
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "SBI General Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "irdai_approved": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "a UIN is IRDAI's approval identifier",
+     "value": true,
+     "why": "a UIN exists"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://content.sbigeneral.in/uploads/Surrogacy_and_Oocyte_Donor_Suraksha_policy_wording_KEN_d38f57cadc.pdf",
+     "why": "the wording these facts were read from"
+    },
+    "portability_allowed": {
+     "confidence": "extracted",
+     "page": 8,
+     "quote": "ted as full and final discharge of its liability under the Rider. 12. Portability The Insured Person will have the option to port the Policy to other Insurers by applying to such Insurer to p",
+     "value": true,
+     "why": "portability offered at renewal"
+    },
+    "uin": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "read from the document text (11 occurrences)",
+     "value": "SBIHLIA24100V012324",
+     "why": "UIN printed in the wording itself; the insurer's link titles carry none. Exactly one UIN appears in this document."
+    }
+   },
+   "file": "Surrogacy_and_Oocyte_Donor_Suraksha_policy_wording_KEN_d38f57cadc.pdf",
+   "pages": 12,
+   "product": "Surrogacy and Oocyte Donor Suraksha policy wording KEN",
+   "sha256": "9d23919fae60d50a8834baab0cfb4661323d5d174faac599a966c543b732b403",
+   "source_url": "https://content.sbigeneral.in/uploads/Surrogacy_and_Oocyte_Donor_Suraksha_policy_wording_KEN_d38f57cadc.pdf",
+   "uin": "SBIHLIA24100V012324"
+  },
+  {
+   "category": "Health — indemnity",
+   "fields": {
+    "insurer": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "SBI General Insurance Company Limited",
+     "why": "insurer of record"
+    },
+    "policy_wording_url": {
+     "confidence": "verified",
+     "page": null,
+     "quote": "from documents.json",
+     "value": "https://content.sbigeneral.in/uploads/TECH_SURAKSHA_Wording_9dd9fe981a.pdf",
+     "why": "the wording these facts were read from"
+    }
+   },
+   "file": "TECH_SURAKSHA_Wording_9dd9fe981a.pdf",
+   "pages": 10,
+   "product": "TECH SURAKSHA Wording",
+   "sha256": "213ec20e15d114c795ce6dd6dfa6b99dd8d4b3275e380d69f2bac6851221f05f",
+   "source_url": "https://content.sbigeneral.in/uploads/TECH_SURAKSHA_Wording_9dd9fe981a.pdf",
+   "uin": null
+  }
+ ],
+ "policy_count": 33,
+ "source": "https://www.starhealth.in/downloads/",
+ "unreadable": []
+}

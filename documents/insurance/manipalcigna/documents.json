@@ -1,0 +1,72 @@
+{
+ "source": [
+  "https://www.manipalcigna.com/health-insurance/individual-health-insurance"
+ ],
+ "insurer": "manipalcigna",
+ "retrieved": "2026-09-07",
+ "how_found": "The /downloads/products table is client-rendered; only brochures are reachable server-side.",
+ "note": "Every file was downloaded from the insurer's own site, reached by following its own navigation. No URL was guessed. Each file was verified to begin with %PDF before being kept, so a 404 page served under a 200 status cannot masquerade as a document.",
+ "document_count": 6,
+ "documents": [
+  {
+   "product": "DOWNLOAD PACKAGE BROCHURE",
+   "uin": null,
+   "doc_type": "Brochure",
+   "title": "DOWNLOAD PACKAGE BROCHURE",
+   "file": "8aa36945-b0a9-1037-e9c4-579b9a44149e",
+   "source_url": "https://www.manipalcigna.com/documents/20124/9267615/ProHealthPrime-Protect-and-Advantage-Accordion.pdf/8aa36945-b0a9-1037-e9c4-579b9a44149e?t=1748797241394",
+   "sha256": "0277b1549573873d00c31ba364e24d2c13457da6e766225dab4f92e566914583",
+   "bytes": 2841958
+  },
+  {
+   "product": "Download Product Brochure",
+   "uin": null,
+   "doc_type": "Brochure",
+   "title": "Download Product Brochure",
+   "file": "InfinixBrochure.pdf",
+   "source_url": "https://www.manipalcigna.com/pdfs/InfinixBrochure.pdf",
+   "sha256": "48c81e011f37e17ce521f14b577e3a18983b6786570b53d07d5f276705736827",
+   "bytes": 3521724
+  },
+  {
+   "product": "Download Product Brochure",
+   "uin": null,
+   "doc_type": "Brochure",
+   "title": "Download Product Brochure",
+   "file": "LifetimeHealth.pdf",
+   "source_url": "https://www.manipalcigna.com/pdfs/LifetimeHealth.pdf",
+   "sha256": "54fc39d7b8aa8244d7a7c34f270c338d77437aaeb05cf31dc5bbc970bc661fca",
+   "bytes": 2221297
+  },
+  {
+   "product": "Download Product Brochure",
+   "uin": null,
+   "doc_type": "Brochure",
+   "title": "Download Product Brochure",
+   "file": "sarvahAccordion.pdf",
+   "source_url": "https://www.manipalcigna.com/pdfs/sarvahAccordion.pdf",
+   "sha256": "bf0040c519e133812d52b1794b858df2a709ba1e6879d4b8d45294b16bc2d631",
+   "bytes": 8498576
+  },
+  {
+   "product": "Download Product Brochure",
+   "uin": null,
+   "doc_type": "Brochure",
+   "title": "Download Product Brochure",
+   "file": "senior.pdf",
+   "source_url": "https://www.manipalcigna.com/pdfs/senior.pdf",
+   "sha256": "def7689a51aa92c3d504b092725351935ee786cce2f6ec1ee54b34b144151ff9",
+   "bytes": 2054077
+  },
+  {
+   "product": "Download Product Brochure",
+   "uin": null,
+   "doc_type": "Brochure",
+   "title": "Download Product Brochure",
+   "file": "super-topup.pdf",
+   "source_url": "https://www.manipalcigna.com/pdfs/super-topup.pdf",
+   "sha256": "3badab6a93ce4c1231c3795ab09b59c5e90ae34abd1c180d3f17eb1ffe357cfc",
+   "bytes": 545812
+  }
+ ]
+}

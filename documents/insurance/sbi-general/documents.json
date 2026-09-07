@@ -1,0 +1,972 @@
+{
+ "source": [
+  "https://www.sbigeneral.in/downloads"
+ ],
+ "insurer": "sbi-general",
+ "retrieved": "2026-09-07",
+ "how_found": "/downloads carries the full document list inline; the PDFs are served from content.sbigeneral.in. SBI General is a general insurer whose listing is mostly motor, marine, fire and engineering; `scope` keeps this to the health line, which is the line this registry covers.",
+ "note": "Every file was downloaded from the insurer's own site, reached by following its own navigation. No URL was guessed. Each file was verified to begin with %PDF before being kept, so a 404 page served under a 200 status cannot masquerade as a document.",
+ "document_count": 96,
+ "documents": [
+  {
+   "product": "1 0 SBI General Arogya Gold Group Policy Wordings",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "1 0 SBI General Arogya Gold Group Policy Wordings",
+   "file": "1_0_SBI_General_Arogya_Gold_Group_Policy_Wordings_2703fd827f.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/1_0_SBI_General_Arogya_Gold_Group_Policy_Wordings_2703fd827f.pdf",
+   "sha256": "6d2d37eb84dc90dd02cefc7d30871b4b398c5b9331045702beb1607379ca2ae8",
+   "bytes": 360112
+  },
+  {
+   "product": "7 0 SBI General Arogya Gold Group Prospectus",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "title": "7 0 SBI General Arogya Gold Group Prospectus",
+   "file": "7_0_SBI_General_Arogya_Gold_Group_Prospectus_4b7091ae2a.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/7_0_SBI_General_Arogya_Gold_Group_Prospectus_4b7091ae2a.pdf",
+   "sha256": "a317ad4184408070eb251721a2c42969627da4f02d13d26fafabb66598289999",
+   "bytes": 280776
+  },
+  {
+   "product": "Arogya Sanjeevani Group Micro Insurance Product Prospectus KEN 006",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "title": "Arogya Sanjeevani Group Micro Insurance Product Prospectus KEN 006",
+   "file": "Arogya_Sanjeevani_Group_Micro_Insurance_Product_Prospectus_KEN_006_8ee269b4ba.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Arogya_Sanjeevani_Group_Micro_Insurance_Product_Prospectus_KEN_006_8ee269b4ba.pdf",
+   "sha256": "fc13553ad6ffa7e07e05e98900f3574de8ccfb03867282848e2a0ff8c691428f",
+   "bytes": 234847
+  },
+  {
+   "product": "Arogya Sanjeevani Group Prospectus",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "title": "Arogya Sanjeevani Group Prospectus",
+   "file": "Arogya_Sanjeevani_Group_Prospectus_d975dc42ca.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Arogya_Sanjeevani_Group_Prospectus_d975dc42ca.pdf",
+   "sha256": "8b5d7003dd9573fbd4b2d4740c8390a7eeb7f74633e1a2d3e9395459ebe3507e",
+   "bytes": 354316
+  },
+  {
+   "product": "Arogya Sanjeevani Policy CIS KEN",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "Arogya Sanjeevani Policy CIS KEN",
+   "file": "Arogya_Sanjeevani_Policy_CIS_KEN_13da336927.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Arogya_Sanjeevani_Policy_CIS_KEN_13da336927.pdf",
+   "sha256": "bfbf73fd1a4e58bf1d995cfa4edcccc78da855763c972baf84394754dc5f2549",
+   "bytes": 1084303
+  },
+  {
+   "product": "Arogya Sanjeevani Policy CIS Micro Insurance KEN",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "Arogya Sanjeevani Policy CIS Micro Insurance KEN",
+   "file": "Arogya_Sanjeevani_Policy_CIS_Micro_Insurance_KEN_32b39ed671.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Arogya_Sanjeevani_Policy_CIS_Micro_Insurance_KEN_32b39ed671.pdf",
+   "sha256": "c7d8dbe30303c8fed4c61050700675800c936f3545d2b2b7cc0ced93419ac8d3",
+   "bytes": 218439
+  },
+  {
+   "product": "Arogya Sanjeevani Policy Group CIS",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "Arogya Sanjeevani Policy Group CIS",
+   "file": "Arogya_Sanjeevani_Policy_Group_CIS_33e2dcc766.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Arogya_Sanjeevani_Policy_Group_CIS_33e2dcc766.pdf",
+   "sha256": "63c6cbb818656e21a4e0b38a1fa0278796d3f019090491e5e6e03dfd1b6e60b7",
+   "bytes": 224698
+  },
+  {
+   "product": "Arogya Sanjeevani Policy Group Micro Insurance CIS KEN 003",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "Arogya Sanjeevani Policy Group Micro Insurance CIS KEN 003",
+   "file": "Arogya_Sanjeevani_Policy_Group_Micro_Insurance_CIS_KEN_003_51e1af1b8a.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Arogya_Sanjeevani_Policy_Group_Micro_Insurance_CIS_KEN_003_51e1af1b8a.pdf",
+   "sha256": "767a84f0190e80ad8ddc8e572cee8ba73969072046a131b50f3b49b17686d42b",
+   "bytes": 227110
+  },
+  {
+   "product": "Arogya Sanjeevani Policy Wording KEN",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "Arogya Sanjeevani Policy Wording KEN",
+   "file": "Arogya_Sanjeevani_Policy_Wording_KEN_034037d936.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Arogya_Sanjeevani_Policy_Wording_KEN_034037d936.pdf",
+   "sha256": "659ab45a0113c628b29c5989d43ad25feb54a762f1a9f013ce9634ad8abfa171",
+   "bytes": 572398
+  },
+  {
+   "product": "Arogya Sanjeevani Policy Wording Micro Insurance KEN",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "Arogya Sanjeevani Policy Wording Micro Insurance KEN",
+   "file": "Arogya_Sanjeevani_Policy_Wording_Micro_Insurance_KEN_41940000a6.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Arogya_Sanjeevani_Policy_Wording_Micro_Insurance_KEN_41940000a6.pdf",
+   "sha256": "50ddce6523204e6a120289ab406776e983853fdf47859e6435501d9ff29a2462",
+   "bytes": 523987
+  },
+  {
+   "product": "Arogya Sanjeevani Prospectus 20240704 KEN",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "title": "Arogya Sanjeevani Prospectus 20240704 KEN",
+   "file": "Arogya_Sanjeevani_Prospectus_20240704_KEN_43df031293.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Arogya_Sanjeevani_Prospectus_20240704_KEN_43df031293.pdf",
+   "sha256": "0f5950766fa2592e2810fb8efb9237ce6172dc98c1f7b27c4d8943fabbe97f43",
+   "bytes": 305850
+  },
+  {
+   "product": "AROGYA SANJEEVANI SBI GENERAL INS CO LTD MICRO INSURANCE PRODUCT RETAIL prospectus KEN",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "title": "AROGYA SANJEEVANI SBI GENERAL INS CO LTD MICRO INSURANCE PRODUCT RETAIL prospectus KEN",
+   "file": "AROGYA_SANJEEVANI_SBI_GENERAL_INS_CO_LTD_MICRO_INSURANCE_PRODUCT_RETAIL_prospectus_KEN_73106910e8.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/AROGYA_SANJEEVANI_SBI_GENERAL_INS_CO_LTD_MICRO_INSURANCE_PRODUCT_RETAIL_prospectus_KEN_73106910e8.pdf",
+   "sha256": "08ae7db05d46a17d77e8cb6b4524d8234a387843a85a343b3769bf4f247c41ff",
+   "bytes": 334868
+  },
+  {
+   "product": "Arogya Supreme CIS",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "Arogya Supreme CIS",
+   "file": "Arogya_Supreme_CIS_85ad2d4068.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Arogya_Supreme_CIS_85ad2d4068.pdf",
+   "sha256": "28480fca07332cbe1088210dea9174d818b4bc29bf2de7d96ff219f1fef05073",
+   "bytes": 2648561
+  },
+  {
+   "product": "Arogya Supreme CIS (w.e.f 10th July 2026)",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "Arogya Supreme CIS (w.e.f 10th July 2026)",
+   "file": "Arogya_Supreme_CIS_w_e_f_10th_July_2026_6abd0121a6.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Arogya_Supreme_CIS_w_e_f_10th_July_2026_6abd0121a6.pdf",
+   "sha256": "8afc6b819dc0471376362afd6601158aa83ae06069527bbac02dbfb486e8c1e2",
+   "bytes": 248306
+  },
+  {
+   "product": "AROGYA SUPREME Policy Wording",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "AROGYA SUPREME Policy Wording",
+   "file": "AROGYA_SUPREME_Policy_Wording_19e6aaaec0.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/AROGYA_SUPREME_Policy_Wording_19e6aaaec0.pdf",
+   "sha256": "666ee54c6dc9f2e4bd92f3c036927ceba89e1a09c705e16462704c32dae411a9",
+   "bytes": 1388296
+  },
+  {
+   "product": "Arogya Supreme Policy Wordings (w.e.f 10th July 2026)",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "Arogya Supreme Policy Wordings (w.e.f 10th July 2026)",
+   "file": "Arogya_Supreme_Policy_Wordings_w_e_f_10th_July_2026_1237d56950.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Arogya_Supreme_Policy_Wordings_w_e_f_10th_July_2026_1237d56950.pdf",
+   "sha256": "564a77d69c2c85da6f2bf21e8ded1b501cfc2e79d7852b489ead6d8d9e06d0f2",
+   "bytes": 1099027
+  },
+  {
+   "product": "Arogya Supreme Prospectus",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "title": "Arogya Supreme Prospectus",
+   "file": "Arogya_Supreme_Prospectus_4a2f7244f1.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Arogya_Supreme_Prospectus_4a2f7244f1.pdf",
+   "sha256": "cc845a8b57914ab8510ed32e687c4597a23e503d7f6ac180df45397ca3ab2bd5",
+   "bytes": 1094463
+  },
+  {
+   "product": "Arogya Supreme Prospectus (w.e.f 10th July 2026)",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "title": "Arogya Supreme Prospectus (w.e.f 10th July 2026)",
+   "file": "Arogya_Supreme_Prospectus_w_e_f_10th_July_2026_539dcbb0b6.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Arogya_Supreme_Prospectus_w_e_f_10th_July_2026_539dcbb0b6.pdf",
+   "sha256": "d35e5138e2297d0a82664d3057cf1085e7fbad47e2c8e70e0d4f6986ba099a07",
+   "bytes": 530735
+  },
+  {
+   "product": "Arogya Top up Policy CIS 0203",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "Arogya Top up Policy CIS 0203",
+   "file": "Arogya_Top_up_Policy_CIS_0203_c7bcbb7d85.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Arogya_Top_up_Policy_CIS_0203_c7bcbb7d85.pdf",
+   "sha256": "652b1369b571ea57b8a92be3e97f0b98bb747611199a98c9b1d497a809d36ba2",
+   "bytes": 213424
+  },
+  {
+   "product": "Arogya Top Up Policy Prospectus 20260204",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "title": "Arogya Top Up Policy Prospectus 20260204",
+   "file": "Arogya_Top_Up_Policy_Prospectus_20260204_6ce4d2b1af.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Arogya_Top_Up_Policy_Prospectus_20260204_6ce4d2b1af.pdf",
+   "sha256": "9bfe2421f905b86dd95f2c950bbc4711b39f328fbfb14229d2155974362c908c",
+   "bytes": 245978
+  },
+  {
+   "product": "Bharat Laghu Udyam Suraksha CIS",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "Bharat Laghu Udyam Suraksha CIS",
+   "file": "Bharat_Laghu_Udyam_Suraksha_CIS_6c121233ab.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Bharat_Laghu_Udyam_Suraksha_CIS_6c121233ab.pdf",
+   "sha256": "42a155acbcf9e22a4bcdcea07e3b73b87e17ee2d9069290c398d96b4c133e7bf",
+   "bytes": 834456
+  },
+  {
+   "product": "Bharat Sookshma Udyam Suraksha CIS",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "Bharat Sookshma Udyam Suraksha CIS",
+   "file": "Bharat_Sookshma_Udyam_Suraksha_CIS_379068956f.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Bharat_Sookshma_Udyam_Suraksha_CIS_379068956f.pdf",
+   "sha256": "1a047c014a6eb3b4469236f238cad4193d94ac0365f9cbf7d2850df2064b23d7",
+   "bytes": 841964
+  },
+  {
+   "product": "Critical Illness Insurance Policy CIS KEN",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "Critical Illness Insurance Policy CIS KEN",
+   "file": "Critical_Illness_Insurance_Policy_CIS_KEN_fb132698e5.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Critical_Illness_Insurance_Policy_CIS_KEN_fb132698e5.pdf",
+   "sha256": "ec0adfb514dcd1eb72c18883296b9afa536bba87d3540326b4d2d512b2c50d39",
+   "bytes": 203489
+  },
+  {
+   "product": "CRITICAL ILLNESS INSURANCE POLICY Policy Wording KEN",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "CRITICAL ILLNESS INSURANCE POLICY Policy Wording KEN",
+   "file": "CRITICAL_ILLNESS_INSURANCE_POLICY_Policy_Wording_KEN_65bb5b2f37.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/CRITICAL_ILLNESS_INSURANCE_POLICY_Policy_Wording_KEN_65bb5b2f37.pdf",
+   "sha256": "219e61644796fbf165d94ff25030df320f487a9317bb28563b7c9ff4de56a64a",
+   "bytes": 721521
+  },
+  {
+   "product": "Critical Illness Policy Prospectus KEN",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "title": "Critical Illness Policy Prospectus KEN",
+   "file": "Critical_Illness_Policy_Prospectus_KEN_a8ac354fb6.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Critical_Illness_Policy_Prospectus_KEN_a8ac354fb6.pdf",
+   "sha256": "ae917eafa7bbf69a1a1fd4113a9a3eb57f04db595c8a1bce0d3c6b073f4ae7aa",
+   "bytes": 173896
+  },
+  {
+   "product": "Divyang Suraksha Prospectus",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "title": "Divyang Suraksha Prospectus",
+   "file": "Divyang_Suraksha_Prospectus_044ea8bcb6.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Divyang_Suraksha_Prospectus_044ea8bcb6.pdf",
+   "sha256": "56cec2e75d97e40815075c60841fd33d9c3d2dca5d0e996ac5e09c453a9af6af",
+   "bytes": 808630
+  },
+  {
+   "product": "Divyanga Suraksha CIS",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "Divyanga Suraksha CIS",
+   "file": "Divyanga_Suraksha_CIS_f6198eaee4.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Divyanga_Suraksha_CIS_f6198eaee4.pdf",
+   "sha256": "41ddf84a345f977d71bb5363c9dc8d59c4e2b54491113a26db1c28fb5a1a1b07",
+   "bytes": 209506
+  },
+  {
+   "product": "Divyanga Suraksha Policy Wording",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "Divyanga Suraksha Policy Wording",
+   "file": "Divyanga_Suraksha_Policy_Wording_3eb214670f.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Divyanga_Suraksha_Policy_Wording_3eb214670f.pdf",
+   "sha256": "94a6829d24814bc2406b416220064755f5a1e6703a793c6e1b7b2eaac049e5a6",
+   "bytes": 1110591
+  },
+  {
+   "product": "Group Health Insurance Policy CIS",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "Group Health Insurance Policy CIS",
+   "file": "Group_Health_Insurance_Policy_CIS_190a8b8dec.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Group_Health_Insurance_Policy_CIS_190a8b8dec.pdf",
+   "sha256": "292068c2dd37ff59541efec67c4ee1a75defb6140f24af4093e333578ac877de",
+   "bytes": 629866
+  },
+  {
+   "product": "Group Health Insurance Policy Prospectus Recovered",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "title": "Group Health Insurance Policy Prospectus Recovered",
+   "file": "Group_Health_Insurance_Policy_Prospectus_Recovered_94b3ff4891.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Group_Health_Insurance_Policy_Prospectus_Recovered_94b3ff4891.pdf",
+   "sha256": "eada3fd657ba3abf5b61ddc3e4c5e2cf56a4027a6c2226b6adaf6c957863b627",
+   "bytes": 759882
+  },
+  {
+   "product": "GROUP HEALTH INSURANCE Policy Wording KEN",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "GROUP HEALTH INSURANCE Policy Wording KEN",
+   "file": "GROUP_HEALTH_INSURANCE_Policy_Wording_KEN_505f0ad0e0.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/GROUP_HEALTH_INSURANCE_Policy_Wording_KEN_505f0ad0e0.pdf",
+   "sha256": "c7d148f511ed0b16c52c968c0ced1bbcf71f6dc25df52e89af3c005237a93b6e",
+   "bytes": 1091417
+  },
+  {
+   "product": "Group Personal Accident CIS KEN",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "Group Personal Accident CIS KEN",
+   "file": "Group_Personal_Accident_CIS_KEN_96ee75f23a.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Group_Personal_Accident_CIS_KEN_96ee75f23a.pdf",
+   "sha256": "1ee80291b5bdd3e138bc81362c2bc58ebf7dda3b7b21eded3afd3e0e87fd6ad5",
+   "bytes": 821180
+  },
+  {
+   "product": "Group Personal Accident Policy Wording New KEN",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "Group Personal Accident Policy Wording New KEN",
+   "file": "Group_Personal_Accident_Policy_Wording_New_KEN_cb5c003648.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Group_Personal_Accident_Policy_Wording_New_KEN_cb5c003648.pdf",
+   "sha256": "14c3dc98c19cab61dd6b138ea7240dc25f8676adc9a62b18aee5ca266fd06cff",
+   "bytes": 2121832
+  },
+  {
+   "product": "Group Personal Accident Prospectus KEN",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "title": "Group Personal Accident Prospectus KEN",
+   "file": "Group_Personal_Accident_Prospectus_KEN_a75496a6f6.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Group_Personal_Accident_Prospectus_KEN_a75496a6f6.pdf",
+   "sha256": "74975405b630c1d15771f35ad2e9094142d7ec472643f1932fb7bf27ee3dc15a",
+   "bytes": 971608
+  },
+  {
+   "product": "Health Edge CIS",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "Health Edge CIS",
+   "file": "Health_Edge_Insurance_CIS_3acd82e819.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Health_Edge_Insurance_CIS_3acd82e819.pdf",
+   "sha256": "28e4d3c8e5753bb3076e08b389b5dfb936d5fdd8d31bf49ba1887c93808cf637",
+   "bytes": 623038
+  },
+  {
+   "product": "Health Edge Insurance Policy wording",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "Health Edge Insurance Policy wording",
+   "file": "Health_Edge_Insurance_Policy_wording_75e1ad1343.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Health_Edge_Insurance_Policy_wording_75e1ad1343.pdf",
+   "sha256": "391622b1cedad4a0f4004e63c07f7910683493bd1efe725027779fcc76793f30",
+   "bytes": 1538875
+  },
+  {
+   "product": "Health Edge Insurance Prospectus",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "title": "Health Edge Insurance Prospectus",
+   "file": "Health_Edge_Insurance_Prospectus_40bf485b77.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Health_Edge_Insurance_Prospectus_40bf485b77.pdf",
+   "sha256": "3634ae1e6e5b9fc4b660883529b5eb913c8876f61f44a62b0f74baeb4ebd4d39",
+   "bytes": 444351
+  },
+  {
+   "product": "Hospi Cash Loan Insurance CIS KEN",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "Hospi Cash Loan Insurance CIS KEN",
+   "file": "Hospi_Cash_Loan_Insurance_CIS_KEN_22286ee713.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Hospi_Cash_Loan_Insurance_CIS_KEN_22286ee713.pdf",
+   "sha256": "d926068f081285d123c9e20370889e7c9360847f3809e493600fccfcf677d116",
+   "bytes": 747320
+  },
+  {
+   "product": "Hospi Cash Loan Insurance Policy Wording KEN",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "Hospi Cash Loan Insurance Policy Wording KEN",
+   "file": "Hospi_Cash_Loan_Insurance_Policy_Wording_KEN_f5819e21cc.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Hospi_Cash_Loan_Insurance_Policy_Wording_KEN_f5819e21cc.pdf",
+   "sha256": "663ed328ae836df81b3e0936b5473c326303706edb3c44b1b2f992b01994473c",
+   "bytes": 952219
+  },
+  {
+   "product": "Hospicash Flexi CIS KEN",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "Hospicash Flexi CIS KEN",
+   "file": "Hospicash_Flexi_CIS_KEN_8209f5c71d.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Hospicash_Flexi_CIS_KEN_8209f5c71d.pdf",
+   "sha256": "dba1b6e38a3c6f431a6a49982da91f82e56e97f55d73a483c4ba857f2cb74bcf",
+   "bytes": 1174485
+  },
+  {
+   "product": "Hospicash Flexi Insurance Policy Wording cdr15 rev KEN",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "Hospicash Flexi Insurance Policy Wording cdr15 rev KEN",
+   "file": "Hospicash_Flexi_Insurance_Policy_Wording_cdr15_rev_KEN_62ad313e82.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Hospicash_Flexi_Insurance_Policy_Wording_cdr15_rev_KEN_62ad313e82.pdf",
+   "sha256": "ca78c14030214bb7d36b0dc7d14a3575b1a9780a909d0464790cd873fae8b7ff",
+   "bytes": 877465
+  },
+  {
+   "product": "Hospital Daily Cash Group Micro Insurance CIS",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "Hospital Daily Cash Group Micro Insurance CIS",
+   "file": "Hospital_Daily_Cash_Group_Micro_Insurance_CIS_8530ebd30c.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Hospital_Daily_Cash_Group_Micro_Insurance_CIS_8530ebd30c.pdf",
+   "sha256": "8253c6fb1659742e7ad4f9947f0a11bc61313f34d05822aef525535cf3505c36",
+   "bytes": 613365
+  },
+  {
+   "product": "Hospital Daily Cash Group Micro Insurance Product Policy Wordings",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "Hospital Daily Cash Group Micro Insurance Product Policy Wordings",
+   "file": "Hospital_Daily_Cash_Group_Micro_Insurance_Product_Policy_Wordings_260be42f03.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Hospital_Daily_Cash_Group_Micro_Insurance_Product_Policy_Wordings_260be42f03.pdf",
+   "sha256": "644936c29c42746647e984526234538203c265fa83c19618c82df67d13013e74",
+   "bytes": 1037966
+  },
+  {
+   "product": "Hospital Daily Cash Group Micro Insurance Product Prospectus",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "title": "Hospital Daily Cash Group Micro Insurance Product Prospectus",
+   "file": "Hospital_Daily_Cash_Group_Micro_Insurance_Product_Prospectus_8bd4d35493.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Hospital_Daily_Cash_Group_Micro_Insurance_Product_Prospectus_8bd4d35493.pdf",
+   "sha256": "1b8ee3fa80a199cb623564e2980beea2e2127f710ebf982fa8396e93ea8c2888",
+   "bytes": 708137
+  },
+  {
+   "product": "Hospital Daily Cash Group Policy Wordings",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "Hospital Daily Cash Group Policy Wordings",
+   "file": "Hospital_Daily_Cash_Group_Policy_Wordings_2491817067.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Hospital_Daily_Cash_Group_Policy_Wordings_2491817067.pdf",
+   "sha256": "a983e4ece95435d0a05c8d923b5581c07abb614d77bee7d4711f6198377d9e4e",
+   "bytes": 1221554
+  },
+  {
+   "product": "Hospital Daily Cash Insurance Policy CIS",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "Hospital Daily Cash Insurance Policy CIS",
+   "file": "Hospital_Daily_Cash_Insurance_Policy_CIS_41749a234d.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Hospital_Daily_Cash_Insurance_Policy_CIS_41749a234d.pdf",
+   "sha256": "6c5a3f08f836c5082f612fd054181c49fbc0c0e945238a91785f3e11dc986a68",
+   "bytes": 1177425
+  },
+  {
+   "product": "Individual Personal Accident Policy CIS",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "Individual Personal Accident Policy CIS",
+   "file": "Individual_Personal_Accident_Policy_CIS_d187a38a1b.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Individual_Personal_Accident_Policy_CIS_d187a38a1b.pdf",
+   "sha256": "ac666cc504b7472479474bf5bb3483f5207c15895aa6f03c816321b928e9e5f3",
+   "bytes": 769341
+  },
+  {
+   "product": "Individual Personal Accident Prospectus",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "title": "Individual Personal Accident Prospectus",
+   "file": "Individual_Personal_Accident_Prospectus_daa63427e7.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Individual_Personal_Accident_Prospectus_daa63427e7.pdf",
+   "sha256": "5c88ab020a104e1df345d41c3cd565a86f2811d927fabbb5624234c1321bedf4",
+   "bytes": 699919
+  },
+  {
+   "product": "Jan Rakshak Personal Accident Micro Insurance CIS KEN",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "Jan Rakshak Personal Accident Micro Insurance CIS KEN",
+   "file": "Jan_Rakshak_Personal_Accident_Micro_Insurance_CIS_KEN_356e839c1b.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Jan_Rakshak_Personal_Accident_Micro_Insurance_CIS_KEN_356e839c1b.pdf",
+   "sha256": "e0c6883c2ee8dac1f77f3816c777d894bf927b991fa0b468799cd00570d0ce88",
+   "bytes": 226686
+  },
+  {
+   "product": "Jan Rakshak Personal Accident Mirco Insurance Product Prospectus KEN",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "title": "Jan Rakshak Personal Accident Mirco Insurance Product Prospectus KEN",
+   "file": "Jan_Rakshak_Personal_Accident_Mirco_Insurance_Product_Prospectus_KEN_629c4209be.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Jan_Rakshak_Personal_Accident_Mirco_Insurance_Product_Prospectus_KEN_629c4209be.pdf",
+   "sha256": "ffeeac652feb3c170412ec879296b7139fe10619b58410b0c9cf86a62d0d1eb7",
+   "bytes": 141372
+  },
+  {
+   "product": "Jan Rakshak Personal Accident Policy Wording KEN",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "Jan Rakshak Personal Accident Policy Wording KEN",
+   "file": "Jan_Rakshak_Personal_Accident_Policy_Wording_KEN_db91704c36.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Jan_Rakshak_Personal_Accident_Policy_Wording_KEN_db91704c36.pdf",
+   "sha256": "0ea20ba7572b4195e43a084c8492aff52033dd4292bef8dac3c249882316e924",
+   "bytes": 486508
+  },
+  {
+   "product": "MOTOR COMPULSORY PERSONAL ACCIDENT Owner Driver Insurance CIS",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "MOTOR COMPULSORY PERSONAL ACCIDENT Owner Driver Insurance CIS",
+   "file": "MOTOR_COMPULSORY_PERSONAL_ACCIDENT_Owner_Driver_Insurance_CIS_7cefc8f063.PDF",
+   "source_url": "https://content.sbigeneral.in/uploads/MOTOR_COMPULSORY_PERSONAL_ACCIDENT_Owner_Driver_Insurance_CIS_7cefc8f063.PDF",
+   "sha256": "4e549386f09bfc21ac7b0c9bd08a8458ee5e7cbfe49c687f07e1b9a221f08c14",
+   "bytes": 619162
+  },
+  {
+   "product": "Motor Compulsory Personal Accident Owner Driver Insurance Prospectus V1",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "title": "Motor Compulsory Personal Accident Owner Driver Insurance Prospectus V1",
+   "file": "Motor_Compulsory_Personal_Accident_Owner_Driver_Insurance_Prospectus_V1_94c7c5de57.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Motor_Compulsory_Personal_Accident_Owner_Driver_Insurance_Prospectus_V1_94c7c5de57.pdf",
+   "sha256": "cff538771e75a7a4bca4a2da54ba0ca960f037427bd906bb2ec503499ae3dad4",
+   "bytes": 121754
+  },
+  {
+   "product": "Pradhan Mantri Suraksha Bima Yojana CIS",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "Pradhan Mantri Suraksha Bima Yojana CIS",
+   "file": "Pradhan_Mantri_Suraksha_Bima_Yojana_CIS_ff48677638.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Pradhan_Mantri_Suraksha_Bima_Yojana_CIS_ff48677638.pdf",
+   "sha256": "d9b8695dad9cea8f14282448a06ad60597e640b62dd457e28d0c7bf3d26efa13",
+   "bytes": 212059
+  },
+  {
+   "product": "Pradhan Mantri Suraksha Bima Yojana Policy Wordings",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "Pradhan Mantri Suraksha Bima Yojana Policy Wordings",
+   "file": "Pradhan_Mantri_Suraksha_Bima_Yojana_Policy_Wordings_264e081042.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Pradhan_Mantri_Suraksha_Bima_Yojana_Policy_Wordings_264e081042.pdf",
+   "sha256": "327157308d24e5707e880dbdf1c756b28addaf6c791292b8e82f68949a773356",
+   "bytes": 176734
+  },
+  {
+   "product": "Sampoorna Arogya Group CIS KEN",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "Sampoorna Arogya Group CIS KEN",
+   "file": "Sampoorna_Arogya_Group_CIS_KEN_d79fae46e7.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Sampoorna_Arogya_Group_CIS_KEN_d79fae46e7.pdf",
+   "sha256": "9d17296880c4170ebffdb0596057fddee408061fbd1ad74214c9d7dd85159122",
+   "bytes": 245818
+  },
+  {
+   "product": "SAMPOORNA AROGYA GROUP Policy Wording new",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "SAMPOORNA AROGYA GROUP Policy Wording new",
+   "file": "SAMPOORNA_AROGYA_GROUP_Policy_Wording_new_0a5de49c03.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/SAMPOORNA_AROGYA_GROUP_Policy_Wording_new_0a5de49c03.pdf",
+   "sha256": "47ec2227da1aa312d86f0c5c2ec344f13e37c5a207bd5628c33d6d0139cd968b",
+   "bytes": 2288916
+  },
+  {
+   "product": "Sampoorna Arogya Group Prospectus KEN",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "title": "Sampoorna Arogya Group Prospectus KEN",
+   "file": "Sampoorna_Arogya_Group_Prospectus_KEN_b35b7b96a9.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Sampoorna_Arogya_Group_Prospectus_KEN_b35b7b96a9.pdf",
+   "sha256": "c5c525ccc51776c86aeee7e72bfcbdaed5ebb4ae2b5ecabaac2ec97d42f1d876",
+   "bytes": 1797860
+  },
+  {
+   "product": "Saral Bharat Laghu Udyam Suraksha CIS",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "Saral Bharat Laghu Udyam Suraksha CIS",
+   "file": "Saral_Bharat_Laghu_Udyam_Suraksha_CIS_ff42b917d3.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Saral_Bharat_Laghu_Udyam_Suraksha_CIS_ff42b917d3.pdf",
+   "sha256": "43d2e8110e792f4c9392abb81009ad3fbd46451ed7094ef32b8a24cb476f040f",
+   "bytes": 877339
+  },
+  {
+   "product": "Saral Bharat Laghu Udyam Suraksha Prospectus",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "title": "Saral Bharat Laghu Udyam Suraksha Prospectus",
+   "file": "Saral_Bharat_Laghu_Udyam_Suraksha_Prospectus_7f6aeb9e95.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Saral_Bharat_Laghu_Udyam_Suraksha_Prospectus_7f6aeb9e95.pdf",
+   "sha256": "65ecafd6f3775941baf83b5b482e2be273af8aa6aedf93313255372659d3bb5c",
+   "bytes": 233762
+  },
+  {
+   "product": "SARAL BHARAT LAGHU UDYAM SURAKSHA Wording",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "SARAL BHARAT LAGHU UDYAM SURAKSHA Wording",
+   "file": "SARAL_BHARAT_LAGHU_UDYAM_SURAKSHA_Wording_29b3f46acb.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/SARAL_BHARAT_LAGHU_UDYAM_SURAKSHA_Wording_29b3f46acb.pdf",
+   "sha256": "5234a432c6794c051b851d094f8dc9a438d32a022ad12d3fe0f9eebd3a08fd07",
+   "bytes": 357623
+  },
+  {
+   "product": "Saral Bharat Sookshma Udyam Suraksha CIS",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "Saral Bharat Sookshma Udyam Suraksha CIS",
+   "file": "Saral_Bharat_Sookshma_Udyam_Suraksha_CIS_2e1dc3f970.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Saral_Bharat_Sookshma_Udyam_Suraksha_CIS_2e1dc3f970.pdf",
+   "sha256": "9f1e453edf5baa5c675f55f851ff056e7ce80b3b18af9ac63240eee4741bc5bf",
+   "bytes": 839996
+  },
+  {
+   "product": "Saral Bharat Sookshma Udyam Suraksha Policy Wording",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "Saral Bharat Sookshma Udyam Suraksha Policy Wording",
+   "file": "Saral_Bharat_Sookshma_Udyam_Suraksha_Policy_Wording_ed62d43919.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Saral_Bharat_Sookshma_Udyam_Suraksha_Policy_Wording_ed62d43919.pdf",
+   "sha256": "456dc4e0968daab90468372b538d721223c7f923cbe4d116061fc5a382b1ddbd",
+   "bytes": 2733937
+  },
+  {
+   "product": "Saral Bharat Sookshma Udyam Suraksha Prospectus",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "title": "Saral Bharat Sookshma Udyam Suraksha Prospectus",
+   "file": "Saral_Bharat_Sookshma_Udyam_Suraksha_Prospectus_ff4a5658f8.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Saral_Bharat_Sookshma_Udyam_Suraksha_Prospectus_ff4a5658f8.pdf",
+   "sha256": "cacd6f81ecce5cbe3089550615fdda3a981a042142f833a2efbda2d153a3fcf8",
+   "bytes": 1121188
+  },
+  {
+   "product": "SARAL SURAKSHA BIMA CIS",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "SARAL SURAKSHA BIMA CIS",
+   "file": "SARAL_SURAKSHA_BIMA_CIS_7533f9d101.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/SARAL_SURAKSHA_BIMA_CIS_7533f9d101.pdf",
+   "sha256": "022e1045ac1cff56f9426dda814b296d1c70137f502c6fa0e392f8b98696bc15",
+   "bytes": 582118
+  },
+  {
+   "product": "SARAL SURAKSHA BIMA Policy Wording",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "SARAL SURAKSHA BIMA Policy Wording",
+   "file": "SARAL_SURAKSHA_BIMA_Policy_Wording_d06ae350e3.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/SARAL_SURAKSHA_BIMA_Policy_Wording_d06ae350e3.pdf",
+   "sha256": "a8d7d0415dddf4125e1ac7a081a6966d6ea9fe43c8a677da0139cb73973a7de7",
+   "bytes": 406681
+  },
+  {
+   "product": "SARAL SURAKSHA BIMA SBI General Insurance Company Limited PROSPECTUS",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "title": "SARAL SURAKSHA BIMA SBI General Insurance Company Limited PROSPECTUS",
+   "file": "SARAL_SURAKSHA_BIMA_SBI_General_Insurance_Company_Limited_PROSPECTUS_0d6265d19c.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/SARAL_SURAKSHA_BIMA_SBI_General_Insurance_Company_Limited_PROSPECTUS_0d6265d19c.pdf",
+   "sha256": "3a35bfcc32ee8d5c042930e863d9ad34890e458adda7d6eed134d02a2106cb7c",
+   "bytes": 303658
+  },
+  {
+   "product": "SBI General Arogya Gold Group CIS",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "SBI General Arogya Gold Group CIS",
+   "file": "SBI_General_Arogya_Gold_Group_CIS_968de5881c.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/SBI_General_Arogya_Gold_Group_CIS_968de5881c.pdf",
+   "sha256": "b94a3613b7c1a1576cd03d6fba47d6062eb8bd9a1160235595f373fb087765e4",
+   "bytes": 133952
+  },
+  {
+   "product": "SBI General Bharat Laghu Udyam Suraksha Prospectus",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "title": "SBI General Bharat Laghu Udyam Suraksha Prospectus",
+   "file": "SBI_General_Bharat_Laghu_Udyam_Suraksha_Prospectus_a3440319dd.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/SBI_General_Bharat_Laghu_Udyam_Suraksha_Prospectus_a3440319dd.pdf",
+   "sha256": "36f1dc87bfda073a0feda72b11d4552c82c50b08906a78f52188588d40693e6f",
+   "bytes": 196562
+  },
+  {
+   "product": "SBI GENERAL BHARAT LAGHU UDYAM SURAKSHA Wording",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "SBI GENERAL BHARAT LAGHU UDYAM SURAKSHA Wording",
+   "file": "SBI_GENERAL_BHARAT_LAGHU_UDYAM_SURAKSHA_Wording_c2460a9810.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/SBI_GENERAL_BHARAT_LAGHU_UDYAM_SURAKSHA_Wording_c2460a9810.pdf",
+   "sha256": "87ffc4a15e24ffa153999192007e3e25805ab194defdd62b123ffd8cc4e9eca3",
+   "bytes": 239251
+  },
+  {
+   "product": "SBI General Bharat Sookshma Udyam Suraksha Prospectus",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "title": "SBI General Bharat Sookshma Udyam Suraksha Prospectus",
+   "file": "SBI_General_Bharat_Sookshma_Udyam_Suraksha_Prospectus_36a7fa68b0.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/SBI_General_Bharat_Sookshma_Udyam_Suraksha_Prospectus_36a7fa68b0.pdf",
+   "sha256": "44004d0f1ddb44cbcefc5294c59049878b4d47eb8bf579ae49f36f8424593628",
+   "bytes": 195031
+  },
+  {
+   "product": "SBI GENERAL BHARAT SOOKSHMA UDYAM SURAKSHA Wording",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "SBI GENERAL BHARAT SOOKSHMA UDYAM SURAKSHA Wording",
+   "file": "SBI_GENERAL_BHARAT_SOOKSHMA_UDYAM_SURAKSHA_Wording_b5da3e206c.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/SBI_GENERAL_BHARAT_SOOKSHMA_UDYAM_SURAKSHA_Wording_b5da3e206c.pdf",
+   "sha256": "d3dd97cc6691b89de6ed35784cac1dec4bcf85880fa9bc9c4d6f6b1d6415c281",
+   "bytes": 235370
+  },
+  {
+   "product": "SBI General Health Alpha CIS N 01",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "SBI General Health Alpha CIS N 01",
+   "file": "SBI_General_Health_Alpha_CIS_N_01_b995cf8673.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/SBI_General_Health_Alpha_CIS_N_01_b995cf8673.pdf",
+   "sha256": "0b3f3888d5bc8522ae35d9007b1935d8534bd147249c9b0e214dc486439c4bd4",
+   "bytes": 767186
+  },
+  {
+   "product": "SBI General Health Alpha Policy Wording New 002",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "SBI General Health Alpha Policy Wording New 002",
+   "file": "SBI_General_Health_Alpha_Policy_Wording_New_002_a04e639c0d.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/SBI_General_Health_Alpha_Policy_Wording_New_002_a04e639c0d.pdf",
+   "sha256": "5b8f496626bee04361b6669ad5e5a5b51bffbc223126197457106e0dccdb2c63",
+   "bytes": 705847
+  },
+  {
+   "product": "SBI General Health Alpha Prospectus 20260301 002",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "title": "SBI General Health Alpha Prospectus 20260301 002",
+   "file": "SBI_General_Health_Alpha_Prospectus_20260301_002_70422d8179.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/SBI_General_Health_Alpha_Prospectus_20260301_002_70422d8179.pdf",
+   "sha256": "58092b6b0321bad216d6faca5e3d4f5aa03a64cbee3b2ed7da43b9186d4a00e5",
+   "bytes": 521860
+  },
+  {
+   "product": "SBI General Prakritik Suraksha Bima Policy Wording",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "SBI General Prakritik Suraksha Bima Policy Wording",
+   "file": "SBI_General_Prakritik_Suraksha_Bima_Policy_Wording_5967a0e726.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/SBI_General_Prakritik_Suraksha_Bima_Policy_Wording_5967a0e726.pdf",
+   "sha256": "b66e8a86668ae99edf71eed0942a0cbc472a2095b738ee84c4acf661cdffe2a2",
+   "bytes": 172934
+  },
+  {
+   "product": "SBI General Prakritik Suraksha Bima Prospectus",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "title": "SBI General Prakritik Suraksha Bima Prospectus",
+   "file": "SBI_General_Prakritik_Suraksha_Bima_Prospectus_9461f89d75.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/SBI_General_Prakritik_Suraksha_Bima_Prospectus_9461f89d75.pdf",
+   "sha256": "2624cc9636232adafe65d93290d1c03cbf504f33814c5bf1f26dcf7a0a2c13ce",
+   "bytes": 105339
+  },
+  {
+   "product": "SBI General Terrorism Suraksha Bima Policy Wording",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "SBI General Terrorism Suraksha Bima Policy Wording",
+   "file": "SBI_General_Terrorism_Suraksha_Bima_Policy_Wording_26dc6b8ecb.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/SBI_General_Terrorism_Suraksha_Bima_Policy_Wording_26dc6b8ecb.pdf",
+   "sha256": "ca95862a3e3f98ebddddc45a32f7368a3ff8bc2f34757944858960d2b0a3478e",
+   "bytes": 4844103
+  },
+  {
+   "product": "SBIG AROGYA SANJEEVANI GROUP Micro Insurance POLICY WORDING KEN",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "SBIG AROGYA SANJEEVANI GROUP Micro Insurance POLICY WORDING KEN",
+   "file": "SBIG_AROGYA_SANJEEVANI_GROUP_Micro_Insurance_POLICY_WORDING_KEN_a4a9f37e0b.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/SBIG_AROGYA_SANJEEVANI_GROUP_Micro_Insurance_POLICY_WORDING_KEN_a4a9f37e0b.pdf",
+   "sha256": "ee8ac2d0c63abfb65c8ae287c67d88f546181c8f7406c578968d33675f3bba7c",
+   "bytes": 290454
+  },
+  {
+   "product": "SBIG AROGYA SANJEEVANI GROUP POLICY WORDING",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "SBIG AROGYA SANJEEVANI GROUP POLICY WORDING",
+   "file": "SBIG_AROGYA_SANJEEVANI_GROUP_POLICY_WORDING_ac53d48fbd.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/SBIG_AROGYA_SANJEEVANI_GROUP_POLICY_WORDING_ac53d48fbd.pdf",
+   "sha256": "b5352fbca3138023c0ccefbfaaf404476c01474718bf379e67c30c986c3dc13f",
+   "bytes": 2094377
+  },
+  {
+   "product": "SBIG AROGYA TOP UP POLICY WORDING N",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "SBIG AROGYA TOP UP POLICY WORDING N",
+   "file": "SBIG_AROGYA_TOP_UP_POLICY_WORDING_N_2b7e9840fc.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/SBIG_AROGYA_TOP_UP_POLICY_WORDING_N_2b7e9840fc.pdf",
+   "sha256": "8985211ee8716162d9203832bee5d986cd6f99dc24566876dfaf3b917cf6440e",
+   "bytes": 2214929
+  },
+  {
+   "product": "SBIG Health Super Top Up CIS 20260302",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "SBIG Health Super Top Up CIS 20260302",
+   "file": "SBIG_Health_Super_Top_Up_CIS_20260302_24f8ea3cff.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/SBIG_Health_Super_Top_Up_CIS_20260302_24f8ea3cff.pdf",
+   "sha256": "e0aae19694177f40dedaf76249941710d9df005b9712d4341a1a64d54e898519",
+   "bytes": 642808
+  },
+  {
+   "product": "SBIG Health Super Top up Policy Wordings 20240502",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "SBIG Health Super Top up Policy Wordings 20240502",
+   "file": "SBIG_Health_Super_Top_up_Policy_Wordings_20240502_ed4c52d8d7.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/SBIG_Health_Super_Top_up_Policy_Wordings_20240502_ed4c52d8d7.pdf",
+   "sha256": "9639edfa25186aa48808e15dd26a456efc7b91e617cb05c9dfe4b96d4b7c3598",
+   "bytes": 465025
+  },
+  {
+   "product": "SBIG Super Top Up Brochure",
+   "uin": null,
+   "doc_type": "Brochure",
+   "title": "SBIG Super Top Up Brochure",
+   "file": "SBIG_Super_Top_Up_Brochure_21b29ec3a4.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/SBIG_Super_Top_Up_Brochure_21b29ec3a4.pdf",
+   "sha256": "a4752179ff0469bb3eca1b593ad6567ced8339ad1492f9c938a4617567abc6f8",
+   "bytes": 721971
+  },
+  {
+   "product": "Super Health Insurance CIS",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "Super Health Insurance CIS",
+   "file": "Super_Health_Insurance_CIS_25b887f5ae.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Super_Health_Insurance_CIS_25b887f5ae.pdf",
+   "sha256": "8cc62058b8d3476b0fd343f61279452072975006ea685e6dc76d59ab7ac76fb8",
+   "bytes": 585580
+  },
+  {
+   "product": "Super Health Insurance Policy Wording New 1512",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "Super Health Insurance Policy Wording New 1512",
+   "file": "Super_Health_Insurance_Policy_Wording_New_1512_1a70d6d07a.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Super_Health_Insurance_Policy_Wording_New_1512_1a70d6d07a.pdf",
+   "sha256": "78dea28e930c87dd594f6665ff5491bb68669741a32103fbc75ab5e741826ccb",
+   "bytes": 830062
+  },
+  {
+   "product": "Super Health Insurance Prospectus",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "title": "Super Health Insurance Prospectus",
+   "file": "Super_Health_Insurance_Prospectus_d913e89b45.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Super_Health_Insurance_Prospectus_d913e89b45.pdf",
+   "sha256": "109df1c63db9e12b9bdb427093a2b5d8051ffd2898694a76293432d287cbeab6",
+   "bytes": 515314
+  },
+  {
+   "product": "Super Top Up Prospectus",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "title": "Super Top Up Prospectus",
+   "file": "Super_Top_Up_Prospectus_911a5d58ee.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Super_Top_Up_Prospectus_911a5d58ee.pdf",
+   "sha256": "f4bb2e4b540fe2b029732c119ff1c20b4b345efb523321fdd39e0ae4a09ef2dc",
+   "bytes": 545369
+  },
+  {
+   "product": "Suraksha Pro D and O Insurance Prospectus",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "title": "Suraksha Pro D and O Insurance Prospectus",
+   "file": "Suraksha_Pro_D_and_O_Insurance_Prospectus_7a63a6dfea.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Suraksha_Pro_D_and_O_Insurance_Prospectus_7a63a6dfea.pdf",
+   "sha256": "f5ceddb8a697ce4bdbc22ad1c0445d5b2bc43702cc77e43944e4fb264917e76d",
+   "bytes": 545980
+  },
+  {
+   "product": "SURAKSHA PRO D and O INSURANCE Wording",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "SURAKSHA PRO D and O INSURANCE Wording",
+   "file": "SURAKSHA_PRO_D_and_O_INSURANCE_Wording_28189b0a1c.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/SURAKSHA_PRO_D_and_O_INSURANCE_Wording_28189b0a1c.pdf",
+   "sha256": "1136e3cd5046cee49c574928a5c8c2c7f8a7cfc86ad88ee7355ecd33b9cee4cd",
+   "bytes": 727327
+  },
+  {
+   "product": "Surrogacy and Oocyte Donor Suraksha CIS KEN",
+   "uin": null,
+   "doc_type": "Customer Information Sheet",
+   "title": "Surrogacy and Oocyte Donor Suraksha CIS KEN",
+   "file": "Surrogacy_and_Oocyte_Donor_Suraksha_CIS_KEN_1ceabbfb85.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Surrogacy_and_Oocyte_Donor_Suraksha_CIS_KEN_1ceabbfb85.pdf",
+   "sha256": "9eeabcae6f389f6a7a7a11188514c5b392c2cc734a59a86bf02da9e1933be2df",
+   "bytes": 233814
+  },
+  {
+   "product": "Surrogacy and Oocyte Donor Suraksha policy wording KEN",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "Surrogacy and Oocyte Donor Suraksha policy wording KEN",
+   "file": "Surrogacy_and_Oocyte_Donor_Suraksha_policy_wording_KEN_d38f57cadc.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Surrogacy_and_Oocyte_Donor_Suraksha_policy_wording_KEN_d38f57cadc.pdf",
+   "sha256": "9d23919fae60d50a8834baab0cfb4661323d5d174faac599a966c543b732b403",
+   "bytes": 814973
+  },
+  {
+   "product": "Surrogacy and Oocyte Donor Suraksha Prospectus KEN",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "title": "Surrogacy and Oocyte Donor Suraksha Prospectus KEN",
+   "file": "Surrogacy_and_Oocyte_Donor_Suraksha_Prospectus_KEN_f23e0eb021.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Surrogacy_and_Oocyte_Donor_Suraksha_Prospectus_KEN_f23e0eb021.pdf",
+   "sha256": "7e29b04cd259fe9ba50eea68d3b63e927ad337a1ca27f80fa20f1be57d0ed173",
+   "bytes": 672077
+  },
+  {
+   "product": "Tech Suraksha Prospectus",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "title": "Tech Suraksha Prospectus",
+   "file": "Tech_Suraksha_Prospectus_4455cfc6ee.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/Tech_Suraksha_Prospectus_4455cfc6ee.pdf",
+   "sha256": "b7ad295680880283453955767e9c34ec89ff9a3e9332c0501dafb6f7afae4399",
+   "bytes": 64704
+  },
+  {
+   "product": "TECH SURAKSHA Wording",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "TECH SURAKSHA Wording",
+   "file": "TECH_SURAKSHA_Wording_9dd9fe981a.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/TECH_SURAKSHA_Wording_9dd9fe981a.pdf",
+   "sha256": "213ec20e15d114c795ce6dd6dfa6b99dd8d4b3275e380d69f2bac6851221f05f",
+   "bytes": 347715
+  },
+  {
+   "product": "TERRORISM SURAKSHA BIMA Prospectus",
+   "uin": null,
+   "doc_type": "Prospectus",
+   "title": "TERRORISM SURAKSHA BIMA Prospectus",
+   "file": "TERRORISM_SURAKSHA_BIMA_Prospectus_c691165d89.pdf",
+   "source_url": "https://content.sbigeneral.in/uploads/TERRORISM_SURAKSHA_BIMA_Prospectus_c691165d89.pdf",
+   "sha256": "99749a0ae043fb5c8fd1207e547aeec230cb5d456aec8cd3ce5d706a8f1a4323",
+   "bytes": 171113
+  }
+ ]
+}

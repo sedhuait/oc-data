@@ -1,0 +1,65 @@
+{
+ "source": [
+  "https://www.indusindinsurance.com/health-insurance"
+ ],
+ "insurer": "reliance-general",
+ "retrieved": "2026-09-07",
+ "how_found": "reliancegeneral.co.in 301s to indusindinsurance.com (rebrand to IndusInd General Insurance). Wordings are linked from product-page body copy.",
+ "note": "Every file was downloaded from the insurer's own site, reached by following its own navigation. No URL was guessed. Each file was verified to begin with %PDF before being kept, so a 404 page served under a 200 status cannot masquerade as a document.",
+ "document_count": 5,
+ "documents": [
+  {
+   "product": "Arogya Sanjeevani Policy Reliance General Policy Wording",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "Arogya Sanjeevani Policy Reliance General Policy Wording",
+   "file": "Arogya_Sanjeevani_Policy_Reliance_General-Policy_Wording.pdf",
+   "source_url": "https://www.indusindinsurance.com/Downloads/Arogya_Sanjeevani_Policy_Reliance_General-Policy_Wording.pdf",
+   "sha256": "19112755f15e0268c29cc48d3ec7c6b1bab0fb71a77b7ff90a6a3f257b60a212",
+   "bytes": 4317410
+  },
+  {
+   "product": "Critical Illness Policy wording",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "Critical Illness Policy wording",
+   "file": "Critical_Illness_Policy_wording.pdf",
+   "source_url": "https://www.indusindinsurance.com/Downloads/Critical_Illness_Policy_wording.pdf",
+   "sha256": "8701d53d7ada3314c87e4f82a294c0cd20c4232aa097c3151823a41ea038a1d2",
+   "bytes": 479421
+  },
+  {
+   "product": "indusind hospi care insurance policy wording",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "indusind hospi care insurance policy wording",
+   "file": "indusind-hospi-care-insurance-policy-wording.pdf",
+   "source_url": "https://www.indusindinsurance.com/Downloads/indusind-hospi-care-insurance-policy-wording.pdf",
+   "sha256": "8bff7e080cd716e3f11807c8eda47b6169986138720baa80ecb574683560221e",
+   "bytes": 7418459,
+   "also_at": [
+    "https://www.indusindinsurance.com/downloads/indusind-hospi-care-insurance-policy-wording.pdf"
+   ]
+  },
+  {
+   "product": "revised indusind health gain policy wordings",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "revised indusind health gain policy wordings",
+   "file": "revised-indusind-health-gain-policy-wordings.pdf",
+   "source_url": "https://www.indusindinsurance.com/Downloads/revised-indusind-health-gain-policy-wordings.pdf",
+   "sha256": "bccee4530c797dd6283e85926fbeba46d6b89ca8f7cd4a60104ff62e0aea7f4f",
+   "bytes": 946788
+  },
+  {
+   "product": "Saral Suraksha Bima Reliance General Policy Wordings",
+   "uin": null,
+   "doc_type": "Policy Clause",
+   "title": "Saral Suraksha Bima Reliance General Policy Wordings",
+   "file": "Saral_Suraksha_Bima_Reliance_General-Policy_Wordings.pdf",
+   "source_url": "https://www.indusindinsurance.com/Downloads/Saral_Suraksha_Bima_Reliance_General-Policy_Wordings.pdf",
+   "sha256": "3dcc1fc52331cf7f68723a0c5c6b83c2e790c1110dab1218829e6554edc1c45a",
+   "bytes": 1046705
+  }
+ ]
+}

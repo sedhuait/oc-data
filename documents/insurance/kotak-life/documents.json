@@ -1,0 +1,138 @@
+{
+ "source": [
+  "https://www.kotaklife.com/term-insurance"
+ ],
+ "insurer": "kotak-life",
+ "retrieved": "2026-09-07",
+ "how_found": "Specimen (wording) pages leak an unresolved {filedir_17} CMS token, so no wording URL can be formed without guessing. Brochures only.",
+ "note": "Every file was downloaded from the insurer's own site, reached by following its own navigation. No URL was guessed. Each file was verified to begin with %PDF before being kept, so a 404 page served under a 200 status cannot masquerade as a document.",
+ "document_count": 12,
+ "documents": [
+  {
+   "product": "Download",
+   "uin": null,
+   "doc_type": "Brochure",
+   "title": "Download",
+   "file": "Kotak_Accidental_Death_Benefit_Rider_(_Non-Linked_)_UIN_107B001V04_Brochure.pdf",
+   "source_url": "https://www.kotaklife.com/assets/images/uploads/insurance-plans/Kotak_Accidental_Death_Benefit_Rider_(_Non-Linked_)_UIN_107B001V04_Brochure.pdf",
+   "sha256": "f1abb69be56f6e5095eabf77c39ea6da3a3b9c295aee22b3dcf61a30393a7cf4",
+   "bytes": 1602487
+  },
+  {
+   "product": "Download",
+   "uin": null,
+   "doc_type": "Brochure",
+   "title": "Download",
+   "file": "Kotak_Permanent_Disability_Benefit_Rider_Brochure_Feb_20225.pdf",
+   "source_url": "https://www.kotaklife.com/assets/images/uploads/insurance-plans/Kotak_Permanent_Disability_Benefit_Rider_Brochure_Feb_20225.pdf",
+   "sha256": "4ec44a89a154fe4f5b02f129b22692113118ae746951a35a7d18a1a8efded482",
+   "bytes": 3036837
+  },
+  {
+   "product": "Download",
+   "uin": null,
+   "doc_type": "Brochure",
+   "title": "Download",
+   "file": "kotak-critical-illness-plus-benefit-rider-brochure-31.pdf",
+   "source_url": "https://www.kotaklife.com/assets/images/uploads/insurance-plans/kotak-critical-illness-plus-benefit-rider-brochure-31.pdf",
+   "sha256": "23992075b42b620c5c7edd6c83a467dd62702fb4190270d4ca805f02a4d5a4bd",
+   "bytes": 156968
+  },
+  {
+   "product": "Health Maximiser Brochure Final",
+   "uin": null,
+   "doc_type": "Brochure",
+   "title": "Health Maximiser Brochure Final",
+   "file": "Health-Maximiser-Brochure-Final.pdf",
+   "source_url": "https://www.kotaklife.com/assets/images/uploads/insurance-plans/Health-Maximiser-Brochure-Final.pdf",
+   "sha256": "a857ade4e3b2f4dc3cde4ba03a3fb818589da3ef95f19d7e07bda7cf0104e1fa",
+   "bytes": 2616731,
+   "also_at": [
+    "https://www.kotaklife.com/assets/images/uploads/insurance-plans/Health-Maximiser-Brochure-Final3.pdf"
+   ]
+  },
+  {
+   "product": "Kotak e Term Plan Brochure",
+   "uin": null,
+   "doc_type": "Brochure",
+   "title": "Kotak e Term Plan Brochure",
+   "file": "Kotak-e-Term-Plan-Brochure.pdf",
+   "source_url": "https://www.kotaklife.com/assets/images/uploads/insurance-plans/Kotak-e-Term-Plan-Brochure.pdf",
+   "sha256": "5843ddd2468ef246496c2af269bfed5d703f605d43703020411330a09614a738",
+   "bytes": 1049517,
+   "also_at": [
+    "https://www.kotaklife.com/term-insurance/assets/images/uploads/insurance-plans/Kotak-e-Term-Plan-Brochure.pdf"
+   ]
+  },
+  {
+   "product": "kotak protect advantage brochure",
+   "uin": null,
+   "doc_type": "Brochure",
+   "title": "kotak protect advantage brochure",
+   "file": "kotak-protect-advantage-brochure.pdf",
+   "source_url": "https://www.kotaklife.com/assets/images/uploads/insurance-plans/kotak-protect-advantage-brochure.pdf",
+   "sha256": "d6c6ef545e3fa9210021d252fb3f27713e0f9df8f3ad602d0f491ed0f6b3084b",
+   "bytes": 1948393
+  },
+  {
+   "product": "kotak signature legacy brochure",
+   "uin": null,
+   "doc_type": "Brochure",
+   "title": "kotak signature legacy brochure",
+   "file": "kotak-signature-legacy-brochure.pdf",
+   "source_url": "https://www.kotaklife.com/assets/images/uploads/insurance-plans/kotak-signature-legacy-brochure.pdf",
+   "sha256": "296ee058f32fbf05a8c1cc501715c3338e3fc69eb6cdf7ede5347211ef238dfd",
+   "bytes": 1275018
+  },
+  {
+   "product": "Kotak Signature Term Plan Brochure",
+   "uin": null,
+   "doc_type": "Brochure",
+   "title": "Kotak Signature Term Plan Brochure",
+   "file": "Kotak_Signature_Term_Plan_Brochure.pdf",
+   "source_url": "https://www.kotaklife.com/assets/images/uploads/insurance-plans/Kotak_Signature_Term_Plan_Brochure.pdf",
+   "sha256": "aa162220e71bb61fe90cc952b233af8d1544a3218d292735b7bb9254da49eb16",
+   "bytes": 2056087
+  },
+  {
+   "product": "kotak term plan brochure",
+   "uin": null,
+   "doc_type": "Brochure",
+   "title": "kotak term plan brochure",
+   "file": "kotak-term-plan-brochure.pdf",
+   "source_url": "https://www.kotaklife.com/assets/images/uploads/insurance-plans/kotak-term-plan-brochure.pdf",
+   "sha256": "cd662b2fbed04d61a201a1f09769d4e6f32b1086da8fe5e8b049fa5dc303fac3",
+   "bytes": 2340017
+  },
+  {
+   "product": "Kotak Term Plan UIN 107N005V07 Policy Document",
+   "uin": "107N005V07",
+   "doc_type": "Policy Clause",
+   "title": "Kotak Term Plan UIN 107N005V07 Policy Document",
+   "file": "Kotak_Term_Plan_UIN_107N005V07_Policy_Document.pdf",
+   "source_url": "https://www.kotaklife.com/assets/images/uploads/insurance-plans/Kotak_Term_Plan_UIN_107N005V07_Policy_Document.pdf",
+   "sha256": "10a594e5284da5f7a85017f0f50aedc5b56af4e356383fb2a56d6a667f8eb2e2",
+   "bytes": 549552
+  },
+  {
+   "product": "kotak value protect brochure",
+   "uin": null,
+   "doc_type": "Brochure",
+   "title": "kotak value protect brochure",
+   "file": "kotak-value-protect-brochure.pdf",
+   "source_url": "https://www.kotaklife.com/assets/images/uploads/insurance-plans/kotak-value-protect-brochure.pdf",
+   "sha256": "2de533bdc99acee7812b955490db82da0e5576e2ba1d7f7ab0d95e1a94b74841",
+   "bytes": 2250228
+  },
+  {
+   "product": "kotak vital care brochure",
+   "uin": null,
+   "doc_type": "Brochure",
+   "title": "kotak vital care brochure",
+   "file": "kotak-vital-care-brochure.pdf",
+   "source_url": "https://www.kotaklife.com/assets/images/uploads/insurance-plans/kotak-vital-care-brochure.pdf",
+   "sha256": "037ce705c909efdb231721d96fef8cec5d6a4447eaafa5460aea92e98d4f966f",
+   "bytes": 933757
+  }
+ ]
+}
