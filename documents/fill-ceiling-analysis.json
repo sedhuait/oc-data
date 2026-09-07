@@ -993,5 +993,29 @@
       "Fragrance Family (e.g. Fresh)"
     ],
     "verdict": "every large beauty gap is either already parsed or absent at source. The only unexploited data needs new schema fields, which the standing instruction excludes."
+  },
+  "off_to_blinkit_join_fails_a_conflict_test": {
+    "date": "2026-09-07",
+    "idea": "12,326 Open Food Facts grocery records sit at 13.0% fill (4.1 facts each) against Blinkit's 48.0% (16.6 facts). If an OFF record is the same product as a Blinkit one, it could be enriched from a source already crawled — no new fetching at all.",
+    "overlap_measured": {
+      "off_records": 12326,
+      "off_brands_also_on_blinkit": "1,109 of 3,860",
+      "same_brand_plus_name_containment": 2495,
+      "exact_name_and_size_match": 174
+    },
+    "why_the_loose_join_was_rejected": "name containment matches different SKUs: OFF 'Moong Dal' 4lb -> Blinkit 'Moong Dal (Chilka) Split' 500g; OFF 'Coconut Water' -> 'Aloe Vera Coconut Water'; OFF 'Whole Wheat Atta' 5kg -> 'Premium Whole Wheat Atta' 1kg. Nutrition per 100g might transfer but FSSAI licence, manufacturer and net quantity would be wrong.",
+    "the_strict_join_also_fails": {
+      "pairs": 174,
+      "would_have_filled": "2,739 empty slots, +0.088 points (43.436% -> 43.524%)",
+      "conflict_test": "where BOTH sources state a numeric value: 325 overlaps, 54 disagree by more than 10% — a 16.6% conflict rate",
+      "examples": [
+        "Omani Seedless Dates proteins_100g: OFF 4.4 vs Blinkit 2.8",
+        "Rose Lassi disagrees on calcium, cholesterol AND added sugar simultaneously",
+        "paneer tikka masala mix sugars_100g: OFF 17 vs Blinkit 26.2",
+        "Zero Maida Pizza Base added_sugar_100g: OFF 2.73 vs Blinkit 1.9"
+      ]
+    },
+    "verdict": "NOT APPLIED. A join whose own overlap disagrees on one numeric value in six is not safe to write: it would copy a wrong nutrition figure onto a sixth of the records it touched. Either the join is wrong or one source is, and the data cannot say which.",
+    "value_of_the_test": "this is the cheapest defensible lever left in grocery and it is worth +0.088 points even if it were perfect. It does not change the ceiling."
   }
 }
