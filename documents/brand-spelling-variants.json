@@ -1,0 +1,61 @@
+{
+  "generated": "2026-09-07",
+  "finding": "858 brand names in the catalogue fold to the same key as another — case, an apostrophe style, an accent or a space. 2605 records sit on a non-dominant spelling of a brand the catalogue ALREADY holds under another name.",
+  "examples": {
+    "Amul": [
+      "amul",
+      "AMUL"
+    ],
+    "Mamaearth": [
+      "mamaearth",
+      "mama Earth",
+      "Mama Earth",
+      "mama earth"
+    ],
+    "Britannia": [
+      "BRITANNIA",
+      "britannia"
+    ],
+    "Whole Farm": [
+      "Whole farm"
+    ],
+    "Haldiram's": [
+      "Haldirams",
+      "Haldiram’s",
+      "haldiram's",
+      "Haldiram s",
+      "haldirams"
+    ],
+    "Tata": [
+      "TATA",
+      "tata"
+    ],
+    "RENEE": [
+      "Renee"
+    ],
+    "Plum": [
+      "plum"
+    ],
+    "Lupin": [
+      "LUPIN"
+    ],
+    "Sugar": [
+      "SUGAR",
+      "sugar"
+    ],
+    "Parle": [
+      "parle",
+      "PARLE"
+    ],
+    "Farmley": [
+      "farmley"
+    ]
+  },
+  "why_it_matters": "brandFileFor() slugs the brand, so 'amul' and 'AMUL' land in different files, and /b/<slug>/ on the site shows a fraction of a brand's products. One appliances record is filed under the literal misspelling 'Llyod' — it is NOT a duplicate of anything in lloyd.jsonl (3 Star vs 2 Star, different model numbers), just a real product whose brand was typed wrong.",
+  "why_this_is_a_DECISION_not_a_fix": "mintId hashes brand (schema.ts:183), and brandFileFor slugs it (schema.ts:187). Correcting a spelling therefore CHANGES THE RECORD'S ID and MOVES ITS FILE. Every crawler in this repo matches on the stored id — a session-long rule is 'never re-mint' — so a rename breaks the stable-identifier promise those crawlers depend on. It needs an owner's decision about identity, not a data pass.",
+  "what_is_NOT_safe": "A looser edit-distance sweep returns 387 pairs, and most are DIFFERENT REAL BRANDS: Sugar/Sagar, Catch/Natch, Mango/Margo, Canon/CANOY, Kenstar/Yenstar. Auto-merging on similarity would destroy real products. Only the case/accent/apostrophe fold above is safe to treat as one brand, and even that should be reviewed.",
+  "counts": {
+    "groups": 858,
+    "records_on_a_minority_spelling": 2605
+  }
+}
