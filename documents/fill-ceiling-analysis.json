@@ -1053,5 +1053,27 @@
     },
     "one_real_difference_checked": "gaps.ts does `if (!keys.length) continue`, which looked like it SKIPS undeclared categories where my count scores them against _default. It does not: categorySpecFor() already falls back to categories['_default'], so the continue only fires for a domain with no schema file at all. Neither measure drops the ~3,153 undeclared-category grocery records.",
     "verdict": "the metric is sound and the two independent implementations agree exactly. 43.44% is the real figure, so every ceiling measured against it stands."
+  },
+  "quick_commerce_sources_beyond_blinkit": {
+    "date": "2026-09-07",
+    "question": "were Zepto, Swiggy Instamart and other quick-commerce sites ever added as grocery sources?",
+    "answer": "No. Blinkit is the only quick-commerce source in the repo. Grocery's 70,577 records come from blinkit.com (58,815), openfoodfacts (12,415) and netmeds.com (2,115). There is no zepto/swiggy/bigbasket/jiomart/dmart crawler.",
+    "robots_rechecked_today": {
+      "www.zeptonow.com": "Allow: / — no restrictions at all",
+      "www.jiomart.com": "Allow: / — no restrictions at all",
+      "www.dmart.in": "Allow: / with cart/checkout/profile paths disallowed; product paths permitted",
+      "www.bigbasket.com": "Allow: / plus explicit Allow rules for /product-reviews/ and paginated category pages",
+      "www.swiggy.com": "Allow: / but Disallow: /product and /product-category — still a no for product pages, as previously recorded"
+    },
+    "why_they_are_still_not_sources": {
+      "jiomart": "robots-allowed and it publishes a real sitemap (custom.sitemap.xml, 904 grocery product URLs). But a product page returns 6.8 MB of markup containing 1,087 visible characters — a JavaScript shell. Zero occurrences of FSSAI, Energy, Protein, Ingredients, Country of Origin or Shelf Life anywhere in the source, including embedded JSON. No pack label to read.",
+      "zepto": "robots says Allow: / with no restrictions, but the server returns 0 BYTES to a non-browser client for its homepage and any HTML path. It publishes no sitemap, so product URLs cannot be discovered either. The plan's earlier note that Zepto is 'usable' was based on reading its robots.txt alone and is wrong — permission is not availability.",
+      "swiggy_instamart": "unchanged: robots disallows /product. Correctly excluded.",
+      "bigbasket": "robots-allowed (it even Allows /product-reviews/ and paginated category pages). A product page returns 25 KB of markup with 35 visible characters and zero occurrences of FSSAI, Energy, Protein, Ingredient, Country of Origin, Shelf Life or Manufacturer. JS shell.",
+      "dmart": "robots-allowed for product paths. A product page returns 240 KB with 449 visible characters and the same zero count on every pack-label term. JS shell."
+    },
+    "correction_to_the_plan": "the plan recorded 'Zepto: usable, robots.txt is Allow: /, no restrictions'. Permission was verified; delivery was not. Zepto serves nothing without a browser.",
+    "verdict": "Blinkit remains the only Indian quick-commerce site that serves the mandated pack label in plain HTML. Permission was never the obstacle for these four — delivery is. Robots said yes and the server sent a JavaScript shell.",
+    "all_four_tested": "zepto (0 bytes served), jiomart (6.8 MB / 1,087 visible chars), bigbasket (25 KB / 35 chars), dmart (240 KB / 449 chars). Every one is robots-permitted and none serves the pack label without a browser."
   }
 }
