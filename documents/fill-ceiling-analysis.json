@@ -771,5 +771,19 @@
       },
       "verdict": "The join key is absent from the side that needs it, and no permitted service resolves a product name to a barcode. This route is closed."
     }
+  },
+  "nova_for_the_blinkit_only_cohort": {
+    "measured": "2026-09-07",
+    "the_gap_was_real": "Every nova_group in the catalogue sat on an OFF-touched record. Zero of the 45,841 Blinkit-only records had one, despite 15,373 carrying a parsed ingredients array. Confirmed independently.",
+    "my_estimate_was_wrong": "I projected ~6,000 defensible values from 5,287 single-item lists and 801 marker-positive ones. The real figure is 868, all group 1.",
+    "why_this_cohort_yields_NO_group_4": "Only 18 records in 15,373 carry a marker from OFF's PUBLISHED list, and all 18 are combo packs with ':- NA' placeholder lists, already refused. My 801 reproduces as 799 on a loose keyword test, but the strict OFF table matches 18: **997 of the 1,110 INS/E codes present are not OFF markers** — 330 citric acid, 500 baking soda, 211 benzoate, 260 acetic acid. Treating them as group 4 is exactly the invented-marker defect the earlier run removed.",
+    "THE_TRAP_I_HAD_NOT_FLAGGED": {
+      "pharmaceuticals": "'Health & supplements' is this cohort's LARGEST category. Rosuvastatin (49), Atorvastatin (43), Telmisartan (38), Metformin, Paracetamol — single-item ingredient lists that look like pristine NOVA 1 to a classifier. A statin has no NOVA group. Verified after the run: zero records whose text names a drug molecule carry a nova_group.",
+      "and_the_guard_itself_nearly_misfired": "Its first version keyed on single words and caught 992 OFF-LABELLED FOODS — 'cream' matched Full Cream Milk and Sour Cream Pretzels, 'syrup' matched Amul Chocolate Syrup, 'drops' matched fruit candy, 'tablet' matched Manam Chocolate. Caught by re-measuring against the labelled holdout, then tightened to require dosage form AND dose together.",
+      "concentrated_extracts": "'Chaga Mushroom Dual Extract 8:1' read as a whole mushroom. Refused. Grinding still stays group 1 — chilli powder is chilli."
+    },
+    "precision_held": "Re-measured on the untouched OFF holdout (n=8,277): group 1 precision 99.64% before and after, group 4 99.66% before and after, group 1 recall 90.4% -> 91.3%. Precision was never traded for coverage. Groups 2 and 3 remain unwritten.",
+    "a_near_miss_worth_recording": "While correcting a provenance note's stale statistics it initially rewrote the note on 13,332 records — overwriting the 12,464 from the EARLIER run whose figures were correct for that run. Caught in the diff and restored from HEAD. The final commit touches exactly 868 records, verified independently.",
+    "verdict": "The largest remaining gap in the repo was real; the defensible fill inside it was 868, not 6,000. The pharmaceutical guard is worth more than the number."
   }
 }
