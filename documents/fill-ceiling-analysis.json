@@ -714,5 +714,13 @@
     "five_real_people_recovered": "Anuj Jain, Basant Bafna, Kruti Chheta, Monika Gandhi, Rohan Maru",
     "independently_verified": "136 distinct people across 1,075 records, every one 2-4 tokens, and a scan for Ltd/Bank/SIP/Index/digits returns nothing. All three corrupted names are gone.",
     "the_honest_headline": "The field was already at its ceiling. What this bought was three wrong facts about named individuals removed and five right ones added — which on a field naming real people is worth more than a percentage."
+  },
+  "BEE_correction_2026_09_07": {
+    "what_I_repeated_all_session": "'BEE has no open dataset — the portal is login-gated, so iseer and rating_year stay empty rather than inferred from a star count.' I wrote that into the record and into memory, and briefed several agents with it.",
+    "it_is_wrong": "The Bureau of Energy Efficiency's Star Label registry at beestarlabel.com/SearchCompare is PUBLIC — no login, no WAF — and verified live today: robots permits it, the page returns 46,440 bytes and lists 40 equipment categories. sources/bee/bee.json documents its API: POST /SearchCompare/LoadSearchView with {'eqcode': <number>} as a JSON NUMBER, since a string returns HTTP 500.",
+    "and_it_was_already_applied": "224 appliance records cite beestarlabel.com. iseer is filled on 72 records, star on 390, annual_units_kwh on 118 — not zero.",
+    "the_join_ceiling_was_already_measured": "26,483 distinct model codes are on disk, so the registry is not the limit. Of 212 unmatched records only 3 gain a match from a broader code regex. 104 more have a token whose first six characters appear in BEE — and that is a trap: the tokens are GOOGLE, SILVER and INVERTOR, marketing words that hit BEE entries whose star ratings span 1 to 5. Assigning one would invent a rating.",
+    "the_layout_trap_worth_keeping": "Three different HTML shapes in the registry, and reading only one 'does not fail loudly — it reports an empty registry'. Matching on '</a><br />' alone parsed 464 of 795 air conditioners and silently dropped 331.",
+    "lesson": "A negative I recorded early shaped what I believed was reachable for the rest of the session. Six stale verdicts were found in other people's configs; this one was mine."
   }
 }
