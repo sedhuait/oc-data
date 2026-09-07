@@ -722,5 +722,26 @@
     "the_join_ceiling_was_already_measured": "26,483 distinct model codes are on disk, so the registry is not the limit. Of 212 unmatched records only 3 gain a match from a broader code regex. 104 more have a token whose first six characters appear in BEE — and that is a trap: the tokens are GOOGLE, SILVER and INVERTOR, marketing words that hit BEE entries whose star ratings span 1 to 5. Assigning one would invent a rating.",
     "the_layout_trap_worth_keeping": "Three different HTML shapes in the registry, and reading only one 'does not fail loudly — it reports an empty registry'. Matching on '</a><br />' alone parsed 464 of 795 air conditioners and silently dropped 331.",
     "lesson": "A negative I recorded early shaped what I believed was reachable for the rest of the session. Six stale verdicts were found in other people's configs; this one was mine."
+  },
+  "what_80_percent_actually_requires": {
+    "measured": "2026-09-07",
+    "the_denominator_is_honest": "Checked first, because a padded denominator would be the easy explanation: only 44 fields across the whole repo sit at exactly 0% fill, claiming 5,959 slots — 0.2% of 3,126,119. The schema is not stuffed with dead questions.",
+    "where_the_slots_are": {
+      "grocery": "2,400,891 of 3,126,119 = 77% of every slot in the repo",
+      "grocery/nutrition": "928,471 slots at 36.9% — 38.7% of grocery",
+      "grocery/ingredients": "484,547 at 26.0% — 20.2%",
+      "grocery/provenance": "282,308 at 72.0%",
+      "grocery/processing": "217,854 at 29.5%",
+      "grocery/identity": "211,731 at 45.2%",
+      "grocery/storage": "205,403 at 60.7%",
+      "grocery/diet": "70,577 at 85.6%"
+    },
+    "the_arithmetic": {
+      "now": "1,357,004 / 3,126,119 = 43.41%",
+      "to_reach_80": "1,143,891 more filled slots — 0.8x everything the catalogue holds today",
+      "if_nutrition_AND_ingredients_were_100_percent": "adds 944,431 and reaches 73.6%. **Even perfect nutrition and ingredient data does not reach 80%.**",
+      "if_ALL_of_grocery_were_100_percent": "87.69%. So 80% is reachable only by filling grocery to roughly 90% or better — it is currently 40.3%, against a Blinkit corpus measured at a ~45% ceiling."
+    },
+    "conclusion": "80% is not a crawling target. It requires near-perfect grocery data, and the grocery ceiling is set by what Indian packs print and what Indian retailers publish — sixteen sources tested, one usable, and that one crawled to completion. The two levers that move this number are the medicines schema decision and the 57% field trim, and both are decisions about what the catalogue should ASK, not about where to find answers."
   }
 }
