@@ -878,6 +878,14 @@
       "overall": "43.44% -> 44.43%"
     },
     "verdict": "the largest single lever found this session, and it moves the headline by 0.99 points. Confirms rather than overturns the ceiling: even perfect SID coverage on every Indian mutual fund leaves the catalogue at ~44%.",
-    "status": "harvest_sids.py dry run in progress to establish how many of the 2,078 SEBI actually lists"
+    "status": "harvest_sids.py dry run in progress to establish how many of the 2,078 SEBI actually lists",
+    "harvest_attempt_2026_09_07": {
+      "outcome": "stopped deliberately, not completed",
+      "what_happened": "three dry runs. The first died in <1min on an SSL handshake timeout that ended the whole sweep (fixed, eb640d9). The second wedged for 25min inside do_handshake with 2.26s CPU and no open socket (fixed, 3124707). The third ran 40min, reached 3.38s CPU, and spent its time in the BACKOFF ladder.",
+      "why_stopped": "a fresh single request to the same host now takes 30.5s and succeeds. SEBI has slowed under this session's repeated sweeps. That is the host asking for room, and the crawler's job is to give it.",
+      "cost_at_observed_rate": "61 AMC listings + ~2,078 detail pages at ~30s each is ~17.8 hours of continuous paced fetching",
+      "verdict": "the lever is real and unchanged in value (+30,928 facts, 43.44% -> 44.43%), but it is an overnight job against a regulator that is currently rate-limiting us, not something to force now. Run it off-peak, in one pass, with resume.",
+      "note": "the harvester prints nothing until all 61 listings are fetched, so an empty log is its design and not evidence of a stall — diagnose with ps -o time= and sample(1) instead."
+    }
   }
 }
