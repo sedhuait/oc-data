@@ -743,5 +743,21 @@
       "if_ALL_of_grocery_were_100_percent": "87.69%. So 80% is reachable only by filling grocery to roughly 90% or better — it is currently 40.3%, against a Blinkit corpus measured at a ~45% ceiling."
     },
     "conclusion": "80% is not a crawling target. It requires near-perfect grocery data, and the grocery ceiling is set by what Indian packs print and what Indian retailers publish — sixteen sources tested, one usable, and that one crawled to completion. The two levers that move this number are the medicines schema decision and the 57% field trim, and both are decisions about what the catalogue should ASK, not about where to find answers."
+  },
+  "why_grocery_cannot_reach_90_percent": {
+    "measured": "2026-09-07",
+    "the_three_cohorts": {
+      "Blinkit only": "45,841 records, 1,587,182 slots, 43.9% filled",
+      "BOTH Blinkit and Open Food Facts": "12,410 records, 426,513 slots, **63.0%**",
+      "Open Food Facts only": "12,326 records, 387,196 slots, 13.0%"
+    },
+    "the_two_sources_are_COMPLEMENTARY_not_redundant": "A record carrying both reaches 63.0% against 43.9% for Blinkit alone — about 19 points. The per-field gain shows why: nova_group 99.6% vs 0.0%, ingredients_order +70.8, preservatives +48.6, artificial_colours +46.7, additives +42.7, palm_oil +42.2, allergens +38.5. Blinkit publishes the mandated pack panel; OFF publishes the derived and declarative fields.",
+    "so_the_obvious_lever_is_to_match_the_other_45841": "If every Blinkit-only record could be matched to its OFF entry, grocery would move toward that 63% figure. That is the single largest theoretical gain left in the repo.",
+    "and_it_is_impossible_by_the_only_safe_key": {
+      "our_records": "ZERO of the 45,841 Blinkit-only records carry a GTIN.",
+      "the_pages": "Blinkit publishes no barcode either. A 1,500-page sample of the cached corpus finds no EAN/Barcode/GTIN/UPC attribute, no bare 890-prefixed EAN anywhere in the markup, and no schema.org gtin field — zero hits on all three patterns.",
+      "why_a_name_match_is_not_an_answer": "OFF names are typed off a pack scan — 'Almond Drops', 'Aloe Ver', 'Listerene' — while Blinkit carries the full retail title. That mismatch is exactly why sources/beauty/enrich_by_gtin.py was built to join on the barcode instead, and why two earlier attempts to reach OFF records by crawling a retailer failed. A loose match attaches one product's ingredients to another's."
+    },
+    "conclusion": "The 63% cohort is not a target that better crawling reaches. It exists only where a name match happened to succeed, and the key that would make it systematic — the barcode — is absent from both our Blinkit records and Blinkit's own pages."
   }
 }
