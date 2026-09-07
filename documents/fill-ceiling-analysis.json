@@ -1016,6 +1016,27 @@
       ]
     },
     "verdict": "NOT APPLIED. A join whose own overlap disagrees on one numeric value in six is not safe to write: it would copy a wrong nutrition figure onto a sixth of the records it touched. Either the join is wrong or one source is, and the data cannot say which.",
-    "value_of_the_test": "this is the cheapest defensible lever left in grocery and it is worth +0.088 points even if it were perfect. It does not change the ceiling."
+    "value_of_the_test": "this is the cheapest defensible lever left in grocery and it is worth +0.088 points even if it were perfect. It does not change the ceiling.",
+    "CORRECTION_and_field_level_breakdown": {
+      "date": "2026-09-07",
+      "what_I_got_wrong": "the headline '16.6% of numeric values disagree' counted `quantity` string formatting as data conflict. Of 174 pairs, 117 'disagreed' on quantity — and ALL 117 are formatting ('5kg' vs '5 kg'). Zero are genuinely different sizes. The join is TIGHTER than I reported, not looser.",
+      "corrected_measure": "restricted to the 13 nutrition fields, where a wrong value actually harms: 250 agree, 52 disagree beyond 10% — a 17.2% conflict rate. The correction does not rescue the join.",
+      "field_level": {
+        "clean_zero_conflicts": {
+          "ingredients_order": "54/0",
+          "palm_oil": "26/0",
+          "trans_fat_100g": "9/0"
+        },
+        "worst": {
+          "serving_size": "8 agree / 37 disagree",
+          "additives": "0/14",
+          "manufacturer": "0/7",
+          "cholesterol_100g": "7/6",
+          "calcium_100g": "2/5"
+        }
+      },
+      "clean_subset_tested": "transferring only the three zero-conflict fields fills 150 slots across the 174 pairs = +0.0048 points. trans_fat_100g's 9/9 agreement is too thin to certify a nutrition field whose neighbours conflict at 17%.",
+      "final_verdict": "still not applied, but now for a measured reason rather than a rule: the conflicted fields are unsafe at 17.2%, and the provably-safe subset is worth five thousandths of a point."
+    }
   }
 }
