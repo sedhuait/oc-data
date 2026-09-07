@@ -1038,5 +1038,20 @@
       "clean_subset_tested": "transferring only the three zero-conflict fields fills 150 slots across the 174 pairs = +0.0048 points. trans_fat_100g's 9/9 agreement is too thin to certify a nutrition field whose neighbours conflict at 17%.",
       "final_verdict": "still not applied, but now for a measured reason rather than a rule: the conflicted fields are unsafe at 17.2%, and the provably-safe subset is worth five thousandths of a point."
     }
+  },
+  "the_measurement_itself_was_audited": {
+    "date": "2026-09-07",
+    "question": "before accepting that 80% is unreachable, is the 43.44% figure itself right? A wrong denominator would make every ceiling conclusion wrong too.",
+    "method": "ran oc-web's OWN categoryGaps()/overallFill() — the functions behind the site's /gaps page and its published fill rate — against the real committed data, and compared with my independent Python count.",
+    "result": {
+      "products": 99876,
+      "declared": 3126119,
+      "filled": 1357872,
+      "site_fillRate": "43.44%",
+      "my_count": "43.44%",
+      "agreement": "exact to the digit"
+    },
+    "one_real_difference_checked": "gaps.ts does `if (!keys.length) continue`, which looked like it SKIPS undeclared categories where my count scores them against _default. It does not: categorySpecFor() already falls back to categories['_default'], so the continue only fires for a domain with no schema file at all. Neither measure drops the ~3,153 undeclared-category grocery records.",
+    "verdict": "the metric is sound and the two independent implementations agree exactly. 43.44% is the real figure, so every ceiling measured against it stands."
   }
 }
