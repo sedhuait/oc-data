@@ -950,5 +950,19 @@
     "deliberate_non_source": "the 'Variant' free-text field also contains the string but is NOT read — 37,638 distinct values include 'AyuGrowth Fortifying' and 'Royal Roots Fortifying Scalp', which are hair products. A substring match there would put a food claim on a shampoo.",
     "verdict": "at its source ceiling. Not fillable without a different source that publishes the +F declaration per product.",
     "note": "the crawler retains page hashes and parsed records, not label HTML, so the 351-page figure cannot be re-audited without re-crawling 90,621 pages — not warranted to recheck a number measured at parse time."
+  },
+  "blinkit_publishes_ingredient_text_and_the_schema_discards_it": {
+    "date": "2026-09-07",
+    "finding": "Blinkit publishes an 'Ingredients' attribute. parse_pack_label.py reads it (line 1051), derives booleans and lists from it — ingredients_order, allergens, additives — and then DISCARDS the text, because grocery's schema has no field to store an ingredient list.",
+    "scale": "30,263 grocery records had readable ingredient text at parse time (ingredients_order=True proves it was present and parsed).",
+    "schema_state": "the only ingredient-related fields are ingredients_order (boolean), additives (list) and allergens (list). There is no text field.",
+    "what_adding_one_would_do": {
+      "slots": "3,126,119 -> 3,196,696 (+70,577, since every grocery category declares the group)",
+      "facts": "1,357,872 -> 1,388,135 (+30,263)",
+      "fill": "43.44% -> 43.42%"
+    },
+    "verdict": "recording 30,263 real, published, legally-crawlable facts makes the headline metric WORSE, because the field is added to 70,577 records and fillable on 30,263. This is the clearest case in the catalogue of the fill metric disagreeing with the catalogue's usefulness.",
+    "not_done": "adding a field is a schema change and the standing instruction is to fill existing categories, not add to them. Recorded as a decision, not applied.",
+    "why_it_matters_to_a_reader": "an ingredient list is the single most useful thing on a food pack — it answers allergy, dietary and additive questions the nutrition panel cannot."
   }
 }
