@@ -593,5 +593,18 @@
       "the_arithmetic_had_no_answer_either": "Had all 392 been published they fill at 41.6% against `_default`, BELOW beauty's 43.67%, so beauty would have fallen to 43.64% and overall to 43.3701%. There was never a coverage argument here; the whole question was correctness.",
       "proposal_written": "documents/beauty/oral-care-proposal.json — Oral care (307), Intimate care (62, needs no new fields), and Antiseptic & first aid (19) flagged as probably not beauty at all. schemas/ untouched."
     }
+  },
+  "last_two_levers_tested_2026_09_07": {
+    "the__default_sheet": {
+      "question": "Does scoring records against `_default` rather than a real category sheet hide fill?",
+      "measured": "3,153 records across the whole repo are scored against `_default`, all of them in grocery — 2,942 'Other' and 211 'Confectionery'. No other domain has any. They fill at 8.3% against a grocery average of 42.3%.",
+      "Confectionery": "Declaring it properly would LOWER its fill, not raise it: 16.4% against `_default`'s 23 fields, 12.1% against Biscuits & snacks' 34, because the real sheet asks 11 more questions (added sugar, trans fat, preservatives, artificial colours and flavours, packaging type…). Not a lever, and the schema is frozen regardless.",
+      "Other": "2,932 of the 2,942 are Open Food Facts records with NO Blinkit page — the population already established as exhausted at ~14%. Their 8.3% is the OFF ceiling, not a categorisation problem."
+    },
+    "the_OFF_dump_refresh": {
+      "question": "Has Open Food Facts published newer data since our import?",
+      "measured": "HEAD on the live dump: Last-Modified Sun 06 Sep 2026, Content-Length 1,275,171,186 bytes — byte-identical in size to the dump this project already streamed. The enricher ran against it earlier today for a yield of 67 values across 40 records.",
+      "verdict": "Same dump. Re-downloading 1.2 GB would gain nothing."
+    }
   }
 }
