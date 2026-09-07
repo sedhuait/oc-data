@@ -912,6 +912,14 @@
       },
       "verdict": "the SID lever is already fully exploited. proposed-sids.json holds 1,280 families, all dated, all applied — covering 4,179 records. There is no +30,928; the real remainder is a rounding error.",
       "lesson": "I sized a lever by counting what we LACK rather than by checking what the source OFFERS. The listing phase costs one pass and should precede any estimate."
+    },
+    "harvest_stopped_2026_09_07": {
+      "reason": "the question it was launched to answer was already answered by its own listing phase",
+      "listing_phase": "SEBI lists 2,569 SID filings; 1,288 join our catalogue; we already hold 1,280. Net new is a handful of families.",
+      "detail_phase": "reached 100 of 1,282 detail pages in ~24 min — about 5 hours to re-derive the SIDs we already have",
+      "decision": "stopped. Spending five hours of a regulator's bandwidth to confirm a rounding error is not a good use of either.",
+      "state": "dry run throughout; proposed-sids.json unmodified, products/ untouched",
+      "if_rerun": "run with --apply only if the listing count moves materially above 1,288; nothing else about the SID path is unexplored"
     }
   },
   "insurance_premium_payment_terms_is_a_per_customer_value": {
