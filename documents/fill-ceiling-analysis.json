@@ -810,5 +810,18 @@
       "what_that_means": "A food registry that reaches 80% by deleting protein, energy, sugar, fat and sodium answers fewer real questions than it does at 43%. The number improves because the questions were removed, not because the answers were found."
     },
     "the_conclusion_stated_plainly": "No combination of source work and schema decisions reaches 80% except the trim, and the trim reaches it by destroying 655,493 facts. Everything else available — every source tested, every stale verdict corrected, the whole medicines decision — totals 46.40%. That is the honest ceiling of this catalogue as currently specified."
+  },
+  "why_MORE_RECORDS_cannot_reach_80_either": {
+    "measured": "2026-09-07",
+    "the_question": "Every ceiling argument so far assumed the record count is fixed. It is not — Blinkit's live sitemaps project ~165,000 products against our 90,628 inventory. So: could crawling more products reach 80%?",
+    "the_arithmetic": "A Blinkit grocery record averages 34.6 declared slots and 15.2 filled = 43.9%. Fill is an AVERAGE over slots, and each new record brings its own empty slots.",
+    "measured_projection": {
+      "now": "43.44%",
+      "+25,000 Blinkit records": "43.54%",
+      "+50,000": "43.61%",
+      "+100,000": "43.69%"
+    },
+    "the_conclusion": "Adding records that fill at 43.9% cannot raise a 43.4% average — it converges toward 43.9% and never approaches 80%. More crawling makes the catalogue LARGER and leaves the percentage where it is. This is why 'identify sources and start filling' cannot reach the target: the target is a ratio, and the source's own ceiling is the ratio's limit.",
+    "what_this_completes": "Four independent proofs now agree. (1) Perfect nutrition AND ingredients across all of grocery reaches 73.6%. (2) All of grocery at 100% reaches 87.69%, so 80% needs grocery near 90% against a measured ~45% source ceiling. (3) The join that would lift Blinkit records to the 63% cohort needs a barcode that exists on neither side. (4) More records converge to 43.9%. The only remaining path is the trim, which reaches 80.2% by deleting 655,493 recorded facts."
   }
 }
