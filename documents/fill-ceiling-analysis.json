@@ -758,6 +758,18 @@
       "the_pages": "Blinkit publishes no barcode either. A 1,500-page sample of the cached corpus finds no EAN/Barcode/GTIN/UPC attribute, no bare 890-prefixed EAN anywhere in the markup, and no schema.org gtin field — zero hits on all three patterns.",
       "why_a_name_match_is_not_an_answer": "OFF names are typed off a pack scan — 'Almond Drops', 'Aloe Ver', 'Listerene' — while Blinkit carries the full retail title. That mismatch is exactly why sources/beauty/enrich_by_gtin.py was built to join on the barcode instead, and why two earlier attempts to reach OFF records by crawling a retailer failed. A loose match attaches one product's ingredients to another's."
     },
-    "conclusion": "The 63% cohort is not a target that better crawling reaches. It exists only where a name match happened to succeed, and the key that would make it systematic — the barcode — is absent from both our Blinkit records and Blinkit's own pages."
+    "conclusion": "The 63% cohort is not a target that better crawling reaches. It exists only where a name match happened to succeed, and the key that would make it systematic — the barcode — is absent from both our Blinkit records and Blinkit's own pages.",
+    "the_barcode_exists_on_only_one_side": {
+      "OFF-only records": "12,116 of 12,326 (98%) carry a GTIN",
+      "Blinkit-only records": "0 of 45,841 (0%)",
+      "no_other_shared_key": "Checked every candidate: Blinkit-only records have fssai_licence on 37,152 and marketed_by on 34,964, and OFF-only records have ZERO of either. The only fields both cohorts carry are brand and quantity, which is name-matching under another name — the thing that attaches one product's ingredients to another's.",
+      "barcode_resolution_services_tested": {
+        "ean-search.org": "robots.txt disallows, including its own path",
+        "barcodelookup.com": "robots.txt disallows",
+        "world.openfoodfacts.org": "bare 'Disallow: /' — 50 rules; the bulk dump is the sanctioned path and is already exhausted",
+        "api.upcitemdb.com": "no robots.txt (HTTP 404 on the host) — fails closed under this repo's own rule"
+      },
+      "verdict": "The join key is absent from the side that needs it, and no permitted service resolves a product name to a barcode. This route is closed."
+    }
   }
 }
