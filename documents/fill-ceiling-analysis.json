@@ -700,5 +700,19 @@
       "verdict": "holds"
     },
     "the_class_of_error_found_five_times_this_session": "12 of 15 MITC URLs and 21 of 40 bank pages 404'd because they were guessed; 16 of 19 'blocked' banks had moved to .bank.in; HP printers and HP laptops were judged on a JS-only path and written off host-wide; and now Lenovo the same way. In every case the measurement was accurate and the GENERALISATION was not."
+  },
+  "factsheet_managers_audited_2026_09_07": {
+    "my_premise_was_wrong": "I read 'None is parsed yet' in sources/factsheets/factsheets.json and dispatched a parser-writing job. The parser already existed — parse_factsheets.py, 1,454 lines across six commits with per-AMC readers and a gutter splitter — and fund_manager was already filled on 1,075 records. The note was true when written and never updated after the readers landed.",
+    "the_7450_gap_is_not_a_factsheet_gap": "Those records belong to the ~46 AMCs with NO mirrored factsheet — blocked, robots-disallowed or JS-only. All 10 mirrored sheets were already harvested for everything they yield.",
+    "but_the_audit_found_three_published_names_that_were_not_people": {
+      "'Kar Sonam Udasi'": "'Karur Vysya Bank Ltd' gutter-cut onto Sonam Udasi — 2 records",
+      "'Murthy Nagarajan Rad'": "'Radico Khaitan Ltd' gutter-cut onto Murthy Nagarajan — 2 records",
+      "'Priya Sridhar SIP Performa'": "the 'SIP Performance' heading, cut short — 1 record"
+    },
+    "the_fix_asks_the_document_not_a_heuristic": "A MARGIN_WORDS list could not solve the first two: it would need every listed company, and the fragments are TRUNCATIONS rather than whole words. So roster_vote() refuses a candidate when dropping a leading or trailing token leaves a name the same factsheet attests MORE OFTEN — Tata says 'Sonam Udasi' 5 times and 'Murthy Nagarajan' 6 times against one spliced form each. The readers were fixed, not the values, so it cannot recur.",
+    "names_verified_before_touching": "'Nitin Bharat Sharma' (117 records) was confirmed a REAL person — 25 clean occurrences, always with 'Nitin' — rather than assumed a splice. Same for Sri Sharma, Preethi R S, V Srivatsa and R. Janakiraman.",
+    "five_real_people_recovered": "Anuj Jain, Basant Bafna, Kruti Chheta, Monika Gandhi, Rohan Maru",
+    "independently_verified": "136 distinct people across 1,075 records, every one 2-4 tokens, and a scan for Ltd/Bank/SIP/Index/digits returns nothing. All three corrupted names are gone.",
+    "the_honest_headline": "The field was already at its ceiling. What this bought was three wrong facts about named individuals removed and five right ones added — which on a field naming real people is worth more than a percentage."
   }
 }
