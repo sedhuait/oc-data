@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 837811,
+   "checked": "2026-09-07",
+   "file": "1765437216005.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765437216005.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "fa295e9dd852183428887d906e30117e21e5dae2a70c47b3c545da0756f5bded",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765437216005.pdf"
+  }
+ ],
+ "scheme": "JM Liquid Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1168442,
+   "checked": "2026-09-07",
+   "file": "1726807500036.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1726807500036.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "6737379a50e52810036f78e30eb85af7929887b40372d63d822c90d67cdb00e4",
+   "sid_version": "2024-09",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1726807500036.pdf"
+  }
+ ],
+ "scheme": "WhiteOak Capital Balanced Hybrid Fund"
+}

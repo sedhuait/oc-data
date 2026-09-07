@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 748787,
+   "checked": "2026-09-07",
+   "file": "1720776032254.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720776032254.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ef698c9235f91b9863dbe37f13fed59c660237344ea1ac55079636213377728b",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720776032254.pdf"
+  }
+ ],
+ "scheme": "Nippon India Nifty G-Sec - Sep 2027 Maturity Index Fund"
+}

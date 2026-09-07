@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1833682,
+   "checked": "2026-09-07",
+   "file": "1651727862260.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1651727862260.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e30aab9e32e9029127644e15b9b9a7d0a9826de0cddedc4fb20a45a1f3274153",
+   "sid_version": "2022-05",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1651727862260.pdf"
+  }
+ ],
+ "scheme": "Tata Money Market Fund"
+}

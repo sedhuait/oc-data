@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1106087,
+   "checked": "2026-09-07",
+   "file": "1751883576860.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751883576860.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "8e5f38b65ccae1294a7a68d5249bf3d26b348649bd523f0a3480a04795c73bc7",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751883576860.pdf"
+  }
+ ],
+ "scheme": "UTI Arbitrage Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 806103,
+   "checked": "2026-09-07",
+   "file": "1736224786199.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1736224786199.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "11a0025168d2f183a7bb12ef08f3947788d993122a4bccbc56fa267a59ea3680",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1736224786199.pdf"
+  }
+ ],
+ "scheme": "Quantum Multi Asset Allocation Fund"
+}

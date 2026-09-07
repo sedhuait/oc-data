@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 763222,
+   "checked": "2026-09-07",
+   "file": "1764669503231.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764669503231.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "1877957f38c1398947722b53695676f138adfb4d8c9217b447e769265e5d05c3",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764669503231.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET NIFTY MIDSMALLCAP400 MOMENTUM QUALITY 100 ETF FUND OF FUND"
+}

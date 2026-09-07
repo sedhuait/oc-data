@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 823883,
+   "checked": "2026-09-07",
+   "file": "1763701274452.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2025/1763701274452.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3abedb599aa2ef7db802cf5dcfa7db082539705f9fa27e534ebb278d37aeac27",
+   "sid_version": "2025-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2025/1763701274452.pdf"
+  }
+ ],
+ "scheme": "Mirae Asset Equity Savings Fund"
+}

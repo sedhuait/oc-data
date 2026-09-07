@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 881087,
+   "checked": "2026-09-07",
+   "file": "1733489044683.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733489044683.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "40a1cf9fe1fbd1cb6df04efeb5118c09661bc7f29d1edd779e87203d48abba9c",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733489044683.pdf"
+  }
+ ],
+ "scheme": "Axis Credit Risk Fund"
+}

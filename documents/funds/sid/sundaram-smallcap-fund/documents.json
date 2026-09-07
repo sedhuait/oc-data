@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1008732,
+   "checked": "2026-09-07",
+   "file": "1742380685545.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1742380685545.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b68ad19775a8b2e9bd6ca41e1abf6f61fab07a9d9b5851deb49eddacdc732c59",
+   "sid_version": "2025-03",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1742380685545.pdf"
+  }
+ ],
+ "scheme": "Sundaram Small Cap Fund"
+}

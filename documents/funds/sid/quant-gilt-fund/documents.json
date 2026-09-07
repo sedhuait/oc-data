@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1598725,
+   "checked": "2026-09-07",
+   "file": "1670385973698.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2022/1670385973698.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "871e986f2dc6b5c4a6673b50f8814e96f1c380f1f9f735ce4fd4ec2545670000",
+   "sid_version": "2022-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2022/1670385973698.pdf"
+  }
+ ],
+ "scheme": "Quant Gilt Fund"
+}

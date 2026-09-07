@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1237538,
+   "checked": "2026-09-07",
+   "file": "1751628177401.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751628177401.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e15bfd5f19f1bcb728e4e8f0cd103dc6aae18d34af90d3fa587235e2340a62ba",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751628177401.pdf"
+  }
+ ],
+ "scheme": "UTI Quant Fund"
+}

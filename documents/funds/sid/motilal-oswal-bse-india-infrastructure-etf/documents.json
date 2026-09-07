@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1176950,
+   "checked": "2026-09-07",
+   "file": "1747202225321.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2025/1747202225321.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "30609ff7dcdc54fc99a572d7c907fac30baa084506aec424f187ebeb666e2c25",
+   "sid_version": "2025-05",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2025/1747202225321.pdf"
+  }
+ ],
+ "scheme": "Motilal Oswal BSE India Infrastructure ETF"
+}

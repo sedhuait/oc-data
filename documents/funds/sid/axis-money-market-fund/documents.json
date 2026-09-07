@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 862444,
+   "checked": "2026-09-07",
+   "file": "1733718772524.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733718772524.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "53d4e6f20866330e8993b4f7fd78d87e62bfd617065aef92ec34a6d0393be13b",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733718772524.pdf"
+  }
+ ],
+ "scheme": "Axis Money Market Fund"
+}

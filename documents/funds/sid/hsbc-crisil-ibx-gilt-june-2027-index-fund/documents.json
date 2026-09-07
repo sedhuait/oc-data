@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1031387,
+   "checked": "2026-09-07",
+   "file": "1727778702220.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727778702220.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3cfd318efb0690ff2a0fa2c6fbfd1e7b44744e577d94083cd91e4295ec30dede",
+   "sid_version": "2024-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727778702220.pdf"
+  }
+ ],
+ "scheme": "HSBC CRISIL IBX Gilt June 2027 Index Fund"
+}

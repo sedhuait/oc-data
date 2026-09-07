@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1534170,
+   "checked": "2026-09-07",
+   "file": "1749125098618.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749125098618.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "fb62140aa035154241bf8505179110a5d8419352bcdfb4e08d8aef2545f1bc62",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749125098618.pdf"
+  }
+ ],
+ "scheme": "Shriram ELSS Tax Saver Fund"
+}

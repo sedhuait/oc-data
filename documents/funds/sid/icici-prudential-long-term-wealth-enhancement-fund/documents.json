@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 826302,
+   "checked": "2026-09-07",
+   "file": "1513573755419.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2017/1513573755419.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ee48c38b8b5b93e4cc22223707732a9d016ab33bb1ed6f7f79c7c7e6202ccbe9",
+   "sid_version": "2017-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2017/1513573755419.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Long Term Wealth Enhancement Fund."
+}

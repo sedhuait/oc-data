@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1516581,
+   "checked": "2026-09-07",
+   "file": "1752226828068.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752226828068.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d3d349f55ab1535e5601274d8a2270b2ccab833e181d9f9efc9daae43ad4dcc2",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752226828068.pdf"
+  }
+ ],
+ "scheme": "LIC MF Aggressive Hybrid Fund"
+}

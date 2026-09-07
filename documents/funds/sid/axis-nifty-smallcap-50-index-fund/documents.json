@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1031811,
+   "checked": "2026-09-07",
+   "file": "1733719539331.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733719539331.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a7bbd90748f68d09614104c2753098ec1cb90259a6539a1e847f908cef8da9bc",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733719539331.pdf"
+  }
+ ],
+ "scheme": "Axis Nifty Smallcap 50 Index Fund"
+}

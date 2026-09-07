@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 871184,
+   "checked": "2026-09-07",
+   "file": "1751948178231.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751948178231.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3a26a8f9b457ba01be29f1f4d4b866bc5e823545e7bea545fd4e0c6bb9af58f6",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751948178231.pdf"
+  }
+ ],
+ "scheme": "Parag Parikh Conservative Hybrid Fund"
+}

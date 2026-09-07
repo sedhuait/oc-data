@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 842930,
+   "checked": "2026-09-07",
+   "file": "1764665164855.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764665164855.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "65a74b7623a976422a5dcfabd8735e01131e59cbdec4c283da2cbf574613f44e",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764665164855.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET LIQUID FUND"
+}

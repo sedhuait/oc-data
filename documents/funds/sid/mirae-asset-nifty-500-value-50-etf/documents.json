@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 892221,
+   "checked": "2026-09-07",
+   "file": "1772707165138.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2026/1772707165138.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "dac43895a470c083536d21db0df8cdf748a22c3186c5549e2619425b9a05a1c2",
+   "sid_version": "2026-03",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2026/1772707165138.pdf"
+  }
+ ],
+ "scheme": "Mirae Asset Nifty 500 Value 50 ETF"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 832796,
+   "checked": "2026-09-07",
+   "file": "1739344036261.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739344036261.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "9b60f36bbfc0b54ec80a57d702c8c9ba1c562af4b81f5048aadc6378e23d1e92",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739344036261.pdf"
+  }
+ ],
+ "scheme": "Kotak Nifty Smallcap 50 Index Fund"
+}

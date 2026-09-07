@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 3974918,
+   "checked": "2026-09-07",
+   "file": "1651730346132.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1651730346132.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c352cdb634c59159a0a75ee6a3e410338b9dcd7428319aa676f52c3e4a79cd82",
+   "sid_version": "2022-05",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1651730346132.pdf"
+  }
+ ],
+ "scheme": "Tata Corporate Bond Fund"
+}

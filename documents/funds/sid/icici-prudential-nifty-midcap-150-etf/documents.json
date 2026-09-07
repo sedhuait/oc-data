@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1388949,
+   "checked": "2026-09-07",
+   "file": "1685695406366.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685695406366.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "6237cf22df19c67583dc1282f9323801ad718b1156943b81791c78ad6283228e",
+   "sid_version": "2023-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685695406366.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Nifty Midcap 150 ETF"
+}

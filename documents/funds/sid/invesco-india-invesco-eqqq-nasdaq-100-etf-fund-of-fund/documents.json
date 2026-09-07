@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1183404,
+   "checked": "2026-09-07",
+   "file": "1749192871322.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749192871322.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "beacbdf31691216c1c2e47bdd86d59e57d732304c9872e154f49beba26d496e4",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749192871322.pdf"
+  }
+ ],
+ "scheme": "Invesco India - Invesco EQQQ NASDAQ-100 ETF Fund of Fund"
+}

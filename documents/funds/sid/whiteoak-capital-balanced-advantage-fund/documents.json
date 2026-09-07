@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1086595,
+   "checked": "2026-09-07",
+   "file": "1726807432733.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1726807432733.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "edc7c98fb4bb40cb1caac92fc6a140fb02adcc3d3bc9116aec2cce86402159bf",
+   "sid_version": "2024-09",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1726807432733.pdf"
+  }
+ ],
+ "scheme": "Whiteoak Capital Balanced Advantage Fund"
+}

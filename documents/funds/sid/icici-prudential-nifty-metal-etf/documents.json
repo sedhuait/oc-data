@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1158751,
+   "checked": "2026-09-07",
+   "file": "1721361327486.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1721361327486.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e6eab45498e9339b4e5f9c4e2bc9e92ee383bc62dd15d7ac4d1a4c664cad6fa5",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1721361327486.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Nifty Metal ETF"
+}

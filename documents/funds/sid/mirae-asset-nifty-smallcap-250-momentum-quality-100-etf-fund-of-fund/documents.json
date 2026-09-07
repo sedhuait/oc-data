@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 931928,
+   "checked": "2026-09-07",
+   "file": "1764669755426.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764669755426.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "69cec57d503dba392982c18960b8fb3e011540502a4da6d17f36ddd9e42a51b0",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764669755426.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET NIFTY SMALLCAP 250 MOMENTUM QUALITY 100 ETF FUND OF FUND"
+}

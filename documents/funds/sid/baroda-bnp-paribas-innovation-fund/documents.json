@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 850715,
+   "checked": "2026-09-07",
+   "file": "1735882207166.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735882207166.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "4c6d06b88e43f3a27805fff69e99e815a9df6d0d0ffefb4f4dcbb01861d224b9",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735882207166.pdf"
+  }
+ ],
+ "scheme": "Baroda BNP Paribas Innovation Fund"
+}

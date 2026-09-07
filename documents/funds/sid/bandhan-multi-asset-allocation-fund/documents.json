@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1104934,
+   "checked": "2026-09-07",
+   "file": "1750152392670.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750152392670.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "7ecd98e989a85d92eea1c5beecf08526ecd132296b23279c324ad3bdb0a008e9",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750152392670.pdf"
+  }
+ ],
+ "scheme": "Bandhan Multi Asset Allocation Fund"
+}

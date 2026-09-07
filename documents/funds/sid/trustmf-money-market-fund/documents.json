@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 931948,
+   "checked": "2026-09-07",
+   "file": "1726806207972.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1726806207972.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "920eb79b1bc31c34aedca54ef7aa00e35f91b850a33cab8118cfd3a23b0a6eff",
+   "sid_version": "2024-09",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1726806207972.pdf"
+  }
+ ],
+ "scheme": "TRUSTMF Money Market Fund"
+}

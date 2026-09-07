@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1066755,
+   "checked": "2026-09-07",
+   "file": "1734349398414.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734349398414.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "8243a52ee8e335eecc1fc1ada3f0313a51952e5c4c502684a37df19c8d31c2de",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734349398414.pdf"
+  }
+ ],
+ "scheme": "SBI Corporate Bond Fund"
+}

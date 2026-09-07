@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1392399,
+   "checked": "2026-09-07",
+   "file": "1752227775340.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752227775340.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "aff5db4bc5f1ae54f01c71a6bdb38f7c4c39ac571ef9e92480f16b0cb74e7904",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752227775340.pdf"
+  }
+ ],
+ "scheme": "LIC MF Dividend yield Fund"
+}

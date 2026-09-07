@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 914185,
+   "checked": "2026-09-07",
+   "file": "1749193166613.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749193166613.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "5d828a5387d8e40f375881f92e8581c5b79c6d833c3df229a186b0f315fb6ff5",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749193166613.pdf"
+  }
+ ],
+ "scheme": "Invesco India Multi Asset Allocation Fund"
+}

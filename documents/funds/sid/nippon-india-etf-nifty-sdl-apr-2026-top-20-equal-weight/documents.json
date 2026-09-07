@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 793787,
+   "checked": "2026-09-07",
+   "file": "1720768939128.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720768939128.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ed01c205cafc7668b5ebce243b5eada61230327dba88ea074c7db8b6a5217172",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720768939128.pdf"
+  }
+ ],
+ "scheme": "Nippon India ETF Nifty SDL Apr 2026 Top 20 Equal Weight"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 877604,
+   "checked": "2026-09-07",
+   "file": "1764669580613.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764669580613.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d119512502bbe174a91037af8a4f8593cf1d4d777a929d15bfafed7df1ceb4d3",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764669580613.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET NIFTY PSU BANK ETF"
+}

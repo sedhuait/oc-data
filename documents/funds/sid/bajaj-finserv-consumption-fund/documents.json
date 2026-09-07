@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2149096,
+   "checked": "2026-09-07",
+   "file": "1729144315280.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1729144315280.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b7a57fe76dde1da78df6d100200aa47495834449f78c5aa83752aeaf441c44b2",
+   "sid_version": "2024-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1729144315280.pdf"
+  }
+ ],
+ "scheme": "Bajaj Finserv Consumption Fund"
+}

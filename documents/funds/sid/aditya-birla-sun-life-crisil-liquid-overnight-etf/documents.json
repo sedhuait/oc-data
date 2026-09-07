@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 997458,
+   "checked": "2026-09-07",
+   "file": "1733123833071.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733123833071.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "12a0bfc70da208b2f4ec7eccb643092eb485805f7422eca61ffe3f818f0ad067",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733123833071.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life CRISIL Liquid Overnight ETF"
+}

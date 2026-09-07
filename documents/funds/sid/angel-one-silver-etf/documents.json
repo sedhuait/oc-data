@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 485020,
+   "checked": "2026-09-07",
+   "file": "1770177993570.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1770177993570.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "fb5b00c516a14abd2d5b4bd607aa81652405b1227c8428b183267c521de03fa6",
+   "sid_version": "2026-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1770177993570.pdf"
+  }
+ ],
+ "scheme": "Angel One Silver ETF"
+}

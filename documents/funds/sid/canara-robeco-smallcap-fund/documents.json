@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1204225,
+   "checked": "2026-09-07",
+   "file": "1749013116034.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749013116034.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "8021aa75d5d10eecc4d3c15bd9ad21abc7c3a4fb26f44369aa43379f827a401b",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749013116034.pdf"
+  }
+ ],
+ "scheme": "Canara Robeco Small Cap Fund"
+}

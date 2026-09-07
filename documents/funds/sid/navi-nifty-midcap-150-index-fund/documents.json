@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 789817,
+   "checked": "2026-09-07",
+   "file": "1735549691896.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1735549691896.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d66f4a86b99d7535a34451032a2c91a27e0c87b120e58091b1089af70b8a1f06",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1735549691896.pdf"
+  }
+ ],
+ "scheme": "Navi Nifty Midcap 150 Index Fund"
+}

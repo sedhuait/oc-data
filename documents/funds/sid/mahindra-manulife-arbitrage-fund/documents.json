@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 949120,
+   "checked": "2026-09-07",
+   "file": "1771317172825.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771317172825.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d619b8bc1d1e89b08856d7bedf85911ccd0e937a60ba3888fe5d6dde13cd810a",
+   "sid_version": "2026-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771317172825.pdf"
+  }
+ ],
+ "scheme": "Mahindra Manulife Arbitrage Fund"
+}

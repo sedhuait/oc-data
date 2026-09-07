@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 859594,
+   "checked": "2026-09-07",
+   "file": "1739339581239.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739339581239.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c044ff0bc0787e6e145432dc7f6fe83ee4f21187992dd27916039790454a7c66",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739339581239.pdf"
+  }
+ ],
+ "scheme": "Kotak Gilt Fund"
+}

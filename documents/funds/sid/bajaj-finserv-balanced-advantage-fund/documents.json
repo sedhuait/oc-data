@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1185307,
+   "checked": "2026-09-07",
+   "file": "1727439492256.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1727439492256.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "cd5a2a6c30d9b4acd7f0ec243ef6878aef071800edbfe35cf23d28ea0252dcae",
+   "sid_version": "2024-09",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1727439492256.pdf"
+  }
+ ],
+ "scheme": "Bajaj Finserv Balanced Advantage Fund"
+}

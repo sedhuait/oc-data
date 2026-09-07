@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 980423,
+   "checked": "2026-09-07",
+   "file": "1734347247878.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734347247878.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e2191621f8d4ae4d8b07ee4f1bcb06c8407e595797458e23fb4dcba2f68efd99",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734347247878.pdf"
+  }
+ ],
+ "scheme": "SBI BSE 100 ETF"
+}

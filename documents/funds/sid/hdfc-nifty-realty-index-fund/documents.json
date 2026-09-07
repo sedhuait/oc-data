@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 839415,
+   "checked": "2026-09-07",
+   "file": "1732794135977.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732794135977.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "4b6cd652ea1f92f5c137562eed3439bebf5f5474175907b55fc0b18644c3cbc2",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732794135977.pdf"
+  }
+ ],
+ "scheme": "HDFC NIFTY Realty Index Fund"
+}

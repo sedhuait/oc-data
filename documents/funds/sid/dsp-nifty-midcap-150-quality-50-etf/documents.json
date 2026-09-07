@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2070211,
+   "checked": "2026-09-07",
+   "file": "1735817410523.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735817410523.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "734729d1610170cd7b6431f87da7bc60ef902487b5908d14d546960b710cf1de",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735817410523.pdf"
+  }
+ ],
+ "scheme": "DSP Nifty Midcap 150 Quality 50 ETF"
+}

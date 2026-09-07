@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 954597,
+   "checked": "2026-09-07",
+   "file": "1726806172653.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1726806172653.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "8eabb9940dbe47a24664446df717b38408d2d005e878af3dac108930ad735bce",
+   "sid_version": "2024-09",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1726806172653.pdf"
+  }
+ ],
+ "scheme": "TRUSTMF Short Duration Fund"
+}

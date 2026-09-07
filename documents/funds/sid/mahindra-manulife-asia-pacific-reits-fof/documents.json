@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 928157,
+   "checked": "2026-09-07",
+   "file": "1771317349099.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771317349099.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "09ad63f936e4bbd8bdc8cbe30e2401015bddcd76b2c9fcf27479d0500c656747",
+   "sid_version": "2026-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771317349099.pdf"
+  }
+ ],
+ "scheme": "Mahindra Manulife Asia Pacific REITs FOF"
+}

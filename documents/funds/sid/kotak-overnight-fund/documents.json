@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 861561,
+   "checked": "2026-09-07",
+   "file": "1739344078542.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739344078542.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "df39b44f58af772c1fcff934ae0e4b35f0179967c2166286f6260dc5327de443",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739344078542.pdf"
+  }
+ ],
+ "scheme": "Kotak Overnight Fund"
+}

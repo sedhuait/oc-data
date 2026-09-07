@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2195760,
+   "checked": "2026-09-07",
+   "file": "1734332487933.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734332487933.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "03ca238079c32e7970ebe09e93455333853b6b763f6ff33479c7a29fe8adc9ae",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734332487933.pdf"
+  }
+ ],
+ "scheme": "Edelweiss CRISIL IBX 50:50 Gilt Plus SDL June 2027 Index Fund"
+}

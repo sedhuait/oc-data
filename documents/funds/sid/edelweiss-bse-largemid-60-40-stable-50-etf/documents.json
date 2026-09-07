@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1009147,
+   "checked": "2026-09-07",
+   "file": "1784716519494.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2026/1784716519494.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b77d5c0e5201474c6eb5fdc9ff9677b182fc43512e26fc3083f9a709c546a9e7",
+   "sid_version": "2026-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2026/1784716519494.pdf"
+  }
+ ],
+ "scheme": "Edelweiss BSE LargeMid (60:40) Stable Dividend 50 ETF"
+}

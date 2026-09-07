@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 879486,
+   "checked": "2026-09-07",
+   "file": "1764665457735.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764665457735.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "8ce4bce72c8d7693ddc762fd004a05211f275d09e9dcab4a041e8e4025889dcb",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764665457735.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET NIFTY 100 ESG SECTOR LEADERS ETF"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 748606,
+   "checked": "2026-09-07",
+   "file": "1720765465904.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720765465904.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "7fa99cdf046fc4efa02b48eaaee4698b90c46aabc56c2e9a15f9a4372bd99148",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720765465904.pdf"
+  }
+ ],
+ "scheme": "Nippon India Consumption Fund"
+}

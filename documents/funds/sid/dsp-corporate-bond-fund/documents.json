@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2369447,
+   "checked": "2026-09-07",
+   "file": "1735817088976.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735817088976.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e6d737fb477c997977481522042e52d6670fb470f764ac547b6def686d5aaa51",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735817088976.pdf"
+  }
+ ],
+ "scheme": "DSP Corporate Bond Fund"
+}

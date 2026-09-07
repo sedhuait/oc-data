@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 934967,
+   "checked": "2026-09-07",
+   "file": "1750149126670.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750149126670.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "dee91b02f3036077c7b2b326574203552f004801a5931453c5416d570a24841c",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750149126670.pdf"
+  }
+ ],
+ "scheme": "Bandhan Liquid Fund"
+}

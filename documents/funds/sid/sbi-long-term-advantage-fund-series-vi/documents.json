@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 435659,
+   "checked": "2026-09-07",
+   "file": "1531110146263.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2018/1531110146263.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "5dd82435e26bf9d17c6012ef5b30a0b1636bda64892de0c71d232616304bd096",
+   "sid_version": "2018-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2018/1531110146263.pdf"
+  }
+ ],
+ "scheme": "SBI Long Term Advantage Fund - Series VI"
+}

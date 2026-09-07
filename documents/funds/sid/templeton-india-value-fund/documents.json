@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1028759,
+   "checked": "2026-09-07",
+   "file": "1764583774312.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764583774312.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "6c040eb805e0d187fb5d6a61f9525a325cb8fea1260def5dcb3ceab754edf874",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764583774312.pdf"
+  }
+ ],
+ "scheme": "Templeton India Value Fund"
+}

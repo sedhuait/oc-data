@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 869151,
+   "checked": "2026-09-07",
+   "file": "1732792694071.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732792694071.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3f30839f166968f3bbf0814f3fec5db6b4de8c745157ac0cfd1cb6a672e12875",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732792694071.pdf"
+  }
+ ],
+ "scheme": "HDFC NIFTY G-Sec Apr 2029 Index Fund"
+}

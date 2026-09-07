@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1527052,
+   "checked": "2026-09-07",
+   "file": "1765434838509.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765434838509.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "548577c347ec4254bb07ea07ce86b1231209e65a7ebf790e36d2bde35f4a9440",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765434838509.pdf"
+  }
+ ],
+ "scheme": "Taurus Ethical Fund"
+}

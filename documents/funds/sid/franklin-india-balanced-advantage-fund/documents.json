@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1182450,
+   "checked": "2026-09-07",
+   "file": "1764582908911.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764582908911.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "abf66f532713322dfa9175d8ab8b39d4fea8b48ea314c1831348dcdd12d2772e",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764582908911.pdf"
+  }
+ ],
+ "scheme": "Franklin India Balanced Advantage Fund"
+}

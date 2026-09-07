@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 967691,
+   "checked": "2026-09-07",
+   "file": "1719923051423.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1719923051423.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "2fd86860a8f62d98d4cbd4df2ea8d6c7d243365d9c7bac6a228375234d7a7c86",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1719923051423.pdf"
+  }
+ ],
+ "scheme": "Bharat Bond FoF - April 2030"
+}

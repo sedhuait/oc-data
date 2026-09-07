@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1674202,
+   "checked": "2026-09-07",
+   "file": "1652178647013.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1652178647013.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "049d201cfd01103b39c8949a54e7dbb2c32404501422433174d76ce67edf0807",
+   "sid_version": "2022-05",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1652178647013.pdf"
+  }
+ ],
+ "scheme": "Tata Ultra Short Term Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1679467,
+   "checked": "2026-09-07",
+   "file": "1685697489374.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685697489374.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c11dac1535e7df988152d4df3cab43f87ca8e0963ec181be229d14c2fc016904",
+   "sid_version": "2023-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685697489374.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Transportation and Logistics Fund"
+}

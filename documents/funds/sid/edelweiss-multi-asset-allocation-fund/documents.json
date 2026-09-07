@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2354278,
+   "checked": "2026-09-07",
+   "file": "1734329053534.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734329053534.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "5c6704e58c7a03b17f541de02c5cc721d947b90e52b3fc7b4e7f67d32564aeda",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734329053534.pdf"
+  }
+ ],
+ "scheme": "EDELWEISS MULTI ASSET ALLOCATION FUND"
+}

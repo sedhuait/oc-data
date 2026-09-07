@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 965521,
+   "checked": "2026-09-07",
+   "file": "1750150400578.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750150400578.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ddd9cbc548f0b9a15f7a7a7d053b93df6fe03d0e46fb323053da9ec8daf3ef36",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750150400578.pdf"
+  }
+ ],
+ "scheme": "Bandhan Small Cap Fund"
+}

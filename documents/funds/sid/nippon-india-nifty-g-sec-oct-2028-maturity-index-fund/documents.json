@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 743996,
+   "checked": "2026-09-07",
+   "file": "1720776842791.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720776842791.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "43ac45c453af26c08b813fb6a7e4afcc808d951d0762af3a556a2142cc1f0d7b",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720776842791.pdf"
+  }
+ ],
+ "scheme": "Nippon India Nifty G-Sec - Oct 2028 Maturity Index Fund"
+}

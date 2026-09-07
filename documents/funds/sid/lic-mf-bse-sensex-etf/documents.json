@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1390584,
+   "checked": "2026-09-07",
+   "file": "1752475384679.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752475384679.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "9c43fd726283d2f357d7c74118506243958775bf1de47487147aa7d9aac93623",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752475384679.pdf"
+  }
+ ],
+ "scheme": "LIC MF BSE Sensex ETF"
+}

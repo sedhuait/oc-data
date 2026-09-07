@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 662513,
+   "checked": "2026-09-07",
+   "file": "1733718805554.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733718805554.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "156c56e2f7c16d7029b1b432d6730e62d0134b8c3a9be506f1312743a5991e21",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733718805554.pdf"
+  }
+ ],
+ "scheme": "Axis Overnight Fund"
+}

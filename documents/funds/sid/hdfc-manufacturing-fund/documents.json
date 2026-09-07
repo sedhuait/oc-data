@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 860990,
+   "checked": "2026-09-07",
+   "file": "1732790115210.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732790115210.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "5ee11ab3506cca24cc2edf59fa8d812746c5fd27a3576c07ed7ae3e1dfa4c5ae",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732790115210.pdf"
+  }
+ ],
+ "scheme": "HDFC Manufacturing Fund"
+}

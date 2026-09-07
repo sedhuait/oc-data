@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1136949,
+   "checked": "2026-09-07",
+   "file": "1727779400295.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727779400295.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c5177395d700ee8829493ef10ca6596614dbb34c7ec26f9a6a2f984cd4918dc6",
+   "sid_version": "2024-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727779400295.pdf"
+  }
+ ],
+ "scheme": "HSBC Arbitrage Fund"
+}

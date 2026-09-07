@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1116642,
+   "checked": "2026-09-07",
+   "file": "1741838672225.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1741838672225.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "1dfea88625243b97b1953c7c4ff17e907329de5dcfb557bda4ea85180a921f4f",
+   "sid_version": "2025-03",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1741838672225.pdf"
+  }
+ ],
+ "scheme": "UTI Income plus Arbitrage Active Fund of Fund"
+}

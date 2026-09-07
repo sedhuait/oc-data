@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 729401,
+   "checked": "2026-09-07",
+   "file": "1733130642744.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733130642744.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "714e9c2fd9345931f1beba3e66b33ae16de79cc19f8fd3f065ee756758605d68",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733130642744.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life ESG Integration Strategy Fund"
+}

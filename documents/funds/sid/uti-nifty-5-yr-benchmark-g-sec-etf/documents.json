@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1076256,
+   "checked": "2026-09-07",
+   "file": "1751869125771.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751869125771.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a06e9fc98ecfdc05d5f92b690265c1eaf7341c952627bdcb58b9360846aacb5f",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751869125771.pdf"
+  }
+ ],
+ "scheme": "UTI Nifty 5 yr Benchmark G-Sec ETF"
+}

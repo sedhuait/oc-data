@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1420525,
+   "checked": "2026-09-07",
+   "file": "1735894303464.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735894303464.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "69f6c6f93e650b02db290043da07f3b7f176cfc3f80ccda750b4b0dd3cea8862",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735894303464.pdf"
+  }
+ ],
+ "scheme": "Union Money Market Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1316891,
+   "checked": "2026-09-07",
+   "file": "1752054860900.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752054860900.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "76a8bab6bf07059bc4a0603f917ed1ae7430b1f58c6a5c72c1a71278aaaeed51",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752054860900.pdf"
+  }
+ ],
+ "scheme": "Samco Active Momentum Fund"
+}

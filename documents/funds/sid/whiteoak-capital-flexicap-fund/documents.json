@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1028118,
+   "checked": "2026-09-07",
+   "file": "1726807057417.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1726807057417.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b5852bdd793089b8502196b99ac749bac7ad9ce28775a444bf4b3803b65947f4",
+   "sid_version": "2024-09",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1726807057417.pdf"
+  }
+ ],
+ "scheme": "WhiteOak Capital Flexi Cap Fund"
+}

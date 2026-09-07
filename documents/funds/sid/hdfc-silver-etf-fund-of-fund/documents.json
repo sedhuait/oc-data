@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 835153,
+   "checked": "2026-09-07",
+   "file": "1732795055571.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732795055571.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ad329d0a7dc75e92813a5540d3e1c63189a0a1538282aecef3a2db817d691b6d",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732795055571.pdf"
+  }
+ ],
+ "scheme": "HDFC Silver ETF Fund of Fund"
+}

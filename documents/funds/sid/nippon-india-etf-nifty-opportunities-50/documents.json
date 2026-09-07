@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 839279,
+   "checked": "2026-09-07",
+   "file": "1720773712686.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720773712686.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e1c02d6b62a8748192b1b2efa265ac85e301689854c395cfb92f46c64c7e58ee",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720773712686.pdf"
+  }
+ ],
+ "scheme": "Nippon India ETF Nifty Dividend Opportunities 50"
+}

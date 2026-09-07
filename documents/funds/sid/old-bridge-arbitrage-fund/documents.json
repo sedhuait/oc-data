@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1493248,
+   "checked": "2026-09-07",
+   "file": "1761718697040.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2025/1761718697040.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "fbe1f6c1297d9429a20f461c23612cd6258e5ec63ec3b645e6300da7d19e544c",
+   "sid_version": "2025-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2025/1761718697040.pdf"
+  }
+ ],
+ "scheme": "Old Bridge Arbitrage Fund"
+}

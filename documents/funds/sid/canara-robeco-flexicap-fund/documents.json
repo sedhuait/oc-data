@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1163267,
+   "checked": "2026-09-07",
+   "file": "1749013342767.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749013342767.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "01910973132be83a0ab796126ec3f7de8e50ed1948ddb2be33ce982bbd60f4c9",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749013342767.pdf"
+  }
+ ],
+ "scheme": "Canara Robeco Flexi Cap Fund"
+}

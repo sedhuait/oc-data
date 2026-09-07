@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 723111,
+   "checked": "2026-09-07",
+   "file": "1733128346452.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733128346452.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ee7f0d9d8dfb7213d3a8bd5ebde344cd68017753fd8ad065bc48604cabca94f0",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733128346452.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life Arbitrage Fund"
+}

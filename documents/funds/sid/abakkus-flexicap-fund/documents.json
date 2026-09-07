@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 823738,
+   "checked": "2026-09-07",
+   "file": "1764331944274.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2025/1764331944274.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "dc65aea97d08d0305b514c4f760853bc81d5a87382bd7e23efbc235c3dab3599",
+   "sid_version": "2025-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2025/1764331944274.pdf"
+  }
+ ],
+ "scheme": "Abakkus Flexi Cap Fund"
+}

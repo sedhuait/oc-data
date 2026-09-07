@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1375381,
+   "checked": "2026-09-07",
+   "file": "1750161098684.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750161098684.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "dd441b7e743fc0865cede39923e1285e6daf55b50bc252aa4f4bdcea1a317c96",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750161098684.pdf"
+  }
+ ],
+ "scheme": "Bandhan Nifty Total Market Index Fund"
+}

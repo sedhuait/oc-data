@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1414206,
+   "checked": "2026-09-07",
+   "file": "1749118431454.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749118431454.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "5d03c3d0e2b909499823aa03efef20a0e2a1cb1abf07c6ee3af4000173bb218d",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749118431454.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Nifty 10 yr Benchmark G-Sec ETF"
+}

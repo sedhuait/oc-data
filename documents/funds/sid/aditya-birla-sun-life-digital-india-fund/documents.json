@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 858072,
+   "checked": "2026-09-07",
+   "file": "1733128694049.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733128694049.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "9cdcaf88102c79be7286188637ce727bbee2ca3a25583c0b757a9a3778d26783",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733128694049.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life Digital India Fund"
+}

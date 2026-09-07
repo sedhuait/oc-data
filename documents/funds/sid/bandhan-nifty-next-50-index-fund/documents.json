@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 862433,
+   "checked": "2026-09-07",
+   "file": "1738736762363.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1738736762363.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "f2da2f2df32f43ef972d0bcdf2b018f0e8b63f247c70001cf07a3af4837a9a57",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1738736762363.pdf"
+  }
+ ],
+ "scheme": "Bandhan Nifty Next 50 Index Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2642802,
+   "checked": "2026-09-07",
+   "file": "1651727751218.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1651727751218.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "30b39bc050805d1770cdc64ef788edcd20a2ffcc9a2338898032edc030847d65",
+   "sid_version": "2022-05",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1651727751218.pdf"
+  }
+ ],
+ "scheme": "Tata Liquid Fund"
+}

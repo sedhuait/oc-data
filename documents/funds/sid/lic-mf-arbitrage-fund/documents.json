@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1425591,
+   "checked": "2026-09-07",
+   "file": "1752226942634.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752226942634.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "87b4536332026a989a2b55136d4d3f2e12568af4426ad6d22513ad4108204a6f",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752226942634.pdf"
+  }
+ ],
+ "scheme": "LIC MF Arbitrage Fund"
+}

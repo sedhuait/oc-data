@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 649662,
+   "checked": "2026-09-07",
+   "file": "1733122318126.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733122318126.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "287ae00b691d934961b984e1ee56ac95ffc9d2c5d13e62267e88227de2dc0b51",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733122318126.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life Global Excellence Equity Fund of Fund"
+}

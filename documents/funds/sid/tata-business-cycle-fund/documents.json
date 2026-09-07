@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1838997,
+   "checked": "2026-09-07",
+   "file": "1652266089554.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1652266089554.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "0d78ab64e228eb3026e47e5aa6dae4d26fe010b122e9dbdf54ee9a30ee559122",
+   "sid_version": "2022-05",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1652266089554.pdf"
+  }
+ ],
+ "scheme": "Tata Business Cycle Fund"
+}

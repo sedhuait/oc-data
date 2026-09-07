@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 728776,
+   "checked": "2026-09-07",
+   "file": "1720765413769.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720765413769.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ed50f843e3b0052f2fe6ad0595763b6746421620fca72da1a74595ed7c411b5d",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720765413769.pdf"
+  }
+ ],
+ "scheme": "Nippon India Banking & Financial Services Fund"
+}

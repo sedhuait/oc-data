@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1672490,
+   "checked": "2026-09-07",
+   "file": "1752227589678.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752227589678.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "54300dff88482b615daffb9f35e5b265d3e7731ea709074b779971de3eaa8663",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752227589678.pdf"
+  }
+ ],
+ "scheme": "LIC MF Money Market Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1859762,
+   "checked": "2026-09-07",
+   "file": "1765434932332.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765434932332.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e7696931e6c15c594dc0e8ed12cee0379df36fc7a90fc30ebcb9428fc966929c",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765434932332.pdf"
+  }
+ ],
+ "scheme": "Taurus Flexi Cap Fund"
+}

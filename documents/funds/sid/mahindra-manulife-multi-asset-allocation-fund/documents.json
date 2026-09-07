@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1085725,
+   "checked": "2026-09-07",
+   "file": "1771318361215.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771318361215.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "9812276f5f120373ae6e08e73154ad18e247edd584b8a33e3348d70bfff0b36d",
+   "sid_version": "2026-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771318361215.pdf"
+  }
+ ],
+ "scheme": "Mahindra Manulife Multi Asset Allocation Fund"
+}

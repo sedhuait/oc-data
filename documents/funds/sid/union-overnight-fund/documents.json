@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1382186,
+   "checked": "2026-09-07",
+   "file": "1735893887468.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735893887468.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "5335b01e1a3dfeeeb5bd7369067113610729c96e4c960c2c2531dbf9cd38b4c6",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735893887468.pdf"
+  }
+ ],
+ "scheme": "Union Overnight Fund"
+}

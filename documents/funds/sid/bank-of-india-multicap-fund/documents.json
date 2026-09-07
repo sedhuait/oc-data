@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2105099,
+   "checked": "2026-09-07",
+   "file": "1674551235157.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2023/1674551235157.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a75ebb102f51ce81cb430c137d14924b50395c248148cf0848c5997181e57d1c",
+   "sid_version": "2023-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2023/1674551235157.pdf"
+  }
+ ],
+ "scheme": "Bank of India Multi Cap Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 710937,
+   "checked": "2026-09-07",
+   "file": "1735549391466.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1735549391466.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "345364315d0a51c69c97944a7318a1b4cb5cab2a7afc50e38f68d8d050ca61a0",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1735549391466.pdf"
+  }
+ ],
+ "scheme": "Navi ELSS Tax Saver Fund"
+}

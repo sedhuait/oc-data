@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 747144,
+   "checked": "2026-09-07",
+   "file": "1733481705169.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733481705169.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "cf1e041c3fa117335895b41eb9911614a8b8ef3b7d52f23fa8b927238cf0d3e0",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733481705169.pdf"
+  }
+ ],
+ "scheme": "Zerodha Nifty LargeMidcap 250 Index Fund"
+}

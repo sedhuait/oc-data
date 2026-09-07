@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 866493,
+   "checked": "2026-09-07",
+   "file": "1764661263488.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764661263488.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "9157a1448f50a567353a19d0afcfddb43de10e005e187c221d54c6bad6313085",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764661263488.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET ELSS TAX SAVER FUND"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 810651,
+   "checked": "2026-09-07",
+   "file": "1757395436519.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2025/1757395436519.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "1e6261f65f63be8c47bddec21fe115ead54c8f26a72d4b06ff4d75b9146a8066",
+   "sid_version": "2025-09",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2025/1757395436519.pdf"
+  }
+ ],
+ "scheme": "Axis Gold ETF"
+}

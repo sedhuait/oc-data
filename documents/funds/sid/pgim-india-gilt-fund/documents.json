@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1453725,
+   "checked": "2026-09-07",
+   "file": "1597033971399.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2020/1597033971399.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3f9ed9b0935d0c0a581cd33e1a569db174d099d740109eb47e09028400ce01c9",
+   "sid_version": "2020-08",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2020/1597033971399.pdf"
+  }
+ ],
+ "scheme": "PGIM India Gilt Fund"
+}

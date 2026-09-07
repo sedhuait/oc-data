@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1410359,
+   "checked": "2026-09-07",
+   "file": "1749013193426.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749013193426.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b540534c684e32bb949d51289252bb023c9c1fa0e4cc57ba33d44ddc7f91fd2a",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749013193426.pdf"
+  }
+ ],
+ "scheme": "CANARA ROBECO OVERNIGHT FUND"
+}

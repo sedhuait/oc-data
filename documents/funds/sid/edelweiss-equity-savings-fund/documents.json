@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2332480,
+   "checked": "2026-09-07",
+   "file": "1734324087668.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734324087668.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "6d972cf45eb3843d83202a3a72171643ba1031c503bdeeaab03c21c9cda531bd",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734324087668.pdf"
+  }
+ ],
+ "scheme": "Edelweiss  Equity Savings Fund"
+}

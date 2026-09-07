@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 554547,
+   "checked": "2026-09-07",
+   "file": "1764660961816.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764660961816.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "92336baa66ce05a75b7c6fc1391eeafe40826a90446a17b60b8fb1fa530be9d0",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764660961816.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET CRISIL IBX GILT INDEX - APRIL 2033 INDEX FUND"
+}

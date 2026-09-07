@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 940962,
+   "checked": "2026-09-07",
+   "file": "1750150816015.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750150816015.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "7c6b2721fb285a9c8249b17b3866329da549eb161045e6e353cca16210d6aabd",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750150816015.pdf"
+  }
+ ],
+ "scheme": "Bandhan Financial Services Fund"
+}

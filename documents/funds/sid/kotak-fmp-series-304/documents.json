@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1341778,
+   "checked": "2026-09-07",
+   "file": "1671447527191.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2022/1671447527191.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "7ae0897bb16bb23c95431c000430405db93decbb70d25b4fa60e16bae5c03ff3",
+   "sid_version": "2022-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2022/1671447527191.pdf"
+  }
+ ],
+ "scheme": "Kotak FMP Series 304"
+}

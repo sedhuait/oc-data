@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1450585,
+   "checked": "2026-09-07",
+   "file": "1750328254657.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750328254657.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "f7a492ccf869f5d6c43dc6125a45d91fe70c9492565fcd1965829ff1fbf0dfc6",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750328254657.pdf"
+  }
+ ],
+ "scheme": "Motilal Oswal Nasdaq 100 Fund of Fund"
+}

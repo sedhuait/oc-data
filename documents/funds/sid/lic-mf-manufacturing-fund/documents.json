@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 990495,
+   "checked": "2026-09-07",
+   "file": "1752227098931.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752227098931.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ddf7fe08a252de10d50b7a5326ecb80c1577ba653cad7759c565b66485602c01",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752227098931.pdf"
+  }
+ ],
+ "scheme": "LIC MF Manufacturing Fund"
+}

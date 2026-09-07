@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2259708,
+   "checked": "2026-09-07",
+   "file": "1734332615196.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734332615196.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "8fae43432c71381d5e427071a0066704a7d9319915330f3a58c91c7346894e5b",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734332615196.pdf"
+  }
+ ],
+ "scheme": "Edelweiss Silver ETF"
+}

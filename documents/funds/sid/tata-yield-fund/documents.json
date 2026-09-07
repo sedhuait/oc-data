@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 733099,
+   "checked": "2026-09-07",
+   "file": "1652263253280.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1652263253280.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "9997628ff879d204585b6719d1c78adad0ea88c023f9213eddabedb38cde07e2",
+   "sid_version": "2022-05",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1652263253280.pdf"
+  }
+ ],
+ "scheme": "Tata Dividend Yield Fund"
+}

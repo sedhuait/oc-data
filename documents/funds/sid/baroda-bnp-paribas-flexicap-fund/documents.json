@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 767206,
+   "checked": "2026-09-07",
+   "file": "1735882113846.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735882113846.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a42aaae779b39c017f08fead6a5804348115fe4b32b843aacd24d83f563602fd",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735882113846.pdf"
+  }
+ ],
+ "scheme": "Baroda BNP Paribas Flexi Cap Fund"
+}

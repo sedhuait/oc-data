@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 912869,
+   "checked": "2026-09-07",
+   "file": "1720762342245.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720762342245.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "da5e784b01cd3921bf1051e5811ad04faf3a3856498db583f1b687f6d5f72f03",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720762342245.pdf"
+  }
+ ],
+ "scheme": "Nippon India Short Term Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1714887,
+   "checked": "2026-09-07",
+   "file": "1623318669516.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2021/1623318669516.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a3b96af0b29c429de7786faa9f6d29a00758c22799a7fabff3f18f2f5afe8aa3",
+   "sid_version": "2021-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2021/1623318669516.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life Fixed Term Plan - Series TI (1837 days)"
+}

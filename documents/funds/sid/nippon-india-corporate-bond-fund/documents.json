@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 994516,
+   "checked": "2026-09-07",
+   "file": "1720761684197.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720761684197.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "f3e98646b090bc9a25ad34075745443d578b31c0c58bb0245985c00e7bb295dc",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720761684197.pdf"
+  }
+ ],
+ "scheme": "Nippon India Corporate Bond Fund"
+}

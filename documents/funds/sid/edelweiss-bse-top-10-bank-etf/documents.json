@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1062764,
+   "checked": "2026-09-07",
+   "file": "1784522544830.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2026/1784522544830.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "fc420991c3b6562a34a684aff6344bc577503fe257f30e6f92436e2f16714ef2",
+   "sid_version": "2026-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2026/1784522544830.pdf"
+  }
+ ],
+ "scheme": "Edelweiss BSE Top 10 Bank ETF"
+}

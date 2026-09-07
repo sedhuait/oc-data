@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 6674031,
+   "checked": "2026-09-07",
+   "file": "1765440175324.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765440175324.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "24768eec98a933171f2f7b483a0e4cc075ac247736b87a853a68a29efa70c37c",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765440175324.pdf"
+  }
+ ],
+ "scheme": "Helios Balanced Advantage Fund"
+}

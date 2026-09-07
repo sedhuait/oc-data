@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1465671,
+   "checked": "2026-09-07",
+   "file": "1749026834855.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749026834855.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "201bddd3fa37bb6b3b80245e4e1c8b42005af6f4c9575577070847ab0c06eab7",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749026834855.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Global Stable Equity Fund (FOF)"
+}

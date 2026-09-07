@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1117912,
+   "checked": "2026-09-07",
+   "file": "1751627347976.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751627347976.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c67608b3f3b300d01dcbbf9ed45d6e66112f3d9c9d2f8ca79ec3da225865011c",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751627347976.pdf"
+  }
+ ],
+ "scheme": "UTI Small Cap Fund"
+}

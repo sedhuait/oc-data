@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 977564,
+   "checked": "2026-09-07",
+   "file": "1726806249532.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1726806249532.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "90c811fdb95f8aa01302d485cfad69af9183e585f030d59aaf75717c0dd49fa8",
+   "sid_version": "2024-09",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1726806249532.pdf"
+  }
+ ],
+ "scheme": "TRUSTMF Corporate Bond Fund"
+}

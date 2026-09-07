@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 850453,
+   "checked": "2026-09-07",
+   "file": "1732786814107.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732786814107.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "6a1cd7a80071547366e87d61f8ca3d9c3bdbf16b9dc2fea52e78337e051e9662",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732786814107.pdf"
+  }
+ ],
+ "scheme": "HDFC Defence Fund"
+}

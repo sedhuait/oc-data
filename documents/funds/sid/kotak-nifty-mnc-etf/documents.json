@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 970691,
+   "checked": "2026-09-07",
+   "file": "1739343571189.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739343571189.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a48fbb5decda6d7ab861f8ae45464b4431175a7977bce589b99e8ae0f79fac25",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739343571189.pdf"
+  }
+ ],
+ "scheme": "Kotak Nifty MNC ETF"
+}

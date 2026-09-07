@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 417476,
+   "checked": "2026-09-07",
+   "file": "1764669616762.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764669616762.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d416e400875dd6e06d20f5742e34cf98079cb688c632a0ae2b37c5e3163d1f22",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764669616762.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET NIFTY SDL JUN 2027 INDEX FUND"
+}

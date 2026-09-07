@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1368544,
+   "checked": "2026-09-07",
+   "file": "1727780046442.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727780046442.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a9bf3dfa8d1f83ad6fd6f02df3275e8bb17aee92bb3f06c7ade7191f36c2f556",
+   "sid_version": "2024-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727780046442.pdf"
+  }
+ ],
+ "scheme": "HSBC Focused Fund"
+}

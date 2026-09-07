@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1428297,
+   "checked": "2026-09-07",
+   "file": "1752055143823.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752055143823.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "5bb53b138a6af0f01730787f3b3817783d5f194c089025d6035d84562b94ac47",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752055143823.pdf"
+  }
+ ],
+ "scheme": "Samco Multi Asset Allocation Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1099654,
+   "checked": "2026-09-07",
+   "file": "1719478400993.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2024/1719478400993.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "1e0ef74beaa44082c6b4628dc473181aad11e2564c6c012a967276d5b1128231",
+   "sid_version": "2024-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2024/1719478400993.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Credit Risk Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1413153,
+   "checked": "2026-09-07",
+   "file": "1749119188574.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749119188574.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "347869592300da69d21c9e913e5152f51e4c9898c43933ab2b3315db2fac91e1",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749119188574.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Nifty Financial Services Ex-Bank ETF"
+}

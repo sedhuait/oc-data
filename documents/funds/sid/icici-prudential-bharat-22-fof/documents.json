@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1353604,
+   "checked": "2026-09-07",
+   "file": "1749115434248.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749115434248.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "2bc1052f8f6a399de9470eb8aa6cd18db5ab2e2ab51204a0f0f909e9983f19e7",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749115434248.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential BHARAT 22 FOF"
+}

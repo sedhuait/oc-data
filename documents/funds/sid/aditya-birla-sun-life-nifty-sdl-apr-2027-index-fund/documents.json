@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 961940,
+   "checked": "2026-09-07",
+   "file": "1733128729907.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733128729907.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "8bf8a665a036c2114cc79a96a0e66dd5c4526ba53de259ca5d398cc8ed3c484c",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733128729907.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life Nifty SDL Apr 2027 Index Fund"
+}

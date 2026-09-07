@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1569815,
+   "checked": "2026-09-07",
+   "file": "1752054992252.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752054992252.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "31e259e505b45d3a44a54c91c18ad38a6b631cee44d94a814ff0a3fdf897310c",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752054992252.pdf"
+  }
+ ],
+ "scheme": "Samco Dynamic Asset Allocation Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1752537,
+   "checked": "2026-09-07",
+   "file": "1785819199673.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2026/1785819199673.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "91e36ebde2a7ac2c15e50f45ee801e4754dfd4eb9212274f1783ffe046f5162b",
+   "sid_version": "2026-08",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2026/1785819199673.pdf"
+  }
+ ],
+ "scheme": "UTI Nifty 500 Exchange Traded Fund"
+}

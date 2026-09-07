@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 435580,
+   "checked": "2026-09-07",
+   "file": "1753770444660.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1753770444660.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "46a447e282fa04d78daaf743924e5d0125bbe7908df059913aa931fbb840b968",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1753770444660.pdf"
+  }
+ ],
+ "scheme": "JioBlackRock Nifty 8-13 yr G-Sec Index Fund"
+}

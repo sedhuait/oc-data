@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 761936,
+   "checked": "2026-09-07",
+   "file": "1769574584704.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2026/1769574584704.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "50f4f4b50c475306c2310e3cfbc43bec45ad3823869dca9daf43a60474b0f19a",
+   "sid_version": "2026-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2026/1769574584704.pdf"
+  }
+ ],
+ "scheme": "Mirae Asset BSE India Defence ETF FOF"
+}

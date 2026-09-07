@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 608985,
+   "checked": "2026-09-07",
+   "file": "1750328355935.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750328355935.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "6e12f652e4010e989bb16c3bdd333cd640a625a0770407c3d4dbd86e32cc2b75",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750328355935.pdf"
+  }
+ ],
+ "scheme": "Motilal Oswal Nifty 200 Momentum 30 ETF"
+}

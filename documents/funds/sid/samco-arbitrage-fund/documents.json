@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1386091,
+   "checked": "2026-09-07",
+   "file": "1752055114143.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752055114143.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "85fd96337bd6b01db3daa18f73abb43b374ab7ca7d81f68f11cbf61d18d5a2d9",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752055114143.pdf"
+  }
+ ],
+ "scheme": "Samco Arbitrage Fund"
+}

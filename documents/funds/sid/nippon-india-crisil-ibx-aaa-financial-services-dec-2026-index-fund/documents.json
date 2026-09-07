@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1322686,
+   "checked": "2026-09-07",
+   "file": "1728451252841.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1728451252841.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c01c435e4a92fc7b5590047b6c699b927d7fe54eae9ef0831c67d88499d2bb8a",
+   "sid_version": "2024-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1728451252841.pdf"
+  }
+ ],
+ "scheme": "Nippon India CRISIL-IBX AAA Financial Services - Dec 2026 Index Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1254161,
+   "checked": "2026-09-07",
+   "file": "1751629620873.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751629620873.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "8ac78326016af8d493b48382652eddc6f49bac64110777762b067b854787ea41",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751629620873.pdf"
+  }
+ ],
+ "scheme": "UTI Nifty Next 50 Index Fund"
+}

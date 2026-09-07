@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1285571,
+   "checked": "2026-09-07",
+   "file": "1727780341395.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727780341395.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "30690a67249220d4aae26699ad7f9602262408b04e225ccc100844e2157836a3",
+   "sid_version": "2024-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727780341395.pdf"
+  }
+ ],
+ "scheme": "HSBC Consumption Fund"
+}

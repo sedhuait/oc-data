@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1922608,
+   "checked": "2026-09-07",
+   "file": "1735817502537.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735817502537.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "f6c7b55fa1eb4bb0452bb81837f318525ced50f5c81b6548d2b1f6db12b35aa1",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735817502537.pdf"
+  }
+ ],
+ "scheme": "DSP Silver ETF"
+}

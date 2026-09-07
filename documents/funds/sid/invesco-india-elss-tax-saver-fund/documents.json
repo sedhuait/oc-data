@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1101999,
+   "checked": "2026-09-07",
+   "file": "1749188080868.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749188080868.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "79558d6763a0b95fa254bbef105f38c89333473d772da5f56a87df298d2ddc73",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749188080868.pdf"
+  }
+ ],
+ "scheme": "Invesco India ELSS Tax Saver Fund"
+}

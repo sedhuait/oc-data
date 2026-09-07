@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 653489,
+   "checked": "2026-09-07",
+   "file": "1763715502184.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2025/1763715502184.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "22a9d7e4bf089e5f33d30e3d6eecd8f83ccc69b8039efdd821bd600303107e7a",
+   "sid_version": "2025-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2025/1763715502184.pdf"
+  }
+ ],
+ "scheme": "Bandhan Silver ETF"
+}

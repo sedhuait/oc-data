@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 927273,
+   "checked": "2026-09-07",
+   "file": "1751871154224.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751871154224.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "2180a943d23e9e58b7105b3c1dbe38563757add32903bd7fc1172f03fbfd837b",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751871154224.pdf"
+  }
+ ],
+ "scheme": "UTI Silver ETF Fund of Fund"
+}

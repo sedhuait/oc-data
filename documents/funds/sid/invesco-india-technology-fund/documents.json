@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 980742,
+   "checked": "2026-09-07",
+   "file": "1749193069542.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749193069542.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "419d9c2d6fe338e80821cb03baed51e3051b96931606736a431027a1e9ea06ef",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749193069542.pdf"
+  }
+ ],
+ "scheme": "Invesco India Technology Fund"
+}

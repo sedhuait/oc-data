@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 841726,
+   "checked": "2026-09-07",
+   "file": "1750159858146.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750159858146.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "6cfa2044fd8dc66b0529d0b73023283451d1a7c065a1142229df6048b7fa39b2",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750159858146.pdf"
+  }
+ ],
+ "scheme": "Bandhan Nifty 50 ETF"
+}

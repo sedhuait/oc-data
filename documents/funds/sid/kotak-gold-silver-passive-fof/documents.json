@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 561989,
+   "checked": "2026-09-07",
+   "file": "1759306731743.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2025/1759306731743.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "1a720d2d239d3edc140e4d29919e9e2a19a9da7f0a2454ac76ec00de2c8a748c",
+   "sid_version": "2025-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2025/1759306731743.pdf"
+  }
+ ],
+ "scheme": "Kotak Gold Silver Passive FOF"
+}

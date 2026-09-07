@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 962436,
+   "checked": "2026-09-07",
+   "file": "1720773665329.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720773665329.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "7265a216270d9f93501743ed967be1d6e7ec4e2ce064bdeabea69a02ed498862",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720773665329.pdf"
+  }
+ ],
+ "scheme": "CPSE ETF"
+}

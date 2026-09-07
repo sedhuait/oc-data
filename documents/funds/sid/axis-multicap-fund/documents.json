@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1098033,
+   "checked": "2026-09-07",
+   "file": "1733488769415.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733488769415.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "628cbe1d0498f9edddc8d9352433c2ae7cd3a0e1411d1a5a78044c200e3b36af",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733488769415.pdf"
+  }
+ ],
+ "scheme": "Axis Multicap Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 800965,
+   "checked": "2026-09-07",
+   "file": "1720775436205.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720775436205.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d041a5ba0944b7e94eefadb3391b0c967a43d01641fb98208a3eddad5cc0d684",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720775436205.pdf"
+  }
+ ],
+ "scheme": "Nippon India Index Fund - BSE Sensex Plan"
+}

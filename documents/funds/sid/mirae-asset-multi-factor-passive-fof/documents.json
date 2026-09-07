@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 841984,
+   "checked": "2026-09-07",
+   "file": "1764665386290.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764665386290.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "1f19061a7a6b1af85fcc84db9a6c445d362ebb625cb2ed3cc101eff9695bdbd9",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764665386290.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET MULTI FACTOR PASSIVE FOF"
+}

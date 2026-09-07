@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 798013,
+   "checked": "2026-09-07",
+   "file": "1765436727329.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765436727329.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "82a406ed6a2c0bd26b8c7dc29a7c9ca9120838e2aac5de4e77480bb541366a7c",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765436727329.pdf"
+  }
+ ],
+ "scheme": "JM Aggressive Hybrid Fund"
+}

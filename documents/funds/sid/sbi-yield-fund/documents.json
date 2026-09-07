@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1110536,
+   "checked": "2026-09-07",
+   "file": "1734346251805.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734346251805.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ba57cda04e0ee4386a60ddb9f2b6113b425a327aa46e957462931e340934180f",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734346251805.pdf"
+  }
+ ],
+ "scheme": "SBI Dividend Yield Fund"
+}

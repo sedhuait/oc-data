@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 3259564,
+   "checked": "2026-09-07",
+   "file": "1652178508971.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1652178508971.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ef68521aaf02ca7cf697e66a9379eed918799aef62871ead9794d25e89c81874",
+   "sid_version": "2022-05",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1652178508971.pdf"
+  }
+ ],
+ "scheme": "Tata Short Term Bond Fund"
+}

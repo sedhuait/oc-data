@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1824890,
+   "checked": "2026-09-07",
+   "file": "1749125131881.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749125131881.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "5be3ffd0329ee95c78dd156d34a5d0d0639c8cfe178e660753519af172beb14f",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749125131881.pdf"
+  }
+ ],
+ "scheme": "Shriram Balanced Advantage Fund"
+}

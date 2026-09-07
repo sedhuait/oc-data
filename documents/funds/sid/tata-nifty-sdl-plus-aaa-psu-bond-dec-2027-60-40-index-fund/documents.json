@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1323722,
+   "checked": "2026-09-07",
+   "file": "1665564212328.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2022/1665564212328.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "1bf699f566ca7916d7dec123fc475b28e047e48a0516882624bd85d64c3332bb",
+   "sid_version": "2022-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2022/1665564212328.pdf"
+  }
+ ],
+ "scheme": "TATA NIFTY SDL PLUS AAA PSU BOND DEC 2027 60 40 INDEX FUND"
+}

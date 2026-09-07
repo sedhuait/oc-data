@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 765274,
+   "checked": "2026-09-07",
+   "file": "1743482508650.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/apr-2025/1743482508650.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d9910b997220fe0f1b7a0bc4bfcd48c6a6e1b2b378861ed913bac74119faf91a",
+   "sid_version": "2025-04",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/apr-2025/1743482508650.pdf"
+  }
+ ],
+ "scheme": "Kotak Nifty Top 10 Equal Weight Index Fund"
+}

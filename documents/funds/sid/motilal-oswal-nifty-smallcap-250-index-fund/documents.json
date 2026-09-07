@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1643848,
+   "checked": "2026-09-07",
+   "file": "1750413719263.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750413719263.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "7900f002cd74123ae19378a50e6c9cca429408585cd1ebfcf3feff0860af67b2",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750413719263.pdf"
+  }
+ ],
+ "scheme": "Motilal Oswal Nifty Smallcap 250 Index Fund"
+}

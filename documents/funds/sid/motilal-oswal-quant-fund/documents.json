@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 898401,
+   "checked": "2026-09-07",
+   "file": "1750413789692.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750413789692.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d884a450902eb0b963a8c525b054788e900f832b91f90b95fe4e9f1ba5761130",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750413789692.pdf"
+  }
+ ],
+ "scheme": "Motilal Oswal Quant Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1302717,
+   "checked": "2026-09-07",
+   "file": "1751629737319.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751629737319.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "7830caf41a047deab3be1f3c2baffedd0f15814839b86a51becbeef93e693945",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751629737319.pdf"
+  }
+ ],
+ "scheme": "UTI BSE Sensex Index Fund"
+}

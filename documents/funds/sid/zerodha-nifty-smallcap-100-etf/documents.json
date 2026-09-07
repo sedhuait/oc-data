@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1348190,
+   "checked": "2026-09-07",
+   "file": "1764332947161.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2025/1764332947161.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e128ed6c45766aeaf3add14d7028253bfe6ae96dfa1ef7bdeae47d4514e3a8d2",
+   "sid_version": "2025-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2025/1764332947161.pdf"
+  }
+ ],
+ "scheme": "Zerodha Nifty Smallcap 100 ETF"
+}

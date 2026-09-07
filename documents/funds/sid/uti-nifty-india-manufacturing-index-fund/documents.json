@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1295714,
+   "checked": "2026-09-07",
+   "file": "1751866759472.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751866759472.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "08994da6c25978c6b2962c345e6c76e23ca4c40c5ba19f0a6eb39c52778e5af1",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751866759472.pdf"
+  }
+ ],
+ "scheme": "UTI Nifty India Manufacturing Index Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1020159,
+   "checked": "2026-09-07",
+   "file": "1726807229681.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1726807229681.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "7d9c2f25798bbc9ae8d99303e671ea0db14b95c8e38aa3558289844bcbb3dc40",
+   "sid_version": "2024-09",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1726807229681.pdf"
+  }
+ ],
+ "scheme": "WhiteOak Capital ELSS Tax Saver Fund"
+}

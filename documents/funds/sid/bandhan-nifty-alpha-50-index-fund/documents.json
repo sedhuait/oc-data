@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1035088,
+   "checked": "2026-09-07",
+   "file": "1750160810583.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750160810583.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a651d480249cd965ea22c34d0002f5e91a1ddeccf2eaa49c2e75b9edc230e906",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750160810583.pdf"
+  }
+ ],
+ "scheme": "Bandhan Nifty Alpha 50 Index Fund"
+}

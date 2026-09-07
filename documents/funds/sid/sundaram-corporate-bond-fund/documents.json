@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 3071288,
+   "checked": "2026-09-07",
+   "file": "1742374582211.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1742374582211.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "45528f9fb8971194dedf38be590487018a1e46880e22841359cf5917b8395bb7",
+   "sid_version": "2025-03",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1742374582211.pdf"
+  }
+ ],
+ "scheme": "Sundaram Corporate Bond Fund"
+}

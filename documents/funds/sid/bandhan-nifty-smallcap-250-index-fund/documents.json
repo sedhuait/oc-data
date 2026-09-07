@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1221998,
+   "checked": "2026-09-07",
+   "file": "1750160926592.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750160926592.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3b068faf0620b71ca78a70fa43db76af9ae626316d5a2e57721c0b9c77314ad0",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750160926592.pdf"
+  }
+ ],
+ "scheme": "Bandhan Nifty Smallcap 250 Index Fund"
+}

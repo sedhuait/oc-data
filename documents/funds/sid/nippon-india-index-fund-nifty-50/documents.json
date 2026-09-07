@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 791148,
+   "checked": "2026-09-07",
+   "file": "1720775354815.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720775354815.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "1814eb43890082396bacf048a13176e33ca42074a08928c540b2841dfb2f9158",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720775354815.pdf"
+  }
+ ],
+ "scheme": "Nippon India Index Fund - Nifty 50 Plan"
+}

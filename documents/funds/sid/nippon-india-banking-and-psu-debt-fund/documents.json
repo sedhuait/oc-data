@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 934238,
+   "checked": "2026-09-07",
+   "file": "1720761639731.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720761639731.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "82577bcb3af6650d95d87746cad424db6de290742293772d5d7483ade6fb5906",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720761639731.pdf"
+  }
+ ],
+ "scheme": "Nippon India Banking & PSU Debt Fund"
+}

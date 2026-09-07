@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1350685,
+   "checked": "2026-09-07",
+   "file": "1744180182292.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/apr-2025/1744180182292.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d95fe8062049f3e76bab8cd45931fc78d318a9227cc4cb4dc119dce5b4366769",
+   "sid_version": "2025-04",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/apr-2025/1744180182292.pdf"
+  }
+ ],
+ "scheme": "Nippon India Nifty 500 Quality 50 Index Fund"
+}

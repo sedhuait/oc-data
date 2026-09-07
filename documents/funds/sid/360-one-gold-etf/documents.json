@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 802993,
+   "checked": "2026-09-07",
+   "file": "1765426218983.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765426218983.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "1b8a3ab4425c867cf7b712d8cde780fe0847df0090f29b47b6e20cb5cc0e172a",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765426218983.pdf"
+  }
+ ],
+ "scheme": "360 ONE Gold ETF"
+}

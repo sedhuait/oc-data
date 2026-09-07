@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 834899,
+   "checked": "2026-09-07",
+   "file": "1733129052261.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733129052261.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b39338e5d2831329b46a7f603f1a4ad9948da8e39479f6a5bbcd1fc704c6bc1c",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733129052261.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life Nifty Midcap 150 Index Fund"
+}

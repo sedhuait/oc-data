@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 791261,
+   "checked": "2026-09-07",
+   "file": "1733718732052.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733718732052.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "579224b9463203d38bf2756ecd35a8bfcbc398f94d6b96a1ffedc39c30230844",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733718732052.pdf"
+  }
+ ],
+ "scheme": "Axis Liquid Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1110408,
+   "checked": "2026-09-07",
+   "file": "1751627124492.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751627124492.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "922c63bc525c4eae3f54779ecb02952d284be6e5aa395ad6cd7157868d56ac51",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751627124492.pdf"
+  }
+ ],
+ "scheme": "UTI Value Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 730749,
+   "checked": "2026-09-07",
+   "file": "1720766485785.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720766485785.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "1fdf958f84a7b742844806c7b04a88001e18e4897ca9f3a7f4e5dba9d235236b",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720766485785.pdf"
+  }
+ ],
+ "scheme": "Nippon India ELSS Tax Saver Fund"
+}

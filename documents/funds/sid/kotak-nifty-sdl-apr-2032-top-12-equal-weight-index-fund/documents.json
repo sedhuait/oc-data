@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 801702,
+   "checked": "2026-09-07",
+   "file": "1739343728615.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739343728615.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "fba1b18683e5aed22df9d503a87c8aada2c2d4746d06b9ceaeb696325635bd8a",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739343728615.pdf"
+  }
+ ],
+ "scheme": "Kotak Nifty SDL Apr 2032 Top 12 Equal Weight Index Fund"
+}

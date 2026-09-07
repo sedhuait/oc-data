@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 782414,
+   "checked": "2026-09-07",
+   "file": "1735549360932.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1735549360932.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "81b0642eaabed19dee92801d95b5ddbe811c9aefc6d43ebbf4d121649aa57ecb",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1735549360932.pdf"
+  }
+ ],
+ "scheme": "Navi Liquid Fund"
+}

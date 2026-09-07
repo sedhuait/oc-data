@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1087455,
+   "checked": "2026-09-07",
+   "file": "1733488917561.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733488917561.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c0e4bd55c3dad8cc63677ca3c56e162f10d0f43a4522b5b553c79a2d41b5053e",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733488917561.pdf"
+  }
+ ],
+ "scheme": "Axis Small Cap Fund"
+}

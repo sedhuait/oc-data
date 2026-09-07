@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 864845,
+   "checked": "2026-09-07",
+   "file": "1768882797841.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2026/1768882797841.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d87480ed92de2341e14fc82a9506aa907d7bf180c4ab84c7826678a7acea5e8b",
+   "sid_version": "2026-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2026/1768882797841.pdf"
+  }
+ ],
+ "scheme": "Mirae Asset Nifty 500 Healthcare ETF"
+}

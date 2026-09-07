@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1606935,
+   "checked": "2026-09-07",
+   "file": "1732794105072.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732794105072.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "89234e5397a3023bb0ab495aa084e2234c16bf3152b07616b7a491af5f34f566",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732794105072.pdf"
+  }
+ ],
+ "scheme": "HDFC Nifty Smallcap 250 ETF"
+}

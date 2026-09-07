@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1316505,
+   "checked": "2026-09-07",
+   "file": "1727779635206.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727779635206.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e6dffa6549ea1490ba29490bc76f769eaa459115d86862e2e58d7d0335de67dc",
+   "sid_version": "2024-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727779635206.pdf"
+  }
+ ],
+ "scheme": "HSBC Nifty Next 50 Index Fund"
+}

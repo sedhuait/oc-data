@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 6894222,
+   "checked": "2026-09-07",
+   "file": "1765440151379.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765440151379.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "73c05088cf3f9fd47840f94abdd775288e6a09a16490965f362a46cfda4c7bba",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765440151379.pdf"
+  }
+ ],
+ "scheme": "Helios Flexi Cap Fund"
+}

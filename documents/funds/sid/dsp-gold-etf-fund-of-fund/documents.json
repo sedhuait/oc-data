@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1958883,
+   "checked": "2026-09-07",
+   "file": "1735817886374.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735817886374.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ff11773af96106ca47ff10a31caa5810abc528ee7e484c1beb961d5d2962b99b",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735817886374.pdf"
+  }
+ ],
+ "scheme": "DSP Gold ETF Fund of Fund"
+}

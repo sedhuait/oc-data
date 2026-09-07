@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1238579,
+   "checked": "2026-09-07",
+   "file": "1719923582914.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1719923582914.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "50984e71bf0b0b0cb0dd74bf696b1ae98a9bb3347c8caa8ba29ccb70f7ff5188",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1719923582914.pdf"
+  }
+ ],
+ "scheme": "Edelweiss Large Cap Fund"
+}

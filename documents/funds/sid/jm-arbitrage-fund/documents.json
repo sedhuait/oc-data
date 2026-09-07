@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 870556,
+   "checked": "2026-09-07",
+   "file": "1765437385870.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765437385870.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "207cfdb18608c091ed945a44f06c9d877e910f638351c656c8fc71511b2a1b99",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765437385870.pdf"
+  }
+ ],
+ "scheme": "JM Arbitrage Fund"
+}

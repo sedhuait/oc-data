@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1355155,
+   "checked": "2026-09-07",
+   "file": "1733123542122.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733123542122.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "f5dbc9779b3c7cce6e18554b94dfbe89eed6f5f4dd950fc5949d38fa2124bf5c",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733123542122.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life Short Term Fund"
+}

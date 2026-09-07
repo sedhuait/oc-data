@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1536042,
+   "checked": "2026-09-07",
+   "file": "1750324061032.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750324061032.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ece8a47e8c8f96ac17fac0278e004a2c40571e08a30c9eead483f76e4be7c02c",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750324061032.pdf"
+  }
+ ],
+ "scheme": "MOTILAL OSWAL BSE FINANCIALS EX BANK 30 INDEX FUND"
+}

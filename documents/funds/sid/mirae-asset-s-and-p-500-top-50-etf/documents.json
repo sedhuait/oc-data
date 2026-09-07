@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 914649,
+   "checked": "2026-09-07",
+   "file": "1764670328212.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764670328212.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3535f507a3946230d9a2f10bd49e8ceeb9b953cf5592c40c54c08fdd405d3a9f",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764670328212.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET S&P 500 TOP 50 ETF"
+}

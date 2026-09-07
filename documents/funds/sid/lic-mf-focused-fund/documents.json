@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1350688,
+   "checked": "2026-09-07",
+   "file": "1752227882627.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752227882627.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "935ad0c87289c9449c3688e0f0a2ad0c979f958c91220f63066580b228c2113c",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752227882627.pdf"
+  }
+ ],
+ "scheme": "LIC MF Focused Fund"
+}

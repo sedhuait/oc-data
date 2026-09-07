@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1058802,
+   "checked": "2026-09-07",
+   "file": "1764582995162.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764582995162.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3bf0965b8637574f0a069226bd77a810c7dcb2de2529856cfe3f242f7ef9cd79",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764582995162.pdf"
+  }
+ ],
+ "scheme": "Franklin Build India Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1119887,
+   "checked": "2026-09-07",
+   "file": "1726807152226.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1726807152226.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "6307c4518b0205dccf5bdfa7c7d1aa6a7bd3cb1e7d8e0ebad05c7b5f7dc54682",
+   "sid_version": "2024-09",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1726807152226.pdf"
+  }
+ ],
+ "scheme": "WhiteOak Capital Mid Cap Fund"
+}

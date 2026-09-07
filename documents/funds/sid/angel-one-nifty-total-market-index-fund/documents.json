@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1362012,
+   "checked": "2026-09-07",
+   "file": "1761884305964.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2025/1761884305964.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "52911efb57231889f4581f0c4d493ae58482d48cab54e896f73083a4dd738d06",
+   "sid_version": "2025-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2025/1761884305964.pdf"
+  }
+ ],
+ "scheme": "Angel One Nifty Total Market Index Fund"
+}

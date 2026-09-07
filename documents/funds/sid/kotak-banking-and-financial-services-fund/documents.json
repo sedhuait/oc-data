@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1013890,
+   "checked": "2026-09-07",
+   "file": "1739338443048.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739338443048.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "bcb3e32afae4c5dd6f8199ffcb7f8b53063a69ad5ce44a3b1906e1268a8fd967",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739338443048.pdf"
+  }
+ ],
+ "scheme": "Kotak Banking & Financial Services Fund"
+}

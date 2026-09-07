@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 861900,
+   "checked": "2026-09-07",
+   "file": "1720774475307.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720774475307.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c36ff28344e00c6f8f7c681512aa82edbda657ae9ad8a8aeb6b089981810d5c1",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720774475307.pdf"
+  }
+ ],
+ "scheme": "Nippon India ETF Nifty Bank BeES"
+}

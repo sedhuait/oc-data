@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 407446,
+   "checked": "2026-09-07",
+   "file": "1764670428701.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764670428701.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "2334a487e199139842c38f39f6ab8bf46c9ada9937c36f1fe46acbb6f8386e20",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764670428701.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET SILVER ETF"
+}

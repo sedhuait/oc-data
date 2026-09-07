@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1105031,
+   "checked": "2026-09-07",
+   "file": "1727439545986.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1727439545986.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "8f43f73aba9b252d7a0eb60d76e120a3916166fbe535a6a77eb3b4b6cf0e15e1",
+   "sid_version": "2024-09",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1727439545986.pdf"
+  }
+ ],
+ "scheme": "Bajaj Finserv Nifty 50 ETF"
+}

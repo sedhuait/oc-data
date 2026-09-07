@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1486693,
+   "checked": "2026-09-07",
+   "file": "1727779779580.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727779779580.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "f9166ad86f57694b3cfa9020e05e6cdd6442fbe1574fe5583454f60f3c1db671",
+   "sid_version": "2024-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727779779580.pdf"
+  }
+ ],
+ "scheme": "HSBC Small Cap Fund"
+}

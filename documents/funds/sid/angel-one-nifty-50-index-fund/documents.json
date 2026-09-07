@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 990081,
+   "checked": "2026-09-07",
+   "file": "1756376964460.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2025/1756376964460.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "6e278ae82afa3a814c6c005c30e8abfe7c2fa24d3f20d013daace8e8efd65226",
+   "sid_version": "2025-08",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2025/1756376964460.pdf"
+  }
+ ],
+ "scheme": "Angel One Nifty 50 Index Fund"
+}

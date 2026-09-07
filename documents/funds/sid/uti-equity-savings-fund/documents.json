@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1311969,
+   "checked": "2026-09-07",
+   "file": "1751627306755.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751627306755.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "39e3a1e465500c260e3b76a607e0ed4fa1fdc420b328f649c7aec0083d2e7ed9",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751627306755.pdf"
+  }
+ ],
+ "scheme": "UTI Equity Savings Fund"
+}

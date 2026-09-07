@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 985184,
+   "checked": "2026-09-07",
+   "file": "1771317217752.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771317217752.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "5f3272be650a7a5da63f0a410b4f66dd7832d4fc29b699e22cb388ea462762ec",
+   "sid_version": "2026-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771317217752.pdf"
+  }
+ ],
+ "scheme": "Mahindra Manulife Focused Fund"
+}

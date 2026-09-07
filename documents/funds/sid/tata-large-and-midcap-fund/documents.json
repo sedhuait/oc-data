@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1747680,
+   "checked": "2026-09-07",
+   "file": "1652259453242.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1652259453242.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "6784f97c749e99b991b80cc788b477a8232dbcc8b14149a053f2a53f6e8966d1",
+   "sid_version": "2022-05",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1652259453242.pdf"
+  }
+ ],
+ "scheme": "Tata  Large & Mid Cap Fund"
+}

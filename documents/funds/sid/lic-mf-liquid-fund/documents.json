@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1524038,
+   "checked": "2026-09-07",
+   "file": "1752227215490.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752227215490.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d7b09238a2e6dcb045d29122d7f7d87abf821e8e0b92ff1be4673ad055203230",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752227215490.pdf"
+  }
+ ],
+ "scheme": "LIC MF Liquid Fund"
+}

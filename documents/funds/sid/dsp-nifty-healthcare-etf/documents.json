@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2042785,
+   "checked": "2026-09-07",
+   "file": "1735818073127.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735818073127.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "4d3e1db949237d96b5f6e7cae7f3f08a1ce08ee85550ed13e6e91499460d3a4b",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735818073127.pdf"
+  }
+ ],
+ "scheme": "DSP Nifty Healthcare ETF"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 736103,
+   "checked": "2026-09-07",
+   "file": "1765426307900.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765426307900.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "f7d960c735b6c42f5616cdef37025a4166d61fd30b684ba3c0fef7cdc22f3d3c",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765426307900.pdf"
+  }
+ ],
+ "scheme": "360 ONE Multi Asset Allocation Fund"
+}

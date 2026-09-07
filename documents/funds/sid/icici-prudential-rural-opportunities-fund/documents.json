@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1344590,
+   "checked": "2026-09-07",
+   "file": "1733892623490.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733892623490.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c0cbad0feba23c40ff2e643784058fbb6c7df6d62df19b59cc24dccded4b070f",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733892623490.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Rural Opportunities Fund"
+}

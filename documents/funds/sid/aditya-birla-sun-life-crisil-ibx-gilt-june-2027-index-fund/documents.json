@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 699873,
+   "checked": "2026-09-07",
+   "file": "1733129329387.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733129329387.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "66ca1f3ec148ee87d67c145e7226909241c9487ab7a918bd8813702c4d3875d7",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733129329387.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life Crisil IBX Gilt June 2027 Index Fund"
+}

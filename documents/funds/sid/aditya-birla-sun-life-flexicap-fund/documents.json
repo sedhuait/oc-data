@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 750397,
+   "checked": "2026-09-07",
+   "file": "1733128791651.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733128791651.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "0bcfeeedc36acf940dd6cad962a6dace25b77fcd1a754a9a4a35dc70375f75da",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733128791651.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life Flexi Cap Fund"
+}

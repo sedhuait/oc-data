@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1152097,
+   "checked": "2026-09-07",
+   "file": "1749034015921.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749034015921.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "1a30af4741a4fd5e118581216189ec34eaae00523b2507e7193029f6ba96155b",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749034015921.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential CRISIL-IBX Financial Services 3-6 Months Debt Index Fund"
+}

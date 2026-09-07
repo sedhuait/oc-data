@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1732298,
+   "checked": "2026-09-07",
+   "file": "1597035949421.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2020/1597035949421.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c11e1aea1918e09de4f627fdcc18a4a3265a06b4bfb885344ecac4495e2bb157",
+   "sid_version": "2020-08",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2020/1597035949421.pdf"
+  }
+ ],
+ "scheme": "PGIM India Equity Savings Fund"
+}

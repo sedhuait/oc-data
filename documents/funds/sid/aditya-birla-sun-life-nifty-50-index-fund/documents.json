@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1167700,
+   "checked": "2026-09-07",
+   "file": "1733120663286.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733120663286.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "09dd26b2e8bd760ff133da57c9d1d04135f4991a8669fa4e243d6501667c70eb",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733120663286.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life Nifty 50 Index Fund"
+}

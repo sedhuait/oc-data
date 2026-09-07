@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2410486,
+   "checked": "2026-09-07",
+   "file": "1786682871070.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2026/1786682871070.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3563c0b0ea50dcb426b2d68db80aac9dda0b66b6267d2bc0c635b4cfa58b90f0",
+   "sid_version": "2026-08",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2026/1786682871070.pdf"
+  }
+ ],
+ "scheme": "DSP Financial Services Sectoral Debt Fund"
+}

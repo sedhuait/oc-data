@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 3089533,
+   "checked": "2026-09-07",
+   "file": "1735889384536.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735889384536.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d8bfded5578a5137163e1f1ad8911bf25499313b5b2be23286864463aec7d0ba",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735889384536.pdf"
+  }
+ ],
+ "scheme": "Union Equity Savings Fund"
+}

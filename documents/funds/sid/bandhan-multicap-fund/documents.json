@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 884663,
+   "checked": "2026-09-07",
+   "file": "1750150637286.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750150637286.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "f52b621674415e81a1ab6d26e58c2cd7d6f8b9cc4d47e61dd3fb95b13914975a",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750150637286.pdf"
+  }
+ ],
+ "scheme": "Bandhan Multi Cap Fund"
+}

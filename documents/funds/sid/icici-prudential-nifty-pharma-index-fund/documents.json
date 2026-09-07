@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1273071,
+   "checked": "2026-09-07",
+   "file": "1749031508586.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749031508586.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "490da1b04eb93db65af89abaee7e32a31f49aec5a01b8342dbfe04eb4f8e6cab",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749031508586.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Nifty Pharma Index Fund"
+}

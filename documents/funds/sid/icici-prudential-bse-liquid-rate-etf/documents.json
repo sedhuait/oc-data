@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1056085,
+   "checked": "2026-09-07",
+   "file": "1738754689341.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1738754689341.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "9e5ad25324934d63183d9b15a0fea44ef2987ad08c804a978121bc5f3d3a178b",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1738754689341.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential BSE Liquid Rate ETF - Growth"
+}

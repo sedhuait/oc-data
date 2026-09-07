@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1095661,
+   "checked": "2026-09-07",
+   "file": "1733721692027.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733721692027.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "75e36030217a804e57e324b10f3efcd4027e14cb7284aed897ca34830d0ae0e9",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733721692027.pdf"
+  }
+ ],
+ "scheme": "Axis Business Cycles Fund"
+}

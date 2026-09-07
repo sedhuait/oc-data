@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2159144,
+   "checked": "2026-09-07",
+   "file": "1735814979036.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735814979036.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "56bfcfe20d9296a86425981209e3d01a2c87b7f61cad66d72ba7f8f66f125904",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735814979036.pdf"
+  }
+ ],
+ "scheme": "DSP Flexi Cap Fund"
+}

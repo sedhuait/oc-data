@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1179469,
+   "checked": "2026-09-07",
+   "file": "1751866714174.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751866714174.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "47599196ae4c2d440033538f60f7b1a710ab69b4813f48b05b10f4625dfad5d6",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751866714174.pdf"
+  }
+ ],
+ "scheme": "UTI CRISIL SDL Maturity June 2027 Index Fund"
+}

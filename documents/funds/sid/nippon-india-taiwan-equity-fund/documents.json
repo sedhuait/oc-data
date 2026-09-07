@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 783316,
+   "checked": "2026-09-07",
+   "file": "1720766375345.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720766375345.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a9839767d961a191081810fc93d806a0201727f01e84d42975b5cfe8395e4db1",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720766375345.pdf"
+  }
+ ],
+ "scheme": "Nippon India Taiwan Equity Fund"
+}

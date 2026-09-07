@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2285769,
+   "checked": "2026-09-07",
+   "file": "1735816775522.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735816775522.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "92d350d0ea76b02a01edcf30d0337720437e7e94bcf1b7c65ba7aee8eab7e780",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735816775522.pdf"
+  }
+ ],
+ "scheme": "DSP Midcap Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1318680,
+   "checked": "2026-09-07",
+   "file": "1749125261953.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749125261953.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "fb7fce1a70f5148503b278bcb3b95db9059413b3ffa2591f9e57242113536118",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749125261953.pdf"
+  }
+ ],
+ "scheme": "Shriram Nifty 1D Rate Liquid ETF"
+}

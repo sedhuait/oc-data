@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1108389,
+   "checked": "2026-09-07",
+   "file": "1733726354241.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733726354241.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c2e469ec714b8301003ef5dfb9b9ffda041f931ecf03f89f948dda0d33f89930",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733726354241.pdf"
+  }
+ ],
+ "scheme": "Axis Aggressive Hybrid Fund"
+}

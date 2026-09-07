@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 778129,
+   "checked": "2026-09-07",
+   "file": "1750328011191.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750328011191.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b00e1068e2acb2d1a936f18edb0328043d87170ddf564195167e484c4029eb02",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750328011191.pdf"
+  }
+ ],
+ "scheme": "MOTILAL OSWAL MANUFACTURING FUND"
+}

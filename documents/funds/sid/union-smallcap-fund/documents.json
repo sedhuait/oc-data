@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 995717,
+   "checked": "2026-09-07",
+   "file": "1735889181370.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735889181370.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "6a50bac1f07570df8df6d7ba8d116c30b73657de8385810027010e44d1050e88",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735889181370.pdf"
+  }
+ ],
+ "scheme": "Union Small Cap Fund"
+}

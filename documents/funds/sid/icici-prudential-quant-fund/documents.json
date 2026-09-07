@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1161934,
+   "checked": "2026-09-07",
+   "file": "1685695623881.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685695623881.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "20b36da6437a6fc5481167800968cc573b2eb2d6ac4de007dcf62108a3c6faf3",
+   "sid_version": "2023-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685695623881.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Quant Fund"
+}

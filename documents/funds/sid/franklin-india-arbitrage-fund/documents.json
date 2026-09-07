@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1145989,
+   "checked": "2026-09-07",
+   "file": "1764587802470.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764587802470.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "bb2cba16b490e2b4eaae85a3a084781674f3c4e438805407f7e159566c80a954",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764587802470.pdf"
+  }
+ ],
+ "scheme": "Franklin India Arbitrage Fund"
+}

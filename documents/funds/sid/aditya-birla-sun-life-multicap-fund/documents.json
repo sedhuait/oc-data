@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 967300,
+   "checked": "2026-09-07",
+   "file": "1733120800102.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733120800102.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "67466fb9e810a78744f1999f9c6d4a3ab5f6d914d7ac3630cd398ae156bd720d",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733120800102.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life Multi-Cap Fund"
+}

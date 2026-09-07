@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1250457,
+   "checked": "2026-09-07",
+   "file": "1728878656007.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1728878656007.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "588b8edf98517883a15589d014fbb0ade0c35c5784d498b4227e3102c7a794cd",
+   "sid_version": "2024-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1728878656007.pdf"
+  }
+ ],
+ "scheme": "Motilal Oswal Nifty MidSmall Financial Services Index Fund"
+}

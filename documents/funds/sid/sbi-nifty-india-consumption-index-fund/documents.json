@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1093454,
+   "checked": "2026-09-07",
+   "file": "1734340990172.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734340990172.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b5d5027e7e7cb06e8d15a5a27f1deaffefa702bc968d33f7478483778e53b1b7",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734340990172.pdf"
+  }
+ ],
+ "scheme": "SBI Nifty India Consumption Index Fund"
+}

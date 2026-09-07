@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 882272,
+   "checked": "2026-09-07",
+   "file": "1736224809182.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1736224809182.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "839dd55cb4adaf40d4dcc0ab90900e9b5d15af98a0c52de173d2e878c347e8d1",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1736224809182.pdf"
+  }
+ ],
+ "scheme": "Quantum Small Cap Fund"
+}

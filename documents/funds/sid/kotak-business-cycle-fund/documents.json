@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 995890,
+   "checked": "2026-09-07",
+   "file": "1739338733345.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739338733345.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "57ae9a5ecc97de10608a12d403fdb61f144f176896eb8d944440b62e231b1af3",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739338733345.pdf"
+  }
+ ],
+ "scheme": "Kotak Business Cycle Fund"
+}

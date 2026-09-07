@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1115051,
+   "checked": "2026-09-07",
+   "file": "1719923438621.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1719923438621.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "466f66fe3034e2e547f3e133dc729c8423c86fc847fdcf854f3618ccca767aad",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1719923438621.pdf"
+  }
+ ],
+ "scheme": "Edelweiss ELSS Tax saver Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1160429,
+   "checked": "2026-09-07",
+   "file": "1764583470583.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764583470583.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "743d03ecf2b94ad5200497906a06fd911aa8570ba2b32acf5286969b7440be37",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764583470583.pdf"
+  }
+ ],
+ "scheme": "Franklin India Aggressive Hybrid Fund"
+}

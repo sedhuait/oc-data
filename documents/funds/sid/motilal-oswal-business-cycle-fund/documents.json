@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1162072,
+   "checked": "2026-09-07",
+   "file": "1750324230874.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750324230874.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "bd65d8e059427b47c4c6448ddc04e15a0b3b19ee268e4bb1315fb1c642413c8e",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750324230874.pdf"
+  }
+ ],
+ "scheme": "MOTILAL OSWAL BUSINESS CYCLE FUND"
+}

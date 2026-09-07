@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 665096,
+   "checked": "2026-09-07",
+   "file": "1765426147168.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765426147168.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c57b8a69ad4a3153cf52933549fad0f3477ca3c0c4844e77711e57c1aa14d927",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765426147168.pdf"
+  }
+ ],
+ "scheme": "360 ONE FlexiCap Fund"
+}

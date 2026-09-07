@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1322121,
+   "checked": "2026-09-07",
+   "file": "1751863381266.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751863381266.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "0f6de8f27c74af21862cce1e9d33cba74a1b3632fd0bf479d319039f5e1a87f9",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751863381266.pdf"
+  }
+ ],
+ "scheme": "UTI Nifty Midcap 150 Index Fund"
+}

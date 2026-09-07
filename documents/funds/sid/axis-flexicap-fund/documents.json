@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1045596,
+   "checked": "2026-09-07",
+   "file": "1733484969230.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733484969230.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "96e7e0f10d6b85ceb861df0b4c361c8db3fea99036d3ea3e5b575a0a208f295a",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733484969230.pdf"
+  }
+ ],
+ "scheme": "Axis Flexi Cap Fund"
+}

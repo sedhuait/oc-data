@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1021009,
+   "checked": "2026-09-07",
+   "file": "1739344475909.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739344475909.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3717faedb47267ab1bb447f187e45e433137361454f203206b09b461215fca62",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739344475909.pdf"
+  }
+ ],
+ "scheme": "Kotak Silver ETF Fund of Fund"
+}

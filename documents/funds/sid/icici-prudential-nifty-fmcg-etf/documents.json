@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1637117,
+   "checked": "2026-09-07",
+   "file": "1685696464701.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685696464701.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "6342cfac88414c7f57f98819e23ac44a56f18c25c56432aae614ce3a4345d4f3",
+   "sid_version": "2023-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685696464701.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Nifty FMCG ETF"
+}

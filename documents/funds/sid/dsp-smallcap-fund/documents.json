@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2291394,
+   "checked": "2026-09-07",
+   "file": "1735795361817.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735795361817.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3f78228229fc0954454a09f0673edf191edc9ae7eb087af83ff546602a33b79c",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735795361817.pdf"
+  }
+ ],
+ "scheme": "DSP Small Cap Fund"
+}

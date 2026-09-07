@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 810805,
+   "checked": "2026-09-07",
+   "file": "1750160731545.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750160731545.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "773d80357de0c0237289ad10adbc2cdf22af832f054e2ecf85df564e8a96b9b1",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750160731545.pdf"
+  }
+ ],
+ "scheme": "Bandhan CRISIL IBX Gilt April 2028 Index Fund"
+}

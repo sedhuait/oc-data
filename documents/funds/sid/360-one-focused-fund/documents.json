@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 622960,
+   "checked": "2026-09-07",
+   "file": "1765425976675.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765425976675.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "880fa1e13eece85f7afc2f0eb6bd5f7e1a5a53e29a5ce7d33bd8286c65ecdca4",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765425976675.pdf"
+  }
+ ],
+ "scheme": "360 ONE Focused Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1363465,
+   "checked": "2026-09-07",
+   "file": "1727780232065.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727780232065.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d9cb231233e39f7bf22d145c6b35d463c5e5611c2ee530e3b555f0485788f36e",
+   "sid_version": "2024-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727780232065.pdf"
+  }
+ ],
+ "scheme": "HSBC Value Fund"
+}

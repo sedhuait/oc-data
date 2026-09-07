@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1150598,
+   "checked": "2026-09-07",
+   "file": "1726807378550.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1726807378550.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3031ccd1df4aba8db60e016c3294bdc29f887c4001e34ef392b82c2dc4fde4e2",
+   "sid_version": "2024-09",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1726807378550.pdf"
+  }
+ ],
+ "scheme": "WhiteOak Capital Pharma and Healthcare Fund"
+}

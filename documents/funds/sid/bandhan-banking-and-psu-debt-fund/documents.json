@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 910996,
+   "checked": "2026-09-07",
+   "file": "1750148881819.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750148881819.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "9058a216e94ee9f3e5caa7b0a37a6c1b4252e9ef1ce6b8eea75766f55a66a5ab",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750148881819.pdf"
+  }
+ ],
+ "scheme": "Bandhan Banking and PSU Debt Fund"
+}

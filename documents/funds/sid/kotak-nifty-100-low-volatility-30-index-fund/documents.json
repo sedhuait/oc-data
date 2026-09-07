@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 865402,
+   "checked": "2026-09-07",
+   "file": "1739342638933.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739342638933.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "92c3880543cd36c2f533f4da942969464ca61fe07e82e896851b491b2aeb2181",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739342638933.pdf"
+  }
+ ],
+ "scheme": "Kotak Nifty 100 Low Volatility 30 Index Fund"
+}

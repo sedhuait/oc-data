@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 815181,
+   "checked": "2026-09-07",
+   "file": "1765437506694.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765437506694.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "22d71e46d285510912815b98fc3c0632751e1fbc6466fbcb5a38b16332955362",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765437506694.pdf"
+  }
+ ],
+ "scheme": "JM Value Fund"
+}

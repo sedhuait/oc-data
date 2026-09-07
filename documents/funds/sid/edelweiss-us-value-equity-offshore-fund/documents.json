@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 964057,
+   "checked": "2026-09-07",
+   "file": "1719921872925.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1719921872925.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b860b1a480585de5423e664790347f6a5e82c39c45792e2f8cc2df377f1491d8",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1719921872925.pdf"
+  }
+ ],
+ "scheme": "Edelweiss US Value Equity Offshore Fund"
+}

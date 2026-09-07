@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1057355,
+   "checked": "2026-09-07",
+   "file": "1764582811441.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764582811441.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "0b3278f7e3d76cdb1741718d20f91e51719a03236cbe464be4fa8a5bf79e281a",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764582811441.pdf"
+  }
+ ],
+ "scheme": "Franklin India Focused Equity Fund"
+}

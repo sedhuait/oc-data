@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 979846,
+   "checked": "2026-09-07",
+   "file": "1719921781408.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1719921781408.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "0769cb7c0732ca0bfdb3ecde7342060cbc95b78942a3bbca369e7bf756395797",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1719921781408.pdf"
+  }
+ ],
+ "scheme": "Edelweiss Emerging Markets Opportunities Equity offshore Fund"
+}

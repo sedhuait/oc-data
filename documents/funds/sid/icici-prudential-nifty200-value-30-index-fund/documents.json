@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1395206,
+   "checked": "2026-09-07",
+   "file": "1749034235011.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749034235011.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "fa5be428b1122d75451fb1925c322449a13637bc090b99fd81d795e97fe3b9c7",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749034235011.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Nifty200 Value 30 Index Fund"
+}

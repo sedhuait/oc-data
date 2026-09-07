@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1152121,
+   "checked": "2026-09-07",
+   "file": "1749024956525.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749024956525.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "05c05772b3b886de18d8af77741540f9f3d7e43bb5f143f785f10ed7b0f81d9f",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749024956525.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential NASDAQ 100 Index Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1372898,
+   "checked": "2026-09-07",
+   "file": "1727780270840.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727780270840.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a35f3ea0a0b3887bad29fb210256c2149bfa95e5b7b4b4db91dea94339b630fe",
+   "sid_version": "2024-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727780270840.pdf"
+  }
+ ],
+ "scheme": "HSBC ELSS Tax saver Fund"
+}

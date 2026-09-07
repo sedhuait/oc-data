@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 722384,
+   "checked": "2026-09-07",
+   "file": "1720768112733.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720768112733.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b2e4bdae3fcc3f3fbfdbd1ec1d9884c37242c9672a7f77edde8998ed29eb2836",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720768112733.pdf"
+  }
+ ],
+ "scheme": "Nippon India ETF Nifty 5 yr Benchmark G-Sec"
+}

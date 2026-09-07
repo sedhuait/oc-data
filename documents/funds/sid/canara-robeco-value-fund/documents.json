@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1182328,
+   "checked": "2026-09-07",
+   "file": "1749013446339.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749013446339.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "bdf5dca97edbf735ecd69c5bc4c0500602ace96a123d3c1a99c9e6c3797b682f",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749013446339.pdf"
+  }
+ ],
+ "scheme": "Canara Robeco Value Fund"
+}

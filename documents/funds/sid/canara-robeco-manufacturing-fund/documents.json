@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1166932,
+   "checked": "2026-09-07",
+   "file": "1749013247172.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749013247172.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d3519bdf5a96dbb39d504ae9554ea34fac728e3277959a6ebcdf0591bb8cd1b1",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749013247172.pdf"
+  }
+ ],
+ "scheme": "Canara Robeco Manufacturing Fund"
+}

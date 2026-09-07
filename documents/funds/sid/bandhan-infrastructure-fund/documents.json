@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 966232,
+   "checked": "2026-09-07",
+   "file": "1750150514591.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750150514591.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "0b026836e79fd8ada9fbf64c310479e19b90e7805780b0992cdb7681c14f050e",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750150514591.pdf"
+  }
+ ],
+ "scheme": "Bandhan Infrastructure Fund"
+}

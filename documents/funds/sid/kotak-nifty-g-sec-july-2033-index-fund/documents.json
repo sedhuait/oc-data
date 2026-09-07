@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 970836,
+   "checked": "2026-09-07",
+   "file": "1739343474509.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739343474509.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "9df527ddc62373ac4c2f5a5a629471799bbabee13a5ca59173f930a73f34b043",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739343474509.pdf"
+  }
+ ],
+ "scheme": "Kotak Nifty G-Sec July 2033 Index Fund"
+}

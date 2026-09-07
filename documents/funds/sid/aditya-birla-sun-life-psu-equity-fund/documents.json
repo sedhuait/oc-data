@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1041725,
+   "checked": "2026-09-07",
+   "file": "1733123486357.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733123486357.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d07b80118028b0f9147d981d9d665aadcf91b406997ae24a6526366bc7186af9",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733123486357.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life PSU Equity Fund"
+}

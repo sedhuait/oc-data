@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 829300,
+   "checked": "2026-09-07",
+   "file": "1750160764520.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750160764520.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "61c9b7676512b383f382012ebed72be6afcf6c19740c95327a0ffea536e4edcc",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750160764520.pdf"
+  }
+ ],
+ "scheme": "Bandhan CRISIL IBX Gilt June 2027 Index Fund"
+}

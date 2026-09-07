@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1156294,
+   "checked": "2026-09-07",
+   "file": "1727779538701.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727779538701.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "6afa408e3f4db807c937c6caac246133d8d2358fc8d571bf10713c854f18c7c8",
+   "sid_version": "2024-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727779538701.pdf"
+  }
+ ],
+ "scheme": "HSBC Equity Savings Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 866889,
+   "checked": "2026-09-07",
+   "file": "1732792768377.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732792768377.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "15a73335fbc243b4d1d2009da7e483b02c60cf7c5357de905b36220fe731b6fa",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732792768377.pdf"
+  }
+ ],
+ "scheme": "HDFC Nifty G-Sec July 2031 Index Fund"
+}

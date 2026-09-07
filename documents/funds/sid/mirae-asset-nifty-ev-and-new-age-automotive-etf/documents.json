@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 902481,
+   "checked": "2026-09-07",
+   "file": "1764667707770.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764667707770.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "db0e7c5c7f0fce6fc8460c12f7382fb7ed89d78b319b86bcd2657501ea434c4d",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764667707770.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET NIFTY EV AND NEW AGE AUTOMOTIVE ETF"
+}

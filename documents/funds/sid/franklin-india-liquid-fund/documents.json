@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1085797,
+   "checked": "2026-09-07",
+   "file": "1764583836141.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764583836141.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d65f75c9d903006f7480a2ebcfa392d994bf8c758de8dacbe0a915e0056c52c9",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764583836141.pdf"
+  }
+ ],
+ "scheme": "Franklin India Liquid Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 819672,
+   "checked": "2026-09-07",
+   "file": "1739343438906.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739343438906.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3b0d15ce7263afdb616b463609e86d08e949a4318d31ced8d9252098ae2245d2",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739343438906.pdf"
+  }
+ ],
+ "scheme": "Kotak Nifty Financial Services Ex-bank Index Fund"
+}

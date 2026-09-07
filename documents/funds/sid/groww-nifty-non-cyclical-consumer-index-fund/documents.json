@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1158934,
+   "checked": "2026-09-07",
+   "file": "1714123806687.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/apr-2024/1714123806687.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "0acd05e9d88586e341acadf74d4ed393674632dad469529ebe156915eeb97d3a",
+   "sid_version": "2024-04",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/apr-2024/1714123806687.pdf"
+  }
+ ],
+ "scheme": "Groww Nifty Non-Cyclical Consumer Index Fund"
+}

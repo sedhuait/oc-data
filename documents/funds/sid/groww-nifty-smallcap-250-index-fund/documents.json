@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1223203,
+   "checked": "2026-09-07",
+   "file": "1707383781168.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2024/1707383781168.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ccd97af2a9b80b4e4592157e36fecf389aa08a699f8fd143cc7ef7bfcaf5cd81",
+   "sid_version": "2024-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2024/1707383781168.pdf"
+  }
+ ],
+ "scheme": "Groww Nifty Smallcap 250 Index Fund"
+}

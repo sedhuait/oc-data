@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 942520,
+   "checked": "2026-09-07",
+   "file": "1750161119740.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750161119740.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "7281c2003d3913cfd4912e66392ec7528f8af5fea8fb6376d176a8307ccb9bfd",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750161119740.pdf"
+  }
+ ],
+ "scheme": "Bandhan Nifty Bank Index Fund"
+}

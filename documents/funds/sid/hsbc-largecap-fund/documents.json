@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1378518,
+   "checked": "2026-09-07",
+   "file": "1727779703949.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727779703949.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "4fd121dbadafa616fc8ad1ef3ef9a9e29fe116a2151c518ec3183ea460a99b21",
+   "sid_version": "2024-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727779703949.pdf"
+  }
+ ],
+ "scheme": "HSBC Large Cap Fund"
+}

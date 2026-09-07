@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 972380,
+   "checked": "2026-09-07",
+   "file": "1643626577883.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2022/1643626577883.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "2034d1c5f2234baa429dcabf0a9039a14298da642ef512733df1fdb0da8fdb7b",
+   "sid_version": "2022-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2022/1643626577883.pdf"
+  }
+ ],
+ "scheme": "quant Infrastructure Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 771784,
+   "checked": "2026-09-07",
+   "file": "1735549316437.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1735549316437.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "138b94e835c6feba26a2a689030283fcbedd543f94707de13aa49edbaf7175c2",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1735549316437.pdf"
+  }
+ ],
+ "scheme": "Navi Aggressive Hybrid Fund"
+}

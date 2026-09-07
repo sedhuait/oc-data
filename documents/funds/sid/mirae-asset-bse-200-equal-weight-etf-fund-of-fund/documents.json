@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 940588,
+   "checked": "2026-09-07",
+   "file": "1764658984247.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764658984247.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "51ea8c72ab2ff6462c281c8f6a7c12804bbe8e92f0947fe46d9b9e8fa11abb5e",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764658984247.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET BSE 200 EQUAL WEIGHT ETF FUND OF FUND"
+}

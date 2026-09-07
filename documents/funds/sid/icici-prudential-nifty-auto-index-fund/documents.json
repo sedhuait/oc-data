@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1488486,
+   "checked": "2026-09-07",
+   "file": "1749033918040.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749033918040.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "79eb8cd20f1e796c42d49b36eb26af9647f1bfbba1d9b85ada7fad9ece293289",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749033918040.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Nifty Auto Index Fund"
+}

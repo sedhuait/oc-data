@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1284709,
+   "checked": "2026-09-07",
+   "file": "1734345273527.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734345273527.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "5798a9a0c8b03d773dc47e0fa3f01ecc81bdbd3e6c915f8f9afeec6e238ed087",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734345273527.pdf"
+  }
+ ],
+ "scheme": "SBI Nifty Smallcap 250 Index Fund"
+}

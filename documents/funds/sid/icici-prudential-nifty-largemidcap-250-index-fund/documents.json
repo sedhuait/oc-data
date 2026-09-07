@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1373122,
+   "checked": "2026-09-07",
+   "file": "1749031558879.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749031558879.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "442f268c617c9e93cb7c1abae047ebeaa3620438e534c4a185c2c2d4b2bd4dc4",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749031558879.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Nifty LargeMidcap 250 Index Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 953447,
+   "checked": "2026-09-07",
+   "file": "1732792420249.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732792420249.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "fc240cbd29e211eba934fb2f97841093ad1048d5dfbf321e598b1adbaeddad95",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732792420249.pdf"
+  }
+ ],
+ "scheme": "HDFC NIFTY 100 Index Fund"
+}

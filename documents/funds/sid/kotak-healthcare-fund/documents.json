@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1013236,
+   "checked": "2026-09-07",
+   "file": "1739339778607.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739339778607.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "8b61850c53324d35e4b7478d30cbef6b7d15ac8b22dde7902df036d76bb38e02",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739339778607.pdf"
+  }
+ ],
+ "scheme": "Kotak Healthcare Fund"
+}

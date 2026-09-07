@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1058093,
+   "checked": "2026-09-07",
+   "file": "1643626893053.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2022/1643626893053.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b203bc0f7c4c144a4bc4cf77bb1154320677f75ac7e396f7b0f03757e3cd3f1c",
+   "sid_version": "2022-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2022/1643626893053.pdf"
+  }
+ ],
+ "scheme": "quant Quantamental Fund"
+}

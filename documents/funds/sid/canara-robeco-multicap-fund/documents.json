@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1153765,
+   "checked": "2026-09-07",
+   "file": "1749013423598.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749013423598.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "862516647685ab6fea5fc22ce716507555f54c05d82c8b75923631cc3f2013a9",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749013423598.pdf"
+  }
+ ],
+ "scheme": "Canara Robeco Multi Cap Fund"
+}

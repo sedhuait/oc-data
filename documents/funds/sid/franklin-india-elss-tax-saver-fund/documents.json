@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 980198,
+   "checked": "2026-09-07",
+   "file": "1764583650777.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764583650777.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d3888dc33ce7491fea442ef7516293c3cb894b7959f6db5969552322b284377a",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764583650777.pdf"
+  }
+ ],
+ "scheme": "Franklin India ELSS Tax Saver Fund"
+}

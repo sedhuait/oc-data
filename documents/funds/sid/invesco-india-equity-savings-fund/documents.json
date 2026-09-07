@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 804700,
+   "checked": "2026-09-07",
+   "file": "1749189028523.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749189028523.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e511380ce3a52deb364cdfce4ce52b399cd24efb8c5316729e35ccd16f15d3e8",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749189028523.pdf"
+  }
+ ],
+ "scheme": "Invesco India Equity Savings Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 801501,
+   "checked": "2026-09-07",
+   "file": "1764665292885.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764665292885.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "329b401bfa5f44836120b16f734d7c579db17c90ecdaa88f7506869fdef67963",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764665292885.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET MONEY MARKET FUND"
+}

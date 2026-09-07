@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1515828,
+   "checked": "2026-09-07",
+   "file": "1752474561342.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752474561342.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "13b5428c5819701b5cef3175b1145370edacf8ec3b4faed6186b6a271136b7c9",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752474561342.pdf"
+  }
+ ],
+ "scheme": "LIC MF Infrastructure Fund"
+}

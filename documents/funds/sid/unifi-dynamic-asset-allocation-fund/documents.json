@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1267306,
+   "checked": "2026-09-07",
+   "file": "1765354740870.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765354740870.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "432409978ac71e45c1392ed13a84a142f5bd4870acdd0d905e96a304a1886bd2",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765354740870.pdf"
+  }
+ ],
+ "scheme": "Unifi Dynamic Asset Allocation Fund"
+}

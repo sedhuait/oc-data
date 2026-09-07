@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1747972,
+   "checked": "2026-09-07",
+   "file": "1735889235487.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735889235487.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "0a3006eedf0ad418df7f59b3a5fa03c75ae9b7a751f8885876ac78bfa0b5e55d",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735889235487.pdf"
+  }
+ ],
+ "scheme": "Union Corporate Bond Fund"
+}

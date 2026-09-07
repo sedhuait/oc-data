@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1190445,
+   "checked": "2026-09-07",
+   "file": "1727779180903.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727779180903.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "7557293f6d2a3d1de4c718818f80aac825278095d58e6666b11d8eae95572ee0",
+   "sid_version": "2024-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727779180903.pdf"
+  }
+ ],
+ "scheme": "HSBC Credit Risk Fund"
+}

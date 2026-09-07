@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 952357,
+   "checked": "2026-09-07",
+   "file": "1752665534883.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752665534883.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "fe2152ffd2983dc0d281256151961e948f59d045b678365b054b1af4e46f7ddc",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752665534883.pdf"
+  }
+ ],
+ "scheme": "Kotak Active Momentum Fund"
+}

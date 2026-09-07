@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1318309,
+   "checked": "2026-09-07",
+   "file": "1747202553112.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2025/1747202553112.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c2996851abfd34db3806c0c71291858bb2f895ceda6a9b423c3d830e4df0e0a0",
+   "sid_version": "2025-05",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2025/1747202553112.pdf"
+  }
+ ],
+ "scheme": "SBI Nifty200 Quality 30 Index Fund"
+}

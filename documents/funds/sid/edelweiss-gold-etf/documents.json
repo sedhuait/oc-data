@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2201195,
+   "checked": "2026-09-07",
+   "file": "1734332590064.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734332590064.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "16ab16c6b3e487170f13456254445b5fadc11c86de48a644c3f1e420f7ae6a3f",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734332590064.pdf"
+  }
+ ],
+ "scheme": "Edelweiss Gold ETF"
+}

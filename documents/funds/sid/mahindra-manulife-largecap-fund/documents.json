@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 966901,
+   "checked": "2026-09-07",
+   "file": "1771313196774.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771313196774.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d63fcf57304775b5ce325aac22fa6034c8db5a1537ae0838d251468fa5aff0ef",
+   "sid_version": "2026-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771313196774.pdf"
+  }
+ ],
+ "scheme": "Mahindra Manulife Large Cap Fund"
+}

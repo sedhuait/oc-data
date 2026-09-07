@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1006554,
+   "checked": "2026-09-07",
+   "file": "1777021510077.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/apr-2026/1777021510077.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a1b06aec43f148f69dc11a5ca777c4635310bea6f00f5fa45f60bf01d3e1cf96",
+   "sid_version": "2026-04",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/apr-2026/1777021510077.pdf"
+  }
+ ],
+ "scheme": "Groww Nifty Private Bank Index Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 523563,
+   "checked": "2026-09-07",
+   "file": "1758006392201.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2025/1758006392201.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e4dbd416e473a80b7e06a6fcca7030dc3c74b2bccea4d0d9d5fed6abdfa0b06f",
+   "sid_version": "2025-09",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2025/1758006392201.pdf"
+  }
+ ],
+ "scheme": "Kotak Nifty 200 Momentum 30 ETF"
+}

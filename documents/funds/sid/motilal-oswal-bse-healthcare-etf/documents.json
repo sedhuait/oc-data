@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1368789,
+   "checked": "2026-09-07",
+   "file": "1750324085236.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750324085236.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e2d60449b026f5bc61fe9480af33bbb7452b31a9de525e03d9c434594b33289a",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750324085236.pdf"
+  }
+ ],
+ "scheme": "MOTILAL OSWAL BSE HEALTHCARE ETF"
+}

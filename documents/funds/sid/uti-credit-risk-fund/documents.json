@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1280271,
+   "checked": "2026-09-07",
+   "file": "1751879397210.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751879397210.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "cf3d6f72464ca3b0e9ea5025355bd905a1b169f38e8e197b511300e91be9e50a",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751879397210.pdf"
+  }
+ ],
+ "scheme": "UTI Credit Risk Fund"
+}

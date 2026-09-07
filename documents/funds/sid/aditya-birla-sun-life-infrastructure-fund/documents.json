@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 876590,
+   "checked": "2026-09-07",
+   "file": "1733121382468.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733121382468.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "516228d49d23a014a048ac65fe03bcef8c920e2e2cf984fec24c966f4ffaebaa",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733121382468.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life Infrastructure Fund"
+}

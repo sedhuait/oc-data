@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1988909,
+   "checked": "2026-09-07",
+   "file": "1742377087989.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1742377087989.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "1571e05d75f625e7374d40c4576d8c6c4a56b35f82e897e182c1231ae004ac7d",
+   "sid_version": "2025-03",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1742377087989.pdf"
+  }
+ ],
+ "scheme": "Sundaram Financial Services Opportunities Fund"
+}

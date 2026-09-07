@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1029916,
+   "checked": "2026-09-07",
+   "file": "1734346300815.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734346300815.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "01f9192fc39547f2ccfabc487cd14c467a6cacefe656a2911ac5cfc3bc9253f2",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734346300815.pdf"
+  }
+ ],
+ "scheme": "SBI CRISIL IBX SDL Index - September 2027 Fund"
+}

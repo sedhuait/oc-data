@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 959935,
+   "checked": "2026-09-07",
+   "file": "1739338565504.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739338565504.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "178294085a6186a092e5bbb6cc2a9e6b458e7a651d6a530057822f33bef4a1c9",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739338565504.pdf"
+  }
+ ],
+ "scheme": "Kotak Banking and PSU Debt Fund"
+}

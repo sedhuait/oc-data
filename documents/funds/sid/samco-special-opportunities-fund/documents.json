@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1388779,
+   "checked": "2026-09-07",
+   "file": "1752054934467.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752054934467.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "f928aae0f7cd7d7e3917b73b590afd4fd8e6838542a24dbb61230c1fbf0f4ef5",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752054934467.pdf"
+  }
+ ],
+ "scheme": "Samco Special Opportunities Fund"
+}

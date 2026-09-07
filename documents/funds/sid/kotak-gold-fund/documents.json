@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1131569,
+   "checked": "2026-09-07",
+   "file": "1739339752770.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739339752770.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "178ae92a96b0575c5f5951971d79878177def69b38f15c4a358dc6ad1b583a8b",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739339752770.pdf"
+  }
+ ],
+ "scheme": "Kotak Gold Fund"
+}

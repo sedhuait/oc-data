@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1062953,
+   "checked": "2026-09-07",
+   "file": "1752475854409.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752475854409.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "9d26650a1893b68f46429896488197f9fc147bc60caaabeccc1525e87d270595",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752475854409.pdf"
+  }
+ ],
+ "scheme": "LIC MF Multi Asset Allocation Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1061478,
+   "checked": "2026-09-07",
+   "file": "1735894467162.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735894467162.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "93f8038c88f83729a6805b67e6bab9e7bd6148be09d95eea203e493dff080ab7",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735894467162.pdf"
+  }
+ ],
+ "scheme": "Union Children's Fund"
+}

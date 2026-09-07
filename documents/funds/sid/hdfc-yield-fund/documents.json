@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 944215,
+   "checked": "2026-09-07",
+   "file": "1732786602887.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732786602887.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "4e162e7aa984c475b35f2d4680f5028db9902049cf70c6b2221037c1be5b3627",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732786602887.pdf"
+  }
+ ],
+ "scheme": "HDFC Dividend Yield Fund"
+}

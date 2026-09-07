@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1274436,
+   "checked": "2026-09-07",
+   "file": "1685687803255.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685687803255.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "96810a20e2f6175de68a7677827102d473213deb9a62001626d8c4bc0a4e2201",
+   "sid_version": "2023-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685687803255.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Smallcap Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1183140,
+   "checked": "2026-09-07",
+   "file": "1751877212179.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751877212179.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ab5e5b4fd060450cd7a93800b229f69eaf949702910aacd29d505efbac434728",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751877212179.pdf"
+  }
+ ],
+ "scheme": "UTI Liquid Fund"
+}

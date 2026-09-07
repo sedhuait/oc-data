@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 875410,
+   "checked": "2026-09-07",
+   "file": "1752474864013.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752474864013.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "64ae0d81821dbb42531a114842adce85a51b57730f51152aeb0fd5ac6d59e831",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752474864013.pdf"
+  }
+ ],
+ "scheme": "LIC MF Nifty 8-13 yr G-Sec ETF"
+}

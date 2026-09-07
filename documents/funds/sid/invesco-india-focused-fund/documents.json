@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1090639,
+   "checked": "2026-09-07",
+   "file": "1749189204434.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749189204434.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "fd0312d0aa05385e011e75712eaa24f014bc2d59234345a27bd36e0d4315052a",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749189204434.pdf"
+  }
+ ],
+ "scheme": "Invesco India Focused Fund"
+}

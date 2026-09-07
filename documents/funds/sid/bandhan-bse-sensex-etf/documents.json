@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 826719,
+   "checked": "2026-09-07",
+   "file": "1750159711738.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750159711738.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "34714a86fc65fbb62fe44b94be4910a814be15863caba1aa2e3072a9d41c422c",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750159711738.pdf"
+  }
+ ],
+ "scheme": "Bandhan BSE Sensex ETF"
+}

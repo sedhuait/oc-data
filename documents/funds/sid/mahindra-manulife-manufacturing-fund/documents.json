@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1015917,
+   "checked": "2026-09-07",
+   "file": "1771317511723.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771317511723.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "66f3271c882ed1fb969afcff87be751a7cc83cdd7e12d1537272b8b911778ff9",
+   "sid_version": "2026-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771317511723.pdf"
+  }
+ ],
+ "scheme": "Mahindra Manulife Manufacturing Fund"
+}

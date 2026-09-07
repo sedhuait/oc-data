@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1224019,
+   "checked": "2026-09-07",
+   "file": "1735549768384.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1735549768384.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "1383378891164ce81660500cf319d13b67c984100f75b58cae430ef9c6699ff6",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1735549768384.pdf"
+  }
+ ],
+ "scheme": "Navi BSE Sensex Index Fund"
+}

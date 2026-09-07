@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 5051451,
+   "checked": "2026-09-07",
+   "file": "1750654219880.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750654219880.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "1bd835bae5c45c4afd6a6df90963209b61864e6f532538ac7039b044c18fb3e8",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750654219880.pdf"
+  }
+ ],
+ "scheme": "Invesco India Income Plus Arbitrage Active Fund of Fund"
+}

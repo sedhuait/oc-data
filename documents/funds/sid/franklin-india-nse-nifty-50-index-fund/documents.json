@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1007816,
+   "checked": "2026-09-07",
+   "file": "1764583601110.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764583601110.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "2ea099aa42bee9edc68900900836e10dddae40cbb01f90c7c55dc3da1ddabeeb",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764583601110.pdf"
+  }
+ ],
+ "scheme": "Franklin India NSE Nifty 50 Index Fund"
+}

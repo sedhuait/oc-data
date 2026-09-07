@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 781514,
+   "checked": "2026-09-07",
+   "file": "1749188289752.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749188289752.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "2d0a0d5b002b18df5a35df0d23a52339a0fd787fc9e7e783776f5f6243247992",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749188289752.pdf"
+  }
+ ],
+ "scheme": "Invesco India Contra Fund"
+}

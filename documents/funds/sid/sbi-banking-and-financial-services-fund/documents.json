@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1128863,
+   "checked": "2026-09-07",
+   "file": "1734346171359.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734346171359.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "fe33929ebb6c1554c83ec6a48954a415b419017adb9767a5127e06d0448e9b05",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734346171359.pdf"
+  }
+ ],
+ "scheme": "SBI Banking & Financial Services Fund"
+}

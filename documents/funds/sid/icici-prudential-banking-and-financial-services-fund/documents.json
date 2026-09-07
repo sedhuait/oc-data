@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1346071,
+   "checked": "2026-09-07",
+   "file": "1685688888407.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685688888407.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b8daa78592690df6650578c92aec2891c7a4c8e5697c4dd3e4538a3b74abdacb",
+   "sid_version": "2023-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685688888407.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Banking & Financial  Services Fund"
+}

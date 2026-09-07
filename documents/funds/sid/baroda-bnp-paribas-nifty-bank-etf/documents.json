@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 826546,
+   "checked": "2026-09-07",
+   "file": "1735883737522.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735883737522.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c804d542d55ffa5fe4a82edc0cb8d14254cd1e16eb5d0fb192f43ecad3f16156",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735883737522.pdf"
+  }
+ ],
+ "scheme": "Baroda BNP Paribas Nifty Bank ETF"
+}

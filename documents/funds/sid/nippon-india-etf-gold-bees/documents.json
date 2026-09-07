@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 733123,
+   "checked": "2026-09-07",
+   "file": "1720773958593.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720773958593.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a17ac30ab30bf5eeebcb59d6da62b6df836550ad7a311f9d01a17beb4b1dbdea",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720773958593.pdf"
+  }
+ ],
+ "scheme": "Nippon India ETF Gold BeES"
+}

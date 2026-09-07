@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1126427,
+   "checked": "2026-09-07",
+   "file": "1719980244174.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1719980244174.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "9335dee503f39d98c84bdd42905f90f16d050531fb885094fb93fbdc16730d05",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1719980244174.pdf"
+  }
+ ],
+ "scheme": "EDELWEISS TECHNOLOGY FUND"
+}

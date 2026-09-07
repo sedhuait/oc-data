@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1384987,
+   "checked": "2026-09-07",
+   "file": "1750316921053.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750316921053.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b55cec9434bb8ac95598b2275f6b3e7bf0e9284b895f5787d232e5486088598b",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750316921053.pdf"
+  }
+ ],
+ "scheme": "MOTILAL OSWAL BSE ENHANCED VALUE INDEX FUND"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1062126,
+   "checked": "2026-09-07",
+   "file": "1784522335014.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2026/1784522335014.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "7ea45b3e805b39ab7f5f589a4a07924a339407ecb477b4fde49522a5f1afa538",
+   "sid_version": "2026-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2026/1784522335014.pdf"
+  }
+ ],
+ "scheme": "WhiteOak Capital Dividend Yield Fund"
+}

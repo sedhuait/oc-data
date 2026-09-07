@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1357141,
+   "checked": "2026-09-07",
+   "file": "1752475780661.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752475780661.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a8e47e48dd180e3416de55366b8f338319d94782f4260782cc6b214c17a64953",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752475780661.pdf"
+  }
+ ],
+ "scheme": "LIC MF Gold ETF Fund of Fund"
+}

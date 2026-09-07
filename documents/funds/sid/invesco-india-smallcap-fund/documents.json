@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1054168,
+   "checked": "2026-09-07",
+   "file": "1749188896081.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749188896081.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "4add42b0fb5e8244350b68de4389789834d5041b4c77f06d919133215e2c7463",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749188896081.pdf"
+  }
+ ],
+ "scheme": "Invesco India Smallcap Fund"
+}

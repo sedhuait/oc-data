@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1001680,
+   "checked": "2026-09-07",
+   "file": "1751884767779.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751884767779.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "1a3de369e3141cb614a0c01ceb5a1fb0356e29e1405fcdd17dd95ad199827cbf",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751884767779.pdf"
+  }
+ ],
+ "scheme": "UTI Retirement Fund"
+}

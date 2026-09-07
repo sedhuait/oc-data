@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 719243,
+   "checked": "2026-09-07",
+   "file": "1720765827964.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720765827964.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "4c4df0a2cd5b1a22d07fd20b4f802510457f74b28c9758619fa9b3e04ce9944c",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720765827964.pdf"
+  }
+ ],
+ "scheme": "Nippon India Japan Equity Fund"
+}

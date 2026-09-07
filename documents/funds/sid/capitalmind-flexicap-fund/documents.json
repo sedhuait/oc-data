@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1195226,
+   "checked": "2026-09-07",
+   "file": "1752137099636.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752137099636.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "14164b4758cf38664449219acd1f1d5f335a396c563d60c8899de43c48a5d639",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752137099636.pdf"
+  }
+ ],
+ "scheme": "Capitalmind Flexi Cap Fund"
+}

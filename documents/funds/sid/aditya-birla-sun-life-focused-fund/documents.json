@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 956639,
+   "checked": "2026-09-07",
+   "file": "1733130480136.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733130480136.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "47a0f56c57cbbe2c0f926b82494c1e56aef0ce75f434d34b2159dfac0f2be86e",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733130480136.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life Focused Fund"
+}

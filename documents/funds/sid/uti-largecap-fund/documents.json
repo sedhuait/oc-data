@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1154548,
+   "checked": "2026-09-07",
+   "file": "1751611747060.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751611747060.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "456b67aa339ffbb22d834ee53ea6c1f633387fb6677021de67fe53c17ef94be6",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751611747060.pdf"
+  }
+ ],
+ "scheme": "UTI Large Cap Fund"
+}

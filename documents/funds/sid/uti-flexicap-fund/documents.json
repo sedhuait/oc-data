@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1097748,
+   "checked": "2026-09-07",
+   "file": "1751611787600.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751611787600.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a4e6d2869435d3f5d71893dc2bb00fcd62501d7f838e3da291ebc57b49257ac7",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751611787600.pdf"
+  }
+ ],
+ "scheme": "UTI Flexi cap fund"
+}

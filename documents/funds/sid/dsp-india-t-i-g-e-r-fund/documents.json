@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2308594,
+   "checked": "2026-09-07",
+   "file": "1735815042032.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735815042032.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e857edcfe6e867a2fce17b260a2a0e8ba3aeb793328e8271949aa3ad93b7fbb4",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735815042032.pdf"
+  }
+ ],
+ "scheme": "DSP India T.I.G.E.R Fund"
+}

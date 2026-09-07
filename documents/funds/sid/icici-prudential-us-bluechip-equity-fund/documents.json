@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1103618,
+   "checked": "2026-09-07",
+   "file": "1685689136918.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685689136918.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c16fcda03f6994929def78a70e22a441958ea54a299aea7449b9c53e5740e452",
+   "sid_version": "2023-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685689136918.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential US Bluechip Equity Fund"
+}

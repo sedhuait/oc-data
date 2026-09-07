@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1157760,
+   "checked": "2026-09-07",
+   "file": "1719478671546.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2024/1719478671546.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "9e18deb732e6baa0c2fa9981e02cd03bc74b073b60ca88481b1f7ae50f2ad0b9",
+   "sid_version": "2024-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2024/1719478671546.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Liquid Fund"
+}

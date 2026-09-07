@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1535975,
+   "checked": "2026-09-07",
+   "file": "1751885159023.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751885159023.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e00c58c5de20208e3013455742441719147aee79df3b3872c53c32747af04e27",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751885159023.pdf"
+  }
+ ],
+ "scheme": "UTI Corporate Bond Fund"
+}

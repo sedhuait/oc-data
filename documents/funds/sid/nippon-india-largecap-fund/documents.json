@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 771398,
+   "checked": "2026-09-07",
+   "file": "1720765929396.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720765929396.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e51e2a0f5b4c1ef2ea44de4103713f08621dd2c3695bec49dacb591e6332ec94",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720765929396.pdf"
+  }
+ ],
+ "scheme": "Nippon India Large Cap Fund"
+}

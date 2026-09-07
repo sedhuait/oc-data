@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 943869,
+   "checked": "2026-09-07",
+   "file": "1750149265299.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750149265299.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "db952c56f8e948eb86efb783c48e152a643528ffc69d74bb79c9bc3aaa497344",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750149265299.pdf"
+  }
+ ],
+ "scheme": "Bandhan Ultra Short Term Fund"
+}

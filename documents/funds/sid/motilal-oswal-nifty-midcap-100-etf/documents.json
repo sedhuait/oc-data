@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1766820,
+   "checked": "2026-09-07",
+   "file": "1750413453406.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750413453406.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "951418cc18e4c7a9ecdeb6cd7b4d6a58bce80341b0dab264bc9482073c5993cc",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750413453406.pdf"
+  }
+ ],
+ "scheme": "Motilal Oswal Nifty Midcap 100 ETF"
+}

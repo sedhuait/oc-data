@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2029459,
+   "checked": "2026-09-07",
+   "file": "1784802668121.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2026/1784802668121.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "7bed3bf2ea7f9a00f4ab9f09885ea55113c4c5be57a8142d235d7fc77aeba500",
+   "sid_version": "2026-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2026/1784802668121.pdf"
+  }
+ ],
+ "scheme": "DSP BSE MidSmall Private Banks ETF"
+}

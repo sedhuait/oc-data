@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 732997,
+   "checked": "2026-09-07",
+   "file": "1735555310606.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1735555310606.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "dd2622b34db7ba4bd0e91026bd0022c53e9ac1685207a58dd2751c0cecfd3476",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1735555310606.pdf"
+  }
+ ],
+ "scheme": "NJ Overnight Fund"
+}

@@ -10,3 +10,8 @@ tools/*/snapshots/
 tools/*/mitc/
 *.bundle
 
+# Binary documents (PDFs) are uploaded to R2 bucket oc-documents (HLD §13.5).
+# Only the documents.json index files are tracked in git.
+documents/funds/sid/**/*.pdf
+
+

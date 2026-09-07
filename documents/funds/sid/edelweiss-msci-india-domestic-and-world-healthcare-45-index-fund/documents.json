@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2241407,
+   "checked": "2026-09-07",
+   "file": "1734328854495.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734328854495.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "86a93f74f206d737f9f505d8d20e4f7709b02680ac3b7c72bc39657880faf912",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734328854495.pdf"
+  }
+ ],
+ "scheme": "Edelweiss MSCI India Domestic & World Healthcare 45 Index Fund"
+}

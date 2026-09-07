@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2260010,
+   "checked": "2026-09-07",
+   "file": "1734328821950.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734328821950.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "8147d582424cc06f957b9b570903a8b9ec5bc10f59070dd874c01ddd62facd5d",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734328821950.pdf"
+  }
+ ],
+ "scheme": "Edelweiss Nifty 100 Quality 30 Index Fund"
+}

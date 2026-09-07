@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 825483,
+   "checked": "2026-09-07",
+   "file": "1751948108462.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751948108462.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "980e0210ed0b87376d754f006404ab801716d6d97d1cc0f0b11c89d727923b96",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751948108462.pdf"
+  }
+ ],
+ "scheme": "Parag Parikh Arbitrage Fund"
+}

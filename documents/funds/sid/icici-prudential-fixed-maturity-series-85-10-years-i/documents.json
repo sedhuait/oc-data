@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 731572,
+   "checked": "2026-09-07",
+   "file": "1551411463860.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2019/1551411463860.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "9a90dbd3dc1b57da427b645d4446d3e301932c591aa2e4e675ee254de4e1af1b",
+   "sid_version": "2019-03",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2019/1551411463860.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Fixed Maturity Plan - Series 85 - 10 Years Plan I"
+}

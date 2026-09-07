@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1245882,
+   "checked": "2026-09-07",
+   "file": "1750412411232.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750412411232.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b31d7d2620fd0d0589b3fcce4dfc5c217329e15687ce88cf09155e6e402703f2",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750412411232.pdf"
+  }
+ ],
+ "scheme": "MOTILAL OSWAL NIFTY 500 ETF"
+}

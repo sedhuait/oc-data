@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 887831,
+   "checked": "2026-09-07",
+   "file": "1732794700421.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732794700421.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "850a982e31525ff7b90739aea193894fc01e85420da1efda7e82d50c850729c4",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732794700421.pdf"
+  }
+ ],
+ "scheme": "HDFC NIFTY100 Low Volatility 30 Index Fund"
+}

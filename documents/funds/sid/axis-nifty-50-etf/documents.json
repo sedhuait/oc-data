@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 972563,
+   "checked": "2026-09-07",
+   "file": "1733721265739.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733721265739.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "9b8d9481feda869584058975ae1774121a34835d6722cd75d5a8baaef735e0bb",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733721265739.pdf"
+  }
+ ],
+ "scheme": "Axis NIFTY 50 ETF"
+}

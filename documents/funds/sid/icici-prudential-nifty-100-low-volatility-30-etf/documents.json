@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1101580,
+   "checked": "2026-09-07",
+   "file": "1685694427708.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685694427708.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ddeccbd57fecd56de52d86b83f822ad80182d0b0e730c684af25633f979a387c",
+   "sid_version": "2023-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685694427708.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Nifty 100 Low Volatility 30 ETF"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 858152,
+   "checked": "2026-09-07",
+   "file": "1762755780518.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2025/1762755780518.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "aeea76907cf1832883924c2939d399d21da642cad9fb37d2ec5a4397b3c2d5bf",
+   "sid_version": "2025-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2025/1762755780518.pdf"
+  }
+ ],
+ "scheme": "Mirae Asset Balanced Advantage Fund"
+}

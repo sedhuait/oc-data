@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 957542,
+   "checked": "2026-09-07",
+   "file": "1719477917590.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2024/1719477917590.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c9efea4b0fe8d9f71676009086f60d75916de894954b66f568a67e13694569b8",
+   "sid_version": "2024-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2024/1719477917590.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Corporate Bond Fund"
+}

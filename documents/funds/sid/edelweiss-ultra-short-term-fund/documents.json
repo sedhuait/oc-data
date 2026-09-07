@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1178483,
+   "checked": "2026-09-07",
+   "file": "1786008971356.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2026/1786008971356.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "870eb2b8125e90d5fb43b96e8e5f3e74beb937e9f4f73ce843026e03c35f6160",
+   "sid_version": "2026-08",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2026/1786008971356.pdf"
+  }
+ ],
+ "scheme": "Edelweiss Ultra Short Term Fund"
+}

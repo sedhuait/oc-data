@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1293764,
+   "checked": "2026-09-07",
+   "file": "1739339375820.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739339375820.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "0b7d13c48d54399d398d2c6eec46809875d4ec4954ae28a851eab61ab3790f5d",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739339375820.pdf"
+  }
+ ],
+ "scheme": "Kotak ESG Exclusionary Strategy Fund"
+}

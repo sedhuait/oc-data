@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 932318,
+   "checked": "2026-09-07",
+   "file": "1757569179070.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2025/1757569179070.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "099957513f9a6a8aa4a60b236aff40e72a868e09be3cfd69ad3b34fcae0e7563",
+   "sid_version": "2025-09",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2025/1757569179070.pdf"
+  }
+ ],
+ "scheme": "Invesco India Consumption Fund"
+}

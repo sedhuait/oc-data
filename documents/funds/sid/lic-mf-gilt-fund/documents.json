@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1611477,
+   "checked": "2026-09-07",
+   "file": "1752227341405.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752227341405.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e059a9e9af3d60ff1d70894c28d4d57159310c9880d477bdd0bff58465fa5950",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752227341405.pdf"
+  }
+ ],
+ "scheme": "LIC MF Gilt Fund"
+}

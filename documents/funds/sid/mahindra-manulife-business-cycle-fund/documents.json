@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1000367,
+   "checked": "2026-09-07",
+   "file": "1771317606886.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771317606886.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "9c460c4d96618ec84743cdf777ddf3fed807946a109a665c7255427b44b16638",
+   "sid_version": "2026-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771317606886.pdf"
+  }
+ ],
+ "scheme": "Mahindra Manulife Business Cycle Fund"
+}

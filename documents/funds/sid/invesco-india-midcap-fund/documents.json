@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1006209,
+   "checked": "2026-09-07",
+   "file": "1749183469522.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749183469522.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e989c2b577684412e190662d2f534d4788c86cb6733e53494c8630e3846523fd",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749183469522.pdf"
+  }
+ ],
+ "scheme": "Invesco India Mid Cap Fund"
+}

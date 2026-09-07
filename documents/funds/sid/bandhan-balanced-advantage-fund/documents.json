@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 989711,
+   "checked": "2026-09-07",
+   "file": "1750152238998.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750152238998.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a271f2068c1f8c9bcbfcb92dfba35b1df093e7797fecc62cc4fc9ff31e8ffd17",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750152238998.pdf"
+  }
+ ],
+ "scheme": "Bandhan Balanced Advantage Fund"
+}

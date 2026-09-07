@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1066111,
+   "checked": "2026-09-07",
+   "file": "1764583680688.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764583680688.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "91a740098c208cbaf89ee5668e706014b7825181576f8feed9aa794e9a9c2196",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764583680688.pdf"
+  }
+ ],
+ "scheme": "Franklin India Technology Fund"
+}

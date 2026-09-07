@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1181615,
+   "checked": "2026-09-07",
+   "file": "1733121419376.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733121419376.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a257535cfcb5e58c42f728c57d3e782a9bce5e5ad6a0f02b5f6ec4a690f67fb5",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733121419376.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life Nifty SDL Plus PSU Bond Sep 2026 60:40 Index Fund"
+}

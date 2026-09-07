@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1551958,
+   "checked": "2026-09-07",
+   "file": "1672997645194.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2023/1672997645194.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "89f43c571f749c92c57972d76a4bf66fc46e01eae1cf5d39ca70085572ef8ff7",
+   "sid_version": "2023-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2023/1672997645194.pdf"
+  }
+ ],
+ "scheme": "UTI Fixed Term Income Fund ? Series XXXV ? III (1176 days)"
+}

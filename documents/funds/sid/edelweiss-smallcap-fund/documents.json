@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1155604,
+   "checked": "2026-09-07",
+   "file": "1719980214083.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1719980214083.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "935b96f1761893ecd45598c646a0004f4a9552837b075818df9a74bc7e67af5b",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1719980214083.pdf"
+  }
+ ],
+ "scheme": "Edelweiss Small Cap Fund"
+}

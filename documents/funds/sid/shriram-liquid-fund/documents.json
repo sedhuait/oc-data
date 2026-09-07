@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2019676,
+   "checked": "2026-09-07",
+   "file": "1749125328347.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749125328347.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "f29e3a015799f7f3e8981f9a262304bdaa19188adabe66f04d87b82872cf20a1",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749125328347.pdf"
+  }
+ ],
+ "scheme": "Shriram Liquid Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1470707,
+   "checked": "2026-09-07",
+   "file": "1749119144893.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749119144893.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "0e85ae2e49d3f8510c3cf0e841bef401d88cd1d84502bec95806e2d6fedfbd6b",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749119144893.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Nifty India Consumption ETF"
+}

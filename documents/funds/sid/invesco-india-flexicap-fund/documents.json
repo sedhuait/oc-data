@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 802395,
+   "checked": "2026-09-07",
+   "file": "1749192823950.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749192823950.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a3f07f601db2b899141345ec36b18735a2d4691c1e3360975b04303a20c20674",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749192823950.pdf"
+  }
+ ],
+ "scheme": "Invesco India Flexi cap Fund"
+}

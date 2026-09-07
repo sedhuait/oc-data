@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 978784,
+   "checked": "2026-09-07",
+   "file": "1726807673690.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1726807673690.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "60fbb20e78701a4c9ae4f6c133ad24dd7edb8dd57bf3d8127b1a5a962234d90b",
+   "sid_version": "2024-09",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1726807673690.pdf"
+  }
+ ],
+ "scheme": "WhiteOak Capital Banking & Financial Services Fund"
+}

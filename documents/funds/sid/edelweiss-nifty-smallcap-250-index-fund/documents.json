@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2331487,
+   "checked": "2026-09-07",
+   "file": "1734329031276.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734329031276.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "5b601749a79271dbf2266fc168e1739b158054feffff547192f9b8c408ea93e6",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734329031276.pdf"
+  }
+ ],
+ "scheme": "Edelweiss Nifty Smallcap 250 Index Fund"
+}

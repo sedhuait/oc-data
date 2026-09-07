@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 949725,
+   "checked": "2026-09-07",
+   "file": "1750413060627.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750413060627.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "db65e9ac7c5c273aef7f468b09e6577a97a8a94f6c450e0bc9f61335d179bcf2",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750413060627.pdf"
+  }
+ ],
+ "scheme": "Motilal Oswal Nifty Bank Index Fund"
+}

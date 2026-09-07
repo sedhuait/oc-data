@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1212769,
+   "checked": "2026-09-07",
+   "file": "1751622969389.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751622969389.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "77c5fa0e78c5c36a62cd7b45fdf7ef4a7152103ddefa3026de632187801d1815",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751622969389.pdf"
+  }
+ ],
+ "scheme": "UTI Transportation & Logistics Fund"
+}

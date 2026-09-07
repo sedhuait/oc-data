@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1185148,
+   "checked": "2026-09-07",
+   "file": "1772446173300.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2026/1772446173300.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "393bd3a4d5545f43f80d748ca28326ca80c6e2fc93f7e897ce9389153182f6e5",
+   "sid_version": "2026-03",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2026/1772446173300.pdf"
+  }
+ ],
+ "scheme": "Franklin India Equity Savings Fund"
+}

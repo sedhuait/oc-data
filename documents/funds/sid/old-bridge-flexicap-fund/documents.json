@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 925702,
+   "checked": "2026-09-07",
+   "file": "1770610752488.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1770610752488.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "05c8b2b311de99eb7cb5125b5ceb82f19bd4a7b05b6cd992643134f489e2062a",
+   "sid_version": "2026-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1770610752488.pdf"
+  }
+ ],
+ "scheme": "Old Bridge Flexi Cap Fund"
+}

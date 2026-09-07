@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1242456,
+   "checked": "2026-09-07",
+   "file": "1749125296502.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749125296502.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ce2849b21c701feda82e30b87293f2bc2b06f5e4b2b22384ffd12f36034cb162",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749125296502.pdf"
+  }
+ ],
+ "scheme": "Shriram Multi Sector Rotation Fund"
+}

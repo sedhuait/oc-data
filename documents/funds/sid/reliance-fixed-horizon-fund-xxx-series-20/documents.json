@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1524615,
+   "checked": "2026-09-07",
+   "file": "relfgfxxx-20sid.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2016/relfgfxxx-20sid.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "573bfcc5f321288ac4495956cf768417dd5077e91deddccc3378f13cae37618a",
+   "sid_version": "2016-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2016/relfgfxxx-20sid.pdf"
+  }
+ ],
+ "scheme": "Reliance Fixed Horizon Fund XXX - Series 20?"
+}

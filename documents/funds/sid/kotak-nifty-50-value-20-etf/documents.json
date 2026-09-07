@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 834364,
+   "checked": "2026-09-07",
+   "file": "1739343253883.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739343253883.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "73ab0177fa81aa946435f35e2085595df45be9d5e71ef20ca9aa5e7a0c40125e",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739343253883.pdf"
+  }
+ ],
+ "scheme": "Kotak Nifty 50 Value 20 ETF"
+}

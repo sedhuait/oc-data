@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1121751,
+   "checked": "2026-09-07",
+   "file": "1749025891292.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749025891292.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "93fe9c8f93a350639ec2f528ebcabf4ea026e07bd17b46614a6bbece3462357c",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749025891292.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Passive Multi-Asset Fund of Funds"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1020018,
+   "checked": "2026-09-07",
+   "file": "1719923501522.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1719923501522.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "4470e270b61ea9c820c2f695a166571f8eaa23ea98286e2ba9e85ab39dc80643",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1719923501522.pdf"
+  }
+ ],
+ "scheme": "Edelweiss Focused Fund"
+}

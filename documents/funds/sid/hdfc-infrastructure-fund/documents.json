@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 956082,
+   "checked": "2026-09-07",
+   "file": "1732788318730.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732788318730.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c8cae87d6c1458ec799afab5cc83a35298e76d5e71a86c8844d2a68d56ef5b2d",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732788318730.pdf"
+  }
+ ],
+ "scheme": "HDFC Infrastructure Fund"
+}

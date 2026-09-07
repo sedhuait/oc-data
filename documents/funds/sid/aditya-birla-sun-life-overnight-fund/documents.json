@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 874227,
+   "checked": "2026-09-07",
+   "file": "1733122407767.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733122407767.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3652a7829bdcf4dcf197d95bcb8cdb6daf10f269573a4d41b9d094267e419b5e",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733122407767.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life Overnight Fund"
+}

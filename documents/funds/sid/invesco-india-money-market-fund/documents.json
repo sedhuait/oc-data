@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1116282,
+   "checked": "2026-09-07",
+   "file": "1749182933999.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749182933999.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "cdbdcd01b105e8787c674a653a4c6fb29ef589a4e366ef49d5ee1bcbe2e914cf",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749182933999.pdf"
+  }
+ ],
+ "scheme": "Invesco India Money Market Fund"
+}

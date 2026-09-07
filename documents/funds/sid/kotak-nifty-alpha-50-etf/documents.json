@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 913705,
+   "checked": "2026-09-07",
+   "file": "1739343350099.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739343350099.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "1ddb0f3fb662fcda4ddc841ecdcb1cbf1b64b964055b44b234d57443ad6c9512",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739343350099.pdf"
+  }
+ ],
+ "scheme": "Kotak Nifty Alpha 50 ETF"
+}

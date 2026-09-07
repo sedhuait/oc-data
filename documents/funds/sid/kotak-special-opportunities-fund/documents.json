@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1090214,
+   "checked": "2026-09-07",
+   "file": "1739344548532.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739344548532.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "4b28d1a009a18af462d3ef16e8a102fb34655b38e260ca614ddf4661a9abe81d",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739344548532.pdf"
+  }
+ ],
+ "scheme": "Kotak Special Opportunities Fund"
+}

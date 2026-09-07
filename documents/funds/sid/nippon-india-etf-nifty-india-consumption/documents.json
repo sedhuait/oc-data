@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 797176,
+   "checked": "2026-09-07",
+   "file": "1720774525085.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720774525085.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a41fc5fad880ef40ed908ceb8f44d92c76c652d55398d4c597a76fe96c346a66",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720774525085.pdf"
+  }
+ ],
+ "scheme": "Nippon India ETF Nifty India Consumption"
+}

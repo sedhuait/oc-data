@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 902216,
+   "checked": "2026-09-07",
+   "file": "1734345986692.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734345986692.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "611235bddcfe985ad654c45b67e58a7e96c83fc3e8d616d3cde79ea58688c81f",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734345986692.pdf"
+  }
+ ],
+ "scheme": "SBI Gold ETF"
+}

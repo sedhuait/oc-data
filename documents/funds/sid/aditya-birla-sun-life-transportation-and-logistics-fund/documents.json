@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 622445,
+   "checked": "2026-09-07",
+   "file": "1733129413864.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733129413864.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "bdab98ab7a41459dc286ecf5952714e94eb433dd017f8375db20c5db05efd1b7",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733129413864.pdf"
+  }
+ ],
+ "scheme": "ADITYA BIRLA SUN LIFE TRANSPORTATION AND LOGISTICS FUND"
+}

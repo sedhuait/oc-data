@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1269260,
+   "checked": "2026-09-07",
+   "file": "1685695819573.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685695819573.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "87830171b8b1b0c8f5a95ab3310ac42287f691e5d502d7e241d4a8f6fb2c587b",
+   "sid_version": "2023-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685695819573.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Flexicap Fund"
+}

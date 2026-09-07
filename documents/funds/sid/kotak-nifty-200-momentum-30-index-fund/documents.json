@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 856571,
+   "checked": "2026-09-07",
+   "file": "1739342892457.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739342892457.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "9bf387dc71bd60e7c7618ffe8abbaa02c24f11616918a2f2c42d7116adeaffe4",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739342892457.pdf"
+  }
+ ],
+ "scheme": "Kotak Nifty 200 Momentum 30 Index Fund"
+}

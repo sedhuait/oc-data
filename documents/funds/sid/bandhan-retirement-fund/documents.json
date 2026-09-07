@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 937413,
+   "checked": "2026-09-07",
+   "file": "1750152422140.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750152422140.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "160bec894b1e395558c22c6586bd3ca8cfa3aee2b279c011669c7ffb5160b71b",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750152422140.pdf"
+  }
+ ],
+ "scheme": "Bandhan Retirement Fund"
+}

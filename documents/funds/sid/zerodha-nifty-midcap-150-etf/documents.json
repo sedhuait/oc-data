@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 638827,
+   "checked": "2026-09-07",
+   "file": "1733481935602.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733481935602.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "7878156dc66d2c4dfe05c809868ad3295d56a190c0fee2bf0dbb32ef85517391",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733481935602.pdf"
+  }
+ ],
+ "scheme": "Zerodha Nifty Midcap 150 ETF"
+}

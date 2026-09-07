@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1161037,
+   "checked": "2026-09-07",
+   "file": "1734340754191.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734340754191.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "fda8e90d132776155f503bf5be0d998a9a8022e1675e8e05ca38dce77350c5b4",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734340754191.pdf"
+  }
+ ],
+ "scheme": "SBI Credit Risk Fund"
+}

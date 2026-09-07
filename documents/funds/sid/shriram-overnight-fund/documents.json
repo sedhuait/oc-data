@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1134606,
+   "checked": "2026-09-07",
+   "file": "1745409677658.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/apr-2025/1745409677658.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "0b301302216ae049dc338a13e2c60a2c307359890be5524844a5360f9ba3ad30",
+   "sid_version": "2025-04",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/apr-2025/1745409677658.pdf"
+  }
+ ],
+ "scheme": "Shriram Overnight Fund"
+}

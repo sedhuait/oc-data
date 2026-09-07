@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 850710,
+   "checked": "2026-09-07",
+   "file": "1733121788446.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733121788446.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "59c652584d6603edc408daaf954f0b258b92d6990bd5a9785095a95fa4f0c9ab",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733121788446.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life Gold ETF"
+}

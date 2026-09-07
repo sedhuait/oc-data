@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1948085,
+   "checked": "2026-09-07",
+   "file": "1652259742308.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1652259742308.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "115ab730966771545445aacc7a59a046a45757010b9b997f64f2dce84d352c51",
+   "sid_version": "2022-05",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1652259742308.pdf"
+  }
+ ],
+ "scheme": "Tata Small Cap Fund"
+}

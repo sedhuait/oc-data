@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1018349,
+   "checked": "2026-09-07",
+   "file": "1727778961154.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727778961154.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "edd19293788b046917982fdb2f1322674de865b43af2fdeca1823599b71ca05d",
+   "sid_version": "2024-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727778961154.pdf"
+  }
+ ],
+ "scheme": "HSBC Overnight Fund"
+}

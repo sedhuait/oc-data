@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2287181,
+   "checked": "2026-09-07",
+   "file": "1734324141985.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734324141985.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d6089b50d2ac5f2fbc334216e6cb7d90a822e07b7af22793f846b548beded90d",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734324141985.pdf"
+  }
+ ],
+ "scheme": "Edelweiss Nifty 50 Index Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 954982,
+   "checked": "2026-09-07",
+   "file": "1732794200338.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732794200338.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a5904a1241d7702be71f14970cb13d67f424148c23eb175acdb2239a47d68729",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732794200338.pdf"
+  }
+ ],
+ "scheme": "HDFC NIFTY 100 Equal Weight Index Fund"
+}

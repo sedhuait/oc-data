@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1500955,
+   "checked": "2026-09-07",
+   "file": "1752474645230.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752474645230.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e6d85611416ac88a69d90ca139bddd17c7b9da00e3d137d1a80e3a2f1fb25b1f",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752474645230.pdf"
+  }
+ ],
+ "scheme": "LIC MF Large & Midcap Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2841441,
+   "checked": "2026-09-07",
+   "file": "1742379508483.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1742379508483.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3fc2b5c37f32c001c595d7d8684ba1fe59448b8e81220f071c599b69f45c7a8e",
+   "sid_version": "2025-03",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1742379508483.pdf"
+  }
+ ],
+ "scheme": "Sundaram Long Term Tax Advantage Fund Series III"
+}

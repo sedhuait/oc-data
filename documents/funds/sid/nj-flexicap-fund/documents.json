@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 865599,
+   "checked": "2026-09-07",
+   "file": "1735555356531.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1735555356531.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "4804037bab778a7c5f6e96e9922a66c760326a6004f3b573c2d8caa16f0bc7b8",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1735555356531.pdf"
+  }
+ ],
+ "scheme": "NJ Flexi Cap Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1237302,
+   "checked": "2026-09-07",
+   "file": "1685697286121.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685697286121.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "03ebdc57367bb95fb286a68f30bd8fad206cc2c7b8277d4113bd6e3d1496ca98",
+   "sid_version": "2023-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685697286121.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Housing Opportunities Fund"
+}

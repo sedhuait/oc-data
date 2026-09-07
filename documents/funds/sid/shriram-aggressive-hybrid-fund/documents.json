@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1619008,
+   "checked": "2026-09-07",
+   "file": "1749125019397.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749125019397.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "77d33b5f0beb2f62698e9b6c9ed544d2066361cac86dc09132cce14bff688a38",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749125019397.pdf"
+  }
+ ],
+ "scheme": "Shriram Aggressive Hybrid Fund"
+}

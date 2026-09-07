@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1163945,
+   "checked": "2026-09-07",
+   "file": "1733726459415.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733726459415.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a6d514a413dc4ae425c6e5e745b60cb4d3145a526f5e832d131197fa87827b25",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733726459415.pdf"
+  }
+ ],
+ "scheme": "Axis Conservative Hybrid Fund"
+}

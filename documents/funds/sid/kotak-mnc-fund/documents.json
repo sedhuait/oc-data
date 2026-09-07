@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1094398,
+   "checked": "2026-09-07",
+   "file": "1739344717777.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739344717777.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "013ce4daddd436b2c64822b3679177bf6066a659f127f1548e2014b73d9ad580",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739344717777.pdf"
+  }
+ ],
+ "scheme": "Kotak MNC Fund"
+}

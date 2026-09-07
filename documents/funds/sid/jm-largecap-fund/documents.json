@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 799473,
+   "checked": "2026-09-07",
+   "file": "1765437428802.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765437428802.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "414140b5583ef98ac819b3762cf4569f99c079c97759aaa296b82a2fd7a2c2aa",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765437428802.pdf"
+  }
+ ],
+ "scheme": "JM LargeCap Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1842712,
+   "checked": "2026-09-07",
+   "file": "1765434887668.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765434887668.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ceff13de8686b25c720d9305a8468ecde1a4c03cd24a9584c33af2a21dfc5051",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765434887668.pdf"
+  }
+ ],
+ "scheme": "Taurus Infrastructure Fund"
+}

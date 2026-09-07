@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1975263,
+   "checked": "2026-09-07",
+   "file": "1735817764293.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735817764293.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "049c22d54d028f4c905709ad315c031d08a9ee05cda6f32569878a14102d1b44",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735817764293.pdf"
+  }
+ ],
+ "scheme": "DSP Nifty Private Bank ETF"
+}

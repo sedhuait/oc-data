@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 905871,
+   "checked": "2026-09-07",
+   "file": "1739339464536.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739339464536.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "68e5dc1a0120913d59c6013f0964e6cae029165fa98bb92d18fecf3f54a48ac4",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739339464536.pdf"
+  }
+ ],
+ "scheme": "Kotak Flexicap Fund"
+}

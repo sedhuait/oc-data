@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 503396,
+   "checked": "2026-09-07",
+   "file": "1764661378618.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764661378618.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "738999a79f9d94e0a8b80c81f3c1575e324a2453d8055575b96457b3ccd1a419",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764661378618.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET GOLD ETF"
+}

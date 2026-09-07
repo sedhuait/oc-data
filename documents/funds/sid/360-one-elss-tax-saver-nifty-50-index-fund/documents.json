@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 586937,
+   "checked": "2026-09-07",
+   "file": "1765426114652.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765426114652.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "713f84aab9735d367125a47f6abed6e74f8d4dde6c247d742794b114f0a546b5",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765426114652.pdf"
+  }
+ ],
+ "scheme": "360 ONE ELSS Tax Saver Nifty 50 Index Fund"
+}

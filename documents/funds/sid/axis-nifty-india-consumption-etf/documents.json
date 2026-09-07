@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 968811,
+   "checked": "2026-09-07",
+   "file": "1733721086260.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733721086260.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "235b9df526a53de0bf8e9255b433761900a35525fcfe2d134e759cf75969cc6c",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733721086260.pdf"
+  }
+ ],
+ "scheme": "Axis Nifty India Consumption ETF"
+}

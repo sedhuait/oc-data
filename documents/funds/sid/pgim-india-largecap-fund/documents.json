@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1730323,
+   "checked": "2026-09-07",
+   "file": "1597034204721.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2020/1597034204721.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "7abe41ca24a98917ada3df9988ad2921bab7682e3d97578b2cb2d73dffb6b97f",
+   "sid_version": "2020-08",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2020/1597034204721.pdf"
+  }
+ ],
+ "scheme": "PGIM India Large Cap Fund"
+}

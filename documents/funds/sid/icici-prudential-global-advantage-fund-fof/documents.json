@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1163687,
+   "checked": "2026-09-07",
+   "file": "1749025750039.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749025750039.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d871c07ab8584db4bf4583e1129351fa02eacb9af0ca13949f74e1393ed3a068",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749025750039.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Global Advantage Fund (FOF)"
+}

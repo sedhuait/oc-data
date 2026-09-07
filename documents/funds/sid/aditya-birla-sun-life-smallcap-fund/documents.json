@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 563441,
+   "checked": "2026-09-07",
+   "file": "1733123613145.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733123613145.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "bc9b109ec7816d04218abc8520a4901681b0c65ce846af4774c8b9fe45db89f1",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733123613145.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life Small Cap Fund"
+}

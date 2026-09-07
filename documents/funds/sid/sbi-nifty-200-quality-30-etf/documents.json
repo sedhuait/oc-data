@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1025410,
+   "checked": "2026-09-07",
+   "file": "1734343840027.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734343840027.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "20728d623996f71aed2c7882fa6e7c7ed5727658aea3df764f89f795a9d02b87",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734343840027.pdf"
+  }
+ ],
+ "scheme": "SBI Nifty 200 Quality 30 ETF"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1231677,
+   "checked": "2026-09-07",
+   "file": "1734347456006.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734347456006.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "52663d8fe60b4cd32b7716c4d9bfa5b81c97cc6f45191e485142addeefae3afa",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734347456006.pdf"
+  }
+ ],
+ "scheme": "SBI Consumption Opportunities Fund"
+}

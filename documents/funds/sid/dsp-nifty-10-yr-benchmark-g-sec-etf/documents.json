@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1910639,
+   "checked": "2026-09-07",
+   "file": "1785924072047.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2026/1785924072047.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "50ae015b532060c58593a51d66c863c85708c1598fd6a2c1cb20802076db6677",
+   "sid_version": "2026-08",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2026/1785924072047.pdf"
+  }
+ ],
+ "scheme": "DSP Nifty 10 Yr Benchmark G-Sec ETF"
+}

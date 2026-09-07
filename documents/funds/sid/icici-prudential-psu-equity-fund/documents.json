@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1210108,
+   "checked": "2026-09-07",
+   "file": "1685697449109.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685697449109.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "761c55a1820061e2e695897a7cbe0b7eecfadd7f2d58dad3f156f329b25cb192",
+   "sid_version": "2023-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685697449109.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential PSU Equity Fund"
+}

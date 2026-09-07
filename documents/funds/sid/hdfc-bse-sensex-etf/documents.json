@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1401519,
+   "checked": "2026-09-07",
+   "file": "1732785542352.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732785542352.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b62416dd46d1c6d9a946d522f33ec392bbb6207d824049a04b535c4ad64db578",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732785542352.pdf"
+  }
+ ],
+ "scheme": "HDFC BSE SENSEX ETF"
+}

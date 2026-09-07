@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 423465,
+   "checked": "2026-09-07",
+   "file": "1753770313114.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1753770313114.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "0480e186b561654c8c3298e7f56dde753ad1b83518324e443af4fee3d612fde7",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1753770313114.pdf"
+  }
+ ],
+ "scheme": "JioBlackRock Nifty Smallcap 250 Index Fund"
+}

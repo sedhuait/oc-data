@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2378886,
+   "checked": "2026-09-07",
+   "file": "1734323896577.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734323896577.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "dc6c49e678bbd727b05a1d3d7bc8f79924a74d08db741b855d8d886c5e797abf",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734323896577.pdf"
+  }
+ ],
+ "scheme": "Edelweiss Balanced Advantage Fund"
+}

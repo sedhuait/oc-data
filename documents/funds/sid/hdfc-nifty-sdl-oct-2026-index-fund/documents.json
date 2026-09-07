@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 891137,
+   "checked": "2026-09-07",
+   "file": "1732793894876.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732793894876.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "74326f07adbc8ca8eaf01162405f2809c2b3f0e92b8e7a638f07cd4c6b559762",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732793894876.pdf"
+  }
+ ],
+ "scheme": "HDFC Nifty SDL Oct 2026 Index Fund"
+}

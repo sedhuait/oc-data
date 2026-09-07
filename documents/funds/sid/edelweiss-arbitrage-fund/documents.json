@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2244746,
+   "checked": "2026-09-07",
+   "file": "1734324018937.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734324018937.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "327fc111107ce55a62833499c036c5f13987f1779ef19501d2d5394856847650",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734324018937.pdf"
+  }
+ ],
+ "scheme": "Edelweiss Arbitrage Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 857001,
+   "checked": "2026-09-07",
+   "file": "1783424431449.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2026/1783424431449.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "890ade5a650047e6ba611c5687b354753baf27ed0881ebf6bc5e531b09aa287f",
+   "sid_version": "2026-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2026/1783424431449.pdf"
+  }
+ ],
+ "scheme": "Mirae Asset Nifty200 Momentum 30 Plus 8-13 yr G-Sec 50:50 ETF"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2294815,
+   "checked": "2026-09-07",
+   "file": "1734324115906.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734324115906.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "04ea0f947f420d153637e7f6330b041ac133e0257e05722af7643790252789de",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734324115906.pdf"
+  }
+ ],
+ "scheme": "Edelweiss Aggressive Hybrid Fund"
+}

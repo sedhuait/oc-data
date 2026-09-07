@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 745327,
+   "checked": "2026-09-07",
+   "file": "1639372736620.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2021/1639372736620.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "630d47a2812edb9b7de9b6391c828db14f4c78e6a6e37846d4b6f8e8587b169e",
+   "sid_version": "2021-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2021/1639372736620.pdf"
+  }
+ ],
+ "scheme": "Tata Banking And Financial Services Fund"
+}

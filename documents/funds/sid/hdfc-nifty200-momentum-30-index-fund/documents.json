@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 867131,
+   "checked": "2026-09-07",
+   "file": "1732794667794.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732794667794.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "bdcb3e3661268badc795a3483f448c7c143d1a354067b2a17cb923f5dbf1a5aa",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732794667794.pdf"
+  }
+ ],
+ "scheme": "HDFC NIFTY200 Momentum 30 Index Fund"
+}

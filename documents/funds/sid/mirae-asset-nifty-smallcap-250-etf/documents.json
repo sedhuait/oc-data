@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 387606,
+   "checked": "2026-09-07",
+   "file": "1767357530245.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2026/1767357530245.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "f0e80126a54a7c244a747a644a1d9e23565d50b201835cf9c021ac293d8ad979",
+   "sid_version": "2026-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2026/1767357530245.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET NIFTY SMALLCAP 250 ETF"
+}

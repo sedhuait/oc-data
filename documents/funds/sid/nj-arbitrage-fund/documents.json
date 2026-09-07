@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 819798,
+   "checked": "2026-09-07",
+   "file": "1735555288602.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1735555288602.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "86adae6310f5845f152de257f8a3b70a2188f76338bd7d29e6f61784c2dcbc59",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1735555288602.pdf"
+  }
+ ],
+ "scheme": "NJ Arbitrage Fund"
+}

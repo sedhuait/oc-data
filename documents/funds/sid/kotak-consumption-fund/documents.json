@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1010929,
+   "checked": "2026-09-07",
+   "file": "1739338764188.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739338764188.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "30f6599353af297418739d85bd9ceea0d7faa055461ff58aa0655c09ac1c6422",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739338764188.pdf"
+  }
+ ],
+ "scheme": "Kotak Consumption Fund"
+}

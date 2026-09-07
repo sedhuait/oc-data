@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1053219,
+   "checked": "2026-09-07",
+   "file": "1771317463737.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771317463737.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "afc2b20e3c5320f55d4c9966fbc129351fdeef158263df6d8c6feb3353b27365",
+   "sid_version": "2026-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771317463737.pdf"
+  }
+ ],
+ "scheme": "Mahindra Manulife Balanced Advantage Fund"
+}

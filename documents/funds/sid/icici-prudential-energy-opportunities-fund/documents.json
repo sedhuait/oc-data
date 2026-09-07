@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 774584,
+   "checked": "2026-09-07",
+   "file": "1719294619082.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2024/1719294619082.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e65e4895e6e2eaf5cdaf7a09de210faa2f3dde7ba1bf364d77a6e360b8b9b89b",
+   "sid_version": "2024-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2024/1719294619082.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Energy Opportunities Fund"
+}

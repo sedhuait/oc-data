@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 929127,
+   "checked": "2026-09-07",
+   "file": "1735893678765.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735893678765.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "6d037911a2b4b919041113fba0be5b00e858d39218520dc553961895ec31c2ed",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735893678765.pdf"
+  }
+ ],
+ "scheme": "Union Focused Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 960036,
+   "checked": "2026-09-07",
+   "file": "1764660830094.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764660830094.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "6af87cf65173b17bb79ae35adad1e3e605747ffe990a3224456c6ebe45dc99cf",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764660830094.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET HANG SENG TECH ETF"
+}

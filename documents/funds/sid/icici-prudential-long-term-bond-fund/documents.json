@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1178115,
+   "checked": "2026-09-07",
+   "file": "1719478867808.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2024/1719478867808.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a4106478a44fca4212d6417a6c4183f844af19f6e70d9ad221ad536248ae5a15",
+   "sid_version": "2024-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2024/1719478867808.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Long Term Bond Fund"
+}

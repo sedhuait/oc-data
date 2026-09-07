@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1291509,
+   "checked": "2026-09-07",
+   "file": "1750412591588.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750412591588.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ee6ef7b368e7112e5f02e3edfa5344b1661af6e33db3d14b894c19a28eff35b6",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750412591588.pdf"
+  }
+ ],
+ "scheme": "MOTILAL OSWAL NIFTY 500 MOMENTUM 50 INDEX FUND"
+}

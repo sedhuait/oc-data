@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 755536,
+   "checked": "2026-09-07",
+   "file": "1720766197847.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720766197847.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "cba0be50fec8823b500bbb7f7bf7fe2b4206700b809dd3d09d0d160416d56f3a",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720766197847.pdf"
+  }
+ ],
+ "scheme": "Nippon India Quant Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1074133,
+   "checked": "2026-09-07",
+   "file": "1749183131189.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749183131189.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "afeb1e22cca3b59c7494f211f221e8a65ec2d4140ec72754e76f34ef68b3955c",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749183131189.pdf"
+  }
+ ],
+ "scheme": "Invesco India Gold ETF Fund of Fund"
+}

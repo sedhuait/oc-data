@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1120723,
+   "checked": "2026-09-07",
+   "file": "1734346227749.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734346227749.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "0fe22ce511718ce73df82ed56ec7256e0c3644ef60627043fde4ef96a8785ceb",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734346227749.pdf"
+  }
+ ],
+ "scheme": "SBI Large & Midcap Fund"
+}

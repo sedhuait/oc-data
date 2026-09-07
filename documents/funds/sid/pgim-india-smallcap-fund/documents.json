@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1516712,
+   "checked": "2026-09-07",
+   "file": "1638505332577.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2021/1638505332577.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "2fa4c5d78c0ed8c913386c6530a6972f9df78153b3f2a5974423376662e9868e",
+   "sid_version": "2021-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2021/1638505332577.pdf"
+  }
+ ],
+ "scheme": "PGIM India Small Cap Fund"
+}

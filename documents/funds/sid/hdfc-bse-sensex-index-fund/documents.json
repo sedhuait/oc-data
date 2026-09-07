@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 911701,
+   "checked": "2026-09-07",
+   "file": "1732785940201.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732785940201.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ad79c678249b02d6886dd0745b423f53296c46f9cc4ae8a43bb8c3321b25e0c9",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732785940201.pdf"
+  }
+ ],
+ "scheme": "HDFC BSE Sensex Index Fund"
+}

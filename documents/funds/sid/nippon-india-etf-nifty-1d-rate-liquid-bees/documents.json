@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 754530,
+   "checked": "2026-09-07",
+   "file": "1720767842728.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720767842728.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e28c463253786bd61ef899194439000245c7f444152b2e2f9a4bce95830722c5",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720767842728.pdf"
+  }
+ ],
+ "scheme": "Nippon India ETF Nifty 1D Rate Liquid BeES"
+}

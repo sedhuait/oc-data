@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1087625,
+   "checked": "2026-09-07",
+   "file": "1735894010037.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735894010037.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "42df0bcff7d177b37aacd52dec3fad1c6e7aaecabdabe50b7777a4fa88316a81",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735894010037.pdf"
+  }
+ ],
+ "scheme": "Union Multicap Fund"
+}

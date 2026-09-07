@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2011812,
+   "checked": "2026-09-07",
+   "file": "1652263412207.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1652263412207.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a6ceaaf0b54f6ea1c7c1565d41b9a6b0f4db4c5183b489d49a48cc4c3ca0d3b0",
+   "sid_version": "2022-05",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1652263412207.pdf"
+  }
+ ],
+ "scheme": "Tata Arbitrage Fund"
+}

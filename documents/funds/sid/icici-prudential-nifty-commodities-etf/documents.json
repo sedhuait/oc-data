@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1469657,
+   "checked": "2026-09-07",
+   "file": "1685698090965.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685698090965.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "cf309508ea2c0d62ef4c05aa20f43f2cdfa0d832ef5e63c7da5aa4c3826d949f",
+   "sid_version": "2023-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685698090965.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Nifty Commodities ETF"
+}

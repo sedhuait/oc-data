@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 751085,
+   "checked": "2026-09-07",
+   "file": "1735881970725.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735881970725.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "bf706c7600f42848c8288a725964babd576d6bc4b2831cbee31d81780e4a4d28",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735881970725.pdf"
+  }
+ ],
+ "scheme": "Baroda BNP Paribas Focused Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1444687,
+   "checked": "2026-09-07",
+   "file": "1752054719635.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752054719635.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "0a74c6be55c0641cd1cd432952190a76b7c62e5da61b91b0da675acd9484536a",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752054719635.pdf"
+  }
+ ],
+ "scheme": "Samco Flexi Cap Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1077117,
+   "checked": "2026-09-07",
+   "file": "1741752538500.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1741752538500.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "321bd760be245903befb0e21dbdbee15ba5ecbe83cc40e6a5380c7acca98d496",
+   "sid_version": "2025-03",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1741752538500.pdf"
+  }
+ ],
+ "scheme": "SBI BSE PSU Bank ETF"
+}

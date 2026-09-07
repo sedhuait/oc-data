@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 875059,
+   "checked": "2026-09-07",
+   "file": "1711436261492.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2024/1711436261492.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b1b7d1637e007ed8529803fb258ff3022613cbf6f734e07b735654a9f8b4b39f",
+   "sid_version": "2024-03",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2024/1711436261492.pdf"
+  }
+ ],
+ "scheme": "Tata Nifty Financial Services Index Fund"
+}

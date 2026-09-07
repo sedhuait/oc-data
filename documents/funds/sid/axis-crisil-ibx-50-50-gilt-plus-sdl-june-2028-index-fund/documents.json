@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 699983,
+   "checked": "2026-09-07",
+   "file": "1778046295729.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2026/1778046295729.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "22fe783ec61b4b7281d4c32f7cceeea843775b613e3c567321849c8225c426e9",
+   "sid_version": "2026-05",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2026/1778046295729.pdf"
+  }
+ ],
+ "scheme": "Axis Crisil IBX 50:50 Gilt Plus SDL June 2028 Index Fund"
+}

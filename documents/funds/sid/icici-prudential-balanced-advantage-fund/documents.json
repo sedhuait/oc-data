@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1218352,
+   "checked": "2026-09-07",
+   "file": "1719480147021.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2024/1719480147021.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b21234ce224cdc98304916e1399a4baef05a7a44ab8ed01253bcc955dfabdf1c",
+   "sid_version": "2024-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2024/1719480147021.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Balanced Advantage Fund"
+}

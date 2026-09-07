@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 898486,
+   "checked": "2026-09-07",
+   "file": "1765437755895.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765437755895.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "5de167981b59548dcbcd4f76e3b501e962c9933f6ac962fe4a042af733a12baf",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765437755895.pdf"
+  }
+ ],
+ "scheme": "JM Small Cap Fund"
+}

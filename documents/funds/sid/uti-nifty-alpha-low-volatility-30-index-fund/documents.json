@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1279098,
+   "checked": "2026-09-07",
+   "file": "1751863333411.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751863333411.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a52eca3d0938e183897b3bd475f0ad09803e37489870f755105cb6a035bff67b",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751863333411.pdf"
+  }
+ ],
+ "scheme": "UTI Nifty Alpha Low-Volatility 30 Index Fund"
+}

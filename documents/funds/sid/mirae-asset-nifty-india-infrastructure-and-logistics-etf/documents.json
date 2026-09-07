@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 925564,
+   "checked": "2026-09-07",
+   "file": "1769063218972.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2026/1769063218972.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "77ed6c10b51a4c0267c8403b22676ca6f7c29c76a14ae2dd9150674dd8a59a3c",
+   "sid_version": "2026-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2026/1769063218972.pdf"
+  }
+ ],
+ "scheme": "Mirae Asset Nifty India Infrastructure & Logistics ETF"
+}

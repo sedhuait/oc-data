@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 893616,
+   "checked": "2026-09-07",
+   "file": "1750148947121.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750148947121.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "8e788ae7703b0bbabb41ed0d6e84749709c550abd8b1b3a79da3b99f878623ef",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750148947121.pdf"
+  }
+ ],
+ "scheme": "Bandhan Corporate Bond Fund"
+}

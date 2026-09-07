@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1068935,
+   "checked": "2026-09-07",
+   "file": "1764582947785.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764582947785.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "aeb78e5971df546bdee29cb6a730529c91cdc06b20e5ce87c8e57079b41ca85c",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764582947785.pdf"
+  }
+ ],
+ "scheme": "Franklin Asian Equity Fund"
+}

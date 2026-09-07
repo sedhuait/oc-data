@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 827496,
+   "checked": "2026-09-07",
+   "file": "1777003486381.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/apr-2026/1777003486381.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "5535c6632ac63a2ce475ea8c388285aa69c454f3688474417bdc79aefafeb69f",
+   "sid_version": "2026-04",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/apr-2026/1777003486381.pdf"
+  }
+ ],
+ "scheme": "Axis Nifty Capital Markets Index Fund"
+}

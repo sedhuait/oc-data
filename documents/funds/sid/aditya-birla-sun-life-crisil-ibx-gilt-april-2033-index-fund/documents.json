@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 573768,
+   "checked": "2026-09-07",
+   "file": "1733129232450.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733129232450.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "f54d39dcdd60028e1e9b4e466fb4e8a55b971faff20e77da49bb4044b6019e00",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733129232450.pdf"
+  }
+ ],
+ "scheme": "ADITYA BIRLA SUN LIFE CRISIL IBX GILT APRIL 2033 Index Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2524194,
+   "checked": "2026-09-07",
+   "file": "1742377128182.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1742377128182.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "fdaa18c007b40a0beb58b36628b58e086ae48688e578e37a3f1b3b37f2c6e982",
+   "sid_version": "2025-03",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1742377128182.pdf"
+  }
+ ],
+ "scheme": "Sundaram Flexi Cap Fund"
+}

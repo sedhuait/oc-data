@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1270010,
+   "checked": "2026-09-07",
+   "file": "1751877350532.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751877350532.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "9fabecacc3c33ae214e145ece9a89e94065a4a9e60d5cd479d13cacdc1c5ca2a",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751877350532.pdf"
+  }
+ ],
+ "scheme": "UTI Banking & PSU Debt Fund"
+}

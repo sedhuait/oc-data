@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 774528,
+   "checked": "2026-09-07",
+   "file": "1720774333313.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720774333313.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "20cdd350de561bce39f8117d1db1a53e0dd7e8d962094f2f8bea169cf4a6fc0b",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720774333313.pdf"
+  }
+ ],
+ "scheme": "Nippon India ETF Nifty 8-13 yr G-Sec Long Term Gilt"
+}

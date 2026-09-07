@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1103919,
+   "checked": "2026-09-07",
+   "file": "1719921508022.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1719921508022.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "086e5a86f623e8a3824920d8e6991eeb814e12db41c9253be5352e4d22d898d4",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1719921508022.pdf"
+  }
+ ],
+ "scheme": "Edelweiss Us Technology Equity Fund of Fund"
+}

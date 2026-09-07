@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 916906,
+   "checked": "2026-09-07",
+   "file": "1733121721779.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733121721779.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "12a242dd7e2d80d711e284c9f897736ee46bcdaf698ccf95000ca96b99d581d0",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733121721779.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life International Equity Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 924908,
+   "checked": "2026-09-07",
+   "file": "1720774024905.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720774024905.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e3286415bc5b7dad1cb2a6da0ec73b0e7f0253685625ba8939d30718553b78d7",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720774024905.pdf"
+  }
+ ],
+ "scheme": "Nippon India ETF Hang Seng BeES"
+}

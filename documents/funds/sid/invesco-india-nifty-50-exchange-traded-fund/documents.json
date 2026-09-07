@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1027029,
+   "checked": "2026-09-07",
+   "file": "1749183179778.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749183179778.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "fd8d73d7bb6ecea09ecbce75f5c7dd8061813f416209fa0ccd5261fbebb1bad0",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749183179778.pdf"
+  }
+ ],
+ "scheme": "Invesco India Nifty 50 Exchange Traded Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 955815,
+   "checked": "2026-09-07",
+   "file": "1719478468100.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2024/1719478468100.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "81c723d7c8de619a9b8ea64de6c169a3aa344f3b7446ba14bbac0ecc509821a0",
+   "sid_version": "2024-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2024/1719478468100.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Floating Interest Fund"
+}

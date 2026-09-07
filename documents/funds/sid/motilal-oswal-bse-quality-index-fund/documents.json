@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1074966,
+   "checked": "2026-09-07",
+   "file": "1750324203563.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750324203563.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "47694e7409d57b03b82020f85592676f487b73367a1bb5edc78cf922911810b6",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750324203563.pdf"
+  }
+ ],
+ "scheme": "MOTILAL OSWAL BSE QUALITY INDEX FUND"
+}

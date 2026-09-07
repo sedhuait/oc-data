@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 965497,
+   "checked": "2026-09-07",
+   "file": "1750160961902.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750160961902.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "4a4c680653b03e0440de4da263c80c177f067cd7d3140a4487fa3745128ea2ea",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750160961902.pdf"
+  }
+ ],
+ "scheme": "Bandhan Nifty 500 Value 50 Index Fund"
+}

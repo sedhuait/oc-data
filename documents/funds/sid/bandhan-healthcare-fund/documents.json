@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1018105,
+   "checked": "2026-09-07",
+   "file": "1759142915929.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2025/1759142915929.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "586e4e3013e767789b5f0cae11488e2944f674d09a5d0c39cce133b3aa43372f",
+   "sid_version": "2025-09",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2025/1759142915929.pdf"
+  }
+ ],
+ "scheme": "Bandhan Healthcare Fund"
+}

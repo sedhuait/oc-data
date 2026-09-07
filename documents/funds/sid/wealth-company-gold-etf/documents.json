@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 358114,
+   "checked": "2026-09-07",
+   "file": "1765432352110.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765432352110.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "fcc705bfec859d0ef143c70343b390599041cc0e0b1b9c96b000dde9b6bc1c68",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765432352110.pdf"
+  }
+ ],
+ "scheme": "The Wealth Company Gold ETF"
+}

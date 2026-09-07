@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1260318,
+   "checked": "2026-09-07",
+   "file": "1751629576226.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751629576226.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a48f97c550d370bd32d1f44b8854f6b6c792e409cac76c11e6a2f72f23219dc4",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751629576226.pdf"
+  }
+ ],
+ "scheme": "UTI Nifty 200 Momentum 30 Index Fund"
+}

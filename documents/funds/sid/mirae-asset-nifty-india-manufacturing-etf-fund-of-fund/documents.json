@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 462633,
+   "checked": "2026-09-07",
+   "file": "1764668931229.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764668931229.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e9c785dc05a39932c4a0cdd705fd5a03685b7f8d289124f4d424e4f8fe3270b2",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764668931229.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET NIFTY INDIA MANUFACTURING ETF FUND OF FUND"
+}

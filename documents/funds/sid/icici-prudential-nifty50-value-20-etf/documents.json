@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1044065,
+   "checked": "2026-09-07",
+   "file": "1685687013450.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685687013450.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "1e936cc3c7207ce4577c639d5a6a5e1276598a66e092b6d978eb425f8a6f65ac",
+   "sid_version": "2023-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685687013450.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Nifty50 Value 20 ETF"
+}

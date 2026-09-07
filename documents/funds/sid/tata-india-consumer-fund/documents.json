@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 3826994,
+   "checked": "2026-09-07",
+   "file": "1652259254512.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1652259254512.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "dcc7f1f376e4a20beba3cfde22400c901b1a8d4c5d3e89907b3970b34062662e",
+   "sid_version": "2022-05",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1652259254512.pdf"
+  }
+ ],
+ "scheme": "Tata India Consumer Fund"
+}

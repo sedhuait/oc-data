@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1187516,
+   "checked": "2026-09-07",
+   "file": "1741753910851.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1741753910851.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "562e40cded957464b74981467a8b92ce19440d8a15d19def03f78b6330136346",
+   "sid_version": "2025-03",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1741753910851.pdf"
+  }
+ ],
+ "scheme": "SBI BSE PSU Bank Index Fund"
+}

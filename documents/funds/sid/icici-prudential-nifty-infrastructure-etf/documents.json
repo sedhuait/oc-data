@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1456558,
+   "checked": "2026-09-07",
+   "file": "1685697324222.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685697324222.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "83094fe9426496c5765f453b3b7586515598cc60d71ff5eb3a624536918bfc2b",
+   "sid_version": "2023-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685697324222.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Nifty Infrastructure ETF"
+}

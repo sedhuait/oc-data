@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1134035,
+   "checked": "2026-09-07",
+   "file": "1719980083137.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1719980083137.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "f2511ba20b61bf8b64cf21cd5285b16924c6df6353e85011c10f91f578668e97",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1719980083137.pdf"
+  }
+ ],
+ "scheme": "EDELWEISS MULTI CAP FUND"
+}

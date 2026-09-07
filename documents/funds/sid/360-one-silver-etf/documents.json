@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 804368,
+   "checked": "2026-09-07",
+   "file": "1765426254664.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765426254664.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "397a633c7ad4bc78b64de066beb943fdb62195aea85df8ab2735dc7652eb6318",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765426254664.pdf"
+  }
+ ],
+ "scheme": "360 ONE Silver ETF"
+}

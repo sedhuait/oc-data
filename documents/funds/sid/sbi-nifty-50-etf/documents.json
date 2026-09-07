@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 963236,
+   "checked": "2026-09-07",
+   "file": "1734346028604.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734346028604.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "5d939c411968299bf016f7aa2559eedb64ac26291c4565f20db6ab2a414b19b3",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734346028604.pdf"
+  }
+ ],
+ "scheme": "SBI Nifty 50 ETF"
+}

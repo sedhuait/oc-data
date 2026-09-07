@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1456919,
+   "checked": "2026-09-07",
+   "file": "1685695918465.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685695918465.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "bf7737e414f4ba7462124f896e4bfc0913838ccf3c29f18f3b9382831b6e0ade",
+   "sid_version": "2023-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685695918465.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Silver ETF"
+}

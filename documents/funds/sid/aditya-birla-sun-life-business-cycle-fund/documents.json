@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 743473,
+   "checked": "2026-09-07",
+   "file": "1733122233702.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733122233702.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d900d60afd51f82c42dcf9caf4a86eb75bfeb45c79a75a93bb0250b353a686b3",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733122233702.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life Business Cycle Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1065002,
+   "checked": "2026-09-07",
+   "file": "1734340962586.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734340962586.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "968f3c870670db31fbd05113ad9626b213552c3aa34882ac18c9831a043d705a",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734340962586.pdf"
+  }
+ ],
+ "scheme": "SBI Balanced Advantage Fund"
+}

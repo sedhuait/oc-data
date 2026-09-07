@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 690748,
+   "checked": "2026-09-07",
+   "file": "1739343826909.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739343826909.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d67c88da53a1a654082303366881f8e8b04ce972af9605525117f97367f189da",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739343826909.pdf"
+  }
+ ],
+ "scheme": "Kotak Nifty SDL Jul 2033 Index Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 854726,
+   "checked": "2026-09-07",
+   "file": "1782901549897.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2026/1782901549897.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "f532b1f44cda8501a249fea3a0bb9367b0b74cbf6dfc6131a540dcc3517d6832",
+   "sid_version": "2026-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2026/1782901549897.pdf"
+  }
+ ],
+ "scheme": "Kotak Nifty Private Bank ETF"
+}

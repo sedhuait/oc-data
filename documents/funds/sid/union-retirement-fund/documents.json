@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2116911,
+   "checked": "2026-09-07",
+   "file": "1735894333211.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735894333211.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "12f88cded91d1f395fed1b0703075799169f0629a6dfcb6fd337ab7b909790bb",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735894333211.pdf"
+  }
+ ],
+ "scheme": "Union Retirement Fund"
+}

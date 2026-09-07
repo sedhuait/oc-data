@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 778293,
+   "checked": "2026-09-07",
+   "file": "1720776937303.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720776937303.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "022c40654159d461b068e799ae51af539dc705aba9936e1cdfc92b32abe7596a",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720776937303.pdf"
+  }
+ ],
+ "scheme": "Nippon India Nifty Bank Index Fund"
+}

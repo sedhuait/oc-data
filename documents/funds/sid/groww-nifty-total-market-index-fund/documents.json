@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1074500,
+   "checked": "2026-09-07",
+   "file": "1695189682293.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2023/1695189682293.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "869b4ad40c825a0f6ace16d7a02472090b460ae9173f5f343d3d577e8dc40364",
+   "sid_version": "2023-09",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2023/1695189682293.pdf"
+  }
+ ],
+ "scheme": "Groww Nifty Total Market Index Fund"
+}

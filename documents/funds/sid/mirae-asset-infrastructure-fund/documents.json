@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 836497,
+   "checked": "2026-09-07",
+   "file": "1761711634583.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2025/1761711634583.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "907ab8a5cf801c670e27999fa33b08cc21c2a2fdbf2834c41132b193f18fa9d3",
+   "sid_version": "2025-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2025/1761711634583.pdf"
+  }
+ ],
+ "scheme": "Mirae Asset Infrastructure fund"
+}

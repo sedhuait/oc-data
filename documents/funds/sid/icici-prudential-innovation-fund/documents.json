@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1283700,
+   "checked": "2026-09-07",
+   "file": "1678697160226.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2023/1678697160226.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "93d7bf4dde5dc4c520eccbf02905f28ffc34f6b602ff55c8ff351b793b3b0de2",
+   "sid_version": "2023-03",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2023/1678697160226.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Innovation Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1059347,
+   "checked": "2026-09-07",
+   "file": "1771916050579.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771916050579.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "59a6f54778f6cbf4a58c644ec36d8266c53691d9be9186dd5505ea9b7555cda5",
+   "sid_version": "2026-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771916050579.pdf"
+  }
+ ],
+ "scheme": "Kotak Multi Factor Passive FOF"
+}

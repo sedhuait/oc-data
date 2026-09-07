@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 786064,
+   "checked": "2026-09-07",
+   "file": "1736224718734.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1736224718734.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a49a73596436b662c8132606e8bf7b6b8811424072156fc75e7d6ad76f574503",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1736224718734.pdf"
+  }
+ ],
+ "scheme": "Quantum ESG Best In Class Strategy Fund"
+}

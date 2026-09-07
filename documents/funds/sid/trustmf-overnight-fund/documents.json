@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 818559,
+   "checked": "2026-09-07",
+   "file": "1726806087608.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1726806087608.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "9f9f755caa62598bd7c51afa815f3406d0b48c05824a34496a4d660ff65ae68e",
+   "sid_version": "2024-09",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1726806087608.pdf"
+  }
+ ],
+ "scheme": "TRUSTMF Overnight Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 852653,
+   "checked": "2026-09-07",
+   "file": "1733721901825.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733721901825.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "8e99c2c914f227ae466fe45fc65aa1bdc3b618d7fc19e4c87b660a9d5f3b2c1f",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733721901825.pdf"
+  }
+ ],
+ "scheme": "Axis Nifty IT Index Fund"
+}

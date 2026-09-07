@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1220648,
+   "checked": "2026-09-07",
+   "file": "1751884875624.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751884875624.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "0e626ad6a1def67aab1e6ea326126f0bf6ca389dc1876f2a2c9b945c8da27f05",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751884875624.pdf"
+  }
+ ],
+ "scheme": "UTI Unit Linked Insurance Plan"
+}

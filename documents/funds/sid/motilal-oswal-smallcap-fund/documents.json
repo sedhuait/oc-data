@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1448331,
+   "checked": "2026-09-07",
+   "file": "1750414038855.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750414038855.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e18e9a28651afa1f8bc29fd2f2da3b9dcff4ad5c937e05243ece99a8842c2fa4",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750414038855.pdf"
+  }
+ ],
+ "scheme": "Motilal Oswal Small Cap Fund"
+}

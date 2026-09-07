@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1995886,
+   "checked": "2026-09-07",
+   "file": "1721037693550.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1721037693550.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "93bb7cd6c7dc33d937648ba019f4a1d2cb88dad2c18147ecbec41d0f7522f1df",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1721037693550.pdf"
+  }
+ ],
+ "scheme": "Bajaj Finserv Flexi Cap Fund"
+}

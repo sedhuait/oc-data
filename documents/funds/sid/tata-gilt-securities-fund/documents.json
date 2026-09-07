@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2695722,
+   "checked": "2026-09-07",
+   "file": "1651727648079.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1651727648079.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "0049a76336430f318bfbc536a4e6f02841de52491cdc47ad5b40dfb8ead095fe",
+   "sid_version": "2022-05",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1651727648079.pdf"
+  }
+ ],
+ "scheme": "Tata Gilt Securities Fund"
+}

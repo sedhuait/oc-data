@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2233040,
+   "checked": "2026-09-07",
+   "file": "1735816712990.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735816712990.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "660f901d1b1419b7670df80962db791991cfc748fd02cf9110a4dc874837b757",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735816712990.pdf"
+  }
+ ],
+ "scheme": "DSP Natural Resources and New Energy Fund"
+}

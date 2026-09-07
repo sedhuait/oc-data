@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 913861,
+   "checked": "2026-09-07",
+   "file": "1749192981270.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749192981270.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "2fca91ecbf53e8f0e58340853ebc3e0c049a409407c8928a78bf82cc363d499b",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749192981270.pdf"
+  }
+ ],
+ "scheme": "Invesco India Nifty G-sec Jul 2027 Index Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2571716,
+   "checked": "2026-09-07",
+   "file": "1742380153095.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1742380153095.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d0e03e762d4c5a1574007cf575d0b55075596b23d5ac65f3d7991b4db9b7e8cf",
+   "sid_version": "2025-03",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1742380153095.pdf"
+  }
+ ],
+ "scheme": "Sundaram Multi Asset Allocation Fund"
+}

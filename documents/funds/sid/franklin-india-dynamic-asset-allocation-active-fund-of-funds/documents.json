@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 945631,
+   "checked": "2026-09-07",
+   "file": "1764582138596.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764582138596.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "9b78bd42b71c47ade62c5a25c9afc29bf711524e391545697cf202d53aaac7d5",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764582138596.pdf"
+  }
+ ],
+ "scheme": "Franklin India Dynamic Asset Allocation Active Fund of Funds"
+}

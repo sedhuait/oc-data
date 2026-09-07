@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1822771,
+   "checked": "2026-09-07",
+   "file": "1685695354768.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685695354768.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "fe7928a688529c1042d43ec5061c7db4152b0c1d96c7a2323bc1e76e20c13d88",
+   "sid_version": "2023-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685695354768.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Commodities Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1281934,
+   "checked": "2026-09-07",
+   "file": "1751863148947.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751863148947.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3a2d8ad6d489d2092bb65f50282d3caf2bcbe2eccca25e8706db8d8bb702bbf7",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751863148947.pdf"
+  }
+ ],
+ "scheme": "UTI Nifty Private Bank Index Fund"
+}

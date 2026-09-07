@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1072639,
+   "checked": "2026-09-07",
+   "file": "1764568748128.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764568748128.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "0645fa6e2f4630459432bde302babbe8c074b454d0561200996de86d3f00e2e9",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764568748128.pdf"
+  }
+ ],
+ "scheme": "Angel one Nifty total market momentum Quality 50 Index fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2919028,
+   "checked": "2026-09-07",
+   "file": "1777030241874.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/apr-2026/1777030241874.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c8309ffacd2316ec913909e20e750228024d0e2f7c1f94dafb00cdece1df1b78",
+   "sid_version": "2026-04",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/apr-2026/1777030241874.pdf"
+  }
+ ],
+ "scheme": "Canara Robeco Consumption Fund"
+}

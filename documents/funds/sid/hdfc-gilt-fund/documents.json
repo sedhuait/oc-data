@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 940682,
+   "checked": "2026-09-07",
+   "file": "1732787297260.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732787297260.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "daa6193024b8d41d16e082c70fd8a730022f00bac1e536dd01c4d0ec9484cc9f",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732787297260.pdf"
+  }
+ ],
+ "scheme": "HDFC Gilt Fund"
+}

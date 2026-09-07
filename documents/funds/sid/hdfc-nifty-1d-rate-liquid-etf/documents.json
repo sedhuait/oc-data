@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 867878,
+   "checked": "2026-09-07",
+   "file": "1732792604118.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732792604118.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "73cba6639df0ce2995e3c1137af5c9d54e8ffd523ca3a867d6327649372e7ad9",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732792604118.pdf"
+  }
+ ],
+ "scheme": "HDFC NIFTY 1D RATE LIQUID ETF"
+}

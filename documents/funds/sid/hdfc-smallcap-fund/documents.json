@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 944780,
+   "checked": "2026-09-07",
+   "file": "1732795104038.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732795104038.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "6b4bc1a76d0a28b27644e546755694c12907ce9d391afdc858795f58370d03df",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732795104038.pdf"
+  }
+ ],
+ "scheme": "HDFC Small Cap Fund"
+}

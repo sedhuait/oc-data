@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2102248,
+   "checked": "2026-09-07",
+   "file": "1735816801568.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735816801568.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "063944d714fdfd8c446739e409a0e3136161281a360550e74da59596aa040b03",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735816801568.pdf"
+  }
+ ],
+ "scheme": "DSP ELSS Tax Saver Fund"
+}

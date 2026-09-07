@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1862313,
+   "checked": "2026-09-07",
+   "file": "1773399839672.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2026/1773399839672.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "368c882e2d421162ddec276893745b8e23c8ed47cdd15e732bd3fae5bb6cb604",
+   "sid_version": "2026-03",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2026/1773399839672.pdf"
+  }
+ ],
+ "scheme": "Zerodha Nifty MidSmallcap400 50:50 Index Fund"
+}

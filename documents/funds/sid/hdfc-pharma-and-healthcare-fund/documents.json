@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 874306,
+   "checked": "2026-09-07",
+   "file": "1732795017518.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732795017518.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b7ef5a066e5f450446c8678fd74818ea8e36fe9f7a7e370dbd6e95f8c955fa1c",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732795017518.pdf"
+  }
+ ],
+ "scheme": "HDFC Pharma and Healthcare Fund"
+}

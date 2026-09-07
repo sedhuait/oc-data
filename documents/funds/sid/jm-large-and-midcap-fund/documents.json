@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 876328,
+   "checked": "2026-09-07",
+   "file": "1765436875156.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765436875156.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "bb7659bfcd0f1c01533f032ae43effe875fe91e49c542beca4e631a7438646a2",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765436875156.pdf"
+  }
+ ],
+ "scheme": "JM Large & Midcap Fund"
+}

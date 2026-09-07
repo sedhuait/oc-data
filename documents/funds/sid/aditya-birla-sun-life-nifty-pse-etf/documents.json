@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1340372,
+   "checked": "2026-09-07",
+   "file": "1733129259867.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733129259867.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c1136fb203cb5ee07c4e665c21acc7fca397957be62072b263c1dc7b56842881",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733129259867.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life Nifty PSE ETF"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 818880,
+   "checked": "2026-09-07",
+   "file": "1764566349793.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764566349793.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a20d62b0c2bb9b388a9404358718eb87e6b6a70ca9d48bc238efa826a362ec06",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764566349793.pdf"
+  }
+ ],
+ "scheme": "Abakkus Liquid Fund"
+}

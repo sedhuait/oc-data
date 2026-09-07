@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2567255,
+   "checked": "2026-09-07",
+   "file": "1735817842728.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735817842728.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d6c4e6ecc7bddb2bd170d930e1ea956de7573413a2ccf96f419d0f708b6d1fc4",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735817842728.pdf"
+  }
+ ],
+ "scheme": "DSP Multi Asset Allocation Fund"
+}

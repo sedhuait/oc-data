@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 6714706,
+   "checked": "2026-09-07",
+   "file": "1765440245962.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765440245962.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "700a20be76f2966873a83476d2c980a99e7a4415e53f558cae68e902083c04af",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765440245962.pdf"
+  }
+ ],
+ "scheme": "Helios Mid Cap Fund"
+}

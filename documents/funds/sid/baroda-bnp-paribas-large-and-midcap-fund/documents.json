@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 758875,
+   "checked": "2026-09-07",
+   "file": "1735882023940.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735882023940.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "5cfdf31dcf7bf8f33877489024bb647b44ec0495a7603b92215768dd7a19adab",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735882023940.pdf"
+  }
+ ],
+ "scheme": "Baroda BNP Paribas Large & Mid Cap Fund"
+}

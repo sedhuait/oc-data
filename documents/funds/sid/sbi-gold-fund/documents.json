@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1125174,
+   "checked": "2026-09-07",
+   "file": "1734338697315.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734338697315.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "bd2ee53cc8cfb183fe8f55fc3a3d78291323a58eff11ce6916b3a7b09a528bbf",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734338697315.pdf"
+  }
+ ],
+ "scheme": "SBI Gold Fund"
+}

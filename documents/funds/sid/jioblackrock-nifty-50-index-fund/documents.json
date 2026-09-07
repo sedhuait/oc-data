@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 424734,
+   "checked": "2026-09-07",
+   "file": "1753769884834.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1753769884834.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ae67a37905018077d676ed53326521a2d47c5f786e180e2333bc76a775d99389",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1753769884834.pdf"
+  }
+ ],
+ "scheme": "JioBlackRock Nifty 50 Index Fund"
+}

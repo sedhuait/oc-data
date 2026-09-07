@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 636700,
+   "checked": "2026-09-07",
+   "file": "1733481802862.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733481802862.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "96cdd67dbf5e5e1a2507cdf91e416e9e23c254eb03f465281268aa2a8740cedb",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733481802862.pdf"
+  }
+ ],
+ "scheme": "Zerodha Gold ETF"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 734364,
+   "checked": "2026-09-07",
+   "file": "1773650933196.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2026/1773650933196.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a05abbf9b7e4e23d70ef1787ac30996b8319852b83e13281f82bf0b9c58629a3",
+   "sid_version": "2026-03",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2026/1773650933196.pdf"
+  }
+ ],
+ "scheme": "Kotak Multi Asset Active FOF"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1272085,
+   "checked": "2026-09-07",
+   "file": "1748841543858.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1748841543858.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "6168a6165e75a69c6f16635f0e3ea68ee2428f75604f097484f45c8a2d296013",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1748841543858.pdf"
+  }
+ ],
+ "scheme": "Motilal Oswal Nifty PSE ETF"
+}

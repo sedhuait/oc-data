@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1757722,
+   "checked": "2026-09-07",
+   "file": "1678679447670.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2023/1678679447670.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "13fb4a9b33103ad61b1b77638f2a11f681a954a3ba0437d80a8f1535cacb1d2f",
+   "sid_version": "2023-03",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2023/1678679447670.pdf"
+  }
+ ],
+ "scheme": "Quant Dynamic Asset Allocation Fund"
+}

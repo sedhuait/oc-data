@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1136201,
+   "checked": "2026-09-07",
+   "file": "1733123724687.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733123724687.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "8e8b0837825d2ab82def17dd1100674750138c3c4586576967a194f260967fa2",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733123724687.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life Silver ETF"
+}

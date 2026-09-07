@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 885894,
+   "checked": "2026-09-07",
+   "file": "1720774934366.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720774934366.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c875e0fbdbc09c0ea9d0a1de538ef4f44054923329444105abc107ca37f30c01",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720774934366.pdf"
+  }
+ ],
+ "scheme": "Nippon India Gold Savings Fund"
+}

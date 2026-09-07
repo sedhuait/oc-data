@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1101011,
+   "checked": "2026-09-07",
+   "file": "1764332894090.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2025/1764332894090.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "8e8c1acd085c421293d916cb1f80ad987cc659bb151c064126841f227600000f",
+   "sid_version": "2025-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2025/1764332894090.pdf"
+  }
+ ],
+ "scheme": "Zerodha BSE SENSEX Index Fund"
+}

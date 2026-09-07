@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 974811,
+   "checked": "2026-09-07",
+   "file": "1750152273056.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750152273056.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "981a4149bb50a7640c7f57b71fbce1078f934ddaa7ae51eb363d36a81bd0d2ea",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750152273056.pdf"
+  }
+ ],
+ "scheme": "Bandhan Equity Savings Fund"
+}

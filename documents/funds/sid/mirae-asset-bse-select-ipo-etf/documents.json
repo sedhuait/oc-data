@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 879082,
+   "checked": "2026-09-07",
+   "file": "1764660311151.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764660311151.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "99429805b856a6e8c87a812b08377eef18fe23820b56526f4245a4c2219f2cc4",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764660311151.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET BSE SELECT IPO ETF"
+}

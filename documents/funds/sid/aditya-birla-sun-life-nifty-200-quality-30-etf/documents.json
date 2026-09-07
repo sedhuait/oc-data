@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1210738,
+   "checked": "2026-09-07",
+   "file": "1733122824071.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733122824071.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d9ec2f2d4ce0bb1a415060eabbca39b7e764cc461f2a897ef2c9deedb651c606",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733122824071.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life Nifty 200 Quality 30 ETF"
+}

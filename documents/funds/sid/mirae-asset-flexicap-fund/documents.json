@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 993628,
+   "checked": "2026-09-07",
+   "file": "1764661304155.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764661304155.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ce66f5cd9cca60156e3ec9c293325bb73535113f71c7ce780be4f27b6c166a1b",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764661304155.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET FLEXI CAP FUND"
+}

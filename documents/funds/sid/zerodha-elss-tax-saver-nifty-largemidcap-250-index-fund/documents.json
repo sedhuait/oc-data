@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 740981,
+   "checked": "2026-09-07",
+   "file": "1733481722581.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733481722581.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "629dbbd625c4ba19140d362232a78041918ca44809ccb520b0f189546d8df337",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733481722581.pdf"
+  }
+ ],
+ "scheme": "Zerodha ELSS Tax Saver Nifty LargeMidcap 250 Index Fund"
+}

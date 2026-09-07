@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 409778,
+   "checked": "2026-09-07",
+   "file": "1764669211607.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764669211607.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "03b2f13c0cf3cbf3e32a98ea2eb534eb7bd08fe9325beb079267c0c5819d0b6a",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764669211607.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET NIFTY MIDCAP 150 ETF"
+}

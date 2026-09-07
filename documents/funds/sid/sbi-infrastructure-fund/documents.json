@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1065944,
+   "checked": "2026-09-07",
+   "file": "1734346528778.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734346528778.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "58a111784c5b768b9a11802f9031ac76291c5196e82b6320f6ba10b882e917fd",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734346528778.pdf"
+  }
+ ],
+ "scheme": "SBI Infrastructure Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 938030,
+   "checked": "2026-09-07",
+   "file": "1732792359914.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732792359914.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ce99d70ca22edff3d9edbda360efc7e62106fd2e21f141cd7c0144bbb48f88b8",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732792359914.pdf"
+  }
+ ],
+ "scheme": "HDFC Multi Cap Fund"
+}

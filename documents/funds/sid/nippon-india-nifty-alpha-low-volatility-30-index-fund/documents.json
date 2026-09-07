@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 765114,
+   "checked": "2026-09-07",
+   "file": "1720775731526.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720775731526.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "212cb29c52f4442bed12341ab6ee1fd73d0bbea8b657bafabec22d58d2676d62",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720775731526.pdf"
+  }
+ ],
+ "scheme": "NIPPON INDIA NIFTY ALPHA LOW VOLATILITY 30 INDEX FUND"
+}

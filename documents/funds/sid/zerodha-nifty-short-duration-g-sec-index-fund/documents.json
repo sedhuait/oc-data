@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1348849,
+   "checked": "2026-09-07",
+   "file": "1766135681175.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1766135681175.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "823978fae936d0a6261e370be6f2a0a846a5591dd6d7383c51991f8e066800c5",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1766135681175.pdf"
+  }
+ ],
+ "scheme": "Zerodha Nifty Short Duration G-Sec Index Fund"
+}

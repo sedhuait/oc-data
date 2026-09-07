@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 7189131,
+   "checked": "2026-09-07",
+   "file": "1765440197988.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765440197988.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d15d1f815f37badb17826cf3eea8be7ae2a5c4725968b8eca78af778de50113e",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765440197988.pdf"
+  }
+ ],
+ "scheme": "Helios Financial Services Fund"
+}

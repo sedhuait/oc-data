@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 878075,
+   "checked": "2026-09-07",
+   "file": "1764149193394.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2025/1764149193394.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a84c661e64ad8b06d3f2549157a19a6c319325e6a5560b5b409e2c555e9a312d",
+   "sid_version": "2025-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2025/1764149193394.pdf"
+  }
+ ],
+ "scheme": "Mirae Asset BSE 500 Dividend leaders 50 ETF"
+}

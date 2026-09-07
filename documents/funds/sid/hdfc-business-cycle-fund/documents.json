@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 906787,
+   "checked": "2026-09-07",
+   "file": "1732785973962.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732785973962.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "65e935773b2b0a74490305f9a801008481ea1f723eb176bc4ff5a0be43d8c843",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732785973962.pdf"
+  }
+ ],
+ "scheme": "HDFC Business Cycle Fund"
+}

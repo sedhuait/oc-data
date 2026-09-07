@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 872563,
+   "checked": "2026-09-07",
+   "file": "1750324685017.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750324685017.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ab5fac9b3b33b8679d406cb578e1a253cb88fe4040d4fff783e99ccaf131ff90",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750324685017.pdf"
+  }
+ ],
+ "scheme": "Motilal Oswal Focused Fund"
+}

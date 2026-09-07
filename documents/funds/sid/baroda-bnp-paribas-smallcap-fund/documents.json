@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 822349,
+   "checked": "2026-09-07",
+   "file": "1735882143318.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735882143318.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "95d78e673b9b305c7fa51e9688f3ce960e63e9c9300b95cdfd61044cc7ed8e93",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735882143318.pdf"
+  }
+ ],
+ "scheme": "Baroda BNP Paribas Small Cap Fund"
+}

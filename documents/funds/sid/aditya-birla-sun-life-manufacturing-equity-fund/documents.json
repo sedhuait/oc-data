@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 794909,
+   "checked": "2026-09-07",
+   "file": "1733122284085.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733122284085.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "0b6c37589012abf4570b09de4c4de3b84f49f0eef494d45f708274e0b23056af",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733122284085.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life Manufacturing Equity Fund"
+}

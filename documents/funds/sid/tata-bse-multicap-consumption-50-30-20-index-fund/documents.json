@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1041030,
+   "checked": "2026-09-07",
+   "file": "1764839576597.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764839576597.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3d3e08579c54c171383796249f79a411ea7936eaf897ae9755830ed01f186811",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764839576597.pdf"
+  }
+ ],
+ "scheme": "Tata BSE Multicap Consumption 50:30:20 Index Fund"
+}

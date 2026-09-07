@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 909759,
+   "checked": "2026-09-07",
+   "file": "1726806267295.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1726806267295.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "aa9c1f0a0a12b277cd5a6d681a045359b09dbd126501847ad56ccf3b3af9a207",
+   "sid_version": "2024-09",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1726806267295.pdf"
+  }
+ ],
+ "scheme": "TRUSTMF Flexi Cap Fund"
+}

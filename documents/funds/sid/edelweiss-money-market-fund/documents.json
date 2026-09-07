@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2247361,
+   "checked": "2026-09-07",
+   "file": "1734331786308.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734331786308.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "80e7e07164e81e40b5075d99a21339d31a6fb61058ffefc8c81319789bce8a09",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734331786308.pdf"
+  }
+ ],
+ "scheme": "Edelweiss Money Market Fund"
+}

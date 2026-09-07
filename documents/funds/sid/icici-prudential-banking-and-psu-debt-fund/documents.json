@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1150644,
+   "checked": "2026-09-07",
+   "file": "1719477316048.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2024/1719477316048.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "194b6c4c992df684a8f0fd58e671f54f107e2ccec43d3123c27f930e42c871c6",
+   "sid_version": "2024-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2024/1719477316048.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Banking & PSU Debt Fund"
+}

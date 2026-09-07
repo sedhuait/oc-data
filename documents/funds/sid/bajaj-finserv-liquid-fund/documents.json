@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1915550,
+   "checked": "2026-09-07",
+   "file": "1721037182280.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1721037182280.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "132dabdec0a079c23fe91ccac91f37fed3673162bc1830a479fa15fe46feb44f",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1721037182280.pdf"
+  }
+ ],
+ "scheme": "Bajaj Finserv Liquid Fund."
+}

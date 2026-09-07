@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1064368,
+   "checked": "2026-09-07",
+   "file": "1733722186978.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733722186978.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "df550a0196407c31e9a59efd2933593258dbef0104093ebf52ca631e6dbd8aa8",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733722186978.pdf"
+  }
+ ],
+ "scheme": "Axis Consumption Fund"
+}

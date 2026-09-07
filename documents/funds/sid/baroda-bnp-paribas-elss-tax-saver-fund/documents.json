@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 753979,
+   "checked": "2026-09-07",
+   "file": "1735881916018.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735881916018.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "9e04e76a93a67d42178fabf6e7f9295b956087e8d35e566b25525894b3bfdaaa",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735881916018.pdf"
+  }
+ ],
+ "scheme": "Baroda BNP Paribas ELSS Tax Saver Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1953232,
+   "checked": "2026-09-07",
+   "file": "1721037600198.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1721037600198.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a1ed826b147510778181c6ed03e83ea69e769a24ea591ffc0fc1b5461f2401ad",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1721037600198.pdf"
+  }
+ ],
+ "scheme": "Bajaj Finserv Arbitrage Fund"
+}

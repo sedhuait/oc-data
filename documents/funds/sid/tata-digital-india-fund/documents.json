@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2474035,
+   "checked": "2026-09-07",
+   "file": "1652258753313.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1652258753313.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a19935e5636b4b55f3d415fe4a3d7fc8fe8b0e6f778fb6bee4e31617fa14123f",
+   "sid_version": "2022-05",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1652258753313.pdf"
+  }
+ ],
+ "scheme": "Tata Digital India Fund"
+}

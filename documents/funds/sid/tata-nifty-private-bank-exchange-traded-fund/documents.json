@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 3725638,
+   "checked": "2026-09-07",
+   "file": "1651730208874.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1651730208874.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "6d18e15d5997241417339dae4d93cb1bc1106bb7c7cfb9d8411048427417a624",
+   "sid_version": "2022-05",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1651730208874.pdf"
+  }
+ ],
+ "scheme": "Tata Nifty Private Bank Exchange Traded Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 865389,
+   "checked": "2026-09-07",
+   "file": "1786341780941.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2026/1786341780941.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "f976d5b4ee4d16a9e260e976e341c9af60830b38b4d41480bbb4002ce0c6a350",
+   "sid_version": "2026-08",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2026/1786341780941.pdf"
+  }
+ ],
+ "scheme": "ASK Liquid Fund"
+}

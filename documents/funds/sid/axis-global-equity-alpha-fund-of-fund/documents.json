@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1159346,
+   "checked": "2026-09-07",
+   "file": "1733720567146.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733720567146.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b80faf5d26100ec3492666f9504f279cd72b3be4116f6ee43dca353ea362dcfd",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733720567146.pdf"
+  }
+ ],
+ "scheme": "Axis Global Equity Alpha Fund of Fund"
+}

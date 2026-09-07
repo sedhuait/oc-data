@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1096237,
+   "checked": "2026-09-07",
+   "file": "1751623042444.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751623042444.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b6655a03c59ccad6cfb682f95a70f516d57a72d4f3134483bc8fcfda354c793d",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751623042444.pdf"
+  }
+ ],
+ "scheme": "UTI ELSS Tax Saver Fund"
+}

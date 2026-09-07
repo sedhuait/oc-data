@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 738270,
+   "checked": "2026-09-07",
+   "file": "1720765044802.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720765044802.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "903da75b055a90821a52d78e8dc450433fe58c6cac6388dbebfb6e462cd93636",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720765044802.pdf"
+  }
+ ],
+ "scheme": "Nippon India Arbitrage Fund"
+}

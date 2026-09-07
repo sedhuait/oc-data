@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1101087,
+   "checked": "2026-09-07",
+   "file": "1764669805622.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764669805622.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "813720030ba0adc29af551a41abc4981a01e7bb263fee358ffdd9c1b95bf7661",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764669805622.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET NIFTY TOTAL MARKET INDEX FUND"
+}

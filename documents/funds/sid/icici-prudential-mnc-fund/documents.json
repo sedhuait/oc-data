@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1274070,
+   "checked": "2026-09-07",
+   "file": "1685695068041.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685695068041.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "9af19228cf15a7ce4665d063b97bdd76bb9c721a8fe04e3c607aa419901a3c4e",
+   "sid_version": "2023-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685695068041.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential MNC Fund"
+}

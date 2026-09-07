@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 948265,
+   "checked": "2026-09-07",
+   "file": "1765425868807.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765425868807.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "1ff631b1619cd6b2d805138a03bda20df3e77276698ee00d95800ae736f60710",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765425868807.pdf"
+  }
+ ],
+ "scheme": "360 ONE Liquid Fund"
+}

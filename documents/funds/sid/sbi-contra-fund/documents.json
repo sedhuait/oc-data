@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1235993,
+   "checked": "2026-09-07",
+   "file": "1734347478952.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734347478952.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e3a2fe6983756030e8953a09d25bb41fbbec2c2ab106ef5a10efdf18bc6a4c91",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734347478952.pdf"
+  }
+ ],
+ "scheme": "SBI Contra Fund"
+}

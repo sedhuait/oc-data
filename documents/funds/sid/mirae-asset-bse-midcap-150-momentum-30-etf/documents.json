@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 872390,
+   "checked": "2026-09-07",
+   "file": "1782197674825.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2026/1782197674825.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "243288fc2de2430e6383787e440c32d7779944d7c1eb7cede3915bd3b4eee8fc",
+   "sid_version": "2026-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2026/1782197674825.pdf"
+  }
+ ],
+ "scheme": "Mirae Asset BSE Midcap 150 Momentum 30 ETF"
+}

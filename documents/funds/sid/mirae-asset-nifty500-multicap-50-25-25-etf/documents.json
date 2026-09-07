@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 409689,
+   "checked": "2026-09-07",
+   "file": "1764670068639.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764670068639.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a328b574fe8570c84bde84e23215f2586da6cd5a1edd7d7fa9fed9abe1815760",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764670068639.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET NIFTY500 MULTICAP 50:25:25 ETF"
+}

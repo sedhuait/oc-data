@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 902153,
+   "checked": "2026-09-07",
+   "file": "1703074787441.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2023/1703074787441.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "56f0e2a9722388e772ce6b31235cb06052c5a99363786620e12237baf80441bb",
+   "sid_version": "2023-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2023/1703074787441.pdf"
+  }
+ ],
+ "scheme": "Tata Gold Exchange Traded Fund"
+}

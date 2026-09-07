@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 3087276,
+   "checked": "2026-09-07",
+   "file": "1735889300429.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735889300429.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d2c429eeed5c7c1958fc8649ec1515864b9c484dd606a0da4b890725b15083a8",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735889300429.pdf"
+  }
+ ],
+ "scheme": "Union Balanced Advantage Fund"
+}

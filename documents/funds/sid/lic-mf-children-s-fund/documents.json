@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1642942,
+   "checked": "2026-09-07",
+   "file": "1752474232152.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752474232152.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e2f851cece0f8d4207f333c6e68399bad8358094e45c3c8bc7b4350cb6bc01b8",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752474232152.pdf"
+  }
+ ],
+ "scheme": "LIC MF Children's Fund"
+}

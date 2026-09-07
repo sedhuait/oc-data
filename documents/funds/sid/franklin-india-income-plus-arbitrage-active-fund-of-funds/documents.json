@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1035517,
+   "checked": "2026-09-07",
+   "file": "1764582287450.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764582287450.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "0c83017646b53695ceb4a6a3a4eb704043bcec0ce8ed8e4b34264c01c2f0d391",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764582287450.pdf"
+  }
+ ],
+ "scheme": "Franklin India Income Plus Arbitrage Active Fund of Funds"
+}

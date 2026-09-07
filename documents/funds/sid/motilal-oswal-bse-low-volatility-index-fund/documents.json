@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1533780,
+   "checked": "2026-09-07",
+   "file": "1750324149323.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750324149323.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "f29335797df32168bf7fc2c027742ece87bd5a0ca1937f9e1d60a05f5dd908b7",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750324149323.pdf"
+  }
+ ],
+ "scheme": "MOTILAL OSWAL BSE LOW VOLATILITY INDEX FUND"
+}

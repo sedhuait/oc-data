@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1065048,
+   "checked": "2026-09-07",
+   "file": "1764332815106.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2025/1764332815106.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "64fe3da824a06a3707b4c61c7d878c46e0e8dc17d32010b4ecb3d2cb94c2b826",
+   "sid_version": "2025-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2025/1764332815106.pdf"
+  }
+ ],
+ "scheme": "Zerodha Nifty 50 ETF"
+}

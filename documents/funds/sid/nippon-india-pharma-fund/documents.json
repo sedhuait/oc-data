@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 777209,
+   "checked": "2026-09-07",
+   "file": "1720766103656.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720766103656.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "55335667417c270e25c18da1f8fde96a1be5bf8ae0efa3a44f8912870aa94e88",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720766103656.pdf"
+  }
+ ],
+ "scheme": "Nippon India Pharma Fund"
+}

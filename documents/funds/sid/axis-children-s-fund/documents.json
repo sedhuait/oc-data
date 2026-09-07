@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1201740,
+   "checked": "2026-09-07",
+   "file": "1733726492152.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733726492152.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "93282b465e090a5cdb67add7d6a96f4b363766cac5751dc3cb75ab4d2c92fca2",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733726492152.pdf"
+  }
+ ],
+ "scheme": "Axis Children's Fund"
+}

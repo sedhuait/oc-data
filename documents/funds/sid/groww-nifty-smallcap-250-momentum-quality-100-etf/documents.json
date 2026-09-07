@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 978708,
+   "checked": "2026-09-07",
+   "file": "1779681342663.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2026/1779681342663.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "fa84414cda64162ab7d4007dde663c63a13f6a404005061c97a0abced8047e28",
+   "sid_version": "2026-05",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2026/1779681342663.pdf"
+  }
+ ],
+ "scheme": "Groww Nifty Smallcap 250 Momentum Quality 100 ETF"
+}

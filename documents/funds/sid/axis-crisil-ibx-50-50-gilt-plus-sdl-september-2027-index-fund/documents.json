@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 940939,
+   "checked": "2026-09-07",
+   "file": "1733721766361.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733721766361.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c6408619f1c679c5f9fe6018ef98d4c55123836ecfd1ce2a5b395ffa34857d80",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733721766361.pdf"
+  }
+ ],
+ "scheme": "Axis CRISIL IBX 50:50 Gilt Plus SDL September 2027 Index Fund"
+}

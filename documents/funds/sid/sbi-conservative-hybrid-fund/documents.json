@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1174637,
+   "checked": "2026-09-07",
+   "file": "1734340393006.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734340393006.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "bd06f9d3e6fd9f72027b0ca44b2c58785458ee88fc258d47abe32903be54cd36",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734340393006.pdf"
+  }
+ ],
+ "scheme": "SBI Conservative Hybrid Fund"
+}

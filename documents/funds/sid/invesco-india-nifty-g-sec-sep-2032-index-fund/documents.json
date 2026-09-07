@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 823478,
+   "checked": "2026-09-07",
+   "file": "1735733427728.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735733427728.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d4f5ce252fff7f56007f03c9b9ab155dcffbaba38637204aeb0af2cc554b428d",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735733427728.pdf"
+  }
+ ],
+ "scheme": "Invesco India Nifty G-sec Sep 2032 Index Fund"
+}

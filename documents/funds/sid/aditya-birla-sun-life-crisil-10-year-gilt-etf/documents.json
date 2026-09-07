@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 677671,
+   "checked": "2026-09-07",
+   "file": "1733129573520.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733129573520.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "dd363320a4099204ebe50a769a589d47ad35042f655fea716b54d2ee8fc860b4",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733129573520.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life CRISIL 10 Year GILT ETF"
+}

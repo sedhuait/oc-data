@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 990289,
+   "checked": "2026-09-07",
+   "file": "1733726098636.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733726098636.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "62538111400d1d5334697574dc981fa82beba70a1e9d275a89efbe1fdbe703bd",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733726098636.pdf"
+  }
+ ],
+ "scheme": "Axis ELSS Tax Saver Fund"
+}

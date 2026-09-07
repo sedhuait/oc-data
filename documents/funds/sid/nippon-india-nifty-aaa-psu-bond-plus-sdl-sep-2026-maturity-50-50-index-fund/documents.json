@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 791214,
+   "checked": "2026-09-07",
+   "file": "1720775895908.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720775895908.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ce8ed33b57d6c6facd4bd0d1d8992117cb214bbe53b2da6f07716022beca40b5",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720775895908.pdf"
+  }
+ ],
+ "scheme": "Nippon India Nifty AAA PSU Bond Plus SDL - Sep 2026 Maturity 50:50 Index Fund"
+}

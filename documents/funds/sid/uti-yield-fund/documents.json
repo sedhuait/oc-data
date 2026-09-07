@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1133094,
+   "checked": "2026-09-07",
+   "file": "1751622797019.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751622797019.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "9ae92e90e45ecdd31cf19eac45cacb172b93327787d71220e501d4c4294f90c4",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751622797019.pdf"
+  }
+ ],
+ "scheme": "UTI Dividend Yield Fund"
+}

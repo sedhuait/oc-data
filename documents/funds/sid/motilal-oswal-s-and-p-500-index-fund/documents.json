@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1772644,
+   "checked": "2026-09-07",
+   "file": "1750413957920.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750413957920.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c5d9dfec6eaa6902ee37447938036e16580fd0f93027da77684b0630387968f5",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750413957920.pdf"
+  }
+ ],
+ "scheme": "Motilal Oswal S&P 500 Index Fund"
+}

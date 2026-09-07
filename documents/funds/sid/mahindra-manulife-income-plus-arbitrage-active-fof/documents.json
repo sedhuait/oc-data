@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 936687,
+   "checked": "2026-09-07",
+   "file": "1771318038551.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771318038551.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "26f09d07480fe7c97b58ebc104c565c9fd8c141b2f303b76d7c3400b6a102b6b",
+   "sid_version": "2026-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771318038551.pdf"
+  }
+ ],
+ "scheme": "Mahindra Manulife Income Plus Arbitrage Active FOF"
+}

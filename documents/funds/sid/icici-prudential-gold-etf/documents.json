@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1302213,
+   "checked": "2026-09-07",
+   "file": "1685686602537.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685686602537.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3e44b44feb4e9be53ac0a4e4021b43436c9b7df3485aa516a64db95bc3faa2d3",
+   "sid_version": "2023-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685686602537.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Gold ETF"
+}

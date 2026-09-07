@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1176272,
+   "checked": "2026-09-07",
+   "file": "1727779055561.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727779055561.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "eb23926530d4ad65a10a9304412ae5e543a3d7bd88d98efbbd92a47c86304ceb",
+   "sid_version": "2024-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727779055561.pdf"
+  }
+ ],
+ "scheme": "HSBC Corporate Bond Fund"
+}

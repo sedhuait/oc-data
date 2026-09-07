@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1241348,
+   "checked": "2026-09-07",
+   "file": "1751628086255.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751628086255.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "da1ef4fdb2f4d983f6cedf491ccf0ce3a71ca675f3ec4f0245967945bd07cebb",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751628086255.pdf"
+  }
+ ],
+ "scheme": "UTI Innovation Fund"
+}

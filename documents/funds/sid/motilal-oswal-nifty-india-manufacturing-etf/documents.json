@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1343606,
+   "checked": "2026-09-07",
+   "file": "1747638818862.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2025/1747638818862.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "80ae5cc89447864bbe00becde2a57f3e3c2bbf00ce97d0c8ecf0087e9b9df389",
+   "sid_version": "2025-05",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2025/1747638818862.pdf"
+  }
+ ],
+ "scheme": "Motilal Oswal Nifty India Manufacturing ETF"
+}

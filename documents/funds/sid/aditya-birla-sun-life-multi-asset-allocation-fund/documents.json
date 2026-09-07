@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 837953,
+   "checked": "2026-09-07",
+   "file": "1733129110869.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733129110869.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "20cbd46a948de2fec326af83b679c20394ab51862080f49ca58f73cbe8249f56",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733129110869.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life Multi Asset Allocation Fund"
+}

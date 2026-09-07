@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1535425,
+   "checked": "2026-09-07",
+   "file": "1685689087365.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685689087365.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "35b060db927c9cd7d862d877b12a0d1bb15b77cc89b8b819ca21029c891aa909",
+   "sid_version": "2023-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685689087365.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential FMCG Fund"
+}

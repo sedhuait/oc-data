@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1158718,
+   "checked": "2026-09-07",
+   "file": "1751622907223.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751622907223.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b7ac5c476aa3c213ee3fb11298f01f3321c756c590381637e50f99e2021cf1f6",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751622907223.pdf"
+  }
+ ],
+ "scheme": "UTI Mid Cap Fund"
+}

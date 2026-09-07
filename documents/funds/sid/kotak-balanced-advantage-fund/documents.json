@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1268247,
+   "checked": "2026-09-07",
+   "file": "1739338374171.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739338374171.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "f6be240c275f5005e1b31f0a8b52f4b90fbf68d0a0050b9d9e612f1cc88b3004",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739338374171.pdf"
+  }
+ ],
+ "scheme": "Kotak Balanced Advantage Fund"
+}

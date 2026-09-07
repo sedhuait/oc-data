@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1185593,
+   "checked": "2026-09-07",
+   "file": "1774608705674.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2026/1774608705674.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "4bba711f1a75281ea74cd6e4b4f7c6201cb65e05a5a953750a3ea794ef1f4e48",
+   "sid_version": "2026-03",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2026/1774608705674.pdf"
+  }
+ ],
+ "scheme": "THE WEALTH COMPANY ARBITRAGE FUND"
+}

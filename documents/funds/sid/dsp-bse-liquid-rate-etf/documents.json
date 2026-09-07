@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2009529,
+   "checked": "2026-09-07",
+   "file": "1735818119099.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735818119099.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e9de53039b45c8fee5105df902411a2f86178c62e5c727c07f4ed110a4bfc7ec",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735818119099.pdf"
+  }
+ ],
+ "scheme": "DSP BSE Liquid Rate ETF"
+}

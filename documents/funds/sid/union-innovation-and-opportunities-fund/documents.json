@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1065735,
+   "checked": "2026-09-07",
+   "file": "1735894424368.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735894424368.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "6a59865bb99b11273762c5dd1a5402b537333cbe02a2bfc582af262ecbf95cc6",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735894424368.pdf"
+  }
+ ],
+ "scheme": "Union Innovation and Opportunities Fund"
+}

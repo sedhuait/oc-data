@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 954003,
+   "checked": "2026-09-07",
+   "file": "1750161042857.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750161042857.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "2df9ed6c3c16596ea82c0d17a373b753f5fbe185b2d510eed7ba8a18deffe60c",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750161042857.pdf"
+  }
+ ],
+ "scheme": "Bandhan Nifty 500 Momentum 50 Index Fund"
+}

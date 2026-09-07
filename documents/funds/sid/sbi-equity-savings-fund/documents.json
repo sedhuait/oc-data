@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1214632,
+   "checked": "2026-09-07",
+   "file": "1734349423165.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734349423165.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "4e62dbc7da64ddbfb0f9e500465717d3f0aa2d495e79157f6eda892e50ae624e",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734349423165.pdf"
+  }
+ ],
+ "scheme": "SBI Equity Savings Fund"
+}

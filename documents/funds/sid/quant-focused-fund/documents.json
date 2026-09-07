@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 966278,
+   "checked": "2026-09-07",
+   "file": "1643626235217.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2022/1643626235217.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "51146f822c6fcd0e9c4604cdb35ba49e3d1b41c8dca42e7f0c7d5b17691c992b",
+   "sid_version": "2022-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2022/1643626235217.pdf"
+  }
+ ],
+ "scheme": "quant Focused Fund"
+}

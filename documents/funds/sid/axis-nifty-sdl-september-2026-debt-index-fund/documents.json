@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 897694,
+   "checked": "2026-09-07",
+   "file": "1733721477908.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733721477908.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "25f16f53d6b43555f60a724cf50812406686a79b391182b21a25cc00d72336d0",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733721477908.pdf"
+  }
+ ],
+ "scheme": "Axis Nifty SDL September 2026 Debt Index Fund"
+}

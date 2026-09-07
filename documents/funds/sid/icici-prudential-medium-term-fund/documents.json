@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 965181,
+   "checked": "2026-09-07",
+   "file": "1719479397256.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2024/1719479397256.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d6783ee3eecbc40e467b92d1e8d0ae432b424e6d56301ee1b6b9b36a83d9e5f2",
+   "sid_version": "2024-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2024/1719479397256.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Medium Term Bond Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1245717,
+   "checked": "2026-09-07",
+   "file": "1751863440506.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751863440506.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "fac85c1d6c581017455019a41ccbc17a951815bc332099729de466eebbf530f7",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751863440506.pdf"
+  }
+ ],
+ "scheme": "UTI Nifty Midsmallcap 400 Momentum Quality 100 Index Fund"
+}

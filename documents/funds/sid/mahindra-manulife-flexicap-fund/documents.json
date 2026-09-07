@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 968778,
+   "checked": "2026-09-07",
+   "file": "1771317308039.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771317308039.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ea448b91709cee5a2149838a62d1410f51319e8a1e16a187e3e24762ddbec103",
+   "sid_version": "2026-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771317308039.pdf"
+  }
+ ],
+ "scheme": "Mahindra Manulife Flexi Cap Fund"
+}

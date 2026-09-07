@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1044087,
+   "checked": "2026-09-07",
+   "file": "1732784933524.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732784933524.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "62a5fd8689163ddd45c9d8053118fbd823ad2dc18df67dc69aa2505c8d541b69",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732784933524.pdf"
+  }
+ ],
+ "scheme": "HDFC Banking and PSU Debt Fund"
+}

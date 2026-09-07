@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1138885,
+   "checked": "2026-09-07",
+   "file": "1734347549928.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734347549928.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "cf97641a789ba8a143dc73174a172b964a7b91a43216aaed96909391f829a1f7",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734347549928.pdf"
+  }
+ ],
+ "scheme": "SBI BSE Sensex Index Fund"
+}

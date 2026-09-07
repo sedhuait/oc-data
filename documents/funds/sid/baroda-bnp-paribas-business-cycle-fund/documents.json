@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 814653,
+   "checked": "2026-09-07",
+   "file": "1735882084134.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735882084134.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "4a6e1e62a4ef3e489b7e25e84c5addc0b8013b86e39bf2442978190e2dfe263f",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735882084134.pdf"
+  }
+ ],
+ "scheme": "Baroda BNP Paribas Business Cycle Fund"
+}

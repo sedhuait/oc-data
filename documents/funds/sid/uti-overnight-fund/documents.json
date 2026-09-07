@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1153409,
+   "checked": "2026-09-07",
+   "file": "1751879038394.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751879038394.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "13368e45599cd22a6f83922de370115da100ac0c6947f1ad13eaebb37b9a0e3d",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751879038394.pdf"
+  }
+ ],
+ "scheme": "UTI Overnight Fund"
+}

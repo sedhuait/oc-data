@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1883285,
+   "checked": "2026-09-07",
+   "file": "1735816851090.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735816851090.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "feb9a3014470d85689e0ffe6f40909436ad25bdec50b7af6b561aabc88c15cba",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735816851090.pdf"
+  }
+ ],
+ "scheme": "DSP Nifty 1D Rate Liquid ETF"
+}

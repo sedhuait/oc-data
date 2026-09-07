@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 777479,
+   "checked": "2026-09-07",
+   "file": "1733718681878.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733718681878.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "81eb8d48125a8da98f13a2061419aaeb78c0b02b4983a5b62ca2298ea13ef1da",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733718681878.pdf"
+  }
+ ],
+ "scheme": "Axis Gilt Fund"
+}

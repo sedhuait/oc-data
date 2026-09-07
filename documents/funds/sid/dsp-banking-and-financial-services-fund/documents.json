@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2180062,
+   "checked": "2026-09-07",
+   "file": "1735817913439.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735817913439.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e03df923d46d63615b6875662e01e4f9d2a14cf17066fd64b0f052921aa6e967",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735817913439.pdf"
+  }
+ ],
+ "scheme": "DSP Banking & Financial Services Fund"
+}

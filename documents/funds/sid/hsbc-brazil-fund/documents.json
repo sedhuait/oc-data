@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 979774,
+   "checked": "2026-09-07",
+   "file": "1727777855638.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727777855638.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ba0d25e682f49175189a5377d148169b7c185e690d1c1a71bb86e7891f76e91e",
+   "sid_version": "2024-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727777855638.pdf"
+  }
+ ],
+ "scheme": "HSBC Brazil Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1204421,
+   "checked": "2026-09-07",
+   "file": "1751887074145.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751887074145.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "eae72a90ab3039b580cf6db8c6ca9cd2368aaecce0917a156ec1edd57f9694d6",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751887074145.pdf"
+  }
+ ],
+ "scheme": "UTI Balanced Advantage Fund"
+}

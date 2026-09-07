@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 927433,
+   "checked": "2026-09-07",
+   "file": "1719478600753.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2024/1719478600753.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "1652da7520e60ecba8457bdbd8aabfdd50bd264eb2d589d467090ac917b5d7dc",
+   "sid_version": "2024-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2024/1719478600753.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Gilt Fund"
+}

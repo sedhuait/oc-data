@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 529428,
+   "checked": "2026-09-07",
+   "file": "1764659587063.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764659587063.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e98f883e5db3ff41709c70af3b382a124d7128aab116be570700aa1f0a1c8dcd",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764659587063.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET BSE SENSEX ETF"
+}

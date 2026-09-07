@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1692242,
+   "checked": "2026-09-07",
+   "file": "1685694612284.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685694612284.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3ad5037d4d5a17529786e3623598d050510846289122e84759d6929477ea38f8",
+   "sid_version": "2023-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685694612284.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Manufacturing Fund"
+}

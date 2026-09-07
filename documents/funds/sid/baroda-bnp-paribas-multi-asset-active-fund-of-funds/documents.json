@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 935056,
+   "checked": "2026-09-07",
+   "file": "1746681361662.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2025/1746681361662.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a9b3efb344c705f0788826a51ef5463e04bd6e91690124355b858b214aca20cb",
+   "sid_version": "2025-05",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2025/1746681361662.pdf"
+  }
+ ],
+ "scheme": "Baroda BNP Paribas Multi Asset Active Fund of Funds"
+}

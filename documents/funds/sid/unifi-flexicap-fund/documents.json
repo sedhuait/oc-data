@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1034747,
+   "checked": "2026-09-07",
+   "file": "1765354690746.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765354690746.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "618fcf8ecd52ad8760aebaa7c2a99029315761ed468f7dd914299e9ed1787009",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765354690746.pdf"
+  }
+ ],
+ "scheme": "Unifi Flexi Cap Fund"
+}

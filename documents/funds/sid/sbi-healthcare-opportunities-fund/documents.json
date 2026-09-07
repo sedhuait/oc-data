@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1058152,
+   "checked": "2026-09-07",
+   "file": "1734343807115.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734343807115.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a8e8e7c4f91382e4d2d1eb0399e343e0c46b9a9643db9a7be6873a2ec021885d",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734343807115.pdf"
+  }
+ ],
+ "scheme": "SBI Healthcare Opportunities Fund"
+}

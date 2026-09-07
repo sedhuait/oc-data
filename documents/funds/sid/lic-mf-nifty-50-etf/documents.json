@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1423985,
+   "checked": "2026-09-07",
+   "file": "1752475203217.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752475203217.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "47e3479b33f7aeb457d6822dd29146758e3875cf0d458aaae6829edb70b4b968",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752475203217.pdf"
+  }
+ ],
+ "scheme": "LIC MF NIFTY 50 ETF"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 929863,
+   "checked": "2026-09-07",
+   "file": "1734348942863.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734348942863.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a6d8b46e64639163f45ef1a7d28046be791ce6506f402f1020dbdc3e3a6017b4",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734348942863.pdf"
+  }
+ ],
+ "scheme": "SBI BSE SENSEX ETF"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 3016395,
+   "checked": "2026-09-07",
+   "file": "1742380122491.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1742380122491.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "dfefa156cb3147866b8d91958022d9d95168d8ba3ba304e9e7e6bb7f2233a106",
+   "sid_version": "2025-03",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1742380122491.pdf"
+  }
+ ],
+ "scheme": "Sundaram Money Market Fund"
+}

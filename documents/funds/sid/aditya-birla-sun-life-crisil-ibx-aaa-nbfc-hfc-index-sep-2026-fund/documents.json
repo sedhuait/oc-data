@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1159083,
+   "checked": "2026-09-07",
+   "file": "1733129599197.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733129599197.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "fadcf5c55c9ef5e0237d1d42ba72ed945f35462dfa73ba7efc36f5252a7099d4",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733129599197.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life CRISIL-IBX AAA NBFC-HFC Index - Sep 2026 Fund"
+}

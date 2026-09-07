@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2392990,
+   "checked": "2026-09-07",
+   "file": "1742374672400.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1742374672400.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b319ac0ae6a2b6d97ab320158652e8e8859721148620f09abc10eb995e08284a",
+   "sid_version": "2025-03",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1742374672400.pdf"
+  }
+ ],
+ "scheme": "Sundaram ELSS Tax Saver Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2974237,
+   "checked": "2026-09-07",
+   "file": "1742378249878.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1742378249878.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c197cdcae342fbab79c9e1940f1a5736b8d79b5769cd57c561e6c2ab03f9cbd6",
+   "sid_version": "2025-03",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1742378249878.pdf"
+  }
+ ],
+ "scheme": "Sundaram Long Term Micro Cap Tax Advantage Fund Series III"
+}

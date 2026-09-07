@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 855712,
+   "checked": "2026-09-07",
+   "file": "1771313391763.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771313391763.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "6c51d2bf2a55e6dd18d8777b3febfc958e92eb25da1a0e751951624443bb271a",
+   "sid_version": "2026-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771313391763.pdf"
+  }
+ ],
+ "scheme": "Mahindra Manulife Overnight Fund"
+}

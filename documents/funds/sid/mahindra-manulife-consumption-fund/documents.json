@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 989820,
+   "checked": "2026-09-07",
+   "file": "1771312439218.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771312439218.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "1e180bb7f0756b6941826941f6b00cf6b3ad96ed9dedf536c17f27159a20d2d0",
+   "sid_version": "2026-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771312439218.pdf"
+  }
+ ],
+ "scheme": "Mahindra Manulife Consumption Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2224947,
+   "checked": "2026-09-07",
+   "file": "1734332738023.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734332738023.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "f8c10330747c60c4bf1e310b1aaa773abe4ec11071a772baf3cc26b365b64e80",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734332738023.pdf"
+  }
+ ],
+ "scheme": "BHARAT Bond ETF - April 2032"
+}

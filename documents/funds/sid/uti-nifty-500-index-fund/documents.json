@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2002277,
+   "checked": "2026-09-07",
+   "file": "1785819131304.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2026/1785819131304.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "faa69fbe8e75f37ae9f14927f93b87a00d829ab7153f66eec6a2276dd53d0af3",
+   "sid_version": "2026-08",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2026/1785819131304.pdf"
+  }
+ ],
+ "scheme": "UTI Nifty 500 Index Fund."
+}

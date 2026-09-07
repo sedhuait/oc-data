@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1106389,
+   "checked": "2026-09-07",
+   "file": "1727779273092.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727779273092.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "76b78f3633651038c16122ba21f3de3bf05576d50ecfe8be66c55a8746158354",
+   "sid_version": "2024-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727779273092.pdf"
+  }
+ ],
+ "scheme": "HSBC Money Market Fund"
+}

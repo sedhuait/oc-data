@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 691015,
+   "checked": "2026-09-07",
+   "file": "1735549286226.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1735549286226.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "6d90de331ee42612f9354e62f40690fedf8c74bdb14200ac159a5c98f6ce6b92",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1735549286226.pdf"
+  }
+ ],
+ "scheme": "Navi Flexi Cap Fund"
+}

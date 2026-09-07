@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 910307,
+   "checked": "2026-09-07",
+   "file": "1732790025244.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732790025244.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c59d4b9be29bf71d67893d38a6b60cdb9227d4f9d5baa1bdb0c0c2822cc66194",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732790025244.pdf"
+  }
+ ],
+ "scheme": "HDFC Money Market Fund"
+}

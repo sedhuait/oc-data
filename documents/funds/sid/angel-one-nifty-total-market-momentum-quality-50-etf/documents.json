@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1147373,
+   "checked": "2026-09-07",
+   "file": "1764568387781.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764568387781.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "82403e65f6ddde8358994889c565fdd735d950caeaced42b38e7e686c7c47159",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764568387781.pdf"
+  }
+ ],
+ "scheme": "Angel One Nifty Total Market Momentum Quality 50 ETF"
+}

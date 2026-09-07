@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1170743,
+   "checked": "2026-09-07",
+   "file": "1719479477851.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2024/1719479477851.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "17b6ada97f896097563995b30576a5f5b2d1b709916927999bfad154b5955ba3",
+   "sid_version": "2024-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2024/1719479477851.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Money Market Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 887970,
+   "checked": "2026-09-07",
+   "file": "1734344144883.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734344144883.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "062cf88f5374508c211dc3ad08328fd47db8173286530b690e7fdfd010ec5bb2",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734344144883.pdf"
+  }
+ ],
+ "scheme": "SBI Nifty Private Bank ETF"
+}

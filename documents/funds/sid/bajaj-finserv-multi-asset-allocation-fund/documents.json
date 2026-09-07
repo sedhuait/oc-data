@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2219860,
+   "checked": "2026-09-07",
+   "file": "1721037837228.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1721037837228.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "61fa6beff59bc9587fc1cf79391b2f2d33f0c2fbc4db7b67b472ea78bb9bff3f",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1721037837228.pdf"
+  }
+ ],
+ "scheme": "Bajaj Finserv Multi Asset Allocation Fund"
+}

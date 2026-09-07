@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1023014,
+   "checked": "2026-09-07",
+   "file": "1693291170216.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2023/1693291170216.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c35a7122b5df86d9bc4533af3d6e5d51b55fd40d7af73ea437cb840de0ba80f0",
+   "sid_version": "2023-08",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2023/1693291170216.pdf"
+  }
+ ],
+ "scheme": "Groww Liquid Fund"
+}

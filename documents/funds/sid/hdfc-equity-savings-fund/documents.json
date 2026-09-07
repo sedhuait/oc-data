@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1023622,
+   "checked": "2026-09-07",
+   "file": "1732786048751.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732786048751.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "1d7a049f4c2e756573e0c26bdd6a5e0d5368cf874caf3583d1eacad3fc4e816c",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732786048751.pdf"
+  }
+ ],
+ "scheme": "HDFC Equity Savings Fund"
+}

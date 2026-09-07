@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1298667,
+   "checked": "2026-09-07",
+   "file": "1752054824598.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752054824598.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b377bac7387e11ffe154ca110eed9dd0c0fa32b30a3d85a3ffe26e84841bc9c3",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752054824598.pdf"
+  }
+ ],
+ "scheme": "Samco ELSS Tax Saver Fund"
+}

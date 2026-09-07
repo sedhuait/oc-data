@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1323551,
+   "checked": "2026-09-07",
+   "file": "1685695027178.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685695027178.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "4c6805b76860fd5774b149d58b4e30f936faafa349251835cca083282af1ba34",
+   "sid_version": "2023-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685695027178.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Bharat Consumption Fund"
+}

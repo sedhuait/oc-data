@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1180145,
+   "checked": "2026-09-07",
+   "file": "1751870682060.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751870682060.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "6ec539b4002cd304e743726da131ee52d271118c6140c2634758982c9001e468",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751870682060.pdf"
+  }
+ ],
+ "scheme": "UTI Nifty IT ETF"
+}

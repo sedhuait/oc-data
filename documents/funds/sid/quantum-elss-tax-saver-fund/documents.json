@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 803130,
+   "checked": "2026-09-07",
+   "file": "1736224394733.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1736224394733.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ff3c8718ff0cddffce8498ed6e112d330992d2c3e06073154031a640b29d9908",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1736224394733.pdf"
+  }
+ ],
+ "scheme": "Quantum ELSS Tax Saver Fund"
+}

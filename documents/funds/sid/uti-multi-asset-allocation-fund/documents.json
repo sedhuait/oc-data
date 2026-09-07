@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1177371,
+   "checked": "2026-09-07",
+   "file": "1751627226297.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751627226297.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "be175ad98f1933a48065e4a3fe6426f747d31892c08a42a8f154d25994d6e035",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751627226297.pdf"
+  }
+ ],
+ "scheme": "UTI Multi Asset Allocation Fund"
+}

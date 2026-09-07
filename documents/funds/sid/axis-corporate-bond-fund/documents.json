@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 847902,
+   "checked": "2026-09-07",
+   "file": "1733726219827.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733726219827.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "0083a46e4f596e3e08d657f1d3d58b6c69c3346ae68307dfea7474f0fb3daa92",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733726219827.pdf"
+  }
+ ],
+ "scheme": "Axis Corporate Bond Fund"
+}

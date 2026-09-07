@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1002228,
+   "checked": "2026-09-07",
+   "file": "1739344117852.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739344117852.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a06d27363a8576e320b73899cfb3dc0237913740b39e70ff4e2247eb186f2b83",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739344117852.pdf"
+  }
+ ],
+ "scheme": "Kotak Pioneer Fund"
+}

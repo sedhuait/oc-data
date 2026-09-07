@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1516315,
+   "checked": "2026-09-07",
+   "file": "1735816946002.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735816946002.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "2f1fa389e7616ae75c16495349d9558c227dd1fc5f53be762b11938308c84411",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735816946002.pdf"
+  }
+ ],
+ "scheme": "DSP Nifty 50 Index Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1002803,
+   "checked": "2026-09-07",
+   "file": "1734345244824.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734345244824.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "fcfc5e3e0fa079412b6f224fa4747b9e5813f0a027d2471993a3cd83d9007da7",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734345244824.pdf"
+  }
+ ],
+ "scheme": "SBI CRISIL IBX Gilt Index - April 2029 Fund"
+}

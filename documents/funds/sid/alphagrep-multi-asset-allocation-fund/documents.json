@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1028397,
+   "checked": "2026-09-07",
+   "file": "1783406410763.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2026/1783406410763.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "14efa7396afc21a9da9c822dec8dc4b4a5105e300851678472362010e4cf81f4",
+   "sid_version": "2026-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2026/1783406410763.pdf"
+  }
+ ],
+ "scheme": "AlphaGrep Multi Asset Allocation Fund"
+}

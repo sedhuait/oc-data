@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1038536,
+   "checked": "2026-09-07",
+   "file": "1732785371686.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732785371686.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ae1b6f235ae268a2298ef796ad04f593146e3006bbc1bd793152f8702cd0ae55",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732785371686.pdf"
+  }
+ ],
+ "scheme": "HDFC Corporate Bond Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 858095,
+   "checked": "2026-09-07",
+   "file": "1733720788816.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733720788816.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3cabae8752d74a5f2d2585c24d9f2fe3256f60cb7670f12997844ba0c57d6672",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733720788816.pdf"
+  }
+ ],
+ "scheme": "Axis Gold Fund"
+}

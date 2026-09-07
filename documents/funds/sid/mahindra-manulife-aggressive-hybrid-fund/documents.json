@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 962146,
+   "checked": "2026-09-07",
+   "file": "1771313266853.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771313266853.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "4c8eed57c0d349fe0c8c1c15b2f772d99214b651c62857ca57374cc77e52a44b",
+   "sid_version": "2026-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771313266853.pdf"
+  }
+ ],
+ "scheme": "Mahindra Manulife Aggressive Hybrid Fund"
+}

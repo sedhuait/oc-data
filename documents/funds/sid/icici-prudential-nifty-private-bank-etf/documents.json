@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1579925,
+   "checked": "2026-09-07",
+   "file": "1685695206934.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685695206934.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e7163327d7a1df5bbc27b75b91e672b000ca9653768cba05553d8403e74b978b",
+   "sid_version": "2023-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685695206934.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Nifty Private Bank ETF"
+}

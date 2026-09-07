@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1667348,
+   "checked": "2026-09-07",
+   "file": "1750413380804.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750413380804.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "71b4af8dd7ed319781a669d8ab2467e669102d5ed6f4e6deea2467a646c43b38",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750413380804.pdf"
+  }
+ ],
+ "scheme": "MOTILAL OSWAL NIFTY MICROCAP 250 INDEX FUND"
+}

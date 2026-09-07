@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 834392,
+   "checked": "2026-09-07",
+   "file": "1763701333867.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2025/1763701333867.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "0f213a99c8c7116e3b2b08af00aabf595f53b6c31888962738cf1ac3ea50d094",
+   "sid_version": "2025-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2025/1763701333867.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET AGGRESSIVE HYBRID FUND"
+}

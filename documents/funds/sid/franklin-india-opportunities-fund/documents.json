@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 980527,
+   "checked": "2026-09-07",
+   "file": "1764582871583.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764582871583.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b626618cc92aba0c836978d2ba2eac048c05592173ea4f7adba39918c09fe13e",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764582871583.pdf"
+  }
+ ],
+ "scheme": "Franklin India Opportunities Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1158628,
+   "checked": "2026-09-07",
+   "file": "1742377597026.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1742377597026.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "7115a922ac429ee5d9f3d40d8aeb49f335c80faebcd93f47f632e7d5bb5fbd06",
+   "sid_version": "2025-03",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1742377597026.pdf"
+  }
+ ],
+ "scheme": "Sundaram Large and Mid Cap Fund"
+}

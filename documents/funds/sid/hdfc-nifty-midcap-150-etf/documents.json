@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1582467,
+   "checked": "2026-09-07",
+   "file": "1732793297604.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732793297604.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "71fde6625057f2e7eb35bb92f8ace120539a1fb146651736e8b31bf243ad6242",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732793297604.pdf"
+  }
+ ],
+ "scheme": "HDFC NIFTY Midcap 150 ETF"
+}

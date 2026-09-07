@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 888176,
+   "checked": "2026-09-07",
+   "file": "1771932024380.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771932024380.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "eef7948366014dd235c7a26ef44ca710641050c6000575af76ed169907620bb9",
+   "sid_version": "2026-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771932024380.pdf"
+  }
+ ],
+ "scheme": "Abakkus Small Cap Fund"
+}

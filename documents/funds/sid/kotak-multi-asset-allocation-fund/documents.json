@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1304027,
+   "checked": "2026-09-07",
+   "file": "1739340480483.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739340480483.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "eaeb31c503c1c750a968e05efbcf15f222fdd34499ceb95c595d158ee4edcfc9",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739340480483.pdf"
+  }
+ ],
+ "scheme": "Kotak Multi Asset Allocation Fund"
+}

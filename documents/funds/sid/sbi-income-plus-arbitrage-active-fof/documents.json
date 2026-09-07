@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1249769,
+   "checked": "2026-09-07",
+   "file": "1745484569637.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/apr-2025/1745484569637.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "8d629ace871a34d471d0473638d8695528491c9c92af6097ff3a6f4e2f38a2dd",
+   "sid_version": "2025-04",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/apr-2025/1745484569637.pdf"
+  }
+ ],
+ "scheme": "SBI Income Plus Arbitrage Active FOF"
+}

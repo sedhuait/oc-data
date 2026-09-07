@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 984097,
+   "checked": "2026-09-07",
+   "file": "1750150703386.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750150703386.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "8286425de639203acd5bb7765d6cbb6ae2496e8ce6703663fbdc8ff7c0ad7372",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750150703386.pdf"
+  }
+ ],
+ "scheme": "Bandhan ELSS Tax Saver Fund"
+}

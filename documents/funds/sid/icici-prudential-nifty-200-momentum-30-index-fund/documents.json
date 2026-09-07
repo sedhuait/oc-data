@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1265562,
+   "checked": "2026-09-07",
+   "file": "1749031454222.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749031454222.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ecd3462b72a17affefc2937a5786a5da9dfc5d7618fe4885617c23e99665690f",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749031454222.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Nifty 200 Momentum 30 Index Fund"
+}

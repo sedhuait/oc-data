@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 977407,
+   "checked": "2026-09-07",
+   "file": "1764661465643.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764661465643.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e8489b9b3901355509cfad739026557b5fac80e87942959314bb49dd89f7d4f4",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764661465643.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET GLOBAL ELECTRIC & AUTONOMOUS VEHICLES EQUITY PASSIVE FOF"
+}

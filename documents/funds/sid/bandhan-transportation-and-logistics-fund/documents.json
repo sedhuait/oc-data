@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 913724,
+   "checked": "2026-09-07",
+   "file": "1750150742894.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750150742894.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "bc854ba21d7b34bd412ea74182ee9a9121b0e82d95542e175b3a6f2e5717813d",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750150742894.pdf"
+  }
+ ],
+ "scheme": "Bandhan Transportation and Logistics Fund"
+}

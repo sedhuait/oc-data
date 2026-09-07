@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 783423,
+   "checked": "2026-09-07",
+   "file": "1749188120370.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749188120370.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "f1fe68e2c548b89cbe033f52dd91d2a8789aec80a3e8b87387abd3403d8f62ce",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749188120370.pdf"
+  }
+ ],
+ "scheme": "Invesco India Arbitrage Fund"
+}

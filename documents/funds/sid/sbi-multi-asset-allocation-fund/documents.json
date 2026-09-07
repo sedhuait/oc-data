@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 608336,
+   "checked": "2026-09-07",
+   "file": "1734341083626.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734341083626.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "9b537c0ab2de0016e71b267f7d5c448ac0b98f2abce249817781a1cd542be4b0",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734341083626.pdf"
+  }
+ ],
+ "scheme": "SBI Multi Asset Allocation Fund"
+}

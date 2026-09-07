@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 809494,
+   "checked": "2026-09-07",
+   "file": "1739344522113.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739344522113.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "fa3bd1d176539f2d461f27c2b830eb5947eec2e4853a57cbb39a77a37f867455",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739344522113.pdf"
+  }
+ ],
+ "scheme": "Kotak Small Cap Fund"
+}

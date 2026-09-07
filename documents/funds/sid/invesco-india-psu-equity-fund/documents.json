@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1079568,
+   "checked": "2026-09-07",
+   "file": "1749183390298.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749183390298.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "265225ce2994f2f102d439f211b5c0d0fe67df51e25dbac486ecf33d53cfe047",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749183390298.pdf"
+  }
+ ],
+ "scheme": "Invesco India PSU Equity Fund"
+}

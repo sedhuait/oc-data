@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 878911,
+   "checked": "2026-09-07",
+   "file": "1764151358996.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2025/1764151358996.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "41f811b4508ec5d837b04fe8f54642733bc307d3730334235a9b3acfa54927ce",
+   "sid_version": "2025-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2025/1764151358996.pdf"
+  }
+ ],
+ "scheme": "Mirae Asset Nifty Top 20 Equal weight ETF"
+}

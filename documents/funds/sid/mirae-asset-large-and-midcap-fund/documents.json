@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 875358,
+   "checked": "2026-09-07",
+   "file": "1763701616353.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2025/1763701616353.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "0e6a77826c5ff05603248a253ce56d2548633cdd5cfc974ce83f95b1e0cf5b8b",
+   "sid_version": "2025-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2025/1763701616353.pdf"
+  }
+ ],
+ "scheme": "Mirae Asset Large & Midcap Fund"
+}

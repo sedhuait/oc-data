@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 785885,
+   "checked": "2026-09-07",
+   "file": "1751948606387.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751948606387.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a9b93872141b6d8324f90e5b8dfda1a7cf91aff6cce8f03f38f02565a7c8e9bc",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751948606387.pdf"
+  }
+ ],
+ "scheme": "Parag Parikh Flexi Cap Fund"
+}

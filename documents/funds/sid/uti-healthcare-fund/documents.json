@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1125375,
+   "checked": "2026-09-07",
+   "file": "1751611918644.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751611918644.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "6d4534026b565f334b87211767e14795954ce408a237093b95a4224c3134de6c",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751611918644.pdf"
+  }
+ ],
+ "scheme": "UTI Healthcare Fund"
+}

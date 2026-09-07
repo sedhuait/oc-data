@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 985720,
+   "checked": "2026-09-07",
+   "file": "1643626178883.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2022/1643626178883.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "7dd8033cb2d55dac06b351a676f382d0dfd45b01c8af74a6e39faba049bc955f",
+   "sid_version": "2022-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2022/1643626178883.pdf"
+  }
+ ],
+ "scheme": "quant Small Cap Fund"
+}

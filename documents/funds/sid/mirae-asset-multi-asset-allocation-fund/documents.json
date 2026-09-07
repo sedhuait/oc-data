@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 985787,
+   "checked": "2026-09-07",
+   "file": "1764665344844.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764665344844.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e766aff012a445a0fbfdc21243d7ed0a73018cd010e95de0c8e5845814c21b07",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764665344844.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET MULTI ASSET ALLOCATION FUND"
+}

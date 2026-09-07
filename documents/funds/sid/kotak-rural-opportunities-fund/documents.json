@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 850764,
+   "checked": "2026-09-07",
+   "file": "1761739957893.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2025/1761739957893.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "88e213f2fdc2f5eb20a387d5b12f06009f24329b577708e0afa5a11e35c64f34",
+   "sid_version": "2025-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2025/1761739957893.pdf"
+  }
+ ],
+ "scheme": "Kotak Rural Opportunities Fund"
+}

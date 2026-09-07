@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1177360,
+   "checked": "2026-09-07",
+   "file": "1749012968017.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749012968017.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "9465ec5e93c1f4ff321d22538cba0f4d57866b7be1639e264541060a8ebed903",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749012968017.pdf"
+  }
+ ],
+ "scheme": "Canara Robeco Conservative Hybrid Fund"
+}

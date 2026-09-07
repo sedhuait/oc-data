@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 910188,
+   "checked": "2026-09-07",
+   "file": "1732786888761.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732786888761.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "0147ab9cec7f094ba379cf598fa560eaf0fdf776897c7cd050bee35c53a672ae",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732786888761.pdf"
+  }
+ ],
+ "scheme": "HDFC Gold ETF Fund of Fund"
+}

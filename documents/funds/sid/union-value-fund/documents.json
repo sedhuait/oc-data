@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1063874,
+   "checked": "2026-09-07",
+   "file": "1735894646463.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735894646463.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "15a5aacc5d752bca97bf9857217e1958ec487d9b0e4cd1761e08d834ab6a1f57",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735894646463.pdf"
+  }
+ ],
+ "scheme": "Union Value Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 792590,
+   "checked": "2026-09-07",
+   "file": "1750134144770.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750134144770.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "8c96a963aa6002e1a8917056bb2c7cee9d619210897c9c1bc5c76736bb389545",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750134144770.pdf"
+  }
+ ],
+ "scheme": "Kotak Nifty 200 Quality 30 Index Fund"
+}

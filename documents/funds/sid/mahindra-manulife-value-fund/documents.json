@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1011590,
+   "checked": "2026-09-07",
+   "file": "1771317792712.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771317792712.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b2a97bef31a57f09a18ee8fd755215735818b553849f31b31ceb9b2798022018",
+   "sid_version": "2026-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771317792712.pdf"
+  }
+ ],
+ "scheme": "Mahindra Manulife Value Fund"
+}

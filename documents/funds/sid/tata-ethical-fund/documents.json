@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2124850,
+   "checked": "2026-09-07",
+   "file": "1651729921515.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1651729921515.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "88998e37c686479303b972d7d1c5c241962dccfa129aa13976fe112d393d554b",
+   "sid_version": "2022-05",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1651729921515.pdf"
+  }
+ ],
+ "scheme": "Tata Ethical Fund"
+}

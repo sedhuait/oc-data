@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2569648,
+   "checked": "2026-09-07",
+   "file": "1742374396981.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1742374396981.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "58eb3e00b243409db744dfab5dc29e1103cc6c65fc4e875954a86f6f99ee80fa",
+   "sid_version": "2025-03",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1742374396981.pdf"
+  }
+ ],
+ "scheme": "Sundaram Business Cycle Fund"
+}

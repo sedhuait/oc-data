@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1194336,
+   "checked": "2026-09-07",
+   "file": "1719480469087.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2024/1719480469087.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3d189890fb86767ba0b320f27c7a173ccd65cecce1d07baf9a10f0b643269797",
+   "sid_version": "2024-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2024/1719480469087.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Equity Savings Fund"
+}

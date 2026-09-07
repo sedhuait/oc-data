@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1167328,
+   "checked": "2026-09-07",
+   "file": "1727439432823.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1727439432823.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "7ab69b58726f84fc8d47a8de605ac8fe3ac37620c8588bbec868f7533fb7315a",
+   "sid_version": "2024-09",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1727439432823.pdf"
+  }
+ ],
+ "scheme": "Bajaj Finserv Large and Mid Cap Fund"
+}

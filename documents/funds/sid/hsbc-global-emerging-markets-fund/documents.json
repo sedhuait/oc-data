@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1015790,
+   "checked": "2026-09-07",
+   "file": "1727778541755.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727778541755.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d6847f110fa022b59023d9438939f48c97e5bde09066abfceb8c00556038d3c7",
+   "sid_version": "2024-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727778541755.pdf"
+  }
+ ],
+ "scheme": "HSBC Global Emerging Markets Fund"
+}

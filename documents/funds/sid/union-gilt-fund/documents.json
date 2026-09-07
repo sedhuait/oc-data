@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1369552,
+   "checked": "2026-09-07",
+   "file": "1735893978902.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735893978902.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "8fbaa8afa1138b7d02f9e271cfb1152889812801b2850c5ebf9e8bfb0df3d5fb",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735893978902.pdf"
+  }
+ ],
+ "scheme": "Union Gilt Fund"
+}

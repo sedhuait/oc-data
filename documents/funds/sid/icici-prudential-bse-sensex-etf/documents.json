@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1419685,
+   "checked": "2026-09-07",
+   "file": "1749118337354.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749118337354.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "7ed0315cd073ebbda18bff74f9010075051a83e0c356dac4f12d6497685cb20d",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749118337354.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential BSE Sensex ETF"
+}

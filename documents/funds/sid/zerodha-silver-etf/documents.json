@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1147963,
+   "checked": "2026-09-07",
+   "file": "1764332983181.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2025/1764332983181.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3cf53ff12fc68b0ffe18c14b8dd44efa1192fe93f99424b218cb6fa799e2a29f",
+   "sid_version": "2025-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2025/1764332983181.pdf"
+  }
+ ],
+ "scheme": "Zerodha Silver ETF"
+}

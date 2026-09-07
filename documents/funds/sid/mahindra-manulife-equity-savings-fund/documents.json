@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 995274,
+   "checked": "2026-09-07",
+   "file": "1771311788123.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771311788123.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "57e3b433c2032efa8ac427dbdf9b24e3a4d6c51cf4c7687820559b2e244fb23e",
+   "sid_version": "2026-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771311788123.pdf"
+  }
+ ],
+ "scheme": "Mahindra Manulife Equity Savings Fund"
+}

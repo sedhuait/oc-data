@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 851151,
+   "checked": "2026-09-07",
+   "file": "1749183234726.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749183234726.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e959b54ed7806ae61d7e323e573a42f067402992e0d5fcbff955b89cd17dc505",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749183234726.pdf"
+  }
+ ],
+ "scheme": "Invesco India Gold Exchange Traded Fund"
+}

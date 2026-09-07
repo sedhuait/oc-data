@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 422411,
+   "checked": "2026-09-07",
+   "file": "1753770039825.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1753770039825.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a448a898761f4b05a82ea71284390aefb416d7e30d90b64b0a795c3afa302853",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1753770039825.pdf"
+  }
+ ],
+ "scheme": "JioBlackRock Nifty Midcap 150 Index Fund"
+}

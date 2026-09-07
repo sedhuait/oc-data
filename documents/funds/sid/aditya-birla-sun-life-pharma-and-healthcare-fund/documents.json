@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 688958,
+   "checked": "2026-09-07",
+   "file": "1733120729854.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733120729854.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "2aad6311a0ffd290a26dae5a37481ffa840bb225347e3d743e40f226a3154c66",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733120729854.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life Pharma & Healthcare Fund"
+}

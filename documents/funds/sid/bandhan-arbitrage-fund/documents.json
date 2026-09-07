@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 961946,
+   "checked": "2026-09-07",
+   "file": "1750152195652.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750152195652.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "06f9231955cb77d53db7852cf555c4d5bcca7eec4b895ede169b2c9fd2bee66f",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750152195652.pdf"
+  }
+ ],
+ "scheme": "Bandhan Arbitrage Fund"
+}

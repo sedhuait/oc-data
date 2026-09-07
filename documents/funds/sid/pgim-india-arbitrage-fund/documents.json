@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1632787,
+   "checked": "2026-09-07",
+   "file": "1597035900890.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2020/1597035900890.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3c2f721f091313d6fc382cff1cce6a5d9a3b6235c9095165f4196f170c3318c8",
+   "sid_version": "2020-08",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2020/1597035900890.pdf"
+  }
+ ],
+ "scheme": "PGIM India Arbitrage Fund"
+}

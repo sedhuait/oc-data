@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 750888,
+   "checked": "2026-09-07",
+   "file": "1735549216759.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1735549216759.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b72467db1c7f245bb692f3e58bf566a3412ad094456793e34e6780574871cf24",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1735549216759.pdf"
+  }
+ ],
+ "scheme": "Navi Nifty India Manufacturing Index Fund"
+}

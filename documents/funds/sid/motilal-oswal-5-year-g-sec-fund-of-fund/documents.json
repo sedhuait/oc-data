@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 860847,
+   "checked": "2026-09-07",
+   "file": "1750315370263.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750315370263.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "bc077b481e8a7589ffcc38614ff435251bdcfdc159ba47b154067aee06c2de8e",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750315370263.pdf"
+  }
+ ],
+ "scheme": "Motilal Oswal 5 Year G-Sec Fund of Fund"
+}

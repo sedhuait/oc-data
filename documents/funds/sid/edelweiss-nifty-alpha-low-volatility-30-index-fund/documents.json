@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2380277,
+   "checked": "2026-09-07",
+   "file": "1734329075063.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734329075063.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a26922b51530cdaed01e670a3be8447d29da0d50e3007b398fd1c80586a749d4",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734329075063.pdf"
+  }
+ ],
+ "scheme": "Edelweiss Nifty Alpha Low Volatility 30 Index Fund"
+}

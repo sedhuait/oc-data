@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 865720,
+   "checked": "2026-09-07",
+   "file": "1756376913567.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2025/1756376913567.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "f0bb19eb083a550c031eb3db19e72e5c7628ae16714176de88eb72d3b7783a24",
+   "sid_version": "2025-08",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2025/1756376913567.pdf"
+  }
+ ],
+ "scheme": "Angel One Nifty 1D Rate Liquid ETF - Growth"
+}

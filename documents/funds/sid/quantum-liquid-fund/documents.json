@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 835557,
+   "checked": "2026-09-07",
+   "file": "1736224555418.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1736224555418.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a42b548258731ca0d7937e682cf22d08d606ad5947baf57a8f1f9ff55be347fa",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1736224555418.pdf"
+  }
+ ],
+ "scheme": "Quantum Liquid Fund"
+}

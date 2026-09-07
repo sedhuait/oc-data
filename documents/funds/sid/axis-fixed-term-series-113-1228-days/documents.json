@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1028967,
+   "checked": "2026-09-07",
+   "file": "1678278661702.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2023/1678278661702.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "4f8eab9b2435d98645e6095dccca4bf7e4a8b98d7601a75c5de8381155a6204b",
+   "sid_version": "2023-03",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2023/1678278661702.pdf"
+  }
+ ],
+ "scheme": "Axis Fixed Term Plan - Series 113 (1228 days)"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 752444,
+   "checked": "2026-09-07",
+   "file": "1711436036163.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2024/1711436036163.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "1ca091b1719d866ab6e093acce231f2c98ea0acc487744e76a60fc296b8b1d0c",
+   "sid_version": "2024-03",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2024/1711436036163.pdf"
+  }
+ ],
+ "scheme": "Tata Nifty Auto Index Fund"
+}

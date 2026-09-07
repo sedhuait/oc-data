@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 913409,
+   "checked": "2026-09-07",
+   "file": "1726806117472.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1726806117472.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "07a9cfcd81da335ae9d72e1fceb5f693fce8f412a14e3f873bddb43da577f692",
+   "sid_version": "2024-09",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1726806117472.pdf"
+  }
+ ],
+ "scheme": "TRUSTMF Liquid Fund"
+}

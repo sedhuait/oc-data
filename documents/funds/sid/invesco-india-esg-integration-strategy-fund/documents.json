@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1104253,
+   "checked": "2026-09-07",
+   "file": "1749189167907.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749189167907.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "f991b175ae20f7ea775dc3d665249b56962def789a9d63ec6ab9c4e4e8e9dc52",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749189167907.pdf"
+  }
+ ],
+ "scheme": "Invesco India ESG Integration Strategy Fund"
+}

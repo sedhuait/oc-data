@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1144038,
+   "checked": "2026-09-07",
+   "file": "1719479652911.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2024/1719479652911.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ef3e01eaf960966c481fa4b5e7fb7ad9987099f393bea64bca2a4bd51bc6dcc7",
+   "sid_version": "2024-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2024/1719479652911.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Overnight Fund"
+}

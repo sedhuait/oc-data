@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1004186,
+   "checked": "2026-09-07",
+   "file": "1739340349210.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739340349210.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "37e2bab86bbb7ced2409b90bd5a27680febaf75ea202788479123c6b15db11d5",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739340349210.pdf"
+  }
+ ],
+ "scheme": "Kotak Medium Term Fund"
+}

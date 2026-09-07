@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1032399,
+   "checked": "2026-09-07",
+   "file": "1764582198144.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764582198144.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d5af13a826d65d15b49ec9a03011ced1d4d41cc8bdf219e06c49468356b1b289",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764582198144.pdf"
+  }
+ ],
+ "scheme": "Franklin India Retirement Fund"
+}

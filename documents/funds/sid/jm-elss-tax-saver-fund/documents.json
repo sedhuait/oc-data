@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 874689,
+   "checked": "2026-09-07",
+   "file": "1765437348987.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765437348987.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "39b1948f01ce18859bf068a7da10fffba1e4f5746250a08436653cfd2248e132",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765437348987.pdf"
+  }
+ ],
+ "scheme": "JM ELSS Tax Saver Fund"
+}

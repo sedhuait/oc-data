@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1181625,
+   "checked": "2026-09-07",
+   "file": "1732785085779.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732785085779.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e65270edff49a2a56997987a1c51414f1a03008e9fe9a6bc57dae23cbb76a0c0",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732785085779.pdf"
+  }
+ ],
+ "scheme": "HDFC BSE 500 Index Fund"
+}

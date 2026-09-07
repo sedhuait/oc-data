@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 802136,
+   "checked": "2026-09-07",
+   "file": "1720765017547.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720765017547.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "469fc619a4332d39b10abde647f9d70b65143aa439d7db602bdcd3b9adf5857e",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720765017547.pdf"
+  }
+ ],
+ "scheme": "Nippon India Balanced Advantage Fund"
+}

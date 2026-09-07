@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1756820,
+   "checked": "2026-09-07",
+   "file": "1735817444493.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735817444493.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e12c528dd1ab85934272d2ae4a745397a8c0613c3acbc5284fe797c73781032c",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735817444493.pdf"
+  }
+ ],
+ "scheme": "DSP Nifty SDL Plus G-Sec Jun 2028 30:70 Index Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 3902204,
+   "checked": "2026-09-07",
+   "file": "1651727603261.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1651727603261.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "dd28c35d57a0a6431baa47c6d4cdfc108970beb8cd655dc2664bb73f2e48805d",
+   "sid_version": "2022-05",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1651727603261.pdf"
+  }
+ ],
+ "scheme": "Tata Floating Rate Fund"
+}

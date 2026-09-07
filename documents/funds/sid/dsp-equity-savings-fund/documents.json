@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2415098,
+   "checked": "2026-09-07",
+   "file": "1735815079690.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735815079690.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "8da6fba753a11fbae4b9729be4692de4a3c259e5354a0888675f9b246ee2f044",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735815079690.pdf"
+  }
+ ],
+ "scheme": "DSP Equity Savings Fund"
+}

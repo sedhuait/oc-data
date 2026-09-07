@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 896823,
+   "checked": "2026-09-07",
+   "file": "1764670127037.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764670127037.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "919b722396d30e6ca54f818293378986497f53d99f65d841fc66a1c581987d9b",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764670127037.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET NYSE FANG+ ETF"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 958787,
+   "checked": "2026-09-07",
+   "file": "1693291001411.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2023/1693291001411.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "dc25b2ff4f3c3aa54d56bc4177bcb3b8feeba316d052c1cf14d1666dd496f4f8",
+   "sid_version": "2023-08",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2023/1693291001411.pdf"
+  }
+ ],
+ "scheme": "Groww Overnight Fund"
+}

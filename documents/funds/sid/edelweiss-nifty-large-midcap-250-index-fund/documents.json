@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2299549,
+   "checked": "2026-09-07",
+   "file": "1734328881163.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734328881163.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "674f00dba78a2701adc6517a62ca4211480ba49ce62620f4eb30d87d765008f1",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734328881163.pdf"
+  }
+ ],
+ "scheme": "Edelweiss NIFTY Large Mid Cap 250 Index Fund"
+}

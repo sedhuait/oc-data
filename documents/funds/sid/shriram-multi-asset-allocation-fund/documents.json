@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1533022,
+   "checked": "2026-09-07",
+   "file": "1749125224619.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749125224619.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "98c9bbb9c53de1f12cff37268932394a133651ab71134568289734955ced5a85",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749125224619.pdf"
+  }
+ ],
+ "scheme": "Shriram Multi Asset Allocation Fund"
+}

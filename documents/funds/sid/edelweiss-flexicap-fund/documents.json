@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1197449,
+   "checked": "2026-09-07",
+   "file": "1719979878614.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1719979878614.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d99e717debcff6821a72ea2029660a53daa85c06d7683206735ce7c469606321",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1719979878614.pdf"
+  }
+ ],
+ "scheme": "Edelweiss Flexi Cap Fund"
+}

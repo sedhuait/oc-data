@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1028434,
+   "checked": "2026-09-07",
+   "file": "1764582585320.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764582585320.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "793be24f74a996724b0776956015a1fd4767a9076716ec1fc286806bd1ea90ca",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764582585320.pdf"
+  }
+ ],
+ "scheme": "Franklin India Dividend Yield Fund"
+}

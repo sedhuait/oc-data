@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 876335,
+   "checked": "2026-09-07",
+   "file": "1751948296364.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751948296364.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e06111360428ce85fc6c139b10b32bbcdc11ce1a53d01e7abdb993639b88cfce",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751948296364.pdf"
+  }
+ ],
+ "scheme": "Parag Parikh Dynamic Asset Allocation Fund"
+}

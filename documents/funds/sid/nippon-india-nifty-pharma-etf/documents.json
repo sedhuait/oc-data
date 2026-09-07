@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 823314,
+   "checked": "2026-09-07",
+   "file": "1720769393004.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720769393004.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c947ac52bc7b62dc2b49c491a58873402b1c6a02daf42593eaf1419cfd2a7083",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720769393004.pdf"
+  }
+ ],
+ "scheme": "Nippon India Nifty Pharma ETF"
+}

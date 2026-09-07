@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 857732,
+   "checked": "2026-09-07",
+   "file": "1735555259789.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1735555259789.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "76a882cda7a908d9716ce26f452856ab3a5a4a87d98b4f968d96f924b0bd2a95",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1735555259789.pdf"
+  }
+ ],
+ "scheme": "NJ Balanced Advantage Fund"
+}

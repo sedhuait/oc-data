@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 755300,
+   "checked": "2026-09-07",
+   "file": "1733129019766.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733129019766.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "95d086c456cdef0e93a59f730020810728fc94fe738304dc7f132d4d2f7f90f9",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733129019766.pdf"
+  }
+ ],
+ "scheme": "ADITYA BIRLA SUN LIFE CRISIL IBX SDL JUN 2032 INDEX FUND"
+}

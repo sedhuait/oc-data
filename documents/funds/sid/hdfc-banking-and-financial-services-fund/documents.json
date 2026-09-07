@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 952380,
+   "checked": "2026-09-07",
+   "file": "1732785191061.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732785191061.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "21d606f6b208881f6889bde403c2fe6b0e183b227970840e91b5c5c23ee92790",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732785191061.pdf"
+  }
+ ],
+ "scheme": "HDFC Banking & Financial Services Fund"
+}

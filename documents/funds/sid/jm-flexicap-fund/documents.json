@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 798815,
+   "checked": "2026-09-07",
+   "file": "1765437462771.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765437462771.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "9da0f09eb528ae65d9c8d89c8d5c9873c7b315641224152f0b94d35feac6eacb",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765437462771.pdf"
+  }
+ ],
+ "scheme": "JM Flexicap Fund"
+}

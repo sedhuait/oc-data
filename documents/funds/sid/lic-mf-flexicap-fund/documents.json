@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1458352,
+   "checked": "2026-09-07",
+   "file": "1752475005806.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752475005806.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "708ce3f5ce30efc061438efd1759884cbe2e1e2aafc74dabda726b158a0404e8",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752475005806.pdf"
+  }
+ ],
+ "scheme": "LIC MF Flexi Cap Fund"
+}

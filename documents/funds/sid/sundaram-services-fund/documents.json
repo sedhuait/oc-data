@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2572746,
+   "checked": "2026-09-07",
+   "file": "1742380547229.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1742380547229.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "8e5f2f42f8ff6617dd36cba23663ce91bef8da91f3d3beaa997ec2712f6fcb49",
+   "sid_version": "2025-03",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1742380547229.pdf"
+  }
+ ],
+ "scheme": "Sundaram Services Fund"
+}

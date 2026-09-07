@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1541405,
+   "checked": "2026-09-07",
+   "file": "1752227051093.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752227051093.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "8b2cd0beac77d6246817298e03c3a9ef6fa9dab0039e98bb857485a3769f953a",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752227051093.pdf"
+  }
+ ],
+ "scheme": "LIC MF Conservative Hybrid Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 970505,
+   "checked": "2026-09-07",
+   "file": "1693291943488.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2023/1693291943488.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ddfb5c8f81fc0b3943d21f0dce0d517d89693e864a03ae131f2eba7d26d74d5d",
+   "sid_version": "2023-08",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2023/1693291943488.pdf"
+  }
+ ],
+ "scheme": "Groww Large cap Fund"
+}

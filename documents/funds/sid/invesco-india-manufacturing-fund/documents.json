@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1033356,
+   "checked": "2026-09-07",
+   "file": "1749193031030.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749193031030.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "bbbc0feb65e1faac1818d75a75a73669530a31a464247630e2ffd6cfa019c9e0",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749193031030.pdf"
+  }
+ ],
+ "scheme": "Invesco India Manufacturing Fund"
+}

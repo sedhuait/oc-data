@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1024160,
+   "checked": "2026-09-07",
+   "file": "1749188250768.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749188250768.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "5c1226c89d269b319936e7dda25c1c85aa402b8763d0dacb3202c684b316d061",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749188250768.pdf"
+  }
+ ],
+ "scheme": "Invesco India Largecap Fund"
+}

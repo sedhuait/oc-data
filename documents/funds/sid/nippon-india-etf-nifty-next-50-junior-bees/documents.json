@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 686814,
+   "checked": "2026-09-07",
+   "file": "1725359328822.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1725359328822.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "16c433712f20d4ec5b4536c30c5434f0c7e5e294aee44e0e1a751d40bb951062",
+   "sid_version": "2024-09",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1725359328822.pdf"
+  }
+ ],
+ "scheme": "Nippon India ETF Nifty Next 50 Junior BeES"
+}

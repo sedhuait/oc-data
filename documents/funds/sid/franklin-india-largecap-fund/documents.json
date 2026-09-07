@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 956938,
+   "checked": "2026-09-07",
+   "file": "1733475448735.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733475448735.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "810562548ab852333fd9d06be49941df6b788e8e9118d95b3074407b8f42135e",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733475448735.pdf"
+  }
+ ],
+ "scheme": "Franklin India Large Cap Fund"
+}

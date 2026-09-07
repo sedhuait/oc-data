@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2267872,
+   "checked": "2026-09-07",
+   "file": "1734331903153.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734331903153.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b6346864bcb7aa8e8096693aa8f32d52edb91790f03ef1f13d21b391116c5c01",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734331903153.pdf"
+  }
+ ],
+ "scheme": "Edelweiss Overnight Fund"
+}

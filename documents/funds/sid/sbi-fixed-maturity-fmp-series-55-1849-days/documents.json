@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 813834,
+   "checked": "2026-09-07",
+   "file": "1636352201861.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2021/1636352201861.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "12eab99280135e5a297a624cb2be9f8beb875b3562e64efd9b3efa425a8daf88",
+   "sid_version": "2021-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2021/1636352201861.pdf"
+  }
+ ],
+ "scheme": "SBI FIXED MATURITY PLAN (FMP) -SERIES 55 (1849 DAYS)"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1046002,
+   "checked": "2026-09-07",
+   "file": "1733129675795.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733129675795.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "fa37a4f10ec192978882c75cbf3de7008a5237ff308c9dbee4da06bf5b45f89b",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733129675795.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life Crisil-IBX AAA Financial Services Index - Sep 2027 Fund"
+}

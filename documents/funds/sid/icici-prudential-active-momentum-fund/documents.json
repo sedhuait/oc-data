@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1084690,
+   "checked": "2026-09-07",
+   "file": "1738754719528.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1738754719528.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "62e434ce8d89393a641cd54adead13987fbd95de1ca26b197c9976cd909e80ab",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1738754719528.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Active Momentum Fund"
+}

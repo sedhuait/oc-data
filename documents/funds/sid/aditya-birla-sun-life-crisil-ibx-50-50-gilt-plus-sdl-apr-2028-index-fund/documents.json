@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 936225,
+   "checked": "2026-09-07",
+   "file": "1733121862001.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733121862001.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d02f32e91029dcfba94d2437f816a5ae9871ed97c0b6168fb18c28a7aa0c748f",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733121862001.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life CRISIL IBX 50:50 Gilt Plus SDL Apr 2028 Index Fund"
+}

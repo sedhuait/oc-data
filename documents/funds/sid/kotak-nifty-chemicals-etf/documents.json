@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 870789,
+   "checked": "2026-09-07",
+   "file": "1760619150744.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2025/1760619150744.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "cc144502c1416006a6bbe28557c4b64b94faa37d8749d96dc9d9b9702d3db1bf",
+   "sid_version": "2025-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2025/1760619150744.pdf"
+  }
+ ],
+ "scheme": "Kotak Nifty Chemicals ETF"
+}

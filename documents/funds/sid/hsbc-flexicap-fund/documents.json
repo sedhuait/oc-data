@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1414161,
+   "checked": "2026-09-07",
+   "file": "1727779811765.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727779811765.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "62b1f3f92a7aaa8ea6fe34f7e6aff217eee0e8c615cb8f231653b365010992bb",
+   "sid_version": "2024-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727779811765.pdf"
+  }
+ ],
+ "scheme": "HSBC Flexi Cap Fund"
+}

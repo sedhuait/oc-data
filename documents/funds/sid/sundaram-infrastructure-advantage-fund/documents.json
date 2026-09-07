@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2015016,
+   "checked": "2026-09-07",
+   "file": "1742377433961.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1742377433961.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "59e80b0c3a420ed669c40331aab66fff2b786eea8d54ad38a8a4486f64907558",
+   "sid_version": "2025-03",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1742377433961.pdf"
+  }
+ ],
+ "scheme": "Sundaram Infrastructure Advantage Fund"
+}

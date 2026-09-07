@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 819219,
+   "checked": "2026-09-07",
+   "file": "1733719146377.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733719146377.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "cf45605d861b33d4e246ec2eb6ca54500bbf7de99a99507af64180163b007848",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733719146377.pdf"
+  }
+ ],
+ "scheme": "Axis Arbitrage Fund"
+}

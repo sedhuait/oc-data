@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1065159,
+   "checked": "2026-09-07",
+   "file": "1734346556518.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734346556518.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "9639030fdd777bac26a1bcb0ff50f556e0be162cafee6b6e623521fe244a5ffa",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734346556518.pdf"
+  }
+ ],
+ "scheme": "SBI Small Cap Fund"
+}

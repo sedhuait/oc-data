@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 996461,
+   "checked": "2026-09-07",
+   "file": "1733719463906.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733719463906.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b253af4c9543ea87bb386f1e1f99cd99b4e9234c0f35b3440ac208aacc8da790",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733719463906.pdf"
+  }
+ ],
+ "scheme": "Axis Nifty Midcap 50 Index Fund"
+}

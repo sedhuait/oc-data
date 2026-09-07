@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 876487,
+   "checked": "2026-09-07",
+   "file": "1732795350779.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732795350779.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d4c8a27368598c4f7635c582c08419bc735fb502dbff5b7bb780e09a9742838c",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732795350779.pdf"
+  }
+ ],
+ "scheme": "HDFC Transportation and Logistics Fund"
+}

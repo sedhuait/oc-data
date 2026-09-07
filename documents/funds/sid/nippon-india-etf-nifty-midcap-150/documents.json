@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 968265,
+   "checked": "2026-09-07",
+   "file": "1720768619653.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720768619653.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "f96df7ead399a987adfb67975d15ec4cd48d8c0d12d8187cf64dfafa960cbbd3",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720768619653.pdf"
+  }
+ ],
+ "scheme": "Nippon India ETF Nifty Midcap 150"
+}

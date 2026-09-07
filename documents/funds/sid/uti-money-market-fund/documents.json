@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1196591,
+   "checked": "2026-09-07",
+   "file": "1751877282422.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751877282422.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3e36e0c229b1d9bfc11302bb0f3662af396d1de8bd62d5b6955fbecb4b20eed7",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751877282422.pdf"
+  }
+ ],
+ "scheme": "UTI Money Market Fund"
+}

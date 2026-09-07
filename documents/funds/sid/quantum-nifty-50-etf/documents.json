@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 602913,
+   "checked": "2026-09-07",
+   "file": "1736224346559.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1736224346559.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "1f38072bf2b3bf8889e1e99880cf35eb61645d82fb7e6d300cc3f21bcb4d64fd",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1736224346559.pdf"
+  }
+ ],
+ "scheme": "Quantum Nifty 50 ETF"
+}

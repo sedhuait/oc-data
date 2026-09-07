@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1728340,
+   "checked": "2026-09-07",
+   "file": "1685688136832.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685688136832.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "1e202389683a85bc03bdb6dbb23037ca631034758ca303a737f639deb7c93956",
+   "sid_version": "2023-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685688136832.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Large & Mid Cap Fund"
+}

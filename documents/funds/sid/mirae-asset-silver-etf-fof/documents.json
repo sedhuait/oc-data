@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 306718,
+   "checked": "2026-09-07",
+   "file": "1772168411818.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1772168411818.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "eb66d9e4afa8bcf21e17e2751a3074786e5fa5de2530c79bb43a8bb94e18e2d7",
+   "sid_version": "2026-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1772168411818.pdf"
+  }
+ ],
+ "scheme": "Mirae Asset Silver ETF FOF"
+}

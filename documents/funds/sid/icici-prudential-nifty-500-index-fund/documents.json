@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1297970,
+   "checked": "2026-09-07",
+   "file": "1749033963320.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749033963320.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "f5e31c8189f06192069e3d5a262d55562192efd2888bb4113eecec5e93951bae",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749033963320.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Nifty 500 Index Fund"
+}

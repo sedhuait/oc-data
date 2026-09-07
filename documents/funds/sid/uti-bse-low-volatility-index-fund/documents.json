@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1304045,
+   "checked": "2026-09-07",
+   "file": "1751629683441.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751629683441.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "1bbf89eb93aa6dcae889cd51bf6edc2d3c2b3d3ee1eb4ab8bb7bacd7b6fd6ba7",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751629683441.pdf"
+  }
+ ],
+ "scheme": "UTI BSE Low Volatility Index Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1123471,
+   "checked": "2026-09-07",
+   "file": "1764333073085.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2025/1764333073085.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "856945e19352715aa8a64ebadd70670ed87f80fb65835e7e714ac60d137660f8",
+   "sid_version": "2025-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2025/1764333073085.pdf"
+  }
+ ],
+ "scheme": "Zerodha Overnight Fund"
+}

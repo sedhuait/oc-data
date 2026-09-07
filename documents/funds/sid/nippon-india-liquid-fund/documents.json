@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 961569,
+   "checked": "2026-09-07",
+   "file": "1720762108075.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720762108075.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "284d91bdbf3d731644964d6029e4d0cb20462c24718d8219626f52b869ca0361",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720762108075.pdf"
+  }
+ ],
+ "scheme": "Nippon India Liquid Fund"
+}

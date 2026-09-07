@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 989441,
+   "checked": "2026-09-07",
+   "file": "1735887572915.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735887572915.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "793834c3570c947e50a276be5a3794d97a8b6944021368e8534055ed89be481a",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735887572915.pdf"
+  }
+ ],
+ "scheme": "Union ELSS Tax Saver Fund (Formerly Union Tax Saver (ELSS) Fund"
+}

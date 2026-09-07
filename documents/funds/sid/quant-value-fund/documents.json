@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1045780,
+   "checked": "2026-09-07",
+   "file": "1643626948748.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2022/1643626948748.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "baea43222cf6c3c16bb4f65aeb67cffc1915c79e95e953b9417a48f49fe17f8e",
+   "sid_version": "2022-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2022/1643626948748.pdf"
+  }
+ ],
+ "scheme": "quant Value Fund"
+}

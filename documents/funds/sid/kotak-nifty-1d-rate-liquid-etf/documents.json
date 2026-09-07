@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 889227,
+   "checked": "2026-09-07",
+   "file": "1739342743972.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739342743972.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "95d9f02c8a444fb15f291744d5d69502dc9d0f5006145bca8c7ca203a3250e4b",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739342743972.pdf"
+  }
+ ],
+ "scheme": "Kotak NIFTY 1D Rate Liquid ETF"
+}

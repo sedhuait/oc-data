@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 859589,
+   "checked": "2026-09-07",
+   "file": "1751948432842.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751948432842.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "f720a3601a3b7db9e01579671447d9cc3c424ac730f1fe2f1b823b4a50669a72",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751948432842.pdf"
+  }
+ ],
+ "scheme": "Parag Parikh ELSS Tax Saver Fund"
+}

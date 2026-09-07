@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 838310,
+   "checked": "2026-09-07",
+   "file": "1719923003901.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1719923003901.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "998fd5f8add45fa046ad09b3f2032ffbead107b8087085616e5d521e8fadc86e",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1719923003901.pdf"
+  }
+ ],
+ "scheme": "BHARAT Bond ETF FOF - April 2033"
+}

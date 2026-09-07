@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 820343,
+   "checked": "2026-09-07",
+   "file": "1720766156057.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720766156057.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "02d9c003a99b55130d90deb77482c43bc5cf14b2aaa6ecd4a1a808411f19e00b",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720766156057.pdf"
+  }
+ ],
+ "scheme": "Nippon India Power & Infra Fund"
+}

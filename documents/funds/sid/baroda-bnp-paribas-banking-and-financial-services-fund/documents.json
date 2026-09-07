@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 727895,
+   "checked": "2026-09-07",
+   "file": "1735882052929.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735882052929.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "01b9dfe042b8498f63326f02fce0ad264384a95144d0096aa25ec100f3668ad5",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735882052929.pdf"
+  }
+ ],
+ "scheme": "Baroda BNP Paribas Banking & Financial Services Fund"
+}

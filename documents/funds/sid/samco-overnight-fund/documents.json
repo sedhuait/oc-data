@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1260848,
+   "checked": "2026-09-07",
+   "file": "1752054787840.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752054787840.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e9273fc73ab018df2d0ee7ac519579fde448104bf6f1eb995ea6b0e2502e0033",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752054787840.pdf"
+  }
+ ],
+ "scheme": "Samco Overnight Fund"
+}

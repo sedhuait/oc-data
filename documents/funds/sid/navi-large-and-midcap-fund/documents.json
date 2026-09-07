@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 802673,
+   "checked": "2026-09-07",
+   "file": "1735549457648.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1735549457648.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d78c19e139673b67a132838752cb98f179cdaeea4ff117a721b1663cde58adae",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1735549457648.pdf"
+  }
+ ],
+ "scheme": "Navi Large & Midcap Fund"
+}

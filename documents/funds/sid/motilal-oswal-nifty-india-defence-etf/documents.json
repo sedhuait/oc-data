@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 635306,
+   "checked": "2026-09-07",
+   "file": "1750413176503.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750413176503.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "4141c157962191e795d10f5dc89697f18c760f07a86eff6fb3a906152eab8f6a",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750413176503.pdf"
+  }
+ ],
+ "scheme": "Motilal Oswal Nifty India Defence ETF"
+}

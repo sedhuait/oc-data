@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1800421,
+   "checked": "2026-09-07",
+   "file": "1685688924098.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685688924098.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "1b7ab57a36ad7a44ef7f8fd712fe702ea344aa4e32038e4649493662d003fc44",
+   "sid_version": "2023-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685688924098.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Infrastructure Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1184475,
+   "checked": "2026-09-07",
+   "file": "1727779443633.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727779443633.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ab1e9a217950de62147a59768eac43f32255ceedcfb1fcee685a74e676a73bf5",
+   "sid_version": "2024-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727779443633.pdf"
+  }
+ ],
+ "scheme": "HSBC Balanced Advantage Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 579443,
+   "checked": "2026-09-07",
+   "file": "1734341877665.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734341877665.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "9a17f17f3cd719390ce6b803d55d3207c7832ad04cbe12d8df23857bc1960295",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734341877665.pdf"
+  }
+ ],
+ "scheme": "SBI Nifty50 Equal Weight Index Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 956955,
+   "checked": "2026-09-07",
+   "file": "1764582769772.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764582769772.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "59cf209e0bf37c2030dda130d315a89d7628b2625f416d1725030392e93c6901",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764582769772.pdf"
+  }
+ ],
+ "scheme": "Franklin India Flexi Cap Fund"
+}

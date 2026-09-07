@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1282255,
+   "checked": "2026-09-07",
+   "file": "1685695660170.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685695660170.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d650df492009da95085bc0ebd02f97acba60147cae4f0041989d8f2c2ae7c81c",
+   "sid_version": "2023-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685695660170.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Business Cycle Fund"
+}

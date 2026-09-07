@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1191115,
+   "checked": "2026-09-07",
+   "file": "1734348616861.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734348616861.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "2eb2baf7e34bef654d15858e137e78630c9ccad07987488a437de5a887e17f82",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734348616861.pdf"
+  }
+ ],
+ "scheme": "SBI PSU Fund"
+}

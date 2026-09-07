@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2375755,
+   "checked": "2026-09-07",
+   "file": "1734347788631.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734347788631.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "718687c5a8bd133e931bff482d1f6259a429093b8969c0b791959eb6ba13096c",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734347788631.pdf"
+  }
+ ],
+ "scheme": "SBI CRISIL IBX Gilt Index - June 2036 Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1427994,
+   "checked": "2026-09-07",
+   "file": "1749188986752.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749188986752.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "fac0a75f4e5f9cf8390c4b5f4fc8efbd13be2b15de91fb93681bf1a806641246",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749188986752.pdf"
+  }
+ ],
+ "scheme": "Invesco India - Invesco Pan European Equity Fund of Fund"
+}

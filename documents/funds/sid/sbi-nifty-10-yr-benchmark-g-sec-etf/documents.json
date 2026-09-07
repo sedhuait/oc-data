@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1053885,
+   "checked": "2026-09-07",
+   "file": "1734346055502.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734346055502.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b2c3f0f06539871d64c85bb112b85fd0874f17d96a18e743faece45bd011bd60",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734346055502.pdf"
+  }
+ ],
+ "scheme": "SBI Nifty 10 Yr Benchmark G-Sec ETF"
+}

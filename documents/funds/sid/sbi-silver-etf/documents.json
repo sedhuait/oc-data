@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1041940,
+   "checked": "2026-09-07",
+   "file": "1734341008646.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734341008646.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "f42dd16dabc6004a9bdc4a56b418559cc45f1e4d5a96bcbcde41709b045193f4",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734341008646.pdf"
+  }
+ ],
+ "scheme": "SBI SILVER ETF"
+}

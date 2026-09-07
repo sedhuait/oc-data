@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 722374,
+   "checked": "2026-09-07",
+   "file": "1764670211346.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764670211346.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "7c709b5afc57425c3f86af53d12acd2a86d8120af9cad73aab45bd27edae9d40",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764670211346.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET OVERNIGHT FUND"
+}

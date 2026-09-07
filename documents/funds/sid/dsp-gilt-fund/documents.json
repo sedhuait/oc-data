@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2135619,
+   "checked": "2026-09-07",
+   "file": "1735815451124.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735815451124.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ec499d97ba53b2e0c4663423c68f717ef68cca4091d64a012a8edecf31940168",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735815451124.pdf"
+  }
+ ],
+ "scheme": "DSP Gilt Fund"
+}

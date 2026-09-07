@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 892356,
+   "checked": "2026-09-07",
+   "file": "1771312099447.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771312099447.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "733af39bb61135b66db03beeb4985856feeca5ed5934960928e35e0b8c51d432",
+   "sid_version": "2026-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771312099447.pdf"
+  }
+ ],
+ "scheme": "Mahindra Manulife ELSS Tax Saver Fund"
+}

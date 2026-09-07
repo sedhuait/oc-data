@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1135624,
+   "checked": "2026-09-07",
+   "file": "1727779365373.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727779365373.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d3fc051c9a6870477146488ac2b5ebf420d45cdb7508c9992047383ff733f5ea",
+   "sid_version": "2024-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727779365373.pdf"
+  }
+ ],
+ "scheme": "HSBC Aggressive Hybrid Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 962265,
+   "checked": "2026-09-07",
+   "file": "1749193323183.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749193323183.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "aee34f7f025fff828c4659d9e13db07a6bddb5f3604a0406d24c1d1432bc440f",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749193323183.pdf"
+  }
+ ],
+ "scheme": "Invesco India Business Cycle Fund"
+}

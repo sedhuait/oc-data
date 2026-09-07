@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1199641,
+   "checked": "2026-09-07",
+   "file": "1726807466209.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1726807466209.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e03197b8585cf0915bc4d1cd6eecc6011c9bae12935abdf80c40de8e1f3f555c",
+   "sid_version": "2024-09",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1726807466209.pdf"
+  }
+ ],
+ "scheme": "WhiteOak Capital Multi Asset Allocation Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1574048,
+   "checked": "2026-09-07",
+   "file": "1731910422866.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1731910422866.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "dd1e63b98543b710cc78734aac4fdab154a7ee7b23295dc4ee058ba592f82f6b",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1731910422866.pdf"
+  }
+ ],
+ "scheme": "Bajaj Finserv Nifty 1D Rate Liquid ETF - Growth"
+}

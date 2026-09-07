@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 983629,
+   "checked": "2026-09-07",
+   "file": "1739338866406.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739338866406.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e1aa30494f56f0989ec805ecc387a6b3c1d321d16923f2755018b4835b31e6a2",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739338866406.pdf"
+  }
+ ],
+ "scheme": "Kotak Credit Risk Fund"
+}

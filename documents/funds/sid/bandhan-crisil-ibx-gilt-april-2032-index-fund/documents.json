@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 838043,
+   "checked": "2026-09-07",
+   "file": "1750160038353.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750160038353.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "02b0be1c3f883f0c85441a082c3e2287c201d95cbd65c07843a46c1f98f42cb6",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750160038353.pdf"
+  }
+ ],
+ "scheme": "Bandhan Crisil IBX Gilt April 2032 Index Fund"
+}

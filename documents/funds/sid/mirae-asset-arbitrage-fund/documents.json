@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 985782,
+   "checked": "2026-09-07",
+   "file": "1764658374589.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764658374589.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "4ba9d15f62d041ce449dfa1f46bf1cecca6ee77823aa2b266aa43664aa3c05d6",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764658374589.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET ARBITRAGE FUND"
+}

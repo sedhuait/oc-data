@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 882806,
+   "checked": "2026-09-07",
+   "file": "1764661132986.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764661132986.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "6491cba889ec1dc9817f5fbc47d759aeff65a7a5aeb5c412b6fed8b6d3378f0b",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764661132986.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET DIVERSIFIED EQUITY ALLOCATOR PASSIVE FOF"
+}

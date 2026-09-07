@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 747544,
+   "checked": "2026-09-07",
+   "file": "1639372912461.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2021/1639372912461.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "4dcbb32dbf2c04dd17fbf9925a3471e7fb679cad6c61767690b41a3cfb2dafa8",
+   "sid_version": "2021-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2021/1639372912461.pdf"
+  }
+ ],
+ "scheme": "Tata India Pharma & Healthcare Fund"
+}

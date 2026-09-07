@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 968916,
+   "checked": "2026-09-07",
+   "file": "1750150442897.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750150442897.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "73c088590555d513f14e7c28a3fc0aa9550084abadbcf7420d13dd0905f59dfa",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750150442897.pdf"
+  }
+ ],
+ "scheme": "Bandhan Flexi Cap Fund"
+}

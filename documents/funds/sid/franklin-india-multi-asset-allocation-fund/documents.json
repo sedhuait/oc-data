@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1115441,
+   "checked": "2026-09-07",
+   "file": "1764587903096.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764587903096.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b171d9d6f8f9241aabe8b182f6581cb82b97cf9d2edf61555eeaadeeda0f361a",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764587903096.pdf"
+  }
+ ],
+ "scheme": "Franklin India Multi Asset Allocation Fund"
+}

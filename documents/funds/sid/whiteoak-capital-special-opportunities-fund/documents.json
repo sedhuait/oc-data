@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 934903,
+   "checked": "2026-09-07",
+   "file": "1726807717297.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1726807717297.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3cfbc1a89f58b21524d46565fbd91088d8cce11f8daa79a8032677de33567817",
+   "sid_version": "2024-09",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1726807717297.pdf"
+  }
+ ],
+ "scheme": "WhiteOak Capital Special Opportunities Fund"
+}

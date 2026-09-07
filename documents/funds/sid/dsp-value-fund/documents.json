@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2274293,
+   "checked": "2026-09-07",
+   "file": "1735817234933.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735817234933.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "359e3b61fea6ce4790ce1fcdfd0c726f5e8c8966e98562a7938cc91154448e97",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735817234933.pdf"
+  }
+ ],
+ "scheme": "DSP Value Fund"
+}

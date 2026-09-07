@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1059405,
+   "checked": "2026-09-07",
+   "file": "1749182983920.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749182983920.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "46070c7ba929e175501b06716d247c3f6c4bff52189815265db12fa55fbf1367",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749182983920.pdf"
+  }
+ ],
+ "scheme": "Invesco India Corporate Bond Fund"
+}

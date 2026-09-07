@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1105059,
+   "checked": "2026-09-07",
+   "file": "1749188202750.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749188202750.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "7fe243a6b9dafdbf16c9f2a0b7949cf0be9d6493b7aeaef908e95ca762860bc4",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749188202750.pdf"
+  }
+ ],
+ "scheme": "Invesco India Financial Services Fund"
+}

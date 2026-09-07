@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1110423,
+   "checked": "2026-09-07",
+   "file": "1785135821867.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2026/1785135821867.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "fbefa0bd5afb5005f6cd2787ff036b0a5ecbdca056ec45ed1e168d884c36ee35",
+   "sid_version": "2026-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2026/1785135821867.pdf"
+  }
+ ],
+ "scheme": "Edelweiss Nifty REITs & Realty Index Fund"
+}

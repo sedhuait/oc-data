@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 597227,
+   "checked": "2026-09-07",
+   "file": "1733129355104.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733129355104.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "8f90164c7199e30d521e4596936ce6ffa613e2ca2ebddc807a83bc2714869d34",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733129355104.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life Quant Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 676978,
+   "checked": "2026-09-07",
+   "file": "1733121493812.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733121493812.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "0acc942803743e51e8215f86f6383dfb82c0649d9ab2ee874271193da11d17dc",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733121493812.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life CRISIL IBX Gilt - April 2026 Index Fund"
+}

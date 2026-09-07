@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 928956,
+   "checked": "2026-09-07",
+   "file": "1747309069886.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2025/1747309069886.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "4a6cd282025ba29bf933f571db7f3a4c01fd9c9999ffd7f1a40268d662798dd1",
+   "sid_version": "2025-05",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2025/1747309069886.pdf"
+  }
+ ],
+ "scheme": "Motilal Oswal Services Fund"
+}

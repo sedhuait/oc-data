@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 897720,
+   "checked": "2026-09-07",
+   "file": "1733722082941.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733722082941.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c10670d0269d73be36ff5ccecd0ed534f1610000faa5ed4a49743d81e78d63ac",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733722082941.pdf"
+  }
+ ],
+ "scheme": "Axis BSE SENSEX Index Fund"
+}

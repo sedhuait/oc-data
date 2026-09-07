@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 899832,
+   "checked": "2026-09-07",
+   "file": "1739344833745.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739344833745.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3fd7647c3004f955005e4366bb34603ef7d66c2a8fd2eeea0c1321ce690ee925",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739344833745.pdf"
+  }
+ ],
+ "scheme": "Kotak CRISIL-IBX AAA Financial Services Index - Sep 2027 Fund."
+}

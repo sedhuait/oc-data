@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1014498,
+   "checked": "2026-09-07",
+   "file": "1732788489823.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732788489823.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "13c848a63ccbd256a282a507c5db49fdcb9fee7432227e94beab5a3175c7066e",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732788489823.pdf"
+  }
+ ],
+ "scheme": "HDFC Liquid Fund"
+}

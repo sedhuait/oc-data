@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1193949,
+   "checked": "2026-09-07",
+   "file": "1719479956241.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2024/1719479956241.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "80647d3f095dbdc1d85d77bc3fe14842705335547c0ed0ec92c4152c24bc38a2",
+   "sid_version": "2024-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2024/1719479956241.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Ultra Short Term Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2180496,
+   "checked": "2026-09-07",
+   "file": "1734329092965.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734329092965.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "8b6ede53036eba86fb61cd5db51787f1d9161b1114af980afaf33197e0e345d9",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734329092965.pdf"
+  }
+ ],
+ "scheme": "Edelweiss Nifty Bank ETF"
+}

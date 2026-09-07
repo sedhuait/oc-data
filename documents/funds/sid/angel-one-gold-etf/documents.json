@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 467324,
+   "checked": "2026-09-07",
+   "file": "1765788182366.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765788182366.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "131003266a294a1ade6a18b842805cf5b5c07e7f7e3e5d182fcdff02e7e82a0f",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765788182366.pdf"
+  }
+ ],
+ "scheme": "Angel One Gold ETF"
+}

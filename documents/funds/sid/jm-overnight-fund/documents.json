@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 825650,
+   "checked": "2026-09-07",
+   "file": "1765437591234.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765437591234.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3467f8af344b3d53c247e33476258ec655074535664fcc922817b08cd71932a6",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765437591234.pdf"
+  }
+ ],
+ "scheme": "JM Overnight Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 834056,
+   "checked": "2026-09-07",
+   "file": "1739344144224.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739344144224.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c021fd5cd8f468f86bf1bc7c969d5005519ada65e0441165c15799fded1601f3",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739344144224.pdf"
+  }
+ ],
+ "scheme": "Kotak Quant Fund"
+}

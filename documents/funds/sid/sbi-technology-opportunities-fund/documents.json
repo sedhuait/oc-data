@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1152036,
+   "checked": "2026-09-07",
+   "file": "1734346628935.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734346628935.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "4917267e8b901c6c5a272548f3b44841d3f9d427fa226a12f1c16c6435d9e2a7",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734346628935.pdf"
+  }
+ ],
+ "scheme": "SBI Technology Opportunities Fund"
+}

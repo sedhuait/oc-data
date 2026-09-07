@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 977915,
+   "checked": "2026-09-07",
+   "file": "1643626290564.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2022/1643626290564.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d5abf90e1f405a9d98827fe9115131df51589536d09ff0a58ca32f85d1b9d2f6",
+   "sid_version": "2022-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2022/1643626290564.pdf"
+  }
+ ],
+ "scheme": "quant Mid Cap Fund"
+}

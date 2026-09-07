@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 771851,
+   "checked": "2026-09-07",
+   "file": "1720777052205.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720777052205.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "21308eaafd5195b36dfd7ef68b2dd2ed23e513bc1ea1a64441fa7b86999aa9f7",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720777052205.pdf"
+  }
+ ],
+ "scheme": "Nippon India Interval Fund - Annual Interval Fund - Series I"
+}

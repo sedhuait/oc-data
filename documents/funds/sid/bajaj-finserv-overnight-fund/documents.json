@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1782072,
+   "checked": "2026-09-07",
+   "file": "1721037254775.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1721037254775.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "5937463e3095fdaf5e093b3dd00259a1042a2f412ae0e6ca07aff649077fc072",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1721037254775.pdf"
+  }
+ ],
+ "scheme": "Bajaj Finserv Overnight Fund"
+}

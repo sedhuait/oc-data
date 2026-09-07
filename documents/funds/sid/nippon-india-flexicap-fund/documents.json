@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 711978,
+   "checked": "2026-09-07",
+   "file": "1720765542092.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720765542092.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "38e6caddc9dca873835e4acdcc99a7d24870e6188807ec5f5fd132fe74443f1e",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720765542092.pdf"
+  }
+ ],
+ "scheme": "Nippon India Flexi Cap Fund"
+}

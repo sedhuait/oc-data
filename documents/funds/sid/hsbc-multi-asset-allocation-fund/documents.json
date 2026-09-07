@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1289080,
+   "checked": "2026-09-07",
+   "file": "1727780366011.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727780366011.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "6704bb09ef8f75c07394aa14c93fec2f3a6cfe8d6d58a023b777ec4ee3819dfb",
+   "sid_version": "2024-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727780366011.pdf"
+  }
+ ],
+ "scheme": "HSBC Multi Asset Allocation Fund"
+}

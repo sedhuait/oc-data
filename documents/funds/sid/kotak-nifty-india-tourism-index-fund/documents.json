@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 966581,
+   "checked": "2026-09-07",
+   "file": "1739344632636.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739344632636.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ed1c26d284a8b7bc4db0c6ecd9dd3161326171738ec714336d77841cd6e80c7b",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739344632636.pdf"
+  }
+ ],
+ "scheme": "Kotak Nifty India Tourism Index Fund"
+}

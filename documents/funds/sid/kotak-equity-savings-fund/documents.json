@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1327465,
+   "checked": "2026-09-07",
+   "file": "1739339342893.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739339342893.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "06a5f1c6fa6ec238380f92ac68fc38a9487a05b995466d637f4af73f1e5cc608",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739339342893.pdf"
+  }
+ ],
+ "scheme": "Kotak Equity Savings Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1479614,
+   "checked": "2026-09-07",
+   "file": "1752228106215.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752228106215.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "93ca9d1f808b5a59ca03b3765bc78d5722c3730dc7223f6b8202a9c74c87e415",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752228106215.pdf"
+  }
+ ],
+ "scheme": "LIC MF Value Fund"
+}

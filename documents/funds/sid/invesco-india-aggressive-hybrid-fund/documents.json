@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 828933,
+   "checked": "2026-09-07",
+   "file": "1749188832397.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749188832397.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "f997e37522627882918524b0835f61cd76f0eb9f3fbfe05514ec66e57a85ee6c",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749188832397.pdf"
+  }
+ ],
+ "scheme": "Invesco India Aggressive Hybrid Fund"
+}

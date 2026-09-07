@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1305623,
+   "checked": "2026-09-07",
+   "file": "1751631059605.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751631059605.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a74a944fe4af906d025e1b88d3d29878493557b1967a5487dcdabcff1b6c3618",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751631059605.pdf"
+  }
+ ],
+ "scheme": "UTI BSE Housing Index Fund"
+}

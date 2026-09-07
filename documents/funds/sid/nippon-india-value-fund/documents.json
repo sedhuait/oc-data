@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 771602,
+   "checked": "2026-09-07",
+   "file": "1720767075710.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720767075710.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "8dfdaba51d79e005ee56df40e15fb13ea56d863bf4051719eb9c68a7f010cd3f",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720767075710.pdf"
+  }
+ ],
+ "scheme": "Nippon India Value Fund"
+}

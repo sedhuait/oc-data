@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1015741,
+   "checked": "2026-09-07",
+   "file": "1779681448790.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2026/1779681448790.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d831bd8d40b40025ea59126e2e93c2b0cbed9890fdb36c667b4dc2b45574f017",
+   "sid_version": "2026-05",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2026/1779681448790.pdf"
+  }
+ ],
+ "scheme": "Groww Nifty Smallcap 250 Momentum Quality 100 Index Fund"
+}

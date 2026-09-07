@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1404696,
+   "checked": "2026-09-07",
+   "file": "1732793417519.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732793417519.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e2ba032fa2f23814b89f4db710ad0fcd250f0da77127f1a8efd16d37fadb406c",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732793417519.pdf"
+  }
+ ],
+ "scheme": "HDFC NIFTY PSU BANK ETF"
+}

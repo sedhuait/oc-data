@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1535647,
+   "checked": "2026-09-07",
+   "file": "1749125051838.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749125051838.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "52677b5d1e364dabe13e09af45d770c9b25474a9ac11a71ce9d2c6f7e078393b",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749125051838.pdf"
+  }
+ ],
+ "scheme": "Shriram Flexi Cap Fund"
+}

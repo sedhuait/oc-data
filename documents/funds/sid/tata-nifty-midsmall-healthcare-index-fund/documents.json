@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 984418,
+   "checked": "2026-09-07",
+   "file": "1711436127992.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2024/1711436127992.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a4d6cee9dbb82d3ca364035aa04408c986f04fc40a9e2108cd97cfacce0b60b6",
+   "sid_version": "2024-03",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2024/1711436127992.pdf"
+  }
+ ],
+ "scheme": "Tata Nifty MidSmall Healthcare Index Fund"
+}

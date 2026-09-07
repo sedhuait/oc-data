@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 839998,
+   "checked": "2026-09-07",
+   "file": "1750160232094.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750160232094.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "62e019f3e7a0c60ff6471b3843e1df8ae79da1ace3b20d5648ee108b99d1311d",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750160232094.pdf"
+  }
+ ],
+ "scheme": "Bandhan CRISIL IBX 90:10 SDL Plus Gilt April 2032 Index Fund"
+}

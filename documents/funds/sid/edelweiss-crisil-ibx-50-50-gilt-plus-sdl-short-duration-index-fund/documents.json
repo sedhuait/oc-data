@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2115121,
+   "checked": "2026-09-07",
+   "file": "1734332559749.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734332559749.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3dc9803a2a0136c357079c0ffdea611b4e85462446c255162bebb6c1eb9377b2",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734332559749.pdf"
+  }
+ ],
+ "scheme": "Edelweiss CRISIL IBX 50:50 Gilt Plus SDL Short Duration Index Fund"
+}

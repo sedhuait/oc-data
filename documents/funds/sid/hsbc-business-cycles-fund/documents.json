@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1477763,
+   "checked": "2026-09-07",
+   "file": "1727780190832.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727780190832.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "2d01621ef1ce0abebead804db5acc22d7c19100ffdaefe264250fa120776384c",
+   "sid_version": "2024-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727780190832.pdf"
+  }
+ ],
+ "scheme": "HSBC Business Cycles Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 970274,
+   "checked": "2026-09-07",
+   "file": "1732787054744.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732787054744.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "81f72227a7bb0e2c512a997168c1925e69ba49ffff8632404e63b5888e4f809f",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732787054744.pdf"
+  }
+ ],
+ "scheme": "HDFC Housing Opportunities Fund"
+}

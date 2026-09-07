@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 744900,
+   "checked": "2026-09-07",
+   "file": "1720775968149.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720775968149.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "28ee06f187c81d4d6c9aec5805468fa731ac4535342460e0d1545524e9ac4924",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720775968149.pdf"
+  }
+ ],
+ "scheme": "Nippon India Nifty SDL Plus G-Sec- Jun 2028 Maturity 70:30 Index Fund"
+}

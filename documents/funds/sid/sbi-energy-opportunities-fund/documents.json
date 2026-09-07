@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1243855,
+   "checked": "2026-09-07",
+   "file": "1734346275184.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734346275184.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "16810d05de8929ae917edad397ccedc9f8ce574122e681db0ed7d923d0c49e05",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734346275184.pdf"
+  }
+ ],
+ "scheme": "SBI Energy Opportunities Fund"
+}

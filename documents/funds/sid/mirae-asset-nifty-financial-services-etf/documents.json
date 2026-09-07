@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 522445,
+   "checked": "2026-09-07",
+   "file": "1764667745686.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764667745686.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3acbac23b20ea2fe71f707d206cbfedce72b4a047840fb5e6a19cbd3a2df05f7",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764667745686.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET NIFTY FINANCIAL SERVICES ETF"
+}

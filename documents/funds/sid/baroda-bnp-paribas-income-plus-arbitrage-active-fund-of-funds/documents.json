@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 858133,
+   "checked": "2026-09-07",
+   "file": "1746607890491.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2025/1746607890491.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "51b5d0f0c26f6b0c52e2e9f0ffec3f162129fa7d61dca4fedb8cec1592faa123",
+   "sid_version": "2025-05",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2025/1746607890491.pdf"
+  }
+ ],
+ "scheme": "Baroda BNP Paribas Income Plus Arbitrage Active Fund of Funds"
+}

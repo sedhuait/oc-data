@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1981666,
+   "checked": "2026-09-07",
+   "file": "1735818189325.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735818189325.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "1f85ed660e6b8d7c6e2cf5dbf45f2bfc2168217a34a50b94a6b2a7767ebbeaf0",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735818189325.pdf"
+  }
+ ],
+ "scheme": "DSP Nifty Top 10 Equal Weight ETF"
+}

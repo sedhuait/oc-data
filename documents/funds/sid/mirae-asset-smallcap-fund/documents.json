@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 901744,
+   "checked": "2026-09-07",
+   "file": "1764668877253.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764668877253.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "dd44c219056cb54ef32f9de18137eb567b358a2d23976479d15cb878dcb876e9",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764668877253.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET SMALL CAP FUND"
+}

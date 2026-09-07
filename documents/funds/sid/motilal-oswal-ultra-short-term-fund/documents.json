@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1366273,
+   "checked": "2026-09-07",
+   "file": "1750414084979.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750414084979.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "7deac6c6b0604c04ed6e37596a417a05859fb358c5ba8fcc4350a89b8b2c1dea",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750414084979.pdf"
+  }
+ ],
+ "scheme": "Motilal Oswal Ultra Short Term Fund"
+}

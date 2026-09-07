@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 891324,
+   "checked": "2026-09-07",
+   "file": "1733719586874.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733719586874.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "17d6763b944552d29567ee68d0320e2abf6c7e0aa14b8044080b2c1fd611f7c5",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733719586874.pdf"
+  }
+ ],
+ "scheme": "Axis Crisil IBX SDL May 2027 Index Fund"
+}

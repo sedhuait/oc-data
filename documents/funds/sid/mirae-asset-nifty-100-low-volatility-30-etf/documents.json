@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 538878,
+   "checked": "2026-09-07",
+   "file": "1764666992394.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764666992394.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3ce70e32b241d4c9bd4576a52b79c97ea65bfb9f0bb7e75b0d558bada7be30dc",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764666992394.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET NIFTY 100 LOW VOLATILITY 30 ETF"
+}

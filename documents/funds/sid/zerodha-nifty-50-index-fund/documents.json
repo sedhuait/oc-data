@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1058820,
+   "checked": "2026-09-07",
+   "file": "1764332848174.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2025/1764332848174.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "8979b0d538fcaee5bbdac0881f4fe053d45f7c9af8c8f407907703dcc5e9233f",
+   "sid_version": "2025-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2025/1764332848174.pdf"
+  }
+ ],
+ "scheme": "Zerodha Nifty 50 Index Fund"
+}

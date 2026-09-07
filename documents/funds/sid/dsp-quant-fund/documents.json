@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2165021,
+   "checked": "2026-09-07",
+   "file": "1735817026083.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735817026083.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "96938e82fd5fab947976d0ca935402812db4f35327a5661c93bb6acdb9bc7217",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735817026083.pdf"
+  }
+ ],
+ "scheme": "DSP Quant Fund"
+}

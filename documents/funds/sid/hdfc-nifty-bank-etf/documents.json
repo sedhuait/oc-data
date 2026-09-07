@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1402695,
+   "checked": "2026-09-07",
+   "file": "1732792522846.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732792522846.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "6f5fcedb2c55cacbb699d3f795eec0df92e037161cbbacfcaf2818dbd478fa07",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732792522846.pdf"
+  }
+ ],
+ "scheme": "HDFC NIFTY Bank ETF"
+}

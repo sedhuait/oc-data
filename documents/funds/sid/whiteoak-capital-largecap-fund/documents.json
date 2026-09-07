@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1083396,
+   "checked": "2026-09-07",
+   "file": "1726807114980.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1726807114980.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "7b34ad73a7617ea49cd3b090ec3f5104a79493cfe92e9d3ef52a74e5cdf231f4",
+   "sid_version": "2024-09",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/sep-2024/1726807114980.pdf"
+  }
+ ],
+ "scheme": "WhiteOak Capital Large Cap Fund"
+}

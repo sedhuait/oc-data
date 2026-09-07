@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1076478,
+   "checked": "2026-09-07",
+   "file": "1733488888165.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733488888165.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a1b479c67cc12ed789b49ab58e76a227869a38b9e0bc8f65d31c497bf32ba500",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733488888165.pdf"
+  }
+ ],
+ "scheme": "Axis Quant Fund"
+}

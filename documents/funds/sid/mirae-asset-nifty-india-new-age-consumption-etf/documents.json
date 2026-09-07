@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 927630,
+   "checked": "2026-09-07",
+   "file": "1764668970390.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764668970390.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "89d9511068ca9e481fcc9529cbdb1c6006943ff509524f886aa2b53c4528313b",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764668970390.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET NIFTY INDIA NEW AGE CONSUMPTION ETF"
+}

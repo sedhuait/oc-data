@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1418585,
+   "checked": "2026-09-07",
+   "file": "1727780153165.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727780153165.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d91f99111a4284f2041202ef60777a49dd7167aa60de96abe37c16c2f6226bd9",
+   "sid_version": "2024-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727780153165.pdf"
+  }
+ ],
+ "scheme": "HSBC Multi Cap Fund"
+}

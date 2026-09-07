@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1243706,
+   "checked": "2026-09-07",
+   "file": "1751631015476.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751631015476.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d42b3f08428217f6bd65706ce3895b6988469cbd8ddd320ebdeda8a748af79f8",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751631015476.pdf"
+  }
+ ],
+ "scheme": "UTI Nifty 500 Value 50 Index Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1074364,
+   "checked": "2026-09-07",
+   "file": "1749183329619.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749183329619.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "9488c971c4ffdc22b67f78e77a5c867a9d8754515478cf4ffded7443b7778337",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749183329619.pdf"
+  }
+ ],
+ "scheme": "Invesco India Infrastructure Fund"
+}

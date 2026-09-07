@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1093716,
+   "checked": "2026-09-07",
+   "file": "1727778911255.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727778911255.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a95c8a21ce5f9b573036561a602892e8aab952d068d4e46839d9fb2568c2854f",
+   "sid_version": "2024-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727778911255.pdf"
+  }
+ ],
+ "scheme": "HSBC Liquid Fund"
+}

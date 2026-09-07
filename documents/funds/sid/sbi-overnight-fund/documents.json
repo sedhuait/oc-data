@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 529739,
+   "checked": "2026-09-07",
+   "file": "1734341107927.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734341107927.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "9ba33cb875713439ac60b9d194a14cf715f44e5a8ff32f99486297545aac2d3a",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734341107927.pdf"
+  }
+ ],
+ "scheme": "SBI Overnight Fund"
+}

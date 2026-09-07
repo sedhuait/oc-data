@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 416502,
+   "checked": "2026-09-07",
+   "file": "1774608787162.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2026/1774608787162.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e5e965a497b7cc330a874ff9fdf4d73d1fd97be1b96e627fa9cd406934dbc776",
+   "sid_version": "2026-03",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2026/1774608787162.pdf"
+  }
+ ],
+ "scheme": "The Wealth Company Gold ETF FOF"
+}

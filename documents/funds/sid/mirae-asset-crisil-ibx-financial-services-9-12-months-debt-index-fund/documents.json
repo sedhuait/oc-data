@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 873393,
+   "checked": "2026-09-07",
+   "file": "1764661025031.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764661025031.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b2c83cc371172d5526671b5db4654ca360b26972228e90235eba4898bd851dfa",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764661025031.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET CRISIL-IBX FINANCIAL SERVICES 9-12 MONTHS DEBT INDEX FUND"
+}

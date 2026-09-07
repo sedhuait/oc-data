@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 878461,
+   "checked": "2026-09-07",
+   "file": "1732795386547.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732795386547.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "aaaf3da744faffa07313719e4004d0ad6c2de4908b41d58dd356b606610f73ef",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732795386547.pdf"
+  }
+ ],
+ "scheme": "HDFC Technology Fund"
+}

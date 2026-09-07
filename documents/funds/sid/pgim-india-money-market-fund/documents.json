@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1676758,
+   "checked": "2026-09-07",
+   "file": "1597034138515.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2020/1597034138515.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "345a1aee968e82ae001da82d8a6e6a868209b041059da1e5b2dd054a8e6af983",
+   "sid_version": "2020-08",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2020/1597034138515.pdf"
+  }
+ ],
+ "scheme": "PGIM India Money Market Fund"
+}

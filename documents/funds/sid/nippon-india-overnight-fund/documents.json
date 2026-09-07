@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 728627,
+   "checked": "2026-09-07",
+   "file": "1720762298066.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720762298066.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "233757a7793c690ad9961d937f8b4dfa8d44fa263063173c2b7d8ecd5cd09652",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720762298066.pdf"
+  }
+ ],
+ "scheme": "Nippon India Overnight Fund"
+}

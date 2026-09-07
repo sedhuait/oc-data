@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1663643,
+   "checked": "2026-09-07",
+   "file": "1735817547041.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735817547041.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "7c4e7c32fef394d93b7b20fa9609f50617c4b8b3413ee08c0b6135ce0f678b23",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735817547041.pdf"
+  }
+ ],
+ "scheme": "DSP Nifty Midcap 150 Quality 50 Index Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1085553,
+   "checked": "2026-09-07",
+   "file": "1734345943247.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734345943247.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "63fe7592c26e421d5ece84ae370dd2cbe2521037b8fc4552e340563a1b541de1",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734345943247.pdf"
+  }
+ ],
+ "scheme": "SBI Flexicap Fund"
+}

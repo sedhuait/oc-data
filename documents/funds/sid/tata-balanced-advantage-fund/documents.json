@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1648966,
+   "checked": "2026-09-07",
+   "file": "1652265003074.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1652265003074.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "40f1a8a076964241e596d2709493d3367d58d82e0b156e2086db09f022fc1938",
+   "sid_version": "2022-05",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1652265003074.pdf"
+  }
+ ],
+ "scheme": "Tata Balanced Advantage Fund"
+}

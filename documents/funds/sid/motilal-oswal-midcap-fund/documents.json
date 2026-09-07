@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1278839,
+   "checked": "2026-09-07",
+   "file": "1750328087534.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750328087534.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "da80d0273b004d828c59797970d9792db1354aed65d992b3cd0c89563830b35a",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750328087534.pdf"
+  }
+ ],
+ "scheme": "Motilal Oswal Midcap Fund"
+}

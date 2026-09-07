@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1145564,
+   "checked": "2026-09-07",
+   "file": "1734347760220.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734347760220.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "11579946cb402d480441407a366989e0dfa27b8c5b6c779014b2d31091e03001",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734347760220.pdf"
+  }
+ ],
+ "scheme": "SBI Automotive Opportunities Fund"
+}

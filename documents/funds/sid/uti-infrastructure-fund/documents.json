@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1156153,
+   "checked": "2026-09-07",
+   "file": "1751622857997.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751622857997.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "0d71a518a594996cb6114c0d611289c19e8a630af41660bd9e0c38a5943ab256",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751622857997.pdf"
+  }
+ ],
+ "scheme": "UTI Infrastructure Fund"
+}

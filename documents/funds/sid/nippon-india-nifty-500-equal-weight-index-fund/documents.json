@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1513249,
+   "checked": "2026-09-07",
+   "file": "1723436769980.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2024/1723436769980.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c943f9d708547d257c3f5796aa5de56be85446b987ea2f026ac00ecc1e5cb32a",
+   "sid_version": "2024-08",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2024/1723436769980.pdf"
+  }
+ ],
+ "scheme": "Nippon India Nifty 500 Equal Weight Index Fund"
+}

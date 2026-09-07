@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 897835,
+   "checked": "2026-09-07",
+   "file": "1734415648450.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734415648450.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3ff06c615f924e3e9538cb6717921f2a9e01174fb59051b0a7dfa78a52466754",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734415648450.pdf"
+  }
+ ],
+ "scheme": "Bandhan Nifty Alpha Low Volatility 30 Index Fund"
+}

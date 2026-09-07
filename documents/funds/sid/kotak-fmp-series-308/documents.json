@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 999383,
+   "checked": "2026-09-07",
+   "file": "1678696907994.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2023/1678696907994.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "eeff86a0dd00ca6478d25fb11a17f9bb36f68a1b7ba8e138301270c0d2340ae1",
+   "sid_version": "2023-03",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2023/1678696907994.pdf"
+  }
+ ],
+ "scheme": "Kotak FMP Series 308"
+}

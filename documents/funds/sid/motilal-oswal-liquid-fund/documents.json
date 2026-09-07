@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1422427,
+   "checked": "2026-09-07",
+   "file": "1750327899551.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750327899551.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "f7c8263a01bfb235996b4e2bb38d6763bf7c2cbb3353a9a2f66ec34229dd872b",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750327899551.pdf"
+  }
+ ],
+ "scheme": "Motilal Oswal Liquid Fund"
+}

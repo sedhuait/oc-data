@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1590658,
+   "checked": "2026-09-07",
+   "file": "1749115046833.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749115046833.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3a15212d66beb28af68411887f819f5b5b8bb1e57914784098f50d4ea912fbbd",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749115046833.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential BSE 500 ETF FOF"
+}

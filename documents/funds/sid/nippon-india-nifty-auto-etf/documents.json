@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 800789,
+   "checked": "2026-09-07",
+   "file": "1720769097545.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720769097545.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "949526a228184051f2089f001138fa099369e2d3f2d9950ed210ca82fccf9428",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720769097545.pdf"
+  }
+ ],
+ "scheme": "Nippon India Nifty Auto ETF"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 914713,
+   "checked": "2026-09-07",
+   "file": "1735882234491.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735882234491.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3fda4d7d29bdae6298a7a8eaa229c10048d94a172a5f7d388a97584aa3a2d6a6",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735882234491.pdf"
+  }
+ ],
+ "scheme": "Baroda BNP Paribas Manufacturing Fund"
+}

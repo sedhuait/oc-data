@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 524833,
+   "checked": "2026-09-07",
+   "file": "1764670009447.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764670009447.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "377eca3d1825a0f00af9418a38b72892f98ac3a680f97073785562e9197b0251",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764670009447.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET NIFTY50 EQUAL WEIGHT ETF"
+}

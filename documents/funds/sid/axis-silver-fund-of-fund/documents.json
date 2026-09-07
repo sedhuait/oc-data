@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 899630,
+   "checked": "2026-09-07",
+   "file": "1733720720293.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733720720293.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "82fa3a94f635afa541bd09883f71cfe875b942fefb2473494e6ae1dfa9750adf",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733720720293.pdf"
+  }
+ ],
+ "scheme": "Axis Silver Fund of Fund"
+}

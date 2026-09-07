@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1342567,
+   "checked": "2026-09-07",
+   "file": "1744180223326.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/apr-2025/1744180223326.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "7883bc5baac4223e6658016c67fcc255ee9c5f316ef010115495902cb2955dfd",
+   "sid_version": "2025-04",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/apr-2025/1744180223326.pdf"
+  }
+ ],
+ "scheme": "Nippon India Nifty 500 Low Volatility 50 Index Fund"
+}

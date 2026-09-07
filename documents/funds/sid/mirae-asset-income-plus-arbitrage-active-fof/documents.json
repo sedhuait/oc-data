@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 779747,
+   "checked": "2026-09-07",
+   "file": "1764665134530.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764665134530.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3fd4921c22c9e63421ff496d03107bc292b9f7906293fe1758b565d084e27c0d",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764665134530.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET INCOME PLUS ARBITRAGE ACTIVE FOF"
+}

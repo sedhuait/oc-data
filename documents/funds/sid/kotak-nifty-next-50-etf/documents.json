@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 651816,
+   "checked": "2026-09-07",
+   "file": "1765452809971.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765452809971.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "38fcdd5c81db2424ae5d68eee6b20fdf1ff2f1e316b2f7d49b0b83036948623f",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765452809971.pdf"
+  }
+ ],
+ "scheme": "Kotak Nifty Next 50 ETF"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 752282,
+   "checked": "2026-09-07",
+   "file": "1720766060464.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720766060464.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "610a60425cae4e38b8d1f98052f25fa3d57707504a2997ff453f3e3e6cb5fec7",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720766060464.pdf"
+  }
+ ],
+ "scheme": "Nippon India Multi Cap Fund"
+}

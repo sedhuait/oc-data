@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1415059,
+   "checked": "2026-09-07",
+   "file": "1752228323414.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752228323414.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "0b3b5e55cba33323ceba725d99cb097bcd4e15948d75c1dda726eec25afa23e7",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752228323414.pdf"
+  }
+ ],
+ "scheme": "LIC MF Healthcare Fund"
+}

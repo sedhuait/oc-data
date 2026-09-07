@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 881967,
+   "checked": "2026-09-07",
+   "file": "1733121693331.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733121693331.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c85ae63e5f32e6cd28967c74db437dc07b7c88fc4264c1392e6b9923de248a2e",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733121693331.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life Balanced Advantage Fund"
+}

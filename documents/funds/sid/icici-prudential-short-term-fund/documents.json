@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1137404,
+   "checked": "2026-09-07",
+   "file": "1719479792112.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2024/1719479792112.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "4ea191e92785c28b9498ba054ef13b610bda43da2f4c123143be949e78cb68a3",
+   "sid_version": "2024-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2024/1719479792112.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Short Term Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1582936,
+   "checked": "2026-09-07",
+   "file": "1597034058725.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2020/1597034058725.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "6ba573c812953347ccf94d3c28b6c97786b7200bb6f90d764b13b053d63b2f46",
+   "sid_version": "2020-08",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2020/1597034058725.pdf"
+  }
+ ],
+ "scheme": "PGIM India Overnight Fund"
+}

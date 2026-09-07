@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1012840,
+   "checked": "2026-09-07",
+   "file": "1733719498654.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733719498654.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "6e7c653227447348b306f26fc0c277a114cc63f3c6dbf65612d513f405375df8",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733719498654.pdf"
+  }
+ ],
+ "scheme": "Axis Nifty Next 50 Index Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1844844,
+   "checked": "2026-09-07",
+   "file": "1742380479148.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1742380479148.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "5f33933c3f04cb25ce85fa64431b295e849a721fb12c011056e2ad8240e68fb2",
+   "sid_version": "2025-03",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1742380479148.pdf"
+  }
+ ],
+ "scheme": "Sundaram Overnight Fund"
+}

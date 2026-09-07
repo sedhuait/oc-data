@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2334377,
+   "checked": "2026-09-07",
+   "file": "1735816893302.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735816893302.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "cfa10e47fec78bec1dcd21b94a368fd578af544eeedf6cf589930afb87a5dfe4",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735816893302.pdf"
+  }
+ ],
+ "scheme": "DSP Healthcare Fund."
+}

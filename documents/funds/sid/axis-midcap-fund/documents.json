@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1025200,
+   "checked": "2026-09-07",
+   "file": "1733488738817.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733488738817.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "909126f7edc7d49571fd41d7e21a6d97294fa2e9f89de4e409149dd096cf685f",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733488738817.pdf"
+  }
+ ],
+ "scheme": "Axis Midcap Fund"
+}

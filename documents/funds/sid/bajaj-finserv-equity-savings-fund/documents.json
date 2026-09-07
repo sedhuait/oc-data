@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1330577,
+   "checked": "2026-09-07",
+   "file": "1749116970917.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749116970917.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "6dac55c07d0e05c31ccd315e73e9fa863a536ee2b935bcf2136b6985d5c3c59b",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749116970917.pdf"
+  }
+ ],
+ "scheme": "Bajaj Finserv Equity Savings Fund"
+}

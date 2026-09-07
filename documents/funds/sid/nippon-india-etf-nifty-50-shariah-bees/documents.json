@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 802919,
+   "checked": "2026-09-07",
+   "file": "1720768442809.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720768442809.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "7795e4b500ba31d380d2b824bc7e620a3d415034c52885dba7dfc105098ec63b",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720768442809.pdf"
+  }
+ ],
+ "scheme": "Nippon India ETF Nifty 50 Shariah BeES"
+}

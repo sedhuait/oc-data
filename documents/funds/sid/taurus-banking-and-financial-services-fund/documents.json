@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1772012,
+   "checked": "2026-09-07",
+   "file": "1765434557595.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765434557595.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3d7d6ed7f27c67004fecbb9e7bbf0d8570d1fc8d16f7578770e9bb763bcd4a9c",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765434557595.pdf"
+  }
+ ],
+ "scheme": "Taurus Banking and Financial Services Fund"
+}

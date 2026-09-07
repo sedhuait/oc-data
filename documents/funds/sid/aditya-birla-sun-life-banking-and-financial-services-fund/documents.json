@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 696443,
+   "checked": "2026-09-07",
+   "file": "1733128644099.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733128644099.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "27c40389ee72e6d330e86c14de47ee297f2084e0664310bafda08f688464661c",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733128644099.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life Banking and Financial Services Fund"
+}

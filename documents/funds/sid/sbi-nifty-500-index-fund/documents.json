@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1655167,
+   "checked": "2026-09-07",
+   "file": "1734347834601.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734347834601.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "ce7575f13c6e7df208d134011f5ffbfa872187058d21fe9db3de5844ffd48668",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734347834601.pdf"
+  }
+ ],
+ "scheme": "SBI Nifty 500 Index Fund"
+}

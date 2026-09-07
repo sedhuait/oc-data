@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1354812,
+   "checked": "2026-09-07",
+   "file": "1734345766299.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734345766299.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "20f99ff0af6efb64f5f66b13a3cef51d5ace4c6af409d616e755234dd4a1c59d",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734345766299.pdf"
+  }
+ ],
+ "scheme": "SBI Nifty Mid Cap 150 Index Fund"
+}

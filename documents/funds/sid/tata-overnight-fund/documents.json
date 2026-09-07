@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 625568,
+   "checked": "2026-09-07",
+   "file": "1652265541642.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1652265541642.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "3f54bb363e2daa26d91afc1f1237cd189399f0c2ede624968b654ee53b2015a8",
+   "sid_version": "2022-05",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2022/1652265541642.pdf"
+  }
+ ],
+ "scheme": "Tata Overnight Fund"
+}

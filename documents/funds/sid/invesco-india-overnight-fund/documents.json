@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1006489,
+   "checked": "2026-09-07",
+   "file": "1749189096413.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749189096413.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a9690a5cc9ece49c5005701eb6c02310cf41ae53d7fb1376eba8438180283926",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749189096413.pdf"
+  }
+ ],
+ "scheme": "Invesco India Overnight Fund"
+}

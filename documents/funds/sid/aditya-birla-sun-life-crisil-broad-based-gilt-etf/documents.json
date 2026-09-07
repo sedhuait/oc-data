@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 765816,
+   "checked": "2026-09-07",
+   "file": "1733129387328.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733129387328.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "55804bb73197f8e5db9328b1f60c196925854504ff4c1e5a8a1999d4ac506a44",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733129387328.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life CRISIL Broad Based Gilt ETF"
+}

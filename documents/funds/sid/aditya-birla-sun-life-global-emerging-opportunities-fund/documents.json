@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 893504,
+   "checked": "2026-09-07",
+   "file": "1733121318968.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733121318968.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "eef32a0e612fdd3dd0610fdbe62221606a1e15704b74c6b992ff815c291174ed",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733121318968.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life Global Emerging Opportunities Fund"
+}

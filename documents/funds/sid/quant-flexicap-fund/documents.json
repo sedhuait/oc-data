@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1048442,
+   "checked": "2026-09-07",
+   "file": "1643626416723.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2022/1643626416723.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "87c3ffdd240bd7f7a4ee26f2849f31c8dc81f12dfffb1c3136591b9d75178918",
+   "sid_version": "2022-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2022/1643626416723.pdf"
+  }
+ ],
+ "scheme": "quant Flexi Cap Fund"
+}

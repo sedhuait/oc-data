@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1015929,
+   "checked": "2026-09-07",
+   "file": "1771311724314.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771311724314.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "fbe9887844f119fb8758a32d4669993c3aca51ba075aa3fdbf7a90836b272a93",
+   "sid_version": "2026-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2026/1771311724314.pdf"
+  }
+ ],
+ "scheme": "Mahindra Manulife Liquid Fund"
+}

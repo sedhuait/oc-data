@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 840276,
+   "checked": "2026-09-07",
+   "file": "1733130573101.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733130573101.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c48b2a6a0d4ffd993d055332bde4aab34563250c0c9d1c6cb8a78d2d30e91000",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733130573101.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life ELSS Tax Saver Fund"
+}

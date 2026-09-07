@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 766081,
+   "checked": "2026-09-07",
+   "file": "1720775545905.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720775545905.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "08be87719361857f35c4aa0cd45e0fd3e5a8b87e4c554156d6d4221140a5fae7",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720775545905.pdf"
+  }
+ ],
+ "scheme": "Nippon India Nifty AAA CPSE Bond Plus SDL - Apr 2027 Maturity 60:40 Index Fund"
+}

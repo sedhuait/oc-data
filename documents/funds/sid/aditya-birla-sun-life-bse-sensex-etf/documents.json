@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1257612,
+   "checked": "2026-09-07",
+   "file": "1733130387957.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733130387957.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "83b5371a29b9a7afc53f5c648f3e01356ed3071449835f5a6847a48c49034552",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733130387957.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life BSE Sensex ETF"
+}

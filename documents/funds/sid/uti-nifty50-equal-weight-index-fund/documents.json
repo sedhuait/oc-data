@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1304022,
+   "checked": "2026-09-07",
+   "file": "1751631104866.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751631104866.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "4fa0ac236c4691fecc69a324aa64218821c2734b3b2c8b60cd446507a7fc5741",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751631104866.pdf"
+  }
+ ],
+ "scheme": "UTI NIFTY50 Equal Weight Index Fund"
+}

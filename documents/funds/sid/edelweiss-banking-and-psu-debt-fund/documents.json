@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2486746,
+   "checked": "2026-09-07",
+   "file": "1734331969697.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734331969697.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "7cddcca0d4a22b6e2e6840be5503c2e49e47912c6ebeed51827de7bee8e32e2a",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734331969697.pdf"
+  }
+ ],
+ "scheme": "Edelweiss Banking and PSU Debt Fund"
+}

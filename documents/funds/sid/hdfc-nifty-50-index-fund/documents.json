@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 929319,
+   "checked": "2026-09-07",
+   "file": "1732792324036.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732792324036.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c8885a90dfec031195d113cba4235b78a10a7ba4c21016eaec6c9fbac69ae350",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732792324036.pdf"
+  }
+ ],
+ "scheme": "HDFC Nifty 50 Index Fund"
+}

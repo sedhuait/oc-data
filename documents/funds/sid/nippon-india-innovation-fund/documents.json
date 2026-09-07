@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 776010,
+   "checked": "2026-09-07",
+   "file": "1720767290239.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720767290239.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "78c44d27b2db5f56421bea5a1641f5a64e67b0e68239437fc88630471cc48e69",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720767290239.pdf"
+  }
+ ],
+ "scheme": "Nippon India Innovation Fund"
+}

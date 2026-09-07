@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 939269,
+   "checked": "2026-09-07",
+   "file": "1765354779031.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765354779031.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d1d65eff6b06de4a8f4c9480493c4bf9f19a4ed80d9dafc0ac406e9fbd041800",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1765354779031.pdf"
+  }
+ ],
+ "scheme": "Unifi Liquid Fund"
+}

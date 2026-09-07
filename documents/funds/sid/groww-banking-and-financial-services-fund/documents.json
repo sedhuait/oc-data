@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1310818,
+   "checked": "2026-09-07",
+   "file": "1702448237398.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2023/1702448237398.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c30bae983bd084160a959b96d02e83637b53fbee44c8ec45d5856432381a84ad",
+   "sid_version": "2023-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2023/1702448237398.pdf"
+  }
+ ],
+ "scheme": "Groww Banking & Financial Services Fund"
+}

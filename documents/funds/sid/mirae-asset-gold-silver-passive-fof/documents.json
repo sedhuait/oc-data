@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 857271,
+   "checked": "2026-09-07",
+   "file": "1764660421637.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764660421637.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "06f64b446ef3fe8619e1871587cf6e6b6b94990c8b6e8c4d28d02ad84c3af0b4",
+   "sid_version": "2025-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2025/1764660421637.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET GOLD SILVER PASSIVE FOF"
+}

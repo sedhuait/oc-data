@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1041778,
+   "checked": "2026-09-07",
+   "file": "1733722260605.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733722260605.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "91bb9459f1081f3ecd745feaac5c93f34889dd917715d588fd6e3f725d1bcc29",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733722260605.pdf"
+  }
+ ],
+ "scheme": "Axis Nifty500 Value 50 Index Fund"
+}

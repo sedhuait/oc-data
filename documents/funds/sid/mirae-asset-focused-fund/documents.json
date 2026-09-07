@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 862150,
+   "checked": "2026-09-07",
+   "file": "1762755703479.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2025/1762755703479.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "5b4caebfe5674922bc047a45b0d9106d4e3482ad09cb9f0fe69782aa87c35fc0",
+   "sid_version": "2025-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2025/1762755703479.pdf"
+  }
+ ],
+ "scheme": "Mirae Asset Focused Fund"
+}

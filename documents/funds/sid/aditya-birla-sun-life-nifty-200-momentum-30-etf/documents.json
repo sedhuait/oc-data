@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 843718,
+   "checked": "2026-09-07",
+   "file": "1733129162557.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733129162557.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "f2f79684424991c0ff9eaff3ecb1f017a46febf38a98b69cbd021824953c6906",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733129162557.pdf"
+  }
+ ],
+ "scheme": "Aditya Birla Sun Life Nifty 200 Momentum 30 ETF"
+}

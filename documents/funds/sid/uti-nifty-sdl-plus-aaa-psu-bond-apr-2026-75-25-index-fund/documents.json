@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1245024,
+   "checked": "2026-09-07",
+   "file": "1751866532002.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751866532002.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "9368b6a42701f86994bb17e3f913c96e7b290f9889365a44fb0b6d07fbbd2056",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751866532002.pdf"
+  }
+ ],
+ "scheme": "UTI Nifty SDL Plus AAA PSU Bond Apr 2026 75:25 Index Fund"
+}

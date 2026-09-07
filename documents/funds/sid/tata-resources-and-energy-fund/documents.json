@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 767995,
+   "checked": "2026-09-07",
+   "file": "1639372823229.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2021/1639372823229.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "6adcac78fa49a27072dc9f72ba4f28e6b5420d4cfd788e1b66a4fcbf333eabbd",
+   "sid_version": "2021-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2021/1639372823229.pdf"
+  }
+ ],
+ "scheme": "Tata Resources & Energy Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 987999,
+   "checked": "2026-09-07",
+   "file": "1693291835076.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2023/1693291835076.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "8af0a88a3e75150d5955ed0740830ae0f2b5011bdbe14e24b1bf04dc4cb98f7d",
+   "sid_version": "2023-08",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2023/1693291835076.pdf"
+  }
+ ],
+ "scheme": "Groww ELSS Tax Saver Fund"
+}

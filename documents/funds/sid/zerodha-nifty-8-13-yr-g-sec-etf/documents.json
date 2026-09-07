@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1188848,
+   "checked": "2026-09-07",
+   "file": "1764332703356.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2025/1764332703356.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "7f898c5305a4de975e0b3ddb42c1cd556943e4b2857a6683c25f2487afc42465",
+   "sid_version": "2025-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2025/1764332703356.pdf"
+  }
+ ],
+ "scheme": "Zerodha Nifty 8-13 Yr G-Sec ETF"
+}

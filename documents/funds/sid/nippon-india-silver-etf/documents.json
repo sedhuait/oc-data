@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 779476,
+   "checked": "2026-09-07",
+   "file": "1720773598539.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720773598539.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "5b04df06176b6b9ca1d20acdfbf8217316591b8d7f057f8b2549e8a3e05cc5f2",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720773598539.pdf"
+  }
+ ],
+ "scheme": "Nippon India Silver ETF"
+}

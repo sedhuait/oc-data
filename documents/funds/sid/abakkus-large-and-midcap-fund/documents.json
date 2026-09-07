@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1534163,
+   "checked": "2026-09-07",
+   "file": "1783406282049.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2026/1783406282049.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c002df119a11e375ea11bf53a89f5243e1600a984ab45ad7689fccb4a3bd3f9c",
+   "sid_version": "2026-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2026/1783406282049.pdf"
+  }
+ ],
+ "scheme": "ABAKKUS LARGE & MID CAP FUND"
+}

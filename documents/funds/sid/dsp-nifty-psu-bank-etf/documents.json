@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2033086,
+   "checked": "2026-09-07",
+   "file": "1735817786905.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735817786905.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d2c663a8fcc05b575695f5d3a37166589c8fbb5bafa68b3c674c523173a37acb",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735817786905.pdf"
+  }
+ ],
+ "scheme": "DSP Nifty PSU Bank ETF"
+}

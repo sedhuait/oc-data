@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1228192,
+   "checked": "2026-09-07",
+   "file": "1734346577766.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734346577766.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e37e87863d403ad616c8ca801f688a299e4dd3421348bd3c0b8810ccacb498fd",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734346577766.pdf"
+  }
+ ],
+ "scheme": "SBI Liquid Fund"
+}

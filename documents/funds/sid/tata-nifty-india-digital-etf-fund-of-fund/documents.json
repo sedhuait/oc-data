@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1383111,
+   "checked": "2026-09-07",
+   "file": "1665564125913.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2022/1665564125913.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b948dde94b5fdf4386a7b564ebe650fba124896f340aa71c661c55fe58858cc1",
+   "sid_version": "2022-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2022/1665564125913.pdf"
+  }
+ ],
+ "scheme": "Tata Nifty India Digital ETF -Fund of Fund"
+}

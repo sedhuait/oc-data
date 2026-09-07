@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1307123,
+   "checked": "2026-09-07",
+   "file": "1685688958212.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685688958212.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "4e73847f6746518e318ce0ad6fb98275296368be07d942034d8a7289c4d285a3",
+   "sid_version": "2023-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685688958212.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Exports and Services Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2262264,
+   "checked": "2026-09-07",
+   "file": "1734332060861.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734332060861.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "4b8e35624cacaaa5aa27698d956fc2410e99e2486f524ebcd4d09d3ac8973469",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734332060861.pdf"
+  }
+ ],
+ "scheme": "Edelweiss Nifty PSU Bond Plus SDL Apr 2026 50:50 Index Fund"
+}

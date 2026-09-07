@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1466177,
+   "checked": "2026-09-07",
+   "file": "1749118380942.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749118380942.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "a72d175d6e09780aa8068474c04fac750f8968483ff4be406a02e8a0d027d9f3",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749118380942.pdf"
+  }
+ ],
+ "scheme": "Bharat 22 ETF"
+}

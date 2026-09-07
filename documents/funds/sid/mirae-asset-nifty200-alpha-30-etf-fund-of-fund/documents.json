@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 748922,
+   "checked": "2026-09-07",
+   "file": "1734425098993.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734425098993.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "5d5fab475a1c3da83ca483ffd1820ee10099815afcc385e348098de1fd8e168d",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734425098993.pdf"
+  }
+ ],
+ "scheme": "MIRAE ASSET NIFTY200 ALPHA 30 ETF FUND OF FUND"
+}

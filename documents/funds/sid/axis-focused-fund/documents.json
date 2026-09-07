@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1053663,
+   "checked": "2026-09-07",
+   "file": "1733726031382.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733726031382.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "aade4e67f33b19f639e5b7bab818b897e3e7cb4ca87b447c6d62ab2459a3dcaf",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733726031382.pdf"
+  }
+ ],
+ "scheme": "Axis Focused Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 757404,
+   "checked": "2026-09-07",
+   "file": "1720774283461.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720774283461.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e73561bcd09236f9f6e86a41f2bda67d2a53ecf26b3542f2ba008e59b9e6ca79",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720774283461.pdf"
+  }
+ ],
+ "scheme": "Nippon India ETF Nifty 50 Value 20"
+}

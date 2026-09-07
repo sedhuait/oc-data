@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 996506,
+   "checked": "2026-09-07",
+   "file": "1733720963788.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733720963788.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "562aa3826500b2d16b3ba0f7d6f4ec85d631f5ae6e99adb83dfeac6d3c243d8f",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733720963788.pdf"
+  }
+ ],
+ "scheme": "Axis Nifty Bank ETF"
+}

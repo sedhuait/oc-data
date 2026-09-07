@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 878853,
+   "checked": "2026-09-07",
+   "file": "1735881943462.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735881943462.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "98a1f93376a74cc623eab572443164358741c8483b9be5346e758215b97989aa",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735881943462.pdf"
+  }
+ ],
+ "scheme": "Baroda BNP Paribas India Consumption Fund"
+}

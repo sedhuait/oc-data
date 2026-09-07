@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1179306,
+   "checked": "2026-09-07",
+   "file": "1734346722918.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734346722918.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "902671b24b0a5900670e5cf05e10e7cc13c8621a4ff3f619954479535877bb66",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734346722918.pdf"
+  }
+ ],
+ "scheme": "SBI Multicap Fund"
+}

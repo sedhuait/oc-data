@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 933125,
+   "checked": "2026-09-07",
+   "file": "1735893921252.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735893921252.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "fa0b06ce311d154ef4b18a001e332422d904f671a3f675f6477bb814169c8036",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735893921252.pdf"
+  }
+ ],
+ "scheme": "Union Large & Midcap Fund"
+}

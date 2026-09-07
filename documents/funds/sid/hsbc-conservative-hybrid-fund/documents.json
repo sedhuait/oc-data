@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1145639,
+   "checked": "2026-09-07",
+   "file": "1727779489748.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727779489748.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "aa15a25b13f8e60329accdfbe99afab1a8f281b08ee461870360d2f38dc7ac77",
+   "sid_version": "2024-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2024/1727779489748.pdf"
+  }
+ ],
+ "scheme": "HSBC Conservative Hybrid Fund"
+}

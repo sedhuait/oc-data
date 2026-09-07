@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 959007,
+   "checked": "2026-09-07",
+   "file": "1733720628673.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733720628673.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "0e28e782d34e88703140d87cf5336416f1c3b575fbf0de4c0cd59c9252d8d9a6",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733720628673.pdf"
+  }
+ ],
+ "scheme": "Axis Global Innovation Fund of Fund"
+}

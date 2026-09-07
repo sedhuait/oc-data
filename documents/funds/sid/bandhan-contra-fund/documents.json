@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1158032,
+   "checked": "2026-09-07",
+   "file": "1783925629373.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2026/1783925629373.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "1aa8d75e53afcef33eefacab3f76be2b95477305ad9b73543882c734c1ee3b3b",
+   "sid_version": "2026-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2026/1783925629373.pdf"
+  }
+ ],
+ "scheme": "BANDHAN CONTRA FUND"
+}

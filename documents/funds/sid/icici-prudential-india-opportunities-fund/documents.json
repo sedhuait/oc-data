@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1253122,
+   "checked": "2026-09-07",
+   "file": "1685694714392.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685694714392.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "43f46be7a340807ebc33f4ad7a63430f7e7174abdf048c8a7b79f61708364349",
+   "sid_version": "2023-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2023/1685694714392.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential India Opportunities Fund"
+}

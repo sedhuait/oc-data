@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1078246,
+   "checked": "2026-09-07",
+   "file": "1733726175381.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733726175381.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b792bef33150fabed45eb54166b1c370e767dc7d116e74a4a58a9b19650abedb",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733726175381.pdf"
+  }
+ ],
+ "scheme": "Axis ESG integration strategy Fund"
+}

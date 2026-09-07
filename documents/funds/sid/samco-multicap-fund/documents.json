@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1376522,
+   "checked": "2026-09-07",
+   "file": "1752055037052.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752055037052.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "139e9dbc02b3c0ff9e32bf09cfd32767dd4b6ffe3f1e7439e0ef159a20f3ab0c",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752055037052.pdf"
+  }
+ ],
+ "scheme": "Samco Multi Cap Fund"
+}

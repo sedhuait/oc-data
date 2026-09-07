@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1488432,
+   "checked": "2026-09-07",
+   "file": "1752227268537.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752227268537.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "20f58130501dbf519e783c9747c5376494938b301df87dc2c520a1706b04281f",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752227268537.pdf"
+  }
+ ],
+ "scheme": "LIC MF Overnight Fund"
+}

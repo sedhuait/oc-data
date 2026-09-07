@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 868188,
+   "checked": "2026-09-07",
+   "file": "1732792737045.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732792737045.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d4c48d4324a3b920459258e8c2eba847843bdc5965aeb4a4dd9e0fb94cec70ea",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732792737045.pdf"
+  }
+ ],
+ "scheme": "HDFC Nifty G-Sec Dec 2026 Index Fund"
+}

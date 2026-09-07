@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1128306,
+   "checked": "2026-09-07",
+   "file": "1734349553362.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734349553362.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "d5cb579ccd000577b7abc1e67fe6ff581bb0136e9e2f4ed2e5e2c051c194fdce",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734349553362.pdf"
+  }
+ ],
+ "scheme": "SBI Equity Minimum Variance Fund"
+}

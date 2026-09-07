@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1290478,
+   "checked": "2026-09-07",
+   "file": "1750412115082.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750412115082.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "7385fe6a496b4afc4fb28bc5d0a2f9f2a81de714355b5fe0450f186fc3250b31",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750412115082.pdf"
+  }
+ ],
+ "scheme": "Motilal Oswal Nifty 50 ETF"
+}

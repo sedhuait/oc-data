@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2336391,
+   "checked": "2026-09-07",
+   "file": "1734331880918.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734331880918.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "063b13d703269e1c340816751b29f183cf76c2db51732c4db1a69c381fcf86ab",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734331880918.pdf"
+  }
+ ],
+ "scheme": "Edelweiss Liquid Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1599847,
+   "checked": "2026-09-07",
+   "file": "1750412509256.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750412509256.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "8e046c2d11c3d8573e7b79fb507c1a5bd9be690fda77b20a1f5e08b1d894546f",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750412509256.pdf"
+  }
+ ],
+ "scheme": "Motilal Oswal Nifty 500 Index Fund"
+}

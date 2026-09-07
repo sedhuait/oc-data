@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1422664,
+   "checked": "2026-09-07",
+   "file": "1752474929628.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752474929628.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "4ba4e018e547fd82602dce5ef16ae6dfb82a0fd892bcccef56beb6f8479d7545",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1752474929628.pdf"
+  }
+ ],
+ "scheme": "LIC MF Gold Exchange Traded Fund"
+}

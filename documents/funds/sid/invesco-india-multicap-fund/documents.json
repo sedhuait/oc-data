@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 806761,
+   "checked": "2026-09-07",
+   "file": "1749183290192.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749183290192.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "8a76f6c5820942b3054ed021a97ade3cf9643e95111c54ea0b4a040ba96a22c0",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749183290192.pdf"
+  }
+ ],
+ "scheme": "Invesco India Multicap Fund"
+}

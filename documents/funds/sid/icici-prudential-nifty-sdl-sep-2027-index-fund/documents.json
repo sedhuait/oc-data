@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1028362,
+   "checked": "2026-09-07",
+   "file": "1749016856086.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749016856086.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "5416b13d3fc8c98ae23396794e677b9e6ad0392a15eae8fab6c3769739d62c24",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749016856086.pdf"
+  }
+ ],
+ "scheme": "ICICI Prudential Nifty SDL Sep 2027 Index Fund"
+}

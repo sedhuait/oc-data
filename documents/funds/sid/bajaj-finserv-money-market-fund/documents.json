@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1934381,
+   "checked": "2026-09-07",
+   "file": "1721037226575.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1721037226575.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c65891fcba0ca4e364473cd80060a6c18359c92bcc1d0d6d63890f3f70f4caa8",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1721037226575.pdf"
+  }
+ ],
+ "scheme": "Bajaj Finserv Money Market Fund"
+}

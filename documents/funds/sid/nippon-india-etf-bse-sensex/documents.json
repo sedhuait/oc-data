@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 774542,
+   "checked": "2026-09-07",
+   "file": "1720774773108.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720774773108.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "931b5de9bf90564049641f007c008898e6fd2d29c160ff6e4896479f2849a2e2",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720774773108.pdf"
+  }
+ ],
+ "scheme": "Nippon India ETF BSE Sensex"
+}

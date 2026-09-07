@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1055663,
+   "checked": "2026-09-07",
+   "file": "1739344685830.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739344685830.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "25326cad06c0bc1141b8fdb91cc0270af1882ccc6d4a8649b0b109fb6140596d",
+   "sid_version": "2025-02",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/feb-2025/1739344685830.pdf"
+  }
+ ],
+ "scheme": "Kotak Nifty Midcap 150 Momentum 50 Index Fund"
+}

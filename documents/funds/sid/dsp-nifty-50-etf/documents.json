@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2067337,
+   "checked": "2026-09-07",
+   "file": "1735817380041.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735817380041.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "c309ec490983ac47980f887bf3e7f4c97d5a5f6e1f5cc532dd8dd30aea2e47b5",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735817380041.pdf"
+  }
+ ],
+ "scheme": "DSP Nifty 50 ETF"
+}

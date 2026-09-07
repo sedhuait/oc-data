@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1067425,
+   "checked": "2026-09-07",
+   "file": "1734340359709.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734340359709.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "81736c81aa4157bdd76d441e47f9d95fcd2120465079e7c430e4a45abf63077d",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1734340359709.pdf"
+  }
+ ],
+ "scheme": "SBI ESG Exclusionary Strategy Fund"
+}

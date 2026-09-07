@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 767600,
+   "checked": "2026-09-07",
+   "file": "1711436205632.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2024/1711436205632.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "8075c756bdd20a7baba890eb9c5edf3814604dc9aca88daf9bed402f1051c656",
+   "sid_version": "2024-03",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2024/1711436205632.pdf"
+  }
+ ],
+ "scheme": "Tata Nifty Realty Index Fund"
+}

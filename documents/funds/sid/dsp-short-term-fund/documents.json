@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 2277523,
+   "checked": "2026-09-07",
+   "file": "1735816017565.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735816017565.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "099c7f84b97275d1184dd040ecda4c968204a40bd5cf57fa46cbdcfbe204218d",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735816017565.pdf"
+  }
+ ],
+ "scheme": "DSP Short Term Fund"
+}

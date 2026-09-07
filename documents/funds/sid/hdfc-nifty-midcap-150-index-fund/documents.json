@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 971695,
+   "checked": "2026-09-07",
+   "file": "1732793365303.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732793365303.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "f206c96c31fdb828007ce8a2e3d7cb3f3808a0adfcb3f15146dc62f5b2aa8566",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732793365303.pdf"
+  }
+ ],
+ "scheme": "HDFC NIFTY Midcap 150 Index Fund"
+}

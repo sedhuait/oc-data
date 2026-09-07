@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 865931,
+   "checked": "2026-09-07",
+   "file": "1720768887640.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720768887640.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "373cbc0d82223a1c68d47e0982c147db2c5a7ef40498b636941907f303a147b7",
+   "sid_version": "2024-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2024/1720768887640.pdf"
+  }
+ ],
+ "scheme": "Nippon India ETF Nifty PSU Bank BeES"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 658888,
+   "checked": "2026-09-07",
+   "file": "1733481769293.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733481769293.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e8e31c4fbd35ce368512a7a5663cc1b46e1f282e8afc7720b98ecae9c1f0b833",
+   "sid_version": "2024-12",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/dec-2024/1733481769293.pdf"
+  }
+ ],
+ "scheme": "Zerodha Nifty 1D Rate Liquid ETF"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1828078,
+   "checked": "2026-09-07",
+   "file": "1659436627146.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2022/1659436627146.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "af759d8a55374f8a238faf3c1fd1a0f31efbc6ea5b23afda20c56ad3efa57302",
+   "sid_version": "2022-08",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/aug-2022/1659436627146.pdf"
+  }
+ ],
+ "scheme": "Tata Housing Opportunities Fund"
+}

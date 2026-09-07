@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1214308,
+   "checked": "2026-09-07",
+   "file": "1751627076699.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751627076699.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "2035c2f14f4a262d12bf3ab6386c01df7ee457bcde3053e614440d1bd3c53bd5",
+   "sid_version": "2025-07",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jul-2025/1751627076699.pdf"
+  }
+ ],
+ "scheme": "UTI India Consumer Fund"
+}

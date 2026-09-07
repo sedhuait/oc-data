@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 891092,
+   "checked": "2026-09-07",
+   "file": "1750150853198.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750150853198.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "2fab8b9894a4dbb4843b979f9132f17a429b369081e4e933c724907246b50f7a",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750150853198.pdf"
+  }
+ ],
+ "scheme": "Bandhan Business Cycle Fund"
+}

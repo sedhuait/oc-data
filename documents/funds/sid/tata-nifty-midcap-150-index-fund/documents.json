@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1145585,
+   "checked": "2026-09-07",
+   "file": "1748584486230.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2025/1748584486230.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "678ba076bdc95f4d2a36976507d89a74e1059efc330121e055ae6d7a380aba87",
+   "sid_version": "2025-05",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/may-2025/1748584486230.pdf"
+  }
+ ],
+ "scheme": "Tata Nifty Midcap 150 Index Fund"
+}

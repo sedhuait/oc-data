@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 763264,
+   "checked": "2026-09-07",
+   "file": "1735881277503.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735881277503.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "0d01d8184d6a6ab72586c79113f655ff89db6e57514422618a3fa62a6c05f2ba",
+   "sid_version": "2025-01",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jan-2025/1735881277503.pdf"
+  }
+ ],
+ "scheme": "Baroda BNP Paribas Large Cap Fund"
+}

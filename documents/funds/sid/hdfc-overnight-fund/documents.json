@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 829950,
+   "checked": "2026-09-07",
+   "file": "1732794863528.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732794863528.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b05bf6d26c637965bb25b3e2280b60abe77acf5ec4ab991675de890348df4edc",
+   "sid_version": "2024-11",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/nov-2024/1732794863528.pdf"
+  }
+ ],
+ "scheme": "HDFC Overnight Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1355294,
+   "checked": "2026-09-07",
+   "file": "1750413546786.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750413546786.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "b48ee231364c45e21d628066a051befd821bf27db05c09faef52e89e0ab568cd",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1750413546786.pdf"
+  }
+ ],
+ "scheme": "Motilal Oswal Nifty Next 50 Index Fund"
+}

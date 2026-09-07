@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 805402,
+   "checked": "2026-09-07",
+   "file": "1741838825690.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1741838825690.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "333193baf16bc97ff80cca62f2a48c497d7d152e7d90adec6c1fca0a67a9276f",
+   "sid_version": "2025-03",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/mar-2025/1741838825690.pdf"
+  }
+ ],
+ "scheme": "Kotak Energy Opportunities Fund"
+}

@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 1491768,
+   "checked": "2026-09-07",
+   "file": "1749011641638.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749011641638.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "74da5762bbf435960172d5594fdd45260b15780efce6ef147cb211676db3bb88",
+   "sid_version": "2025-06",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/jun-2025/1749011641638.pdf"
+  }
+ ],
+ "scheme": "Canara Robeco Liquid Fund"
+}

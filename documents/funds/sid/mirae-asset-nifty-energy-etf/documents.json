@@ -1,0 +1,15 @@
+{
+ "documents": [
+  {
+   "bytes": 854821,
+   "checked": "2026-09-07",
+   "file": "1761212574914.pdf",
+   "final_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2025/1761212574914.pdf",
+   "kind": "Scheme Information Document",
+   "sha256": "e9769bc79194188b6b147b3dc4c6188deef62bac855e296d0c9a109b4ed698cc",
+   "sid_version": "2025-10",
+   "source_url": "https://www.sebi.gov.in/sebi_data/mutualfundfile/oct-2025/1761212574914.pdf"
+  }
+ ],
+ "scheme": "Mirae Asset Nifty Energy ETF"
+}
