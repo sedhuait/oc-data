@@ -606,5 +606,20 @@
       "measured": "HEAD on the live dump: Last-Modified Sun 06 Sep 2026, Content-Length 1,275,171,186 bytes — byte-identical in size to the dump this project already streamed. The enricher ran against it earlier today for a yield of 67 values across 40 records.",
       "verdict": "Same dump. Re-downloading 1.2 GB would gain nothing."
     }
+  },
+  "leads_from_the_repos_own_config_2026_09_07": {
+    "method": "Rather than testing sources I could think of, I extracted every host the crawlers reference — 136 distinct — and looked for ones never examined this session. Two were worth chasing.",
+    "flipkart_affiliate_api": {
+      "scale": "1,265 records cite it: ALL of appliances (602), phones (430), printers (98), networking (97).",
+      "verdict": "no spec payload exists",
+      "evidence": "sources/flipkart/discover_by_query.py reads only `productBaseInfoV1` — title, brand, product id, URL. Its docstring says outright that it parses 'attributes out of the title' because that is all there is. The bulk category feeds are Flipkart's 2022 catalogue and only ~31% still resolve. FK_ID and FK_TOKEN are not set in this environment either.",
+      "implication": "The four weakest domains are title-derived by necessity, which is why the maker-page crawls this session mattered so much to them."
+    },
+    "open_beauty_facts_bulk_dump": {
+      "scale": "862 beauty records at 15.9%, of which 841 carry a GTIN",
+      "verdict": "ALREADY DONE — my 'unreachable island' verdict was superseded by work already in the repo",
+      "evidence": "sources/beauty/enrich_by_gtin.py exists and was built for exactly this population, matching on the barcode precisely because OBF names are typed off a pack scan ('Almond Drops', 'Aloe Ver') and cannot be matched to a retail title. 558 of the 862 records already cite 'Open Beauty Facts bulk export, matched by barcode'.",
+      "dump_is_current": "HEAD on the live export returns Last-Modified 7 Sep 2026 and Content-Length 17,884,435 — byte-identical to the cached copy at sources/beauty/cache/obf-products.csv.gz. Nothing to re-fetch."
+    }
   }
 }
