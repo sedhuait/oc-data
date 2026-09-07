@@ -621,5 +621,16 @@
       "evidence": "sources/beauty/enrich_by_gtin.py exists and was built for exactly this population, matching on the barcode precisely because OBF names are typed off a pack scan ('Almond Drops', 'Aloe Ver') and cannot be matched to a retail title. 558 of the 862 records already cite 'Open Beauty Facts bulk export, matched by barcode'.",
       "dump_is_current": "HEAD on the live export returns Last-Modified 7 Sep 2026 and Content-Length 17,884,435 — byte-identical to the cached copy at sources/beauty/cache/obf-products.csv.gz. Nothing to re-fetch."
     }
+  },
+  "browser_queue_examined_2026_09_07": {
+    "what_it_is": "lib/browser_queue.py gathers the sources that robots PERMITS but that do not serve content to a script, sorted by records behind each. It reports 17 sources and 212 catalogue records — LG 66, HP 60, IndusInd 41, Lenovo 29, OnePlus 16. I had never read it.",
+    "HP_verdict_was_measured_against_a_DEAD_URL": {
+      "recorded": "'Pages answer 200 and are an empty Magento PWA shell: product.aspx?id=9X0N4PA is 81,973 bytes yielding 11 characters of delivered text.' Careful evidence, and the conclusion drawn from it — that HP renders client-side — is wrong.",
+      "what_a_browser_shows": "That URL renders 'SORRY! THIS PAGE IS BROKEN. Perhaps it has been moved, or the web address is incorrect.' So does /in-en/shop/list.aspx?cat=printers. The 11 characters of text were an error page, not a shell awaiting JavaScript.",
+      "the_real_path": "/in-en/shop/listings/printers, found from HP's own menu rather than guessed. It renders a live catalogue across 4 pages carrying MODEL NUMBERS (6GX06A#ACJ, 6UU47A#ACJ), monthly duty cycles ('Prints up to 20,000 pages/month'), colour capability and paper sizes.",
+      "status": "Reachable in a browser. Whether it is reachable to a polite HTTP client at the CORRECT url was not retested — the old measurement is void either way."
+    },
+    "the_lesson_repeats": "This is the third time this session a negative verdict turned out to rest on a URL that no longer resolves: 12 of 15 MITC sources and 21 of 40 bank pages 404'd because they were guessed; 16 of 19 'blocked' banks had simply moved to .bank.in. A 200 with no content is not the same as a rendering limit, and the difference is only visible if you look at what the page SAYS.",
+    "still_genuinely_blocked": "LG returns HTTP 403 on robots.txt itself (verified today), and Lenovo's listing delivers 57 KB of text with ZERO product links and almost no spec tokens. Those two verdicts hold."
   }
 }
