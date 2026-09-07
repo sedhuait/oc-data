@@ -679,7 +679,16 @@
     "Lenovo": {
       "recorded": "'js' — measured on https://www.lenovo.com/in/en/laptops/, a LISTING path",
       "retested": "robots declares one sitemap -> 93 per-country children -> the India child holds 6,000 URLs of which 1,113 are product pages and 538 are laptops. A product page (/p/.../len101i0026) returns 857,757 bytes with 27,602 characters of delivered text: processor, GB, kg and Windows all present.",
-      "verdict": "WRONG for product paths. The listing is a shell; /in/en/p/ is not. Crawl dispatched."
+      "verdict": "WRONG for product paths. The listing is a shell; /in/en/p/ is not. Crawl dispatched.",
+      "RESULT": {
+        "phones": "23.41% -> 29.21%; 187 new records; 688 phones records total, 216 Lenovo",
+        "what_hid_it": "The old note said 'only a global sitemap is published', which is TRUE. The India sitemap is reached by FOLLOWING the root index: /sitemap.xml -> 93 country children -> /sitemap-auto/037-intsitemap-in-en.xml. That one unfollowed hop hid 6,000 India URLs, 1,113 products and 538 laptops.",
+        "the_pagetype_trap_verified_independently": "538 laptop URLs split by a <meta name='pagetype'> tag into 187 Model pages (per-SKU) and 351 Subseries pages whose specs read 'Up to AMD Ryzen 7 3700U' and 'Up to 8GB' — family CEILINGS, the same class of fact as HP's 'Starting at 1.39 kg' floor. I sampled six pages myself: Subseries pages carry 10-19 'Up to' phrases, Model pages carry 3. The URL slug gives no hint; only the meta tag does. The 351 were counted and discarded.",
+        "it_also_explains_the_original_finding": "A Subseries page has no per-SKU table to serve, which is why an earlier probe found '26K characters of marketing prose'.",
+        "the_stored_records_are_all_stale": "0 of 20 matched a live page, checked against all 600 product codes across all 538 pages rather than URL tails. Six carry a Lenovo code that is no longer sold; the other 14 carry no code in their Flipkart title at all and are unmatchable in principle. Identical to HP: the pre-existing records gained ZERO, and all value is in new records.",
+        "refusals": "17 fields null on all 187 because Lenovo does not state them. Two judgement calls worth keeping: ram_type filled only for genuine LPDDR (74 of 187) since most are socketed DDR5-5600 SODIMM, a different part; and panel_type left null on 11 SKUs whose panel is TN, which the enum has no value for — 'TFT LCD' would state more than Lenovo said and 'LCD' would discard the one fact TN carries.",
+        "one_candidate": "a configure-to-order ThinkPad P16 whose page literally says 'No Storage Selection'. Left null and marked candidate rather than invented — which is what E6 is for."
+      }
     },
     "POCO": {
       "recorded": "'absent' — every path returns the same 1,708-byte shell",
