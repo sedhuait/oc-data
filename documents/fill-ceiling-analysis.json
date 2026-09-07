@@ -631,6 +631,30 @@
       "status": "Reachable in a browser. Whether it is reachable to a polite HTTP client at the CORRECT url was not retested — the old measurement is void either way."
     },
     "the_lesson_repeats": "This is the third time this session a negative verdict turned out to rest on a URL that no longer resolves: 12 of 15 MITC sources and 21 of 40 bank pages 404'd because they were guessed; 16 of 19 'blocked' banks had simply moved to .bank.in. A 200 with no content is not the same as a rendering limit, and the difference is only visible if you look at what the page SAYS.",
-    "still_genuinely_blocked": "LG returns HTTP 403 on robots.txt itself (verified today), and Lenovo's listing delivers 57 KB of text with ZERO product links and almost no spec tokens. Those two verdicts hold."
+    "still_genuinely_blocked": "LG returns HTTP 403 on robots.txt itself (verified today), and Lenovo's listing delivers 57 KB of text with ZERO product links and almost no spec tokens. Those two verdicts hold.",
+    "RESULT": {
+      "six_of_seventeen_verdicts_were_wrong": {
+        "hp.com 'js'": "WRONG — serves 2,026,747 bytes of server-rendered HTML; detail pages carry ~150 label/value spec rows each",
+        "sbi / yes-bank / bajajfinserv 'shells'": "WRONG — all three plainly HTTP 404 now. Dead URLs, not rendering limits.",
+        "91mobiles 'waf-blocked'": "WRONG MECHANISM — curl was refused, polite.py gets 576 KB",
+        "smartprix 'waf-blocked'": "WRONG MECHANISM — serves 80 KB"
+      },
+      "but_the_aggregators_stay_excluded_on_TERMS": {
+        "why_this_matters": "robots permits them and the server serves them. The block is the site's own terms, which no fetch test can see — a distinction worth keeping separate from 'blocked'.",
+        "91mobiles": "terms.php forbids using the site 'to spam, phish, pharm, pretext, spider, crawl, or scrape'. Verified verbatim.",
+        "smartprix": "/about/terms-of-services restricts materials to 'informational and non-commercial offline use' and requires 'prior written approval'. Verified verbatim.",
+        "note": "I found both by reading each site's own footer links. My first attempt guessed /terms-of-use.php and /terms and got 404 on both — the same mistake this whole investigation exists to correct."
+      },
+      "LG_changed_and_got_worse": "now 403s its own robots.txt, so fail-closed stops the crawl and a browser is not the answer",
+      "the_queue_is_really_6_entries_45_records": "not 17 and 212. browser_queue.py was conflating four different things under one 'File > Save Page As' instruction, sending a person to do work that was useless (a 404) or that they should not do at all (a host refusing robots).",
+      "printers_result": "23.4% -> 31.7%; 114 values on 7 existing records, 18 new HP printers; 116 records total",
+      "left_null_deliberately": {
+        "page_yield": "HP publishes a yield per cartridge, per colour and per XL variant; the schema wants one integer for a set and no single number is defensible.",
+        "print_tech on existing records": "HP calls every Smart Tank 'HP Thermal Inkjet', which names the print HEAD, not the supply model. Six of seven are bottle-fed ink tanks the catalogue already has right, so mapping HP's string would have replaced a correct answer with a wrong one."
+      },
+      "the_common_thread": "Every wrong verdict was judged by counting bytes rather than reading the page. IndusInd proves no size test could have caught it: its dead path returns 34,144 characters of a perfectly real 404 page, and only final_url shows it.",
+      "still_unmeasured": "HP LAPTOPS — 29 records whose negative verdict rested on the same dead product.aspx URL. That evidence is void; the laptop URLs are in the same sitemap and were not retested.",
+      "incidental": "Federal Bank's WAF redirect payload contains rd=federal.bank.in, so a .bank.in host does exist even though www.federalbank.bank.in does not resolve."
+    }
   }
 }
