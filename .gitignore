@@ -8,3 +8,5 @@ __pycache__/
 # fact can be checked against the document it was read from.
 tools/*/snapshots/
 tools/*/mitc/
+*.bundle
+
