@@ -672,5 +672,24 @@
       },
       "a_parity_check_worth_copying": "The minter is Python and mintId is TypeScript, so it added a parity selftest: 71 of 71 ids agree across the two implementations."
     }
+  },
+  "manufacturer_verdicts_rechecked_under_the_path_rule": {
+    "checked": "2026-09-07",
+    "why": "The path-not-host rule was proved twice on HP, so every remaining negative verdict in sources/manufacturers/brands.json was re-examined. 29 entries carry a verdict; only three are negative.",
+    "Lenovo": {
+      "recorded": "'js' — measured on https://www.lenovo.com/in/en/laptops/, a LISTING path",
+      "retested": "robots declares one sitemap -> 93 per-country children -> the India child holds 6,000 URLs of which 1,113 are product pages and 538 are laptops. A product page (/p/.../len101i0026) returns 857,757 bytes with 27,602 characters of delivered text: processor, GB, kg and Windows all present.",
+      "verdict": "WRONG for product paths. The listing is a shell; /in/en/p/ is not. Crawl dispatched."
+    },
+    "POCO": {
+      "recorded": "'absent' — every path returns the same 1,708-byte shell",
+      "retested": "robots.txt declares NO sitemap at all, so there is no index to discover products from. Verdict holds."
+    },
+    "OnePlus": {
+      "recorded": "'js', re-measured 2026-09-07: sitemap lists models we hold, but /oneplus-13s returns 95 KB with zero spec tokens",
+      "retested": "robots.txt now returns HTTP 404, which is 'no rules published' — fail-OPEN, and Fetcher.allowed() correctly returns True. So permission is unchanged and the verdict stands on its own evidence: the pages are empty, not forbidden.",
+      "verdict": "holds"
+    },
+    "the_class_of_error_found_five_times_this_session": "12 of 15 MITC URLs and 21 of 40 bank pages 404'd because they were guessed; 16 of 19 'blocked' banks had moved to .bank.in; HP printers and HP laptops were judged on a JS-only path and written off host-wide; and now Lenovo the same way. In every case the measurement was accurate and the GENERALISATION was not."
   }
 }
