@@ -935,5 +935,20 @@
     "decisive_evidence": "the IRDAI Customer Information Sheets — the standardised, labelled, most authoritative source — print the row as a literal placeholder: 'Premium Payment Term (Years): <xxxxxxxxxx>'. Confirmed on supreme-cis, spg-cis, awg-cis and saral-jeevan-bima-cis.",
     "verdict": "genuine absence. The value is set per customer in the Policy Schedule at purchase and is not published in any public document. Field stays empty.",
     "cost_if_wrong": "reading a worked example's '50 years' as the policy's term would publish a fabricated commitment length"
+  },
+  "grocery_fortified_is_the_largest_gap_and_is_at_its_ceiling": {
+    "date": "2026-09-07",
+    "field": "grocery.fortified",
+    "missing": 67119,
+    "why_it_looked_fillable": "0.4% filled with 67,119 missing is the largest single gap in the whole catalogue, and FSSAI mandates the +F logo on fortified staples — the classic signature of an unparsed derivable field.",
+    "checks_run": [
+      "no ingredient TEXT exists anywhere in the catalogue to derive from: 'ingredients_order' is a BOOLEAN ('listed in descending order?'), not the ingredient list. 30,054 records carry it; 0 carry ingredient strings.",
+      "parse_pack_label.py already reads both places Blinkit states it — the 'Fortified With' attribute and Processing Type == 'Fortified' (a closed 8-value enum).",
+      "stored distribution confirms the policy held: fortified=True on 294 records, False on 0, absent on 70,283."
+    ],
+    "why_false_is_never_written": "absence is Blinkit not carrying the field, not a manufacturer declaring nothing was added. Writing false from silence would manufacture ~19,000 negative fortification claims. Only 351 of 90,621 crawled pages state the field at all.",
+    "deliberate_non_source": "the 'Variant' free-text field also contains the string but is NOT read — 37,638 distinct values include 'AyuGrowth Fortifying' and 'Royal Roots Fortifying Scalp', which are hair products. A substring match there would put a food claim on a shampoo.",
+    "verdict": "at its source ceiling. Not fillable without a different source that publishes the +F declaration per product.",
+    "note": "the crawler retains page hashes and parsed records, not label HTML, so the 351-page figure cannot be re-audited without re-crawling 90,621 pages — not warranted to recheck a number measured at parse time."
   }
 }
