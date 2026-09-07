@@ -655,6 +655,22 @@
       "the_common_thread": "Every wrong verdict was judged by counting bytes rather than reading the page. IndusInd proves no size test could have caught it: its dead path returns 34,144 characters of a perfectly real 404 page, and only final_url shows it.",
       "still_unmeasured": "HP LAPTOPS — 29 records whose negative verdict rested on the same dead product.aspx URL. That evidence is void; the laptop URLs are in the same sitemap and were not retested.",
       "incidental": "Federal Bank's WAF redirect payload contains rd=federal.bank.in, so a .bank.in host does exist even though www.federalbank.bank.in does not resolve."
+    },
+    "hp_laptops_RESULT": {
+      "phones": "19.80% -> 23.41%; HP records 29 -> 100; new records fill at 56.7% of the Laptops sheet",
+      "THE_SHARPER_RULE": "The original measurement was ACCURATE about its URL and wrong as a verdict. Re-measured, product.aspx?id=9X0N4PA yields 38 characters reading 'Oops! JavaScript is disabled' — so product.aspx genuinely IS a JS-only shell, as is /in-en/shop/search. The error was generalising one path to a hostname, while /in-en/shop/listings/printers serves 2 MB and /listings/laptops serves 4.1 MB. **A verdict attaches to a PATH, not a host.**",
+      "the_29_blocked_records_gained_nothing": "and not because of crawlability. Not one stored HP record matches a page HP publishes today — every stored record is a previous-generation Flipkart SKU (15-fc0805AU, 15s-eq0132AU) and every current HP page is newer (14-hh0030TU, ZBook G1i). Checked three ways: no stored designator on the listing, none in the sitemap, and HP's own URL for one returns a category shell with 0 spec rows. A readable source does not help a record whose product the source stopped selling.",
+      "the_gain_is_71_NEW_records": "filled 71/71 on model_number, screen_in, resolution, soc, cpu_cores, ram, storage, wifi_standard, os, colours, spec_url",
+      "the_-460_heuristic_does_not_generalise": "The printer crawl found 14 of 39 sitemap URLs failing, all ending -460. Every laptop URL — failing and succeeding alike — ends -acj, and 8 of 81 still return reproducible HTTP 500. The suffix rule was a coincidence of one product line. The sitemap is stale in BOTH directions: the listing shows 6 products the sitemap omits.",
+      "refusals_worth_keeping": {
+        "weight_g (43 of 71)": "HP writes 'Starting at 1.39 kg', a family FLOOR, not this machine. Only bare weights taken — the single biggest refusal.",
+        "dimensions_mm (30 of 71)": "eight pages give a wedge as '1.17 cm (front); 1.55 cm (rear)', so the first triple is one EDGE, not a thickness.",
+        "ram_type (51 of 71)": "the schema enum is LPDDR (mobile); HP's socketed DDR5-5600 is a DIFFERENT PART, and writing LPDDR5 for DDR5 would be wrong.",
+        "battery_mah": "HP publishes watt-hours; mAh needs a pack voltage HP never states",
+        "fingerprint": "HP says only 'Fingerprint reader', never where; the enum wants a position and 'None' would be false",
+        "ppi": "derivable, but a computed number would be presented as a stated one"
+      },
+      "a_parity_check_worth_copying": "The minter is Python and mintId is TypeScript, so it added a parity selftest: 71 of 71 ids agree across the two implementations."
     }
   }
 }
