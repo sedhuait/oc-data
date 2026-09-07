@@ -785,5 +785,30 @@
     "precision_held": "Re-measured on the untouched OFF holdout (n=8,277): group 1 precision 99.64% before and after, group 4 99.66% before and after, group 1 recall 90.4% -> 91.3%. Precision was never traded for coverage. Groups 2 and 3 remain unwritten.",
     "a_near_miss_worth_recording": "While correcting a provenance note's stale statistics it initially rewrote the note on 13,332 records — overwriting the 12,464 from the EARLIER run whose figures were correct for that run. Caught in the diff and restored from HEAD. The final commit touches exactly 868 records, verified independently.",
     "verdict": "The largest remaining gap in the repo was real; the defensible fill inside it was 868, not 6,000. The pharmaceutical guard is worth more than the number."
+  },
+  "every_remaining_lever_costed_2026_09_07": {
+    "baseline": "1,357,872 / 3,126,119 = 43.44% across 388 fields",
+    "the_medicines_decision_in_full": {
+      "reclassify 5,139 medicines off the 36-field food sheet": "45.38%",
+      "plus the ~30,000 medicine facts already on disk, once fields exist": "46.14%",
+      "plus 571 devices and PPE off the nutrition sheet": "46.40%",
+      "verdict": "the entire medicines decision reaches 46.40% — still 33.6 points short of 80%"
+    },
+    "the_trim_recosted": "The threshold has moved as the catalogue filled. It now takes a 65% cut — 320 of 388 fields removed, 68 left — to reach 80.2%. At 56% it reaches 79.5%.",
+    "what_the_trim_actually_costs": {
+      "facts_deleted": "655,493 already recorded",
+      "grocery_fields_destroyed": 28,
+      "the_largest": {
+        "proteins_100g": "39,175 facts (56% filled)",
+        "energy_kcal_100g": "38,687 (55%)",
+        "sugars_100g": "35,187 (50%)",
+        "added_sugar_100g": "32,598 (48%)",
+        "fat_100g": "30,947 (44%)",
+        "carbohydrates_100g": "30,066 (43%)",
+        "sodium_100g": "22,664 (32%)"
+      },
+      "what_that_means": "A food registry that reaches 80% by deleting protein, energy, sugar, fat and sodium answers fewer real questions than it does at 43%. The number improves because the questions were removed, not because the answers were found."
+    },
+    "the_conclusion_stated_plainly": "No combination of source work and schema decisions reaches 80% except the trim, and the trim reaches it by destroying 655,493 facts. Everything else available — every source tested, every stale verdict corrected, the whole medicines decision — totals 46.40%. That is the honest ceiling of this catalogue as currently specified."
   }
 }
