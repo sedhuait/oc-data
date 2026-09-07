@@ -893,6 +893,25 @@
         "rule": "a latency verdict needs a distribution, not one sample — the same error as generalising a verdict from one path to a whole host.",
         "also_fixed": "harvest_sids.py is now run with python3 -u; its output buffered until completion, which is why three runs were undiagnosable and why the 30.5s reading went unchallenged."
       }
+    },
+    "CORRECTION_the_lever_does_not_exist": {
+      "date": "2026-09-07",
+      "claim_I_made": "2,078 families have no SID on disk; downloading them adds +30,928 facts and moves the catalogue 43.44% -> 44.43%.",
+      "why_it_was_wrong": "it assumed every missing family HAS a retrievable SID. The harvest's listing phase disproves that.",
+      "measured": {
+        "sebi_lists": 2569,
+        "families_that_join_our_catalogue": 1288,
+        "families_already_holding_a_sid": 1280,
+        "net_new": "~2-8 families, not 2,078"
+      },
+      "why_sebi_does_not_list_them": {
+        "closed_ended": "1,022 of the 2,078 are series / fixed maturity / FMP / interval schemes — launched, closed, matured. SEBI keeps no current SID listing for them, so there is no document to fetch.",
+        "etf_index_fof": 360,
+        "open_ended_other": 491,
+        "commodity_gilt_liquid": 38
+      },
+      "verdict": "the SID lever is already fully exploited. proposed-sids.json holds 1,280 families, all dated, all applied — covering 4,179 records. There is no +30,928; the real remainder is a rounding error.",
+      "lesson": "I sized a lever by counting what we LACK rather than by checking what the source OFFERS. The listing phase costs one pass and should precede any estimate."
     }
   },
   "insurance_premium_payment_terms_is_a_per_customer_value": {
