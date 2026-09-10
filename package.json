@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "description": "The fact layer of Open Catalogue \u2014 open product data under ODbL.",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE",
   "engines": {
     "node": ">=22.6"
   },
