@@ -1,164 +1,164 @@
 {
  "note": "Where each bank publishes savings and FD rates. Rates are LIVE data — they belong in the service with a rate history, never in this repo. What the repo takes from these pages is the account's identity and terms: type, minimum balance, deposit insurance, premature-withdrawal penalty. debit_cards points at each bank's debit card page; fees there must be cross-checked against the schedule of charges before a record is published.",
- "checked": "2026-09-04",
+ "domains": "Indian banks publish on the RBI-mandated .bank.in domain. Every URL here was fetched through lib/polite.py and kept only when it answered 200 at the URL asked for — a bank's site will answer 200 for a path it no longer serves by redirecting to its home page or sitemap, so a redirect is treated as 'page not found' rather than a hit. The page was also required to mention what it claims to be about, which is what separates a real fixed-deposit page from a landing page that merely links to one.",
+ "checked": "2026-09-09",
  "banks": [
   {
    "bank": "HDFC Bank",
    "slug": "hdfc-bank",
    "type": "Private bank",
-   "savings": "https://www.hdfcbank.com/personal/save/accounts/savings-accounts",
-   "fd_rates": "https://www.hdfcbank.com/personal/save/deposits/fixed-deposit/fixed-deposit-interest-rate",
-   "debit_cards": "https://www.hdfcbank.com/personal/resources/rates-and-charges"
+   "savings": "https://www.hdfc.bank.in/savings-account",
+   "fd_rates": "https://www.hdfc.bank.in/interest-rates",
+   "debit_cards": "https://www.hdfc.bank.in/debit-cards",
+   "charges": "https://www.hdfc.bank.in/fees-and-charges"
   },
   {
    "bank": "ICICI Bank",
    "slug": "icici-bank",
    "type": "Private bank",
-   "savings": "https://www.icicibank.com/personal-banking/accounts/savings-account",
-   "fd_rates": "https://www.icicibank.com/personal-banking/deposits/fixed-deposit/fd-interest-rates",
-   "debit_cards": "https://www.icicibank.com/personal-banking/cards/debit-card"
+   "savings": "https://www.icici.bank.in/personal-banking/accounts/savings-account",
+   "fd_rates": "https://www.icici.bank.in/interest-rate",
+   "debit_cards": "https://www.icici.bank.in/personal-banking/cards/debit-card",
+   "charges": "https://www.icici.bank.in/servicecharges-and-fees"
   },
   {
    "bank": "State Bank of India",
    "slug": "sbi",
    "type": "Public sector bank",
-   "savings": "https://sbi.co.in/web/personal-banking/accounts/saving-account",
-   "fd_rates": "https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits",
-   "debit_cards": "https://sbi.co.in/web/personal-banking/cards/debit-cards"
+   "savings": "https://sbi.bank.in/web/personal-banking/accounts/saving-account",
+   "fd_rates": "https://sbi.bank.in/web/interest-rates/interest-rates/deposit-rates",
+   "debit_cards": "https://sbi.bank.in/web/personal-banking/cards/debit-card",
+   "charges": "https://sbi.bank.in/web/personal-banking/information-services/waiver-of-adwm-cash-deposit-charges"
   },
   {
    "bank": "Kotak Mahindra Bank",
    "slug": "kotak-mahindra-bank",
    "type": "Private bank",
-   "savings": "https://www.kotak.com/en/personal-banking/accounts/savings-account.html",
-   "fd_rates": "https://www.kotak.com/en/personal-banking/deposits/fixed-deposit/fixed-deposit-interest-rate.html",
-   "debit_cards": "https://www.kotak.com/en/personal-banking/cards/debit-cards.html"
+   "savings": "https://www.kotak.bank.in/en/personal-banking/accounts/savings-account.html",
+   "fd_rates": "https://www.kotak.bank.in/en/personal-banking/deposits/fixed-deposit.html",
+   "debit_cards": "https://www.kotak.bank.in/en/personal-banking/cards/debit-cards.html",
+   "charges": "https://www.kotak.bank.in/en/personal-banking/cards/debit-cards/mitc.html"
   },
   {
    "bank": "Axis Bank",
    "slug": "axis-bank",
    "type": "Private bank",
-   "savings": "https://www.axisbank.com/retail/accounts/savings-account",
-   "fd_rates": "https://www.axisbank.com/retail/deposits/fixed-deposits/fd-interest-rate",
-   "debit_cards": "https://www.axisbank.com/retail/cards/debit-card"
+   "savings": "https://www.axis.bank.in/accounts/savings-account",
+   "fd_rates": "https://www.axis.bank.in/interest-rates-and-charges",
+   "debit_cards": "https://www.axis.bank.in/cards/debit-card",
+   "charges": "https://www.axis.bank.in/fees-and-charges"
   },
   {
    "bank": "IDFC FIRST Bank",
    "slug": "idfc-first-bank",
    "type": "Private bank",
-   "savings": "https://www.idfcfirstbank.com/personal-banking/accounts/savings-account",
-   "fd_rates": "https://www.idfcfirstbank.com/personal-banking/deposits/fixed-deposit-interest-rates",
-   "debit_cards": "https://www.idfcfirstbank.com/personal-banking/cards/debit-card"
+   "savings": "https://www.idfcfirst.bank.in/personal-banking/accounts/savings-account",
+   "fd_rates": "https://www.idfcfirst.bank.in/personal-banking/deposits/fixed-deposit",
+   "charges": "https://www.idfcfirst.bank.in/support/personal-banking-fees-and-charges"
   },
   {
    "bank": "AU Small Finance Bank",
    "slug": "au-small-finance-bank",
    "type": "Small finance bank",
-   "savings": "https://www.aubank.in/personal-banking/savings-account",
-   "fd_rates": "https://www.aubank.in/interest-rates-and-service-charges",
-   "debit_cards": "https://www.aubank.in/personal-banking/debit-cards"
-  },
-  {
-   "bank": "Equitas Small Finance Bank",
-   "slug": "equitas-sfb",
-   "type": "Small finance bank",
-   "savings": "https://www.equitasbank.com/savings-account",
-   "fd_rates": "https://www.equitasbank.com/interest-rate",
-   "debit_cards": "https://www.equitasbank.com/debit-card"
+   "savings": "https://www.au.bank.in/personal-banking/savings-account",
+   "fd_rates": "https://www.au.bank.in/interest-rates/fixed-deposit-interest-rates",
+   "rd_rates": "https://www.au.bank.in/interest-rates/recurring-deposits-interest-rates",
+   "debit_cards": "https://www.au.bank.in/personal-banking/debit-cards"
   },
   {
    "bank": "Ujjivan Small Finance Bank",
    "slug": "ujjivan-sfb",
    "type": "Small finance bank",
-   "savings": "https://www.ujjivansfb.in/savings-account",
-   "fd_rates": "https://www.ujjivansfb.in/interest-rates",
-   "debit_cards": "https://www.ujjivansfb.in/debit-card"
+   "savings": "https://www.ujjivansfb.bank.in/savings-account",
+   "fd_rates": "https://www.ujjivansfb.bank.in/interest-rates",
+   "debit_cards": "https://www.ujjivansfb.bank.in/cards/debit-cards",
+   "charges": "https://www.ujjivansfb.bank.in/service-charges-fees"
   },
   {
    "bank": "Bandhan Bank",
    "slug": "bandhan-bank",
    "type": "Private bank",
-   "savings": "https://bandhanbank.com/personal-banking/accounts/savings-account",
-   "fd_rates": "https://bandhanbank.com/interest-rates",
-   "debit_cards": "https://bandhanbank.com/personal-banking/cards/debit-card"
+   "savings": "https://bandhan.bank.in/personal/savings-accounts",
+   "fd_rates": "https://bandhan.bank.in/personal/fixed-deposits",
+   "debit_cards": "https://bandhan.bank.in/personal/debit-card",
+   "charges": "https://bandhan.bank.in/rates-charges"
   },
   {
    "bank": "Bank of Baroda",
    "slug": "bank-of-baroda",
    "type": "Public sector bank",
-   "savings": "https://www.bankofbaroda.in/personal-banking/accounts/saving-account",
-   "fd_rates": "https://www.bankofbaroda.in/interest-rate-and-charges/deposits-interest-rates",
-   "debit_cards": "https://www.bankofbaroda.in/personal-banking/digital-products/cards/debit-cards"
+   "savings": "https://bankofbaroda.bank.in/accounts/saving-accounts",
+   "fd_rates": "https://bankofbaroda.bank.in/interest-rate-and-service-charges",
+   "debit_cards": "https://bankofbaroda.bank.in/digital-products/cards/debit-cards",
+   "charges": "https://bankofbaroda.bank.in/interest-rate-and-service-charges"
   },
   {
    "bank": "Punjab National Bank",
    "slug": "pnb",
    "type": "Public sector bank",
-   "savings": "https://www.pnbindia.in/saving-account.html",
-   "fd_rates": "https://www.pnbindia.in/interest-rates-deposit.html",
-   "debit_cards": "https://www.pnbindia.in/debit-card.html"
-  },
-  {
-   "bank": "Canara Bank",
-   "slug": "canara-bank",
-   "type": "Public sector bank",
-   "savings": "https://canarabank.com/pages/savings-deposits",
-   "fd_rates": "https://canarabank.com/pages/domestic-deposits",
-   "debit_cards": "https://canarabank.com/pages/debit-card"
+   "fd_rates": "https://pnb.bank.in/Interest-Rates-Deposit.html",
+   "debit_cards": "https://pnb.bank.in/Platinum-debit-card.html"
   },
   {
    "bank": "Union Bank of India",
    "slug": "union-bank",
    "type": "Public sector bank",
-   "savings": "https://www.unionbankofindia.co.in/english/savings-account.aspx",
-   "fd_rates": "https://www.unionbankofindia.co.in/english/interest-rate-deposit.aspx",
-   "debit_cards": "https://www.unionbankofindia.co.in/english/debit-card.aspx"
+   "charges": "https://www.unionbankofindia.bank.in/en/common/rates-and-charges"
   },
   {
    "bank": "Yes Bank",
    "slug": "yes-bank",
    "type": "Private bank",
-   "savings": "https://www.yesbank.in/personal-banking/yes-individual/savings-account",
-   "fd_rates": "https://www.yesbank.in/interest-rates",
-   "debit_cards": "https://www.yesbank.in/personal-banking/yes-individual/cards/debit-cards"
+   "unreachable": "www.yes.bank.in answers 200 at the root and robots.txt allows it, but the home page carries no link matching savings, deposit, debit-card, interest-rate or charges — the navigation is script-built. A deeper entry point has to be found before this bank can be read."
   },
   {
    "bank": "IndusInd Bank",
    "slug": "indusind-bank",
    "type": "Private bank",
-   "savings": "https://www.indusind.com/in/en/personal/accounts/savings-account.html",
-   "fd_rates": "https://www.indusind.com/in/en/personal/rates/interest-rates.html",
-   "debit_cards": "https://www.indusind.com/in/en/personal/cards/debit-card.html"
-  },
-  {
-   "bank": "Federal Bank",
-   "slug": "federal-bank",
-   "type": "Private bank",
-   "savings": "https://www.federalbank.co.in/savings-account",
-   "fd_rates": "https://www.federalbank.co.in/deposit-rate",
-   "debit_cards": "https://www.federalbank.co.in/debit-cards"
+   "savings": "https://www.indusind.bank.in/in/en/personal/accounts/saving-account.html",
+   "fd_rates": "https://www.indusind.bank.in/in/en/personal/loans/personal-loan-interest-rate.html",
+   "debit_cards": "https://www.indusind.bank.in/in/en/personal/cards/debit-card/duo-card.html",
+   "charges": "https://www.indusind.bank.in/in/en/personal/schedule-of-charges.html"
   },
   {
    "bank": "RBL Bank",
    "slug": "rbl-bank",
    "type": "Private bank",
-   "savings": "https://www.rblbank.com/category/savings-account",
-   "fd_rates": "https://www.rblbank.com/fixed-deposit-interest-rates",
-   "debit_cards": "https://www.rblbank.com/category/debit-cards"
+   "savings": "https://www.rbl.bank.in/personal-banking/accounts/savings-accounts",
+   "fd_rates": "https://www.rbl.bank.in/interest-rates",
+   "debit_cards": "https://www.rbl.bank.in/personal-banking/cards/debit-cards",
+   "charges": "https://www.rbl.bank.in/service-charges"
+  },
+  {
+   "bank": "Equitas Small Finance Bank",
+   "slug": "equitas-sfb",
+   "type": "Small finance bank",
+   "unreachable": "equitas.bank.in answered HTTP 503 for robots.txt (retried 3x), so polite.py fails closed and no page was fetched. 503 is a server error, not a rule — worth re-checking, and it may simply pass on another day."
+  },
+  {
+   "bank": "Canara Bank",
+   "slug": "canara-bank",
+   "type": "Public sector bank",
+   "unreachable": "canara.bank.in did not serve robots.txt at all (URLError, retried 3x by polite.py), so every path is treated as disallowed and nothing here was fetched. A refusal to state rules is not permission. Scoped to this host on 2026-09-09; the bank is not otherwise known to be uncrawlable."
+  },
+  {
+   "bank": "Federal Bank",
+   "slug": "federal-bank",
+   "type": "Private bank",
+   "unreachable": "www.federal.bank.in serves robots.txt and allows the root, but every request lands on validate.perfdrive.com — a bot-detection interstitial. The bank is not refusing by rule; an automated client is being challenged. Nothing was read, and no header trick should be used to get past it."
   },
   {
    "bank": "Post Office (India Post)",
    "slug": "india-post",
-   "type": "Government",
-   "savings": "https://www.indiapost.gov.in/Financial/pages/content/post-office-saving-schemes.aspx",
-   "fd_rates": "https://www.indiapost.gov.in/Financial/pages/content/post-office-saving-schemes.aspx"
+   "type": "Post Office",
+   "unreachable": "www.indiapost.gov.in publishes no robots.txt (HTTP 404) and /banking-services/savings answers 200, but the served markup is a 2,294-character navigation shell carrying zero occurrences of 'savings account', 'recurring deposit', 'time deposit' or 'interest' — the scheme table is drawn by JavaScript. Needs a browser-saved page, like samsung.com in the phones domain.",
+   "note": "Government backed, not DICGC. institution_type is 'Post Office' in the schema's vocabulary."
   },
   {
    "bank": "Bajaj Finance",
    "slug": "bajaj-finance",
    "type": "NBFC",
-   "savings": null,
-   "fd_rates": "https://www.bajajfinserv.in/fixed-deposit-interest-rate",
+   "unreachable": "www.bajajfinserv.in answers 200 at the root with no robots restriction, but exposes no deposit or charges link in the served markup, and the old /fixed-deposit-interest-rate path now 404s. NBFC deposits are NOT DICGC insured — the single most material fact about them — so this one is worth chasing.",
    "note": "NBFC deposits are NOT DICGC insured — the single most material fact about them"
   }
  ]
