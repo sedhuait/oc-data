@@ -15,3 +15,13 @@ tools/*/mitc/
 documents/funds/sid/**/*.pdf
 
 
+
+# Lists of named people (agents, terminated agents, intermediaries) that
+# insurers publish on the same disclosure pages as policy wordings. Not
+# product documents; stripped from history before publishing, 2026-09-30.
+documents/insurance/*/*[Aa]gent*[Ll]ist*
+documents/insurance/*/*[Tt]erminated*
+documents/insurance/*/*[Ii]ntermediar*
+documents/insurance/*/*[Mm]arketing-[Ff]irm*
+documents/insurance/*/employer-employee*
+documents/insurance/*/*corporate-agents*
