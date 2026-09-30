@@ -142,6 +142,8 @@ export function validateRecord(
   const ids = r.identifiers ?? {};
   if (ids.gtin) {
     if (!gtinValid(ids.gtin)) E("E9", `GTIN ${ids.gtin} fails the check digit`);
+    // a retired record carries its replacement's barcode by design
+    else if (r.superseded_by) { /* not a clash */ }
     else if (state.gtins.has(ids.gtin)) W("W1", `GTIN ${ids.gtin} is also on ${state.gtins.get(ids.gtin)}`);
     else state.gtins.set(ids.gtin, r.id);
   }
@@ -168,9 +170,16 @@ export function validateRecord(
   for (const k of LIVE_FIELDS) if (blob.includes(`"${k}"`)) E("E10", `"${k}" is live data — it belongs in the service, not this repo`);
   if (AFFILIATE_RE.test(blob)) E("E10", "an affiliate tag or tracking parameter is in a URL; store clean canonical URLs");
 
-  const key = `${norm(r.brand)}|${norm(r.name)}|${r.size ?? ""}`;
-  if (state.keys.has(key)) W("W2", `looks like a duplicate of ${state.keys.get(key)}`);
-  else state.keys.set(key, r.id);
+  // The pack is part of what a product is: most records carry it in
+  // `attributes.quantity`, not `size`, and keying on `size` alone called 871
+  // pairs like "100 ml" and "2 x 100 ml" duplicates (measured 2026-09-30).
+  // A record that names its replacement is a duplicate by design, not a find.
+  const pack = r.size ?? r.attributes?.quantity ?? "";
+  const key = `${norm(r.brand)}|${norm(r.name)}|${norm(String(pack))}`;
+  if (!r.superseded_by) {
+    if (state.keys.has(key)) W("W2", `looks like a duplicate of ${state.keys.get(key)}`);
+    else state.keys.set(key, r.id);
+  }
 
   if (r.domain === "appliances" && Number(attrs.star ?? 0) >= 4 && !attrs.rating_year)
     W("W3", "BEE star rating of 4 or more with no rating_year — thresholds are revised, so this can mislead");

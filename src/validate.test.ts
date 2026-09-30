@@ -5,7 +5,7 @@ import { render, clean, formatAll } from "./format.ts";
 import { gtinValid, mintId, slugify, loadDomainSchemas, type ProductRecord } from "./schema.ts";
 
 const schemas = loadDomainSchemas();
-const fresh = () => ({ ids: new Map(), gtins: new Map(), keys: new Map(), today: today() });
+const fresh = () => ({ ids: new Map(), gtins: new Map(), keys: new Map(), today: today(), supersedes: [] });
 
 const good = (over: Partial<ProductRecord> = {}): ProductRecord => ({
   id: "oc_000000000001",
@@ -196,6 +196,31 @@ describe("warnings", () => {
     validateRecord(good(), "products/beauty/minimalist.jsonl", 1, schemas, state);
     const dup = validateRecord(good({ id: "oc_000000000002" }), "products/beauty/minimalist.jsonl", 2, schemas, state);
     assert.ok(dup.warnings.some((w) => w.code === "W2"));
+  });
+  test("W2 does not flag the same product in a different pack", () => {
+    const state = fresh();
+    const base = good();
+    // no top-level size, so the pack comes from attributes.quantity
+    validateRecord({ ...base, size: undefined, attributes: { ...base.attributes, quantity: "100 ml" } }, "products/beauty/minimalist.jsonl", 1, schemas, state);
+    const pack = validateRecord(
+      { ...base, size: undefined, id: "oc_000000000002", attributes: { ...base.attributes, quantity: "2 x 100 ml" } },
+      "products/beauty/minimalist.jsonl", 2, schemas, state);
+    assert.ok(!pack.warnings.some((w) => w.code === "W2"));
+  });
+  test("W1 does not flag a retired record sharing its replacement's barcode", () => {
+    const state = fresh();
+    const gtin = { gtin: "8901030945489" };
+    validateRecord(good({ identifiers: gtin }), "products/beauty/minimalist.jsonl", 1, schemas, state);
+    const old = validateRecord(
+      good({ id: "oc_000000000002", identifiers: gtin, superseded_by: "oc_000000000001" }),
+      "products/beauty/minimalist.jsonl", 2, schemas, state);
+    assert.ok(!old.warnings.some((w) => w.code === "W1"));
+  });
+  test("W2 does not flag a record that names its replacement", () => {
+    const state = fresh();
+    validateRecord(good(), "products/beauty/minimalist.jsonl", 1, schemas, state);
+    const old = validateRecord(good({ id: "oc_000000000002", superseded_by: good().id }), "products/beauty/minimalist.jsonl", 2, schemas, state);
+    assert.ok(!old.warnings.some((w) => w.code === "W2"));
   });
 });
 
