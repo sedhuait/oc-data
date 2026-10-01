@@ -838,11 +838,24 @@
    "label": "Page version",
    "group": "documents",
    "note": "Which revision of the brand's page or pack these facts were read from, as a date. Recipes change without a rename, so this records which version was in front of us."
+  },
+  "mrp": {
+   "type": "number",
+   "min": 1,
+   "max": 100000,
+   "label": "MRP (₹)",
+   "group": "identity",
+   "note": "Maximum retail price printed on the pack, in rupees. It is the manufacturer's ceiling, not what anyone sells at — most shops sell below it. Never filled when the listing showed 0 (out of stock) or for a retailer-made combo."
+  },
+  "mrp_checked": {
+   "type": "string",
+   "label": "MRP read on",
+   "group": "identity",
+   "note": "The date the MRP was read, as YYYY-MM-DD. Brands revise MRP (the 2025 GST cuts re-stickered many packs), so the figure is only as current as this date."
   }
  },
  "not_in_this_repo": [
   "price",
-  "mrp",
   "in_stock",
   "rating",
   "healthiness",

@@ -37,7 +37,7 @@ const SYNTHETIC_FACETS = new Set(["brand", "size", "category"]);
  *  key with one of these names becomes a record key the moment anyone fills
  *  it in, and E10 would then reject the record. Catch it here instead. */
 const LIVE_FIELDS = [
-  "price", "mrp", "selling_price", "stock", "in_stock", "availability",
+  "price", "selling_price", "stock", "in_stock", "availability",
   "discount", "offers",
 ];
 

@@ -11,7 +11,10 @@ const ID_RE = /^oc_[0-9a-f]{12}$/;
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 const SIZE_RE = /^[0-9.]+ ?(ml|g|kg|l|pcs)$/;
 const AFFILIATE_RE = /(affid=|[?&]tag=[a-z0-9-]+-\d\d|utm_)/i;
-const LIVE_FIELDS = ["price", "mrp", "selling_price", "stock", "in_stock", "availability", "discount", "offers"];
+// `mrp` is not here: it is printed on the pack, a manufacturer's statement like
+// net quantity, and grocery/beauty declare it as a field (2026-10-01). Every
+// other domain still rejects it as E7, an undeclared attribute.
+const LIVE_FIELDS = ["price", "selling_price", "stock", "in_stock", "availability", "discount", "offers"];
 /** The latest day it plausibly is, anywhere the contributor might be.
  *
  *  `toISOString` is UTC and this dataset is written from IST. Between midnight
