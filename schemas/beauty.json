@@ -18,6 +18,8 @@
    ],
    "spec": [
     "size",
+    "mrp",
+    "mrp_checked",
     "quantity",
     "form",
     "texture",
@@ -58,6 +60,8 @@
    ],
    "spec": [
     "size",
+    "mrp",
+    "mrp_checked",
     "quantity",
     "form",
     "texture",
@@ -109,6 +113,8 @@
    ],
    "spec": [
     "size",
+    "mrp",
+    "mrp_checked",
     "quantity",
     "form",
     "texture",
@@ -153,6 +159,8 @@
    ],
    "spec": [
     "size",
+    "mrp",
+    "mrp_checked",
     "quantity",
     "form",
     "texture",
@@ -198,6 +206,8 @@
    ],
    "spec": [
     "size",
+    "mrp",
+    "mrp_checked",
     "quantity",
     "form",
     "texture",
@@ -240,6 +250,8 @@
    ],
    "spec": [
     "size",
+    "mrp",
+    "mrp_checked",
     "quantity",
     "form",
     "texture",
@@ -283,6 +295,8 @@
    ],
    "spec": [
     "size",
+    "mrp",
+    "mrp_checked",
     "form",
     "texture",
     "shade",
@@ -320,6 +334,8 @@
    ],
    "spec": [
     "size",
+    "mrp",
+    "mrp_checked",
     "form",
     "key_ingredients",
     "ingredients_order",
@@ -353,6 +369,8 @@
    "note": "Imported from Open Beauty Facts under ODbL. Crowd-sourced from pack scans, so the fact sheet is an ingredient list and a pack size rather than the derived attributes we extract from brand storefronts.",
    "spec": [
     "quantity",
+    "mrp",
+    "mrp_checked",
     "size",
     "form",
     "actives",

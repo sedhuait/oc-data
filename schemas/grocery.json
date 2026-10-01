@@ -20,6 +20,8 @@
    ],
    "spec": [
     "quantity",
+    "mrp",
+    "mrp_checked",
     "serving_size",
     "serving_per_pack",
     "veg",
@@ -64,6 +66,8 @@
    ],
    "spec": [
     "quantity",
+    "mrp",
+    "mrp_checked",
     "serving_size",
     "serving_per_pack",
     "veg",
@@ -116,6 +120,8 @@
    ],
    "spec": [
     "quantity",
+    "mrp",
+    "mrp_checked",
     "serving_size",
     "serving_per_pack",
     "veg",
@@ -169,6 +175,8 @@
    ],
    "spec": [
     "quantity",
+    "mrp",
+    "mrp_checked",
     "serving_size",
     "serving_per_pack",
     "veg",
@@ -220,6 +228,8 @@
    ],
    "spec": [
     "quantity",
+    "mrp",
+    "mrp_checked",
     "serving_size",
     "serving_per_pack",
     "veg",
@@ -272,6 +282,8 @@
    ],
    "spec": [
     "quantity",
+    "mrp",
+    "mrp_checked",
     "serving_size",
     "serving_per_pack",
     "veg",
@@ -325,6 +337,8 @@
    ],
    "spec": [
     "quantity",
+    "mrp",
+    "mrp_checked",
     "serving_size",
     "serving_per_pack",
     "veg",
@@ -377,6 +391,8 @@
    ],
    "spec": [
     "quantity",
+    "mrp",
+    "mrp_checked",
     "serving_size",
     "serving_per_pack",
     "veg",
@@ -429,6 +445,8 @@
    ],
    "spec": [
     "quantity",
+    "mrp",
+    "mrp_checked",
     "serving_size",
     "serving_per_pack",
     "veg",
@@ -479,6 +497,8 @@
    ],
    "spec": [
     "quantity",
+    "mrp",
+    "mrp_checked",
     "serving_size",
     "serving_per_pack",
     "veg",
